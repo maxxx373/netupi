@@ -1,0 +1,140 @@
+{
+  "id": "metu",
+  "type": "university",
+  "name": {
+    "ru": "Ближневосточный технический университет",
+    "en": "Middle East Technical University",
+    "local": "Orta Doğu Teknik Üniversitesi",
+    "short": "METU / ODTÜ"
+  },
+  "country": "TR",
+  "city": "Анкара",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1956,
+  "website": "https://www.metu.edu.tr/",
+  "admissions_url": "https://iso.metu.edu.tr/en/application-requirements",
+  "intl_students_url": "https://iso.metu.edu.tr/",
+  "summary": "Один из ведущих технических университетов Турции с обучением полностью на английском и большим зелёным кампусом в Анкаре. Выпускник из России может поступить по результатам ЕГЭ (в среднем от 80% по трём предметам) или по SAT, отдельный экзамен YÖS не обязателен. Государственный вуз, поэтому учёба для иностранцев сравнительно недорогая: 800–1200 долларов за семестр. Тем, у кого не хватает английского, дают год подготовительного языкового курса.",
+  "highlights": [
+    "Всё обучение на английском",
+    "Приём по ЕГЭ: средний результат от 80% по трём предметам",
+    "Плата 800–1200 USD за семестр, заявка в 2026–2027 была бесплатной",
+    "Год английского подготовительного курса для тех, кто не сдал языковой экзамен",
+    "Большой кампус с общежитиями и бесплатными шаттлами"
+  ],
+  "photos": [
+    {
+      "file": "photos/metu/1.jpg",
+      "author": "SALT Research, Altuğ–Behruz Çinici Archive (SALTOnline)",
+      "license": "No known copyright restrictions",
+      "source_url": "https://commons.wikimedia.org/wiki/File:METU,_Rectorate_Building_(14849783445).jpg",
+      "caption": "Здание ректората METU, архивное фото 1960–70-х годов"
+    }
+  ],
+  "fields": ["engineering", "it", "architecture", "natural_sciences", "economics", "business", "social_sciences", "psychology", "pedagogy", "international_relations"],
+  "levels": ["bachelor", "master", "phd", "foundation"],
+  "languages_of_instruction": ["en"],
+  "study_formats": ["full"],
+  "cost": {
+    "tuition_min": { "amount": 800, "currency": "USD", "period": "semester", "note": "2026–2027: экономика и управление, педагогика, социология, психология, история, философия; оплата в лирах по курсу ЦБ Турции" },
+    "tuition_max": { "amount": 1200, "currency": "USD", "period": "semester", "note": "2026–2027: инженерия, архитектура, точные и естественные науки; подготовительный год стоит столько же, сколько программа" },
+    "living_month_estimate": { "amount": 15000, "currency": "TRY", "period": "month", "note": "Нижняя граница по оценке METU на 2026 год с жильём; при общежитии и скромном образе жизни 12 000–18 000 TRY" }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Скидки и освобождение от платы за успеваемость",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Назначаются ежегодно по результатам учёбы, заявка не нужна",
+        "url": "https://iso.metu.edu.tr/en/scholarship-opportunities"
+      },
+      {
+        "name": "Стипендии METU на питание, общежитие и денежная помощь",
+        "coverage": "stipend",
+        "for_foreigners": true,
+        "note": "По заявлению с подтверждением финансовых трудностей, подаётся лично в офис стипендий",
+        "url": "https://iso.metu.edu.tr/en/scholarship-opportunities"
+      },
+      {
+        "name": "Türkiye Bursları (государственная стипендия Турции)",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Покрывает обучение, общежитие, ежемесячную стипендию, медстраховку, год турецкого языка и перелёт; приём заявок на бакалавриат ежегодно с 10 января по 20 февраля",
+        "url": "https://www.turkiyeburslari.gov.tr/fulltimeprograms"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      { "exam": "OTHER", "min_score": "ЕГЭ: в среднем 80% по трём предметам", "note": "Минимум два предмета по профилю, для инженерии, архитектуры и естественных наук обязательна математика" },
+      { "exam": "SAT", "min_score": "1200", "note": "Для инженерии, архитектуры и естественных наук ещё и Math не ниже 700" },
+      { "exam": "ACT", "min_score": "27", "note": "Из 36" },
+      { "exam": "OTHER", "min_score": "TR-YÖS: верхние 5%", "note": "Один из вариантов, не обязателен при наличии ЕГЭ или SAT" },
+      { "exam": "TOEFL", "min_score": "75", "note": "TOEFL iBT, для освобождения от подготовительного года; IELTS после 24.12.2022 не принимается" },
+      { "exam": "OTHER", "min_score": "METU EPE 60 / PTE Academic 65", "note": "Альтернативы для освобождения от подготовительного года" }
+    ],
+    "language_level": "Английский сертификат для подачи не обязателен; без TOEFL iBT 75 / METU EPE 60 при зачислении — год подготовительного английского",
+    "entrance_tests": false,
+    "documents": [
+      "Фото",
+      "Загранпаспорт (страница с данными)",
+      "Аттестат или справка из школы об ожидаемом окончании",
+      "Выписка оценок за все годы старшей школы",
+      "Результат экзамена, по которому подаётесь (ЕГЭ, SAT и т. п.)",
+      "Перевод на турецкий или английский, если документы на русском",
+      "При зачислении — документ об эквивалентности аттестата от Минобразования Турции или посольства"
+    ],
+    "notes": "Минимальные баллы — только порог для подачи: решение принимается в пределах квот по совокупности документов. Подача раз в год, только на осенний семестр, через онлайн-систему METU. Результаты SAT, TR-YÖS действительны два года. Отложить зачисление на следующий год нельзя."
+  },
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Безвизовый въезд до 60 дней, затем вид на жительство студента (ikamet)",
+    "notes": "Граждане России с обычным загранпаспортом въезжают в Турцию без визы на срок до 60 дней (туризм и деловые поездки). METU указывает, что гражданам безвизовых стран учебная виза для въезда не обязательна, но к моменту подачи оригиналов документов нужен законный статус, а затем — студенческий ВНЖ. Студентам младше 18 лет университет настоятельно советует оформить учебную визу — это упростит получение ВНЖ.",
+    "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": { "amount": 4000, "currency": "TRY", "period": "month", "note": "Нижняя граница; общежития на кампусе стоят 4000–20 000 TRY в месяц (оценка METU, 2026)" },
+    "notes": "Частные общежития в Анкаре — 12 000–60 000 TRY, квартира на троих рядом с кампусом — 35 000–60 000 TRY в месяц."
+  },
+  "deadlines": [
+    { "what": "Онлайн-заявка на бакалавриат для иностранцев (2026–2027)", "start": "2026-06-01", "end": "2026-07-12", "intake": "Осенний семестр" },
+    { "what": "Дополнительный приём на ограниченный список программ (2026)", "start": "2026-08-26", "end": "2026-08-28", "intake": "Осенний семестр" },
+    { "what": "Türkiye Bursları — заявка на бакалавриат", "start": "01-10", "end": "02-20", "intake": "Осенний семестр" }
+  ],
+  "rankings": [
+    { "name": "QS World University Rankings", "year": 2027, "position": "305" },
+    { "name": "THE World University Rankings", "year": 2027, "position": "326–350" }
+  ],
+  "perks": ["campus", "intl_environment", "strong_research", "exchange", "student_life"],
+  "sources": [
+    { "url": "https://iso.metu.edu.tr/en/system/files/odtu_iso_requirements.pdf", "accessed": "2026-11-23", "covers": "минимальные требования: ЕГЭ, SAT, ACT, TR-YÖS (обновлено 05.01.2024)" },
+    { "url": "https://iso.metu.edu.tr/en/application-requirements", "accessed": "2026-11-23", "covers": "правила подачи, срок действия результатов" },
+    { "url": "https://iso.metu.edu.tr/en/application-dates", "accessed": "2026-11-23", "covers": "сроки подачи на 2026–2027" },
+    { "url": "https://iso.metu.edu.tr/en/announcement/additional-application-period-international-undergraduate-applicants-2026", "accessed": "2026-11-23", "covers": "дополнительный приём 2026" },
+    { "url": "https://iso.metu.edu.tr/en/required-documents", "accessed": "2026-11-23", "covers": "документы, отсутствие сбора за заявку в 2026–2027" },
+    { "url": "https://iso.metu.edu.tr/en/english-proficiency", "accessed": "2026-11-23", "covers": "язык обучения, подготовительный год, IELTS не принимается" },
+    { "url": "https://oidb.metu.edu.tr/en/equivalence-table-english-language-exams-recognized-metu-undergraduate-and-graduate-students", "accessed": "2026-11-23", "covers": "минимальные баллы TOEFL, EPE, PTE" },
+    { "url": "https://iso.metu.edu.tr/en/system/files/2026-2027_tuition_fees_14092026.pdf", "accessed": "2026-11-23", "covers": "плата за обучение 2026–2027" },
+    { "url": "https://iso.metu.edu.tr/en/cost-living", "accessed": "2026-11-23", "covers": "стоимость жизни и общежитий (2026)" },
+    { "url": "https://iso.metu.edu.tr/en/scholarship-opportunities", "accessed": "2026-11-23", "covers": "скидки и стипендии METU" },
+    { "url": "https://iso.metu.edu.tr/en/system/files/pre-arrival_guideline_2025.pdf", "accessed": "2026-11-23", "covers": "въезд, виза, ВНЖ, отсрочка зачисления" },
+    { "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa", "accessed": "2026-11-23", "covers": "безвизовый режим для граждан РФ до 60 дней" },
+    { "url": "https://www.turkiyeburslari.gov.tr/fulltimeprograms", "accessed": "2026-11-23", "covers": "Türkiye Bursları: покрытие и сроки" },
+    { "url": "https://uluslararasi.yok.gov.tr/en/news-detail/264", "accessed": "2026-11-23", "covers": "QS 2027 — 305-е место" },
+    { "url": "https://www.timeshighereducation.com/world-university-rankings/middle-east-technical-university", "accessed": "2026-11-23", "covers": "THE 2027 — 326–350" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "high",
+  "todo": [
+    "Проверить сроки подачи на 2027–2028 (ещё не опубликованы) и сохранится ли бесплатная подача",
+    "Уточнить актуальный размер ежемесячной стипендии Türkiye Bursları для бакалавров (на сайте встречаются 4500 и 6500 TRY)",
+    "Найти современное фото главного здания под свободной лицензией (сейчас архивный снимок)",
+    "Уточнить порядок признания российского аттестата (denklik) при зачислении"
+  ]
+}

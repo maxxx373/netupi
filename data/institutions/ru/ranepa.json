@@ -1,0 +1,147 @@
+{
+  "id": "ranepa",
+  "type": "university",
+  "name": {
+    "ru": "Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации",
+    "en": "Russian Presidential Academy of National Economy and Public Administration (RANEPA)",
+    "short": "РАНХиГС"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 2010,
+  "website": "https://www.ranepa.ru/",
+  "admissions_url": "https://www.ranepa.ru/bakalavriat/",
+  "intl_students_url": "https://www.ranepa.ru/inostrannym-studentam/",
+  "summary": "Крупнейший в России вуз в сфере управления, экономики и общественных наук; в Москве он состоит из множества институтов со своими программами и приёмными комиссиями. Сильные стороны — госуправление, политология, социология, психология, медиа. На бюджет у некоторых программ мало мест и высокие требования, зато платных программ очень много.",
+  "highlights": [
+    "Восьмое место в рейтинге RAEX-100 в 2026 году",
+    "Десятки институтов и программ: госуправление, экономика, политология, социология, психология, медиа",
+    "На программах ГМУ в ИГСУ для бюджета нужно не меньше 70 баллов по большинству ЕГЭ",
+    "Много практики и стажировок в органах власти",
+    "Сеть филиалов по всей России"
+  ],
+  "fields": ["business", "economics", "law", "social_sciences", "psychology", "media", "marketing", "international_relations", "humanities", "linguistics", "it"],
+  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
+  "languages_of_instruction": ["ru"],
+  "study_formats": ["full", "mixed"],
+  "programs": [
+    {
+      "name": "Государственное и муниципальное управление: «Правовое обеспечение государственного и муниципального управления» (ИГСУ)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "budget_places": 5,
+      "passing_score": { "year": 2025, "value": 285, "kind": "ege_total", "note": "проходной на бюджет; бюджетных мест в 2026 г. — 5, платных — 25" },
+      "ege_subjects": ["история", "русский язык", "предмет по выбору (математика, иностранный язык и др.)"],
+      "url": "https://igsu.ranepa.ru/bakalavriat/gmu/"
+    },
+    {
+      "name": "Государственное и муниципальное управление: «Внешняя политика и государственное управление» (ИГСУ)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "budget_places": 20,
+      "passing_score": { "year": 2025, "value": 300, "kind": "ege_total", "note": "в 2025 году все бюджетные места заняли поступившие без экзаменов (БВИ)" },
+      "ege_subjects": ["обществознание", "русский язык", "предмет по выбору (математика, история, иностранный язык)"],
+      "url": "https://igsu.ranepa.ru/bakalavriat/gmu/"
+    },
+    {
+      "name": "Политический консалтинг и глобальные изменения (ИОН)",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 550000, "currency": "RUB", "period": "year" },
+      "budget_places": 25,
+      "passing_score": { "value": 280, "kind": "ege_total", "note": "проходной на бюджет по данным сайта ИОН, год на странице не указан (скорее всего 2025)" },
+      "ege_subjects": ["история", "русский язык", "иностранный язык / обществознание / география"],
+      "url": "https://ion.ranepa.ru/priemnaya-komissiya-/"
+    },
+    {
+      "name": "Социология: технологии исследования изменений (ИОН)",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 465000, "currency": "RUB", "period": "year" },
+      "budget_places": 15,
+      "passing_score": { "value": 282, "kind": "ege_total", "note": "проходной на бюджет по данным сайта ИОН, год не указан" },
+      "ege_subjects": ["обществознание", "русский язык", "иностранный язык / математика / история"],
+      "url": "https://ion.ranepa.ru/priemnaya-komissiya-/"
+    },
+    {
+      "name": "Психология: современная теория и практика (ИОН)",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 450000, "currency": "RUB", "period": "year" },
+      "budget_places": 10,
+      "passing_score": { "value": 267, "kind": "ege_total", "note": "проходной на бюджет по данным сайта ИОН, год не указан" },
+      "ege_subjects": ["биология", "русский язык", "математика / обществознание"],
+      "url": "https://ion.ranepa.ru/priemnaya-komissiya-/"
+    },
+    {
+      "name": "Стратегические коммуникации (ИОН)",
+      "field": "media",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 620000, "currency": "RUB", "period": "year" },
+      "passing_score": { "value": 167, "kind": "ege_total", "note": "только платные места; минимальный балл зачисления на платное, год не указан" },
+      "ege_subjects": ["обществознание", "русский язык", "иностранный язык / история / информатика / литература"],
+      "url": "https://ion.ranepa.ru/priemnaya-komissiya-/"
+    }
+  ],
+  "funding": {
+    "free_tuition": true
+  },
+  "requirements": {
+    "ege_min_per_subject": { "русский язык": 70, "обществознание": 70, "история": 70, "иностранный язык": 70, "математика": 60 },
+    "entrance_tests": true,
+    "portfolio": "no",
+    "olympiad_benefits": "Победители и призёры ВсОШ и перечневых олимпиад поступают без экзаменов или получают 100 баллов; на некоторых программах ИГСУ в 2025 году все бюджетные места заняли олимпиадники.",
+    "documents": [
+      "Паспорт",
+      "Аттестат о среднем общем образовании (или диплом СПО/вуза)",
+      "СНИЛС (при наличии)",
+      "Документы об индивидуальных достижениях и олимпиадах (если есть)"
+    ],
+    "notes": "Минимальные баллы ЕГЭ в таблице — для бюджета на программах ГМУ в ИГСУ (для платного там же 40–45). В других институтах пороги свои. Творческое испытание есть на отдельных программах (например, по журналистике)."
+  },
+  "dorm": {
+    "available": true,
+    "notes": "У академии есть общежития в Москве; стоимость и условия заселения на 2026/27 найти не удалось."
+  },
+  "deadlines": [
+    { "what": "Приём документов на бюджет (по ЕГЭ)", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
+    { "what": "Приём документов на платное (по ЕГЭ)", "start": "06-20", "end": "08-21", "intake": "Осенний набор" }
+  ],
+  "rankings": [
+    { "name": "RAEX-100", "year": 2026, "position": "8" },
+    { "name": "RAEX-100", "year": 2025, "position": "9" }
+  ],
+  "perks": ["internships", "employment", "student_life"],
+  "sources": [
+    { "url": "https://igsu.ranepa.ru/bakalavriat/gmu/", "accessed": "2026-11-23", "covers": "программы ГМУ: проходные 2025, места 2026, минимальные баллы ЕГЭ" },
+    { "url": "https://igsu.ranepa.ru/bakalavriat/napravleniya-i-programmy/", "accessed": "2026-11-23", "covers": "направления ИГСУ, наличие творческого испытания" },
+    { "url": "https://ion.ranepa.ru/priemnaya-komissiya-/", "accessed": "2026-11-23", "covers": "программы ИОН: стоимость, места, проходные баллы" },
+    { "url": "https://www.ranepa.ru/bakalavriat/stoimost-obucheniya/", "accessed": "2026-11-23", "covers": "сроки приёма (по выдаче поисковика; сам сайт не открылся из-за защиты от ботов)" },
+    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "medium",
+  "todo": [
+    "Основной сайт ranepa.ru закрыт JS-проверкой — сверить сроки приёма 2026 и общий диапазон цен напрямую",
+    "Заполнить cost.tuition_min/max по общему приказу о стоимости обучения 2026/27",
+    "Уточнить год проходных баллов на сайте ИОН и стоимость программ ГМУ в ИГСУ",
+    "Добавить популярные программы ИЭМИТ / ИБДА (экономика, менеджмент) с баллами",
+    "Найти стоимость общежития и условия заселения",
+    "Перечислить программы с ДВИ/творческими испытаниями"
+  ]
+}

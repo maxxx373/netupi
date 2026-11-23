@@ -22,6 +22,15 @@
     "Плата за общежитие — около 2–2,5 тыс. ₽ в месяц, есть современный кампус Деревня Универсиады",
     "Платное обучение в Казани дешевле, чем в ведущих московских вузах"
   ],
+  "photos": [
+    {
+      "file": "photos/kpfu/1.jpg",
+      "author": "A.Savin",
+      "license": "Free Art License (FAL 1.3)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazan_Federal_University_building_08-2016.jpg",
+      "caption": "Главное здание КФУ на улице Кремлёвской"
+    }
+  ],
   "fields": [
     "medicine",
     "it",

@@ -31,7 +31,7 @@ for f in files:
         p = ROOT / "data" / ph.get("file", "")
         if not p.is_file():
             problems.append(f"фото не найдено: {ph.get('file')}")
-        elif p.read_bytes()[:4] not in (b"\xff\xd8\xff\xe0", b"\xff\xd8\xff\xe1", b"\xff\xd8\xff\xdb", b"\xff\xd8\xff\xee", b"\x89PNG"):
+        elif not (p.read_bytes()[:3] == b"\xff\xd8\xff" or p.read_bytes()[:4] == b"\x89PNG"):
             problems.append(f"фото не похоже на JPEG/PNG (возможно, страница ошибки): {ph.get('file')}")
     if rec.get("id") in ids:
         problems.append(f"id повторяется, уже есть в {ids[rec['id']]}")
