@@ -20,10 +20,37 @@
     "Для выпускников школ поступление только по ЕГЭ, без дополнительных экзаменов",
     "Платное обучение в 2026/27 — от 429 до 749 тыс. ₽ в год"
   ],
-  "fields": ["engineering", "it", "natural_sciences", "economics", "business", "linguistics", "design_art", "law"],
-  "levels": ["bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru"],
-  "study_formats": ["full"],
+  "photos": [
+    {
+      "file": "photos/bmstu/1.jpg",
+      "author": "Александр Сигачёв",
+      "license": "CC0 1.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BMSTU_-_2025-04_-_p4.jpg",
+      "caption": "Южные ворота и главный корпус МГТУ им. Баумана"
+    }
+  ],
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "economics",
+    "business",
+    "linguistics",
+    "design_art",
+    "law"
+  ],
+  "levels": [
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Информатика и вычислительная техника (кафедра ИУ5 «Системы обработки информации и управления»)",
@@ -31,9 +58,23 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 529000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
-      "passing_score": { "year": 2025, "value": 278, "kind": "ege_total", "note": "проходной балл на бюджет по данным сайта кафедры ИУ5; средний — 288; в 2024 г. было 297" },
-      "ege_subjects": ["математика", "физика или информатика", "русский язык"],
+      "tuition": {
+        "amount": 529000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 278,
+        "kind": "ege_total",
+        "note": "проходной балл на бюджет по данным сайта кафедры ИУ5; средний — 288; в 2024 г. было 297"
+      },
+      "ege_subjects": [
+        "математика",
+        "физика или информатика",
+        "русский язык"
+      ],
       "url": "https://home.science.iu5.bmstu.ru/ab"
     },
     {
@@ -42,7 +83,12 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 699000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" }
+      "tuition": {
+        "amount": 699000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      }
     },
     {
       "name": "Прикладная математика и информатика",
@@ -50,14 +96,24 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 699000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" }
+      "tuition": {
+        "amount": 699000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      }
     },
     {
       "name": "Компьютерная безопасность",
       "field": "it",
       "level": "specialist",
       "language": "ru",
-      "tuition": { "amount": 529000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" }
+      "tuition": {
+        "amount": 529000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      }
     },
     {
       "name": "Мехатроника и робототехника",
@@ -65,7 +121,12 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 529000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" }
+      "tuition": {
+        "amount": 529000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      }
     },
     {
       "name": "Ракетные комплексы и космонавтика",
@@ -73,12 +134,27 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 529000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" }
+      "tuition": {
+        "amount": 529000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      }
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 429000, "currency": "RUB", "period": "year", "note": "Прикладная информатика, 1-й курс 2026/27" },
-    "tuition_max": { "amount": 749000, "currency": "RUB", "period": "year", "note": "Дизайн, 1-й курс 2026/27" }
+    "tuition_min": {
+      "amount": 429000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Прикладная информатика, 1-й курс 2026/27"
+    },
+    "tuition_max": {
+      "amount": 749000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Дизайн, 1-й курс 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true
@@ -100,20 +176,57 @@
     "notes": "У университета есть студенческие общежития в Москве; актуальную стоимость проживания на 2026/27 найти не удалось."
   },
   "deadlines": [
-    { "what": "Приём документов на бюджет (по ЕГЭ)", "start": "2026-06-20", "end": "2026-07-25", "intake": "Осенний набор" },
-    { "what": "Приём документов на платное", "start": "2026-06-20", "end": "2026-08-19", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов на бюджет (по ЕГЭ)",
+      "start": "2026-06-20",
+      "end": "2026-07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платное",
+      "start": "2026-06-20",
+      "end": "2026-08-19",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "2" },
-    { "name": "RAEX-100", "year": 2025, "position": "2" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "2"
+    },
+    {
+      "name": "RAEX-100",
+      "year": 2025,
+      "position": "2"
+    }
   ],
-  "perks": ["strong_research", "employment", "internships"],
+  "perks": [
+    "strong_research",
+    "employment",
+    "internships"
+  ],
   "sources": [
-    { "url": "https://isot.bmstu.ru/edu/cost", "accessed": "2026-11-23", "covers": "цены 2026/27 для граждан РФ (бакалавриат, специалитет, магистратура)" },
-    { "url": "https://isot.bmstu.ru/edu/abiturient/", "accessed": "2026-11-23", "covers": "сроки приёма 2026, внутренние экзамены" },
-    { "url": "https://home.science.iu5.bmstu.ru/ab", "accessed": "2026-11-23", "covers": "проходной балл ИУ5, минимальные баллы ЕГЭ" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100" },
-    { "url": "https://vuzopedia.ru/vuz/4", "accessed": "2026-11-23", "covers": "сверка (агрегатор)" }
+    {
+      "url": "https://isot.bmstu.ru/edu/cost",
+      "accessed": "2026-11-23",
+      "covers": "цены 2026/27 для граждан РФ (бакалавриат, специалитет, магистратура)"
+    },
+    {
+      "url": "https://isot.bmstu.ru/edu/abiturient/",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026, внутренние экзамены"
+    },
+    {
+      "url": "https://home.science.iu5.bmstu.ru/ab",
+      "accessed": "2026-11-23",
+      "covers": "проходной балл ИУ5, минимальные баллы ЕГЭ"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
