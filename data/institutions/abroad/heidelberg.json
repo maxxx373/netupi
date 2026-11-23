@@ -1,0 +1,110 @@
+{
+  "id": "heidelberg",
+  "type": "university",
+  "name": {
+    "ru": "Гейдельбергский университет",
+    "en": "Heidelberg University",
+    "local": "Ruprecht-Karls-Universität Heidelberg",
+    "short": "Uni Heidelberg"
+  },
+  "country": "DE",
+  "city": "Гейдельберг",
+  "city_size": "calm",
+  "ownership": "public",
+  "founded": 1386,
+  "website": "https://www.uni-heidelberg.de/en",
+  "admissions_url": "https://www.uni-heidelberg.de/en/study/management-of-studies/key-dates-deadlines/application-deadlines-for-the-1st-semester-of-undergraduate-degree-programmes",
+  "intl_students_url": "https://www.uni-heidelberg.de/en/study/international-studies/study-in-heidelberg/financing-your-studies",
+  "summary": "Старейший университет Германии и один из лучших в стране — особенно силён в медицине, естественных науках и гуманитарных дисциплинах. Бакалавриат почти целиком на немецком, нужен уровень не ниже DSH-2 (около C1). Университет находится в земле Баден-Вюртемберг, поэтому студенты не из ЕС платят 1500 евро за семестр. Есть свой подготовительный Studienkolleg для тех, чей аттестат не даёт прямого доступа к учёбе.",
+  "highlights": [
+    "Основан в 1386 году — старейший университет на территории современной Германии",
+    "Входит в тройку лучших в Германии: 45-е место в THE и 86-е в QS",
+    "Сильные медицина и науки о жизни",
+    "Собственный Studienkolleg с экзаменом Feststellungsprüfung",
+    "Студенческий город с исторической застройкой"
+  ],
+  "photos": [
+    {
+      "file": "heidelberg/1.jpg",
+      "author": "4028mdk09",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Neue_Universit%C3%A4t_Heidelberg.JPG",
+      "caption": "Новый университет (Neue Universität) на Университетской площади Гейдельберга"
+    }
+  ],
+  "fields": ["medicine", "natural_sciences", "humanities", "law", "economics", "social_sciences", "psychology", "linguistics", "it"],
+  "levels": ["bachelor", "master", "phd", "foundation"],
+  "languages_of_instruction": ["de", "en"],
+  "study_formats": ["full"],
+  "cost": {
+    "tuition_min": { "amount": 1500, "currency": "EUR", "period": "semester", "note": "Плата земли Баден-Вюртемберг для граждан стран вне ЕС/ЕЭЗ с иностранным аттестатом; плюс семестровый взнос 189,80 евро" },
+    "tuition_max": { "amount": 1500, "currency": "EUR", "period": "semester", "note": "Бакалавриат и последовательная магистратура" },
+    "living_month_estimate": { "amount": 992, "currency": "EUR", "period": "month", "note": "Минимальная оценка университета на жизнь и учёбу" }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [
+      { "exam": "OTHER", "min_score": "DSH-2", "note": "Экзамен DSH; базовое требование для программ на немецком" },
+      { "exam": "TESTDAF", "min_score": "TDN 4", "note": "Во всех частях" },
+      { "exam": "GOETHE", "min_score": "C2", "note": "Goethe-Zertifikat C2" },
+      { "exam": "OTHER", "min_score": "telc Deutsch C1 Hochschule / ÖSD C2", "note": "Тоже принимаются как подтверждение DSH-2" }
+    ],
+    "language_level": "Немецкий не ниже DSH-2 (около C1), для некоторых программ выше",
+    "documents": [
+      "Аттестат с переводом",
+      "Языковой сертификат (если его нет, после зачисления нужно сдать DSH в Гейдельберге)",
+      "Подтверждение 1000–1200 часов изучения немецкого в признанной организации"
+    ],
+    "notes": "Университет оценивает иностранные аттестаты по правилам Конференции министров образования (KMK) и закона земли Баден-Вюртемберг; свой аттестат можно проверить в базе anabin или DAAD. Если прямого доступа нет, нужно пройти годичный Studienkolleg и сдать Feststellungsprüfung. Подать заявку только в Studienkolleg нельзя: подаётся заявление на конкретную программу с пометкой, что нужен Studienkolleg. Для Studienkolleg нужен немецкий примерно B2+."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Национальная виза D с целью учёбы",
+    "notes": "Посольство Германии в Москве оформляет национальные визы и для жителей консульских округов Калининграда, Санкт-Петербурга, Екатеринбурга и Новосибирска. Нужно подтвердить средства минимум 992 евро в месяц (11 904 евро на первый год) — блокированный счёт, официальное поручительство или стипендия. Деньги на счёте в российском банке больше не принимаются. Для Studienkolleg и подготовительных языковых курсов тоже выдаётся учебная виза.",
+    "url": "https://germania.diplo.de/ru-ru/service/05-visaeinreise/langfristigeraufenthalt/1224364-1224364"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": { "amount": 340, "currency": "EUR", "period": "month", "note": "Пример: комната в квартире на кампусе INF 136; в целом по Studierendenwerk от 210 до 520 евро" },
+    "notes": "Общежитиями управляет Studierendenwerk Heidelberg. Место не гарантировано, спрос примерно вдвое выше предложения, поэтому заявку подают как можно раньше и отмечают все типы жилья."
+  },
+  "deadlines": [
+    { "what": "Бакалавриат с конкурсным отбором или вступительным экзаменом (граждане вне ЕС с иностранным аттестатом)", "start": "06-01", "end": "07-15", "intake": "Зимний семестр" },
+    { "what": "Бакалавриат с конкурсным отбором или вступительным экзаменом", "start": "12-01", "end": "01-15", "intake": "Летний семестр" },
+    { "what": "Бакалавриат без ограничений приёма", "start": "06-01", "end": "10-31", "intake": "Зимний семестр" },
+    { "what": "Бакалавриат без ограничений приёма", "start": "12-01", "end": "04-30", "intake": "Летний семестр" },
+    { "what": "Медицина, фармация, стоматология (граждане вне ЕС с иностранным аттестатом, подача напрямую в университет)", "start": "06-01", "end": "07-15", "intake": "Только зимний семестр" }
+  ],
+  "rankings": [
+    { "name": "QS World University Rankings", "year": 2027, "position": "86" },
+    { "name": "THE World University Rankings", "year": 2027, "position": "45" }
+  ],
+  "perks": ["strong_research", "student_life", "exchange", "intl_environment"],
+  "sources": [
+    { "url": "https://www.uni-heidelberg.de/en/study/international-studies/study-in-heidelberg/financing-your-studies", "accessed": "2026-11-23", "covers": "плата 1500 евро за семестр, минимальные расходы 992 евро в месяц" },
+    { "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/tuition-fees", "accessed": "2026-11-23", "covers": "семестровый взнос 189,80 евро" },
+    { "url": "https://backend.uni-heidelberg.de/de/dokumente/faq-studieninteressierte-auf-russisch/download", "accessed": "2026-11-23", "covers": "FAQ на русском: DSH-2, Studienkolleg, оценка иностранных аттестатов, плата" },
+    { "url": "https://www.uni-heidelberg.de/en/study/advisory-services/learning-languages/language-requirements-for-international-students", "accessed": "2026-11-23", "covers": "языковые требования и принимаемые сертификаты" },
+    { "url": "https://www.uni-heidelberg.de/en/study/application-enrolment/study-requirements/studienkolleg-and-feststellungsprufung", "accessed": "2026-11-23", "covers": "Studienkolleg и Feststellungsprüfung" },
+    { "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/key-dates-deadlines/application-deadlines-for-the-1st-semester-of-undergraduate-degree-programmes", "accessed": "2026-11-23", "covers": "сроки подачи на бакалавриат" },
+    { "url": "https://www.uni-heidelberg.de/university/rankings", "accessed": "2026-11-23", "covers": "позиции в QS и THE (год издания на странице не указан; по сравнению с прошлогодними данными это издания 2027)" },
+    { "url": "https://www.stw.uni-heidelberg.de/wohnen/wohnheime/", "accessed": "2026-11-23", "covers": "общежития и цены" },
+    { "url": "https://www.stw.uni-heidelberg.de/de/int_wohnheimbewerbung", "accessed": "2026-11-23", "covers": "диапазон аренды 210–520 евро, нехватка мест" },
+    { "url": "https://germania.diplo.de/ru-ru/service/05-visaeinreise/langfristigeraufenthalt/1224364-1224364", "accessed": "2026-11-23", "covers": "национальная виза для граждан РФ" },
+    { "url": "https://germania.diplo.de/resource/blob/1611632/41c7219b0e955033b4b9132f6d53927b/studium-data.pdf", "accessed": "2026-11-23", "covers": "памятка посольства по учебной визе (февраль 2025)" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "medium",
+  "todo": [
+    "Проверить в anabin / DAAD Admission Database, нужен ли выпускнику российской школы Studienkolleg или достаточно 1–2 курсов российского вуза",
+    "Найти стипендии Гейдельберга для иностранных бакалавров (Deutschlandstipendium, освобождение от платы 1500 евро) на официальной странице",
+    "Уточнить сроки подачи на Studienkolleg и через uni-assist (если нужен для отдельных программ)",
+    "Уточнить, есть ли бакалаврские программы на английском (по FAQ — английский в основном в магистратуре)",
+    "Подтвердить год изданий рейтингов QS/THE на официальной странице"
+  ]
+}

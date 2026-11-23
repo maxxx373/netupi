@@ -1,0 +1,167 @@
+{
+  "id": "sechenov",
+  "type": "university",
+  "name": {
+    "ru": "Первый Московский государственный медицинский университет имени И. М. Сеченова (Сеченовский Университет)",
+    "en": "Sechenov First Moscow State Medical University (Sechenov University)",
+    "short": "Сеченовский Университет"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1758,
+  "website": "https://www.sechenov.ru/",
+  "admissions_url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/bakalavriat-spetsialitet/",
+  "intl_students_url": "https://english.sechenov.ru/",
+  "summary": "Самый известный медицинский вуз страны, который ведёт историю от медицинского факультета Московского университета. Главные направления — лечебное дело, педиатрия, стоматология и фармация, но есть и биотехнологии, клиническая психология, IT и лингвистика. Конкурс на бюджет очень высокий: в 2025 году половину мест заняли стобалльники, отличники и олимпиадники. Платное обучение на медицинских специальностях — одно из самых дорогих в России.",
+  "highlights": [
+    "Флагманский медицинский вуз: собственный клинический центр и много практики в клиниках",
+    "Больше 900 бюджетных мест только на «Лечебном деле» в 2026 году",
+    "Нет дополнительных вступительных испытаний для выпускников школ — поступление по ЕГЭ",
+    "Кроме медицины — биотехнологии, биоинформатика, клиническая психология, IT и лингвистика",
+    "Пять собственных общежитий в Москве"
+  ],
+  "fields": [
+    "medicine",
+    "natural_sciences",
+    "psychology",
+    "it",
+    "engineering",
+    "linguistics",
+    "business",
+    "social_sciences"
+  ],
+  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
+  "languages_of_instruction": ["ru", "en"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": { "amount": 1100000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ; профиль «Моделирование здоровья» — 1 500 000 ₽" },
+      "budget_places": 934,
+      "passing_score": { "year": 2025, "value": 93, "kind": "other", "note": "средний балл ЕГЭ зачисленных на бюджет в пересчёте на один предмет (данные газеты университета), а не сумма баллов" },
+      "ege_subjects": ["химия", "биология", "русский язык"]
+    },
+    {
+      "name": "Педиатрия",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": { "amount": 850000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
+      "budget_places": 148,
+      "passing_score": { "year": 2025, "value": 94, "kind": "other", "note": "средний балл ЕГЭ зачисленных на бюджет на один предмет" },
+      "ege_subjects": ["химия", "биология", "русский язык"]
+    },
+    {
+      "name": "Стоматология",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 5,
+      "tuition": { "amount": 1150000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
+      "budget_places": 97,
+      "passing_score": { "year": 2025, "value": 95, "kind": "other", "note": "средний балл ЕГЭ зачисленных на бюджет на один предмет — самый высокий в университете" },
+      "ege_subjects": ["химия", "биология", "русский язык"]
+    },
+    {
+      "name": "Фармация",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 5,
+      "tuition": { "amount": 850000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
+      "budget_places": 124,
+      "ege_subjects": ["химия", "биология", "русский язык"]
+    },
+    {
+      "name": "Клиническая психология",
+      "field": "psychology",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 5.5,
+      "tuition": { "amount": 850000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
+      "budget_places": 34,
+      "ege_subjects": ["биология", "русский язык", "математика / обществознание / химия на выбор"]
+    },
+    {
+      "name": "Биотехнология",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 605000, "currency": "RUB", "period": "year", "note": "1-й курс, 2026/27, граждане РФ" },
+      "budget_places": 45,
+      "ege_subjects": ["биология", "русский язык", "математика / физика / химия / информатика на выбор"]
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 363000, "currency": "RUB", "period": "year", "note": "очный бакалавриат (например, менеджмент, лингвистика), 1-й курс 2026/27" },
+    "tuition_max": { "amount": 1500000, "currency": "RUB", "period": "year", "note": "Лечебное дело, профиль «Моделирование здоровья», 1-й курс 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Целевое обучение",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Отдельная квота бюджетных мест по договорам с органами здравоохранения регионов и работодателями; в 2025 году конкурс по целевому набору — около 4 человек на место"
+      }
+    ]
+  },
+  "requirements": {
+    "ege_min_per_subject": { "химия": 55, "биология": 55, "русский язык": 55 },
+    "entrance_tests": false,
+    "portfolio": "no",
+    "olympiad_benefits": "Победители и призёры ВсОШ и олимпиад из перечня (приложение 5 к правилам приёма) получают особые права; в 2025 году олимпиадные дипломы засчитывались как 100 баллов, и такие абитуриенты участвовали в общем конкурсе.",
+    "documents": [
+      "Паспорт",
+      "Аттестат о среднем общем образовании (или диплом СПО/вуза)",
+      "СНИЛС (при наличии)",
+      "Документы об индивидуальных достижениях (по желанию)",
+      "Документы об олимпиадах, квотах или особых правах (если есть)"
+    ],
+    "notes": "Минимум 55 баллов по каждому ЕГЭ действует для лечебного дела, педиатрии и стоматологии; для фармации и медико-профилактического дела — 45. Собственные экзамены университета сдают только выпускники колледжей и иностранцы. Для иностранцев есть «Лечебное дело» на английском языке."
+  },
+  "dorm": {
+    "available": true,
+    "notes": "Пять общежитий в Москве примерно на 2 600 мест (районы метро «Спортивная», «Озёрная», «Первомайская» и др.)."
+  },
+  "deadlines": [
+    { "what": "Приём документов на бюджет (только по ЕГЭ)", "start": "2026-06-20", "end": "2026-07-25", "intake": "Осенний набор" },
+    { "what": "Приём документов на бюджет для сдающих внутренние экзамены", "start": "2026-06-20", "end": "2026-07-15", "intake": "Осенний набор" },
+    { "what": "Дополнительный приём на оставшиеся бюджетные места", "start": "2026-08-12", "end": "2026-08-21", "intake": "Осенний набор" },
+    { "what": "Приём документов на платное (по ЕГЭ)", "start": "2026-06-20", "end": "2026-08-21", "intake": "Осенний набор" }
+  ],
+  "rankings": [
+    { "name": "RAEX-100", "year": 2026, "position": "11" },
+    { "name": "RAEX-100", "year": 2025, "position": "15" }
+  ],
+  "perks": ["strong_research", "internships", "employment", "intl_environment"],
+  "sources": [
+    { "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/bakalavriat-spetsialitet/", "accessed": "2026-11-23", "covers": "раздел приёма 2026, ссылки на правила" },
+    { "url": "https://www.sechenov.ru/upload/iblock/5f8/hqagewvet1nxukqvbgegc3096a5r0m6e/Sroki-provedeniya-priema-na-obuchenie.pdf", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
+    { "url": "https://www.sechenov.ru/upload/iblock/399/3nynlws4zt9tofshxjul86667t70oqm9/Kolichestvo-mest-dlya-priema-na-obuchenie-po-razlichnym-usloviyam-postupleniya-_s-ukazaniem-osoboy-kvoty_-otdelnoy-kvoty-i-tselevoy-kvoty_.pdf", "accessed": "2026-11-23", "covers": "бюджетные места 2026" },
+    { "url": "https://www.sechenov.ru/upload/iblock/eaf/tiv9cv56o0bscmw95nicca5lsvi22x13/Perechen-vstupitelnykh-ispytaniy.pdf", "accessed": "2026-11-23", "covers": "вступительные испытания и минимальные баллы 2026" },
+    { "url": "https://www.sechenov.ru/upload/iblock/396/t3b5qaxpgtuyjvolm8kcb4hc20yn59m5/Prikaz-ob-ustanovlenii-stoiomosti-POU-na-2026_2027-uchebnyy-god.pdf", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27" },
+    { "url": "https://www.sechenov.ru/upload/iblock/f42/epxg4beq8ch1s46l9h4knyw2i8yhghv8/Sechenovskie-vesti_avgust-2025.pdf", "accessed": "2026-11-23", "covers": "итоги приёма 2025: средние баллы, олимпиадники" },
+    { "url": "https://www.sechenov.ru/univers/structure/directorate/direktsiya-studencheskikh-obshchezhitiy/", "accessed": "2026-11-23", "covers": "общежития" },
+    { "url": "https://www.sechenov.ru/univers/istoriya-pmgmu-im-sechenova/", "accessed": "2026-11-23", "covers": "год основания" },
+    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "high",
+  "todo": [
+    "Найти официальные минимальные проходные баллы (суммы ЕГЭ) на бюджет 2025/2026 — сейчас указаны только средние баллы на предмет за 2025",
+    "Найти стоимость проживания в общежитии (страница с ценами не отдаёт текст)",
+    "Уточнить, нужен ли предварительный медосмотр/справка при подаче документов",
+    "Уточнить сроки обучения клинической психологии и биотехнологии по программам"
+  ]
+}

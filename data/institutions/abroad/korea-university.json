@@ -1,0 +1,273 @@
+{
+  "id": "korea-university",
+  "type": "university",
+  "name": {
+    "ru": "Корейский университет",
+    "en": "Korea University",
+    "local": "고려대학교",
+    "short": "KU"
+  },
+  "country": "KR",
+  "city": "Сеул",
+  "city_size": "mega",
+  "ownership": "private",
+  "founded": 1905,
+  "website": "https://english.korea.edu/english_en/index.do",
+  "admissions_url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
+  "intl_students_url": "https://oia.korea.ac.kr",
+  "summary": "Один из трёх самых престижных вузов Кореи. Это частный университет с большим кампусом в районе Анам в Сеуле. Иностранцы подают документы онлайн по отдельному конкурсу. Нужен сертификат TOPIK или TOEFL/IELTS, от его уровня зависит, сколько семестров интенсивного корейского придётся пройти на первом курсе. Всех поступающих автоматически рассматривают на стипендии, вплоть до полной оплаты учёбы на 8 семестров.",
+  "highlights": [
+    "52-е место в QS World University Rankings 2027 — лучший результат в истории вуза",
+    "Автоматические стипендии для иностранцев: от 50% до 100% платы за обучение",
+    "Программа International Studies на английском языке",
+    "Global Open Major: первый год общие курсы и корейский, специальность выбирают потом",
+    "Два набора в год: весенний (март) и осенний (сентябрь)"
+  ],
+  "fields": [
+    "it",
+    "engineering",
+    "natural_sciences",
+    "business",
+    "economics",
+    "social_sciences",
+    "humanities",
+    "psychology",
+    "international_relations",
+    "media",
+    "design_art",
+    "pedagogy"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ko",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "International Studies (English Track)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "en",
+      "url": "https://oia.korea.ac.kr"
+    },
+    {
+      "name": "Global Open Major (College of International Studies)",
+      "field": "other",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": {
+        "amount": 7700000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Примерно, тариф 2026 года. Набирают только иностранцев. Первый год — общие курсы и корейский, затем распределение по специальности. Для этого нужен TOPIK 5 или IELTS 7.0 / TOEFL iBT 100"
+      }
+    },
+    {
+      "name": "Global Entertainment (Media & Communication)",
+      "field": "media",
+      "level": "bachelor",
+      "language": "ko",
+      "url": "https://oia.korea.ac.kr"
+    },
+    {
+      "name": "Artificial Intelligence / Data Science (College of Informatics)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ko"
+    },
+    {
+      "name": "University College (первый год без специальности)",
+      "field": "other",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": {
+        "amount": 7700000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Примерно, тариф 2026 года. Год общих курсов и интенсивного корейского, затем выбор одной из 46 специальностей"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 5800000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "Примерно, гуманитарные и социальные науки, тариф 2026 года"
+    },
+    "tuition_max": {
+      "amount": 7800000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "Примерно, искусство (Art), тариф 2026 года"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Anam Global Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Полная оплата обучения на 8 семестров. Отдельно подавать не нужно, решение принимают по итогам конкурса. Чтобы сохранить стипендию, нужно набирать не меньше 12 кредитов и держать GPA от 3.5",
+        "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do"
+      },
+      {
+        "name": "Global Leader Scholarship A",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Полная оплата обучения на 4 семестра для первокурсников, назначается автоматически. Условие продления: GPA от 3.5",
+        "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do"
+      },
+      {
+        "name": "Global Leader Scholarship B",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "50% платы за обучение на 4 семестра для первокурсников, назначается автоматически. Условие продления: GPA от 3.0",
+        "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do"
+      },
+      {
+        "name": "KU STEM Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Полная оплата на 4 семестра для тех, кто приложил подтверждение выдающихся результатов в науке, технологиях, инженерии или математике (например, олимпиады)",
+        "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do"
+      },
+      {
+        "name": "Challenge Scholarship C",
+        "coverage": "stipend",
+        "for_foreigners": true,
+        "note": "Разовая выплата в первом семестре: 500 000 вон за 6-й уровень и 300 000 вон за 5-й уровень языкового центра KU",
+        "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do"
+      },
+      {
+        "name": "Global Korea Scholarship (GKS) — стипендия правительства Кореи",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "На сайте KU для неё есть отдельный раздел. Условия и сроки публикует NIIED на сайте Study in Korea",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "TOPIK",
+        "note": "TOPIK или TOPIK iBT (основной тест, не пробный). Минимального балла для подачи нет, но от уровня зависит обязательный корейский: с 5-м уровнем курсов нет, с 4-м — один семестр, с 3-м и ниже — два семестра без профильных предметов. Результат действителен 2 года"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "TOEFL iBT (в том числе Home Edition). MyBest Scores и TOEFL Essential не принимаются. Для International Studies английский обязателен. Чтобы на Global Open Major попасть на специальность с английским, нужен TOEFL iBT 100 (5 по новой шкале)"
+      },
+      {
+        "exam": "IELTS",
+        "note": "IELTS Academic; IELTS Indicator не принимается. Для распределения на специальность с английским на Global Open Major нужен IELTS 7.0"
+      }
+    ],
+    "language_level": "Сертификат TOPIK или TOEFL iBT / IELTS Academic (не старше 2 лет). Можно также сертификат языкового центра KU или средний уровень Института короля Седжона",
+    "motivation_letter": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Распечатка онлайн-заявки (взнос 150 000 вон, для искусства и дизайна — 200 000 вон)",
+      "Statement of Purpose — мотивационное письмо, пишется в системе подачи",
+      "Согласие на обработку персональных данных и заявление о гражданстве",
+      "Копии паспортов абитуриента и родителей",
+      "Свидетельство о рождении или другой документ о родстве с родителями — с нотариальным переводом на английский или корейский",
+      "Сертификат TOPIK / TOEFL iBT / IELTS Academic",
+      "Школьный табель (выписка оценок) с апостилем, с пояснением шкалы оценок",
+      "Аттестат или справка об ожидаемом окончании школы с апостилем",
+      "Документы не на корейском или английском — с нотариальным переводом",
+      "По желанию (до 10 пунктов): другие языковые сертификаты, SAT/AP/IB/A-Level, олимпиады, награды",
+      "После зачисления — выписка о банковском счёте (нужна для визы)"
+    ],
+    "notes": "Онлайн-подача документов проходит через сайт OIA (Uwayapply). Оригиналы документов тоже нужно прислать почтой до указанного срока. С 2027 года онлайн-тест KU по корейскому отменили, поэтому без языкового сертификата подать документы нельзя. Можно одновременно подать на трек International Undergraduate Admission I (конкретная специальность) и на трек II (Global Open Major)."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "D-2",
+    "notes": "После оплаты обучения и подачи итоговых документов и выписки о банковском счёте KU выдаёт Certificate of Admission. С ним можно оформлять визу D-2 в консульстве Кореи. Для набора на весну 2027 сертификат выдают примерно в январе 2027.",
+    "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do"
+  },
+  "dorm": {
+    "notes": "Ссылка на общежития KU есть на сайте OIA (dorm.korea.ac.kr). Стоимость и гарантия места для первокурсников в материалах для поступающих не указаны."
+  },
+  "deadlines": [
+    {
+      "what": "Онлайн-заявка и загрузка документов",
+      "start": "2026-08-03",
+      "end": "2026-08-31",
+      "intake": "Весенний (март 2027)"
+    },
+    {
+      "what": "Документы почтой",
+      "start": "2026-08-03",
+      "end": "2026-09-07",
+      "intake": "Весенний (март 2027)"
+    },
+    {
+      "what": "Объявление результатов",
+      "end": "2026-11-27",
+      "intake": "Весенний (март 2027)"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "52"
+    }
+  ],
+  "perks": [
+    "campus",
+    "student_life",
+    "exchange",
+    "intl_environment"
+  ],
+  "photos": [],
+  "sources": [
+    {
+      "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
+      "accessed": "2026-11-23",
+      "covers": "Календарь приёма на весну и осень 2027"
+    },
+    {
+      "url": "https://oia.korea.ac.kr/_attach/file/2026/08/lpZzpFXiuEfpfIZPBrYB.pdf",
+      "accessed": "2026-11-23",
+      "covers": "Официальный буклет для иностранцев (весна 2027): требования к языку, интенсивный корейский, документы, апостиль, взнос, Global Open Major, виза"
+    },
+    {
+      "url": "https://oia.korea.ac.kr/oia2026/Tuition.do",
+      "accessed": "2026-11-23",
+      "covers": "Стоимость обучения за семестр, 2026 год"
+    },
+    {
+      "url": "https://oia.korea.ac.kr/oia2026/KU-Scholarships.do",
+      "accessed": "2026-11-23",
+      "covers": "Стипендии для иностранных первокурсников"
+    },
+    {
+      "url": "https://www.koreaherald.com/article/10773651",
+      "accessed": "2026-11-23",
+      "covers": "Место в QS World University Rankings 2027"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2027,
+  "confidence": "high",
+  "todo": [
+    "Найти стоимость общежитий KU для первокурсников-иностранцев",
+    "Уточнить даты подачи на осенний семестр 2027 (объявят в марте 2027)",
+    "Выяснить, сколько денег должно быть на счёте для визы D-2 (сумма в буклете не найдена)",
+    "Найти стоимость курсов корейского в Korean Language Center KU",
+    "Добавить рейтинг THE",
+    "Проверить, открыты ли для иностранцев медицина и право"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "snu",
+  "type": "university",
+  "name": {
+    "ru": "Сеульский национальный университет",
+    "en": "Seoul National University",
+    "local": "서울대학교",
+    "short": "SNU"
+  },
+  "country": "KR",
+  "city": "Сеул",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1946,
+  "website": "https://en.snu.ac.kr",
+  "admissions_url": "https://admission.snu.ac.kr/international/undergraduate/spring/guide",
+  "intl_students_url": "https://en.snu.ac.kr/admission",
+  "summary": "Главный государственный университет Южной Кореи и самый высокий корейский вуз в мировых рейтингах. Иностранцы поступают по отдельному конкурсу для международных студентов: нужны документы о школе с апостилем, мотивационное эссе, рекомендация и подтверждение корейского (TOPIK 3) или английского (TOEFL iBT 80 / IELTS 6.0). Учёба в основном на корейском, курсы на английском есть не на всех факультетах. Для государственного вуза плата умеренная: около 2,4–5 млн вон за семестр.",
+  "highlights": [
+    "Самый сильный университет Кореи: 38-е место в QS World University Rankings 2027",
+    "Два набора в год для иностранцев: на весенний (март) и осенний (сентябрь) семестр",
+    "Можно поступить с английским, без корейского: TOEFL iBT 80 или IELTS 6.0",
+    "Доступная для Кореи плата за обучение, потому что вуз государственный",
+    "Есть стипендия правительства Кореи GKS, которая покрывает обучение и проживание"
+  ],
+  "fields": [
+    "it", "engineering", "natural_sciences", "medicine", "business", "economics",
+    "social_sciences", "humanities", "psychology", "international_relations", "linguistics",
+    "pedagogy", "agriculture", "design_art", "music"
+  ],
+  "levels": ["bachelor", "master", "phd", "foundation"],
+  "languages_of_instruction": ["ko", "en"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Liberal Studies (SNU College)",
+      "field": "other",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": { "amount": 2975000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+    },
+    {
+      "name": "Инженерный колледж (College of Engineering)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": { "amount": 2998000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+    },
+    {
+      "name": "Бизнес-колледж (College of Business Administration)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+    },
+    {
+      "name": "Гуманитарный колледж (College of Humanities)",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+    },
+    {
+      "name": "Медицина (Pre-Medicine, 2 года + Medicine, 4 года)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "ko",
+      "tuition": { "amount": 5038000, "currency": "KRW", "period": "semester", "note": "Основной этап (4 года), тариф 2026 года; на подготовительном этапе — 3 072 000 KRW. С 2027 года система оплаты для медицины может измениться" }
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года (гуманитарные, социальные науки, бизнес)" },
+    "tuition_max": { "amount": 5038000, "currency": "KRW", "period": "semester", "note": "Медицина, основной этап, тариф 2026 учебного года" }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Global Korea Scholarship (GKS) — стипендия правительства Кореи",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "По данным страницы SNU: полное освобождение от платы за 8 семестров, ежемесячно 1 200 000 вон, перелёт туда-обратно и год курсов корейского. Если за год не сдать TOPIK 3, к учёбе на степень не допустят. Заявка подаётся в сентябре через посольство Кореи. Страница SNU обновлялась давно, поэтому актуальные условия нужно проверять на сайте Study in Korea (NIIED)",
+        "url": "https://en.snu.ac.kr/apply/under/scholarships/before-application"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      { "exam": "TOPIK", "min_score": "3", "note": "Или окончание 4-го уровня в языковом центре корейского университета. Сертификат должен быть получен не раньше 9 июля 2024 года (для набора весна-2027)" },
+      { "exam": "TOEFL", "min_score": "80", "note": "TOEFL iBT; для тестов с 21 января 2026 года по новой шкале — 4.0. Принимаются MyBest Scores и Home Edition, TOEFL ITP — нет" },
+      { "exam": "IELTS", "min_score": "6.0", "note": "IELTS Academic; принимаются One Skill Retake и Online, IELTS Indicator — нет" },
+      { "exam": "OTHER", "min_score": "TEPS 269", "note": "Корейский тест по английскому TEPS как альтернатива TOEFL/IELTS" },
+      { "exam": "SAT", "note": "Не обязателен: SAT, AP, IB, A-Level и т. п. можно приложить по желанию" }
+    ],
+    "language_level": "Корейский — TOPIK 3 или английский — TOEFL iBT 80 / IELTS 6.0 (достаточно одного из двух)",
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Онлайн-анкета на сайте приёмной комиссии (взнос 70 000 вон)",
+      "Мотивационное эссе и учебный план (Personal Statement and Study Plan) на корейском или английском, до ~800 слов",
+      "Рекомендательное письмо — рекомендатель загружает его сам через сайт",
+      "Сертификат TOPIK или TOEFL/IELTS/TEPS",
+      "Школьный табель (выписка оценок) за все классы старшей школы",
+      "Аттестат или справка об ожидаемом окончании школы",
+      "После предварительного зачисления — оригиналы школьных документов с апостилем, отправленные почтой",
+      "Копия действующего загранпаспорта",
+      "Документы о гражданстве обоих родителей (например, копии паспортов)",
+      "Свидетельство о рождении или другой документ, подтверждающий родство с родителями",
+      "Документы не на корейском или английском — с нотариально заверенным переводом",
+      "По желанию: результаты SAT/AP/IB/A-Level, другие языковые сертификаты, портфолио достижений (до 10 пунктов), профиль школы",
+      "Для факультетов искусств и музыки — портфолио, отправляется прямо на факультет"
+    ],
+    "notes": "Россияне подают документы по треку International Admissions I: и абитуриент, и оба родителя должны быть иностранными гражданами, а школа окончена к 28 февраля (весенний набор). Онлайн-интервью проводят только для трека International Admissions II; у факультетов искусств, музыки и физкультуры свои творческие испытания. После зачисления некоторых студентов направляют на экзамен по корейскому в языковом институте SNU (LEI), и от его результата могут зависеть ограничения на выбор курсов. Программы на английском есть не везде: про конкретную специальность нужно спрашивать факультет."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "D-2",
+    "notes": "Студенческая виза D-2 оформляется в посольстве или консульстве Кореи после зачисления. Инструкции по визе SNU присылает вместе с решением о зачислении.",
+    "url": "https://oga.snu.ac.kr/visa"
+  },
+  "dorm": {
+    "available": true,
+    "notes": "У университета есть общежития Gwanak Residence Halls на кампусе Кванак. Стоимость и условия заселения для первокурсников-иностранцев нужно уточнять на сайте общежития."
+  },
+  "deadlines": [
+    {
+      "what": "Онлайн-заявка (набор на весенний семестр 2027)",
+      "start": "2026-07-06",
+      "end": "2026-07-09",
+      "intake": "Весенний (март 2027)"
+    },
+    {
+      "what": "Онлайн-заявка (набор на осенний семестр 2026)",
+      "start": "2026-03-03",
+      "end": "2026-03-05",
+      "intake": "Осенний (сентябрь 2026)"
+    },
+    {
+      "what": "Оригиналы документов с апостилем после предварительного зачисления (весна-2027)",
+      "start": "2026-10-16",
+      "end": "2026-11-03",
+      "intake": "Весенний (март 2027)"
+    }
+  ],
+  "rankings": [
+    { "name": "QS World University Rankings", "year": 2027, "position": "38" }
+  ],
+  "perks": ["strong_research", "campus", "exchange", "intl_environment"],
+  "photos": [],
+  "sources": [
+    {
+      "url": "https://admission.snu.ac.kr/webdata/admission/files/2027Spring_under.pdf",
+      "accessed": "2026-11-23",
+      "covers": "Официальный буклет SNU для иностранцев (весна 2027): сроки, требования к языку, документы, апостиль, стоимость обучения (таблица 2026 года)"
+    },
+    {
+      "url": "https://admission.snu.ac.kr/webdata/admission/files/2026Fall_under.pdf",
+      "accessed": "2026-11-23",
+      "covers": "Сроки подачи на осенний семестр 2026"
+    },
+    {
+      "url": "https://en.snu.ac.kr/apply/under/scholarships/before-application",
+      "accessed": "2026-11-23",
+      "covers": "Стипендия GKS для бакалавриата"
+    },
+    {
+      "url": "https://en.snu.ac.kr/student/registration",
+      "accessed": "2026-11-23",
+      "covers": "Оплата обучения дважды в год, перед каждым семестром"
+    },
+    {
+      "url": "https://snudorm.snu.ac.kr/en/",
+      "accessed": "2026-11-23",
+      "covers": "Общежития Gwanak Residence Halls"
+    },
+    {
+      "url": "https://www.koreaherald.com/article/10773651",
+      "accessed": "2026-11-23",
+      "covers": "Место в QS World University Rankings 2027"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2027,
+  "confidence": "high",
+  "todo": [
+    "Найти стоимость общежития Gwanak Residence Halls для первокурсников-иностранцев и есть ли гарантия места",
+    "Проверить актуальные условия GKS на сайте Study in Korea: страница SNU обновлялась давно",
+    "Сроки подачи на осенний семестр 2027 (обычно в марте) пока не опубликованы",
+    "Проверить, будет ли в новом отделении бакалавриата только для иностранцев полная стипендия: в ноябре 2026 об этом писали СМИ, официальных условий пока нет",
+    "Найти стоимость и сроки курсов корейского в языковом институте SNU (LEI)",
+    "Добавить рейтинг THE"
+  ]
+}

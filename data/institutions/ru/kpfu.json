@@ -1,0 +1,363 @@
+{
+  "id": "kpfu",
+  "type": "university",
+  "name": {
+    "ru": "Казанский (Приволжский) федеральный университет",
+    "en": "Kazan Federal University",
+    "short": "КФУ"
+  },
+  "country": "RU",
+  "city": "Казань",
+  "city_size": "mid",
+  "ownership": "public",
+  "founded": 1804,
+  "website": "https://kpfu.ru/",
+  "admissions_url": "https://admissions.kpfu.ru/",
+  "intl_students_url": "https://kpfu.ru/eng",
+  "summary": "Один из старейших университетов России и крупнейший вуз Поволжья: здесь учатся и на медиков, и на программистов, и на юристов, и на международников. Проходные баллы на сильные программы высокие, но цены на платное заметно ниже московских. Иногородним студентам доступен большой студгородок, включая Деревню Универсиады.",
+  "highlights": [
+    "Классический университет с очень широким выбором направлений — от медицины до разработки видеоигр",
+    "Собственный ИТ-институт (ИТИС) с программами по программной инженерии и анализу данных",
+    "Есть программы на английском языке (медицина, программная инженерия) для иностранных студентов",
+    "Плата за общежитие — около 2–2,5 тыс. ₽ в месяц, есть современный кампус Деревня Универсиады",
+    "Платное обучение в Казани дешевле, чем в ведущих московских вузах"
+  ],
+  "fields": [
+    "medicine",
+    "it",
+    "gamedev",
+    "law",
+    "economics",
+    "business",
+    "international_relations",
+    "psychology",
+    "natural_sciences",
+    "linguistics",
+    "pedagogy",
+    "media",
+    "humanities",
+    "social_sciences",
+    "engineering"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "programs": [
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 349752,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "budget_places": 150,
+      "passing_score": {
+        "year": 2026,
+        "value": 276,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний балл зачисленных — 283"
+      },
+      "ege_subjects": [
+        "химия",
+        "биология",
+        "русский язык"
+      ]
+    },
+    {
+      "name": "Программная инженерия (Современная разработка ПО; Разработка национальных корпоративных платформ)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 304920,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "budget_places": 80,
+      "passing_score": {
+        "year": 2026,
+        "value": 281,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний — 288"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
+    },
+    {
+      "name": "Международные отношения",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 332640,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "budget_places": 10,
+      "passing_score": {
+        "year": 2026,
+        "value": 274,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний — 280"
+      },
+      "ege_subjects": [
+        "история",
+        "русский язык",
+        "иностранный язык или обществознание"
+      ]
+    },
+    {
+      "name": "Юриспруденция",
+      "field": "law",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 329952,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "budget_places": 110,
+      "passing_score": {
+        "year": 2026,
+        "value": 256,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний — 269"
+      },
+      "ege_subjects": [
+        "обществознание",
+        "история",
+        "русский язык"
+      ]
+    },
+    {
+      "name": "Экономика (профиль «Экономика и финансы»)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 495000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ; другие профили экономики — 332 004 ₽"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 277,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний — 286"
+      },
+      "budget_places": 20,
+      "ege_subjects": [
+        "математика",
+        "русский язык",
+        "обществознание / история / иностранный язык / информатика / география на выбор"
+      ]
+    },
+    {
+      "name": "Клиническая психология",
+      "field": "psychology",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 5.5,
+      "tuition": {
+        "amount": 243216,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27, граждане РФ"
+      },
+      "budget_places": 25,
+      "passing_score": {
+        "year": 2026,
+        "value": 264,
+        "kind": "ege_total",
+        "note": "минимальный балл на бюджет; средний — 272"
+      },
+      "ege_subjects": [
+        "биология",
+        "русский язык",
+        "математика / обществознание / химия на выбор"
+      ]
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 235008,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очный бакалавриат/специалитет в Казани, 1-й курс 2026/27"
+    },
+    "tuition_max": {
+      "amount": 495000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очный бакалавриат в Казани (Экономика и финансы), 1-й курс 2026/27"
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Скидка «Зелёная волна» за высокие баллы ЕГЭ",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Снижение стоимости платного обучения для поступивших с баллами ЕГЭ выше порога, установленного приказом КФУ",
+        "url": "https://admissions.kpfu.ru/dokumenty/bakalavriat-specialitet/stoimost-obucheniya/"
+      },
+      {
+        "name": "Скидки победителям олимпиады «Открытые двери» и выпускникам лицеев КФУ",
+        "coverage": "partial",
+        "note": "Отдельные приказы о снижении стоимости обучения",
+        "url": "https://admissions.kpfu.ru/dokumenty/bakalavriat-specialitet/stoimost-obucheniya/"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": false,
+    "portfolio": "no",
+    "olympiad_benefits": "Победители и призёры ВсОШ и олимпиад из перечня Минобрнауки могут поступить без вступительных испытаний или получить 100 баллов по профильному предмету — условия в приложении 3 к правилам приёма.",
+    "documents": [
+      "Паспорт",
+      "Аттестат о среднем общем образовании (или диплом СПО/вуза)",
+      "СНИЛС (при наличии)",
+      "Документы об индивидуальных достижениях (по желанию)",
+      "Документы об олимпиадах или особых правах (если есть)",
+      "Фото — только для сдающих внутренние экзамены КФУ"
+    ],
+    "notes": "Абитуриенты после школы поступают по ЕГЭ. Собственные вступительные испытания КФУ сдают в основном выпускники колледжей и некоторые другие категории. Подать документы можно лично в Казани, Набережных Челнах или Елабуге, по почте или через Госуслуги."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 2050,
+      "currency": "RUB",
+      "period": "month",
+      "note": "от 2 050 до 2 460 ₽ в месяц в общежитиях Казани (с 1 октября 2026); Деревня Универсиады — 2 460 ₽"
+    },
+    "notes": "Десять общежитий и Деревня Универсиады (21 корпус, комнаты на 2–4 человека с собственным санузлом). Иногородним первокурсникам очной формы места дают при наличии свободных."
+  },
+  "deadlines": [
+    {
+      "what": "Приём документов на бюджет (по ЕГЭ)",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на бюджет для сдающих экзамены КФУ",
+      "start": "06-20",
+      "end": "07-13",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платное (по ЕГЭ)",
+      "start": "06-20",
+      "end": "08-31",
+      "intake": "Осенний набор"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "20"
+    },
+    {
+      "name": "RAEX-100",
+      "year": 2025,
+      "position": "20"
+    }
+  ],
+  "perks": [
+    "campus",
+    "student_life",
+    "strong_research",
+    "intl_environment"
+  ],
+  "sources": [
+    {
+      "url": "https://admissions.kpfu.ru/wp-content/uploads/2026/10/itogi-priema-kazan.pdf",
+      "accessed": "2026-11-23",
+      "covers": "проходные и средние баллы 2026"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/wp-content/uploads/2026/11/15.05.2026_01-03_487_safin-l.r._urazova-a.r_compressed.pdf",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения 1 курса 2026/27"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/wp-content/uploads/2026/06/plan_priema_2026_2027-bakalavriat-speczialitet-1.pdf",
+      "accessed": "2026-11-23",
+      "covers": "бюджетные места 2026, вступительные испытания"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/bakalavriat-specialitet/procedura-postupleniya/sroki-postupleniya/",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/bakalavriat-specialitet/procedura-postupleniya/dokumenty-dlya-postupleniya/",
+      "accessed": "2026-11-23",
+      "covers": "документы"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/bakalavriat-specialitet/priem-po-osobym-usloviyam/priem-pobeditelej-i-prizerov-olimpiad/",
+      "accessed": "2026-11-23",
+      "covers": "олимпиады"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/prozhivanie/obshhezhitiya/",
+      "accessed": "2026-11-23",
+      "covers": "общежития"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/wp-content/uploads/2026/08/plata-za-obshhezhitie-s-oktyabrya_compressed.pdf",
+      "accessed": "2026-11-23",
+      "covers": "плата за общежитие с 01.10.2026"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/dokumenty/bakalavriat-specialitet/stoimost-obucheniya/",
+      "accessed": "2026-11-23",
+      "covers": "скидки на обучение"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026 и 2025"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "high",
+  "todo": [
+    "Уточнить точные условия олимпиадных льгот (БВИ / 100 баллов) по приложению 3 к правилам приёма 2026",
+    "Добавить позиции в международных рейтингах (QS/THE) из первоисточника"
+  ]
+}

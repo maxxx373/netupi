@@ -1,0 +1,167 @@
+{
+  "id": "nsu",
+  "type": "university",
+  "name": {
+    "ru": "Новосибирский национальный исследовательский государственный университет",
+    "en": "Novosibirsk State University",
+    "short": "НГУ"
+  },
+  "country": "RU",
+  "city": "Новосибирск",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1959,
+  "website": "https://www.nsu.ru/",
+  "admissions_url": "https://www.nsu.ru/n/education/apply/",
+  "intl_students_url": "https://www.nsu.ru/n/international/education/",
+  "summary": "НГУ — сильный исследовательский университет в новосибирском Академгородке, где учёба тесно связана с институтами Сибирского отделения РАН. Особенно известен физикой, математикой, IT и естественными науками, но есть также медицина, экономика, право и гуманитарные направления. Конкурс высокий: на популярные программы проходной балл на бюджет в 2026 году был около 250–270 по трём ЕГЭ. Всем иногородним студентам дают место в общежитии.",
+  "highlights": [
+    "Кампус в Академгородке рядом с десятками научных институтов СО РАН — со студенчества можно работать в настоящей лаборатории",
+    "Сильная школа физики и математики: по данным вуза — 2-е место в России по физике в рейтинге «Эксперта» (2026)",
+    "IT-направления с практикой в Яндексе, 2ГИС и других компаниях",
+    "Общежитие получают все иногородние студенты, включая платников",
+    "Есть англоязычная программа «Лечебное дело»"
+  ],
+  "fields": ["it", "natural_sciences", "engineering", "medicine", "economics", "law", "psychology", "linguistics", "humanities", "media", "social_sciences", "business"],
+  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
+  "languages_of_instruction": ["ru", "en"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Программная инженерия и компьютерные науки (09.03.01, ФИТ)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 300000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 125,
+      "passing_score": { "year": 2026, "value": 260, "kind": "ege_total", "note": "Проходной балл на бюджет, сумма трёх ЕГЭ" },
+      "ege_subjects": ["Математика (профиль)", "Информатика или физика", "Русский язык"],
+      "url": "https://education.nsu.ru/information-technologies"
+    },
+    {
+      "name": "Физика (03.03.02)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 241500, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 119,
+      "passing_score": { "year": 2026, "value": 233, "kind": "ege_total", "note": "Проходной балл на бюджет" },
+      "ege_subjects": ["Физика или математика", "Математика или информатика", "Русский язык"],
+      "url": "https://education.nsu.ru/physics/"
+    },
+    {
+      "name": "Лечебное дело (31.05.01)",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "tuition": { "amount": 310000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 60,
+      "passing_score": { "year": 2026, "value": 247, "kind": "ege_total", "note": "Проходной балл на бюджет" },
+      "url": "https://education.nsu.ru/med_psy_institute/"
+    },
+    {
+      "name": "Экономика (38.03.01)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 288000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 47,
+      "passing_score": { "year": 2026, "value": 257, "kind": "ege_total", "note": "Проходной балл на бюджет" },
+      "ege_subjects": ["Математика (профиль)", "Обществознание, история, информатика, иностранный язык или география", "Русский язык"],
+      "url": "https://education.nsu.ru/economics/"
+    },
+    {
+      "name": "Прикладная информатика. Прикладной искусственный интеллект (09.03.03)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 205000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 25,
+      "passing_score": { "year": 2026, "value": 270, "kind": "ege_total", "note": "Проходной балл на бюджет; конкурс в 2026 году — около 94 заявлений на место" },
+      "url": "https://education.nsu.ru/ai"
+    },
+    {
+      "name": "Психология (37.03.01)",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 288000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27 учебный год" },
+      "budget_places": 20,
+      "passing_score": { "year": 2026, "value": 240, "kind": "ege_total", "note": "Проходной балл на бюджет" },
+      "url": "https://education.nsu.ru/med_psy_institute/"
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 205000, "currency": "RUB", "period": "year", "note": "Мехатроника и робототехника, прикладной ИИ; 2026/27" },
+    "tuition_max": { "amount": 310000, "currency": "RUB", "period": "year", "note": "Лечебное дело; 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Образовательный кредит с господдержкой (Сбербанк)",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Кредит на полную или частичную оплату обучения, а не грант",
+        "url": "https://www.nsu.ru/n/education/apply-info/stoimost1/"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "portfolio": "some_programs",
+    "olympiad_benefits": "Победители и призёры ВсОШ и олимпиад РСОШ по профильным предметам поступают без экзаменов или получают 100 баллов за предмет; список зависит от направления.",
+    "documents": [
+      "Заявление о приёме (отдельно на бюджет и на платное)",
+      "Согласие на обработку персональных данных",
+      "Паспорт или другой документ, удостоверяющий личность",
+      "Аттестат или диплом (оригинал или копия, заверять не нужно)",
+      "СНИЛС (при наличии)",
+      "Документы об олимпиадах, льготах и индивидуальных достижениях",
+      "6 фотографий 3×4",
+      "Медицинская справка — для «Лечебного дела» и «Медицинской кибернетики»"
+    ],
+    "notes": "Свои вступительные экзамены сдают поступающие после колледжа и некоторые другие категории; на журналистику — дополнительное творческое испытание. Где нужна математика, принимается только профильный ЕГЭ. На отдельные программы мехмата есть конкурс портфолио и собеседование."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "По данным вуза, общежитие получают все иногородние студенты — и бюджетники, и платники. 11 общежитий, около 3,3 тыс. мест, блочная система; первокурсники живут по 3 человека в комнате."
+  },
+  "deadlines": [
+    { "what": "Начало приёма документов (граждане РФ)", "start": "06-20" },
+    { "what": "Приём документов для сдающих внутренние экзамены вуза", "start": "06-20", "end": "07-15" },
+    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25" },
+    { "what": "Приём документов на платное по ЕГЭ", "start": "06-20", "end": "08-25" },
+    { "what": "Согласие на зачисление, основной этап (бюджет)", "end": "08-05" }
+  ],
+  "rankings": [
+    { "name": "QS World University Rankings (выпуск июня 2026)", "year": 2026, "position": "488" },
+    { "name": "THE World University Rankings (выпуск сентября 2026)", "year": 2026, "position": "1201–1400" },
+    { "name": "RAEX — 100 лучших вузов России", "year": 2026, "position": "16" },
+    { "name": "Национальный рейтинг университетов «Интерфакс»", "year": 2026, "position": "5" },
+    { "name": "Forbes — лучшие вузы России", "year": 2026, "position": "13" }
+  ],
+  "perks": ["strong_research", "campus", "internships", "employment", "intl_environment"],
+  "sources": [
+    { "url": "https://www.nsu.ru/n/education/apply/", "accessed": "2026-11-23", "covers": "сроки, документы, вступительные испытания" },
+    { "url": "https://www.nsu.ru/n/education/apply-info/itogi-priema/", "accessed": "2026-11-23", "covers": "проходные баллы и бюджетные места 2026" },
+    { "url": "https://www.nsu.ru/n/education/apply-info/stoimost1/", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27" },
+    { "url": "https://education.nsu.ru/information-technologies", "accessed": "2026-11-23", "covers": "ЕГЭ и описание программ ФИТ" },
+    { "url": "https://education.nsu.ru/economics/", "accessed": "2026-11-23", "covers": "ЕГЭ для экономики" },
+    { "url": "https://education.nsu.ru/physics/", "accessed": "2026-11-23", "covers": "ЕГЭ для физики" },
+    { "url": "https://www.nsu.ru/n/education/apply-info/olimpiady-privilege/", "accessed": "2026-11-23", "covers": "олимпиадные льготы" },
+    { "url": "https://www.nsu.ru/n/life/campus/dormitories/", "accessed": "2026-11-23", "covers": "общежития" },
+    { "url": "https://www.nsu.ru/n/sveden/grants/", "accessed": "2026-11-23", "covers": "число общежитий и мест" },
+    { "url": "https://www.nsu.ru/n/university/rankings/", "accessed": "2026-11-23", "covers": "рейтинги" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "high",
+  "todo": [
+    "Узнать стоимость проживания в общежитии (есть только PDF «Порядок вселения и оплаты»)",
+    "Уточнить предметы ЕГЭ для «Лечебного дела» и «Психологии» — страница института не отдала текст",
+    "Год основания (1959) сверить со страницей истории на nsu.ru",
+    "Найти фото главного корпуса со свободной лицензией"
+  ]
+}
