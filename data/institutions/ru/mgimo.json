@@ -1,0 +1,134 @@
+{
+  "id": "mgimo",
+  "type": "university",
+  "name": {
+    "ru": "Московский государственный институт международных отношений (университет) МИД России",
+    "en": "MGIMO University",
+    "short": "МГИМО"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1944,
+  "website": "https://mgimo.ru/",
+  "admissions_url": "https://abiturient.mgimo.ru/bakalavriat",
+  "intl_students_url": "https://rusbac.mgimo.ru/",
+  "summary": "Вуз МИД России, главная кузница дипломатов, международников и международных юристов. Здесь очень сильно учат иностранные языки, а на ключевые программы, кроме ЕГЭ, сдают дополнительный экзамен по иностранному языку. Бюджетных мест немного, конкурс высокий, а платное обучение одно из самых дорогих в стране.",
+  "highlights": [
+    "Седьмое место в рейтинге RAEX-100 в 2026 году",
+    "Сильнейшая языковая подготовка: студенты учат язык страны или региона специализации",
+    "На международные отношения, право и журналистику — дополнительный экзамен по иностранному языку",
+    "Выпускники работают в МИД, госорганах, крупных компаниях и СМИ",
+    "Есть программы на английском языке"
+  ],
+  "fields": ["international_relations", "law", "economics", "business", "media", "marketing", "linguistics", "social_sciences"],
+  "levels": ["spo", "bachelor", "master", "phd"],
+  "languages_of_instruction": ["ru", "en"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Международные отношения",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 850000, "currency": "RUB", "period": "year", "note": "2026/27, по данным агрегатора со ссылкой на приказ МГИМО" },
+      "budget_places": 29,
+      "passing_score": { "year": 2026, "value": 379, "kind": "ege_total", "note": "сумма трёх ЕГЭ и ДВИ по иностранному языку, максимум 400; данные агрегатора" },
+      "ege_subjects": ["история", "иностранный язык", "русский язык", "ДВИ: иностранный язык"]
+    },
+    {
+      "name": "Зарубежное регионоведение: «Дипломатия и политика зарубежных стран»",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 838000, "currency": "RUB", "period": "year", "note": "2026/27, по данным агрегатора" },
+      "budget_places": 99,
+      "passing_score": { "year": 2026, "value": 366, "kind": "ege_total", "note": "из 400 с ДВИ; данные агрегатора" },
+      "ege_subjects": ["история", "иностранный язык", "русский язык", "ДВИ: иностранный язык"],
+      "url": "https://mo.mgimo.ru/dip"
+    },
+    {
+      "name": "Международное право",
+      "field": "law",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 860000, "currency": "RUB", "period": "year", "note": "2026/27, по данным агрегатора" },
+      "budget_places": 75,
+      "passing_score": { "year": 2026, "value": 363, "kind": "ege_total", "note": "из 400 с ДВИ; данные агрегатора" }
+    },
+    {
+      "name": "Международная журналистика",
+      "field": "media",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 790000, "currency": "RUB", "period": "year", "note": "2026/27, по данным агрегатора" },
+      "budget_places": 30,
+      "passing_score": { "year": 2026, "value": 374, "kind": "ege_total", "note": "из 400 с ДВИ; данные агрегатора" }
+    },
+    {
+      "name": "Экономика: международные экономические отношения",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 924000, "currency": "RUB", "period": "year", "note": "2026/27, по данным агрегатора" },
+      "budget_places": 63,
+      "passing_score": { "year": 2026, "value": 291, "kind": "ege_total", "note": "сумма трёх ЕГЭ, без ДВИ; данные агрегатора" }
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 710000, "currency": "RUB", "period": "year", "note": "2026/27, «Социология цифровых коммуникаций»; по данным агрегаторов, одна англоязычная программа указана дешевле (650 000 ₽) — требует проверки" },
+    "tuition_max": { "amount": 1346000, "currency": "RUB", "period": "year", "note": "2026/27, англоязычная программа по международным финансам; по данным агрегаторов" }
+  },
+  "funding": {
+    "free_tuition": true
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "portfolio": "no",
+    "language_level": "Высокий уровень иностранного языка — на ряд программ сдаётся ДВИ по иностранному",
+    "olympiad_benefits": "Победители и призёры ВсОШ и олимпиад из перечня Минобрнауки могут поступить без экзаменов или получить 100 баллов — условия в правилах приёма МГИМО.",
+    "documents": [
+      "Паспорт",
+      "Аттестат о среднем общем образовании (или диплом СПО/вуза)",
+      "СНИЛС (при наличии)",
+      "Документы об индивидуальных достижениях и олимпиадах (если есть)"
+    ],
+    "notes": "На программы с ДВИ (международные отношения, регионоведение, право, журналистика и др.) сумма баллов считается из 400: три ЕГЭ плюс экзамен МГИМО по иностранному языку. На остальные программы — из 300."
+  },
+  "dorm": {
+    "available": true,
+    "notes": "У МГИМО есть общежития; стоимость и условия заселения на 2026/27 подтвердить на официальном сайте не удалось."
+  },
+  "deadlines": [
+    { "what": "Начало приёма документов в бакалавриат", "start": "06-20", "intake": "Осенний набор" },
+    { "what": "Окончание приёма на бюджет для поступающих только по ЕГЭ (общий срок по стране)", "end": "07-25", "intake": "Осенний набор" }
+  ],
+  "rankings": [
+    { "name": "RAEX-100", "year": 2026, "position": "7" },
+    { "name": "RAEX-100", "year": 2025, "position": "6" }
+  ],
+  "perks": ["intl_environment", "employment", "internships", "student_life"],
+  "sources": [
+    { "url": "https://mo.mgimo.ru/dip", "accessed": "2026-11-23", "covers": "ЕГЭ и ДВИ по иностранному языку на факультете МО, контакты приёмной комиссии" },
+    { "url": "https://vuz.lancmanschool.ru/vuzy/mgimo", "accessed": "2026-11-23", "covers": "проходные баллы, бюджетные места и стоимость 2026 (агрегатор со ссылками на официальные документы МГИМО)" },
+    { "url": "https://dvi.exambooster.ru/mgimo/stoimost/", "accessed": "2026-11-23", "covers": "сверка диапазона цен 2026/27 (агрегатор)" },
+    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "low",
+  "todo": [
+    "Сайты mgimo.ru и abiturient.mgimo.ru закрыты JS-проверкой от ботов — сверить цены по приказу (mgimo.ru/sveden/files/005040.pdf), проходные баллы и места с официальными данными",
+    "Уточнить сроки приёма 2026 для программ с ДВИ и даты экзамена по иностранному",
+    "Найти минимальные баллы ЕГЭ 2026 (документ mgimo-min-ege-2026.pdf)",
+    "Найти стоимость общежития и условия заселения",
+    "Проверить программы двойных дипломов и обмены",
+    "Проверить, какая программа самая дешёвая (650 или 710 тыс. ₽)"
+  ]
+}
