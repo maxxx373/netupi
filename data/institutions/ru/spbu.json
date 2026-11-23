@@ -1,0 +1,155 @@
+{
+  "id": "spbu",
+  "type": "university",
+  "name": {
+    "ru": "Санкт-Петербургский государственный университет",
+    "en": "Saint Petersburg State University",
+    "short": "СПбГУ"
+  },
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1724,
+  "website": "https://spbu.ru/",
+  "admissions_url": "https://abiturient.spbu.ru/",
+  "intl_students_url": "https://abiturient.spbu.ru/",
+  "summary": "Старейший университет России и один из главных классических вузов страны. Учит математике и программированию, медицине, праву, экономике, международным отношениям, журналистике и многому другому. Поступают в основном по ЕГЭ, а исторический центр университета находится на Васильевском острове.",
+  "highlights": [
+    "Четвёртое место в рейтинге RAEX-100 2026 года",
+    "Сильные программы по математике и программированию, в том числе AI360",
+    "Медицина и стоматология, в том числе на английском",
+    "Многие программы дают дополнительную квалификацию (программист, переводчик, учитель)"
+  ],
+  "photos": [
+    {
+      "file": "photos/spbu/1.jpg",
+      "author": "Vityavo",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_Twelve_Collegia_(from_the_territory_of_St_Petersburg_State_University).jpg",
+      "caption": "Здание Двенадцати коллегий — исторический главный корпус СПбГУ"
+    }
+  ],
+  "fields": [
+    "it", "medicine", "business", "economics", "law", "psychology", "media", "linguistics",
+    "natural_sciences", "international_relations", "humanities", "social_sciences"
+  ],
+  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
+  "languages_of_instruction": ["ru", "en"],
+  "study_formats": ["full", "mixed"],
+  "programs": [
+    {
+      "name": "Прикладная математика и информатика: «Современное программирование»",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 360000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "budget_places": 40,
+      "passing_score": { "year": 2025, "value": 283, "kind": "ege_total", "note": "минимум среди зачисленных на бюджет по общему конкурсу, без учёта индивидуальных достижений (с ними — 293)" }
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "tuition": { "amount": 398200, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "budget_places": 50,
+      "passing_score": { "year": 2025, "value": 261, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 271)" },
+      "ege_subjects": ["биология", "химия", "русский язык"]
+    },
+    {
+      "name": "Экономика",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 406600, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "budget_places": 78,
+      "passing_score": { "year": 2025, "value": 260, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 270)" }
+    },
+    {
+      "name": "Юриспруденция",
+      "field": "law",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 490900, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "budget_places": 110,
+      "passing_score": { "year": 2025, "value": 269, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 279)" },
+      "ege_subjects": ["история", "русский язык", "обществознание / математика / география (на выбор)"]
+    },
+    {
+      "name": "Международные отношения (с дополнительной квалификацией переводчика)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "budget_places": 90,
+      "passing_score": { "year": 2025, "value": 263, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 273)" },
+      "ege_subjects": ["история", "иностранный язык / обществознание / математика / география (на выбор)", "русский язык"]
+    },
+    {
+      "name": "Психология",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": { "amount": 450000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "budget_places": 50,
+      "passing_score": { "year": 2025, "value": 238, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 246)" },
+      "ege_subjects": ["биология", "математика", "русский язык"]
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 279900, "currency": "RUB", "period": "year", "note": "очная форма, граждане РФ и Беларуси, 2026/27" },
+    "tuition_max": { "amount": 652700, "currency": "RUB", "period": "year", "note": "«Международный менеджмент», 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "portfolio": "some_programs",
+    "olympiad_benefits": "БВИ для победителей и призёров заключительного этапа ВсОШ и членов сборных на международных олимпиадах по профилю (диплом действует 4 года); по перечневым олимпиадам — особые права по профилю",
+    "documents": [
+      "паспорт",
+      "аттестат о среднем общем образовании",
+      "СНИЛС (при наличии)",
+      "согласие на обработку персональных данных",
+      "документы о льготах и индивидуальных достижениях (если есть)",
+      "фото — для сдающих внутренние вступительные испытания",
+      "портфолио — если его требует программа"
+    ],
+    "notes": "Заявления подаются через Госуслуги («Поступление в вуз онлайн»). Внутренние экзамены сдают отдельные категории поступающих; на некоторых программах есть ДВИ (например, собеседование)."
+  },
+  "dorm": {
+    "available": true,
+    "notes": "У университета больше двадцати общежитий. Стоимость проживания на сайте кампуса не указана — квитанции выдаются через личный кабинет."
+  },
+  "deadlines": [
+    { "what": "Приём документов для сдающих внутренние вступительные испытания", "start": "06-20", "end": "07-10", "intake": "Осенний набор" },
+    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
+    { "what": "Приём документов на платные места", "start": "06-20", "end": "08-13", "intake": "Осенний набор" }
+  ],
+  "rankings": [
+    { "name": "RAEX-100", "year": 2026, "position": "4" }
+  ],
+  "perks": ["strong_research", "student_life", "military_center"],
+  "sources": [
+    { "url": "https://abiturient.spbu.ru/programs/bakalavriat/", "accessed": "2026-11-23", "covers": "документы, олимпиады, ссылки на правила" },
+    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/pravila_priema_2026.pdf", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
+    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/cost_bac_spec_2026.pdf", "accessed": "2026-11-23", "covers": "стоимость 2026/27" },
+    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/quotas_bac_2026.pdf", "accessed": "2026-11-23", "covers": "бюджетные места 2026" },
+    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf", "accessed": "2026-11-23", "covers": "вступительные испытания 2026" },
+    { "url": "https://abiturient.spbu.ru/upload/medialibrary/77c/wmxvldiywg1jx4u1ew6tpsyl61ipq5oc/priem_bac_spec_2025.pdf", "accessed": "2026-11-23", "covers": "проходные баллы 2025" },
+    { "url": "https://campus.spbu.ru/308.html", "accessed": "2026-11-23", "covers": "общежития" },
+    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
+    { "url": "https://commons.wikimedia.org/wiki/File:Building_of_the_Twelve_Collegia_(from_the_territory_of_St_Petersburg_State_University).jpg", "accessed": "2026-11-23", "covers": "фото" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "high",
+  "todo": [
+    "Узнать стоимость проживания в общежитии",
+    "Найти отдельную страницу для иностранных абитуриентов (сейчас указан общий сайт приёмной комиссии)",
+    "Уточнить цену программы «Международные отношения» на 2026/27 (в прайсе не удалось однозначно сопоставить программу)",
+    "Уточнить предметы ЕГЭ для «Современного программирования» и «Экономики»",
+    "Добавить место в QS из официального источника"
+  ]
+}
