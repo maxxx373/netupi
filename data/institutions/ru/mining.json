@@ -1,0 +1,38 @@
+{
+  "id": "mining",
+  "type": "university",
+  "name": {
+    "ru": "Санкт-Петербургский горный университет"
+  },
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://spmi.ru/",
+  "admissions_url": "https://priem.spmi.ru/",
+  "about": "Специализированный инженерный вуз в области геологии, горного дела, геодезии, энергетики и природных ресурсов.",
+  "areas": [
+    "engineering",
+    "science",
+    "physics",
+    "economics"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "natural_sciences",
+    "economics"
+  ],
+  "sources": [
+    {
+      "url": "https://priem.spmi.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

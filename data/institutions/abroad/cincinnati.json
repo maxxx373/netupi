@@ -1,0 +1,52 @@
+{
+  "id": "cincinnati",
+  "type": "university",
+  "name": {
+    "ru": "University of Cincinnati",
+    "en": "University of Cincinnati"
+  },
+  "country": "US",
+  "city": "Цинциннати, Огайо",
+  "website": "https://www.uc.edu/",
+  "admissions_url": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+  "about": "Государственный исследовательский университет с программами в инженерии, медицине, бизнесе, дизайне и информационных технологиях. Университет подчёркивает практическое обучение и опыт работы в ходе учёбы.",
+  "areas": [
+    "engineering",
+    "business",
+    "medicine",
+    "design",
+    "it",
+    "science",
+    "media"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "business",
+    "medicine",
+    "design_art",
+    "it",
+    "natural_sciences",
+    "media"
+  ],
+  "prep": {
+    "must": "Common Application; школьные transcript и подтверждение окончания школы; английский тест для иностранных абитуриентов. SAT/ACT для ряда заявок необязательны, но политика зависит от программы.",
+    "good": "Переведи школьные документы, проверь требования к английскому и дополнительным материалам конкретного колледжа. Рекомендательное письмо в общих правилах указано как желательное, но не обязательное.",
+    "source": "https://www.admissions.uc.edu/information/international/requirements/freshman.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

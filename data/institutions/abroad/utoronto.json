@@ -1,0 +1,61 @@
+{
+  "id": "utoronto",
+  "type": "university",
+  "name": {
+    "ru": "University of Toronto",
+    "en": "University of Toronto"
+  },
+  "country": "CA",
+  "city": "Торонто, Онтарио",
+  "website": "https://www.utoronto.ca/",
+  "admissions_url": "https://future.utoronto.ca/apply/requirements/international-high-school/",
+  "about": "Крупный исследовательский университет с кампусами в Торонто и широким выбором программ. Подходящие предметы и условия зависят от выбранного подразделения и образовательной системы.",
+  "areas": [
+    "science",
+    "engineering",
+    "it",
+    "medicine",
+    "business",
+    "economics",
+    "law",
+    "media",
+    "languages"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "it",
+    "medicine",
+    "business",
+    "economics",
+    "law",
+    "media",
+    "linguistics"
+  ],
+  "prep": {
+    "must": "Подай заявку через соответствующую систему (часто OUAC для бакалавриата в Онтарио); подготовь школьные результаты, сведения о текущих курсах и предметные prerequisites выбранной программы.",
+    "good": "Если обучение проходило не на английском языке, проверь требование по английскому. Некоторые программы запрашивают supplemental application; смотри checklist в applicant portal.",
+    "source": "https://future.utoronto.ca/english-language-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://future.utoronto.ca/apply/requirements/international-high-school/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://future.utoronto.ca/english-language-requirements",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

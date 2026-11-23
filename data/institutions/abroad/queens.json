@@ -1,0 +1,54 @@
+{
+  "id": "queens",
+  "type": "university",
+  "name": {
+    "ru": "Queen’s University",
+    "en": "Queen’s University"
+  },
+  "country": "CA",
+  "city": "Кингстон, Онтарио",
+  "website": "https://www.queensu.ca/",
+  "admissions_url": "https://www.queensu.ca/admission/applying/admission-requirements",
+  "about": "Исследовательский университет в Кингстоне. Программы бакалавриата включают искусство, науку, инженерное дело, бизнес и здравоохранение; для некоторых направлений есть дополнительные формы или прослушивания.",
+  "areas": [
+    "science",
+    "engineering",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "languages",
+    "psychology"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "linguistics",
+    "psychology"
+  ],
+  "prep": {
+    "must": "Заявка и школьные документы; prerequisites и конкурентные результаты выбранной программы; языковое подтверждение, если требуется. После подачи проверь список задач в SOLUS.",
+    "good": "Заранее подготовь дополнительные формы для программ, где они обязательны; для музыки — планируй прослушивание, для ряда программ — supplementary application.",
+    "source": "https://www.queensu.ca/admission/applying/admission-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://www.queensu.ca/admission/applying/admission-requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

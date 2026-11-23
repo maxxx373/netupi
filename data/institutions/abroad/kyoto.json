@@ -1,0 +1,53 @@
+{
+  "id": "kyoto",
+  "type": "university",
+  "name": {
+    "ru": "Kyoto University",
+    "en": "Kyoto University"
+  },
+  "country": "JP",
+  "city": "Киото",
+  "website": "https://www.kyoto-u.ac.jp/en",
+  "admissions_url": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs/how-to-apply",
+  "about": "Национальный исследовательский университет с широкими факультетами, включая сельское хозяйство, инженерное дело, архитектуру, лесные и естественные науки.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "agriculture",
+    "botany",
+    "forestry",
+    "medicine",
+    "law"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "agriculture",
+    "medicine",
+    "law"
+  ],
+  "prep": {
+    "must": "Правила и отбор устанавливает выбранный факультет. Большинство программ требует японский; исключения на английском ограничены Kyoto iUP и международным курсом гражданского строительства.",
+    "good": "Определи язык обучения и нужный маршрут заранее, подготовь подтверждение 12 лет школьного образования, оценки и языковой сертификат. Проверь экзамены и документы выбранного факультета.",
+    "source": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs/how-to-apply"
+  },
+  "sources": [
+    {
+      "url": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs/how-to-apply",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

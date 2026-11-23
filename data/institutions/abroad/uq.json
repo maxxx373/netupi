@@ -1,0 +1,56 @@
+{
+  "id": "uq",
+  "type": "university",
+  "name": {
+    "ru": "The University of Queensland",
+    "en": "The University of Queensland"
+  },
+  "country": "AU",
+  "city": "Брисбен",
+  "website": "https://www.uq.edu.au/",
+  "admissions_url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
+  "about": "Исследовательский университет Квинсленда с сильными программами по аграрным и морским наукам, ветеринарии, медицине, инженерии и экологии.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment",
+    "marine"
+  ],
+  "art": "environment",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подтверди эквивалентную школьную квалификацию, минимальный rank для программы и английский язык. Для ряда степеней есть обязательные предметы или отдельные требования, например UCAT.",
+    "good": "Заранее сравни требования по международной системе образования, загрузите подтверждающие документы и проверь сроки визового оформления после оффера.",
+    "source": "https://study.uq.edu.au/admissions/undergraduate/review-entry-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://study.uq.edu.au/admissions/undergraduate/review-entry-requirements",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

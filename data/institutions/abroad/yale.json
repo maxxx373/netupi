@@ -1,0 +1,54 @@
+{
+  "id": "yale",
+  "type": "university",
+  "name": {
+    "ru": "Yale University",
+    "en": "Yale University"
+  },
+  "country": "US",
+  "city": "Нью-Хейвен, Коннектикут",
+  "website": "https://www.yale.edu/",
+  "admissions_url": "https://admissions.yale.edu/requirements",
+  "about": "Частный исследовательский университет с бакалаврским колледжем и сильной системой академических подразделений. Студенты выбирают из широкого круга гуманитарных, социальных и естественно-научных программ.",
+  "areas": [
+    "science",
+    "law",
+    "economics",
+    "languages",
+    "media",
+    "medicine",
+    "psychology",
+    "international"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "law",
+    "economics",
+    "linguistics",
+    "media",
+    "medicine",
+    "psychology",
+    "international_relations"
+  ],
+  "prep": {
+    "must": "Заявка первого курса через Common App, Coalition Application или QuestBridge; школьные документы и рекомендации; стандартные тесты в соответствии с действующей политикой Yale.",
+    "good": "Заранее попроси школу отправить transcript и рекомендации, оставь время на личные эссе и уточни, какие результаты тестов подходят для твоего цикла.",
+    "source": "https://admissions.yale.edu/requirements"
+  },
+  "sources": [
+    {
+      "url": "https://admissions.yale.edu/requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

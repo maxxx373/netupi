@@ -1,0 +1,43 @@
+{
+  "id": "herzen",
+  "type": "university",
+  "name": {
+    "ru": "Российский государственный педагогический университет имени А. И. Герцена"
+  },
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://www.herzen.spb.ru/",
+  "admissions_url": "https://www.herzen.spb.ru/abiturients/",
+  "about": "Педагогический университет с подготовкой учителей, психологов, логопедов и специалистов в искусстве и гуманитарных областях.",
+  "areas": [
+    "pedagogy",
+    "psychology",
+    "languages",
+    "media",
+    "design",
+    "science"
+  ],
+  "art": "classic",
+  "fields": [
+    "pedagogy",
+    "psychology",
+    "linguistics",
+    "media",
+    "design_art",
+    "natural_sciences"
+  ],
+  "sources": [
+    {
+      "url": "https://www.herzen.spb.ru/abiturients/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

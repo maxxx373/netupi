@@ -1,0 +1,52 @@
+{
+  "id": "zhejiang",
+  "type": "university",
+  "name": {
+    "ru": "Zhejiang University",
+    "en": "Zhejiang University"
+  },
+  "country": "CN",
+  "city": "Ханчжоу",
+  "website": "https://www.zju.edu.cn/english/",
+  "admissions_url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
+  "about": "Многопрофильный университет с крупными школами наук о жизни, сельского хозяйства, инженерии, медицины и экологических исследований.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Для международного бакалавриата нужны иностранное гражданство по правилам КНР, оконченная старшая школа и онлайн-заявка с академическими документами. Большинство программ на китайском; есть отдельные программы на английском.",
+    "good": "Сверь язык и предметные требования в актуальном каталоге, подготовь переводы и возможные результаты национальных или международных экзаменов. Будь готов(а) к интервью.",
+    "source": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm"
+  },
+  "sources": [
+    {
+      "url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

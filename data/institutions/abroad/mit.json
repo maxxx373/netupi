@@ -1,0 +1,49 @@
+{
+  "id": "mit",
+  "type": "university",
+  "name": {
+    "ru": "Massachusetts Institute of Technology",
+    "en": "Massachusetts Institute of Technology"
+  },
+  "country": "US",
+  "city": "Кембридж, Массачусетс",
+  "website": "https://www.mit.edu/",
+  "admissions_url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+  "about": "Исследовательский университет с фокусом на инженерии, естественных науках, вычислительных дисциплинах и междисциплинарных проектах. При поступлении важны как академическая подготовка, так и личные ответы и активности в анкете.",
+  "areas": [
+    "engineering",
+    "it",
+    "physics",
+    "science",
+    "economics",
+    "business"
+  ],
+  "art": "tech",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "economics",
+    "business"
+  ],
+  "prep": {
+    "must": "Заявка MIT, школьная выписка и Secondary School Report, две рекомендации учителей, SAT или ACT; английский экзамен — если применимо к твоей ситуации.",
+    "good": "Подготовь короткие ответы об интересах и проектах, попроси рекомендации у учителей математики/естественных наук и гуманитарного предмета, проверь тестовые сроки для нужного цикла.",
+    "source": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+  },
+  "sources": [
+    {
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

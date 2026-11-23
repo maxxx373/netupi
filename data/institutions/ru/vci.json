@@ -1,0 +1,38 @@
+{
+  "id": "vci",
+  "type": "college",
+  "name": {
+    "ru": "Высший колледж информатики НГУ"
+  },
+  "country": "RU",
+  "city": "Новосибирск",
+  "website": "https://ci.nsu.ru/",
+  "admissions_url": "https://education.nsu.ru/college_admission/",
+  "about": "Профильный колледж при НГУ для тех, кто хочет углублённо изучать информатику и рассматривать дальнейшее обучение в вузе.",
+  "areas": [
+    "it",
+    "science"
+  ],
+  "art": "tech",
+  "fields": [
+    "it",
+    "natural_sciences"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "sources": [
+    {
+      "url": "https://education.nsu.ru/college_admission/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

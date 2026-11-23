@@ -1,0 +1,60 @@
+{
+  "id": "ucl",
+  "type": "university",
+  "name": {
+    "ru": "University College London",
+    "en": "University College London"
+  },
+  "country": "GB",
+  "city": "Лондон",
+  "website": "https://www.ucl.ac.uk/",
+  "admissions_url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply",
+  "about": "Многопрофильный университет Лондона; в каталоге представлены архитектура, инженерия, естественные науки, медицина, право и социальные дисциплины.",
+  "areas": [
+    "architecture",
+    "construction",
+    "engineering",
+    "science",
+    "medicine",
+    "law",
+    "economics",
+    "botany",
+    "environment",
+    "psychology"
+  ],
+  "art": "modern",
+  "fields": [
+    "architecture",
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "law",
+    "economics",
+    "psychology"
+  ],
+  "prep": {
+    "must": "Для бакалавриата нужна заявка UCAS. Проверь страновые эквиваленты диплома, предметные и языковые требования на странице выбранного курса.",
+    "good": "Подготовь академические документы и рекомендацию от школы. Для творческих и некоторых профессиональных курсов уточни портфолио, тест или интервью.",
+    "source": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants"
+  },
+  "sources": [
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

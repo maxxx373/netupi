@@ -1,0 +1,52 @@
+{
+  "id": "aucegypt",
+  "type": "university",
+  "name": {
+    "ru": "The American University in Cairo",
+    "en": "The American University in Cairo"
+  },
+  "country": "EG",
+  "city": "Новый Каир",
+  "website": "https://www.aucegypt.edu/",
+  "admissions_url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
+  "about": "Англоязычный исследовательский университет Каира с программами в инженерии, науках, бизнесе, архитектуре, гуманитарных и социальных областях.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "business",
+    "law",
+    "media",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "business",
+    "law",
+    "media"
+  ],
+  "prep": {
+    "must": "Подай онлайн-заявку и загрузи документы об образовании по требованиям своего школьного сертификата. Для всех новых студентов требуется академический английский; нужны две рекомендации от учителей или консультантов.",
+    "good": "Подготовь оригинальное личное заявление, официальные транскрипты и тест английского TOEFL/IELTS/Duolingo. Уточни отдельные критерии программы и дату нужного набора.",
+    "source": "https://www.aucegypt.edu/admissions/undergraduate-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

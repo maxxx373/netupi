@@ -1,0 +1,60 @@
+{
+  "id": "edinburgh",
+  "type": "university",
+  "name": {
+    "ru": "The University of Edinburgh",
+    "en": "The University of Edinburgh"
+  },
+  "country": "GB",
+  "city": "Эдинбург",
+  "website": "https://www.ed.ac.uk/",
+  "admissions_url": "https://www.ed.ac.uk/studying/international/applying/undergraduate",
+  "about": "Исследовательский университет Шотландии с направлениями от ветеринарии, биологии и сельского хозяйства до инженерии, права и гуманитарных наук.",
+  "areas": [
+    "science",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "languages",
+    "botany",
+    "veterinary",
+    "environment",
+    "agriculture"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "linguistics",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подай заявку через UCAS, сравни школьную квалификацию с требованиями курса и проверь обязательные предметы и уровень английского. Требования различаются между программами.",
+    "good": "Проверь, есть ли у курса дополнительные требования, например тест, интервью или портфолио; внеси все прогнозируемые оценки в заявку.",
+    "source": "https://study.ed.ac.uk/undergraduate/entry-requirements/understanding"
+  },
+  "sources": [
+    {
+      "url": "https://www.ed.ac.uk/studying/international/applying/undergraduate",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://study.ed.ac.uk/undergraduate/entry-requirements/understanding",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

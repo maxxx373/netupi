@@ -1,0 +1,50 @@
+{
+  "id": "iitbombay",
+  "type": "university",
+  "name": {
+    "ru": "Indian Institute of Technology Bombay",
+    "en": "Indian Institute of Technology Bombay"
+  },
+  "country": "IN",
+  "city": "Мумбаи",
+  "website": "https://www.iitb.ac.in/",
+  "admissions_url": "https://acad.iitb.ac.in/admissions/international",
+  "about": "Технологический институт в Мумбаи с инженерными, естественно-научными, архитектурными, дизайнерскими и междисциплинарными программами.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "design",
+    "materials"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "it",
+    "design_art"
+  ],
+  "prep": {
+    "must": "Для иностранных граждан IIT Bombay указывает поступление на undergraduate программы через JEE Advanced. Проверь категорию гражданства, eligibility и требования текущего экзамена на официальном сайте.",
+    "good": "Сосредоточь подготовку на математике, физике и химии, сверяйся с официальной программой и прошлыми вариантами экзамена. Уточни сроки подачи заявления в IIT и распределения по программам.",
+    "source": "https://acad.iitb.ac.in/admissions/international"
+  },
+  "sources": [
+    {
+      "url": "https://acad.iitb.ac.in/admissions/international",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

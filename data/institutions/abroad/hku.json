@@ -1,0 +1,54 @@
+{
+  "id": "hku",
+  "type": "university",
+  "name": {
+    "ru": "The University of Hong Kong",
+    "en": "The University of Hong Kong"
+  },
+  "country": "HK",
+  "city": "Гонконг",
+  "website": "https://www.hku.hk/",
+  "admissions_url": "https://www.admissions.hku.hk/apply/international-qualifications",
+  "about": "Многопрофильный университет Гонконга с программами в медицине, праве, инженерии, архитектуре, науках и бизнесе.",
+  "areas": [
+    "medicine",
+    "law",
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "business",
+    "botany",
+    "agriculture"
+  ],
+  "art": "classic",
+  "fields": [
+    "medicine",
+    "law",
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "business",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Выбери путь подачи по своей школьной квалификации и представь актуальные или прогнозируемые оценки. Проверь English Language Requirement и требования факультета; shortlisted candidates могут приглашаться на интервью.",
+    "good": "Заранее подготовь список достижений и дополнительные материалы факультета. После подачи следи за applicant portal и официальными запросами документов.",
+    "source": "https://www.admissions.hku.hk/apply/international-qualifications"
+  },
+  "sources": [
+    {
+      "url": "https://www.admissions.hku.hk/apply/international-qualifications",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

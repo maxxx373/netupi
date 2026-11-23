@@ -1,0 +1,53 @@
+{
+  "id": "tecmonterrey",
+  "type": "university",
+  "name": {
+    "ru": "Tecnológico de Monterrey",
+    "en": "Tecnológico de Monterrey"
+  },
+  "country": "MX",
+  "city": "Монтеррей",
+  "website": "https://tec.mx/en",
+  "admissions_url": "https://tec.mx/en/undergraduate",
+  "about": "Частный технологический университет Мексики с программами в инженерии, бизнесе, архитектуре, дизайне, ИТ и устойчивом развитии.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "it",
+    "business",
+    "design",
+    "science",
+    "agriculture"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "architecture",
+    "it",
+    "business",
+    "design_art",
+    "natural_sciences",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Зарегистрируй онлайн-заявку, загрузи текущие школьные оценки и документы личности, выполни внутреннее академическое тестирование и языковые требования выбранной программы.",
+    "good": "Подготовь описание проектов и достижений, проверь возможность сдачи SAT/ACT и требования кампуса. Окончательный список зависит от страны и программы.",
+    "source": "https://tec.mx/en/undergraduate"
+  },
+  "sources": [
+    {
+      "url": "https://tec.mx/en/undergraduate",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

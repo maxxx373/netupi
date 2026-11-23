@@ -1,0 +1,58 @@
+{
+  "id": "cambridge",
+  "type": "university",
+  "name": {
+    "ru": "University of Cambridge",
+    "en": "University of Cambridge"
+  },
+  "country": "GB",
+  "city": "Кембридж",
+  "website": "https://www.cam.ac.uk/",
+  "admissions_url": "https://www.undergraduate.study.cam.ac.uk/apply",
+  "about": "Крупный университет с коллегиальной системой и широким выбором программ, включая естественные науки, инженерное дело, медицину и право.",
+  "areas": [
+    "science",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "languages",
+    "botany",
+    "agriculture"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "linguistics",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подай заявку через UCAS, проверь международную эквивалентность диплома, оценки и нужные предметы. В зависимости от курса и колледжа могут потребоваться тест, дополнительная анкета и интервью.",
+    "good": "Сверь требования конкретного колледжа и курса, заранее уточни регистрацию на admissions assessment и попроси школу выслать прогнозируемые оценки.",
+    "source": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

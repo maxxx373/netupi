@@ -1,0 +1,50 @@
+{
+  "id": "iitdelhi",
+  "type": "university",
+  "name": {
+    "ru": "Indian Institute of Technology Delhi",
+    "en": "Indian Institute of Technology Delhi"
+  },
+  "country": "IN",
+  "city": "Дели",
+  "website": "https://home.iitd.ac.in/",
+  "admissions_url": "https://international.iitd.ac.in/undergraduate-studies/",
+  "about": "Технологический институт Индии с программами по гражданскому, биохимическому, химическому, механическому и другим направлениям инженерии.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "materials",
+    "botany",
+    "biotechnology"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "it"
+  ],
+  "prep": {
+    "must": "Бакалавриат IIT Delhi требует прохождения JEE Advanced, включая отдельные правила для иностранных граждан. Проверь eligibility, учебные предметы и действующий экзаменационный цикл.",
+    "good": "Системно готовь математику, физику и химию по официальной программе JEE Advanced; заранее проверь порядок регистрации, документы об окончании школы и выделение мест.",
+    "source": "https://international.iitd.ac.in/undergraduate-studies/"
+  },
+  "sources": [
+    {
+      "url": "https://international.iitd.ac.in/undergraduate-studies/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

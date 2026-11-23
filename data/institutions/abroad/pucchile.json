@@ -1,0 +1,55 @@
+{
+  "id": "pucchile",
+  "type": "university",
+  "name": {
+    "ru": "Pontificia Universidad Católica de Chile",
+    "en": "Pontificia Universidad Católica de Chile"
+  },
+  "country": "CL",
+  "city": "Сантьяго",
+  "website": "https://www.uc.cl/en/",
+  "admissions_url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
+  "about": "Исследовательский университет с направлениями в инженерии, архитектуре, медицине, сельском хозяйстве, экологии и бизнесе.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "business",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture",
+    "business"
+  ],
+  "prep": {
+    "must": "Для иностранного школьного образования проверь один из специальных путей поступления и требования к признанию диплома. Условия различаются по программе и статусу абитуриента.",
+    "good": "Уточни, требуется ли PAES, подготовь испанский и переводы академических документов. Просмотри международную страницу приёма и отдельные критерии факультета.",
+    "source": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/"
+  },
+  "sources": [
+    {
+      "url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

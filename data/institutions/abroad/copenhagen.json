@@ -1,0 +1,51 @@
+{
+  "id": "copenhagen",
+  "type": "university",
+  "name": {
+    "ru": "University of Copenhagen",
+    "en": "University of Copenhagen"
+  },
+  "country": "DK",
+  "city": "Копенгаген",
+  "website": "https://www.ku.dk/english/",
+  "admissions_url": "https://www.ku.dk/studies/admission/bachelor",
+  "about": "Классический исследовательский университет с сильными направлениями в медицине, естественных науках, праве, сельском хозяйстве и ветеринарии.",
+  "areas": [
+    "science",
+    "medicine",
+    "law",
+    "economics",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "medicine",
+    "law",
+    "economics",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Для бакалавриата нужны оконченная средняя школа, требования конкретной программы и документы об образовании. Важно: все бакалаврские программы университета преподаются на датском, требуется академический уровень датского.",
+    "good": "Заранее проверь эквивалентность диплома и языковое подтверждение. Иностранные заявки имеют ранний срок подачи; актуальные даты сверяй на официальной странице.",
+    "source": "https://www.ku.dk/studies/admission/bachelor"
+  },
+  "sources": [
+    {
+      "url": "https://www.ku.dk/studies/admission/bachelor",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

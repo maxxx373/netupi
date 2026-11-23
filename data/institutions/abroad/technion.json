@@ -1,0 +1,52 @@
+{
+  "id": "technion",
+  "type": "university",
+  "name": {
+    "ru": "Technion – Israel Institute of Technology",
+    "en": "Technion – Israel Institute of Technology"
+  },
+  "country": "IL",
+  "city": "Хайфа",
+  "website": "https://www.technion.ac.il/en/",
+  "admissions_url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/",
+  "about": "Технический университет Израиля с направлениями в гражданском строительстве, инженерии, биологии, материаловедении, архитектуре и науках.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "materials",
+    "botany",
+    "agriculture",
+    "environment",
+    "medicine"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "agriculture",
+    "medicine"
+  ],
+  "prep": {
+    "must": "Для международного англоязычного BSc проверь признанную школьную квалификацию и критерии расчёта Sekem. В первый год предлагаются базовые курсы на английском с изучением иврита для дальнейшего обучения.",
+    "good": "Укрепляй математику, физику и химию, подготовь заверенные документы и подтверждение языка. Уточни, какие инженерные направления доступны в текущем наборе.",
+    "source": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/"
+  },
+  "sources": [
+    {
+      "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

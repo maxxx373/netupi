@@ -1,0 +1,54 @@
+{
+  "id": "imperial",
+  "type": "university",
+  "name": {
+    "ru": "Imperial College London",
+    "en": "Imperial College London"
+  },
+  "country": "GB",
+  "city": "Лондон",
+  "website": "https://www.imperial.ac.uk/",
+  "admissions_url": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+  "about": "Технологический и медицинский исследовательский университет с программами в инженерии, естественных науках, медицине и бизнесе.",
+  "areas": [
+    "engineering",
+    "construction",
+    "science",
+    "medicine",
+    "business",
+    "environment",
+    "materials"
+  ],
+  "art": "tech",
+  "fields": [
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "business"
+  ],
+  "prep": {
+    "must": "Подай заявку через UCAS и проверь признание школьной квалификации, обязательные предметы и минимальные оценки для конкретного курса. Некоторые кафедры требуют вступительный тест или интервью.",
+    "good": "Для инженерных и научных программ укрепляй математику и профильные науки; проверь требования к английскому и дополнительным этапам отбора.",
+    "source": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/"
+  },
+  "sources": [
+    {
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

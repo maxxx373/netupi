@@ -1,0 +1,50 @@
+{
+  "id": "waterloo",
+  "type": "university",
+  "name": {
+    "ru": "University of Waterloo",
+    "en": "University of Waterloo"
+  },
+  "country": "CA",
+  "city": "Ватерлоо, Онтарио",
+  "website": "https://uwaterloo.ca/",
+  "admissions_url": "https://uwaterloo.ca/future-students/admissions/required-documents",
+  "about": "Публичный университет в Ватерлоо с крупными направлениями в математике, ИТ, инженерии и естественных науках. В ряде факультетов предусмотрены дополнительные анкеты о проектах и опыте.",
+  "areas": [
+    "it",
+    "engineering",
+    "science",
+    "business",
+    "economics",
+    "architecture"
+  ],
+  "art": "tech",
+  "fields": [
+    "it",
+    "engineering",
+    "natural_sciences",
+    "business",
+    "economics",
+    "architecture"
+  ],
+  "prep": {
+    "must": "Школьные оценки и документы по требованиям страны; нужные предметы старшей школы для конкретной программы; подтверждение английского, если последние четыре года обучения были не в англоязычной системе.",
+    "good": "Для инженерии и математики заполни Admission Information Form; для некоторых программ также нужна supplementary form. Следи за заявкой и списком недостающих документов в портале.",
+    "source": "https://uwaterloo.ca/future-students/admissions/required-documents"
+  },
+  "sources": [
+    {
+      "url": "https://uwaterloo.ca/future-students/admissions/required-documents",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

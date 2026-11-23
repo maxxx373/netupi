@@ -1,0 +1,54 @@
+{
+  "id": "oxford",
+  "type": "university",
+  "name": {
+    "ru": "University of Oxford",
+    "en": "University of Oxford"
+  },
+  "country": "GB",
+  "city": "Оксфорд",
+  "website": "https://www.ox.ac.uk/",
+  "admissions_url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford",
+  "about": "Коллегиальный исследовательский университет с программами по естественным наукам, медицине, праву, гуманитарным дисциплинам и сельскому хозяйству.",
+  "areas": [
+    "science",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "languages",
+    "botany",
+    "agriculture",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "linguistics",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подай заявку через UCAS, проверь, принимает ли Oxford твой школьный диплом, и выполни предметные требования выбранного курса. Для ряда направлений есть вступительный тест и интервью.",
+    "good": "Заранее изучи формат теста и чтения по предмету, попроси школу подготовить академическую рекомендацию и оставь время на личное заявление. Условия различаются по курсам.",
+    "source": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford"
+  },
+  "sources": [
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

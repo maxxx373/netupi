@@ -1,0 +1,60 @@
+{
+  "id": "unam",
+  "type": "university",
+  "name": {
+    "ru": "National Autonomous University of Mexico",
+    "en": "National Autonomous University of Mexico"
+  },
+  "country": "MX",
+  "city": "Мехико",
+  "website": "https://www.unam.mx/",
+  "admissions_url": "https://www.dgae.unam.mx/",
+  "about": "Крупный государственный университет Мексики с программами от инженерии, медицины и архитектуры до наук о растениях, сельского хозяйства и гуманитарных областей.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "environment",
+    "media"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture",
+    "media"
+  ],
+  "prep": {
+    "must": "Иностранным выпускникам школы нужно окончить среднее образование, оформить признание/ревалидацию при необходимости и пройти конкурсный вступительный экзамен UNAM. Большинство программ преподаётся на испанском.",
+    "good": "Готовься к экзамену по официальной программе, заранее изучи испанский и переведи школьные документы. Для некоторых курсов предусмотрены дополнительные prerequisites.",
+    "source": "https://www.escolar.unam.mx/"
+  },
+  "sources": [
+    {
+      "url": "https://www.dgae.unam.mx/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.escolar.unam.mx/",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

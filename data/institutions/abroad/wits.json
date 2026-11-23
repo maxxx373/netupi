@@ -1,0 +1,55 @@
+{
+  "id": "wits",
+  "type": "university",
+  "name": {
+    "ru": "University of the Witwatersrand",
+    "en": "University of the Witwatersrand"
+  },
+  "country": "ZA",
+  "city": "Йоханнесбург",
+  "website": "https://www.wits.ac.za/",
+  "admissions_url": "https://www.wits.ac.za/undergraduate/apply-to-wits/",
+  "about": "Исследовательский университет Йоханнесбурга с программами в инженерии, архитектуре, науках о жизни, медицине, праве и бизнесе.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "law",
+    "business",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture",
+    "law",
+    "business"
+  ],
+  "prep": {
+    "must": "Подай онлайн-заявку и приложи школьные документы. Для иностранной квалификации проверь требования к эквивалентности, английскому, APS и выбранной степени; минимальный балл не гарантирует место.",
+    "good": "Подготовь паспорт, заверенные оценки и документы о языке. Для ограниченных программ проверь ранний срок и дополнительные критерии отбора.",
+    "source": "https://www.wits.ac.za/undergraduate/apply-to-wits/"
+  },
+  "sources": [
+    {
+      "url": "https://www.wits.ac.za/undergraduate/apply-to-wits/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

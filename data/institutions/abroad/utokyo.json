@@ -1,0 +1,55 @@
+{
+  "id": "utokyo",
+  "type": "university",
+  "name": {
+    "ru": "The University of Tokyo",
+    "en": "The University of Tokyo"
+  },
+  "country": "JP",
+  "city": "Токио",
+  "website": "https://www.u-tokyo.ac.jp/en/",
+  "admissions_url": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html",
+  "about": "Ведущий японский университет с факультетами естественных наук, инженерии, архитектуры, сельского хозяйства, права и медицины.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "economics",
+    "agriculture",
+    "environment",
+    "materials"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "economics",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Для традиционных бакалаврских программ иностранным выпускникам школ за пределами Японии нужно смотреть отдельные правила Special Screening Tests; большинство занятий на японском и требует высокого уровня языка. Прежняя англоязычная программа PEAK завершила набор после 2026 года.",
+    "good": "Изучи требования факультета и экзамена на японском, проверь признание школьного образования и язык задолго до подачи. Англоязычная альтернатива Global Science Course предназначена для перевода после двух лет университета.",
+    "source": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

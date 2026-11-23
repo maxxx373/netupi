@@ -1,0 +1,54 @@
+{
+  "id": "western",
+  "type": "university",
+  "name": {
+    "ru": "Western University",
+    "en": "Western University"
+  },
+  "country": "CA",
+  "city": "Лондон, Онтарио",
+  "website": "https://www.uwo.ca/",
+  "admissions_url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/index.html",
+  "about": "Исследовательский университет в Лондоне, Онтарио, с направлениями в бизнесе, инженерии, естественных и медицинских науках, социальных дисциплинах и гуманитарных областях.",
+  "areas": [
+    "business",
+    "engineering",
+    "science",
+    "medicine",
+    "economics",
+    "psychology",
+    "law",
+    "media"
+  ],
+  "art": "classic",
+  "fields": [
+    "business",
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "economics",
+    "psychology",
+    "law",
+    "media"
+  ],
+  "prep": {
+    "must": "Подать заявку (обычно через OUAC); предоставить школьные оценки, страновые документы и prerequisites программы; подтвердить английский, если он требуется.",
+    "good": "Проверь дополнительные профили, портфолио, audition или тесты для выбранной программы. Запланируй IELTS/TOEFL заранее, если он нужен, и следи за Choose Western portal.",
+    "source": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/index.html"
+  },
+  "sources": [
+    {
+      "url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/index.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

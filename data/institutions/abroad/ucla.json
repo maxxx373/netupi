@@ -1,0 +1,54 @@
+{
+  "id": "ucla",
+  "type": "university",
+  "name": {
+    "ru": "University of California, Los Angeles",
+    "en": "University of California, Los Angeles"
+  },
+  "country": "US",
+  "city": "Лос-Анджелес, Калифорния",
+  "website": "https://www.ucla.edu/",
+  "admissions_url": "https://admission.ucla.edu/apply/international-applicants",
+  "about": "Публичный исследовательский университет в Лос-Анджелесе. Выбор включает науки о жизни, инженерию, ИТ, кино и медиа, психологию, экономику и другие области.",
+  "areas": [
+    "medicine",
+    "science",
+    "engineering",
+    "it",
+    "economics",
+    "design",
+    "media",
+    "psychology"
+  ],
+  "art": "modern",
+  "fields": [
+    "medicine",
+    "natural_sciences",
+    "engineering",
+    "it",
+    "economics",
+    "design_art",
+    "media",
+    "psychology"
+  ],
+  "prep": {
+    "must": "Заявка University of California; школьные оценки и национальные экзамены/сертификаты; документы об образовании. Для многих иностранных абитуриентов требуется подтвердить английский.",
+    "good": "Проверь требования выбранной программы и страны, переведи документы на английский и заранее спланируй подтверждение средств для визовых документов. UCLA не учитывает SAT/ACT при решении о зачислении.",
+    "source": "https://admission.ucla.edu/apply/international-applicants"
+  },
+  "sources": [
+    {
+      "url": "https://admission.ucla.edu/apply/international-applicants",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

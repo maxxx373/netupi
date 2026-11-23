@@ -1,0 +1,49 @@
+{
+  "id": "epfl",
+  "type": "university",
+  "name": {
+    "ru": "École polytechnique fédérale de Lausanne",
+    "en": "École polytechnique fédérale de Lausanne"
+  },
+  "country": "CH",
+  "city": "Лозанна",
+  "website": "https://www.epfl.ch/en/",
+  "admissions_url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+  "about": "Федеральный политехнический университет Лозанны с программами в инженерии, вычислительных и естественных науках, архитектуре и строительстве.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "environment",
+    "materials"
+  ],
+  "art": "tech",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "it"
+  ],
+  "prep": {
+    "must": "Сверь критерии для своей страны и школьного диплома: для ряда иностранных аттестатов возможны подготовительный курс или экзамен. Для бакалавриата требуется французский не ниже B2.",
+    "good": "Подготовь оценки за старшие классы, документы об образовании и подтверждение французского; проверь правила перевода и легализации документов.",
+    "source": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/"
+  },
+  "sources": [
+    {
+      "url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

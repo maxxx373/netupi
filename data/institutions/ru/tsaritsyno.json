@@ -1,0 +1,40 @@
+{
+  "id": "tsaritsyno",
+  "type": "college",
+  "name": {
+    "ru": "Колледж «Царицыно»"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://tsaritsyno.mskobr.ru/",
+  "admissions_url": "https://tsaritsyno.mskobr.ru/abiturientam",
+  "about": "Программы связаны с гостиничным делом, управлением, информационными технологиями и индустрией гостеприимства.",
+  "areas": [
+    "hospitality",
+    "business",
+    "it",
+    "tourism"
+  ],
+  "art": "hospitality",
+  "fields": [
+    "business",
+    "it"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "sources": [
+    {
+      "url": "https://tsaritsyno.mskobr.ru/abiturientam",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

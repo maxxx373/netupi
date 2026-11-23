@@ -1,0 +1,50 @@
+{
+  "id": "ethzurich",
+  "type": "university",
+  "name": {
+    "ru": "ETH Zurich",
+    "en": "ETH Zurich"
+  },
+  "country": "CH",
+  "city": "Цюрих",
+  "website": "https://ethz.ch/en.html",
+  "admissions_url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html",
+  "about": "Швейцарский федеральный технологический вуз с сильными направлениями в инженерии, архитектуре, естественных науках и сельском хозяйстве.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "botany",
+    "agriculture",
+    "environment",
+    "materials"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Проверь требования именно для страны и типа школьного аттестата: ETH публикует ежегодно обновляемые правила. Для бакалавриата необходимо подтвердить немецкий язык к сроку подачи.",
+    "good": "Заранее сверь перечень предметов и необходимость вступительного экзамена, подготовь переводы аттестата и уточни визовые требования.",
+    "source": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html"
+  },
+  "sources": [
+    {
+      "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

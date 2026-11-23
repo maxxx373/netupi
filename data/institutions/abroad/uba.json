@@ -1,0 +1,55 @@
+{
+  "id": "uba",
+  "type": "university",
+  "name": {
+    "ru": "University of Buenos Aires",
+    "en": "University of Buenos Aires"
+  },
+  "country": "AR",
+  "city": "Буэнос-Айрес",
+  "website": "https://www.uba.ar/",
+  "admissions_url": "https://www.uba.ar/estudiantesextranjeros",
+  "about": "Крупный государственный университет Аргентины с факультетами медицины, права, архитектуры, инженерии, ветеринарии, сельского хозяйства и естественных наук.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "economics"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture",
+    "economics"
+  ],
+  "prep": {
+    "must": "Проверь правила зачисления иностранцев в зависимости от статуса и страны диплома. Для ряда поступающих предусмотрены признание аттестата и обязательный Ciclo Básico Común; обучение в основном на испанском.",
+    "good": "Начни с подтверждения уровня испанского и оформления аттестата/его эквивалентности. Отдельно уточни требования факультета и документы для проживания.",
+    "source": "https://www.uba.ar/estudiantesextranjeros"
+  },
+  "sources": [
+    {
+      "url": "https://www.uba.ar/estudiantesextranjeros",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

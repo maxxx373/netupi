@@ -1,0 +1,53 @@
+{
+  "id": "anu",
+  "type": "university",
+  "name": {
+    "ru": "Australian National University",
+    "en": "Australian National University"
+  },
+  "country": "AU",
+  "city": "Канберра",
+  "website": "https://www.anu.edu.au/",
+  "admissions_url": "https://study.anu.edu.au/apply/international-applications",
+  "about": "Национальный исследовательский университет Австралии с направлениями в науках, инженерии, сельском хозяйстве, экологии, праве и международных отношениях.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "law",
+    "economics",
+    "botany",
+    "agriculture",
+    "environment",
+    "international"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "law",
+    "economics",
+    "agriculture",
+    "international_relations"
+  ],
+  "prep": {
+    "must": "Подай онлайн-заявку и подтверди академические требования программы, английский и дополнительные условия курса. Путь подачи зависит от квалификации; отдельные программы имеют собственные критерии.",
+    "good": "Подготовь транскрипт и подтверждение языка, проверь нужные документы школы и порядок подтверждения предложения. Для стандартных экзаменационных систем может применяться UAC.",
+    "source": "https://study.anu.edu.au/apply/international-applications"
+  },
+  "sources": [
+    {
+      "url": "https://study.anu.edu.au/apply/international-applications",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "polimi",
+  "type": "university",
+  "name": {
+    "ru": "Politecnico di Milano",
+    "en": "Politecnico di Milano"
+  },
+  "country": "IT",
+  "city": "Милан",
+  "website": "https://www.polimi.it/en",
+  "admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply",
+  "about": "Технический университет с направлениями в архитектуре, строительстве, дизайне, инженерии, технологиях и городском планировании.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "design",
+    "it",
+    "materials"
+  ],
+  "art": "architecture",
+  "fields": [
+    "engineering",
+    "architecture",
+    "design_art",
+    "it"
+  ],
+  "prep": {
+    "must": "Проверь правила приёма для выбранной программы Laurea: могут быть вступительный тест и требования по языку. Для иностранного школьного диплома заранее проверь условия признания.",
+    "good": "Подготовь паспорт, школьные документы и переводы; для архитектуры и дизайна проверь формат отбора и программу вступительного испытания.",
+    "source": "https://www.polimi.it/en/prospective-students/how-to-apply"
+  },
+  "sources": [
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

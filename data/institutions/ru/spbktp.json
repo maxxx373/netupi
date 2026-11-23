@@ -1,0 +1,40 @@
+{
+  "id": "spbktp",
+  "type": "college",
+  "name": {
+    "ru": "Санкт-Петербургский колледж туризма и предпринимательства"
+  },
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://spb-ktp.ru/",
+  "admissions_url": "https://spb-ktp.ru/priemnaya/index",
+  "about": "Колледж для тех, кому интересны туризм, гостеприимство и организация работы с клиентами; условия приёма и программы размещены на сайте.",
+  "areas": [
+    "tourism",
+    "hospitality",
+    "business",
+    "languages"
+  ],
+  "art": "hospitality",
+  "fields": [
+    "business",
+    "linguistics"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "sources": [
+    {
+      "url": "https://spb-ktp.ru/priemnaya/index",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

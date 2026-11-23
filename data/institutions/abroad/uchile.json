@@ -1,0 +1,54 @@
+{
+  "id": "uchile",
+  "type": "university",
+  "name": {
+    "ru": "University of Chile",
+    "en": "University of Chile"
+  },
+  "country": "CL",
+  "city": "Сантьяго",
+  "website": "https://uchile.cl/english",
+  "admissions_url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
+  "about": "Государственный исследовательский университет Чили с программами в инженерии, сельском хозяйстве, ветеринарии, архитектуре, медицине и естественных науках.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Иностранные выпускники могут подать через специальную систему ingreso para personas con estudios medios en el extranjero. Нужны документы о завершённой школе и выполнение требований конкретной программы.",
+    "good": "Изучи ежегодное руководство, заранее подготовь копию паспорта и подтверждённые школьные документы. Большинство степеней ведётся на испанском; проверь порядок признания аттестата.",
+    "source": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado"
+  },
+  "sources": [
+    {
+      "url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

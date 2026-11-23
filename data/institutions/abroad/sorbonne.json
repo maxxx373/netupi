@@ -1,0 +1,51 @@
+{
+  "id": "sorbonne",
+  "type": "university",
+  "name": {
+    "ru": "Sorbonne University",
+    "en": "Sorbonne University"
+  },
+  "country": "FR",
+  "city": "Париж",
+  "website": "https://www.sorbonne-universite.fr/en",
+  "admissions_url": "https://sciences.sorbonne-universite.fr/en/education/admissions",
+  "about": "Парижский университет с программами в естественных науках, медицине, инженерии, гуманитарных дисциплинах и исследованиях океана.",
+  "areas": [
+    "science",
+    "medicine",
+    "engineering",
+    "languages",
+    "law",
+    "botany",
+    "environment",
+    "marine"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "medicine",
+    "engineering",
+    "linguistics",
+    "law"
+  ],
+  "prep": {
+    "must": "Проверь условия на странице конкретной степени и порядок подачи с учётом страны проживания и гражданства. Большинство бакалаврских программ ведётся на французском; может потребоваться подтверждение языка.",
+    "good": "Заранее уточни, подаётся ли заявка через Études en France или напрямую, подготовь аттестат и переводы, проверь требования по французскому и предметам.",
+    "source": "https://sciences.sorbonne-universite.fr/en/education/admissions"
+  },
+  "sources": [
+    {
+      "url": "https://sciences.sorbonne-universite.fr/en/education/admissions",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

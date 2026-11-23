@@ -1,0 +1,54 @@
+{
+  "id": "michigan",
+  "type": "university",
+  "name": {
+    "ru": "University of Michigan",
+    "en": "University of Michigan"
+  },
+  "country": "US",
+  "city": "Анн-Арбор, Мичиган",
+  "website": "https://umich.edu/",
+  "admissions_url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+  "about": "Крупный публичный исследовательский университет в Анн-Арборе. Предлагает широкий выбор направлений, включая инженерные и естественные науки, бизнес, медицину и гуманитарные области.",
+  "areas": [
+    "engineering",
+    "it",
+    "science",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "media"
+  ],
+  "art": "classic",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "media"
+  ],
+  "prep": {
+    "must": "Common Application; школьные оценки и документы об образовании; подтверждение английского, если требуется; материалы из страны обучения по официальным правилам приёма.",
+    "good": "Проверь требования именно для страны, где учишься: университет публикует отдельные рекомендации и форматы документов. Переводы, тесты и документы от школы лучше запрашивать заранее.",
+    "source": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines"
+  },
+  "sources": [
+    {
+      "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

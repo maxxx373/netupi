@@ -1,0 +1,49 @@
+{
+  "id": "dvfu",
+  "type": "university",
+  "name": {
+    "ru": "Дальневосточный федеральный университет"
+  },
+  "country": "RU",
+  "city": "Владивосток",
+  "website": "https://www.dvfu.ru/",
+  "admissions_url": "https://www.dvfu.ru/admission/",
+  "about": "Многопрофильный университет во Владивостоке с программами в инженерии, морских науках, медицине, экономике и гуманитарных областях.",
+  "areas": [
+    "engineering",
+    "science",
+    "medicine",
+    "economics",
+    "law",
+    "languages",
+    "international",
+    "business",
+    "media"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "economics",
+    "law",
+    "linguistics",
+    "international_relations",
+    "business",
+    "media"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dvfu.ru/admission/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

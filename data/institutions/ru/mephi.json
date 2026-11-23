@@ -1,0 +1,42 @@
+{
+  "id": "mephi",
+  "type": "university",
+  "name": {
+    "ru": "НИЯУ МИФИ"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://mephi.ru/",
+  "admissions_url": "https://admission.mephi.ru/",
+  "about": "Национальный исследовательский университет с программами по физике, ядерным технологиям, энергетике, математике, ИТ и информационной безопасности.",
+  "areas": [
+    "physics",
+    "science",
+    "it",
+    "engineering",
+    "international",
+    "economics"
+  ],
+  "art": "science",
+  "fields": [
+    "natural_sciences",
+    "it",
+    "engineering",
+    "international_relations",
+    "economics"
+  ],
+  "sources": [
+    {
+      "url": "https://admission.mephi.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

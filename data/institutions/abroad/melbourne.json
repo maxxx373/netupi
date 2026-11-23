@@ -1,0 +1,54 @@
+{
+  "id": "melbourne",
+  "type": "university",
+  "name": {
+    "ru": "The University of Melbourne",
+    "en": "The University of Melbourne"
+  },
+  "country": "AU",
+  "city": "Мельбурн",
+  "website": "https://www.unimelb.edu.au/",
+  "admissions_url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements",
+  "about": "Исследовательский университет с программами по биологии, ботанике, сельскому хозяйству, ветеринарии, инженерии, архитектуре и медицине.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Для международного бакалавриата нужны признанная квалификация эквивалентная Year 12, минимальный балл курса, обязательные предметы и подтверждение английского. Условия публикуются отдельно по степеням.",
+    "good": "Сверь страновую эквивалентность оценок и предметные prerequisites, а также способ подачи для своей системы образования. Для некоторых программ требуются интервью, прослушивание или иные задания.",
+    "source": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements"
+  },
+  "sources": [
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

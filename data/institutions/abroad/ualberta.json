@@ -1,0 +1,52 @@
+{
+  "id": "ualberta",
+  "type": "university",
+  "name": {
+    "ru": "University of Alberta",
+    "en": "University of Alberta"
+  },
+  "country": "CA",
+  "city": "Эдмонтон, Альберта",
+  "website": "https://www.ualberta.ca/",
+  "admissions_url": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html",
+  "about": "Публичный исследовательский университет в Эдмонтоне, охватывающий инженерные, естественно-научные, медицинские, сельскохозяйственные и бизнес-направления.",
+  "areas": [
+    "science",
+    "engineering",
+    "it",
+    "medicine",
+    "agriculture",
+    "economics",
+    "business"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "it",
+    "medicine",
+    "agriculture",
+    "economics",
+    "business"
+  ],
+  "prep": {
+    "must": "Завершить или планировать завершить среднюю школу; показать требуемые пять академических предметов (набор зависит от программы), оценки и английскую подготовку.",
+    "good": "Проверь международные эквиваленты и prerequisites выбранной программы. Если не хватает предметов, посмотри Year One Foundation Program; требования по среднему баллу меняются по факультетам.",
+    "source": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

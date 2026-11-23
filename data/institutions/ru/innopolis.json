@@ -1,0 +1,39 @@
+{
+  "id": "innopolis",
+  "type": "university",
+  "name": {
+    "ru": "Университет Иннополис"
+  },
+  "country": "RU",
+  "city": "Иннополис",
+  "website": "https://innopolis.university/",
+  "admissions_url": "https://apply.innopolis.university/",
+  "about": "Специализированный университет в сфере информационных технологий, искусственного интеллекта и робототехники. Часть программ ведётся на русском и английском языках.",
+  "areas": [
+    "it",
+    "engineering",
+    "science",
+    "business"
+  ],
+  "art": "tech",
+  "fields": [
+    "it",
+    "engineering",
+    "natural_sciences",
+    "business"
+  ],
+  "sources": [
+    {
+      "url": "https://apply.innopolis.university/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

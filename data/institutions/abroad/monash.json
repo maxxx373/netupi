@@ -1,0 +1,52 @@
+{
+  "id": "monash",
+  "type": "university",
+  "name": {
+    "ru": "Monash University",
+    "en": "Monash University"
+  },
+  "country": "AU",
+  "city": "Мельбурн",
+  "website": "https://www.monash.edu/",
+  "admissions_url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
+  "about": "Международный университет с программами в инженерии, медицине, фармации, бизнесе, сельском хозяйстве и естественных науках.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "medicine",
+    "business",
+    "botany",
+    "agriculture",
+    "environment",
+    "pharmacy"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "business",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подготовь академические документы по всем полученным квалификациям, паспорт и доказательства английского, prerequisites и специальных требований курса. Подаваться можно напрямую или через авторизованного представителя.",
+    "good": "Подавайся заранее: некоторые курсы закрываются до начала семестра. Проверь правила заверения и перевода документов, дату старта и условия студенческой визы.",
+    "source": "https://www.monash.edu/study/how-to-apply/application-process/international-students"
+  },
+  "sources": [
+    {
+      "url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

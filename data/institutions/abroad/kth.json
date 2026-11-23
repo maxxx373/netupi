@@ -1,0 +1,49 @@
+{
+  "id": "kth",
+  "type": "university",
+  "name": {
+    "ru": "KTH Royal Institute of Technology",
+    "en": "KTH Royal Institute of Technology"
+  },
+  "country": "SE",
+  "city": "Стокгольм",
+  "website": "https://www.kth.se/en",
+  "admissions_url": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312",
+  "about": "Технологический университет Стокгольма с программами по инженерии, ИТ, архитектуре, строительству и устойчивым технологиям.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "it",
+    "science",
+    "materials",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "architecture",
+    "it",
+    "natural_sciences"
+  ],
+  "prep": {
+    "must": "Заявки на бакалавриат подаются через University Admissions Sweden. Проверь общие требования к завершённому среднему образованию, предметные prerequisites и английский для программы.",
+    "good": "Подготовь документы по правилам своей образовательной системы и переводы. На бакалавриате KTH выбор англоязычных программ ограничен, поэтому внимательно проверь язык курса.",
+    "source": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312"
+  },
+  "sources": [
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

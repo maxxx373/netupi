@@ -1,0 +1,57 @@
+{
+  "id": "mcgill",
+  "type": "university",
+  "name": {
+    "ru": "McGill University",
+    "en": "McGill University"
+  },
+  "country": "CA",
+  "city": "Монреаль, Квебек",
+  "website": "https://www.mcgill.ca/",
+  "admissions_url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements",
+  "about": "Англо- и франкоязычный исследовательский университет в Монреале. Включает программы по наукам, медицине, инженерии, праву, экономике и гуманитарным дисциплинам.",
+  "areas": [
+    "science",
+    "medicine",
+    "engineering",
+    "it",
+    "law",
+    "economics",
+    "languages"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "medicine",
+    "engineering",
+    "it",
+    "law",
+    "economics",
+    "linguistics"
+  ],
+  "prep": {
+    "must": "Заявка McGill и академические документы; школьные prerequisites и конкурентные оценки для конкретного факультета; подтверждение английского, если применимо.",
+    "good": "Проверь требования для страны и выбранной программы, а также признание школьного диплома. Закажи официальную отправку результатов и языкового теста, если он нужен.",
+    "source": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency"
+  },
+  "sources": [
+    {
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

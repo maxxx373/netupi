@@ -1,0 +1,41 @@
+{
+  "id": "misis",
+  "type": "university",
+  "name": {
+    "ru": "НИТУ МИСИС"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://misis.ru/",
+  "admissions_url": "https://misis.ru/applicants/",
+  "about": "Университет развивает направления материаловедения, инженерии, горного дела, ИТ, экономики и биомедицинской инженерии.",
+  "areas": [
+    "engineering",
+    "science",
+    "it",
+    "business",
+    "medicine"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "natural_sciences",
+    "it",
+    "business",
+    "medicine"
+  ],
+  "sources": [
+    {
+      "url": "https://misis.ru/applicants/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

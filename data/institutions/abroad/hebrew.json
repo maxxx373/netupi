@@ -1,0 +1,53 @@
+{
+  "id": "hebrew",
+  "type": "university",
+  "name": {
+    "ru": "The Hebrew University of Jerusalem",
+    "en": "The Hebrew University of Jerusalem"
+  },
+  "country": "IL",
+  "city": "Иерусалим",
+  "website": "https://en.huji.ac.il/",
+  "admissions_url": "https://international.huji.ac.il/",
+  "about": "Исследовательский университет Израиля с программами в сельском хозяйстве, биологии, ветеринарии, медицине, праве и гуманитарных науках.",
+  "areas": [
+    "science",
+    "medicine",
+    "law",
+    "economics",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment",
+    "languages"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "medicine",
+    "law",
+    "economics",
+    "agriculture",
+    "linguistics"
+  ],
+  "prep": {
+    "must": "Требования к иностранному школьному диплому, языку и отбору зависят от степени и языка преподавания. Проверь международный бакалавриат и действующий порядок на сайте университета.",
+    "good": "Уточни, требуется ли подготовительная программа Mechina, экзамен психометрии или подтверждение иврита/английского; заранее приготовь переводы и апостиль документов.",
+    "source": "https://international.huji.ac.il/"
+  },
+  "sources": [
+    {
+      "url": "https://international.huji.ac.il/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

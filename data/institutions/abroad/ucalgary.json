@@ -1,0 +1,57 @@
+{
+  "id": "ucalgary",
+  "type": "university",
+  "name": {
+    "ru": "University of Calgary",
+    "en": "University of Calgary"
+  },
+  "country": "CA",
+  "city": "Калгари, Альберта",
+  "website": "https://www.ucalgary.ca/",
+  "admissions_url": "https://www.ucalgary.ca/future-students/undergraduate",
+  "about": "Публичный университет в Калгари с программами в инженерии, энергетике, естественных науках, бизнесе, здравоохранении и социальных дисциплинах.",
+  "areas": [
+    "engineering",
+    "science",
+    "business",
+    "economics",
+    "medicine",
+    "it",
+    "psychology"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "natural_sciences",
+    "business",
+    "economics",
+    "medicine",
+    "it",
+    "psychology"
+  ],
+  "prep": {
+    "must": "Онлайн-заявка; школьные оценки и документы; предметные требования программы и подтверждение английского, если необходимо. Для поступающих с международной системой набор документов определяется страной.",
+    "good": "Проверь prerequisites и дедлайн на странице конкретной степени, а затем отслеживай applicant portal для дополнительных запросов. Результаты и средние баллы зависят от года и программы.",
+    "source": "https://www.ucalgary.ca/future-students/undergraduate/apply"
+  },
+  "sources": [
+    {
+      "url": "https://www.ucalgary.ca/future-students/undergraduate",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/apply",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

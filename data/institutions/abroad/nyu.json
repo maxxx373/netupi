@@ -1,0 +1,54 @@
+{
+  "id": "nyu",
+  "type": "university",
+  "name": {
+    "ru": "New York University",
+    "en": "New York University"
+  },
+  "country": "US",
+  "city": "Нью-Йорк, Нью-Йорк",
+  "website": "https://www.nyu.edu/",
+  "admissions_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
+  "about": "Частный исследовательский университет в Нью-Йорке с программами в бизнесе, искусстве, медиа, социальных науках, международных исследованиях и других направлениях.",
+  "areas": [
+    "business",
+    "economics",
+    "media",
+    "design",
+    "law",
+    "languages",
+    "international",
+    "psychology"
+  ],
+  "art": "modern",
+  "fields": [
+    "business",
+    "economics",
+    "media",
+    "design_art",
+    "law",
+    "linguistics",
+    "international_relations",
+    "psychology"
+  ],
+  "prep": {
+    "must": "Заявка для первого курса через Common Application; академические документы; дополнительные вопросы/материалы выбранного подразделения. Для абитуриентов, которым английский не родной и не был языком обучения, обычно нужен языковой экзамен.",
+    "good": "Уточни политику тестов для конкретного цикла и кампуса: NYU указывает test-optional для цикла 2027–2028. Проверь требования к английскому, переводу и дополнительным материалам программы.",
+    "source": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

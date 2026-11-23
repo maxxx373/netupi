@@ -1,0 +1,53 @@
+{
+  "id": "ksu",
+  "type": "university",
+  "name": {
+    "ru": "King Saud University",
+    "en": "King Saud University"
+  },
+  "country": "SA",
+  "city": "Эр-Рияд",
+  "website": "https://ksu.edu.sa/en",
+  "admissions_url": "https://dar.ksu.edu.sa/en/overseas",
+  "about": "Государственный университет Саудовской Аравии с факультетами инженерии, архитектуры, сельского хозяйства, естественных наук, медицины и бизнеса.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "business",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture",
+    "business"
+  ],
+  "prep": {
+    "must": "Международным абитуриентам доступны отдельные внешние стипендиальные места и ограниченные платные пути. Для стипендии требуются признанный школьный диплом и SAT; условия зависят от программы и категории заявителя.",
+    "good": "Проверь возраст, давность аттестата, требуемые заверения и доступность специальности иностранцам. Подготовь паспорт, перевод документов и документы, запрашиваемые платформой Study in Saudi.",
+    "source": "https://dar.ksu.edu.sa/en/overseas"
+  },
+  "sources": [
+    {
+      "url": "https://dar.ksu.edu.sa/en/overseas",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

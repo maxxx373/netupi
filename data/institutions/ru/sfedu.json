@@ -1,0 +1,49 @@
+{
+  "id": "sfedu",
+  "type": "university",
+  "name": {
+    "ru": "Южный федеральный университет"
+  },
+  "country": "RU",
+  "city": "Ростов-на-Дону",
+  "website": "https://sfedu.ru/",
+  "admissions_url": "https://welcome.sfedu.ru/",
+  "about": "Университет с программами в инженерии, ИТ, физике, биологии, экономике, психологии, педагогике и гуманитарных науках.",
+  "areas": [
+    "engineering",
+    "it",
+    "science",
+    "economics",
+    "business",
+    "psychology",
+    "pedagogy",
+    "media",
+    "languages"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "economics",
+    "business",
+    "psychology",
+    "pedagogy",
+    "media",
+    "linguistics"
+  ],
+  "sources": [
+    {
+      "url": "https://welcome.sfedu.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

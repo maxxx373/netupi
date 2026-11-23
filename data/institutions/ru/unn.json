@@ -1,0 +1,49 @@
+{
+  "id": "unn",
+  "type": "university",
+  "name": {
+    "ru": "Университет Лобачевского (ННГУ)"
+  },
+  "country": "RU",
+  "city": "Нижний Новгород",
+  "website": "https://www.unn.ru/",
+  "admissions_url": "https://www.unn.ru/site/abitur",
+  "about": "Многопрофильный университет с направлениями по математике и ИТ, радиофизике, экономике, праву, психологии, филологии и международным отношениям.",
+  "areas": [
+    "it",
+    "science",
+    "economics",
+    "law",
+    "psychology",
+    "languages",
+    "media",
+    "international",
+    "pedagogy"
+  ],
+  "art": "classic",
+  "fields": [
+    "it",
+    "natural_sciences",
+    "economics",
+    "law",
+    "psychology",
+    "linguistics",
+    "media",
+    "international_relations",
+    "pedagogy"
+  ],
+  "sources": [
+    {
+      "url": "https://www.unn.ru/site/abitur",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "innocollege",
+  "type": "college",
+  "name": {
+    "ru": "Колледж Университета Иннополис"
+  },
+  "country": "RU",
+  "city": "Иннополис",
+  "website": "https://innopolis.university/",
+  "admissions_url": "https://apply.innopolis.university/",
+  "about": "Программы среднего профессионального образования в ИТ и робототехнике; учебная среда связана с технологическим университетом Иннополис.",
+  "areas": [
+    "it",
+    "engineering"
+  ],
+  "art": "tech",
+  "fields": [
+    "it",
+    "engineering"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "sources": [
+    {
+      "url": "https://apply.innopolis.university/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

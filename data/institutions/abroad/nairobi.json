@@ -1,0 +1,59 @@
+{
+  "id": "nairobi",
+  "type": "university",
+  "name": {
+    "ru": "University of Nairobi",
+    "en": "University of Nairobi"
+  },
+  "country": "KE",
+  "city": "Найроби",
+  "website": "https://www.uonbi.ac.ke/",
+  "admissions_url": "https://business.uonbi.ac.ke/node/577",
+  "about": "Крупный государственный университет Кении с программами по сельскому хозяйству, ветеринарии, инженерии, строительству, медицине и естественным наукам.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment",
+    "law"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture",
+    "law"
+  ],
+  "prep": {
+    "must": "Иностранный школьный диплом должен быть приравнен к кенийской квалификации компетентным органом. Нужно выполнить общие и программные требования университета и получить документы, необходимые для студенческого разрешения.",
+    "good": "Заранее подай на оценку/эквивалентность диплома, подготовь транскрипт и переводы. Проверь пороги отдельно по факультету и наличие лабораторных или профессиональных prerequisites.",
+    "source": "https://www.uonbi.ac.ke/sites/default/files/Procedure%20for%20Equation%20of%20Foreign%20Qualifications.pdf"
+  },
+  "sources": [
+    {
+      "url": "https://business.uonbi.ac.ke/node/577",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.uonbi.ac.ke/sites/default/files/Procedure%20for%20Equation%20of%20Foreign%20Qualifications.pdf",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

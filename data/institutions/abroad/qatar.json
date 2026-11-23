@@ -1,0 +1,53 @@
+{
+  "id": "qatar",
+  "type": "university",
+  "name": {
+    "ru": "Qatar University",
+    "en": "Qatar University"
+  },
+  "country": "QA",
+  "city": "Доха",
+  "website": "https://www.qu.edu.qa/en-us",
+  "admissions_url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx",
+  "about": "Национальный университет Катара с программами в инженерии, науках, медицине, сельском хозяйстве, праве и бизнесе.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "medicine",
+    "botany",
+    "agriculture",
+    "law",
+    "business",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "agriculture",
+    "law",
+    "business"
+  ],
+  "prep": {
+    "must": "Подай онлайн-заявку и официальный школьный транскрипт с заверением. Иностранным кандидатам нужно выполнить требования программы по английскому и математике, а также подать визу или заявку на стипендию.",
+    "good": "Проверь требования именно выбранного колледжа: предметный трек и пороги различаются. Оригиналы документов держи готовыми для предъявления после зачисления.",
+    "source": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx"
+  },
+  "sources": [
+    {
+      "url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "tudelft",
+  "type": "university",
+  "name": {
+    "ru": "Delft University of Technology",
+    "en": "Delft University of Technology"
+  },
+  "country": "NL",
+  "city": "Делфт",
+  "website": "https://www.tudelft.nl/en/",
+  "admissions_url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma",
+  "about": "Технический университет с программами в инженерии, архитектуре, строительстве, транспортных и цифровых технологиях.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "it",
+    "science",
+    "materials",
+    "environment"
+  ],
+  "art": "architecture",
+  "fields": [
+    "engineering",
+    "architecture",
+    "it",
+    "natural_sciences"
+  ],
+  "prep": {
+    "must": "Проверь, эквивалентен ли школьный диплом нидерландскому VWO, и выполни требования по математике, физике и другим предметам выбранной программы. Для поступления требуется достаточный английский.",
+    "good": "Для архитектурных и инженерных курсов внимательно изучи программу отбора, предметные prerequisites и порядок загрузки заверенных документов.",
+    "source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma"
+  },
+  "sources": [
+    {
+      "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

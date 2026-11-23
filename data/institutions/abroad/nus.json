@@ -1,0 +1,55 @@
+{
+  "id": "nus",
+  "type": "university",
+  "name": {
+    "ru": "National University of Singapore",
+    "en": "National University of Singapore"
+  },
+  "country": "SG",
+  "city": "Сингапур",
+  "website": "https://nus.edu.sg/",
+  "admissions_url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+  "about": "Крупный исследовательский университет Азии с программами в инженерии, сельском хозяйстве, естественных науках, медицине, бизнесе и гуманитарных областях.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "business",
+    "botany",
+    "agriculture",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "business",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Окончи или заверши к установленному сроку не менее 12 лет общего образования. Проверь требования к своей квалификации, предметные prerequisites курса и документы, которые нужно отправить через applicant portal.",
+    "good": "Подготовь официальные школьные результаты и прогнозируемые оценки, если они принимаются по твоей системе. Для отдельных программ нужны дополнительные формы или подтверждения.",
+    "source": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners"
+  },
+  "sources": [
+    {
+      "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "sydney",
+  "type": "university",
+  "name": {
+    "ru": "The University of Sydney",
+    "en": "The University of Sydney"
+  },
+  "country": "AU",
+  "city": "Сидней",
+  "website": "https://www.sydney.edu.au/",
+  "admissions_url": "https://www.sydney.edu.au/study/how-to-apply/international-students.html",
+  "about": "Многопрофильный университет Австралии с программами в инженерии, архитектуре, медицине, сельском хозяйстве, ветеринарии и естественных науках.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Проверь, признаётся ли твоя школьная квалификация и достигает ли она академического порога выбранного курса. Нужны выполненные предметные prerequisites и английский язык.",
+    "good": "Подготовь официальные документы и ознакомься с курс-специфичными дополнительными условиями. Для отдельных программ доступны только ограниченные места или особый процесс отбора.",
+    "source": "https://www.sydney.edu.au/study/how-to-apply/international-students.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.sydney.edu.au/study/how-to-apply/international-students.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

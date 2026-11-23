@@ -1,0 +1,54 @@
+{
+  "id": "umalaya",
+  "type": "university",
+  "name": {
+    "ru": "Universiti Malaya",
+    "en": "Universiti Malaya"
+  },
+  "country": "MY",
+  "city": "Куала-Лумпур",
+  "website": "https://www.um.edu.my/",
+  "admissions_url": "https://aasd.um.edu.my/faq-ug-international-admission",
+  "about": "Старейший исследовательский университет Малайзии с направлениями в науках, инженерии, медицине, сельском хозяйстве, бизнесе и ИТ.",
+  "areas": [
+    "science",
+    "engineering",
+    "medicine",
+    "botany",
+    "agriculture",
+    "business",
+    "law",
+    "it",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "agriculture",
+    "business",
+    "law",
+    "it"
+  ],
+  "prep": {
+    "must": "Для международного бакалавриата требуется завершённое образование не менее 12 лет и признанная квалификация. Подготовь аттестат, подробные оценки и подтверждение английского по требованиям программы.",
+    "good": "Заранее проверь, нужны ли интервью или дополнительные вступительные условия факультета. Переведи и заверь документы по актуальным правилам университета.",
+    "source": "https://aasd.um.edu.my/faq-ug-international-admission"
+  },
+  "sources": [
+    {
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

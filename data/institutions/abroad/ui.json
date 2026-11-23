@@ -1,0 +1,57 @@
+{
+  "id": "ui",
+  "type": "university",
+  "name": {
+    "ru": "Universitas Indonesia",
+    "en": "Universitas Indonesia"
+  },
+  "country": "ID",
+  "city": "Депок",
+  "website": "https://www.ui.ac.id/en/",
+  "admissions_url": "https://admission.ui.ac.id/",
+  "about": "Крупный государственный университет Индонезии с программами в медицине, инженерии, сельском хозяйстве, естественных науках и социальных дисциплинах.",
+  "areas": [
+    "medicine",
+    "engineering",
+    "science",
+    "law",
+    "business",
+    "botany",
+    "agriculture",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "medicine",
+    "engineering",
+    "natural_sciences",
+    "law",
+    "business",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Иностранные абитуриенты подают заявку через International Admission. Проверь доступные программы и период приёма; подготовь паспорт, школьный аттестат и транскрипт, а для англоязычных программ — подтверждение английского.",
+    "good": "Собери официальные переводы и медицинскую справку, если она требуется факультетом. Процесс и список документов различаются по программе и набору.",
+    "source": "https://admission.ui.ac.id/procedure"
+  },
+  "sources": [
+    {
+      "url": "https://admission.ui.ac.id/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://admission.ui.ac.id/procedure",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

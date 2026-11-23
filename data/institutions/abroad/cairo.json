@@ -1,0 +1,53 @@
+{
+  "id": "cairo",
+  "type": "university",
+  "name": {
+    "ru": "Cairo University",
+    "en": "Cairo University"
+  },
+  "country": "EG",
+  "city": "Гиза",
+  "website": "https://cu.edu.eg/Home",
+  "admissions_url": "https://admission.study-in-egypt.gov.eg/",
+  "about": "Государственный университет Египта с широкими факультетами медицины, инженерии, сельского хозяйства, ветеринарии, естественных наук и права.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "law",
+    "architecture"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "medicine",
+    "agriculture",
+    "law",
+    "architecture"
+  ],
+  "prep": {
+    "must": "Иностранным абитуриентам следует проверять признание школьного аттестата, предметные условия факультета и подачу через государственную систему Study in Egypt. Программы и язык обучения зависят от факультета.",
+    "good": "Заранее подготовь заверенные и переведённые документы, паспорт и медицинские справки, если их запросят. Проверь, требуется ли арабский и есть ли англоязычный трек по выбранной специальности.",
+    "source": "https://admission.study-in-egypt.gov.eg/"
+  },
+  "sources": [
+    {
+      "url": "https://admission.study-in-egypt.gov.eg/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "stanford",
+  "type": "university",
+  "name": {
+    "ru": "Stanford University",
+    "en": "Stanford University"
+  },
+  "country": "US",
+  "city": "Стэнфорд, Калифорния",
+  "website": "https://www.stanford.edu/",
+  "admissions_url": "https://admission.stanford.edu/apply/first-year/",
+  "about": "Частный исследовательский университет в Кремниевой долине. Студенты подают заявку в университет в целом, а в учебном плане сочетаются сильная академическая база, междисциплинарность и проектная работа.",
+  "areas": [
+    "engineering",
+    "it",
+    "science",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "design"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "business",
+    "economics",
+    "medicine",
+    "law",
+    "design_art"
+  ],
+  "prep": {
+    "must": "Common Application и Stanford Questions; школьная выписка/академические результаты; School Report и рекомендация консультанта; две рекомендации учителей; SAT или ACT.",
+    "good": "Планируй тесты и сбор школьных документов заранее. TOEFL/IELTS для поступления не обязательны, но высокий уровень английского нужен для учёбы; переводы и результаты должны идти по правилам приёмной комиссии.",
+    "source": "https://admission.stanford.edu/apply/international/"
+  },
+  "sources": [
+    {
+      "url": "https://admission.stanford.edu/apply/first-year/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://admission.stanford.edu/apply/international/",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

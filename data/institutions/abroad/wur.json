@@ -1,0 +1,48 @@
+{
+  "id": "wur",
+  "type": "university",
+  "name": {
+    "ru": "Wageningen University & Research",
+    "en": "Wageningen University & Research"
+  },
+  "country": "NL",
+  "city": "Вагенинген",
+  "website": "https://www.wur.nl/",
+  "admissions_url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
+  "about": "Университет, специализирующийся на сельском хозяйстве, биологии, пищевых системах, экологии, природопользовании и науках о животных.",
+  "areas": [
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment",
+    "science",
+    "biology",
+    "food",
+    "forestry"
+  ],
+  "art": "environment",
+  "fields": [
+    "agriculture",
+    "natural_sciences"
+  ],
+  "prep": {
+    "must": "Подай заявку через Studielink и заверши анкету WUR для иностранного диплома. Проверь соответствие школьного образования уровню VWO, обязательные предметы конкретного бакалавриата и язык обучения.",
+    "good": "Собери свежую ведомость оценок и заранее уточни, нужны ли дополнительные экзамены по математике, химии или биологии. Для части программ важны сочетания нескольких естественных наук.",
+    "source": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education"
+  },
+  "sources": [
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

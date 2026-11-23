@@ -1,0 +1,54 @@
+{
+  "id": "carleton",
+  "type": "university",
+  "name": {
+    "ru": "Carleton University",
+    "en": "Carleton University"
+  },
+  "country": "CA",
+  "city": "Оттава, Онтарио",
+  "website": "https://carleton.ca/",
+  "admissions_url": "https://admissions.carleton.ca/apply-now-international-students/",
+  "about": "Публичный университет в Оттаве с программами в инженерии, архитектуре, международных отношениях, журналистике, бизнесе и ИТ.",
+  "areas": [
+    "engineering",
+    "it",
+    "international",
+    "media",
+    "business",
+    "economics",
+    "design",
+    "architecture"
+  ],
+  "art": "modern",
+  "fields": [
+    "engineering",
+    "it",
+    "international_relations",
+    "media",
+    "business",
+    "economics",
+    "design_art",
+    "architecture"
+  ],
+  "prep": {
+    "must": "Международная заявка напрямую через Carleton360 или через OUAC; документы о предыдущем образовании и языковой экзамен, если применимо.",
+    "good": "Изучи requirements именно своей образовательной системы и программы. Для некоторых направлений есть портфолио/дополнительные требования; отслеживай запросы документов в Carleton360.",
+    "source": "https://admissions.carleton.ca/apply-now-international-students/"
+  },
+  "sources": [
+    {
+      "url": "https://admissions.carleton.ca/apply-now-international-students/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

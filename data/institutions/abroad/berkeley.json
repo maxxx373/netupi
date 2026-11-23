@@ -1,0 +1,54 @@
+{
+  "id": "berkeley",
+  "type": "university",
+  "name": {
+    "ru": "University of California, Berkeley",
+    "en": "University of California, Berkeley"
+  },
+  "country": "US",
+  "city": "Беркли, Калифорния",
+  "website": "https://www.berkeley.edu/",
+  "admissions_url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/",
+  "about": "Публичный исследовательский университет в районе залива Сан-Франциско. Среди направлений — инженерия, естественные науки, бизнес, экономика, общественные и гуманитарные дисциплины.",
+  "areas": [
+    "engineering",
+    "it",
+    "science",
+    "economics",
+    "business",
+    "law",
+    "media",
+    "design"
+  ],
+  "art": "classic",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "economics",
+    "business",
+    "law",
+    "media",
+    "design_art"
+  ],
+  "prep": {
+    "must": "Заявка UC; завершённое среднее образование и документ, дающий право поступать в университет в стране обучения; академические результаты и требуемые подтверждения учебной программы.",
+    "good": "Сверь обязательные школьные предметы с выбранным направлением и заранее подготовь заверенные переводы. UC не использует SAT/ACT при отборе; проверь актуальные языковые требования и сроки подачи.",
+    "source": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/"
+  },
+  "sources": [
+    {
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

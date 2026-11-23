@@ -1,0 +1,54 @@
+{
+  "id": "ubc",
+  "type": "university",
+  "name": {
+    "ru": "University of British Columbia",
+    "en": "University of British Columbia"
+  },
+  "country": "CA",
+  "city": "Ванкувер и Келоуна, Британская Колумбия",
+  "website": "https://www.ubc.ca/",
+  "admissions_url": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/",
+  "about": "Публичный исследовательский университет с кампусами в Ванкувере и Оканагане. Требования к предметам зависят от выбранной степени, кампуса и страны, где получено школьное образование.",
+  "areas": [
+    "science",
+    "engineering",
+    "it",
+    "business",
+    "economics",
+    "medicine",
+    "psychology",
+    "languages"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "it",
+    "business",
+    "economics",
+    "medicine",
+    "psychology",
+    "linguistics"
+  ],
+  "prep": {
+    "must": "Заявка UBC; школьные оценки и документ об окончании школы; общие и программные предметные требования для выбранной страны и степени; требование по английскому.",
+    "good": "Сравни кампусы и конкретные степени, подготовь список школьных курсов с оценками. Для некоторых программ понадобится personal profile; проверь это до отправки заявки.",
+    "source": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/"
+  },
+  "sources": [
+    {
+      "url": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

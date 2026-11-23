@@ -1,0 +1,57 @@
+{
+  "id": "ntu",
+  "type": "university",
+  "name": {
+    "ru": "Nanyang Technological University",
+    "en": "Nanyang Technological University"
+  },
+  "country": "SG",
+  "city": "Сингапур",
+  "website": "https://www.ntu.edu.sg/",
+  "admissions_url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions",
+  "about": "Исследовательский университет Сингапура с направлениями в инженерии, образовании, науках, технологиях, бизнесе и коммуникациях.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "business",
+    "education",
+    "materials"
+  ],
+  "art": "tech",
+  "fields": [
+    "engineering",
+    "architecture",
+    "natural_sciences",
+    "it",
+    "business",
+    "pedagogy"
+  ],
+  "prep": {
+    "must": "Выбери заявку, соответствующую своей школьной квалификации. Подготовь результаты школы, документы личности, английские результаты при необходимости и проверь предметные требования программы.",
+    "good": "Проверь, принимается ли твой диплом напрямую или нужна дополнительная квалификация, например A-level/AP. Для некоторых кандидатов предусмотрена форма aptitude-based admissions.",
+    "source": "https://www.ntu.edu.sg/undergraduate/admissions/application-process"
+  },
+  "sources": [
+    {
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/undergraduate/admissions/application-process",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

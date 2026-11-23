@@ -1,0 +1,40 @@
+{
+  "id": "mcag",
+  "type": "college",
+  "name": {
+    "ru": "Московский колледж архитектуры и градостроительства"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://mcag.mskobr.ru/",
+  "admissions_url": "https://mcag.mskobr.ru/abiturientam",
+  "about": "Среднее профессиональное образование в архитектурно-строительных и городских специальностях.",
+  "areas": [
+    "architecture",
+    "engineering",
+    "design"
+  ],
+  "art": "architecture",
+  "fields": [
+    "architecture",
+    "engineering",
+    "design_art"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "sources": [
+    {
+      "url": "https://mcag.mskobr.ru/abiturientam",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

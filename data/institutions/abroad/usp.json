@@ -1,0 +1,59 @@
+{
+  "id": "usp",
+  "type": "university",
+  "name": {
+    "ru": "University of São Paulo",
+    "en": "University of São Paulo"
+  },
+  "country": "BR",
+  "city": "Сан-Паулу",
+  "website": "https://www5.usp.br/english/",
+  "admissions_url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/",
+  "about": "Крупнейший государственный университет Бразилии с направлениями в инженерии, сельском хозяйстве, ветеринарии, архитектуре, биологии и медицине.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "law",
+    "environment"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture",
+    "law"
+  ],
+  "prep": {
+    "must": "Для полной программы иностранные абитуриенты обычно поступают через конкурс FUVEST на португальском языке в Бразилии; существуют специальные маршруты PEC-G и отдельные правила. Обмен доступен через номинацию домашнего вуза.",
+    "good": "Заранее начни изучать португальский и проверь признание школьного диплома, доступный маршрут и документы. Не путай правила полного бакалавриата с обменом на семестр.",
+    "source": "https://internationaloffice.usp.br/new/en/index.php/admissions/degree-seeking-students/regular-undergraduat/"
+  },
+  "sources": [
+    {
+      "url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://internationaloffice.usp.br/new/en/index.php/admissions/degree-seeking-students/regular-undergraduat/",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "uct",
+  "type": "university",
+  "name": {
+    "ru": "University of Cape Town",
+    "en": "University of Cape Town"
+  },
+  "country": "ZA",
+  "city": "Кейптаун",
+  "website": "https://www.uct.ac.za/",
+  "admissions_url": "https://www.uct.ac.za/students/applications-admission-requirements",
+  "about": "Старейший исследовательский университет ЮАР с программами по биологии, сельскому хозяйству, инженерии, архитектуре, экологии и медицине.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "botany",
+    "agriculture",
+    "veterinary",
+    "environment",
+    "law"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "agriculture",
+    "law"
+  ],
+  "prep": {
+    "must": "Иностранный школьный аттестат должен давать право на университетское обучение и соответствовать требованиям matriculation exemption. Нужны курс-специфичные предметы и подтверждение английского.",
+    "good": "Проверь admission points score и требования факультета. Для некоторых направлений нужны National Benchmark Tests или портфолио; для архитектуры проверь отдельные даты и формат.",
+    "source": "https://www.onlinestudent.uct.ac.za/students/applications-admission-requirements/eligibility-admission"
+  },
+  "sources": [
+    {
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.onlinestudent.uct.ac.za/students/applications-admission-requirements/eligibility-admission",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

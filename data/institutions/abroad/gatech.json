@@ -1,0 +1,48 @@
+{
+  "id": "gatech",
+  "type": "university",
+  "name": {
+    "ru": "Georgia Institute of Technology",
+    "en": "Georgia Institute of Technology"
+  },
+  "country": "US",
+  "city": "Атланта, Джорджия",
+  "website": "https://www.gatech.edu/",
+  "admissions_url": "https://admission.gatech.edu/international/first-year",
+  "about": "Публичный технологический университет в Атланте, известный инженерными, вычислительными и естественно-научными направлениями. Есть междисциплинарные и архитектурные программы.",
+  "areas": [
+    "engineering",
+    "it",
+    "science",
+    "business",
+    "architecture"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "business",
+    "architecture"
+  ],
+  "prep": {
+    "must": "Заявка первого курса; академические документы по системе образования страны; SAT или ACT; подтверждение английского языка по допустимому для Georgia Tech способу.",
+    "good": "Удели внимание математике и естественным наукам: университет рекомендует сильную подготовку по этим предметам. Проверь, как именно школе отправлять документы и какой языковой экзамен подходит.",
+    "source": "https://admission.gatech.edu/international/first-year"
+  },
+  "sources": [
+    {
+      "url": "https://admission.gatech.edu/international/first-year",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

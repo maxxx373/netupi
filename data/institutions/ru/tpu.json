@@ -1,0 +1,42 @@
+{
+  "id": "tpu",
+  "type": "university",
+  "name": {
+    "ru": "Национальный исследовательский Томский политехнический университет"
+  },
+  "country": "RU",
+  "city": "Томск",
+  "website": "https://tpu.ru/",
+  "admissions_url": "https://tpu.ru/abitur/",
+  "about": "Инженерный университет с подготовкой по энергетике, нефтегазовому делу, химическим технологиям, ИТ, электронике и биомедицинской инженерии.",
+  "areas": [
+    "engineering",
+    "it",
+    "physics",
+    "science",
+    "medicine",
+    "economics"
+  ],
+  "art": "engineering",
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "medicine",
+    "economics"
+  ],
+  "sources": [
+    {
+      "url": "https://tpu.ru/abitur/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

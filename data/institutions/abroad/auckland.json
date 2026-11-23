@@ -1,0 +1,53 @@
+{
+  "id": "auckland",
+  "type": "university",
+  "name": {
+    "ru": "The University of Auckland",
+    "en": "The University of Auckland"
+  },
+  "country": "NZ",
+  "city": "Окленд",
+  "website": "https://www.auckland.ac.nz/",
+  "admissions_url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
+  "about": "Крупный исследовательский университет Новой Зеландии с инженерными, медицинскими, архитектурными, экологическими и естественно-научными программами.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "botany",
+    "agriculture",
+    "environment"
+  ],
+  "art": "modern",
+  "fields": [
+    "natural_sciences",
+    "engineering",
+    "architecture",
+    "medicine",
+    "law",
+    "agriculture"
+  ],
+  "prep": {
+    "must": "Подтверди эквивалент школьной квалификации для страны обучения и английский язык. У некоторых программ есть дополнительные академические или профессиональные требования.",
+    "good": "Изучи конкретные entry requirements по курсу и уровню, подготовь заверенные документы и проверь сроки получения визы и offer of place.",
+    "source": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html"
+  },
+  "sources": [
+    {
+      "url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mcmaster",
+  "type": "university",
+  "name": {
+    "ru": "McMaster University",
+    "en": "McMaster University"
+  },
+  "country": "CA",
+  "city": "Гамильтон, Онтарио",
+  "website": "https://www.mcmaster.ca/",
+  "admissions_url": "https://future.mcmaster.ca/apply/requirements/",
+  "about": "Исследовательский университет в Гамильтоне с программами в медицине и науках о здоровье, инженерии, бизнесе, естественных и социальных науках.",
+  "areas": [
+    "medicine",
+    "science",
+    "engineering",
+    "business",
+    "economics",
+    "psychology",
+    "it"
+  ],
+  "art": "classic",
+  "fields": [
+    "medicine",
+    "natural_sciences",
+    "engineering",
+    "business",
+    "economics",
+    "psychology",
+    "it"
+  ],
+  "prep": {
+    "must": "Заявка для международных абитуриентов; школьные академические документы и предметные prerequisites программы; подтверждение английского по требованиям университета.",
+    "good": "Сверь эквивалентность школьных предметов и оценки: набор требований и конкурсный средний балл различаются по программам. Проверь, нужны ли дополнительные формы или материалы.",
+    "source": "https://future.mcmaster.ca/apply/curriculum-requirements/"
+  },
+  "sources": [
+    {
+      "url": "https://future.mcmaster.ca/apply/requirements/",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://future.mcmaster.ca/apply/curriculum-requirements/",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}

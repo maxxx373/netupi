@@ -1,0 +1,59 @@
+{
+  "id": "harvard",
+  "type": "university",
+  "name": {
+    "ru": "Harvard University",
+    "en": "Harvard University"
+  },
+  "country": "US",
+  "city": "Кембридж, Массачусетс",
+  "website": "https://www.harvard.edu/",
+  "admissions_url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+  "about": "Частный исследовательский университет в Кембридже, рядом с Бостоном. Бакалавриат Harvard College предлагает широкий выбор учебных концентраций; студенты сначала подают документы в колледж, а не на отдельную специальность.",
+  "areas": [
+    "science",
+    "it",
+    "law",
+    "economics",
+    "business",
+    "languages",
+    "medicine",
+    "media"
+  ],
+  "art": "classic",
+  "fields": [
+    "natural_sciences",
+    "it",
+    "law",
+    "economics",
+    "business",
+    "linguistics",
+    "medicine",
+    "media"
+  ],
+  "prep": {
+    "must": "Common Application и ответы Harvard College; школьная выписка и School Report; рекомендации учителей; SAT или ACT. Для иностранных школьных документов может понадобиться перевод.",
+    "good": "Начни эссе и подготовку к тесту заранее; попроси школьного консультанта и учителей о рекомендациях заблаговременно. TOEFL/IELTS не заменяют SAT/ACT и не обязательны для всех кандидатов.",
+    "source": "https://college.harvard.edu/admissions/apply/international-applicants"
+  },
+  "sources": [
+    {
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "accessed": "2026-11-23",
+      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "confidence": "low",
+  "todo": [
+    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
+    "Русское название",
+    "Цены, проходные баллы, сроки подачи, общежитие",
+    "Фото со свободной лицензией"
+  ]
+}
