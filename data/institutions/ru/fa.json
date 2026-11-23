@@ -1,0 +1,165 @@
+{
+  "id": "fa",
+  "type": "university",
+  "name": {
+    "ru": "Финансовый университет при Правительстве Российской Федерации",
+    "en": "Financial University under the Government of the Russian Federation",
+    "short": "Финансовый университет"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1919,
+  "website": "https://www.fa.ru/",
+  "admissions_url": "https://www.fa.ru/for-applicants/bachelor/",
+  "intl_students_url": "https://www.fa.ru/for-applicants/for-foreign-applicants/bak/",
+  "summary": "Финансовый университет — крупный московский вуз, где готовят экономистов, финансистов, аудиторов, юристов, менеджеров и IT-специалистов для финансовой сферы. Главный корпус — у метро «Аэропорт», а ещё у вуза много филиалов по стране. Бюджетных мест в Москве на очной форме в 2026 году было около 1500, платных — почти 3500. Минимальные баллы ЕГЭ для бюджета высокие: 60 по большинству предметов.",
+  "highlights": [
+    "Сильная специализация на финансах, экономике, налогах и аудите",
+    "Есть IT-направления: машинное обучение, разработка ПО, информационная безопасность в финансовой сфере",
+    "Программы с английским и с углублённым изучением экономики Китая и китайского языка",
+    "Высокие минимальные пороги: 60 баллов ЕГЭ на бюджет (иностранный язык — 65)",
+    "Много филиалов в регионах, где обучение дешевле"
+  ],
+  "fields": ["economics", "business", "law", "it", "marketing", "linguistics", "psychology", "social_sciences", "international_relations", "media", "humanities"],
+  "levels": ["bachelor", "specialist", "master", "phd"],
+  "languages_of_instruction": ["ru", "en"],
+  "study_formats": ["full", "mixed", "online"],
+  "programs": [
+    {
+      "name": "Экономика и финансы (38.03.01, Финансовый факультет)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 650000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 99,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    },
+    {
+      "name": "Прикладное машинное обучение (01.03.02)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 450000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 113,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    },
+    {
+      "name": "Юриспруденция (40.03.01, Юридический факультет)",
+      "field": "law",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 590000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 154,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    },
+    {
+      "name": "Инженер-разработчик программного обеспечения (09.03.04)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 520000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 25,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    },
+    {
+      "name": "Маркетинг (38.03.02, Высшая школа управления)",
+      "field": "marketing",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 640000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 20,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    },
+    {
+      "name": "Международная экономика и торговля, с углублённым изучением Китая и китайского языка (38.03.01)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": { "amount": 790000, "currency": "RUB", "period": "year", "note": "1 курс, 2026/27, Москва, очно" },
+      "budget_places": 68,
+      "url": "https://www.fa.ru/for-applicants/bachelor/price/"
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 400000, "currency": "RUB", "period": "year", "note": "Москва, очно, 2026/27 (туризм, гостиничное дело, этика бизнеса); заочно и в филиалах дешевле" },
+    "tuition_max": { "amount": 790000, "currency": "RUB", "period": "year", "note": "Москва, очно, 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Скидки по оплате обучения",
+        "coverage": "partial",
+        "url": "https://www.fa.ru/for-applicants/bachelor/skidki/"
+      },
+      {
+        "name": "Образовательный кредит",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Это кредит, а не грант",
+        "url": "https://www.fa.ru/for-applicants/priyemka/credit/"
+      }
+    ]
+  },
+  "requirements": {
+    "ege_min_per_subject": { "Русский язык": 60, "Математика": 60, "Обществознание": 60, "Иностранный язык": 65, "История": 60, "Информатика": 60 },
+    "entrance_tests": true,
+    "portfolio": "no",
+    "olympiad_benefits": "Особые права для победителей и призёров олимпиад описаны в разделе «Льготы»; вуз публикует таблицу соответствия профилей олимпиад и предметов.",
+    "documents": [
+      "Паспорт или другой документ, удостоверяющий личность и гражданство",
+      "Аттестат или диплом",
+      "СНИЛС",
+      "Согласие на обработку персональных данных",
+      "Документы об индивидуальных достижениях (по желанию)",
+      "Документы для льгот и особых прав, если они есть"
+    ],
+    "notes": "Минимальные баллы указаны для бюджета на очной форме в Москве; для платных мест порог — 50 баллов. Подать документы можно лично, почтой или через Госуслуги."
+  },
+  "dorm": {
+    "available": true,
+    "notes": "Общежития у вуза есть (оплата проживания — в разделе для студентов), но условия заселения первокурсников и цены на официальном сайте мы не нашли."
+  },
+  "deadlines": [
+    { "what": "Начало приёма документов", "start": "06-20" },
+    { "what": "Приём документов для сдающих экзамены вуза (бюджет)", "start": "06-20", "end": "07-15" },
+    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25" },
+    { "what": "Приём документов на платное", "start": "06-20", "end": "08-12" },
+    { "what": "Согласие на зачисление, основной этап (бюджет)", "end": "08-05" },
+    { "what": "Заключение договоров на платное обучение", "start": "06-20", "end": "08-14" }
+  ],
+  "rankings": [
+    { "name": "RAEX-100", "year": 2026, "position": "10" },
+    { "name": "Forbes — лучшие вузы России", "year": 2026, "position": "11" }
+  ],
+  "perks": ["employment", "internships"],
+  "sources": [
+    { "url": "https://www.fa.ru/for-applicants/bachelor/", "accessed": "2026-11-23", "covers": "раздел приёма" },
+    { "url": "https://www.fa.ru/upload/constructor/503/ucgec8qw7oraczanlyunu9bhm7il3g0q/stoimost-bak-msk-1.pdf", "accessed": "2026-11-23", "covers": "прейскурант 2026/27, Москва" },
+    { "url": "https://www.fa.ru/upload/constructor/c0f/gbuok5qseeg0z36hpi6g46rr6mh55zyf/Bak_Spets-ktsp-113.pdf", "accessed": "2026-11-23", "covers": "бюджетные и платные места 2026/27" },
+    { "url": "https://www.fa.ru/for-applicants/bachelor/sroki/", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
+    { "url": "https://www.fa.ru/for-applicants/priyemka/min-balli/", "accessed": "2026-11-23", "covers": "минимальные баллы" },
+    { "url": "https://www.fa.ru/for-applicants/bachelor/doc-bak/", "accessed": "2026-11-23", "covers": "документы" },
+    { "url": "https://www.fa.ru/university/rating/", "accessed": "2026-11-23", "covers": "рейтинги" },
+    { "url": "https://www.fa.ru/for-applicants/priyemka/statistika-priema/", "accessed": "2026-11-23", "covers": "статистика приёма (только средние баллы и конкурс)" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "medium",
+  "todo": [
+    "Проходные баллы: на сайте публикуются только «средний балл» и конкурс без пояснения, что именно считается",
+    "Предметы ЕГЭ по каждой программе (перечень вступительных испытаний)",
+    "Общежития: число мест, гарантия для первокурсников, стоимость",
+    "Рейтинги QS/THE: на странице вуза неясно, мировая это позиция или среди российских вузов",
+    "Год основания (1919) сверить с официальной историей",
+    "Фото главного корпуса со свободной лицензией"
+  ]
+}
