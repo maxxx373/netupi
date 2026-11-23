@@ -34,7 +34,8 @@
     "design_art",
     "medicine",
     "social_sciences",
-    "humanities"
+    "humanities",
+    "agriculture"
   ],
   "levels": [
     "bachelor",
@@ -311,6 +312,11 @@
       "url": "https://www.timeshighereducation.com/world-university-rankings/world-university-rankings-2027-can-china-break-top-10",
       "accessed": "2026-11-23",
       "covers": "Место в THE World University Rankings 2027"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/FAQ.htm",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
     }
   ],
   "verified_at": "2026-11-23",
@@ -321,5 +327,29 @@
     "Найти минимальные баллы TOEFL/IELTS для программ на английском, если они есть в буклетах программ",
     "Проверить, есть ли у Цинхуа подготовительная программа по китайскому для будущих бакалавров",
     "Сверить список документов с версией 2027 года, когда её опубликуют"
-  ]
+  ],
+  "about": "Исследовательский университет с сильными программами в инженерии, архитектуре, науках, сельском хозяйстве, дизайне и городском развитии.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "business",
+    "botany",
+    "agriculture",
+    "environment"
+  ],
+  "art": "classic",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/FAQ.htm"
+    }
+  ],
+  "prep": {
+    "must": "Иностранным кандидатам нужны иностранное гражданство по правилам университета, школьный диплом, транскрипт и подтверждение языка программы. На китайско-англоязычных программах обычно нужен HSK 5; также проводится комплексная оценка.",
+    "good": "Подготовь резюме, персональное заявление, рекомендации и видео самопрезентации. Для архитектуры и искусства предусмотрено портфолио; требования зависят от division.",
+    "source": "https://international.join-tsinghua.edu.cn/Admission1/FAQ.htm"
+  }
 }

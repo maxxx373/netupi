@@ -4,7 +4,10 @@
   "name": {
     "ru": "Национальный исследовательский университет «Высшая школа экономики»",
     "en": "HSE University",
-    "short": "НИУ ВШЭ"
+    "short": "НИУ ВШЭ",
+    "alt": [
+      "НИУ «Высшая школа экономики»"
+    ]
   },
   "country": "RU",
   "city": "Москва",
@@ -31,84 +34,221 @@
     }
   ],
   "fields": [
-    "it", "engineering", "business", "economics", "law", "design_art", "psychology", "media",
-    "linguistics", "natural_sciences", "gamedev", "marketing", "international_relations", "humanities", "social_sciences"
+    "it",
+    "engineering",
+    "business",
+    "economics",
+    "law",
+    "design_art",
+    "psychology",
+    "media",
+    "linguistics",
+    "natural_sciences",
+    "gamedev",
+    "marketing",
+    "international_relations",
+    "humanities",
+    "social_sciences"
   ],
-  "levels": ["bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full", "mixed", "online"],
+  "levels": [
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
   "programs": [
     {
       "name": "Программная инженерия",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 980000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 980000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 160,
-      "passing_score": { "year": 2025, "value": 299, "kind": "ege_total", "note": "проходной на бюджет по каталогу ВШЭ; на платное — 260" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 299,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по каталогу ВШЭ; на платное — 260"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Экономика",
       "field": "economics",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1000000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 1000000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 100,
-      "passing_score": { "year": 2025, "value": 291, "kind": "ege_total", "note": "проходной на бюджет; на платное — 223" },
-      "ege_subjects": ["математика", "обществознание / информатика / иностранный язык (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 291,
+        "kind": "ege_total",
+        "note": "проходной на бюджет; на платное — 223"
+      },
+      "ege_subjects": [
+        "математика",
+        "обществознание / информатика / иностранный язык (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Юриспруденция",
       "field": "law",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 700000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 700000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 150,
-      "passing_score": { "year": 2025, "value": 282, "kind": "ege_total", "note": "проходной на бюджет; на платное — 212" },
-      "ege_subjects": ["обществознание", "история / иностранный язык (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 282,
+        "kind": "ege_total",
+        "note": "проходной на бюджет; на платное — 212"
+      },
+      "ege_subjects": [
+        "обществознание",
+        "история / иностранный язык (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Международные отношения",
       "field": "international_relations",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 740000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 740000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 45,
-      "passing_score": { "year": 2025, "value": 353, "kind": "ege_total", "note": "сумма по четырём предметам; на платное — 275" },
-      "ege_subjects": ["история", "иностранный язык", "обществознание / география (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 353,
+        "kind": "ege_total",
+        "note": "сумма по четырём предметам; на платное — 275"
+      },
+      "ege_subjects": [
+        "история",
+        "иностранный язык",
+        "обществознание / география (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Психология",
       "field": "psychology",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 750000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 750000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 80,
-      "passing_score": { "year": 2025, "value": 249, "kind": "ege_total", "note": "проходной на бюджет; на платное — 196" },
-      "ege_subjects": ["биология", "математика", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 249,
+        "kind": "ege_total",
+        "note": "проходной на бюджет; на платное — 196"
+      },
+      "ege_subjects": [
+        "биология",
+        "математика",
+        "русский язык"
+      ]
     },
     {
       "name": "Дизайн",
       "field": "design_art",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1080000, "currency": "RUB", "period": "year", "note": "2026 год" },
+      "tuition": {
+        "amount": 1080000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026 год"
+      },
       "budget_places": 65,
-      "passing_score": { "year": 2025, "value": 291, "kind": "other", "note": "ЕГЭ плюс творческое испытание ВШЭ; на платное — 200" },
-      "ege_subjects": ["творческое испытание ВШЭ", "литература", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 291,
+        "kind": "other",
+        "note": "ЕГЭ плюс творческое испытание ВШЭ; на платное — 200"
+      },
+      "ege_subjects": [
+        "творческое испытание ВШЭ",
+        "литература",
+        "русский язык"
+      ]
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 510000, "currency": "RUB", "period": "year", "note": "очное обучение в Москве, 2026 год (востоковедение)" },
-    "tuition_max": { "amount": 1300000, "currency": "RUB", "period": "year", "note": "«Международный бизнес» на английском, 2026 год" }
+    "tuition_min": {
+      "amount": 510000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очное обучение в Москве, 2026 год (востоковедение)"
+    },
+    "tuition_max": {
+      "amount": 1300000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "«Международный бизнес» на английском, 2026 год"
+    }
   },
   "funding": {
     "free_tuition": true,
     "grants": [
-      { "name": "Скидка 25% за высокие баллы", "coverage": "partial", "for_foreigners": false, "note": "на первый год платного бакалавриата для граждан РФ с суммой от 280 баллов", "url": "https://www.hse.ru/ba/creative/discounts" },
-      { "name": "Скидка 20% выпускникам Лицея ВШЭ и распределённого лицея", "coverage": "partial", "note": "на первый год обучения", "url": "https://www.hse.ru/ba/creative/discounts" },
-      { "name": "Скидка 10% иностранным гражданам и выпускникам колледжей", "coverage": "partial", "for_foreigners": true, "note": "на первый год обучения", "url": "https://www.hse.ru/ba/creative/discounts" }
+      {
+        "name": "Скидка 25% за высокие баллы",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "на первый год платного бакалавриата для граждан РФ с суммой от 280 баллов",
+        "url": "https://www.hse.ru/ba/creative/discounts"
+      },
+      {
+        "name": "Скидка 20% выпускникам Лицея ВШЭ и распределённого лицея",
+        "coverage": "partial",
+        "note": "на первый год обучения",
+        "url": "https://www.hse.ru/ba/creative/discounts"
+      },
+      {
+        "name": "Скидка 10% иностранным гражданам и выпускникам колледжей",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "на первый год обучения",
+        "url": "https://www.hse.ru/ba/creative/discounts"
+      }
     ]
   },
   "requirements": {
@@ -124,25 +264,87 @@
   },
   "dorm": {
     "available": true,
-    "cost_month": { "amount": 3036, "currency": "RUB", "period": "month", "note": "максимум для студентов среди московских общежитий с 01.07.2026; в самых дешёвых — от 1 403 ₽; получатели соцстипендии не платят" },
+    "cost_month": {
+      "amount": 3036,
+      "currency": "RUB",
+      "period": "month",
+      "note": "максимум для студентов среди московских общежитий с 01.07.2026; в самых дешёвых — от 1 403 ₽; получатели соцстипендии не платят"
+    },
     "notes": "Около десятка общежитий в Москве и Подмосковье (включая Дубки и Одинцово). Место положено не всем категориям студентов — остальным предлагают другие варианты жилья."
   },
   "deadlines": [
-    { "what": "Приём документов на бюджет (поступающие по ЕГЭ)", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
-    { "what": "Приём документов на бюджет для сдающих внутренние или творческие испытания", "start": "06-20", "end": "07-14", "intake": "Осенний набор" },
-    { "what": "Приём документов на платные места (без внутренних испытаний)", "start": "06-20", "end": "08-12", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов на бюджет (поступающие по ЕГЭ)",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на бюджет для сдающих внутренние или творческие испытания",
+      "start": "06-20",
+      "end": "07-14",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платные места (без внутренних испытаний)",
+      "start": "06-20",
+      "end": "08-12",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "6" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "6"
+    }
   ],
-  "perks": ["exchange", "internships", "intl_environment", "strong_research", "student_life", "employment", "military_center", "dual_degree"],
+  "perks": [
+    "exchange",
+    "internships",
+    "intl_environment",
+    "strong_research",
+    "student_life",
+    "employment",
+    "military_center",
+    "dual_degree"
+  ],
   "sources": [
-    { "url": "https://www.hse.ru/mirror/pubs/share/1162982432.pdf", "accessed": "2026-11-23", "covers": "каталог программ 2026: проходные баллы 2025, места и цены 2026, предметы" },
-    { "url": "https://www.hse.ru/news/admission/1171047876.html", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
-    { "url": "https://www.hse.ru/dormitory/price", "accessed": "2026-11-23", "covers": "стоимость общежитий" },
-    { "url": "https://www.hse.ru/ba/creative/discounts", "accessed": "2026-11-23", "covers": "скидки" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
-    { "url": "https://commons.wikimedia.org/wiki/File:HSE_new_building_(2015-01-22)_01.jpg", "accessed": "2026-11-23", "covers": "фото" }
+    {
+      "url": "https://www.hse.ru/mirror/pubs/share/1162982432.pdf",
+      "accessed": "2026-11-23",
+      "covers": "каталог программ 2026: проходные баллы 2025, места и цены 2026, предметы"
+    },
+    {
+      "url": "https://www.hse.ru/news/admission/1171047876.html",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "https://www.hse.ru/dormitory/price",
+      "accessed": "2026-11-23",
+      "covers": "стоимость общежитий"
+    },
+    {
+      "url": "https://www.hse.ru/ba/creative/discounts",
+      "accessed": "2026-11-23",
+      "covers": "скидки"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:HSE_new_building_(2015-01-22)_01.jpg",
+      "accessed": "2026-11-23",
+      "covers": "фото"
+    },
+    {
+      "url": "https://abitur.hse.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -151,5 +353,24 @@
     "Уточнить, какое именно здание ВШЭ на фото, или подобрать фото главного корпуса",
     "Добавить место в QS из официального источника",
     "Уточнить сроки приёма на творческие программы и правила выдачи мест в общежитии первокурсникам"
+  ],
+  "about": "Университет с широким выбором программ в экономике, управлении, социальных и гуманитарных науках, ИТ и дизайне; есть кампусы в нескольких городах.",
+  "areas": [
+    "economics",
+    "business",
+    "law",
+    "it",
+    "media",
+    "design",
+    "psychology",
+    "languages",
+    "international"
+  ],
+  "art": "modern",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://abitur.hse.ru/"
+    }
   ]
 }

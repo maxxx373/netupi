@@ -253,6 +253,11 @@
       "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
       "accessed": "2026-11-23",
       "covers": "рейтинг RAEX-100"
+    },
+    {
+      "url": "https://abiturient.mgimo.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
     }
   ],
   "verified_at": "2026-11-23",
@@ -265,5 +270,21 @@
     "Найти стоимость общежития и условия заселения",
     "Проверить программы двойных дипломов и обмены",
     "Проверить, какая программа самая дешёвая (650 или 710 тыс. ₽)"
+  ],
+  "about": "Университет, специализирующийся на международных отношениях, политике, праве, экономике и иностранных языках.",
+  "areas": [
+    "international",
+    "languages",
+    "law",
+    "economics",
+    "business",
+    "media"
+  ],
+  "art": "classic",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://abiturient.mgimo.ru/"
+    }
   ]
 }

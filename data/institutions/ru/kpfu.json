@@ -360,6 +360,11 @@
       "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
       "accessed": "2026-11-23",
       "covers": "рейтинг RAEX-100 2026 и 2025"
+    },
+    {
+      "url": "https://admissions.kpfu.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
     }
   ],
   "verified_at": "2026-11-23",
@@ -368,5 +373,18 @@
   "todo": [
     "Уточнить точные условия олимпиадных льгот (БВИ / 100 баллов) по приложению 3 к правилам приёма 2026",
     "Добавить позиции в международных рейтингах (QS/THE) из первоисточника"
-  ]
+  ],
+  "about": "Крупный многопрофильный университет: от медицины, естественных наук и ИТ до педагогики, права, экономики и гуманитарных направлений.",
+  "areas": [
+    "medicine",
+    "science",
+    "it",
+    "engineering",
+    "languages",
+    "law",
+    "economics",
+    "pedagogy",
+    "psychology"
+  ],
+  "art": "classic"
 }

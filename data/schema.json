@@ -4,215 +4,563 @@
   "title": "Учебное заведение",
   "description": "Одна запись = один вуз или колледж. Файл: data/institutions/<ru|abroad>/<id>.json",
   "type": "object",
-  "required": ["id", "type", "name", "country", "city", "website", "sources", "verified_at"],
+  "required": [
+    "id",
+    "type",
+    "name",
+    "country",
+    "city",
+    "website",
+    "sources",
+    "verified_at"
+  ],
   "additionalProperties": false,
   "definitions": {
     "money": {
       "type": "object",
-      "required": ["amount", "currency", "period"],
+      "required": [
+        "amount",
+        "currency",
+        "period"
+      ],
       "additionalProperties": false,
       "properties": {
-        "amount": { "type": "number", "minimum": 0 },
-        "currency": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217: RUB, EUR, USD, CNY, KRW…" },
-        "period": { "enum": ["year", "semester", "month", "total"] },
-        "note": { "type": "string" }
+        "amount": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217: RUB, EUR, USD, CNY, KRW…"
+        },
+        "period": {
+          "enum": [
+            "year",
+            "semester",
+            "month",
+            "total"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
       }
     },
     "field": {
       "description": "Направления совпадают с вопросом анкеты «Кем хочешь стать?»",
       "enum": [
-        "it", "medicine", "engineering", "business", "economics", "law", "design_art",
-        "psychology", "media", "linguistics", "natural_sciences", "pedagogy",
-        "architecture", "gamedev", "marketing", "international_relations",
-        "humanities", "social_sciences", "agriculture", "sport", "music", "other"
+        "it",
+        "medicine",
+        "engineering",
+        "business",
+        "economics",
+        "law",
+        "design_art",
+        "psychology",
+        "media",
+        "linguistics",
+        "natural_sciences",
+        "pedagogy",
+        "architecture",
+        "gamedev",
+        "marketing",
+        "international_relations",
+        "humanities",
+        "social_sciences",
+        "agriculture",
+        "sport",
+        "music",
+        "other"
       ]
     },
     "exam": {
-      "enum": ["IELTS", "TOEFL", "DET", "SAT", "ACT", "HSK", "TOPIK", "JLPT", "GOETHE", "TESTDAF", "DELF", "DALF", "DELE", "CILS", "TCF", "OTHER"]
+      "enum": [
+        "IELTS",
+        "TOEFL",
+        "DET",
+        "SAT",
+        "ACT",
+        "HSK",
+        "TOPIK",
+        "JLPT",
+        "GOETHE",
+        "TESTDAF",
+        "DELF",
+        "DALF",
+        "DELE",
+        "CILS",
+        "TCF",
+        "OTHER"
+      ]
     },
     "source": {
       "type": "object",
-      "required": ["url", "accessed"],
+      "required": [
+        "url",
+        "accessed"
+      ],
       "additionalProperties": false,
       "properties": {
-        "url": { "type": "string", "format": "uri" },
-        "accessed": { "type": "string", "format": "date" },
-        "covers": { "type": "string", "description": "Какие поля подтверждает этот источник" }
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "accessed": {
+          "type": "string",
+          "format": "date"
+        },
+        "covers": {
+          "type": "string",
+          "description": "Какие поля подтверждает этот источник"
+        }
       }
     }
   },
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Слаг: msu, hse, yonsei, tu-munich" },
-    "type": { "enum": ["university", "college"] },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Слаг: msu, hse, yonsei, tu-munich"
+    },
+    "type": {
+      "enum": [
+        "university",
+        "college"
+      ]
+    },
     "name": {
       "type": "object",
-      "required": ["ru"],
+      "required": [
+        "ru"
+      ],
       "additionalProperties": false,
       "properties": {
-        "ru": { "type": "string" },
-        "en": { "type": "string" },
-        "local": { "type": "string", "description": "На языке страны, если не ru/en" },
-        "short": { "type": "string", "description": "МГУ, ВШЭ, SNU" }
+        "ru": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "local": {
+          "type": "string",
+          "description": "На языке страны, если не ru/en"
+        },
+        "short": {
+          "type": "string",
+          "description": "МГУ, ВШЭ, SNU"
+        },
+        "alt": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Другие варианты названия"
+        }
       }
     },
-    "country": { "type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2" },
-    "city": { "type": "string" },
-    "city_size": { "enum": ["mega", "mid", "calm"], "description": "Совпадает с вопросом «В каком городе комфортно?»" },
-    "ownership": { "enum": ["public", "private"] },
-    "founded": { "type": "integer" },
-    "website": { "type": "string", "format": "uri" },
-    "admissions_url": { "type": "string", "format": "uri" },
-    "intl_students_url": { "type": "string", "format": "uri" },
-    "summary": { "type": "string", "maxLength": 600, "description": "2–4 предложения по-русски, своими словами" },
-    "highlights": { "type": "array", "items": { "type": "string" }, "maxItems": 6, "description": "Чем выделяется" },
-
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2"
+    },
+    "city": {
+      "type": "string"
+    },
+    "city_size": {
+      "enum": [
+        "mega",
+        "mid",
+        "calm"
+      ],
+      "description": "Совпадает с вопросом «В каком городе комфортно?»"
+    },
+    "ownership": {
+      "enum": [
+        "public",
+        "private"
+      ]
+    },
+    "founded": {
+      "type": "integer"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "admissions_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "intl_students_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 600,
+      "description": "2–4 предложения по-русски, своими словами"
+    },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 6,
+      "description": "Чем выделяется"
+    },
     "photos": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["file", "license", "source_url"],
+        "required": [
+          "file",
+          "license",
+          "source_url"
+        ],
         "additionalProperties": false,
         "properties": {
-          "file": { "type": "string", "description": "Путь в data/photos/" },
-          "author": { "type": "string" },
-          "license": { "type": "string", "description": "CC BY-SA 4.0, CC0, разрешение вуза…" },
-          "source_url": { "type": "string", "format": "uri" },
-          "caption": { "type": "string" }
+          "file": {
+            "type": "string",
+            "description": "Путь в data/photos/"
+          },
+          "author": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string",
+            "description": "CC BY-SA 4.0, CC0, разрешение вуза…"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "caption": {
+            "type": "string"
+          }
         }
       }
     },
-
-    "fields": { "type": "array", "items": { "$ref": "#/definitions/field" }, "uniqueItems": true },
-    "levels": { "type": "array", "items": { "enum": ["spo", "bachelor", "specialist", "master", "phd", "foundation"] }, "uniqueItems": true },
-    "languages_of_instruction": { "type": "array", "items": { "type": "string", "description": "ISO 639-1: ru, en, de, zh…" }, "uniqueItems": true },
-    "study_formats": { "type": "array", "items": { "enum": ["full", "mixed", "online"] }, "uniqueItems": true },
-
+    "fields": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/field"
+      },
+      "uniqueItems": true
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "spo",
+          "bachelor",
+          "specialist",
+          "master",
+          "phd",
+          "foundation"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "languages_of_instruction": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "ISO 639-1: ru, en, de, zh…"
+      },
+      "uniqueItems": true
+    },
+    "study_formats": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "full",
+          "mixed",
+          "online"
+        ]
+      },
+      "uniqueItems": true
+    },
     "programs": {
       "type": "array",
       "description": "Самые востребованные программы. Не обязательно все.",
       "items": {
         "type": "object",
-        "required": ["name", "field", "level"],
+        "required": [
+          "name",
+          "field",
+          "level"
+        ],
         "additionalProperties": false,
         "properties": {
-          "name": { "type": "string" },
-          "field": { "$ref": "#/definitions/field" },
-          "level": { "enum": ["spo", "bachelor", "specialist", "master", "phd", "foundation"] },
-          "language": { "type": "string" },
-          "duration_years": { "type": "number" },
-          "tuition": { "$ref": "#/definitions/money" },
-          "budget_places": { "type": "integer", "description": "РФ: бюджетные места" },
+          "name": {
+            "type": "string"
+          },
+          "field": {
+            "$ref": "#/definitions/field"
+          },
+          "level": {
+            "enum": [
+              "spo",
+              "bachelor",
+              "specialist",
+              "master",
+              "phd",
+              "foundation"
+            ]
+          },
+          "language": {
+            "type": "string"
+          },
+          "duration_years": {
+            "type": "number"
+          },
+          "tuition": {
+            "$ref": "#/definitions/money"
+          },
+          "budget_places": {
+            "type": "integer",
+            "description": "РФ: бюджетные места"
+          },
           "passing_score": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
-              "year": { "type": "integer" },
-              "value": { "type": "number" },
-              "kind": { "enum": ["ege_total", "gpa_certificate", "other"] },
-              "note": { "type": "string" }
+              "year": {
+                "type": "integer"
+              },
+              "value": {
+                "type": "number"
+              },
+              "kind": {
+                "enum": [
+                  "ege_total",
+                  "gpa_certificate",
+                  "other"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
             }
           },
-          "ege_subjects": { "type": "array", "items": { "type": "string" } },
-          "url": { "type": "string", "format": "uri" }
+          "ege_subjects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
         }
       }
     },
-
     "cost": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "tuition_min": { "$ref": "#/definitions/money" },
-        "tuition_max": { "$ref": "#/definitions/money" },
-        "living_month_estimate": { "$ref": "#/definitions/money" }
+        "tuition_min": {
+          "$ref": "#/definitions/money"
+        },
+        "tuition_max": {
+          "$ref": "#/definitions/money"
+        },
+        "living_month_estimate": {
+          "$ref": "#/definitions/money"
+        }
       }
     },
     "funding": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "free_tuition": { "type": "boolean", "description": "Есть бюджет / бесплатное обучение (Германия, Чехия на местном языке)" },
+        "free_tuition": {
+          "type": "boolean",
+          "description": "Есть бюджет / бесплатное обучение (Германия, Чехия на местном языке)"
+        },
         "grants": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["name", "coverage"],
+            "required": [
+              "name",
+              "coverage"
+            ],
             "additionalProperties": false,
             "properties": {
-              "name": { "type": "string" },
-              "coverage": { "enum": ["full", "partial", "stipend"] },
-              "for_foreigners": { "type": "boolean" },
-              "note": { "type": "string" },
-              "url": { "type": "string", "format": "uri" }
+              "name": {
+                "type": "string"
+              },
+              "coverage": {
+                "enum": [
+                  "full",
+                  "partial",
+                  "stipend"
+                ]
+              },
+              "for_foreigners": {
+                "type": "boolean"
+              },
+              "note": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
             }
           }
         }
       }
     },
-
     "requirements": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "ege_min_per_subject": { "type": "object", "additionalProperties": { "type": "integer" } },
-        "gpa_min": { "type": "number", "description": "Мин. средний балл аттестата / диплома, если есть" },
+        "ege_min_per_subject": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer"
+          }
+        },
+        "gpa_min": {
+          "type": "number",
+          "description": "Мин. средний балл аттестата / диплома, если есть"
+        },
         "intl_exams": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["exam"],
+            "required": [
+              "exam"
+            ],
             "additionalProperties": false,
             "properties": {
-              "exam": { "$ref": "#/definitions/exam" },
-              "min_score": { "type": "string", "description": "Строкой: «6.5», «1200», «HSK 4»" },
-              "note": { "type": "string" }
+              "exam": {
+                "$ref": "#/definitions/exam"
+              },
+              "min_score": {
+                "type": "string",
+                "description": "Строкой: «6.5», «1200», «HSK 4»"
+              },
+              "note": {
+                "type": "string"
+              }
             }
           }
         },
-        "language_level": { "type": "string", "description": "Например, B2 по немецкому" },
-        "entrance_tests": { "type": "boolean", "description": "Свои вступительные / ДВИ" },
-        "interview": { "type": "boolean" },
-        "portfolio": { "enum": ["required", "some_programs", "no"] },
-        "motivation_letter": { "type": "boolean" },
-        "recommendations": { "type": "boolean" },
-        "activities_matter": { "enum": ["high", "medium", "low"], "description": "Насколько важны активити" },
-        "olympiad_benefits": { "type": "string", "description": "БВИ, 100 баллов, доп. баллы — коротко" },
-        "documents": { "type": "array", "items": { "type": "string" }, "description": "Список документов для подачи" },
-        "notes": { "type": "string" }
+        "language_level": {
+          "type": "string",
+          "description": "Например, B2 по немецкому"
+        },
+        "entrance_tests": {
+          "type": "boolean",
+          "description": "Свои вступительные / ДВИ"
+        },
+        "interview": {
+          "type": "boolean"
+        },
+        "portfolio": {
+          "enum": [
+            "required",
+            "some_programs",
+            "no"
+          ]
+        },
+        "motivation_letter": {
+          "type": "boolean"
+        },
+        "recommendations": {
+          "type": "boolean"
+        },
+        "activities_matter": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "description": "Насколько важны активити"
+        },
+        "olympiad_benefits": {
+          "type": "string",
+          "description": "БВИ, 100 баллов, доп. баллы — коротко"
+        },
+        "documents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Список документов для подачи"
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     },
-
     "visa": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "needed_for_ru": { "type": "boolean" },
-        "type": { "type": "string", "description": "D-2, X1, национальная виза D…" },
-        "notes": { "type": "string" },
-        "url": { "type": "string", "format": "uri" }
+        "needed_for_ru": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string",
+          "description": "D-2, X1, национальная виза D…"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
       }
     },
     "dorm": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "available": { "type": "boolean" },
-        "guaranteed_first_year": { "type": "boolean" },
-        "cost_month": { "$ref": "#/definitions/money" },
-        "notes": { "type": "string" }
+        "available": {
+          "type": "boolean"
+        },
+        "guaranteed_first_year": {
+          "type": "boolean"
+        },
+        "cost_month": {
+          "$ref": "#/definitions/money"
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "deadlines": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["what"],
+        "required": [
+          "what"
+        ],
         "additionalProperties": false,
         "properties": {
-          "what": { "type": "string", "description": "Подача документов, ранний раунд…" },
-          "start": { "type": "string", "description": "YYYY-MM-DD или MM-DD, если повторяется ежегодно" },
-          "end": { "type": "string" },
-          "intake": { "type": "string", "description": "Осенний / весенний набор" }
+          "what": {
+            "type": "string",
+            "description": "Подача документов, ранний раунд…"
+          },
+          "start": {
+            "type": "string",
+            "description": "YYYY-MM-DD или MM-DD, если повторяется ежегодно"
+          },
+          "end": {
+            "type": "string"
+          },
+          "intake": {
+            "type": "string",
+            "description": "Осенний / весенний набор"
+          }
         }
       }
     },
@@ -220,26 +568,131 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["name", "year", "position"],
+        "required": [
+          "name",
+          "year",
+          "position"
+        ],
         "additionalProperties": false,
         "properties": {
-          "name": { "type": "string", "description": "QS, THE, RAEX…" },
-          "year": { "type": "integer" },
-          "position": { "type": "string", "description": "Строкой: «45», «201–250»" }
+          "name": {
+            "type": "string",
+            "description": "QS, THE, RAEX…"
+          },
+          "year": {
+            "type": "integer"
+          },
+          "position": {
+            "type": "string",
+            "description": "Строкой: «45», «201–250»"
+          }
         }
       }
     },
     "perks": {
       "type": "array",
-      "items": { "enum": ["exchange", "internships", "campus", "small_groups", "intl_environment", "strong_research", "student_life", "employment", "military_center", "dual_degree"] },
+      "items": {
+        "enum": [
+          "exchange",
+          "internships",
+          "campus",
+          "small_groups",
+          "intl_environment",
+          "strong_research",
+          "student_life",
+          "employment",
+          "military_center",
+          "dual_degree"
+        ]
+      },
       "uniqueItems": true,
       "description": "Совпадает с вопросом «Что важнее всего в вузе?»"
     },
-
-    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
-    "verified_at": { "type": "string", "format": "date" },
-    "data_year": { "type": "integer", "description": "Приёмная кампания, к которой относятся цифры" },
-    "confidence": { "enum": ["high", "medium", "low"], "description": "Насколько уверены в данных" },
-    "todo": { "type": "array", "items": { "type": "string" }, "description": "Что не нашли и надо добрать" }
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/source"
+      }
+    },
+    "verified_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "data_year": {
+      "type": "integer",
+      "description": "Приёмная кампания, к которой относятся цифры"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "Насколько уверены в данных"
+    },
+    "todo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Что не нашли и надо добрать"
+    },
+    "about": {
+      "type": "string",
+      "description": "Подробное описание (из каталога прототипа)"
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "description": "Теги направлений из каталога прототипа: science, it, botany, construction…"
+    },
+    "art": {
+      "type": "string",
+      "description": "Стиль обложки карточки в прототипе: science, classic, modern, tech…"
+    },
+    "prep": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Что подготовить для поступления",
+      "properties": {
+        "must": {
+          "type": "string",
+          "description": "Обязательно"
+        },
+        "good": {
+          "type": "string",
+          "description": "Желательно"
+        },
+        "source": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "extra_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "description": "Другие полезные ссылки"
+    }
   }
 }

@@ -32,10 +32,29 @@
       "caption": "Главное здание TUM на Arcisstraße, 21 в Мюнхене"
     }
   ],
-  "fields": ["engineering", "it", "natural_sciences", "medicine", "business", "architecture", "sport", "agriculture"],
-  "levels": ["bachelor", "master", "phd", "foundation"],
-  "languages_of_instruction": ["de", "en"],
-  "study_formats": ["full"],
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "medicine",
+    "business",
+    "architecture",
+    "sport",
+    "agriculture"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "de",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Informatics (B.Sc.)",
@@ -43,7 +62,12 @@
       "level": "bachelor",
       "language": "de",
       "duration_years": 3,
-      "tuition": { "amount": 3000, "currency": "EUR", "period": "semester", "note": "Для студентов не из ЕС/ЕЭЗ; плюс семестровый взнос" },
+      "tuition": {
+        "amount": 3000,
+        "currency": "EUR",
+        "period": "semester",
+        "note": "Для студентов не из ЕС/ЕЭЗ; плюс семестровый взнос"
+      },
       "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc"
     },
     {
@@ -52,14 +76,34 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "tuition": { "amount": 2000, "currency": "EUR", "period": "semester", "note": "Для студентов не из ЕС/ЕЭЗ; обучение на английском или на английском и немецком" },
+      "tuition": {
+        "amount": 2000,
+        "currency": "EUR",
+        "period": "semester",
+        "note": "Для студентов не из ЕС/ЕЭЗ; обучение на английском или на английском и немецком"
+      },
       "url": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 2000, "currency": "EUR", "period": "semester", "note": "Бакалавриат для граждан стран вне ЕС/ЕЭЗ; с зимнего семестра 2027/28 — 2300 евро" },
-    "tuition_max": { "amount": 3000, "currency": "EUR", "period": "semester", "note": "Бакалавриат для граждан стран вне ЕС/ЕЭЗ; с зимнего семестра 2027/28 — 3400 евро" },
-    "living_month_estimate": { "amount": 992, "currency": "EUR", "period": "month", "note": "Минимум, который нужно подтвердить для визы (блокированный счёт), а не реальная стоимость жизни в Мюнхене" }
+    "tuition_min": {
+      "amount": 2000,
+      "currency": "EUR",
+      "period": "semester",
+      "note": "Бакалавриат для граждан стран вне ЕС/ЕЭЗ; с зимнего семестра 2027/28 — 2300 евро"
+    },
+    "tuition_max": {
+      "amount": 3000,
+      "currency": "EUR",
+      "period": "semester",
+      "note": "Бакалавриат для граждан стран вне ЕС/ЕЭЗ; с зимнего семестра 2027/28 — 3400 евро"
+    },
+    "living_month_estimate": {
+      "amount": 992,
+      "currency": "EUR",
+      "period": "month",
+      "note": "Минимум, который нужно подтвердить для визы (блокированный счёт), а не реальная стоимость жизни в Мюнхене"
+    }
   },
   "funding": {
     "free_tuition": false,
@@ -89,11 +133,31 @@
   },
   "requirements": {
     "intl_exams": [
-      { "exam": "TESTDAF", "min_score": "TDN 4", "note": "Во всех частях; для программ на немецком" },
-      { "exam": "OTHER", "min_score": "DSH-2", "note": "Экзамен DSH; для программ на немецком" },
-      { "exam": "GOETHE", "min_score": "C2", "note": "Goethe-Zertifikat C2; для Aerospace и Information Engineering требования к немецкому отличаются" },
-      { "exam": "IELTS", "min_score": "6.5", "note": "IELTS Academic, общий балл; для программ на английском" },
-      { "exam": "TOEFL", "min_score": "88", "note": "TOEFL iBT, только Test Date Score (MyBest не принимается)" }
+      {
+        "exam": "TESTDAF",
+        "min_score": "TDN 4",
+        "note": "Во всех частях; для программ на немецком"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "DSH-2",
+        "note": "Экзамен DSH; для программ на немецком"
+      },
+      {
+        "exam": "GOETHE",
+        "min_score": "C2",
+        "note": "Goethe-Zertifikat C2; для Aerospace и Information Engineering требования к немецкому отличаются"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "IELTS Academic, общий балл; для программ на английском"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "88",
+        "note": "TOEFL iBT, только Test Date Score (MyBest не принимается)"
+      }
     ],
     "language_level": "Немецкий на уровне DSH-2 / TestDaF 4×4 для программ на немецком; английский от IELTS 6.5 / TOEFL iBT 88 для программ на английском",
     "entrance_tests": true,
@@ -118,34 +182,133 @@
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "cost_month": { "amount": 400.6, "currency": "EUR", "period": "month", "note": "Средняя аренда в общежитиях Studierendenwerk München Oberbayern; на популярные корпуса очередь в несколько семестров" },
+    "cost_month": {
+      "amount": 400.6,
+      "currency": "EUR",
+      "period": "month",
+      "note": "Средняя аренда в общежитиях Studierendenwerk München Oberbayern; на популярные корпуса очередь в несколько семестров"
+    },
     "notes": "Общежития принадлежат студенческому союзу (Studierendenwerk), а не самому TUM; в Мюнхене, Фрайзинге и Розенхайме у него более 9000 мест. Места не гарантированы, жильё в Мюнхене стоит искать заранее."
   },
   "deadlines": [
-    { "what": "Подача заявки на бакалавриат (программы с отбором, например Informatics, Management and Technology)", "start": "05-15", "end": "07-15", "intake": "Зимний семестр" },
-    { "what": "Предварительная проверка документов в uni-assist (VPD)", "end": "07-15", "intake": "Зимний семестр" },
-    { "what": "Предварительная проверка документов в uni-assist (VPD)", "end": "01-15", "intake": "Летний семестр" },
-    { "what": "Оплата при зачислении", "end": "09-15", "intake": "Зимний семестр" }
+    {
+      "what": "Подача заявки на бакалавриат (программы с отбором, например Informatics, Management and Technology)",
+      "start": "05-15",
+      "end": "07-15",
+      "intake": "Зимний семестр"
+    },
+    {
+      "what": "Предварительная проверка документов в uni-assist (VPD)",
+      "end": "07-15",
+      "intake": "Зимний семестр"
+    },
+    {
+      "what": "Предварительная проверка документов в uni-assist (VPD)",
+      "end": "01-15",
+      "intake": "Летний семестр"
+    },
+    {
+      "what": "Оплата при зачислении",
+      "end": "09-15",
+      "intake": "Зимний семестр"
+    }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2027, "position": "25" },
-    { "name": "THE World University Rankings", "year": 2027, "position": "25" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "25"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "25"
+    }
   ],
-  "perks": ["strong_research", "intl_environment", "exchange", "internships", "employment", "campus"],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "exchange",
+    "internships",
+    "employment",
+    "campus"
+  ],
   "sources": [
-    { "url": "https://www.tum.de/en/studies/fees/tuition", "accessed": "2026-11-23", "covers": "плата за обучение для не-ЕС, рост с 2027/28, стипендия TUM, сроки оплаты" },
-    { "url": "https://www.tum.de/en/studies/fees", "accessed": "2026-11-23", "covers": "семестровый взнос 97 евро (летний семестр 2026)" },
-    { "url": "https://www.tum.de/en/studies/application/bachelor/application-bachelor", "accessed": "2026-11-23", "covers": "процедура подачи, документы, uni-assist VPD, aptitude assessment" },
-    { "url": "https://www.tum.de/en/studies/application/other-forms-of-study/preparatory-study-at-the-studienkolleg", "accessed": "2026-11-23", "covers": "Studienkolleg и Feststellungsprüfung" },
-    { "url": "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates", "accessed": "2026-11-23", "covers": "языковые сертификаты и минимальные баллы" },
-    { "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc", "accessed": "2026-11-23", "covers": "программа Informatics: язык, срок подачи, плата" },
-    { "url": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc", "accessed": "2026-11-23", "covers": "программа Management and Technology: язык, срок подачи, плата" },
-    { "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships", "accessed": "2026-11-23", "covers": "Deutschlandstipendium" },
-    { "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-once-again-named-the-best-university-in-the-eu", "accessed": "2026-11-23", "covers": "QS 2027" },
-    { "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-also-ranks-among-the-worlds-top-25-in-the-the-rankings", "accessed": "2026-11-23", "covers": "THE 2027" },
-    { "url": "https://www.studierendenwerk-muenchen-oberbayern.de/en/accommodation/", "accessed": "2026-11-23", "covers": "общежития, средняя аренда" },
-    { "url": "https://germania.diplo.de/ru-ru/service/05-visaeinreise/langfristigeraufenthalt/1224364-1224364", "accessed": "2026-11-23", "covers": "национальная виза, подача в Москве, отказ от российских счетов" },
-    { "url": "https://germania.diplo.de/resource/blob/1611632/41c7219b0e955033b4b9132f6d53927b/studium-data.pdf", "accessed": "2026-11-23", "covers": "памятка посольства по учебной визе (по состоянию на февраль 2025), 992 евро в месяц" }
+    {
+      "url": "https://www.tum.de/en/studies/fees/tuition",
+      "accessed": "2026-11-23",
+      "covers": "плата за обучение для не-ЕС, рост с 2027/28, стипендия TUM, сроки оплаты"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/fees",
+      "accessed": "2026-11-23",
+      "covers": "семестровый взнос 97 евро (летний семестр 2026)"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application/bachelor/application-bachelor",
+      "accessed": "2026-11-23",
+      "covers": "процедура подачи, документы, uni-assist VPD, aptitude assessment"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application/other-forms-of-study/preparatory-study-at-the-studienkolleg",
+      "accessed": "2026-11-23",
+      "covers": "Studienkolleg и Feststellungsprüfung"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application/application-info-portal/admission-requirements/language-certificates",
+      "accessed": "2026-11-23",
+      "covers": "языковые сертификаты и минимальные баллы"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-bachelor-of-science-bsc",
+      "accessed": "2026-11-23",
+      "covers": "программа Informatics: язык, срок подачи, плата"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/management-and-technology-bachelor-of-science-bsc",
+      "accessed": "2026-11-23",
+      "covers": "программа Management and Technology: язык, срок подачи, плата"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/fees-and-financial-aid/scholarships/tum-scholarships",
+      "accessed": "2026-11-23",
+      "covers": "Deutschlandstipendium"
+    },
+    {
+      "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-once-again-named-the-best-university-in-the-eu",
+      "accessed": "2026-11-23",
+      "covers": "QS 2027"
+    },
+    {
+      "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-also-ranks-among-the-worlds-top-25-in-the-the-rankings",
+      "accessed": "2026-11-23",
+      "covers": "THE 2027"
+    },
+    {
+      "url": "https://www.studierendenwerk-muenchen-oberbayern.de/en/accommodation/",
+      "accessed": "2026-11-23",
+      "covers": "общежития, средняя аренда"
+    },
+    {
+      "url": "https://germania.diplo.de/ru-ru/service/05-visaeinreise/langfristigeraufenthalt/1224364-1224364",
+      "accessed": "2026-11-23",
+      "covers": "национальная виза, подача в Москве, отказ от российских счетов"
+    },
+    {
+      "url": "https://germania.diplo.de/resource/blob/1611632/41c7219b0e955033b4b9132f6d53927b/studium-data.pdf",
+      "accessed": "2026-11-23",
+      "covers": "памятка посольства по учебной визе (по состоянию на февраль 2025), 992 евро в месяц"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
+    },
+    {
+      "url": "https://www.tum.de/en/studies/application/application-info-portal",
+      "accessed": "2026-11-23",
+      "covers": "prep"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2027,
@@ -156,5 +319,28 @@
     "Уточнить сроки подачи на Studienkolleg и для программ без отбора",
     "Найти официальную оценку стоимости жизни в Мюнхене от TUM",
     "Проверить, обновилась ли сумма блокированного счёта (памятка посольства от февраля 2025)"
-  ]
+  ],
+  "about": "Технический университет с широким спектром программ по инженерии, архитектуре, ИТ, сельскому хозяйству, естественным наукам и менеджменту.",
+  "areas": [
+    "engineering",
+    "construction",
+    "architecture",
+    "science",
+    "it",
+    "agriculture",
+    "environment",
+    "materials"
+  ],
+  "art": "modern",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://www.tum.de/en/studies/application"
+    }
+  ],
+  "prep": {
+    "must": "Проверь, признаётся ли аттестат как Hochschulzugangsberechtigung и какой язык нужен выбранному курсу. Для многих иностранных дипломов требуется предварительная проверка документов через uni-assist/VPD.",
+    "good": "Собери аттестат с приложением и заверенные переводы. Отдельно проверь aptitude assessment, TestAS или дополнительные предметные условия конкретной программы.",
+    "source": "https://www.tum.de/en/studies/application/application-info-portal"
+  }
 }

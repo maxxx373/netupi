@@ -4,7 +4,10 @@
   "name": {
     "ru": "Московский физико-технический институт (национальный исследовательский университет)",
     "en": "Moscow Institute of Physics and Technology",
-    "short": "МФТИ"
+    "short": "МФТИ",
+    "alt": [
+      "Московский физико-технический институт"
+    ]
   },
   "country": "RU",
   "city": "Долгопрудный",
@@ -30,80 +33,196 @@
       "caption": "Вид на кампус МФТИ в Долгопрудном"
     }
   ],
-  "fields": ["it", "engineering", "natural_sciences", "business", "economics"],
-  "levels": ["bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full"],
+  "fields": [
+    "it",
+    "engineering",
+    "natural_sciences",
+    "business",
+    "economics",
+    "medicine"
+  ],
+  "levels": [
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Прикладная математика и информатика (ФПМИ)",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 1014000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 133,
-      "passing_score": { "year": 2026, "value": 310, "kind": "ege_total", "note": "проходной на основные бюджетные места с учётом индивидуальных достижений; места — без учёта квот" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 310,
+        "kind": "ege_total",
+        "note": "проходной на основные бюджетные места с учётом индивидуальных достижений; места — без учёта квот"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Общая и прикладная физика (ЛФИ)",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 1014000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 139,
-      "passing_score": { "year": 2026, "value": 298, "kind": "ege_total", "note": "проходной на основные места с учётом индивидуальных достижений" },
-      "ege_subjects": ["математика", "физика", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 298,
+        "kind": "ege_total",
+        "note": "проходной на основные места с учётом индивидуальных достижений"
+      },
+      "ege_subjects": [
+        "математика",
+        "физика",
+        "русский язык"
+      ]
     },
     {
       "name": "Программная инженерия (ВШПИ)",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1187000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год, программы ВШПИ" },
+      "tuition": {
+        "amount": 1187000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год, программы ВШПИ"
+      },
       "budget_places": 62,
-      "passing_score": { "year": 2026, "value": 302, "kind": "ege_total", "note": "проходной на основные места с учётом индивидуальных достижений" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 302,
+        "kind": "ege_total",
+        "note": "проходной на основные места с учётом индивидуальных достижений"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Компьютерные технологии и вычислительная техника (ФРКТ)",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 1014000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 19,
-      "passing_score": { "year": 2026, "value": 303, "kind": "ege_total", "note": "проходной на основные места с учётом индивидуальных достижений" },
-      "ege_subjects": ["математика", "информатика / физика (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 303,
+        "kind": "ege_total",
+        "note": "проходной на основные места с учётом индивидуальных достижений"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика / физика (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Геокосмические науки и технологии (ФАКТ)",
       "field": "engineering",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 1014000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 19,
-      "passing_score": { "year": 2026, "value": 304, "kind": "ege_total", "note": "проходной на основные места с учётом индивидуальных достижений" },
-      "ege_subjects": ["математика", "физика / информатика (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 304,
+        "kind": "ege_total",
+        "note": "проходной на основные места с учётом индивидуальных достижений"
+      },
+      "ege_subjects": [
+        "математика",
+        "физика / информатика (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Биотехнология (ФБМФ)",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 1014000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 51,
-      "passing_score": { "year": 2026, "value": 290, "kind": "ege_total", "note": "проходной на основные места с учётом индивидуальных достижений" },
-      "ege_subjects": ["биология", "математика / химия / информатика / физика (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2026,
+        "value": 290,
+        "kind": "ege_total",
+        "note": "проходной на основные места с учётом индивидуальных достижений"
+      },
+      "ege_subjects": [
+        "биология",
+        "математика / химия / информатика / физика (на выбор)",
+        "русский язык"
+      ]
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 1014000, "currency": "RUB", "period": "year", "note": "большинство программ на русском, 2026/27" },
-    "tuition_max": { "amount": 2000000, "currency": "RUB", "period": "year", "note": "программы физтех-школы бизнеса высоких технологий (ФБВТ), 2026/27" }
+    "tuition_min": {
+      "amount": 1014000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "большинство программ на русском, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 2000000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "программы физтех-школы бизнеса высоких технологий (ФБВТ), 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true,
     "grants": [
-      { "name": "Скидки для иностранных студентов", "coverage": "partial", "for_foreigners": true, "note": "по заявлению в международный департамент МФТИ" }
+      {
+        "name": "Скидки для иностранных студентов",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "по заявлению в международный департамент МФТИ"
+      }
     ]
   },
   "requirements": {
@@ -122,22 +241,79 @@
     "notes": "Общежития находятся на кампусе в Долгопрудном. Стоимость проживания на официальном сайте найти не удалось."
   },
   "deadlines": [
-    { "what": "Приём документов для сдающих внутренние вступительные испытания", "start": "06-20", "end": "07-10", "intake": "Осенний набор" },
-    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
-    { "what": "Приём документов на платные места", "start": "06-20", "end": "08-05", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов для сдающих внутренние вступительные испытания",
+      "start": "06-20",
+      "end": "07-10",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на бюджет по ЕГЭ",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платные места",
+      "start": "06-20",
+      "end": "08-05",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "3" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "3"
+    }
   ],
-  "perks": ["strong_research", "campus", "employment", "military_center"],
+  "perks": [
+    "strong_research",
+    "campus",
+    "employment",
+    "military_center"
+  ],
   "sources": [
-    { "url": "https://mipt.ru/pk/statistics/bvo-bachelor/statistics_bvo2026.htm", "accessed": "2026-11-23", "covers": "проходные баллы и места 2026" },
-    { "url": "https://mipt.ru/pk/2026/bachelor_2026_cost.htm", "accessed": "2026-11-23", "covers": "стоимость 2026/27, скидки иностранцам" },
-    { "url": "https://mipt.ru/pk/2026/bachelor_exams_2026.htm", "accessed": "2026-11-23", "covers": "вступительные испытания 2026" },
-    { "url": "https://mipt.ru/pk/2026/bachelor_2026_schedule.htm", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
-    { "url": "https://mipt.ru/pk/foreign", "accessed": "2026-11-23", "covers": "поступление иностранцев" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
-    { "url": "https://commons.wikimedia.org/wiki/File:E7348-MFTI-campus-view.jpg", "accessed": "2026-11-23", "covers": "фото" }
+    {
+      "url": "https://mipt.ru/pk/statistics/bvo-bachelor/statistics_bvo2026.htm",
+      "accessed": "2026-11-23",
+      "covers": "проходные баллы и места 2026"
+    },
+    {
+      "url": "https://mipt.ru/pk/2026/bachelor_2026_cost.htm",
+      "accessed": "2026-11-23",
+      "covers": "стоимость 2026/27, скидки иностранцам"
+    },
+    {
+      "url": "https://mipt.ru/pk/2026/bachelor_exams_2026.htm",
+      "accessed": "2026-11-23",
+      "covers": "вступительные испытания 2026"
+    },
+    {
+      "url": "https://mipt.ru/pk/2026/bachelor_2026_schedule.htm",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "https://mipt.ru/pk/foreign",
+      "accessed": "2026-11-23",
+      "covers": "поступление иностранцев"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:E7348-MFTI-campus-view.jpg",
+      "accessed": "2026-11-23",
+      "covers": "фото"
+    },
+    {
+      "url": "https://mipt.ru/education/admission/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -146,5 +322,20 @@
     "Найти официальную стоимость проживания в общежитии и правила заселения",
     "Подобрать фото именно главного корпуса (сейчас — общий вид кампуса)",
     "Добавить список документов из правил приёма МФТИ 2026 и место в QS"
+  ],
+  "about": "Физико-технический вуз с направлениями в математике, физике, ИТ, биологии, инженерии и наукоёмких технологиях.",
+  "areas": [
+    "physics",
+    "science",
+    "it",
+    "engineering",
+    "medicine"
+  ],
+  "art": "science",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://mipt.ru/education/admission/"
+    }
   ]
 }

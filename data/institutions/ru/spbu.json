@@ -31,50 +31,121 @@
     }
   ],
   "fields": [
-    "it", "medicine", "business", "economics", "law", "psychology", "media", "linguistics",
-    "natural_sciences", "international_relations", "humanities", "social_sciences"
+    "it",
+    "medicine",
+    "business",
+    "economics",
+    "law",
+    "psychology",
+    "media",
+    "linguistics",
+    "natural_sciences",
+    "international_relations",
+    "humanities",
+    "social_sciences",
+    "design_art"
   ],
-  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full", "mixed"],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
   "programs": [
     {
       "name": "Прикладная математика и информатика: «Современное программирование»",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 360000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 360000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 40,
-      "passing_score": { "year": 2025, "value": 283, "kind": "ege_total", "note": "минимум среди зачисленных на бюджет по общему конкурсу, без учёта индивидуальных достижений (с ними — 293)" }
+      "passing_score": {
+        "year": 2025,
+        "value": 283,
+        "kind": "ege_total",
+        "note": "минимум среди зачисленных на бюджет по общему конкурсу, без учёта индивидуальных достижений (с ними — 293)"
+      }
     },
     {
       "name": "Лечебное дело",
       "field": "medicine",
       "level": "specialist",
       "language": "ru",
-      "tuition": { "amount": 398200, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 398200,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 50,
-      "passing_score": { "year": 2025, "value": 261, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 271)" },
-      "ege_subjects": ["биология", "химия", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 261,
+        "kind": "ege_total",
+        "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 271)"
+      },
+      "ege_subjects": [
+        "биология",
+        "химия",
+        "русский язык"
+      ]
     },
     {
       "name": "Экономика",
       "field": "economics",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 406600, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 406600,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 78,
-      "passing_score": { "year": 2025, "value": 260, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 270)" }
+      "passing_score": {
+        "year": 2025,
+        "value": 260,
+        "kind": "ege_total",
+        "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 270)"
+      }
     },
     {
       "name": "Юриспруденция",
       "field": "law",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 490900, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 490900,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 110,
-      "passing_score": { "year": 2025, "value": 269, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 279)" },
-      "ege_subjects": ["история", "русский язык", "обществознание / математика / география (на выбор)"]
+      "passing_score": {
+        "year": 2025,
+        "value": 269,
+        "kind": "ege_total",
+        "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 279)"
+      },
+      "ege_subjects": [
+        "история",
+        "русский язык",
+        "обществознание / математика / география (на выбор)"
+      ]
     },
     {
       "name": "Международные отношения (с дополнительной квалификацией переводчика)",
@@ -82,23 +153,56 @@
       "level": "bachelor",
       "language": "ru",
       "budget_places": 90,
-      "passing_score": { "year": 2025, "value": 263, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 273)" },
-      "ege_subjects": ["история", "иностранный язык / обществознание / математика / география (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 263,
+        "kind": "ege_total",
+        "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 273)"
+      },
+      "ege_subjects": [
+        "история",
+        "иностранный язык / обществознание / математика / география (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Психология",
       "field": "psychology",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 450000, "currency": "RUB", "period": "year", "note": "2026/27 учебный год" },
+      "tuition": {
+        "amount": 450000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27 учебный год"
+      },
       "budget_places": 50,
-      "passing_score": { "year": 2025, "value": 238, "kind": "ege_total", "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 246)" },
-      "ege_subjects": ["биология", "математика", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 238,
+        "kind": "ege_total",
+        "note": "минимум на бюджет без учёта индивидуальных достижений (с ними — 246)"
+      },
+      "ege_subjects": [
+        "биология",
+        "математика",
+        "русский язык"
+      ]
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 279900, "currency": "RUB", "period": "year", "note": "очная форма, граждане РФ и Беларуси, 2026/27" },
-    "tuition_max": { "amount": 652700, "currency": "RUB", "period": "year", "note": "«Международный менеджмент», 2026/27" }
+    "tuition_min": {
+      "amount": 279900,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очная форма, граждане РФ и Беларуси, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 652700,
+      "currency": "RUB",
+      "period": "year",
+      "note": "«Международный менеджмент», 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true
@@ -123,24 +227,88 @@
     "notes": "У университета больше двадцати общежитий. Стоимость проживания на сайте кампуса не указана — квитанции выдаются через личный кабинет."
   },
   "deadlines": [
-    { "what": "Приём документов для сдающих внутренние вступительные испытания", "start": "06-20", "end": "07-10", "intake": "Осенний набор" },
-    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
-    { "what": "Приём документов на платные места", "start": "06-20", "end": "08-13", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов для сдающих внутренние вступительные испытания",
+      "start": "06-20",
+      "end": "07-10",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на бюджет по ЕГЭ",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платные места",
+      "start": "06-20",
+      "end": "08-13",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "4" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "4"
+    }
   ],
-  "perks": ["strong_research", "student_life", "military_center"],
+  "perks": [
+    "strong_research",
+    "student_life",
+    "military_center"
+  ],
   "sources": [
-    { "url": "https://abiturient.spbu.ru/programs/bakalavriat/", "accessed": "2026-11-23", "covers": "документы, олимпиады, ссылки на правила" },
-    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/pravila_priema_2026.pdf", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
-    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/cost_bac_spec_2026.pdf", "accessed": "2026-11-23", "covers": "стоимость 2026/27" },
-    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/quotas_bac_2026.pdf", "accessed": "2026-11-23", "covers": "бюджетные места 2026" },
-    { "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf", "accessed": "2026-11-23", "covers": "вступительные испытания 2026" },
-    { "url": "https://abiturient.spbu.ru/upload/medialibrary/77c/wmxvldiywg1jx4u1ew6tpsyl61ipq5oc/priem_bac_spec_2025.pdf", "accessed": "2026-11-23", "covers": "проходные баллы 2025" },
-    { "url": "https://campus.spbu.ru/308.html", "accessed": "2026-11-23", "covers": "общежития" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
-    { "url": "https://commons.wikimedia.org/wiki/File:Building_of_the_Twelve_Collegia_(from_the_territory_of_St_Petersburg_State_University).jpg", "accessed": "2026-11-23", "covers": "фото" }
+    {
+      "url": "https://abiturient.spbu.ru/programs/bakalavriat/",
+      "accessed": "2026-11-23",
+      "covers": "документы, олимпиады, ссылки на правила"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/pravila_priema_2026.pdf",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/cost_bac_spec_2026.pdf",
+      "accessed": "2026-11-23",
+      "covers": "стоимость 2026/27"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/quotas_bac_2026.pdf",
+      "accessed": "2026-11-23",
+      "covers": "бюджетные места 2026"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bak_spec_prog_VI_2026.pdf",
+      "accessed": "2026-11-23",
+      "covers": "вступительные испытания 2026"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/upload/medialibrary/77c/wmxvldiywg1jx4u1ew6tpsyl61ipq5oc/priem_bac_spec_2025.pdf",
+      "accessed": "2026-11-23",
+      "covers": "проходные баллы 2025"
+    },
+    {
+      "url": "https://campus.spbu.ru/308.html",
+      "accessed": "2026-11-23",
+      "covers": "общежития"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Building_of_the_Twelve_Collegia_(from_the_territory_of_St_Petersburg_State_University).jpg",
+      "accessed": "2026-11-23",
+      "covers": "фото"
+    },
+    {
+      "url": "https://abiturient.spbu.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -151,5 +319,18 @@
     "Уточнить цену программы «Международные отношения» на 2026/27 (в прайсе не удалось однозначно сопоставить программу)",
     "Уточнить предметы ЕГЭ для «Современного программирования» и «Экономики»",
     "Добавить место в QS из официального источника"
-  ]
+  ],
+  "about": "Многопрофильный классический университет. В каталоге есть программы по естественным наукам, языкам, праву, экономике, искусству и другим областям.",
+  "areas": [
+    "science",
+    "it",
+    "law",
+    "economics",
+    "languages",
+    "media",
+    "psychology",
+    "medicine",
+    "design"
+  ],
+  "art": "classic"
 }

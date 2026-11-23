@@ -38,7 +38,9 @@
     "pedagogy",
     "agriculture",
     "design_art",
-    "music"
+    "music",
+    "architecture",
+    "law"
   ],
   "levels": [
     "bachelor",
@@ -273,6 +275,11 @@
       "url": "https://www.koreaherald.com/article/10773651",
       "accessed": "2026-11-23",
       "covers": "Место в QS World University Rankings 2027"
+    },
+    {
+      "url": "https://en.snu.ac.kr/admission/undergraduate/application",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
     }
   ],
   "verified_at": "2026-11-23",
@@ -285,5 +292,30 @@
     "Проверить, будет ли в новом отделении бакалавриата только для иностранцев полная стипендия: в ноябре 2026 об этом писали СМИ, официальных условий пока нет",
     "Найти стоимость и сроки курсов корейского в языковом институте SNU (LEI)",
     "Добавить рейтинг THE"
-  ]
+  ],
+  "about": "Национальный исследовательский университет с факультетами инженерии, сельского хозяйства, ветеринарии, естественных, медицинских и гуманитарных наук.",
+  "areas": [
+    "science",
+    "engineering",
+    "construction",
+    "architecture",
+    "medicine",
+    "law",
+    "business",
+    "botany",
+    "agriculture",
+    "veterinary"
+  ],
+  "art": "classic",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://en.snu.ac.kr/admission/undergraduate/application"
+    }
+  ],
+  "prep": {
+    "must": "Подготовь заявку и документы по действующему руководству international undergraduate admissions. Обычно нужны школьный диплом и транскрипт; приложи языковые и стандартизированные результаты, если они требуются или усиливают заявку.",
+    "good": "Заранее запроси рекомендации и подготовь личное заявление/план обучения. Проверь, соответствует ли твоя категория одному из международных треков и правилам перевода документов.",
+    "source": "https://en.snu.ac.kr/admission/undergraduate/application"
+  }
 }

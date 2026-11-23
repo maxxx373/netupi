@@ -4,7 +4,10 @@
   "name": {
     "ru": "Национальный исследовательский университет ИТМО",
     "en": "ITMO University",
-    "short": "ИТМО"
+    "short": "ИТМО",
+    "alt": [
+      "Университет ИТМО"
+    ]
   },
   "country": "RU",
   "city": "Санкт-Петербург",
@@ -29,74 +32,188 @@
       "caption": "Главный корпус ИТМО на Кронверкском проспекте"
     }
   ],
-  "fields": ["it", "engineering", "natural_sciences", "business", "design_art", "humanities"],
-  "levels": ["bachelor", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full"],
+  "fields": [
+    "it",
+    "engineering",
+    "natural_sciences",
+    "business",
+    "design_art",
+    "humanities"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Прикладная математика и информатика",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 649000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 305, "kind": "ege_total", "note": "проходной на бюджет по данным сайта приёмной комиссии" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "tuition": {
+        "amount": 649000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 305,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по данным сайта приёмной комиссии"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Информационные системы и технологии",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 599000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 310, "kind": "ege_total", "note": "проходной на бюджет" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "tuition": {
+        "amount": 599000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 310,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Программная инженерия",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 599000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 284, "kind": "ege_total", "note": "проходной на бюджет" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "tuition": {
+        "amount": 599000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 284,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Информационная безопасность",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 599000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 275, "kind": "ege_total", "note": "проходной на бюджет" },
-      "ege_subjects": ["математика", "информатика", "русский язык"]
+      "tuition": {
+        "amount": 599000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 275,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Бизнес-информатика",
       "field": "business",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 549000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 268, "kind": "ege_total", "note": "проходной на бюджет" },
-      "ege_subjects": ["математика", "обществознание", "русский язык"]
+      "tuition": {
+        "amount": 549000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 268,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "обществознание",
+        "русский язык"
+      ]
     },
     {
       "name": "Дизайн",
       "field": "design_art",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 599000, "currency": "RUB", "period": "year", "note": "для граждан РФ, приём 2026 года" },
-      "passing_score": { "year": 2025, "value": 258, "kind": "other", "note": "ЕГЭ плюс творческое испытание «Рисунок и композиция»" },
-      "ege_subjects": ["история / литература (на выбор)", "рисунок и композиция (творческое испытание ИТМО)", "русский язык"]
+      "tuition": {
+        "amount": 599000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "для граждан РФ, приём 2026 года"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 258,
+        "kind": "other",
+        "note": "ЕГЭ плюс творческое испытание «Рисунок и композиция»"
+      },
+      "ege_subjects": [
+        "история / литература (на выбор)",
+        "рисунок и композиция (творческое испытание ИТМО)",
+        "русский язык"
+      ]
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 420000, "currency": "RUB", "period": "year", "note": "очный бакалавриат для граждан РФ, приём 2026 (физика, химия, приборостроение и др.)" },
-    "tuition_max": { "amount": 649000, "currency": "RUB", "period": "year", "note": "прикладная математика и информатика, приём 2026" }
+    "tuition_min": {
+      "amount": 420000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очный бакалавриат для граждан РФ, приём 2026 (физика, химия, приборостроение и др.)"
+    },
+    "tuition_max": {
+      "amount": 649000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "прикладная математика и информатика, приём 2026"
+    }
   },
   "funding": {
     "free_tuition": true,
     "grants": [
-      { "name": "Повышенные стипендии ИТМО", "coverage": "stipend", "note": "на сайте приёмной комиссии заявлена стипендия до 100 000 ₽; условия нужно уточнить" }
+      {
+        "name": "Повышенные стипендии ИТМО",
+        "coverage": "stipend",
+        "note": "на сайте приёмной комиссии заявлена стипендия до 100 000 ₽; условия нужно уточнить"
+      }
     ]
   },
   "requirements": {
@@ -115,19 +232,62 @@
     "notes": "Общежития в черте Санкт-Петербурга. Официальную цену не нашли; по данным прессы за 2025 год, проживание стоило примерно 1,3–2 тыс. ₽ в месяц."
   },
   "deadlines": [
-    { "what": "Приём документов на бюджет по ЕГЭ", "start": "06-20", "end": "07-25", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов на бюджет по ЕГЭ",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "15" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "15"
+    }
   ],
-  "perks": ["strong_research", "student_life", "employment", "military_center"],
+  "perks": [
+    "strong_research",
+    "student_life",
+    "employment",
+    "military_center"
+  ],
   "sources": [
-    { "url": "https://abit.itmo.ru/bachelor", "accessed": "2026-11-23", "covers": "проходные баллы 2025, предметы ЕГЭ 2026, олимпиады, стипендии, общежития" },
-    { "url": "https://abit.itmo.ru/file_storage/file/pages/80/price.pdf", "accessed": "2026-11-23", "covers": "стоимость обучения при приёме 2026 (приказ от 31.03.2026 № 428-од)" },
-    { "url": "https://abit.itmo.ru/file_storage/file/pages/80/pravila_bac1.pdf", "accessed": "2026-11-23", "covers": "способы подачи документов" },
-    { "url": "https://www.dp.ru/a/2025/08/26/v-vuzah-peterburga-obshhezhitija", "accessed": "2026-11-23", "covers": "ориентировочная стоимость общежития (СМИ, не официальный источник)" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
-    { "url": "https://commons.wikimedia.org/wiki/File:ITMO_University%27s_main_building,_August_2016.jpg", "accessed": "2026-11-23", "covers": "фото" }
+    {
+      "url": "https://abit.itmo.ru/bachelor",
+      "accessed": "2026-11-23",
+      "covers": "проходные баллы 2025, предметы ЕГЭ 2026, олимпиады, стипендии, общежития"
+    },
+    {
+      "url": "https://abit.itmo.ru/file_storage/file/pages/80/price.pdf",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения при приёме 2026 (приказ от 31.03.2026 № 428-од)"
+    },
+    {
+      "url": "https://abit.itmo.ru/file_storage/file/pages/80/pravila_bac1.pdf",
+      "accessed": "2026-11-23",
+      "covers": "способы подачи документов"
+    },
+    {
+      "url": "https://www.dp.ru/a/2025/08/26/v-vuzah-peterburga-obshhezhitija",
+      "accessed": "2026-11-23",
+      "covers": "ориентировочная стоимость общежития (СМИ, не официальный источник)"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:ITMO_University%27s_main_building,_August_2016.jpg",
+      "accessed": "2026-11-23",
+      "covers": "фото"
+    },
+    {
+      "url": "https://abit.itmo.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -139,5 +299,20 @@
     "Найти страницу для иностранных абитуриентов",
     "Уточнить, есть ли у ИТМО программы специалитета и СПО",
     "Добавить место в QS из официального источника"
+  ],
+  "about": "Технологический университет, где представлены ИТ и программная инженерия, робототехника, физика, химия, биоинженерия, дизайн и инновационные направления.",
+  "areas": [
+    "it",
+    "engineering",
+    "science",
+    "design",
+    "business"
+  ],
+  "art": "tech",
+  "extra_links": [
+    {
+      "title": "Приём",
+      "url": "https://abit.itmo.ru/"
+    }
   ]
 }

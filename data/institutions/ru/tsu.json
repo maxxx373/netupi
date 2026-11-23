@@ -47,7 +47,8 @@
     "social_sciences",
     "agriculture",
     "sport",
-    "design_art"
+    "design_art",
+    "pedagogy"
   ],
   "levels": [
     "bachelor",
@@ -318,6 +319,11 @@
       "url": "https://info.abiturient.tsu.ru/ru/content/бакалавриатспециалитет",
       "accessed": "2026-11-23",
       "covers": "общие правила, ссылки"
+    },
+    {
+      "url": "https://abiturient.tsu.ru/",
+      "accessed": "2026-11-23",
+      "covers": "about, prep (каталог прототипа)"
     }
   ],
   "verified_at": "2026-11-23",
@@ -329,5 +335,18 @@
     "Олимпиадные льготы — разобрать приложение 5 к правилам приёма",
     "Рейтинги QS/RAEX/Интерфакс за 2026 год",
     "Год основания (1878) сверить с официальной страницей истории"
-  ]
+  ],
+  "about": "Классический университет с направлениями в естественных и гуманитарных науках, ИТ, экономике, праве, журналистике и образовании.",
+  "areas": [
+    "science",
+    "it",
+    "economics",
+    "law",
+    "media",
+    "languages",
+    "psychology",
+    "pedagogy",
+    "design"
+  ],
+  "art": "classic"
 }

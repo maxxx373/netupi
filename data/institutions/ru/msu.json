@@ -4,7 +4,10 @@
   "name": {
     "ru": "Московский государственный университет имени М.В. Ломоносова",
     "en": "Lomonosov Moscow State University",
-    "short": "МГУ"
+    "short": "МГУ",
+    "alt": [
+      "МГУ имени М. В. Ломоносова"
+    ]
   },
   "country": "RU",
   "city": "Москва",
@@ -31,77 +34,201 @@
     }
   ],
   "fields": [
-    "it", "medicine", "engineering", "business", "economics", "law", "psychology", "media",
-    "linguistics", "natural_sciences", "pedagogy", "international_relations", "humanities", "social_sciences"
+    "it",
+    "medicine",
+    "engineering",
+    "business",
+    "economics",
+    "law",
+    "psychology",
+    "media",
+    "linguistics",
+    "natural_sciences",
+    "pedagogy",
+    "international_relations",
+    "humanities",
+    "social_sciences"
   ],
-  "levels": ["bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full", "mixed"],
+  "levels": [
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
   "programs": [
     {
       "name": "Прикладная математика и информатика (ВМК)",
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 539070, "currency": "RUB", "period": "year", "note": "цена с сайта приёмной комиссии за 2025 год" },
+      "tuition": {
+        "amount": 539070,
+        "currency": "RUB",
+        "period": "year",
+        "note": "цена с сайта приёмной комиссии за 2025 год"
+      },
       "budget_places": 312,
-      "passing_score": { "year": 2025, "value": 423, "kind": "other", "note": "сумма ЕГЭ и ДВИ МГУ по математике из 500 возможных; бюджетных мест — по КЦП 2026" },
-      "ege_subjects": ["математика (ДВИ МГУ)", "математика", "физика", "информатика", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 423,
+        "kind": "other",
+        "note": "сумма ЕГЭ и ДВИ МГУ по математике из 500 возможных; бюджетных мест — по КЦП 2026"
+      },
+      "ege_subjects": [
+        "математика (ДВИ МГУ)",
+        "математика",
+        "физика",
+        "информатика",
+        "русский язык"
+      ]
     },
     {
       "name": "Экономика (экономический факультет)",
       "field": "economics",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 820000, "currency": "RUB", "period": "year", "note": "на странице цен 2025 года указаны два значения: 750 000 и 820 000 ₽" },
+      "tuition": {
+        "amount": 820000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "на странице цен 2025 года указаны два значения: 750 000 и 820 000 ₽"
+      },
       "budget_places": 170,
-      "passing_score": { "year": 2025, "value": 358, "kind": "other", "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных" },
-      "ege_subjects": ["математика (ДВИ МГУ)", "математика", "иностранный язык / информатика / география / история / обществознание (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 358,
+        "kind": "other",
+        "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных"
+      },
+      "ege_subjects": [
+        "математика (ДВИ МГУ)",
+        "математика",
+        "иностранный язык / информатика / география / история / обществознание (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Юриспруденция (юридический факультет)",
       "field": "law",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 720000, "currency": "RUB", "period": "year", "note": "на странице цен 2025 года указаны два значения: 610 000 и 720 000 ₽" },
+      "tuition": {
+        "amount": 720000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "на странице цен 2025 года указаны два значения: 610 000 и 720 000 ₽"
+      },
       "budget_places": 305,
-      "passing_score": { "year": 2025, "value": 347, "kind": "other", "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных" },
-      "ege_subjects": ["обществознание (ДВИ МГУ)", "обществознание", "история / информатика / математика (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 347,
+        "kind": "other",
+        "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных"
+      },
+      "ege_subjects": [
+        "обществознание (ДВИ МГУ)",
+        "обществознание",
+        "история / информатика / математика (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Лечебное дело (факультет фундаментальной медицины)",
       "field": "medicine",
       "level": "specialist",
       "language": "ru",
-      "tuition": { "amount": 734000, "currency": "RUB", "period": "year", "note": "на странице цен 2025 года указаны два значения: 724 000 и 734 000 ₽" },
+      "tuition": {
+        "amount": 734000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "на странице цен 2025 года указаны два значения: 724 000 и 734 000 ₽"
+      },
       "budget_places": 58,
-      "passing_score": { "year": 2025, "value": 387, "kind": "other", "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных" },
-      "ege_subjects": ["химия (ДВИ МГУ)", "химия", "биология", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 387,
+        "kind": "other",
+        "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных"
+      },
+      "ege_subjects": [
+        "химия (ДВИ МГУ)",
+        "химия",
+        "биология",
+        "русский язык"
+      ]
     },
     {
       "name": "Журналистика (факультет журналистики)",
       "field": "media",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 597270, "currency": "RUB", "period": "year", "note": "на странице цен 2025 года указаны два значения: 512 810 и 597 270 ₽" },
+      "tuition": {
+        "amount": 597270,
+        "currency": "RUB",
+        "period": "year",
+        "note": "на странице цен 2025 года указаны два значения: 512 810 и 597 270 ₽"
+      },
       "budget_places": 107,
-      "passing_score": { "year": 2025, "value": 353, "kind": "other", "note": "сумма ЕГЭ и творческого ДВИ из 400 возможных" },
-      "ege_subjects": ["творческое испытание (ДВИ МГУ)", "литература", "иностранный язык / история / география (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 353,
+        "kind": "other",
+        "note": "сумма ЕГЭ и творческого ДВИ из 400 возможных"
+      },
+      "ege_subjects": [
+        "творческое испытание (ДВИ МГУ)",
+        "литература",
+        "иностранный язык / история / география (на выбор)",
+        "русский язык"
+      ]
     },
     {
       "name": "Международные отношения (факультет мировой политики)",
       "field": "international_relations",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 539070, "currency": "RUB", "period": "year", "note": "на странице цен 2025 года указаны два значения: 512 810 и 539 070 ₽" },
+      "tuition": {
+        "amount": 539070,
+        "currency": "RUB",
+        "period": "year",
+        "note": "на странице цен 2025 года указаны два значения: 512 810 и 539 070 ₽"
+      },
       "budget_places": 15,
-      "passing_score": { "year": 2025, "value": 379, "kind": "other", "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных" },
-      "ege_subjects": ["история (ДВИ МГУ)", "история", "иностранный язык / география / обществознание (на выбор)", "русский язык"]
+      "passing_score": {
+        "year": 2025,
+        "value": 379,
+        "kind": "other",
+        "note": "сумма ЕГЭ и ДВИ МГУ из 400 возможных"
+      },
+      "ege_subjects": [
+        "история (ДВИ МГУ)",
+        "история",
+        "иностранный язык / география / обществознание (на выбор)",
+        "русский язык"
+      ]
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 428040, "currency": "RUB", "period": "year", "note": "очная форма, бакалавриат/специалитет на факультетах в Москве, цены 2025 года" },
-    "tuition_max": { "amount": 820000, "currency": "RUB", "period": "year", "note": "экономика и менеджмент, цены 2025 года" }
+    "tuition_min": {
+      "amount": 428040,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очная форма, бакалавриат/специалитет на факультетах в Москве, цены 2025 года"
+    },
+    "tuition_max": {
+      "amount": 820000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "экономика и менеджмент, цены 2025 года"
+    }
   },
   "funding": {
     "free_tuition": true
@@ -124,22 +251,73 @@
     "notes": "Общежитие дают иногородним очникам-бюджетникам, если они прописаны за пределами Москвы и области (или за 5-й зоной МЖД); платникам — при наличии свободных мест. На время ДВИ иногородним абитуриентам могут дать место в общежитии. Стоимость проживания на официальном сайте не нашли."
   },
   "deadlines": [
-    { "what": "Приём документов на направления с ДВИ (почти все программы)", "start": "06-20", "end": "07-15", "intake": "Осенний набор" },
-    { "what": "Приём документов от поступающих без вступительных испытаний (олимпиадники)", "start": "06-20", "end": "07-25", "intake": "Осенний набор" },
-    { "what": "Дополнительные вступительные испытания", "end": "07-25", "intake": "Осенний набор" }
+    {
+      "what": "Приём документов на направления с ДВИ (почти все программы)",
+      "start": "06-20",
+      "end": "07-15",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов от поступающих без вступительных испытаний (олимпиадники)",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Дополнительные вступительные испытания",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "RAEX-100", "year": 2026, "position": "1" }
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "1"
+    }
   ],
-  "perks": ["strong_research", "campus", "student_life", "military_center"],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "military_center"
+  ],
   "sources": [
-    { "url": "https://cpk.msu.ru/", "accessed": "2026-11-23", "covers": "ссылки на правила, КЦП, проходные баллы" },
-    { "url": "https://cpk.msu.ru/files/2026/rules.pdf", "accessed": "2026-11-23", "covers": "сроки приёма 2026, документы, общежитие" },
-    { "url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf", "accessed": "2026-11-23", "covers": "бюджетные места 2026, вступительные испытания" },
-    { "url": "https://msu.ru/entrance/pr-b-2025.php", "accessed": "2026-11-23", "covers": "проходные баллы 2025 на бюджет" },
-    { "url": "https://cpk.msu.ru/legal/prices/2025", "accessed": "2026-11-23", "covers": "стоимость обучения 2025" },
-    { "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/", "accessed": "2026-11-23", "covers": "рейтинг RAEX-100 2026" },
-    { "url": "https://commons.wikimedia.org/wiki/File:Moscow_State_University_crop.jpg", "accessed": "2026-11-23", "covers": "фото" }
+    {
+      "url": "https://cpk.msu.ru/",
+      "accessed": "2026-11-23",
+      "covers": "ссылки на правила, КЦП, проходные баллы"
+    },
+    {
+      "url": "https://cpk.msu.ru/files/2026/rules.pdf",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026, документы, общежитие"
+    },
+    {
+      "url": "https://cpk.msu.ru/files/2026/kcp_bak.pdf",
+      "accessed": "2026-11-23",
+      "covers": "бюджетные места 2026, вступительные испытания"
+    },
+    {
+      "url": "https://msu.ru/entrance/pr-b-2025.php",
+      "accessed": "2026-11-23",
+      "covers": "проходные баллы 2025 на бюджет"
+    },
+    {
+      "url": "https://cpk.msu.ru/legal/prices/2025",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения 2025"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинг RAEX-100 2026"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Moscow_State_University_crop.jpg",
+      "accessed": "2026-11-23",
+      "covers": "фото"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -149,5 +327,19 @@
     "Узнать стоимость проживания в общежитии на официальном сайте",
     "Добавить место в QS World University Rankings из официального источника",
     "Обновить проходные баллы по итогам кампании 2026, когда МГУ их опубликует"
-  ]
+  ],
+  "about": "Классический университет с большим выбором факультетов и исследовательских направлений: от математики и естественных наук до медицины, права и гуманитарных дисциплин.",
+  "areas": [
+    "science",
+    "it",
+    "engineering",
+    "medicine",
+    "law",
+    "economics",
+    "languages",
+    "media",
+    "pedagogy",
+    "psychology"
+  ],
+  "art": "science"
 }

@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E0F13">
+<meta name="description" content="Подбери учебное заведение и узнай, с чего начать подготовку к поступлению.">
+<title>Подбор вуза · не тупи, поступи</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  /* Layout: одна карточка-вопрос по центру, сверху прогресс по разделам, снизу навигация */
+  :root{
+    --bg:#0E0F13;
+    --surface:#16171D;
+    --surface-2:#1D1F27;
+    --line:rgba(242,238,230,.09);
+    --line-2:rgba(242,238,230,.18);
+    --fg:#F2EEE6;
+    --muted:#8D8B95;
+    --blue:#3B57FF;
+    --orange:#FF5B1F;
+    --display:"Unbounded",system-ui,sans-serif;
+    --body:"Manrope",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  [hidden]{display:none!important}
+  html,body{min-height:100%}
+  body{background:var(--bg);color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;
+       padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  :focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+
+  .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .bg i{position:absolute;border-radius:50%;filter:blur(90px);opacity:.6;animation:drift 22s ease-in-out infinite alternate}
+  .bg .g1{width:50vw;height:50vw;left:-24vw;top:-14vw;background:radial-gradient(circle,var(--blue),transparent 68%)}
+  .bg .g2{width:44vw;height:44vw;right:-22vw;bottom:-10vw;background:radial-gradient(circle,var(--orange),transparent 68%);opacity:.42;animation-duration:26s;animation-delay:-8s}
+  .bg .g3{width:36vw;height:36vw;right:-10vw;top:-16vw;background:radial-gradient(circle,#7A3CFF,transparent 68%);opacity:.28;animation-duration:30s;animation-delay:-14s}
+  @keyframes drift{to{transform:translate(5vw,4vh) scale(1.1)}}
+  @media (max-width:760px){.bg i{width:110vw!important;height:110vw!important}}
+
+  .wrap{position:relative;z-index:1;max-width:980px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;
+        padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:24px}
+  .logo{font-family:var(--display);font-weight:800;font-size:15px;text-transform:lowercase}
+  .logo b{color:var(--orange);font-weight:800}
+  .exit{font-size:14px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:8px;transition:color .2s}
+  .exit:hover{color:var(--fg)}
+
+  /* progress */
+  .progress{display:flex;flex-direction:column;gap:12px;padding-block:8px 28px}
+  .prog-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .prog-top b{color:var(--fg);font-weight:500}
+  .segs{display:flex;gap:6px}
+  .seg{flex:1;height:5px;border-radius:9px;background:var(--line);overflow:hidden;position:relative}
+  .seg i{position:absolute;inset:0;width:0;background:var(--fg);border-radius:9px;transition:width .5s cubic-bezier(.2,.8,.2,1)}
+  .seg.cur i{background:var(--orange)}
+  .seg-names{display:flex;gap:6px}
+  .seg-names span{flex:1;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .3s}
+  .seg-names span.on{color:var(--fg)}
+
+  /* card */
+  main{flex:1;display:flex;flex-direction:column}
+  .card{position:relative;flex:1;display:flex;flex-direction:column}
+  .q-anim{animation:qin .45s cubic-bezier(.2,.8,.2,1)}
+  .q-anim.back{animation-name:qinb}
+  @keyframes qin{from{opacity:0;transform:translateX(28px)}}
+  @keyframes qinb{from{opacity:0;transform:translateX(-28px)}}
+
+  .q-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .q-num{font-family:var(--mono);font-size:12px;color:var(--orange);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(24px,3.6vw,40px);line-height:1.1;letter-spacing:-.02em;text-wrap:balance;max-width:20em}
+  .q-sub{margin-top:14px;font-size:16px;line-height:1.55;color:var(--muted);max-width:36em}
+  .help-btn{flex-shrink:0;display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:99px;border:1px solid var(--line-2);font-size:13px;font-weight:700;transition:.2s;white-space:nowrap}
+  .help-btn:hover{border-color:var(--fg);background:var(--surface)}
+  .help-btn .qm{width:20px;height:20px;border-radius:50%;background:var(--blue);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--fg)}
+
+  .opts{margin-top:32px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+  .opt{position:relative;text-align:left;display:flex;gap:14px;align-items:flex-start;padding:18px 18px 18px 16px;border-radius:18px;
+       background:var(--surface);border:1px solid var(--line);transition:border-color .2s,background .2s,transform .2s}
+  .opt:hover{border-color:var(--line-2);transform:translateY(-2px)}
+  .opt .key{flex-shrink:0;width:24px;height:24px;border-radius:7px;border:1px solid var(--line-2);display:grid;place-items:center;font-family:var(--mono);font-size:11px;color:var(--muted);transition:.2s}
+  .opt .t{font-weight:700;font-size:15px;line-height:1.35}
+  .opt .d{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4;font-weight:500}
+  .opt.sel{border-color:var(--orange);background:linear-gradient(0deg,rgba(255,91,31,.12),rgba(255,91,31,.12)),var(--surface)}
+  .opt.sel .key{background:var(--orange);border-color:var(--orange);color:var(--fg)}
+
+  .chips{margin-top:32px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{padding:11px 18px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:700;font-size:14px;transition:.2s;display:flex;align-items:center;gap:8px}
+  .chip:hover{border-color:var(--line-2)}
+  .chip.sel{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+  .chip.sel::before{content:"✓";font-size:12px}
+  .chip.none{border-style:dashed}
+  .limit{margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+  .scale{margin-top:36px;display:grid;grid-template-columns:repeat(5,1fr);gap:10px;max-width:620px}
+  .scale .opt{flex-direction:column;align-items:center;text-align:center;padding:20px 8px;gap:8px}
+  .scale .big{font-family:var(--display);font-weight:800;font-size:26px}
+  .scale-legend{display:flex;justify-content:space-between;max-width:620px;margin-top:10px;font-size:12px;color:var(--muted)}
+
+  .field{margin-top:32px;max-width:560px}
+  .field input{width:100%;padding:18px 20px;border-radius:16px;background:var(--surface);border:1px solid var(--line-2);color:var(--fg);font:600 18px var(--body);transition:border-color .2s}
+  .field input::placeholder{color:var(--muted);font-weight:500}
+  .field input:focus{outline:none;border-color:var(--orange)}
+  .extra{margin-top:16px;max-width:560px}
+  .extra input{padding:14px 18px;font-size:15px}
+  .extra label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}
+
+  /* nav */
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:32px 36px;margin-top:auto}
+  .nav-l{display:flex;gap:8px}
+  .ghost{padding:14px 20px;border-radius:99px;font-weight:700;font-size:14px;color:var(--muted);transition:.2s}
+  .ghost:hover{color:var(--fg);background:var(--surface)}
+  .ghost[disabled]{opacity:.3;pointer-events:none}
+  .next{display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 26px;border-radius:99px;background:var(--orange);color:var(--fg);font:600 16px var(--display);transition:transform .25s,opacity .2s}
+  .next .arr{width:42px;height:42px;border-radius:50%;background:var(--bg);display:grid;place-items:center}
+  .next:hover{transform:translateY(-2px)}
+  .next[disabled]{opacity:.35;pointer-events:none}
+  .hint-keys{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  @media (max-width:760px){.hint-keys{display:none}}
+
+  /* help panel (заготовка) */
+  .scrim{position:fixed;inset:0;background:rgba(6,7,10,.6);backdrop-filter:blur(4px);z-index:20;opacity:0;pointer-events:none;transition:opacity .3s}
+  .scrim.on{opacity:1;pointer-events:auto}
+  .panel{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);z-index:21;background:var(--surface);border-left:1px solid var(--line);
+         padding:calc(28px + env(safe-area-inset-top,0px)) max(28px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) 28px;
+         transform:translateX(100%);transition:transform .4s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;gap:18px;overflow-y:auto}
+  .panel.on{transform:none}
+  .panel-top{display:flex;justify-content:space-between;align-items:center}
+  .panel-top span{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .x{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center}
+  .panel h2{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.2}
+  .slot{border:1px dashed var(--line-2);border-radius:16px;padding:16px;display:flex;gap:14px;align-items:center}
+  .slot .ic{width:40px;height:40px;border-radius:12px;background:var(--surface-2);display:grid;place-items:center;flex-shrink:0}
+  .slot b{display:block;font-size:14px}
+  .slot small{font-size:13px;color:var(--muted)}
+  .soon{font-size:13px;color:var(--muted);line-height:1.5}
+
+  /* result */
+  .res-grid{margin-top:32px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .res-item{text-align:left;padding:16px 18px;border-radius:16px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px;transition:border-color .2s;min-width:0}
+  .res-item:hover{border-color:var(--line-2)}
+  .res-item small{font-size:12px;color:var(--muted)}
+  .res-item span{font-weight:700;font-size:14px;line-height:1.4}
+  .res-item.empty span{color:var(--muted);font-weight:500}
+  .res-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:32px}
+
+  /* recommendations */
+  .rec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;margin-bottom:24px}
+  .rec-head h1{max-width:18em}
+  .rec-note{font-size:13px;line-height:1.5;color:var(--muted);max-width:28em}
+  .rec-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+  .inst-card{overflow:hidden;display:flex;flex-direction:column;text-align:left;border-radius:20px;border:1px solid var(--line);background:var(--surface);transition:transform .2s,border-color .2s;min-width:0}
+  .inst-card:hover{transform:translateY(-3px);border-color:var(--line-2)}
+  .inst-cover{height:164px;position:relative;overflow:hidden;display:grid;place-items:center;background:radial-gradient(circle at 72% 18%,rgba(255,255,255,.32),transparent 24%),linear-gradient(135deg,#3449bb,#151821 75%)}
+  .inst-cover::before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;right:-48px;top:-76px;background:rgba(255,255,255,.12)}
+  .inst-cover::after{content:"";position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(transparent,rgba(6,7,10,.36))}
+  .inst-cover svg{position:relative;z-index:1;width:78%;height:78%;filter:drop-shadow(0 12px 12px rgba(0,0,0,.2))}
+  .inst-cover .cover-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+  .inst-cover.has-photo svg{display:none}
+  .inst-cover.has-photo::after{height:68%;background:linear-gradient(transparent,rgba(6,7,10,.58))}
+  .inst-cover.tech{background:radial-gradient(circle at 76% 20%,rgba(95,202,255,.58),transparent 28%),linear-gradient(135deg,#173c68,#111521 82%)}
+  .inst-cover.engineering{background:radial-gradient(circle at 75% 16%,rgba(255,184,83,.48),transparent 28%),linear-gradient(135deg,#8b4429,#17171d 82%)}
+  .inst-cover.science{background:radial-gradient(circle at 70% 18%,rgba(169,143,255,.5),transparent 30%),linear-gradient(135deg,#483b92,#15151e 82%)}
+  .inst-cover.classic{background:radial-gradient(circle at 75% 18%,rgba(255,209,126,.48),transparent 28%),linear-gradient(135deg,#7f5746,#19171b 82%)}
+  .inst-cover.modern{background:radial-gradient(circle at 75% 18%,rgba(111,229,195,.48),transparent 28%),linear-gradient(135deg,#23685c,#15191a 82%)}
+  .inst-cover.hospitality{background:radial-gradient(circle at 75% 18%,rgba(255,179,143,.55),transparent 28%),linear-gradient(135deg,#994e55,#1c171b 82%)}
+  .inst-cover.creative{background:radial-gradient(circle at 75% 18%,rgba(243,146,255,.5),transparent 28%),linear-gradient(135deg,#6d3980,#17151e 82%)}
+  .inst-cover.architecture{background:radial-gradient(circle at 75% 18%,rgba(191,215,255,.5),transparent 28%),linear-gradient(135deg,#496c90,#17191d 82%)}
+  .inst-type{position:absolute;z-index:2;left:13px;top:13px;padding:6px 10px;border-radius:99px;background:rgba(10,11,15,.66);backdrop-filter:blur(8px);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em}
+  .inst-body{padding:16px;display:flex;flex-direction:column;gap:9px;flex:1}
+  .inst-city{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+  .inst-body h2{font-family:var(--display);font-size:15px;line-height:1.28;font-weight:700}
+  .inst-body p{font-size:13px;line-height:1.5;color:var(--muted)}
+  .fit-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:4px}
+  .fit-tags span{font-size:10px;border:1px solid var(--line-2);color:#c9c5bd;padding:5px 8px;border-radius:99px}
+  .inst-detail{border:1px solid var(--line);background:var(--surface);border-radius:22px;padding:clamp(20px,4vw,40px)}
+  .inst-detail .inst-cover{height:clamp(190px,32vw,340px);border-radius:16px;margin:18px 0 28px}
+  .photo-gallery{margin:18px 0 28px}
+  .gallery-main{position:relative;height:clamp(210px,36vw,390px);overflow:hidden;border-radius:16px;background:var(--surface-2)}
+  .gallery-main img{width:100%;height:100%;object-fit:cover;display:block}
+  .gallery-caption{position:absolute;inset:auto 0 0;padding:42px 16px 14px;background:linear-gradient(transparent,rgba(7,8,12,.82));display:flex;align-items:flex-end;justify-content:space-between;gap:12px;color:#fff;font-size:12px}
+  .gallery-caption a{font-weight:700;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+  .gallery-thumbs{display:flex;gap:8px;overflow-x:auto;padding:10px 1px 4px}
+  .gallery-thumb{flex:0 0 92px;height:64px;border-radius:10px;overflow:hidden;border:2px solid transparent;padding:0;background:var(--surface-2)}
+  .gallery-thumb.on{border-color:var(--orange)}
+  .gallery-thumb img{width:100%;height:100%;object-fit:cover}
+  .photo-status{font-size:12px;color:var(--muted);margin:8px 0}
+  .inst-detail h1{font-size:clamp(27px,4vw,44px);max-width:22em}
+  .inst-detail p{font-size:16px;line-height:1.7;color:var(--muted);max-width:58em;margin-top:16px}
+  .detail-meta{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
+  .detail-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  .detail-actions a,.detail-actions button{display:inline-flex;align-items:center;padding:13px 18px;border-radius:99px;background:var(--orange);font-weight:700;font-size:13px}
+  .detail-actions button{background:var(--surface-2);border:1px solid var(--line-2)}
+  .empty-results{margin-top:24px;border:1px solid var(--line);border-radius:18px;background:var(--surface);padding:24px;max-width:680px}
+  .empty-results p{font-size:14px;line-height:1.6;color:var(--muted);margin-top:8px}
+  .rec-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:22px}
+
+  @media (max-width:600px){
+    .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+    .seg-names{display:none}
+    .q-head{flex-direction:column-reverse;gap:16px}
+    .opts{grid-template-columns:1fr}
+    .scale{gap:6px}
+    .scale .big{font-size:20px}
+    .scale .opt .d{display:none}
+    .res-grid{grid-template-columns:1fr}
+    .rec-grid{grid-template-columns:1fr}
+    .rec-head{align-items:flex-start;flex-direction:column}
+    .ghost{padding:12px 14px}
+    .next{font-size:14px;padding-left:20px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="g1"></i><i class="g2"></i><i class="g3"></i></div>
+
+<div class="wrap">
+  <header>
+    <a href="index.html" class="logo">не тупи, <b>поступи</b></a>
+    <a href="index.html" class="exit">Выйти <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></a>
+  </header>
+
+  <div class="progress" id="progress">
+    <div class="prog-top"><span id="secName">—</span><span><b id="qPos">1</b> / <span id="qTotal">—</span></span></div>
+    <div class="segs" id="segs"></div>
+    <div class="seg-names" id="segNames"></div>
+  </div>
+
+  <main>
+    <div class="card" id="card" aria-live="polite"></div>
+  </main>
+
+  <div class="nav" id="nav">
+    <div class="nav-l">
+      <button class="ghost" id="back" type="button">← Назад</button>
+      <button class="ghost" id="skip" type="button">Пропустить</button>
+    </div>
+    <span class="hint-keys" id="hintKeys">Цифры — выбор · Enter — дальше</span>
+    <button class="next" id="next" type="button">Дальше <span class="arr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2EEE6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+  </div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="helpTitle" aria-hidden="true" tabindex="-1">
+  <div class="panel-top"><span>Помощь с вопросом</span><button class="x" id="closeHelp" type="button" aria-label="Закрыть">✕</button></div>
+  <h2 id="helpTitle">—</h2>
+  <p class="soon">Здесь появятся материалы именно к этому вопросу. Сейчас это заготовка.</p>
+  <div class="slot"><span class="ic">📄</span><div><b>Статья</b><small>Разбор простыми словами</small></div></div>
+  <div class="slot"><span class="ic">🧩</span><div><b>Мини-тест</b><small>Поможет определиться</small></div></div>
+  <div class="slot"><span class="ic">▶️</span><div><b>Видео</b><small>Коротко от тех, кто уже поступил</small></div></div>
+  <div class="slot"><span class="ic">💬</span><div><b>Спросить в чате</b><small>Поступашки и кураторы ответят</small></div></div>
+</aside>
+
+<script src="institutions.js"></script>
+<script src="institutions-global.js"></script>
+<script>
+/* ================== ВОПРОСЫ ==================
+   type: single | multi | scale | text
+   when(a): показывать ли вопрос, исходя из прошлых ответов
+   none: значение варианта, который снимает остальные (в multi)
+   other: поле «свой вариант»
+*/
+const SECTIONS = ['Знакомство','Учёба','Будущее','Достижения','Языки','Куда','Условия','Про тебя'];
+
+const Q = [
+  { id:'name', sec:0, type:'text', title:'Как к тебе обращаться?', sub:'Просто имя или ник. Нужно, чтобы общаться по-человечески.', placeholder:'Например, Лера', optional:true },
+  { id:'stage', sec:0, type:'single', title:'Где ты сейчас учишься?', sub:'От этого зависит, какие экзамены и сроки тебя ждут.',
+    opts:[['9','9 класс'],['10','10 класс'],['11','11 класс'],['grad','Уже окончил(а) школу','Gap year или поступаю повторно'],['college','Учусь в колледже'],['uni','Учусь в вузе','Хочу перевестись или в магистратуру']] },
+  { id:'target', sec:0, type:'single', title:'Куда хочешь поступать?', sub:'Если сомневаешься, это нормально. Поможем сравнить.',
+    opts:[['uni','Вуз','Бакалавриат или специалитет'],['college','Колледж','После 9 или 11 класса'],['master','Магистратура'],['unsure','Пока не решил(а)','Хочу понять, что лучше мне']] },
+  { id:'when', sec:0, type:'single', title:'Когда планируешь поступать?',
+    opts:[['now','В этом году'],['next','В следующем году'],['later','Через 2 года и позже'],['unsure','Пока не знаю']] },
+
+  { id:'gpa', sec:1, type:'single', title:'Какой средний балл в аттестате?', sub:'Примерно. Если аттестата ещё нет, ориентируйся на текущие оценки.',
+    opts:[['3','3,0 – 3,5'],['3.5','3,5 – 4,0'],['4','4,0 – 4,5'],['4.5','4,5 – 5,0'],['medal','Иду на медаль / красный диплом']] },
+  { id:'oge', sec:1, type:'single', title:'Как у тебя с ОГЭ?', sub:'Для колледжа часто важен средний балл аттестата и ОГЭ.',
+    when:a=>a.target==='college'||a.stage==='9'||a.stage==='10',
+    opts:[['none','Ещё не сдавал(а)'],['3','В основном тройки'],['4','Четвёрки и пятёрки'],['5','Все пятёрки']] },
+  { id:'ege', sec:1, type:'single', title:'Сколько баллов ЕГЭ в сумме?', sub:'Сумма по трём предметам. Если ещё не сдавал(а), выбери ожидаемый результат.',
+    when:a=>a.target!=='college'&&a.target!=='master'&&a.stage!=='9',
+    opts:[['none','Ещё не сдавал(а) и не знаю'],['180','До 180'],['220','180 – 220'],['260','220 – 260'],['290','260 и выше','Очень круто']] },
+  { id:'egeSubj', sec:1, type:'multi', title:'Какие предметы ЕГЭ сдаёшь или планируешь?',
+    when:a=>a.target!=='college'&&a.target!=='master'&&a.stage!=='9',
+    opts:['Русский','Математика (профиль)','Математика (база)','Информатика','Физика','Химия','Биология','Обществознание','История','Литература','Английский','Другой иностранный','География'], none:'Пока не выбрал(а)' },
+  { id:'loves', sec:1, type:'multi', title:'Что тебе по-настоящему нравится изучать?', sub:'Не то, что «надо», а то, где время летит незаметно.',
+    opts:['Математика','Программирование','Физика','Химия','Биология','Растения и экология','Животные','Геология','Сельское хозяйство','История','Литература','Языки','Обществознание','Рисование и дизайн','Музыка','Спорт','Психология','Экономика'], none:'Пока ничего не цепляет' },
+
+  { id:'career', sec:2, type:'multi', max:3, title:'Кем хочешь стать?', sub:'Выбери до трёх направлений. Если не знаешь, это и есть повод пройти подбор.',
+    opts:['IT и разработка','Медицина','Инженерия','Бизнес и менеджмент','Экономика и финансы','Право','Дизайн и искусство','Психология','Медиа и журналистика','Лингвистика и перевод','Естественные науки','Педагогика','Архитектура','Гейм-дев','Маркетинг','Международные отношения','Строительство и инфраструктура','Ботаника и биотехнологии','Сельское хозяйство и экология','Ветеринария и зоология','Геология и природные ресурсы'],
+    none:'Пока не знаю', other:'Или напиши своими словами' },
+  { id:'workStyle', sec:2, type:'single', title:'Какая работа тебе ближе?', sub:'Поможет уточнить направление, даже если профессия пока не ясна.',
+    opts:[['people','С людьми','Общаться, помогать, убеждать'],['tech','С техникой и кодом','Собирать, чинить, автоматизировать'],['create','Творческая','Придумывать и создавать'],['analyze','Аналитическая','Цифры, исследования, логика'],['lead','Руководить','Организовывать и принимать решения']] },
+
+  { id:'olymp', sec:3, type:'single', title:'Участвовал(а) в олимпиадах?', sub:'Победы в перечневых олимпиадах могут дать поступление без экзаменов.',
+    opts:[['no','Нет'],['part','Участвовал(а), без призовых мест'],['school','Призёр школьного или муниципального этапа'],['region','Призёр регионального этапа'],['list','Призёр перечневой или ВсОШ','Есть льготы при поступлении'],['intl','Международные олимпиады']] },
+  { id:'activity', sec:3, type:'multi', title:'Чем занимаешься кроме учёбы?', sub:'Зарубежные вузы очень смотрят на активити. Российские тоже начинают.',
+    opts:['Волонтёрство','Спорт','Музыка','Искусство и творчество','Исследования и проекты','Школьное самоуправление','Работа или стажировка','Блог или медиа','Дебаты и MUN','Хакатоны'], none:'Пока ничего' },
+  { id:'portfolio', sec:3, type:'single', title:'Собрано ли портфолио?', sub:'Нужно для творческих специальностей и для многих зарубежных вузов.',
+    opts:[['yes','Да, готово'],['wip','В процессе'],['no','Нет'],['what','Не знаю, что туда класть']] },
+  { id:'startup', sec:3, type:'single', title:'Есть свои стартапы или проекты?', sub:'Даже маленький проект может стать сильной частью заявки.',
+    opts:[['no','Нет'],['idea','Есть идея'],['building','Делаю прямо сейчас'],['launched','Запущен','Есть пользователи или продажи']] },
+
+  { id:'langs', sec:4, type:'multi', title:'Какие языки знаешь?', sub:'Русский считаем по умолчанию. Отметь те, на которых можешь хотя бы объясниться.',
+    opts:['Английский','Немецкий','Французский','Испанский','Итальянский','Китайский','Корейский','Японский','Турецкий','Арабский','Чешский'], none:'Только русский', other:'Другой язык' },
+  { id:'engLevel', sec:4, type:'single', title:'Какой у тебя уровень английского?',
+    when:a=>(a.langs||[]).includes('Английский'),
+    opts:[['a','A1–A2','Понимаю простое'],['b1','B1','Могу поддержать разговор'],['b2','B2','Свободно смотрю видео и общаюсь'],['c1','C1 и выше','Как на родном'],['unsure','Не знаю']] },
+  { id:'intlExams', sec:4, type:'multi', title:'Сдавал(а) международные экзамены?', sub:'IELTS, SAT и другие нужны для поступления за границу.',
+    opts:['IELTS','TOEFL','Duolingo English Test','SAT','ACT','HSK','TOPIK','JLPT','Goethe / TestDaF','DELF / DALF','DELE'], none:'Нет и пока не планирую', other:'Планирую сдать (напиши какой)' },
+
+  { id:'where', sec:5, type:'single', title:'Где хочешь учиться?',
+    opts:[['ru','В России'],['abroad','За границей'],['both','Рассматриваю оба варианта'],['help','Не знаю, помогите решить']] },
+  { id:'ruCity', sec:5, type:'multi', title:'Какие города в России рассматриваешь?', other:'Или впиши свой город',
+    when:a=>a.where==='ru'||a.where==='both'||a.where==='help',
+    opts:['Москва','Санкт-Петербург','Казань','Новосибирск','Екатеринбург','Нижний Новгород','Томск','Краснодар','Свой город'], none:'Любой, главное вуз' },
+  { id:'country', sec:5, type:'multi', title:'Какие страны рассматриваешь?', sub:'Можно выбрать несколько. Подбор покажет варианты, которые есть в нашей тестовой базе.',
+    when:a=>a.where==='abroad'||a.where==='both'||a.where==='help',
+    opts:['Китай','Южная Корея','Япония','Германия','Италия','Франция','Нидерланды','Швейцария','Швеция','Дания','Сингапур','Гонконг','Индия','Малайзия','Индонезия','Австралия','Новая Зеландия','Бразилия','Мексика','Аргентина','Чили','ЮАР','Египет','Израиль','Катар','Саудовская Аравия','Кения','Великобритания','США','Канада'], none:'Не знаю, помогите выбрать', other:'Другая страна' },
+  { id:'cityVibe', sec:5, type:'single', title:'В каком городе тебе будет комфортно?',
+    opts:[['mega','Мегаполис','Движ, возможности, шум'],['mid','Средний город','Баланс'],['calm','Спокойный студенческий город'],['any','Без разницы']] },
+
+  { id:'grant', sec:6, type:'single', title:'Грант или бюджет обязателен?', sub:'Честный ответ сэкономит кучу времени на подборе.',
+    opts:[['must','Да, только бесплатно','Бюджет или полный грант'],['partial','Подойдёт частичная скидка'],['want','Хотелось бы, но готовы платить'],['no','Не важно']] },
+  { id:'budget', sec:6, type:'single', title:'Сколько можно тратить на учёбу в год?', sub:'Только обучение, без жилья. Примерно.',
+    when:a=>a.grant&&a.grant!=='must',
+    opts:[['200','До 200 тыс. ₽'],['500','200 – 500 тыс. ₽'],['1500','500 тыс. – 1,5 млн ₽'],['more','Больше 1,5 млн ₽'],['unsure','Пока не знаю']] },
+  { id:'dorm', sec:6, type:'single', title:'Нужно ли общежитие?',
+    opts:[['must','Обязательно'],['nice','Было бы хорошо'],['no','Не нужно','Буду жить дома или снимать']] },
+  { id:'format', sec:6, type:'single', title:'Какой формат учёбы подходит?',
+    opts:[['full','Очно'],['mixed','Очно-заочно'],['online','Онлайн / дистанционно'],['any','Любой']] },
+  { id:'priority', sec:6, type:'multi', max:3, title:'Что для тебя важнее всего в вузе?', sub:'Выбери до трёх.',
+    opts:['Престиж и рейтинг','Сильная наука','Практика и стажировки','Трудоустройство','Студенческая жизнь','Международная среда','Красивый город','Кампус','Небольшие группы','Обмены за границу'] },
+
+  { id:'stress', sec:7, type:'scale', title:'Насколько тебе сейчас тревожно из-за поступления?', sub:'Без оценок. Это поможет подобрать темп и подсказки.',
+    opts:[['1','Спокойно'],['2',''],['3',''],['4',''],['5','Очень']] },
+  { id:'helpers', sec:7, type:'multi', title:'Кто тебе помогает с поступлением?',
+    opts:['Родители','Репетиторы','Школа или учителя','Агентство','Друзья','Онлайн-курсы'], none:'Справляюсь сам(а)' },
+  { id:'hours', sec:7, type:'single', title:'Сколько времени в неделю готов(а) уделять подготовке?',
+    opts:[['5','Меньше 5 часов'],['10','5 – 10 часов'],['20','10 – 20 часов'],['more','Больше 20 часов']] },
+  { id:'fear', sec:7, type:'multi', title:'Что больше всего пугает в поступлении?', sub:'Выбери всё, что откликается. Будем закрывать это в первую очередь.',
+    opts:['Не сдать экзамены','Выбрать не то','Документы и бюрократия','Деньги','Переезд','Язык','Подвести родителей','Остаться одному'], none:'Ничего не пугает' },
+];
+
+/* ================== СОСТОЯНИЕ ================== */
+const KEY='ntp-podbor-v1';
+let A={}, idx=0, dir=1, done=false, showResults=false, showCatalog=false, detailId='';
+try{
+  const s=JSON.parse(localStorage.getItem(KEY)||'null');
+  if(s&&typeof s==='object'){
+    A=s.A&&typeof s.A==='object'&&!Array.isArray(s.A)?s.A:{};
+    idx=Number.isInteger(s.idx)&&s.idx>=0?s.idx:0;
+    done=!!s.done; showResults=!!s.showResults; showCatalog=!!s.showCatalog;
+    detailId=INSTITUTIONS.some(i=>i.id===s.detailId)?s.detailId:'';
+  }
+}catch(e){}
+const save=()=>{ try{ localStorage.setItem(KEY,JSON.stringify({A,idx,done,showResults,showCatalog,detailId})); }catch(e){} };
+
+const visible=()=>Q.filter(q=>!q.when||q.when(A));
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ================== РЕНДЕР ================== */
+const $=id=>document.getElementById(id);
+const card=$('card');
+
+function renderProgress(){
+  const vis=visible(), q=vis[idx];
+  const segs=$('segs'), names=$('segNames');
+  if(!segs.children.length){
+    segs.innerHTML=SECTIONS.map(()=>'<div class="seg"><i></i></div>').join('');
+    names.innerHTML=SECTIONS.map(s=>`<span>${s}</span>`).join('');
+  }
+  SECTIONS.forEach((s,si)=>{
+    const inSec=vis.filter(x=>x.sec===si);
+    let pct;
+    if(done) pct=100;
+    else { const before=vis.slice(0,idx).filter(x=>x.sec===si).length; pct=inSec.length?before/inSec.length*100:100; if(q&&q.sec>si) pct=100; if(q&&q.sec<si) pct=0; }
+    const el=segs.children[si];
+    el.firstChild.style.width=pct+'%';
+    el.classList.toggle('cur',!done&&q&&q.sec===si);
+    names.children[si].classList.toggle('on',done||(q&&q.sec>=si));
+  });
+  $('secName').textContent=done?'Готово':SECTIONS[q.sec];
+  $('qPos').textContent=done?vis.length:idx+1;
+  $('qTotal').textContent=vis.length;
+}
+
+function render(){
+  const vis=visible();
+  if(idx>=vis.length){ idx=vis.length; done=true; }
+  renderProgress();
+  $('nav').hidden=done;
+  if(done){ renderResult(); save(); return; }
+  const q=vis[idx], a=A[q.id];
+  let body='';
+  if(q.type==='single'){
+    body='<div class="opts">'+q.opts.map((o,i)=>`<button type="button" class="opt${a===o[0]?' sel':''}" aria-pressed="${a===o[0]}" data-v="${esc(o[0])}"><span class="key">${i+1}</span><span><span class="t">${esc(o[1])}</span>${o[2]?`<span class="d">${esc(o[2])}</span>`:''}</span></button>`).join('')+'</div>';
+  } else if(q.type==='multi'){
+    const arr=Array.isArray(a)?a:[];
+    body='<div class="chips">'+q.opts.map(o=>`<button type="button" class="chip${arr.includes(o)?' sel':''}" aria-pressed="${arr.includes(o)}" data-v="${esc(o)}">${esc(o)}</button>`).join('')
+      +(q.none?`<button type="button" class="chip none${arr.includes(q.none)?' sel':''}" aria-pressed="${arr.includes(q.none)}" data-v="${esc(q.none)}" data-none="1">${esc(q.none)}</button>`:'')+'</div>'
+      +(q.max?`<div class="limit">Можно выбрать до ${q.max} · выбрано <span id="cnt">${arr.filter(x=>x!==q.none).length}</span></div>`:'')
+      +(q.other?`<div class="field extra"><label for="other-${q.id}">${esc(q.other)}</label><input id="other-${q.id}" type="text" value="${esc(A[q.id+'_other']||'')}" placeholder="Напиши здесь"></div>`:'');
+  } else if(q.type==='scale'){
+    body='<div class="scale opts">'+q.opts.map((o,i)=>`<button type="button" class="opt${a===o[0]?' sel':''}" aria-pressed="${a===o[0]}" data-v="${o[0]}"><span class="big">${o[0]}</span>${o[1]?`<span class="d">${o[1]}</span>`:''}</button>`).join('')+'</div>'
+      +'<div class="scale-legend"><span>Спокойно</span><span>Очень тревожно</span></div>';
+  } else if(q.type==='text'){
+    body=`<div class="field"><input id="text-${q.id}" type="text" autocomplete="given-name" maxlength="40" value="${esc(a||'')}" placeholder="${esc(q.placeholder||'')}"></div>`;
+  }
+  const greet = A.name && q.id==='stage' ? `${esc(A.name)}, приятно познакомиться! ` : '';
+  card.innerHTML=`<div class="q-anim${dir<0?' back':''}">
+      <div class="q-head">
+        <div><div class="q-num">Вопрос ${idx+1}</div><h1>${q.title}</h1>${(q.sub||greet)?`<p class="q-sub">${greet}${q.sub||''}</p>`:''}</div>
+        <button type="button" class="help-btn" id="helpBtn"><span class="qm">?</span>Помочь с вопросом</button>
+      </div>${body}</div>`;
+  bind(q);
+  updateNext(q);
+  $('back').disabled=idx===0;
+  $('skip').hidden=q.type==='text';
+  save();
+}
+
+function bind(q){
+  card.querySelectorAll('.opt').forEach(b=>b.onclick=()=>pickSingle(q,b.dataset.v));
+  card.querySelectorAll('.chip').forEach(b=>b.onclick=()=>toggleMulti(q,b.dataset.v,!!b.dataset.none));
+  const t=card.querySelector('#text-'+q.id);
+  if(t){ t.oninput=()=>{A[q.id]=t.value.trim();updateNext(q);save();}; setTimeout(()=>t.focus(),50); }
+  const o=card.querySelector('#other-'+q.id);
+  if(o){ o.oninput=()=>{A[q.id+'_other']=o.value.trim();updateNext(q);save();}; }
+  $('helpBtn').onclick=()=>openHelp(q);
+}
+
+let advanceTimer;
+function pickSingle(q,v){
+  A[q.id]=v;
+  card.querySelectorAll('.opt').forEach(b=>{const selected=b.dataset.v===v;b.classList.toggle('sel',selected);b.setAttribute('aria-pressed',String(selected));});
+  updateNext(q); save();
+  clearTimeout(advanceTimer); advanceTimer=setTimeout(go,320);
+}
+function toggleMulti(q,v,isNone){
+  let arr=Array.isArray(A[q.id])?[...A[q.id]]:[];
+  if(isNone) arr=arr.includes(v)?[]:[v];
+  else{
+    arr=arr.filter(x=>x!==q.none);
+    if(arr.includes(v)) arr=arr.filter(x=>x!==v);
+    else { if(q.max&&arr.length>=q.max) arr.shift(); arr.push(v); }
+  }
+  A[q.id]=arr;
+  card.querySelectorAll('.chip').forEach(b=>{const selected=arr.includes(b.dataset.v);b.classList.toggle('sel',selected);b.setAttribute('aria-pressed',String(selected));});
+  const c=$('cnt'); if(c) c.textContent=arr.filter(x=>x!==q.none).length;
+  updateNext(q); save();
+}
+function answered(q){
+  const a=A[q.id];
+  if(q.type==='text') return true;
+  if(q.type==='multi') return (Array.isArray(a)&&a.length>0)||!!A[q.id+'_other'];
+  return a!=null&&a!=='';
+}
+function updateNext(q){ $('next').disabled=!answered(q); }
+
+function go(){ clearTimeout(advanceTimer); dir=1; idx++; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function back(){ clearTimeout(advanceTimer); if(idx>0){dir=-1; idx--; render();} }
+function skip(){ const q=visible()[idx]; if(!q)return; delete A[q.id]; delete A[q.id+'_other']; go(); }
+
+$('next').onclick=go; $('back').onclick=back; $('skip').onclick=skip;
+
+/* ================== ПОМОЩЬ ================== */
+let helpTrigger=null;
+function openHelp(q){ helpTrigger=document.activeElement; $('helpTitle').textContent=q.title; $('panel').classList.add('on'); $('scrim').classList.add('on'); $('panel').setAttribute('aria-hidden','false'); $('closeHelp').focus(); }
+function closeHelp(){ const wasOpen=$('panel').classList.contains('on'); $('panel').classList.remove('on'); $('scrim').classList.remove('on'); $('panel').setAttribute('aria-hidden','true'); if(wasOpen&&helpTrigger?.isConnected)helpTrigger.focus(); }
+$('scrim').onclick=closeHelp; $('closeHelp').onclick=closeHelp;
+
+/* ================== КЛАВИАТУРА ================== */
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape') return closeHelp();
+  if($('panel').classList.contains('on')){
+    if(e.key==='Tab'){
+      const focusable=[...$('panel').querySelectorAll('button,a[href],input,[tabindex]:not([tabindex="-1"])')].filter(el=>!el.disabled);
+      if(!focusable.length){e.preventDefault();$('panel').focus();return;}
+      const first=focusable[0],last=focusable[focusable.length-1];
+      if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+      else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+    }
+    return;
+  }
+  if(done)return;
+  const q=visible()[idx]; if(!q) return;
+  const typing=e.target.tagName==='INPUT';
+  if(e.key==='Enter'){ if(answered(q)){ e.preventDefault(); go(); } return; }
+  if(typing) return;
+  const n=parseInt(e.key,10);
+  if(n>=1&&n<=9&&(q.type==='single'||q.type==='scale')&&q.opts[n-1]) pickSingle(q,q.opts[n-1][0]);
+});
+
+/* ================== ИТОГ ================== */
+function label(q){
+  const a=A[q.id];
+  if(q.type==='text') return a||'';
+  if(q.type==='multi'){ const arr=[...(Array.isArray(a)?a:[])]; if(A[q.id+'_other']) arr.push(A[q.id+'_other']); return arr.join(', '); }
+  const o=q.opts.find(o=>o[0]===a); return o?(q.type==='scale'?`${o[0]} из 5`:o[1]):'';
+}
+function renderResult(){
+  if(showResults){ renderRecommendations(); return; }
+  const vis=visible();
+  card.innerHTML=`<div class="q-anim">
+    <div class="q-num">Анкета заполнена</div>
+    <h1>${A.name?esc(A.name)+', это':'Это'} было круто. Теперь мы знаем о тебе достаточно</h1>
+    <p class="q-sub">Проверь ответы или сразу посмотри, какие учебные заведения из тестовой базы могут тебе подойти. Подбор учитывает выбранное направление, уровень обучения и город.</p>
+    <div class="res-grid">${vis.map((q,i)=>{const l=label(q);return `<button type="button" class="res-item${l?'':' empty'}" data-i="${i}"><small>${esc(q.title)}</small><span>${l?esc(l):'Пропущено'}</span></button>`;}).join('')}</div>
+    <div class="res-actions">
+      <button type="button" class="next" id="showRecommendations">Показать подборку <span class="arr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2EEE6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></button>
+      <button type="button" class="ghost" id="restart">Пройти заново</button>
+    </div></div>`;
+  card.querySelectorAll('.res-item').forEach(b=>b.onclick=()=>{done=false;dir=-1;idx=+b.dataset.i;render();window.scrollTo({top:0});});
+  $('showRecommendations').onclick=()=>{showResults=true;detailId='';save();renderResult();window.scrollTo({top:0,behavior:'smooth'});};
+  $('restart').onclick=()=>{A={};idx=0;done=false;showResults=false;detailId='';dir=1;render();};
+}
+
+const CAREER_AREAS={
+  'it и разработка':['it'],'медицина':['medicine'],'инженерия':['engineering'],'бизнес и менеджмент':['business'],
+  'экономика и финансы':['economics'],'право':['law'],'дизайн и искусство':['design'],'психология':['psychology'],
+  'медиа и журналистика':['media'],'лингвистика и перевод':['languages'],'естественные науки':['science'],
+  'педагогика':['pedagogy'],'архитектура':['architecture'],'гейм-дев':['it','design'],'маркетинг':['business','media'],
+  'международные отношения':['international'],'строительство и инфраструктура':['construction','engineering','architecture'],
+  'ботаника и биотехнологии':['botany','biology','biotechnology'],'сельское хозяйство и экология':['agriculture','environment','botany','forestry'],
+  'ветеринария и зоология':['veterinary','biology','agriculture'],'геология и природные ресурсы':['geology','environment','engineering']
+};
+const STUDY_AREAS={
+  'математика':['science','it','engineering'],'программирование':['it'],'физика':['physics','science','engineering'],
+  'химия':['science','engineering','medicine'],'биология':['science','medicine'],'история':['languages','law','media'],
+  'литература':['languages','media'],'языки':['languages','international'],'обществознание':['law','economics','psychology'],
+  'рисование и дизайн':['design','architecture'],'музыка':['design','media'],'спорт':['medicine','pedagogy'],
+  'психология':['psychology'],'экономика':['economics','business'],
+  'растения и экология':['botany','environment','agriculture','forestry'],'животные':['veterinary','biology','agriculture'],
+  'геология':['geology','environment','engineering'],'сельское хозяйство':['agriculture','botany','veterinary','environment']
+};
+const AREA_LABELS={it:'ИТ и программирование',engineering:'инженерия',science:'естественные науки',physics:'физика',medicine:'медицина',business:'бизнес',economics:'экономика',law:'право',design:'дизайн',psychology:'психология',media:'медиа',languages:'языки',pedagogy:'педагогика',architecture:'архитектура',international:'международные отношения',communications:'связь и телеком',tourism:'туризм',hospitality:'гостеприимство',printing:'издательское дело',agriculture:'сельское хозяйство',botany:'ботаника и науки о растениях',construction:'строительство и инфраструктура',environment:'экология и окружающая среда',veterinary:'ветеринария',forestry:'лесное хозяйство',geology:'геология и природные ресурсы',marine:'морские науки',food:'пищевые технологии',robotics:'робототехника',biotechnology:'биотехнологии',biology:'биология',materials:'материаловедение',education:'образование',pharmacy:'фармацевтика'};
+const PHOTO_QUERIES={
+  msu:'Lomonosov Moscow State University main building',spbu:'Saint Petersburg State University Twelve Collegia building',hse:'Higher School of Economics Moscow campus building',itmo:'ITMO University Saint Petersburg campus',
+  bmstu:'Bauman Moscow State Technical University campus',mgimo:'MGIMO University Moscow campus',mipt:'Moscow Institute of Physics and Technology campus Dolgoprudny',misis:'MISIS University Moscow campus',
+  mephi:'National Research Nuclear University MEPhI campus',kfu:'Kazan Federal University main building',innopolis:'Innopolis University campus Russia',urfu:'Ural Federal University Yekaterinburg campus',
+  nsu:'Novosibirsk State University campus Akademgorodok',tsu:'Tomsk State University main building',tpu:'Tomsk Polytechnic University main building',dvfu:'Far Eastern Federal University campus Vladivostok',
+  sfedu:'Southern Federal University Rostov campus',unn:'Lobachevsky University Nizhny Novgorod building',herzen:'Herzen University Saint Petersburg building',mining:'Saint Petersburg Mining University building',
+  ks54:'College of Communication 54 Moscow Russia',sutkt:'Saint Petersburg College of Telecommunications Krenkel',spbktp:'Saint Petersburg College Tourism Entrepreneurship',printcollege:'Novosibirsk College of Printing Information Technology',
+  ekit:'Yekaterinburg College of Industrial Technologies Russia',mcag:'Moscow College Architecture Urban Planning',kp11:'College of Entrepreneurship 11 Moscow',tsaritsyno:'Tsaritsyno College Moscow hotel hospitality',
+  innocollege:'Innopolis College Russia campus',vci:'Higher College of Informatics Novosibirsk State University',
+  harvard:'Harvard University campus Harvard Yard',mit:'Massachusetts Institute of Technology Killian Court',stanford:'Stanford University Main Quad',berkeley:'UC Berkeley campus Sather Gate',
+  ucla:'UCLA campus Royce Hall',nyu:'New York University Washington Square campus',michigan:'University of Michigan Ann Arbor campus',gatech:'Georgia Institute of Technology campus',
+  yale:'Yale University campus New Haven',cincinnati:'University of Cincinnati campus',utoronto:'University of Toronto St George campus',ubc:'University of British Columbia Vancouver campus',
+  mcgill:'McGill University campus Montreal',waterloo:'University of Waterloo campus',mcmaster:'McMaster University campus Hamilton',ualberta:'University of Alberta campus Edmonton',
+  ucalgary:'University of Calgary campus',queens:'Queen’s University Kingston campus',western:'Western University campus London Ontario',carleton:'Carleton University campus Ottawa',
+  oxford:'University of Oxford campus',cambridge:'University of Cambridge campus',imperial:'Imperial College London campus',ucl:'University College London campus',edinburgh:'University of Edinburgh campus',wur:'Wageningen University campus',tudelft:'Delft University of Technology campus',ethzurich:'ETH Zurich campus',epfl:'EPFL Lausanne campus',tum:'Technical University of Munich campus',sorbonne:'Sorbonne University Paris campus',unibo:'University of Bologna campus',polimi:'Politecnico di Milano campus',kth:'KTH Royal Institute of Technology campus',copenhagen:'University of Copenhagen campus',
+  nus:'National University of Singapore campus',ntu:'Nanyang Technological University campus',hku:'University of Hong Kong campus',utokyo:'University of Tokyo campus',kyoto:'Kyoto University campus',snu:'Seoul National University campus',kaist:'KAIST campus Daejeon',tsinghua:'Tsinghua University campus',pku:'Peking University campus',zhejiang:'Zhejiang University campus',iitdelhi:'Indian Institute of Technology Delhi campus',iitbombay:'IIT Bombay campus',umalaya:'Universiti Malaya campus',ui:'Universitas Indonesia campus',
+  melbourne:'University of Melbourne campus',anu:'Australian National University campus',sydney:'University of Sydney campus',uq:'University of Queensland campus',auckland:'University of Auckland campus',monash:'Monash University campus',
+  usp:'University of Sao Paulo campus',unam:'National Autonomous University of Mexico campus',uba:'University of Buenos Aires campus',tecmonterrey:'Tecnologico de Monterrey campus',uchile:'University of Chile campus',pucchile:'Pontifical Catholic University of Chile campus',
+  uct:'University of Cape Town campus',wits:'University of the Witwatersrand campus',aucegypt:'American University in Cairo campus',cairo:'Cairo University campus',hebrew:'Hebrew University Jerusalem campus',technion:'Technion Haifa campus',qatar:'Qatar University campus',ksu:'King Saud University Riyadh campus',nairobi:'University of Nairobi campus'
+};
+const PHOTO_TOKENS={
+  msu:['lomonosov moscow state university','moscow state university','мгу'],spbu:['saint petersburg state university','st petersburg state university','спбгу'],hse:['higher school of economics','высшая школа экономики','вшэ','hse university'],itmo:['itmo','итмо'],bmstu:['bauman','bmstu','баумана'],mgimo:['mgimo','мгимо'],mipt:['mipt','мфти'],misis:['misis','мисис'],mephi:['mephi','мифи'],kfu:['kazan federal university','казанский федеральный университет'],innopolis:['innopolis university','university of innopolis','иннополис'],urfu:['ural federal university','урфу'],nsu:['novosibirsk state university','нгу'],tsu:['tomsk state university','тгу'],tpu:['tomsk polytechnic university','тпу'],dvfu:['far eastern federal university','двфу'],sfedu:['southern federal university','юфу'],unn:['lobachevsky university','unn','ннгу'],herzen:['herzen university','herzen','герцена'],mining:['saint petersburg mining university','горный университет'],
+  ks54:['college of communication 54','колледж связи 54','ks54'],sutkt:['krenkel college','college of telecommunications','кренкеля'],spbktp:['college tourism entrepreneurship','колледж туризма и предпринимательства'],printcollege:['novosibirsk college of printing','колледж печати'],ekit:['ekit','екит'],mcag:['moscow college architecture','мкаг','колледж архитектуры'],kp11:['college of entrepreneurship 11','kp11','колледж предпринимательства 11'],tsaritsyno:['tsaritsyno college','колледж царицыно'],innocollege:['innopolis college','колледж иннополис'],vci:['higher college of informatics','высший колледж информатики'],
+  harvard:['harvard university','harvard yard'],mit:['massachusetts institute of technology','mit killian','mit great dome'],stanford:['stanford university','stanford main quad'],berkeley:['uc berkeley','university of california berkeley','sather gate'],ucla:['ucla','university of california los angeles'],nyu:['new york university','nyu washington square'],michigan:['university of michigan','umich'],gatech:['georgia institute of technology','georgia tech'],yale:['yale university','yale campus'],cincinnati:['university of cincinnati'],
+  utoronto:['university of toronto','uoft'],ubc:['university of british columbia','ubc vancouver'],mcgill:['mcgill university','mcgill'],waterloo:['university of waterloo'],mcmaster:['mcmaster university','mcmaster'],ualberta:['university of alberta','ualberta'],ucalgary:['university of calgary','ucalgary'],queens:['queen’s university','queens university','queensu'],western:['western university london ontario','western university canada'],carleton:['carleton university'],
+  oxford:['university of oxford','oxford university'],cambridge:['university of cambridge','cambridge university'],imperial:['imperial college london','imperial college'],ucl:['university college london','ucl'],edinburgh:['university of edinburgh','edinburgh university'],wur:['wageningen university','wageningen university and research','wur'],tudelft:['delft university of technology','tu delft'],ethzurich:['eth zurich','eth zürich','ethz'],epfl:['epfl','ecole polytechnique federale de lausanne'],tum:['technical university of munich','tum munich'],sorbonne:['sorbonne university','universite sorbonne'],unibo:['university of bologna','universita di bologna'],polimi:['politecnico di milano','polimi'],kth:['kth royal institute of technology','kth stockholm'],copenhagen:['university of copenhagen','kobenhavns universitet'],
+  nus:['national university of singapore','nus singapore'],ntu:['nanyang technological university','ntu singapore'],hku:['university of hong kong','hku'],utokyo:['university of tokyo','tokyo university'],kyoto:['kyoto university'],snu:['seoul national university','snu'],kaist:['kaist','korea advanced institute of science'],tsinghua:['tsinghua university'],pku:['peking university','beijing university'],zhejiang:['zhejiang university'],iitdelhi:['indian institute of technology delhi','iit delhi'],iitbombay:['indian institute of technology bombay','iit bombay'],umalaya:['universiti malaya','university of malaya'],ui:['universitas indonesia','university of indonesia'],
+  melbourne:['university of melbourne'],anu:['australian national university','anu canberra'],sydney:['university of sydney'],uq:['university of queensland','uq brisbane'],auckland:['university of auckland'],monash:['monash university'],
+  usp:['university of sao paulo','universidade de sao paulo','usp brazil'],unam:['national autonomous university of mexico','unam'],uba:['university of buenos aires','universidad de buenos aires'],tecmonterrey:['tecnologico de monterrey','monterrey tech'],uchile:['university of chile','universidad de chile'],pucchile:['pontificia universidad catolica de chile','pontifical catholic university of chile'],
+  uct:['university of cape town','uct south africa'],wits:['university of the witwatersrand','wits university'],aucegypt:['american university in cairo','auc cairo'],cairo:['cairo university'],hebrew:['hebrew university of jerusalem','hebrew university'],technion:['technion','technion israel institute of technology'],qatar:['qatar university'],ksu:['king saud university'],nairobi:['university of nairobi']
+};
+const PHOTO_MANUAL={hse:[
+  {title:'Корпус НИУ ВШЭ на Покровском бульваре',image:'https://www.hse.ru/data/2019/08/02/1483771555/20190526_4252.jpg',page:'https://www.hse.ru/news/keywords/29270274/',license:'',artist:''},
+  {title:'Атриум кампуса НИУ ВШЭ на Покровском бульваре',image:'https://www.hse.ru/data/2022/10/11/1731712878/3HSE_39524_1665465679342984.jpg.%281000x1000x1%29.jpg',page:'https://www.hse.ru/our/news/782357948.html',license:'',artist:''},
+  {title:'Студенты у входа в корпус факультета гуманитарных наук НИУ ВШЭ',image:'https://www.hse.ru/data/2025/03/17/1958039053/1Tr.jpg',page:'https://www.hse.ru/en/news/community/1025723615.html',license:'',artist:''}
+]};
+const PHOTO_CACHE=new Map();
+function tagsFor(values,map){
+  const found=[];
+  (values||[]).forEach(value=>{
+    const key=String(value).toLocaleLowerCase('ru');
+    for(const k of Object.keys(map)) if(key.includes(k)) for(const tag of map[k]) if(!found.includes(tag)) found.push(tag);
+  });
+  return found;
+}
+function applicantAreas(){
+  const career=Array.isArray(A.career)?A.career:[];
+  const interests=Array.isArray(A.loves)?A.loves:[];
+  const subjects=visible().some(q=>q.id==='egeSubj')&&Array.isArray(A.egeSubj)?A.egeSubj:[];
+  const priority=Array.isArray(A.priority)?A.priority:[];
+  const careers=tagsFor(career,CAREER_AREAS);
+  const liked=tagsFor(interests,STUDY_AREAS);
+  const studied=tagsFor(subjects,STUDY_AREAS);
+  if(A.workStyle==='tech') careers.push('it','engineering');
+  if(A.workStyle==='analyze') careers.push('science','economics');
+  if(A.workStyle==='create') careers.push('design','media');
+  if(A.workStyle==='people') careers.push('psychology','pedagogy');
+  if(A.workStyle==='lead') careers.push('business','economics');
+  const priorityTags=[];
+  if(priority.includes('Сильная наука')) priorityTags.push('science','physics');
+  if(priority.includes('Трудоустройство')||priority.includes('Практика и стажировки')) priorityTags.push('engineering','it','business');
+  if(priority.includes('Международная среда')||priority.includes('Обмены за границу')) priorityTags.push('international','languages');
+  return {careers:[...new Set(careers)],liked:[...new Set(liked)],studied:[...new Set(studied)],priority:[...new Set(priorityTags)]};
+}
+function scoreInstitution(item,areas){
+  let score=0; const reasons=[];
+  const target=A.target;
+  if(target==='college'){if(item.kind!=='college') return null; score+=30;}
+  else if(target==='uni'||target==='master'){if(item.kind!=='uni') return null; score+=30;}
+  else score+=10;
+  for(const [tag,weight,label] of [[areas.careers,8,'career'],[areas.liked,4,'interest'],[areas.studied,2,'subject'],[areas.priority,1,'priority']]){
+    const hits=tag.filter(t=>item.areas.includes(t));
+    score+=hits.length*weight;
+    if(hits.length&&label!=='priority') reasons.push(...hits.map(t=>AREA_LABELS[t]).filter(Boolean));
+  }
+  const cities=Array.isArray(A.ruCity)?A.ruCity:[];
+  const selectedCities=cities.filter(c=>c!=='Любой, главное вуз'&&c!=='Свой город');
+  const typedCity=String(A.ruCity_other||'').trim().toLocaleLowerCase('ru');
+  if(selectedCities.includes(item.city)||(typedCity&&typedCity===item.city.toLocaleLowerCase('ru'))) {score+=12; reasons.push(item.city);}
+  if(A.cityVibe==='mega'&&['Москва','Санкт-Петербург'].includes(item.city)) score+=2;
+  if(A.cityVibe==='calm'&&['Иннополис','Долгопрудный'].includes(item.city)) score+=2;
+  return {item,score,reasons:[...new Set(reasons)].slice(0,3)};
+}
+function cover(item){
+  return `<div class="inst-cover ${item.art||'classic'}" data-cover-id="${esc(item.id)}" role="img" aria-label="Иллюстрация кампуса для ${esc(item.name)}"><span class="inst-type">${item.kind==='college'?'Колледж':'Вуз'}</span><svg viewBox="0 0 320 170" aria-hidden="true"><path d="M22 148h276v10H22z" fill="rgba(8,10,16,.55)"/><path d="M48 148V86l36-24 36 24v62M119 148V72l41-31 41 31v76M201 148V91l35-21 35 21v57" fill="rgba(242,238,230,.88)"/><path d="M41 86h86M112 72h96M194 91h84" stroke="rgba(242,238,230,.7)" stroke-width="5"/><path d="M77 98h14v18H77zm28 0h14v18h-14zm18-8h14v19h-14zm28-29h14v20h-14zm27 0h14v20h-14zm28 36h14v18h-14zm28 0h14v18h-14zm27 0h14v18h-14z" fill="rgba(39,45,65,.8)"/><path d="M147 148v-24q13-18 26 0v24" fill="rgba(255,91,31,.92)"/><path d="M160 40V21m-7 8 7-8 7 8" stroke="rgba(242,238,230,.9)" stroke-width="3" fill="none"/></svg></div>`;
+}
+async function searchCommons(query,tokens=[]){
+  const params=new URLSearchParams({action:'query',generator:'search',gsrsearch:query,gsrnamespace:'6',gsrlimit:'12',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'1400',format:'json',origin:'*'});
+  try{
+    const res=await fetch(`https://commons.wikimedia.org/w/api.php?${params.toString()}`);
+    if(!res.ok) throw new Error('commons');
+    const data=await res.json();
+    const pages=Object.values(data.query?.pages||{}).map(page=>{
+      const info=page.imageinfo?.[0]; if(!info?.thumburl||!info?.descriptionurl) return null;
+      const meta=info.extmetadata||{};
+      const license=(meta.LicenseShortName?.value||'').replace(/<[^>]*>/g,'').trim();
+      const artist=(meta.Artist?.value||'').replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').trim();
+      return {title:page.title.replace(/^File:/,''),image:info.thumburl,page:info.descriptionurl,license,artist};
+    }).filter(Boolean);
+    const allowed=pages.filter(photo=>tokens.some(token=>photo.title.toLocaleLowerCase('en').includes(token.toLocaleLowerCase('en'))));
+    return allowed.slice(0,7);
+  }catch(e){return [];}
+}
+async function commonsPhotos(item){
+  if(PHOTO_CACHE.has(item.id)) return PHOTO_CACHE.get(item.id);
+  if(PHOTO_MANUAL[item.id]){PHOTO_CACHE.set(item.id,PHOTO_MANUAL[item.id]);return PHOTO_MANUAL[item.id];}
+  const query=PHOTO_QUERIES[item.id]||`${item.name} campus ${item.city}`;
+  const tokens=PHOTO_TOKENS[item.id]||[];
+  let pages=await searchCommons(query,tokens);
+  if(pages.length<3){
+    const extra=await searchCommons(`${item.name} ${item.city} ${item.country||'Russia'}`,tokens);
+    const seen=new Set(pages.map(p=>p.page));
+    pages=[...pages,...extra.filter(p=>!seen.has(p.page))].slice(0,7);
+  }
+  PHOTO_CACHE.set(item.id,pages); return pages;
+}
+async function loadOneCardPhoto(el){
+    const item=INSTITUTIONS.find(i=>i.id===el.dataset.coverId); if(!item) return;
+    const photos=await commonsPhotos(item); if(!photos.length||!el.isConnected) return;
+    const img=document.createElement('img'); img.className='cover-photo'; img.loading='lazy'; img.alt=`Кампус ${item.name}`; img.src=photos[0].image;
+    img.onerror=()=>img.remove(); img.onload=()=>el.classList.add('has-photo'); el.prepend(img);
+}
+function loadCardPhotos(){
+  const covers=[...document.querySelectorAll('.inst-cover[data-cover-id]')];
+  if('IntersectionObserver' in window){
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){observer.unobserve(entry.target);loadOneCardPhoto(entry.target);}}),{rootMargin:'280px'});
+    covers.forEach(el=>observer.observe(el));
+  }else covers.forEach(loadOneCardPhoto);
+}
+function paintGallery(item,photos,index=0){
+  const root=$('photoGallery'); if(!root) return;
+  if(root.dataset.institution!==item.id) return;
+  if(!photos.length){root.innerHTML=`${cover(item)}<div class="photo-status">Фото для этого заведения пока не нашлись. Иллюстрация временная.</div>`;return;}
+  const p=photos[index];
+  root.innerHTML=`<div class="gallery-main"><img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy"><div class="gallery-caption"><span>${esc(p.title)}${p.artist?` · ${esc(p.artist)}`:''}${p.license?` · ${esc(p.license)}`:''}</span><a href="${esc(p.page)}" target="_blank" rel="noopener noreferrer">Источник ↗</a></div></div><div class="gallery-thumbs">${photos.map((x,i)=>`<button type="button" class="gallery-thumb${i===index?' on':''}" data-photo="${i}" aria-label="Показать фото ${i+1}"><img src="${esc(x.image)}" alt="" loading="lazy"></button>`).join('')}</div><div class="photo-status">${photos.length} фото · ссылка на источник указана для каждого снимка. Проверь условия повторного использования перед публикацией.</div>`;
+  root.querySelector('.gallery-main img').onerror=e=>{e.currentTarget.hidden=true;const status=document.createElement('div');status.className='photo-status';status.textContent='Это изображение недоступно. Открой источник или выбери другое фото ниже.';root.querySelector('.gallery-main').prepend(status);};
+  root.querySelectorAll('.gallery-thumb img').forEach(img=>img.onerror=()=>img.closest('button').remove());
+  root.querySelectorAll('.gallery-thumb').forEach(b=>b.onclick=()=>paintGallery(item,photos,+b.dataset.photo));
+}
+function renderRecommendations(){
+  if(detailId){
+    const item=INSTITUTIONS.find(x=>x.id===detailId);
+    if(!item){detailId='';renderRecommendations();return;}
+    const areas=applicantAreas();
+    const matched=[...new Set([...areas.careers,...areas.liked,...areas.studied,...areas.priority])].filter(t=>item.areas.includes(t));
+    const typedCity=String(A.ruCity_other||'').trim().toLocaleLowerCase('ru');
+    const locationMatch=(Array.isArray(A.ruCity)&&A.ruCity.includes(item.city))||typedCity===item.city.toLocaleLowerCase('ru');
+    const matchText=matched.length?`В подборку заведение попало потому, что в его профиле есть направления, связанные с твоими ответами: ${matched.map(t=>AREA_LABELS[t]||t).join(', ')}.`:locationMatch?`Ты указал(а) город ${item.city}; в каталоге есть учебное заведение в этом городе.`:'Заведение включено в подборку как вариант для знакомства: в анкете пока мало выбранных направлений или интересов для более точного совпадения.';
+    const profile=item.areas.map(t=>AREA_LABELS[t]||t);
+    const prep=A.target==='master'?{must:'Для магистратуры обычно нужны диплом бакалавра/специалиста и заявка. Вступительные испытания, язык и дополнительные документы определяются выбранной программой; проверь их на официальной странице.',good:'Заранее сравни учебные планы и требования кафедры, подготовь резюме или портфолио, если они запрашиваются, и уточни финансирование и сроки. Карточка этой базы не содержит подтверждённых требований к конкретным магистерским программам.',source:item.admission}:(item.prep||(item.kind==='college'?{must:'Подготовь аттестат после 9 или 11 класса и заявление. Конкурс и вступительные испытания зависят от специальности.',good:'Заранее проверь средний балл аттестата, бюджетные места, сроки и наличие творческих испытаний или портфолио.'}:{must:'Подготовь аттестат, заявление и результаты ЕГЭ по предметам выбранной программы; внутренние экзамены доступны только отдельным категориям поступающих.',good:'Проверь индивидуальные достижения и олимпиады, конкурсные места, общежитие, стоимость и сроки именно для выбранной программы.'}));
+    const country=item.country||'Россия';
+    card.innerHTML=`<div class="inst-detail q-anim"><div class="detail-meta">${item.kind==='college'?'Среднее профессиональное образование':'Высшее образование'} · ${esc(item.city)}, ${esc(country)}</div><div class="photo-gallery" id="photoGallery" data-institution="${item.id}">${cover(item)}<div class="photo-status">Ищу проверяемые фотографии этого кампуса…</div></div><h1>${esc(item.name)}</h1><p>${esc(item.about)}</p>${A.target==='master'?'<p><b>Для абитуриента магистратуры:</b> каталог пока содержит в основном вузовские профили и общие ссылки. Проверь отдельную страницу нужной магистерской программы: сроки, экзамены и документы могут отличаться.</p>':''}<p><b>Профиль обучения.</b> В базе заведение отмечено направлениями: ${profile.map(esc).join(', ')}. Это обзорные области, а не полный список специальностей — конкретные программы и уровни обучения смотри в каталоге самого заведения.</p><p><b>Почему оно в подборке.</b> ${esc(matchText)} Совпадение помогает сузить поиск, но не оценивает конкурс и вероятность зачисления.</p><h2>Подготовка к поступлению</h2><p><b>Нужно:</b> ${esc(prep.must)}</p><p><b>Желательно:</b> ${esc(prep.good)}</p><p><b>Перед отправкой заявки:</b> сравни требования выбранной программы, предметы/экзамены, язык, официальные переводы, сроки и список документов. Правила и конкурсные показатели обновляются для каждого набора.</p><div class="fit-tags">${profile.slice(0,7).map(t=>`<span>${esc(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${item.site}" target="_blank" rel="noopener noreferrer">Официальный сайт ↗</a><a href="${item.admission}" target="_blank" rel="noopener noreferrer">Поступающим ↗</a><a href="${prep.source||item.admission}" target="_blank" rel="noopener noreferrer">Требования ↗</a><button type="button" id="backToResults">← К подборке</button></div></div>`;
+    commonsPhotos(item).then(photos=>paintGallery(item,photos));
+    $('backToResults').onclick=()=>{detailId='';save();renderRecommendations();window.scrollTo({top:0,behavior:'smooth'});};
+    return;
+  }
+  const areas=applicantAreas();
+  const wantedCountries=Array.isArray(A.country)?A.country:[];
+  const countryCodes=wantedCountries.flatMap(c=>c==='Не знаю, помогите выбрать'?[]:c==='Другая страна'?(A.country_other?[String(A.country_other).trim()]:[]):[c]).filter(Boolean);
+  const pool=INSTITUTIONS.filter(i=>{
+    const country=i.country||'Россия';
+    if(A.where==='ru') return country==='Россия';
+    if(A.where==='abroad') return country!=='Россия'&&(!countryCodes.length||countryCodes.includes(country));
+    if((A.where==='both'||A.where==='help')&&country!=='Россия') return !countryCodes.length||countryCodes.includes(country);
+    return true;
+  });
+  const ranked=pool.map(i=>scoreInstitution(i,areas)).filter(Boolean).sort((a,b)=>b.score-a.score||a.item.name.localeCompare(b.item.name,'ru'));
+  const shown=ranked.slice(0,6);
+  const summary= A.target==='college'?'Подобрала колледжи':A.target==='uni'||A.target==='master'?'Подобрала вузы':'Подобрала вузы и колледжи';
+  if(!ranked.length){
+    const title= A.where==='abroad'?'Под эту комбинацию пока нет вариантов':'В этой тестовой базе не нашлось точного типа заведения';
+    card.innerHTML=`<div class="q-anim"><div class="q-num">Твоя подборка · ${INSTITUTIONS.length} заведений</div><h1>${esc(title)}</h1><p class="q-sub">В каталоге есть учреждения из России, Северной и Южной Америки, Европы, Азии, Африки и Океании. Для некоторых стран пока добавлены только университеты; зарубежных колледжей ещё нет. Можно изменить страну или уровень обучения и посмотреть доступные варианты.</p><div class="empty-results"><b>Ничего страшного — подберём из того, что уже собрано.</b><p>Ответы сохраняются. Вернись к вопросам о стране и типе заведения, чтобы увидеть доступные варианты.</p></div><div class="rec-footer"><button class="ghost" type="button" id="editAnswers">← Изменить ответы</button></div></div>`;
+    $('editAnswers').onclick=()=>{showResults=false;showCatalog=false;detailId='';idx=Math.max(0,visible().findIndex(x=>x.id==='country'));done=false;save();render();};
+    return;
+  }
+  if(showCatalog){renderAllRecommendations(ranked);return;}
+  const displayCountries=[...new Set(ranked.map(({item})=>item.country||'Россия'))].join(' · ');
+  card.innerHTML=`<div class="q-anim"><div class="rec-head"><div><div class="q-num">Персональная подборка · ${esc(displayCountries)}</div><h1>${A.name?esc(A.name)+', т':'Т'}ебе могут подойти</h1></div><p class="rec-note">${summary} по выбранному направлению, типу заведения и стране. Это ориентир для знакомства, а не прогноз поступления.</p></div><div class="rec-note">${ranked.length} вариантов в тестовой базе · сортировка учитывает профиль, тип, страну и город. Бюджет, общежитие, формат, экзамены и конкурс пока не сопоставляются с заведениями — проверь эти требования по официальным ссылкам.</div><div class="rec-grid">${shown.map(({item,reasons})=>`<button class="inst-card" type="button" data-id="${item.id}">${cover(item)}<span class="inst-body"><span class="inst-city">${esc(item.city)}, ${esc(item.country||'Россия')}</span><h2>${esc(item.name)}</h2><p>${esc(item.about)}</p><span class="fit-tags">${(reasons.length?reasons.slice(0,2):item.areas.slice(0,2).map(t=>AREA_LABELS[t])).map(t=>`<span>${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div><div class="rec-footer"><span class="rec-note">Кликни по карточке, чтобы открыть статью и официальные ссылки.</span><div><button class="ghost" type="button" id="showAllInstitutions">Все ${ranked.length} вариантов</button> <button class="ghost" type="button" id="editAnswers">Изменить ответы</button></div></div></div>`;
+  card.querySelectorAll('.inst-card').forEach(b=>b.onclick=()=>{detailId=b.dataset.id;save();renderRecommendations();window.scrollTo({top:0,behavior:'smooth'});});
+  loadCardPhotos();
+  $('showAllInstitutions').onclick=()=>renderAllRecommendations(ranked);
+  $('editAnswers').onclick=()=>{showResults=false;showCatalog=false;detailId='';const pos=visible().length-1;idx=Math.max(0,pos);done=false;save();render();window.scrollTo({top:0,behavior:'smooth'});};
+}
+function renderAllRecommendations(ranked){
+  showCatalog=true;save();
+  const places=[...new Set(ranked.map(({item})=>item.country||'Россия'))].join(' · ');
+  card.innerHTML=`<div class="q-anim"><div class="rec-head"><div><div class="q-num">Каталог · ${esc(places)}</div><h1>Все ${ranked.length} вариантов</h1></div><p class="rec-note">Сначала идут заведения с большим совпадением по выбранным интересам и городу.</p></div><div class="rec-grid">${ranked.map(({item,reasons})=>`<button class="inst-card" type="button" data-id="${item.id}">${cover(item)}<span class="inst-body"><span class="inst-city">${esc(item.city)}, ${esc(item.country||'Россия')}</span><h2>${esc(item.name)}</h2><p>${esc(item.about)}</p><span class="fit-tags">${(reasons.length?reasons.slice(0,2):item.areas.slice(0,2).map(t=>AREA_LABELS[t])).map(t=>`<span>${esc(t)}</span>`).join('')}</span></span></button>`).join('')}</div><div class="rec-footer"><button class="ghost" type="button" id="backToTopPicks">← К рекомендациям</button><button class="ghost" type="button" id="editAnswers">Изменить ответы</button></div></div>`;
+  card.querySelectorAll('.inst-card').forEach(b=>b.onclick=()=>{detailId=b.dataset.id;save();renderRecommendations();window.scrollTo({top:0,behavior:'smooth'});});
+  loadCardPhotos();
+  $('backToTopPicks').onclick=()=>{showCatalog=false;save();renderRecommendations();};
+  $('editAnswers').onclick=()=>{showResults=false;showCatalog=false;detailId='';idx=Math.max(0,visible().length-1);done=false;save();render();};
+}
+
+render();
+</script>
+</body>
+</html>
