@@ -198,7 +198,15 @@
     "exchange",
     "intl_environment"
   ],
-  "photos": [],
+  "photos": [
+    {
+      "file": "photos/pku/1.jpg",
+      "author": "endeneon",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Weiming_lake_peking_university.jpg",
+      "caption": "Озеро Вэйминху и пагода Боя"
+    }
+  ],
   "sources": [
     {
       "url": "https://www.isd.pku.edu.cn/en/undergraduate_program.php",

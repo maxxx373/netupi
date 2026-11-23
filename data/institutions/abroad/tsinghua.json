@@ -257,7 +257,15 @@
     "dual_degree",
     "intl_environment"
   ],
-  "photos": [],
+  "photos": [
+    {
+      "file": "photos/tsinghua/1.jpg",
+      "author": "Dquai",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_second_gate_of_Tsinghua_University_rebuilt_in_1991.jpg",
+      "caption": "Вторые ворота (Эрсяомэнь) — символ университета"
+    }
+  ],
   "sources": [
     {
       "url": "https://international.join-tsinghua.edu.cn/",

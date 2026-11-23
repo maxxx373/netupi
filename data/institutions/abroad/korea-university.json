@@ -231,7 +231,15 @@
     "exchange",
     "intl_environment"
   ],
-  "photos": [],
+  "photos": [
+    {
+      "file": "photos/korea-university/1.jpg",
+      "author": "Chocolatte2",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KU_Main_Building.jpg",
+      "caption": "Главный корпус и кампус Анам"
+    }
+  ],
   "sources": [
     {
       "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
@@ -268,6 +276,7 @@
     "Выяснить, сколько денег должно быть на счёте для визы D-2 (сумма в буклете не найдена)",
     "Найти стоимость курсов корейского в Korean Language Center KU",
     "Добавить рейтинг THE",
-    "Проверить, открыты ли для иностранцев медицина и право"
+    "Проверить, открыты ли для иностранцев медицина и право",
+    "Проверить лицензию фото: на Commons оно загружено как «собственная работа», но похоже на рекламный снимок университета. При необходимости заменить"
   ]
 }

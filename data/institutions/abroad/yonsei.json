@@ -24,48 +24,95 @@
     "Обязательные курсы по христианству и часовня для всех студентов"
   ],
   "fields": [
-    "it", "engineering", "natural_sciences", "medicine", "business", "economics",
-    "social_sciences", "humanities", "linguistics", "pedagogy", "music", "sport",
-    "architecture", "international_relations", "media"
+    "it",
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "business",
+    "economics",
+    "social_sciences",
+    "humanities",
+    "linguistics",
+    "pedagogy",
+    "music",
+    "sport",
+    "architecture",
+    "international_relations",
+    "media"
   ],
-  "levels": ["bachelor", "master", "phd", "foundation"],
-  "languages_of_instruction": ["ko", "en"],
-  "study_formats": ["full"],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ko",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Колледж гуманитарных и социальных наук (Liberal Arts / Social Sciences)",
       "field": "humanities",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 4556000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года: 4 770 000 KRW в 1-м семестре, далее 4 556 000 KRW" }
+      "tuition": {
+        "amount": 4556000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года: 4 770 000 KRW в 1-м семестре, далее 4 556 000 KRW"
+      }
     },
     {
       "name": "Инженерный колледж (College of Engineering)",
       "field": "engineering",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 6004000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года: 6 218 000 KRW в 1-м семестре, далее 6 004 000 KRW" }
+      "tuition": {
+        "amount": 6004000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года: 6 218 000 KRW в 1-м семестре, далее 6 004 000 KRW"
+      }
     },
     {
       "name": "Computer Science & Engineering / Artificial Intelligence (College of Computing)",
       "field": "it",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 6004000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года для School of Computing: 6 218 000 KRW в 1-м семестре, далее 6 004 000 KRW. С 2027 года набор идёт отдельно на каждое направление" }
+      "tuition": {
+        "amount": 6004000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года для School of Computing: 6 218 000 KRW в 1-м семестре, далее 6 004 000 KRW. С 2027 года набор идёт отдельно на каждое направление"
+      }
     },
     {
       "name": "Бизнес и экономика (College of Commerce and Economics / School of Business)",
       "field": "business",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 4590000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года: 4 804 000 KRW в 1-м семестре, далее 4 590 000 KRW" }
+      "tuition": {
+        "amount": 4590000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года: 4 804 000 KRW в 1-м семестре, далее 4 590 000 KRW"
+      }
     },
     {
       "name": "Underwood International College (UIC)",
       "field": "other",
       "level": "bachelor",
       "language": "en",
-      "tuition": { "amount": 8202000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года: 8 416 000 KRW в 1-м семестре, далее 8 202 000 KRW. Приём через отдельную комиссию UIC" },
+      "tuition": {
+        "amount": 8202000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года: 8 416 000 KRW в 1-м семестре, далее 8 202 000 KRW. Приём через отдельную комиссию UIC"
+      },
       "url": "http://uic.yonsei.ac.kr"
     },
     {
@@ -73,12 +120,27 @@
       "field": "other",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 7174000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 года: 7 388 000 KRW в 1-м семестре, далее 7 174 000 KRW. Направления: международная торговля, преподавание корейского языка и культуры, медиа, биоинженерия, прикладная информатика" }
+      "tuition": {
+        "amount": 7174000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 года: 7 388 000 KRW в 1-м семестре, далее 7 174 000 KRW. Направления: международная торговля, преподавание корейского языка и культуры, медиа, биоинженерия, прикладная информатика"
+      }
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 4556000, "currency": "KRW", "period": "semester", "note": "Гуманитарные и социальные науки, со 2-го семестра, тариф 2026 года" },
-    "tuition_max": { "amount": 9221000, "currency": "KRW", "period": "semester", "note": "School of Integrated Technology, 1-й семестр, тариф 2026 года" }
+    "tuition_min": {
+      "amount": 4556000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "Гуманитарные и социальные науки, со 2-го семестра, тариф 2026 года"
+    },
+    "tuition_max": {
+      "amount": 9221000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "School of Integrated Technology, 1-й семестр, тариф 2026 года"
+    }
   },
   "funding": {
     "free_tuition": false,
@@ -94,10 +156,23 @@
   },
   "requirements": {
     "intl_exams": [
-      { "exam": "TOPIK", "min_score": "5", "note": "Обязателен только для медицины, стоматологии, сестринского дела и фармацевтики (или 5-й уровень KLI Yonsei). На остальные специальности минимального балла нет, нужен любой документ о владении корейским или английским. После зачисления: TOPIK 3 — чтобы выбрать специальность, TOPIK 4 — до выпуска" },
-      { "exam": "TOEFL", "note": "Можно подтвердить английский вместо корейского (для большинства специальностей). Минимальный балл в буклете не указан" },
-      { "exam": "IELTS", "note": "Можно подтвердить английский вместо корейского (для большинства специальностей). Минимальный балл в буклете не указан" },
-      { "exam": "SAT", "note": "Не обязателен; SAT, AP, ACT, IB, A-Level и т. п. учитываются в общей оценке" }
+      {
+        "exam": "TOPIK",
+        "min_score": "5",
+        "note": "Обязателен только для медицины, стоматологии, сестринского дела и фармацевтики (или 5-й уровень KLI Yonsei). На остальные специальности минимального балла нет, нужен любой документ о владении корейским или английским. После зачисления: TOPIK 3 — чтобы выбрать специальность, TOPIK 4 — до выпуска"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Можно подтвердить английский вместо корейского (для большинства специальностей). Минимальный балл в буклете не указан"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Можно подтвердить английский вместо корейского (для большинства специальностей). Минимальный балл в буклете не указан"
+      },
+      {
+        "exam": "SAT",
+        "note": "Не обязателен; SAT, AP, ACT, IB, A-Level и т. п. учитываются в общей оценке"
+      }
     ],
     "language_level": "Для большинства специальностей — подтверждение корейского или английского, для медицины, стоматологии, сестринского дела и фармацевтики — TOPIK 5",
     "interview": false,
@@ -144,10 +219,27 @@
     }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2027, "position": "42" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "42"
+    }
   ],
-  "perks": ["campus", "student_life", "exchange", "intl_environment"],
-  "photos": [],
+  "perks": [
+    "campus",
+    "student_life",
+    "exchange",
+    "intl_environment"
+  ],
+  "photos": [
+    {
+      "file": "photos/yonsei/1.jpg",
+      "author": "Striker9498",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20230624_%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90_%EC%96%B8%EB%8D%94%EC%9A%B0%EB%93%9C%ED%99%80.jpg",
+      "caption": "Андервуд-холл — главный корпус кампуса Синчхон"
+    }
+  ],
   "sources": [
     {
       "url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529144906YVFHLB.PDF",

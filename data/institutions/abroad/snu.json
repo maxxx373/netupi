@@ -24,53 +24,110 @@
     "Есть стипендия правительства Кореи GKS, которая покрывает обучение и проживание"
   ],
   "fields": [
-    "it", "engineering", "natural_sciences", "medicine", "business", "economics",
-    "social_sciences", "humanities", "psychology", "international_relations", "linguistics",
-    "pedagogy", "agriculture", "design_art", "music"
+    "it",
+    "engineering",
+    "natural_sciences",
+    "medicine",
+    "business",
+    "economics",
+    "social_sciences",
+    "humanities",
+    "psychology",
+    "international_relations",
+    "linguistics",
+    "pedagogy",
+    "agriculture",
+    "design_art",
+    "music"
   ],
-  "levels": ["bachelor", "master", "phd", "foundation"],
-  "languages_of_instruction": ["ko", "en"],
-  "study_formats": ["full"],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ko",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Liberal Studies (SNU College)",
       "field": "other",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 2975000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+      "tuition": {
+        "amount": 2975000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 учебного года"
+      }
     },
     {
       "name": "Инженерный колледж (College of Engineering)",
       "field": "engineering",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 2998000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+      "tuition": {
+        "amount": 2998000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 учебного года"
+      }
     },
     {
       "name": "Бизнес-колледж (College of Business Administration)",
       "field": "business",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+      "tuition": {
+        "amount": 2442000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 учебного года"
+      }
     },
     {
       "name": "Гуманитарный колледж (College of Humanities)",
       "field": "humanities",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года" }
+      "tuition": {
+        "amount": 2442000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Тариф 2026 учебного года"
+      }
     },
     {
       "name": "Медицина (Pre-Medicine, 2 года + Medicine, 4 года)",
       "field": "medicine",
       "level": "bachelor",
       "language": "ko",
-      "tuition": { "amount": 5038000, "currency": "KRW", "period": "semester", "note": "Основной этап (4 года), тариф 2026 года; на подготовительном этапе — 3 072 000 KRW. С 2027 года система оплаты для медицины может измениться" }
+      "tuition": {
+        "amount": 5038000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Основной этап (4 года), тариф 2026 года; на подготовительном этапе — 3 072 000 KRW. С 2027 года система оплаты для медицины может измениться"
+      }
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 2442000, "currency": "KRW", "period": "semester", "note": "Тариф 2026 учебного года (гуманитарные, социальные науки, бизнес)" },
-    "tuition_max": { "amount": 5038000, "currency": "KRW", "period": "semester", "note": "Медицина, основной этап, тариф 2026 учебного года" }
+    "tuition_min": {
+      "amount": 2442000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "Тариф 2026 учебного года (гуманитарные, социальные науки, бизнес)"
+    },
+    "tuition_max": {
+      "amount": 5038000,
+      "currency": "KRW",
+      "period": "semester",
+      "note": "Медицина, основной этап, тариф 2026 учебного года"
+    }
   },
   "funding": {
     "free_tuition": false,
@@ -86,11 +143,30 @@
   },
   "requirements": {
     "intl_exams": [
-      { "exam": "TOPIK", "min_score": "3", "note": "Или окончание 4-го уровня в языковом центре корейского университета. Сертификат должен быть получен не раньше 9 июля 2024 года (для набора весна-2027)" },
-      { "exam": "TOEFL", "min_score": "80", "note": "TOEFL iBT; для тестов с 21 января 2026 года по новой шкале — 4.0. Принимаются MyBest Scores и Home Edition, TOEFL ITP — нет" },
-      { "exam": "IELTS", "min_score": "6.0", "note": "IELTS Academic; принимаются One Skill Retake и Online, IELTS Indicator — нет" },
-      { "exam": "OTHER", "min_score": "TEPS 269", "note": "Корейский тест по английскому TEPS как альтернатива TOEFL/IELTS" },
-      { "exam": "SAT", "note": "Не обязателен: SAT, AP, IB, A-Level и т. п. можно приложить по желанию" }
+      {
+        "exam": "TOPIK",
+        "min_score": "3",
+        "note": "Или окончание 4-го уровня в языковом центре корейского университета. Сертификат должен быть получен не раньше 9 июля 2024 года (для набора весна-2027)"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "80",
+        "note": "TOEFL iBT; для тестов с 21 января 2026 года по новой шкале — 4.0. Принимаются MyBest Scores и Home Edition, TOEFL ITP — нет"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "IELTS Academic; принимаются One Skill Retake и Online, IELTS Indicator — нет"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "TEPS 269",
+        "note": "Корейский тест по английскому TEPS как альтернатива TOEFL/IELTS"
+      },
+      {
+        "exam": "SAT",
+        "note": "Не обязателен: SAT, AP, IB, A-Level и т. п. можно приложить по желанию"
+      }
     ],
     "language_level": "Корейский — TOPIK 3 или английский — TOEFL iBT 80 / IELTS 6.0 (достаточно одного из двух)",
     "interview": false,
@@ -146,10 +222,27 @@
     }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2027, "position": "38" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "38"
+    }
   ],
-  "perks": ["strong_research", "campus", "exchange", "intl_environment"],
-  "photos": [],
+  "perks": [
+    "strong_research",
+    "campus",
+    "exchange",
+    "intl_environment"
+  ],
+  "photos": [
+    {
+      "file": "photos/snu/1.jpg",
+      "author": "서어현",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%EC%A0%95%EB%AC%B8%EA%B4%91%EC%9E%A5.jpg",
+      "caption": "Площадь у главных ворот кампуса Кванак"
+    }
+  ],
   "sources": [
     {
       "url": "https://admission.snu.ac.kr/webdata/admission/files/2027Spring_under.pdf",
