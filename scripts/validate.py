@@ -27,6 +27,12 @@ for f in files:
     problems = [f"{'/'.join(map(str, e.path)) or '<root>'}: {e.message}" for e in validator.iter_errors(rec)]
     if rec.get("id") and f.stem != rec["id"]:
         problems.append(f"имя файла должно быть {rec['id']}.json")
+    for ph in rec.get("photos", []):
+        p = ROOT / "data" / ph.get("file", "")
+        if not p.is_file():
+            problems.append(f"фото не найдено: {ph.get('file')}")
+        elif p.read_bytes()[:4] not in (b"\xff\xd8\xff\xe0", b"\xff\xd8\xff\xe1", b"\xff\xd8\xff\xdb", b"\xff\xd8\xff\xee", b"\x89PNG"):
+            problems.append(f"фото не похоже на JPEG/PNG (возможно, страница ошибки): {ph.get('file')}")
     if rec.get("id") in ids:
         problems.append(f"id повторяется, уже есть в {ids[rec['id']]}")
     ids[rec.get("id")] = rel

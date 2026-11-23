@@ -1,0 +1,317 @@
+{
+  "id": "tsinghua",
+  "type": "university",
+  "name": {
+    "ru": "Университет Цинхуа",
+    "en": "Tsinghua University",
+    "local": "清华大学",
+    "short": "Цинхуа"
+  },
+  "country": "CN",
+  "city": "Пекин",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1911,
+  "website": "https://www.tsinghua.edu.cn/en/",
+  "admissions_url": "https://international.join-tsinghua.edu.cn/",
+  "intl_students_url": "https://international.join-tsinghua.edu.cn/Admission1/Eligibility.htm",
+  "summary": "Ведущий технический и исследовательский университет Китая, один из двух лучших вузов страны. Иностранцы поступают по отдельному конкурсу: подают документы онлайн, потом проходят комплексную оценку. На большинство программ (китайский + английский) нужен HSK 5. Есть три программы полностью на английском, для них китайский не требуется. Обучение стоит от 26 000 до 100 000 юаней в год, и примерно половина иностранных первокурсников получает стипендию университета.",
+  "highlights": [
+    "14-е место в QS World University Rankings 2027 и 11-е в THE World University Rankings 2027",
+    "Три бакалаврские программы полностью на английском, без требований к китайскому",
+    "В 2026 году примерно 45% иностранных первокурсников получили стипендию университета",
+    "Два раунда подачи. Второй раунд на набор-2027 открыт до 28 февраля 2027",
+    "Сильнее всего инженерные направления. Есть двойной диплом с Китайским университетом Гонконга (CUHK) по экономике"
+  ],
+  "fields": [
+    "engineering",
+    "it",
+    "natural_sciences",
+    "architecture",
+    "economics",
+    "business",
+    "law",
+    "design_art",
+    "medicine",
+    "social_sciences",
+    "humanities"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "zh",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Zijing College: Global Talents in Science and Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 100000,
+        "currency": "CNY",
+        "period": "year"
+      },
+      "url": "https://international.join-tsinghua.edu.cn/English_Taught_Programs.htm"
+    },
+    {
+      "name": "Zijing College: Urban Regeneration and Design",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 100000,
+        "currency": "CNY",
+        "period": "year"
+      },
+      "url": "https://international.join-tsinghua.edu.cn/English_Taught_Programs.htm"
+    },
+    {
+      "name": "Zhishan College: Politics, Economics and Sociology for Global Leaders in Smart Society",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 100000,
+        "currency": "CNY",
+        "period": "year"
+      },
+      "url": "https://international.join-tsinghua.edu.cn/English_Taught_Programs.htm"
+    },
+    {
+      "name": "Computer Science (китайско-английская программа)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 30000,
+        "currency": "CNY",
+        "period": "year"
+      }
+    },
+    {
+      "name": "Economics, Finance and Management (китайско-английская программа)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 26000,
+        "currency": "CNY",
+        "period": "year"
+      }
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 30000,
+        "currency": "CNY",
+        "period": "year"
+      }
+    },
+    {
+      "name": "Clinical Medicine (8 лет, сразу до степени MD)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 8,
+      "tuition": {
+        "amount": 40000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "Базовый этап (3 года) — 40 000, исследовательский (2 года) — 60 000, клинический (3 года) — 70 000 юаней в год"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 26000,
+      "currency": "CNY",
+      "period": "year",
+      "note": "Экономика, финансы, менеджмент, право и некоторые колледжи (китайско-английские программы)"
+    },
+    "tuition_max": {
+      "amount": 100000,
+      "currency": "CNY",
+      "period": "year",
+      "note": "Программы полностью на английском"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Стипендия правительства Китая (Chinese Government Scholarship, CSC), тип A",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Заявка подаётся через посольство или консульство Китая в своей стране, обычно с ноября 2026 по апрель 2027 (сроки зависят от страны). Цинхуа нужно указать первым в списке вузов. Объём покрытия стоит уточнить в посольстве",
+        "url": "https://international.join-tsinghua.edu.cn/Admission1/Freshmen_Scholarships1.htm"
+      },
+      {
+        "name": "Tsinghua University International Undergraduate Freshmen Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Стипендия на первый год: полная, половинная или частичная оплата обучения. Подаётся через систему онлайн-заявки. В 2026 году её получили около 45% иностранных первокурсников. Со второго курса можно претендовать на другие стипендии, в том числе стипендию правительства Пекина",
+        "url": "https://international.join-tsinghua.edu.cn/Admission1/Freshmen_Scholarships1.htm"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "HSK",
+        "min_score": "HSK 5",
+        "note": "Для китайско-английских программ: HSK 5 и выше, больше 60 баллов по аудированию, чтению и письму. Для программ на английском китайский не нужен"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Английский нужно подтвердить на всех программах (TOEFL, IELTS или другой тест), если он не родной. Минимальный балл не указан"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Можно вместо TOEFL. Минимальный балл не указан"
+      },
+      {
+        "exam": "SAT",
+        "note": "По желанию: SAT/ACT/A-Level/AP/IB/CSCA и результаты национальных выпускных экзаменов усиливают заявку"
+      }
+    ],
+    "language_level": "Китайско-английские программы: HSK 5 (больше 60 по каждой части) плюс хороший английский. Программы на английском: только английский",
+    "entrance_tests": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "olympiad_benefits": "Дипломы международных и национальных олимпиад по математике, физике, химии, биологии и информатике прикладываются к заявке как подтверждение успеваемости",
+    "documents": [
+      "Онлайн-заявка (взнос 800 юаней, не возвращается)",
+      "Первая страница паспорта абитуриента и обоих родителей",
+      "Аттестат или справка из школы об ожидаемом окончании (на китайском или английском)",
+      "Школьный табель (выписка оценок) за все годы",
+      "Резюме (CV) на китайском или английском",
+      "Сертификат HSK (кроме программ на английском)",
+      "Сертификат TOEFL, IELTS или другого теста по английскому",
+      "Два рекомендательных письма — система сама отправит шаблон рекомендателям",
+      "Мотивационное эссе (personal statement)",
+      "Форма финансового гаранта и справка о его доходах или месте работы",
+      "Видео-самопрезентация на китайском и английском, до 3 минут",
+      "Портфолио — для дизайна, изобразительного искусства и архитектуры",
+      "Документы на третьем языке (например, русском) — с нотариальным переводом на китайский или английский",
+      "По желанию: результаты SAT/AP/IB, дипломы олимпиад, письма о зачислении в другие вузы"
+    ],
+    "notes": "Подавать могут только иностранные граждане. Если у абитуриента или родителей было китайское гражданство, действуют особые правила. Сначала проверяют документы, затем приглашают на комплексную оценку (Comprehensive Assessment), её формат объявляют заранее. На 1 сентября 2027 года абитуриенту должно быть 18 лет, иначе при регистрации нужен опекун в Китае. Список документов взят из версии 2026 года, в 2027 году он может немного отличаться."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "X1",
+    "notes": "После зачисления университет присылает письмо о зачислении и форму JW202, с ними оформляется учебная виза X1. После приезда её меняют на вид на жительство для учёбы.",
+    "url": "https://international.join-tsinghua.edu.cn/International_Students_Service1/Admission__VISA_application___Registration.htm"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "В апартаментах Zijing на кампусе есть двух- и трёхместные комнаты, но мест хватает только части иностранцев. Место нужно забронировать онлайн в установленные сроки, иначе жильё придётся искать самостоятельно за пределами кампуса. Медстраховка стоит 800 юаней в год."
+  },
+  "deadlines": [
+    {
+      "what": "Первый раунд онлайн-подачи (дизайн и изобразительное искусство — только в этом раунде)",
+      "start": "2026-09-30",
+      "end": "2026-11-20",
+      "intake": "Осенний (сентябрь 2027)"
+    },
+    {
+      "what": "Второй раунд онлайн-подачи",
+      "start": "2026-11-21",
+      "end": "2027-02-28",
+      "intake": "Осенний (сентябрь 2027)"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "14"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "11"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "exchange",
+    "dual_degree",
+    "intl_environment"
+  ],
+  "photos": [],
+  "sources": [
+    {
+      "url": "https://international.join-tsinghua.edu.cn/",
+      "accessed": "2026-11-23",
+      "covers": "Сроки двух раундов подачи на 2027 год, языки обучения, длительность программ"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Eligibility.htm",
+      "accessed": "2026-11-23",
+      "covers": "Требования к абитуриентам 2027: гражданство, HSK 5, английский, возраст"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Fees.htm",
+      "accessed": "2026-11-23",
+      "covers": "Стоимость обучения по программам, взнос за заявку, страховка, общежитие"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Freshmen_Scholarships1.htm",
+      "accessed": "2026-11-23",
+      "covers": "Стипендия CSC и стипендия Цинхуа для первокурсников"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/Admission1/Application_Procedures.htm",
+      "accessed": "2026-11-23",
+      "covers": "Порядок подачи и комплексная оценка"
+    },
+    {
+      "url": "https://apply.join-tsinghua.edu.cn/international/res/file/2026_Attachment_2_List_of_Uploading_Documents_in_the_Online_Application_System.pdf",
+      "accessed": "2026-11-23",
+      "covers": "Список документов (версия 2026 года)"
+    },
+    {
+      "url": "https://international.join-tsinghua.edu.cn/International_Students_Service1/Accommodation.htm",
+      "accessed": "2026-11-23",
+      "covers": "Общежитие Zijing"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/tsinghua-university",
+      "accessed": "2026-11-23",
+      "covers": "Место в QS World University Rankings 2027"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/world-university-rankings-2027-can-china-break-top-10",
+      "accessed": "2026-11-23",
+      "covers": "Место в THE World University Rankings 2027"
+    }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2027,
+  "confidence": "high",
+  "todo": [
+    "Найти стоимость общежития Zijing International Student Apartments (сайт ISSC)",
+    "Найти минимальные баллы TOEFL/IELTS для программ на английском, если они есть в буклетах программ",
+    "Проверить, есть ли у Цинхуа подготовительная программа по китайскому для будущих бакалавров",
+    "Сверить список документов с версией 2027 года, когда её опубликуют"
+  ]
+}
