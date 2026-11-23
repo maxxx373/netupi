@@ -22,17 +22,57 @@
     "Есть креативные программы: реклама, продюсирование в кино и медиа, менеджмент в индустрии моды",
     "Собственная Плехановская олимпиада школьников"
   ],
-  "fields": ["economics", "business", "marketing", "law", "it", "media", "design_art", "psychology", "linguistics", "international_relations", "engineering", "social_sciences"],
-  "levels": ["spo", "bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full", "mixed", "online"],
+  "photos": [
+    {
+      "file": "photos/rea/1.jpg",
+      "author": "Alexey Vikhrov",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_Plekhanov_Russian_Economic_University_1_2011.JPG",
+      "caption": "Корпус РЭУ в Стремянном переулке"
+    }
+  ],
+  "fields": [
+    "economics",
+    "business",
+    "marketing",
+    "law",
+    "it",
+    "media",
+    "design_art",
+    "psychology",
+    "linguistics",
+    "international_relations",
+    "engineering",
+    "social_sciences"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
   "programs": [
     {
       "name": "Экономика (38.03.01), например «Финансы и кредит»",
       "field": "economics",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 670000, "currency": "RUB", "period": "year", "note": "«Финансы и кредит», очная форма, 2026/27; по разным профилям экономики — от 580 000 до 1 050 000 ₽" },
+      "tuition": {
+        "amount": 670000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "«Финансы и кредит», очная форма, 2026/27; по разным профилям экономики — от 580 000 до 1 050 000 ₽"
+      },
       "budget_places": 139,
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     },
@@ -41,7 +81,12 @@
       "field": "it",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 490000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27" },
+      "tuition": {
+        "amount": 490000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очная форма, 2026/27"
+      },
       "budget_places": 45,
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     },
@@ -50,7 +95,12 @@
       "field": "business",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 695000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27; есть версия на английском за 795 000 ₽" },
+      "tuition": {
+        "amount": 695000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очная форма, 2026/27; есть версия на английском за 795 000 ₽"
+      },
       "budget_places": 148,
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     },
@@ -59,7 +109,12 @@
       "field": "law",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 575000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27; по плану приёма 2026 года бюджетных мест на очной форме нет, только платные" },
+      "tuition": {
+        "amount": 575000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очная форма, 2026/27; по плану приёма 2026 года бюджетных мест на очной форме нет, только платные"
+      },
       "budget_places": 0,
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     },
@@ -68,7 +123,12 @@
       "field": "marketing",
       "level": "bachelor",
       "language": "ru",
-      "tuition": { "amount": 890000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27" },
+      "tuition": {
+        "amount": 890000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очная форма, 2026/27"
+      },
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     },
     {
@@ -76,13 +136,28 @@
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "tuition": { "amount": 795000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27" },
+      "tuition": {
+        "amount": 795000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очная форма, 2026/27"
+      },
       "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 450000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27 (например, «Технология и организация ресторанного дела», «Интеллектуальный анализ данных»)" },
-    "tuition_max": { "amount": 1050000, "currency": "RUB", "period": "year", "note": "«Экономика и управление предпринимательским проектом», очная форма, 2026/27" }
+    "tuition_min": {
+      "amount": 450000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Очная форма, 2026/27 (например, «Технология и организация ресторанного дела», «Интеллектуальный анализ данных»)"
+    },
+    "tuition_max": {
+      "amount": 1050000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "«Экономика и управление предпринимательским проектом», очная форма, 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true,
@@ -107,26 +182,89 @@
     "notes": "Собственных общежитий три (около 390 мест). Первокурсникам места дают в пределах квоты: сначала поступившим без экзаменов, затем по убыванию конкурсных баллов. Остальным вуз помогает с местами в коммерческих общежитиях других вузов, но без гарантии."
   },
   "deadlines": [
-    { "what": "Начало приёма документов", "start": "06-20" },
-    { "what": "Приём документов для сдающих экзамены вуза и творческие испытания (бюджет)", "start": "06-20", "end": "07-10" },
-    { "what": "Приём документов на бюджет только по ЕГЭ", "start": "06-20", "end": "07-25" },
-    { "what": "Приём документов на платное только по ЕГЭ", "start": "06-20", "end": "08-24" },
-    { "what": "Согласие на зачисление, основной этап (бюджет)", "end": "08-05" },
-    { "what": "Заключение договоров на платное обучение", "end": "08-25" }
+    {
+      "what": "Начало приёма документов",
+      "start": "06-20"
+    },
+    {
+      "what": "Приём документов для сдающих экзамены вуза и творческие испытания (бюджет)",
+      "start": "06-20",
+      "end": "07-10"
+    },
+    {
+      "what": "Приём документов на бюджет только по ЕГЭ",
+      "start": "06-20",
+      "end": "07-25"
+    },
+    {
+      "what": "Приём документов на платное только по ЕГЭ",
+      "start": "06-20",
+      "end": "08-24"
+    },
+    {
+      "what": "Согласие на зачисление, основной этап (бюджет)",
+      "end": "08-05"
+    },
+    {
+      "what": "Заключение договоров на платное обучение",
+      "end": "08-25"
+    }
   ],
   "rankings": [
-    { "name": "QS World University Rankings 2026", "year": 2026, "position": "741–750" },
-    { "name": "«100 лучших российских вузов»", "year": 2026, "position": "9" }
+    {
+      "name": "QS World University Rankings 2026",
+      "year": 2026,
+      "position": "741–750"
+    },
+    {
+      "name": "«100 лучших российских вузов»",
+      "year": 2026,
+      "position": "9"
+    }
   ],
-  "perks": ["employment", "internships", "intl_environment", "military_center", "student_life"],
+  "perks": [
+    "employment",
+    "internships",
+    "intl_environment",
+    "military_center",
+    "student_life"
+  ],
   "sources": [
-    { "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet", "accessed": "2026-11-23", "covers": "раздел приёма, документы правил приёма" },
-    { "url": "https://www.rea.ru/~file/221363/202606041313+-+Mck+bak.txt", "accessed": "2026-11-23", "covers": "цены 2026/27 по программам (данные таблицы стоимости)" },
-    { "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/03_bak_plan_Mos.pdf", "accessed": "2026-11-23", "covers": "план приёма 2026/27, бюджетные места" },
-    { "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/03_bak_Pravila_priema_pril_10.pdf", "accessed": "2026-11-23", "covers": "сроки приёма 2026" },
-    { "url": "https://www.rea.ru/~file/226488/%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+%D0%91%D1%8E%D0%B4%D0%B6%D0%B5%D1%82.pdf", "accessed": "2026-11-23", "covers": "общежития для бюджетников" },
-    { "url": "https://www.rea.ru/~file/226490/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F+%D0%BE+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D1%8F%D0%BC.pdf", "accessed": "2026-11-23", "covers": "коммерческие общежития" },
-    { "url": "https://www.rea.ru/reu-v-reytingah", "accessed": "2026-11-23", "covers": "рейтинги" }
+    {
+      "url": "https://www.rea.ru/pk/entrant/bakalavriat-i-spetsialitet",
+      "accessed": "2026-11-23",
+      "covers": "раздел приёма, документы правил приёма"
+    },
+    {
+      "url": "https://www.rea.ru/~file/221363/202606041313+-+Mck+bak.txt",
+      "accessed": "2026-11-23",
+      "covers": "цены 2026/27 по программам (данные таблицы стоимости)"
+    },
+    {
+      "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/03_bak_plan_Mos.pdf",
+      "accessed": "2026-11-23",
+      "covers": "план приёма 2026/27, бюджетные места"
+    },
+    {
+      "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/03_bak_Pravila_priema_pril_10.pdf",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "https://www.rea.ru/~file/226488/%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+%D0%91%D1%8E%D0%B4%D0%B6%D0%B5%D1%82.pdf",
+      "accessed": "2026-11-23",
+      "covers": "общежития для бюджетников"
+    },
+    {
+      "url": "https://www.rea.ru/~file/226490/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F+%D0%BE+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85+%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D1%8F%D0%BC.pdf",
+      "accessed": "2026-11-23",
+      "covers": "коммерческие общежития"
+    },
+    {
+      "url": "https://www.rea.ru/reu-v-reytingah",
+      "accessed": "2026-11-23",
+      "covers": "рейтинги"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -136,7 +274,6 @@
     "Предметы ЕГЭ по направлениям (приложение 1 к правилам приёма)",
     "Стоимость проживания в общежитии",
     "Бюджетные места указаны суммарно по направлению (все факультеты), а не по конкретному профилю",
-    "Год основания (1907) сверить со страницей истории",
-    "Фото главного корпуса со свободной лицензией"
+    "Год основания (1907) сверить со страницей истории"
   ]
 }

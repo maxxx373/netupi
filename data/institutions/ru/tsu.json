@@ -22,10 +22,48 @@
     "Участник пилотного проекта новой системы высшего образования",
     "Иногородние первокурсники заселяются в общежития в первую очередь"
   ],
-  "fields": ["it", "natural_sciences", "engineering", "economics", "business", "law", "psychology", "linguistics", "humanities", "media", "marketing", "international_relations", "social_sciences", "agriculture", "sport", "design_art"],
-  "levels": ["bachelor", "specialist", "master", "phd"],
-  "languages_of_instruction": ["ru", "en"],
-  "study_formats": ["full", "mixed", "online"],
+  "photos": [
+    {
+      "file": "photos/tsu/1.jpg",
+      "author": "Maximaximax",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81_%D0%A2%D0%93%D0%A3.jpg",
+      "caption": "Главный корпус ТГУ"
+    }
+  ],
+  "fields": [
+    "it",
+    "natural_sciences",
+    "engineering",
+    "economics",
+    "business",
+    "law",
+    "psychology",
+    "linguistics",
+    "humanities",
+    "media",
+    "marketing",
+    "international_relations",
+    "social_sciences",
+    "agriculture",
+    "sport",
+    "design_art"
+  ],
+  "levels": [
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
   "programs": [
     {
       "name": "Программная инженерия (09.03.04, Высшая IT-школа HITS)",
@@ -33,10 +71,24 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 251000, "currency": "RUB", "period": "year", "note": "2026/27, для граждан РФ; базовое высшее образование" },
+      "tuition": {
+        "amount": 251000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27, для граждан РФ; базовое высшее образование"
+      },
       "budget_places": 75,
-      "passing_score": { "year": 2025, "value": 250, "kind": "ege_total", "note": "Проходной балл на бюджет в 2025 году; на платное — 225" },
-      "ege_subjects": ["Математика", "Информатика", "Русский язык"],
+      "passing_score": {
+        "year": 2025,
+        "value": 250,
+        "kind": "ege_total",
+        "note": "Проходной балл на бюджет в 2025 году; на платное — 225"
+      },
+      "ege_subjects": [
+        "Математика",
+        "Информатика",
+        "Русский язык"
+      ],
       "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам"
     },
     {
@@ -45,10 +97,24 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 5,
-      "tuition": { "amount": 224000, "currency": "RUB", "period": "year", "note": "2026/27, для граждан РФ; базовое высшее образование, 5 лет" },
+      "tuition": {
+        "amount": 224000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27, для граждан РФ; базовое высшее образование, 5 лет"
+      },
       "budget_places": 95,
-      "passing_score": { "year": 2025, "value": 242, "kind": "ege_total", "note": "Проходной балл на бюджет в 2025 году" },
-      "ege_subjects": ["Обществознание", "История", "Русский язык"],
+      "passing_score": {
+        "year": 2025,
+        "value": 242,
+        "kind": "ege_total",
+        "note": "Проходной балл на бюджет в 2025 году"
+      },
+      "ege_subjects": [
+        "Обществознание",
+        "История",
+        "Русский язык"
+      ],
       "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам"
     },
     {
@@ -57,10 +123,24 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 215000, "currency": "RUB", "period": "year", "note": "2026/27, для граждан РФ" },
+      "tuition": {
+        "amount": 215000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27, для граждан РФ"
+      },
       "budget_places": 60,
-      "passing_score": { "year": 2025, "value": 235, "kind": "ege_total", "note": "Проходной балл на бюджет в 2025 году" },
-      "ege_subjects": ["Математика", "Информатика, история, обществознание, иностранный язык или география", "Русский язык"],
+      "passing_score": {
+        "year": 2025,
+        "value": 235,
+        "kind": "ege_total",
+        "note": "Проходной балл на бюджет в 2025 году"
+      },
+      "ege_subjects": [
+        "Математика",
+        "Информатика, история, обществознание, иностранный язык или география",
+        "Русский язык"
+      ],
       "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам"
     },
     {
@@ -69,10 +149,24 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 4,
-      "tuition": { "amount": 215000, "currency": "RUB", "period": "year", "note": "2026/27, для граждан РФ" },
+      "tuition": {
+        "amount": 215000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27, для граждан РФ"
+      },
       "budget_places": 43,
-      "passing_score": { "year": 2025, "value": 235, "kind": "ege_total", "note": "Проходной балл на бюджет в 2025 году" },
-      "ege_subjects": ["Русский язык", "Биология", "Обществознание или математика"],
+      "passing_score": {
+        "year": 2025,
+        "value": 235,
+        "kind": "ege_total",
+        "note": "Проходной балл на бюджет в 2025 году"
+      },
+      "ege_subjects": [
+        "Русский язык",
+        "Биология",
+        "Обществознание или математика"
+      ],
       "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам"
     },
     {
@@ -81,16 +175,40 @@
       "level": "bachelor",
       "language": "ru",
       "duration_years": 5,
-      "tuition": { "amount": 395000, "currency": "RUB", "period": "year", "note": "2026/27, для граждан РФ" },
+      "tuition": {
+        "amount": 395000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "2026/27, для граждан РФ"
+      },
       "budget_places": 25,
-      "passing_score": { "year": 2025, "value": 270, "kind": "ege_total", "note": "Проходной балл на бюджет в 2025 году" },
-      "ege_subjects": ["Русский язык", "Обществознание", "История, иностранный язык, литература или информатика"],
+      "passing_score": {
+        "year": 2025,
+        "value": 270,
+        "kind": "ege_total",
+        "note": "Проходной балл на бюджет в 2025 году"
+      },
+      "ege_subjects": [
+        "Русский язык",
+        "Обществознание",
+        "История, иностранный язык, литература или информатика"
+      ],
       "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 191000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27, граждане РФ; заочно бывает от 76 000 ₽" },
-    "tuition_max": { "amount": 395000, "currency": "RUB", "period": "year", "note": "Очная форма, 2026/27, граждане РФ" }
+    "tuition_min": {
+      "amount": 191000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Очная форма, 2026/27, граждане РФ; заочно бывает от 76 000 ₽"
+    },
+    "tuition_max": {
+      "amount": 395000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Очная форма, 2026/27, граждане РФ"
+    }
   },
   "funding": {
     "free_tuition": true
@@ -118,26 +236,89 @@
     "notes": "7 общежитий и 2 студенческих жилых комплекса («Парус» и «Маяк»), более 5000 мест. Иногородних первокурсников селят в первую очередь, но это приоритет, а не гарантия. Заселение обычно с 25 августа, платить можно помесячно."
   },
   "deadlines": [
-    { "what": "Начало приёма документов", "start": "06-20" },
-    { "what": "Приём документов для сдающих экзамены ТГУ и творческие испытания (бюджет)", "start": "06-20", "end": "07-20" },
-    { "what": "Приём документов на бюджет только по ЕГЭ", "start": "06-20", "end": "07-25" },
-    { "what": "Приём документов на платное", "start": "06-20", "end": "08-23" },
-    { "what": "Согласие на зачисление, основной этап (бюджет)", "end": "08-05" }
+    {
+      "what": "Начало приёма документов",
+      "start": "06-20"
+    },
+    {
+      "what": "Приём документов для сдающих экзамены ТГУ и творческие испытания (бюджет)",
+      "start": "06-20",
+      "end": "07-20"
+    },
+    {
+      "what": "Приём документов на бюджет только по ЕГЭ",
+      "start": "06-20",
+      "end": "07-25"
+    },
+    {
+      "what": "Приём документов на платное",
+      "start": "06-20",
+      "end": "08-23"
+    },
+    {
+      "what": "Согласие на зачисление, основной этап (бюджет)",
+      "end": "08-05"
+    }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2025, "position": "499" },
-    { "name": "THE World University Rankings", "year": 2026, "position": "601–800" },
-    { "name": "RAEX-100", "year": 2025, "position": "19" },
-    { "name": "Национальный рейтинг университетов «Интерфакс»", "year": 2025, "position": "6" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2025,
+      "position": "499"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2026,
+      "position": "601–800"
+    },
+    {
+      "name": "RAEX-100",
+      "year": 2025,
+      "position": "19"
+    },
+    {
+      "name": "Национальный рейтинг университетов «Интерфакс»",
+      "year": 2025,
+      "position": "6"
+    }
   ],
-  "perks": ["campus", "student_life", "strong_research", "intl_environment"],
+  "perks": [
+    "campus",
+    "student_life",
+    "strong_research",
+    "intl_environment"
+  ],
   "sources": [
-    { "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам", "accessed": "2026-11-23", "covers": "программы, КЦП 2026, проходные баллы 2025, цены 2026/27, ЕГЭ" },
-    { "url": "https://info.abiturient.tsu.ru/content/календарь-приемной-кампании-бакалавриат", "accessed": "2026-11-23", "covers": "сроки 2026" },
-    { "url": "https://info.abiturient.tsu.ru/ru/content/документы-для-поступления", "accessed": "2026-11-23", "covers": "документы" },
-    { "url": "https://info.abiturient.tsu.ru/content/общежития", "accessed": "2026-11-23", "covers": "общежития" },
-    { "url": "https://tsu.ru/university/ratings/", "accessed": "2026-11-23", "covers": "рейтинги" },
-    { "url": "https://info.abiturient.tsu.ru/ru/content/бакалавриатспециалитет", "accessed": "2026-11-23", "covers": "общие правила, ссылки" }
+    {
+      "url": "https://info.abiturient.tsu.ru/ru/content/направления-и-программы-бакалавриата-и-специалитета-по-факультетам",
+      "accessed": "2026-11-23",
+      "covers": "программы, КЦП 2026, проходные баллы 2025, цены 2026/27, ЕГЭ"
+    },
+    {
+      "url": "https://info.abiturient.tsu.ru/content/календарь-приемной-кампании-бакалавриат",
+      "accessed": "2026-11-23",
+      "covers": "сроки 2026"
+    },
+    {
+      "url": "https://info.abiturient.tsu.ru/ru/content/документы-для-поступления",
+      "accessed": "2026-11-23",
+      "covers": "документы"
+    },
+    {
+      "url": "https://info.abiturient.tsu.ru/content/общежития",
+      "accessed": "2026-11-23",
+      "covers": "общежития"
+    },
+    {
+      "url": "https://tsu.ru/university/ratings/",
+      "accessed": "2026-11-23",
+      "covers": "рейтинги"
+    },
+    {
+      "url": "https://info.abiturient.tsu.ru/ru/content/бакалавриатспециалитет",
+      "accessed": "2026-11-23",
+      "covers": "общие правила, ссылки"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -147,7 +328,6 @@
     "Стоимость общежития (задаётся приказом ректора, суммы на странице нет)",
     "Олимпиадные льготы — разобрать приложение 5 к правилам приёма",
     "Рейтинги QS/RAEX/Интерфакс за 2026 год",
-    "Год основания (1878) сверить с официальной страницей истории",
-    "Фото главного корпуса со свободной лицензией"
+    "Год основания (1878) сверить с официальной страницей истории"
   ]
 }

@@ -1,0 +1,149 @@
+{
+  "id": "mpt-rea",
+  "type": "college",
+  "name": {
+    "ru": "Московский приборостроительный техникум РЭУ им. Г. В. Плеханова",
+    "short": "МПТ"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "website": "https://mpt.ru/",
+  "admissions_url": "https://mpt.ru/priemnaya-komissiya/",
+  "summary": "МПТ — московский IT-техникум, который входит в структуру РЭУ им. Плеханова. Здесь учат программистов, веб-разработчиков, сетевых администраторов, специалистов по информационной безопасности, а также разработке игр, ИИ-решениям и анимации. Поступают без экзаменов, по среднему баллу аттестата после 9 или 11 класса (кроме анимации — там творческое задание). В 2026 году было 460 бюджетных мест, общежития нет.",
+  "highlights": [
+    "Почти все специальности — IT: программирование, веб, игры и VR, ИИ, информационная безопасность",
+    "Поступление без экзаменов — по среднему баллу аттестата",
+    "Много бюджетных мест: 460 в 2026 году, больше всего — на «Разработке и управлении программным обеспечением»",
+    "Входит в РЭУ им. Плеханова — после техникума можно продолжить учёбу в университете",
+    "Есть творческая специальность «Анимация и анимационное кино»"
+  ],
+  "fields": ["it", "gamedev", "design_art", "law", "engineering"],
+  "levels": ["spo"],
+  "languages_of_instruction": ["ru"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Разработка и управление программным обеспечением (09.02.11)",
+      "field": "it",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 3.83,
+      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "budget_places": 170,
+      "passing_score": { "kind": "gpa_certificate", "note": "Конкурс по среднему баллу аттестата; срок обучения — 3 г. 10 мес. после 9 класса, 2 г. 10 мес. после 11 класса. Проходной балл вуз не публикует" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    },
+    {
+      "name": "Техническая эксплуатация и сопровождение информационных систем (09.02.12)",
+      "field": "it",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 2.83,
+      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "budget_places": 95,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата; 2 г. 10 мес. после 9 класса, 1 г. 10 мес. после 11 класса" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    },
+    {
+      "name": "Обеспечение информационной безопасности автоматизированных систем (10.02.05)",
+      "field": "it",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 3.83,
+      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "budget_places": 55,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    },
+    {
+      "name": "Веб-разработка (09.02.09)",
+      "field": "it",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 2.83,
+      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "budget_places": 25,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    },
+    {
+      "name": "Разработка компьютерных игр, дополненной и виртуальной реальности (09.02.10)",
+      "field": "gamedev",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 3.83,
+      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (40)" },
+      "budget_places": 0,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    },
+    {
+      "name": "Анимация и анимационное кино (55.02.02)",
+      "field": "design_art",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 3.83,
+      "tuition": { "amount": 220000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (20), приём после 9 класса" },
+      "budget_places": 0,
+      "passing_score": { "kind": "other", "note": "Вступительное испытание — творческое задание" },
+      "url": "https://mpt.ru/priemnaya-komissiya/"
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 220000, "currency": "RUB", "period": "year", "note": "Юриспруденция, анимация; 2026/27" },
+    "tuition_max": { "amount": 230000, "currency": "RUB", "period": "year", "note": "IT-специальности; 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Образовательный кредит с господдержкой",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Это кредит, а не грант; также можно платить материнским капиталом",
+        "url": "https://mpt.ru/priemnaya-komissiya/"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": false,
+    "portfolio": "some_programs",
+    "documents": [
+      "Заявление на поступление",
+      "Согласие на обработку персональных данных",
+      "Аттестат с приложением (или диплом)",
+      "Паспорт",
+      "4 фотографии 3×4",
+      "СНИЛС"
+    ],
+    "notes": "Экзаменов нет: зачисляют по среднему баллу аттестата, учитываются индивидуальные достижения. Исключение — «Анимация и анимационное кино», где есть творческое задание. Обучение только очное, на базе 9 и 11 классов. Документы принимают и через Госуслуги."
+  },
+  "dorm": {
+    "available": false,
+    "notes": "По информации приёмной комиссии, общежитие не предоставляется."
+  },
+  "deadlines": [
+    { "what": "Приём документов (все специальности, кроме анимации)", "start": "06-20", "end": "08-15", "intake": "Осенний набор" },
+    { "what": "Приём документов на «Анимацию и анимационное кино» (творческое испытание)", "start": "06-20", "end": "08-10", "intake": "Осенний набор" },
+    { "what": "Последний срок сдачи оригинала аттестата", "end": "08-18" }
+  ],
+  "perks": ["employment", "internships"],
+  "sources": [
+    { "url": "https://mpt.ru/priemnaya-komissiya/", "accessed": "2026-11-23", "covers": "специальности, сроки обучения, сроки приёма 2026, документы, общежитие" },
+    { "url": "https://mpt.ru/wp-content/uploads/priem/stoimost.jpg", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27" },
+    { "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/02_spo_plan_MPT.pdf", "accessed": "2026-11-23", "covers": "план приёма 2026/27: бюджетные и платные места" },
+    { "url": "https://www.rea.ru/pk/entrant/srednee-professionalnoe-obrazovanie", "accessed": "2026-11-23", "covers": "правила приёма в колледжи РЭУ" },
+    { "url": "https://mpt.ru/wp-content/uploads/priem/arhiv-stoimosti-obucheniya-po-godam-2020-2025.pdf", "accessed": "2026-11-23", "covers": "динамика цен 2020–2026" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "medium",
+  "todo": [
+    "Проходной средний балл аттестата по специальностям — официально не публикуется (рейтинги на abitrating.rea.ru недоступны после кампании)",
+    "Срок приёма на анимацию: в таблице до 10 августа, в тексте — до 11 августа 2026, уточнить",
+    "Год основания и английское название",
+    "Фото здания со свободной лицензией не найдено"
+  ]
+}

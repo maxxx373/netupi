@@ -1,0 +1,133 @@
+{
+  "id": "sechenov-spo",
+  "type": "college",
+  "name": {
+    "ru": "Сеченовский Университет — программы среднего профессионального образования",
+    "en": "Sechenov University — secondary vocational programs",
+    "short": "СПО Сеченовского Университета"
+  },
+  "country": "RU",
+  "city": "Москва",
+  "city_size": "mega",
+  "ownership": "public",
+  "website": "https://www.sechenov.ru/",
+  "admissions_url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/",
+  "summary": "Ведущий медицинский университет страны набирает и на программы колледжного уровня: сестринское дело, фармация, зубной техник и техник по оптическим приборам. Поступают по среднему баллу аттестата, а на сестринское дело и стоматологию ортопедическую — ещё и с психологическим тестированием (зачёт/незачёт). Бюджетных мест очень мало — 65 в 2026 году и только после 11 класса; после 9 класса обучение только платное и дорогое.",
+  "highlights": [
+    "Медицинские специальности СПО при одном из главных медицинских вузов страны",
+    "Зачисление по среднему баллу аттестата, без экзаменов по предметам",
+    "Короткие программы после 11 класса: 1 год 10 месяцев для медсестёр, фармацевтов и зубных техников",
+    "Бюджетных мест мало, а льготников с первоочередным правом, по данным вуза, бывает намного больше, чем мест"
+  ],
+  "fields": ["medicine", "engineering"],
+  "levels": ["spo"],
+  "languages_of_instruction": ["ru"],
+  "study_formats": ["full"],
+  "programs": [
+    {
+      "name": "Сестринское дело (34.02.01), после 11 класса",
+      "field": "medicine",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 1.83,
+      "tuition": { "amount": 363000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 741 000 ₽" },
+      "budget_places": 20,
+      "passing_score": { "kind": "gpa_certificate", "note": "Конкурс по среднему баллу аттестата после психологического тестирования (зачёт/незачёт); проходной балл не публикуется" },
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+    },
+    {
+      "name": "Сестринское дело (34.02.01), после 9 класса",
+      "field": "medicine",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 2.83,
+      "tuition": { "amount": 869000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 2 714 000 ₽; только платные места (245)" },
+      "budget_places": 0,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата + психологическое тестирование" },
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+    },
+    {
+      "name": "Фармация (33.02.01), после 11 класса",
+      "field": "medicine",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 1.83,
+      "tuition": { "amount": 363000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 741 000 ₽" },
+      "budget_places": 15,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+    },
+    {
+      "name": "Стоматология ортопедическая — зубной техник (31.02.05), после 11 класса",
+      "field": "medicine",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 1.83,
+      "tuition": { "amount": 484000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 988 000 ₽" },
+      "budget_places": 15,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата + психологическое тестирование" },
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+    },
+    {
+      "name": "Производство и эксплуатация оптических и оптико-электронных приборов и систем (12.02.09), после 11 класса",
+      "field": "engineering",
+      "level": "spo",
+      "language": "ru",
+      "duration_years": 2.83,
+      "tuition": { "amount": 275000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; после 9 класса — 517 000 ₽ в год, только платно" },
+      "budget_places": 15,
+      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+    }
+  ],
+  "cost": {
+    "tuition_min": { "amount": 275000, "currency": "RUB", "period": "year", "note": "Оптика, после 11 класса, 1 курс 2026/27" },
+    "tuition_max": { "amount": 869000, "currency": "RUB", "period": "year", "note": "Сестринское дело после 9 класса, 1 курс 2026/27" }
+  },
+  "funding": {
+    "free_tuition": true
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "no",
+    "documents": [
+      "Паспорт (оригинал или копия)",
+      "Аттестат с приложением (оригинал или копия)",
+      "Документ о праве на преимущественный или первоочередной приём (если есть)",
+      "4 фотографии (если подаёте не через Госуслуги)",
+      "Медицинский осмотр — для сестринского дела, фармации и стоматологии ортопедической"
+    ],
+    "notes": "На «Сестринское дело» и «Стоматологию ортопедическую» — психологическое компьютерное тестирование (60 минут, зачёт/незачёт). Дальше конкурс по среднему баллу аттестата, при равенстве — по оценкам по профильным предметам (для медицинских специальностей первым идёт химия). По данным вуза, в 2025 году поступающих с первоочередным правом было намного больше, чем бюджетных мест."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "У университета 5 общежитий в Москве; на 2026 год для обучающихся запланировано 535 мест. Гарантии места для студентов СПО на сайте нет."
+  },
+  "deadlines": [
+    { "what": "Приём заявлений на «Сестринское дело» и «Стоматологию ортопедическую»", "start": "06-20", "end": "08-10" },
+    { "what": "Приём заявлений на «Фармацию» и оптику", "start": "06-20", "end": "08-15" },
+    { "what": "Сдача оригинала аттестата для бюджета", "end": "08-20" },
+    { "what": "Сдача оригинала и договор для платного обучения", "end": "08-26" }
+  ],
+  "perks": ["employment", "internships"],
+  "sources": [
+    { "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/", "accessed": "2026-11-23", "covers": "раздел приёма на СПО 2026" },
+    { "url": "https://www.sechenov.ru/upload/iblock/111/z8wlejs26x8z9bnwgqbrhd4jbjhsbbqd/Kolichestvo-mest-dlya-priema-po-kazhdoy-spetsialnosti.pdf", "accessed": "2026-11-23", "covers": "бюджетные и платные места 2026/27, сроки обучения" },
+    { "url": "https://www.sechenov.ru/upload/iblock/be7/z84ym2qvfc16211vs01b55j2lig3m2l5/Pravila-priema_2026_2027_SPO-s-izmeneniyami-_1.pdf", "accessed": "2026-11-23", "covers": "правила приёма, сроки, документы, порядок зачисления" },
+    { "url": "https://www.sechenov.ru/upload/iblock/396/t3b5qaxpgtuyjvolm8kcb4hc20yn59m5/Prikaz-ob-ustanovlenii-stoiomosti-POU-na-2026_2027-uchebnyy-god.pdf", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27 (скан)" },
+    { "url": "https://www.sechenov.ru/upload/iblock/a2f/0hjnbbl3dtlu5nnblp82i42tptx0i2uu/Informatsiya-o-nalichii-obshchezhitiy-i-o-kolichestve-mest-v-obshchezhitiyakh.pdf", "accessed": "2026-11-23", "covers": "общежития" },
+    { "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2025/srednee-professionalnoe-obrazovanie/", "accessed": "2026-11-23", "covers": "первоочередное право зачисления в 2025 году" }
+  ],
+  "verified_at": "2026-11-23",
+  "data_year": 2026,
+  "confidence": "medium",
+  "todo": [
+    "Проходной средний балл аттестата прошлых лет — не публикуется (приказы на priem.sechenov.ru не открылись)",
+    "Официальное название структурного подразделения (колледжа), которое ведёт СПО",
+    "Стоимость общежития и условия заселения студентов СПО",
+    "Цены взяты из скана приказа — сверить при обновлении",
+    "Фото здания со свободной лицензией не искали отдельно для СПО"
+  ]
+}
