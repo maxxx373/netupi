@@ -19,10 +19,19 @@
     "Короткие программы после 11 класса: 1 год 10 месяцев для медсестёр, фармацевтов и зубных техников",
     "Бюджетных мест мало, а льготников с первоочередным правом, по данным вуза, бывает намного больше, чем мест"
   ],
-  "fields": ["medicine", "engineering"],
-  "levels": ["spo"],
-  "languages_of_instruction": ["ru"],
-  "study_formats": ["full"],
+  "fields": [
+    "medicine",
+    "engineering"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "languages_of_instruction": [
+    "ru"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Сестринское дело (34.02.01), после 11 класса",
@@ -30,9 +39,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 1.83,
-      "tuition": { "amount": 363000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 741 000 ₽" },
+      "tuition": {
+        "amount": 363000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1 курс 2026/27; полная стоимость — 741 000 ₽"
+      },
       "budget_places": 20,
-      "passing_score": { "kind": "gpa_certificate", "note": "Конкурс по среднему баллу аттестата после психологического тестирования (зачёт/незачёт); проходной балл не публикуется" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу аттестата после психологического тестирования (зачёт/незачёт); проходной балл не публикуется"
+      },
       "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
     },
     {
@@ -41,9 +58,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 2.83,
-      "tuition": { "amount": 869000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 2 714 000 ₽; только платные места (245)" },
+      "tuition": {
+        "amount": 869000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1 курс 2026/27; полная стоимость — 2 714 000 ₽; только платные места (245)"
+      },
       "budget_places": 0,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата + психологическое тестирование" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата + психологическое тестирование"
+      },
       "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
     },
     {
@@ -52,9 +77,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 1.83,
-      "tuition": { "amount": 363000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 741 000 ₽" },
+      "tuition": {
+        "amount": 363000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1 курс 2026/27; полная стоимость — 741 000 ₽"
+      },
       "budget_places": 15,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата"
+      },
       "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
     },
     {
@@ -63,9 +96,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 1.83,
-      "tuition": { "amount": 484000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; полная стоимость — 988 000 ₽" },
+      "tuition": {
+        "amount": 484000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1 курс 2026/27; полная стоимость — 988 000 ₽"
+      },
       "budget_places": 15,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата + психологическое тестирование" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата + психологическое тестирование"
+      },
       "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
     },
     {
@@ -74,15 +115,33 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 2.83,
-      "tuition": { "amount": 275000, "currency": "RUB", "period": "year", "note": "1 курс 2026/27; после 9 класса — 517 000 ₽ в год, только платно" },
+      "tuition": {
+        "amount": 275000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1 курс 2026/27; после 9 класса — 517 000 ₽ в год, только платно"
+      },
       "budget_places": 15,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата"
+      },
       "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 275000, "currency": "RUB", "period": "year", "note": "Оптика, после 11 класса, 1 курс 2026/27" },
-    "tuition_max": { "amount": 869000, "currency": "RUB", "period": "year", "note": "Сестринское дело после 9 класса, 1 курс 2026/27" }
+    "tuition_min": {
+      "amount": 275000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Оптика, после 11 класса, 1 курс 2026/27"
+    },
+    "tuition_max": {
+      "amount": 869000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Сестринское дело после 9 класса, 1 курс 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true
@@ -106,19 +165,60 @@
     "notes": "У университета 5 общежитий в Москве; на 2026 год для обучающихся запланировано 535 мест. Гарантии места для студентов СПО на сайте нет."
   },
   "deadlines": [
-    { "what": "Приём заявлений на «Сестринское дело» и «Стоматологию ортопедическую»", "start": "06-20", "end": "08-10" },
-    { "what": "Приём заявлений на «Фармацию» и оптику", "start": "06-20", "end": "08-15" },
-    { "what": "Сдача оригинала аттестата для бюджета", "end": "08-20" },
-    { "what": "Сдача оригинала и договор для платного обучения", "end": "08-26" }
+    {
+      "what": "Приём заявлений на «Сестринское дело» и «Стоматологию ортопедическую»",
+      "start": "06-20",
+      "end": "08-10"
+    },
+    {
+      "what": "Приём заявлений на «Фармацию» и оптику",
+      "start": "06-20",
+      "end": "08-15"
+    },
+    {
+      "what": "Сдача оригинала аттестата для бюджета",
+      "end": "08-20"
+    },
+    {
+      "what": "Сдача оригинала и договор для платного обучения",
+      "end": "08-26"
+    }
   ],
-  "perks": ["employment", "internships"],
+  "perks": [
+    "employment",
+    "internships"
+  ],
   "sources": [
-    { "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/", "accessed": "2026-11-23", "covers": "раздел приёма на СПО 2026" },
-    { "url": "https://www.sechenov.ru/upload/iblock/111/z8wlejs26x8z9bnwgqbrhd4jbjhsbbqd/Kolichestvo-mest-dlya-priema-po-kazhdoy-spetsialnosti.pdf", "accessed": "2026-11-23", "covers": "бюджетные и платные места 2026/27, сроки обучения" },
-    { "url": "https://www.sechenov.ru/upload/iblock/be7/z84ym2qvfc16211vs01b55j2lig3m2l5/Pravila-priema_2026_2027_SPO-s-izmeneniyami-_1.pdf", "accessed": "2026-11-23", "covers": "правила приёма, сроки, документы, порядок зачисления" },
-    { "url": "https://www.sechenov.ru/upload/iblock/396/t3b5qaxpgtuyjvolm8kcb4hc20yn59m5/Prikaz-ob-ustanovlenii-stoiomosti-POU-na-2026_2027-uchebnyy-god.pdf", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27 (скан)" },
-    { "url": "https://www.sechenov.ru/upload/iblock/a2f/0hjnbbl3dtlu5nnblp82i42tptx0i2uu/Informatsiya-o-nalichii-obshchezhitiy-i-o-kolichestve-mest-v-obshchezhitiyakh.pdf", "accessed": "2026-11-23", "covers": "общежития" },
-    { "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2025/srednee-professionalnoe-obrazovanie/", "accessed": "2026-11-23", "covers": "первоочередное право зачисления в 2025 году" }
+    {
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/",
+      "accessed": "2026-11-23",
+      "covers": "раздел приёма на СПО 2026"
+    },
+    {
+      "url": "https://www.sechenov.ru/upload/iblock/111/z8wlejs26x8z9bnwgqbrhd4jbjhsbbqd/Kolichestvo-mest-dlya-priema-po-kazhdoy-spetsialnosti.pdf",
+      "accessed": "2026-11-23",
+      "covers": "бюджетные и платные места 2026/27, сроки обучения"
+    },
+    {
+      "url": "https://www.sechenov.ru/upload/iblock/be7/z84ym2qvfc16211vs01b55j2lig3m2l5/Pravila-priema_2026_2027_SPO-s-izmeneniyami-_1.pdf",
+      "accessed": "2026-11-23",
+      "covers": "правила приёма, сроки, документы, порядок зачисления"
+    },
+    {
+      "url": "https://www.sechenov.ru/upload/iblock/396/t3b5qaxpgtuyjvolm8kcb4hc20yn59m5/Prikaz-ob-ustanovlenii-stoiomosti-POU-na-2026_2027-uchebnyy-god.pdf",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения 2026/27 (скан)"
+    },
+    {
+      "url": "https://www.sechenov.ru/upload/iblock/a2f/0hjnbbl3dtlu5nnblp82i42tptx0i2uu/Informatsiya-o-nalichii-obshchezhitiy-i-o-kolichestve-mest-v-obshchezhitiyakh.pdf",
+      "accessed": "2026-11-23",
+      "covers": "общежития"
+    },
+    {
+      "url": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2025/srednee-professionalnoe-obrazovanie/",
+      "accessed": "2026-11-23",
+      "covers": "первоочередное право зачисления в 2025 году"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -129,5 +229,10 @@
     "Стоимость общежития и условия заселения студентов СПО",
     "Цены взяты из скана приказа — сверить при обновлении",
     "Фото здания со свободной лицензией не искали отдельно для СПО"
-  ]
+  ],
+  "prep": {
+    "must": "Подай заявление с 20 июня: на сестринское дело и ортопедическую стоматологию до 10 августа, на фармацию и оптику до 15 августа. Нужны паспорт, аттестат с приложением, медосмотр (для медицинских специальностей) и 4 фотографии, если подаёшь не через Госуслуги; оригинал аттестата для бюджета сдай до 20 августа.",
+    "good": "На сестринское дело и ортопедическую стоматологию пройди психологическое компьютерное тестирование (60 минут, зачёт/незачёт). Дальше конкурс идёт по среднему баллу аттестата, а при равенстве смотрят оценки по профильным предметам, у медицинских специальностей первой идёт химия, так что подтяни её.",
+    "source": "https://www.sechenov.ru/admissions/priemnaya-kampaniya-2026/srednee-professionalnoe-obrazovanie/"
+  }
 }

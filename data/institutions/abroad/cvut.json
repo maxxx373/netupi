@@ -32,23 +32,54 @@
       "caption": "Вход в Новое здание ČVUT в Дейвице"
     }
   ],
-  "fields": ["engineering", "it", "architecture", "natural_sciences", "design_art"],
-  "levels": ["bachelor", "master", "phd"],
-  "languages_of_instruction": ["cs", "en"],
-  "study_formats": ["full", "mixed"],
+  "fields": [
+    "engineering",
+    "it",
+    "architecture",
+    "natural_sciences",
+    "design_art"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "cs",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
   "programs": [
     {
       "name": "Informatics (FIT), English",
       "field": "it",
       "level": "bachelor",
       "language": "en",
-      "tuition": { "amount": 64000, "currency": "CZK", "period": "semester", "note": "Сумма за первый семестр, примерно 2600 евро" },
+      "tuition": {
+        "amount": 64000,
+        "currency": "CZK",
+        "period": "semester",
+        "note": "Сумма за первый семестр, примерно 2600 евро"
+      },
       "url": "https://fit.cvut.cz/en/applicants/admissions-procedure/bachelor-study-program"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 0, "currency": "CZK", "period": "semester", "note": "Программы на чешском языке" },
-    "tuition_max": { "amount": 64000, "currency": "CZK", "period": "semester", "note": "Англоязычный бакалавриат FIT; на ряде других факультетов (FD, FJFI) — 55 000 CZK за семестр" }
+    "tuition_min": {
+      "amount": 0,
+      "currency": "CZK",
+      "period": "semester",
+      "note": "Программы на чешском языке"
+    },
+    "tuition_max": {
+      "amount": 64000,
+      "currency": "CZK",
+      "period": "semester",
+      "note": "Англоязычный бакалавриат FIT; на ряде других факультетов (FD, FJFI) — 55 000 CZK за семестр"
+    }
   },
   "funding": {
     "free_tuition": true,
@@ -56,10 +87,26 @@
   },
   "requirements": {
     "intl_exams": [
-      { "exam": "IELTS", "min_score": "5.5", "note": "Для англоязычного бакалавриата FIT (нужен уровень B2)" },
-      { "exam": "TOEFL", "min_score": "72", "note": "TOEFL iBT, для англоязычного бакалавриата FIT; Duolingo не принимают" },
-      { "exam": "OTHER", "min_score": "Чешский B2", "note": "Для программ на чешском; можно сдать проверку уровня B2 в самом ČVUT" },
-      { "exam": "OTHER", "min_score": "SCIO — 70-й перцентиль", "note": "FIT: тест по математике на английском или общие учебные предпосылки как альтернатива собственному тесту" }
+      {
+        "exam": "IELTS",
+        "min_score": "5.5",
+        "note": "Для англоязычного бакалавриата FIT (нужен уровень B2)"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "72",
+        "note": "TOEFL iBT, для англоязычного бакалавриата FIT; Duolingo не принимают"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "Чешский B2",
+        "note": "Для программ на чешском; можно сдать проверку уровня B2 в самом ČVUT"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "SCIO — 70-й перцентиль",
+        "note": "FIT: тест по математике на английском или общие учебные предпосылки как альтернатива собственному тесту"
+      }
     ],
     "language_level": "Английский B2 для программ на английском; чешский B2 для программ на чешском",
     "entrance_tests": true,
@@ -82,30 +129,103 @@
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "cost_month": { "amount": 3900, "currency": "CZK", "period": "month", "note": "Расчёт: 130 CZK за койку в сутки × 30 (двухместная комната на Страхове); по прайсу с 1.9.2026 цены от 92 до 280 CZK в сутки" },
+    "cost_month": {
+      "amount": 3900,
+      "currency": "CZK",
+      "period": "month",
+      "note": "Расчёт: 130 CZK за койку в сутки × 30 (двухместная комната на Страхове); по прайсу с 1.9.2026 цены от 92 до 280 CZK в сутки"
+    },
     "notes": "Общежития ČVUT (SÚZ) на Страхове, в Подоли, Бубенече и др.; минимальный срок проживания — 30 дней подряд, нужен залог."
   },
   "deadlines": [
-    { "what": "Подача заявки на бакалавриат FIT на английском", "start": "2027-01-01", "end": "2027-03-31", "intake": "Осень 2027" },
-    { "what": "Подача заявки на бакалавриат FIT на чешском", "start": "2027-03-01", "end": "2027-03-31", "intake": "Осень 2027" },
-    { "what": "Признание аттестата через ректорат ČVUT (система NOS)", "start": "2026-12-01", "end": "2027-08-23", "intake": "Осень 2027" },
-    { "what": "Документы об образовании и языке для FIT", "end": "2027-09-13", "intake": "Осень 2027" }
+    {
+      "what": "Подача заявки на бакалавриат FIT на английском",
+      "start": "2027-01-01",
+      "end": "2027-03-31",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Подача заявки на бакалавриат FIT на чешском",
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Признание аттестата через ректорат ČVUT (система NOS)",
+      "start": "2026-12-01",
+      "end": "2027-08-23",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Документы об образовании и языке для FIT",
+      "end": "2027-09-13",
+      "intake": "Осень 2027"
+    }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2027, "position": "432" },
-    { "name": "THE World University Rankings", "year": 2027, "position": "1001–1200" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "432"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "1001–1200"
+    }
   ],
-  "perks": ["strong_research", "exchange", "employment", "campus"],
+  "perks": [
+    "strong_research",
+    "exchange",
+    "employment",
+    "campus"
+  ],
   "sources": [
-    { "url": "https://fit.cvut.cz/en/applicants/admissions-procedure/bachelor-study-program", "accessed": "2026-11-23", "covers": "FIT 2027/28: сроки, сбор, тесты, английский, плата 64 000 CZK" },
-    { "url": "https://fit.cvut.cz/cs/uchazeci/prijimaci-rizeni-2/bakalarsky-studijni-program", "accessed": "2026-11-23", "covers": "FIT на чешском: сроки, требование чешского B2" },
-    { "url": "https://www.cvut.cz/en/assessment-of-education-for-applying-to-ctu", "accessed": "2026-11-23", "covers": "признание аттестата в ČVUT: 950 CZK, документы, сроки" },
-    { "url": "https://www.fd.cvut.cz/en/admission/tuition-fee", "accessed": "2026-11-23", "covers": "плата 55 000 CZK за семестр (Факультет транспорта)" },
-    { "url": "https://fjfi.cvut.cz/en/tuition-fees", "accessed": "2026-11-23", "covers": "плата 110 000 CZK в год (FJFI)" },
-    { "url": "https://www.suz.cvut.cz/cz/media/file/cenik-kolejneho-platny-od-1-9-2026", "accessed": "2026-11-23", "covers": "цены общежитий с 1.9.2026" },
-    { "url": "https://cuni.cz/UK-15879-version1.pdf", "accessed": "2026-11-23", "covers": "QS 2027 — 432-е место ČVUT" },
-    { "url": "https://www.timeshighereducation.com/world-university-rankings/czech-technical-university-prague", "accessed": "2026-11-23", "covers": "THE 2027 — 1001–1200" },
-    { "url": "https://mzv.gov.cz/moscow/cz/viza_a_konzularni_informace/aktualni_vizova_cinnost_konzularniho/index.html", "accessed": "2026-11-23", "covers": "ограничения на визы для граждан РФ" }
+    {
+      "url": "https://fit.cvut.cz/en/applicants/admissions-procedure/bachelor-study-program",
+      "accessed": "2026-11-23",
+      "covers": "FIT 2027/28: сроки, сбор, тесты, английский, плата 64 000 CZK"
+    },
+    {
+      "url": "https://fit.cvut.cz/cs/uchazeci/prijimaci-rizeni-2/bakalarsky-studijni-program",
+      "accessed": "2026-11-23",
+      "covers": "FIT на чешском: сроки, требование чешского B2"
+    },
+    {
+      "url": "https://www.cvut.cz/en/assessment-of-education-for-applying-to-ctu",
+      "accessed": "2026-11-23",
+      "covers": "признание аттестата в ČVUT: 950 CZK, документы, сроки"
+    },
+    {
+      "url": "https://www.fd.cvut.cz/en/admission/tuition-fee",
+      "accessed": "2026-11-23",
+      "covers": "плата 55 000 CZK за семестр (Факультет транспорта)"
+    },
+    {
+      "url": "https://fjfi.cvut.cz/en/tuition-fees",
+      "accessed": "2026-11-23",
+      "covers": "плата 110 000 CZK в год (FJFI)"
+    },
+    {
+      "url": "https://www.suz.cvut.cz/cz/media/file/cenik-kolejneho-platny-od-1-9-2026",
+      "accessed": "2026-11-23",
+      "covers": "цены общежитий с 1.9.2026"
+    },
+    {
+      "url": "https://cuni.cz/UK-15879-version1.pdf",
+      "accessed": "2026-11-23",
+      "covers": "QS 2027 — 432-е место ČVUT"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/czech-technical-university-prague",
+      "accessed": "2026-11-23",
+      "covers": "THE 2027 — 1001–1200"
+    },
+    {
+      "url": "https://mzv.gov.cz/moscow/cz/viza_a_konzularni_informace/aktualni_vizova_cinnost_konzularniho/index.html",
+      "accessed": "2026-11-23",
+      "covers": "ограничения на визы для граждан РФ"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2027,
@@ -116,5 +236,10 @@
     "Собрать плату и сроки других англоязычных бакалавриатов (FEL, FS, FSv)",
     "Проверить, нужен ли апостиль для российских документов или действует договор о правовой помощи",
     "Найти официальную оценку стоимости жизни от ČVUT; заменить фото на снимок ректората, если найдётся"
-  ]
+  ],
+  "prep": {
+    "must": "Подай документы об аттестате на признание через ректорат ČVUT (система NOS, 950 CZK, окно с 1 декабря 2026 по 23 августа 2027) и заверь копии у нотариала с переводом присяжного переводчика. На англоязычный бакалавриат FIT подай заявку с января по 31 марта 2027, подтверди английский (IELTS 5.5 или TOEFL iBT 72) и сдай тест по математике (минимум 50 из 100) или предъяви результат SCIO.",
+    "good": "Проверь, нужен ли апостиль на твои документы, и не откладывай признание аттестата: без него нельзя получить учебную визу. Заранее узнай, сможешь ли ты вообще получить визу в Чехию, потому что посольство принимает заявления граждан России только в исключительных случаях.",
+    "source": "https://fit.cvut.cz/en/applicants/admissions-procedure/bachelor-study-program"
+  }
 }

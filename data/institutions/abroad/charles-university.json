@@ -32,10 +32,35 @@
       "caption": "Каролинум — историческое главное здание Карлова университета"
     }
   ],
-  "fields": ["medicine", "law", "humanities", "natural_sciences", "social_sciences", "pedagogy", "it", "economics", "psychology", "linguistics", "media", "international_relations", "sport"],
-  "levels": ["bachelor", "master", "phd", "foundation"],
-  "languages_of_instruction": ["cs", "en"],
-  "study_formats": ["full", "mixed"],
+  "fields": [
+    "medicine",
+    "law",
+    "humanities",
+    "natural_sciences",
+    "social_sciences",
+    "pedagogy",
+    "it",
+    "economics",
+    "psychology",
+    "linguistics",
+    "media",
+    "international_relations",
+    "sport"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "cs",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
   "programs": [
     {
       "name": "History and Area Studies (Факультет социальных наук)",
@@ -43,13 +68,28 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "tuition": { "amount": 5000, "currency": "EUR", "period": "year", "note": "Платится двумя частями, по семестрам" },
+      "tuition": {
+        "amount": 5000,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Платится двумя частями, по семестрам"
+      },
       "url": "https://ims.fsv.cuni.cz/en/academics/bachelors-degree-programmes/history-and-area-studies-full-time-study-english/tuition-fees"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 0, "currency": "CZK", "period": "year", "note": "Программы на чешском бесплатны (плата только при превышении срока обучения больше чем на год)" },
-    "tuition_max": { "amount": 30620, "currency": "EUR", "period": "year", "note": "Верхняя граница для программ на иностранных языках; большинство англоязычных бакалавриатов значительно дешевле" }
+    "tuition_min": {
+      "amount": 0,
+      "currency": "CZK",
+      "period": "year",
+      "note": "Программы на чешском бесплатны (плата только при превышении срока обучения больше чем на год)"
+    },
+    "tuition_max": {
+      "amount": 30620,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Верхняя граница для программ на иностранных языках; большинство англоязычных бакалавриатов значительно дешевле"
+    }
   },
   "funding": {
     "free_tuition": true,
@@ -65,8 +105,16 @@
   },
   "requirements": {
     "intl_exams": [
-      { "exam": "OTHER", "min_score": "CCE B2", "note": "Сертификатный экзамен по чешскому языку для иностранцев; пример требований Философского факультета для программ на чешском" },
-      { "exam": "OTHER", "min_score": "SCIO «Čeština pro cizince» — 80-й перцентиль", "note": "Альтернатива CCE на Философском факультете" }
+      {
+        "exam": "OTHER",
+        "min_score": "CCE B2",
+        "note": "Сертификатный экзамен по чешскому языку для иностранцев; пример требований Философского факультета для программ на чешском"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "SCIO «Čeština pro cizince» — 80-й перцентиль",
+        "note": "Альтернатива CCE на Философском факультете"
+      }
     ],
     "language_level": "Чешский не ниже B2 для программ на чешском; для англоязычных программ требования к английскому задаёт каждая программа",
     "entrance_tests": true,
@@ -87,29 +135,96 @@
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "cost_month": { "amount": 4500, "currency": "CZK", "period": "month", "note": "Место в двухместной комнате с общим санузлом на этаже; одноместная около 6000 CZK, комнаты в блоках 7000–8000 CZK (ориентировочно, по данным для студентов обмена)" },
+    "cost_month": {
+      "amount": 4500,
+      "currency": "CZK",
+      "period": "month",
+      "note": "Место в двухместной комнате с общим санузлом на этаже; одноместная около 6000 CZK, комнаты в блоках 7000–8000 CZK (ориентировочно, по данным для студентов обмена)"
+    },
     "notes": "Общежитиями управляет университетская служба Koleje a menzy; при бронировании нужен залог около 2100 CZK."
   },
   "deadlines": [
-    { "what": "Подача заявок на бакалавриат на чешском (Философский факультет)", "start": "2026-11-01", "end": "2027-02-28", "intake": "Осень 2027" },
-    { "what": "Подача заявок на бакалавриат на иностранном языке (Философский факультет)", "start": "2026-10-01", "end": "2027-01-31", "intake": "Осень 2027" },
-    { "what": "Общий ориентир по университету: подача обычно с ноября по апрель, на некоторые программы до августа", "intake": "Осенний набор" }
+    {
+      "what": "Подача заявок на бакалавриат на чешском (Философский факультет)",
+      "start": "2026-11-01",
+      "end": "2027-02-28",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Подача заявок на бакалавриат на иностранном языке (Философский факультет)",
+      "start": "2026-10-01",
+      "end": "2027-01-31",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Общий ориентир по университету: подача обычно с ноября по апрель, на некоторые программы до августа",
+      "intake": "Осенний набор"
+    }
   ],
   "rankings": [
-    { "name": "QS World University Rankings", "year": 2027, "position": "273" },
-    { "name": "THE World University Rankings", "year": 2027, "position": "451–500" }
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "273"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "451–500"
+    }
   ],
-  "perks": ["strong_research", "exchange", "student_life", "intl_environment"],
+  "perks": [
+    "strong_research",
+    "exchange",
+    "student_life",
+    "intl_environment"
+  ],
   "sources": [
-    { "url": "https://cuni.cz/UKEN-1593.html", "accessed": "2026-11-23", "covers": "общие условия для иностранцев, бесплатность на чешском, сроки, стипендии" },
-    { "url": "https://cuni.cz/UKEN-372.html", "accessed": "2026-11-23", "covers": "плата за программы на иностранных языках (40–30 620 евро в год)" },
-    { "url": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=info_fakulta&fak=11210", "accessed": "2026-11-23", "covers": "Философский факультет 2027/28: сроки, сбор, чешский B2, признание аттестата, экзамены" },
-    { "url": "https://ims.fsv.cuni.cz/en/academics/bachelors-degree-programmes/history-and-area-studies-full-time-study-english/tuition-fees", "accessed": "2026-11-23", "covers": "пример англоязычной программы и её стоимость" },
-    { "url": "https://cuni.cz/UKEN-344.html", "accessed": "2026-11-23", "covers": "цены общежитий (fact sheet для студентов обмена 2027/28)" },
-    { "url": "https://cuni.cz/UK-15879-version1.pdf", "accessed": "2026-11-23", "covers": "QS 2027 — 273-е место" },
-    { "url": "https://www.timeshighereducation.com/world-university-rankings/charles-university-in-prague", "accessed": "2026-11-23", "covers": "THE 2027 — 451–500" },
-    { "url": "https://mzv.gov.cz/moscow/cz/viza_a_konzularni_informace/aktualni_vizova_cinnost_konzularniho/index.html", "accessed": "2026-11-23", "covers": "ограничения на визы для граждан РФ (постановление 55/2024)" },
-    { "url": "https://mzv.gov.cz/moscow/ru/vizy_i_konsulskaja/novosti/x2026_03_20.html", "accessed": "2026-11-23", "covers": "подтверждение действия постановления 55/2024 в 2026 году" }
+    {
+      "url": "https://cuni.cz/UKEN-1593.html",
+      "accessed": "2026-11-23",
+      "covers": "общие условия для иностранцев, бесплатность на чешском, сроки, стипендии"
+    },
+    {
+      "url": "https://cuni.cz/UKEN-372.html",
+      "accessed": "2026-11-23",
+      "covers": "плата за программы на иностранных языках (40–30 620 евро в год)"
+    },
+    {
+      "url": "https://is.cuni.cz/studium/eng/prijimacky/index.php?do=info_fakulta&fak=11210",
+      "accessed": "2026-11-23",
+      "covers": "Философский факультет 2027/28: сроки, сбор, чешский B2, признание аттестата, экзамены"
+    },
+    {
+      "url": "https://ims.fsv.cuni.cz/en/academics/bachelors-degree-programmes/history-and-area-studies-full-time-study-english/tuition-fees",
+      "accessed": "2026-11-23",
+      "covers": "пример англоязычной программы и её стоимость"
+    },
+    {
+      "url": "https://cuni.cz/UKEN-344.html",
+      "accessed": "2026-11-23",
+      "covers": "цены общежитий (fact sheet для студентов обмена 2027/28)"
+    },
+    {
+      "url": "https://cuni.cz/UK-15879-version1.pdf",
+      "accessed": "2026-11-23",
+      "covers": "QS 2027 — 273-е место"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/charles-university-in-prague",
+      "accessed": "2026-11-23",
+      "covers": "THE 2027 — 451–500"
+    },
+    {
+      "url": "https://mzv.gov.cz/moscow/cz/viza_a_konzularni_informace/aktualni_vizova_cinnost_konzularniho/index.html",
+      "accessed": "2026-11-23",
+      "covers": "ограничения на визы для граждан РФ (постановление 55/2024)"
+    },
+    {
+      "url": "https://mzv.gov.cz/moscow/ru/vizy_i_konsulskaja/novosti/x2026_03_20.html",
+      "accessed": "2026-11-23",
+      "covers": "подтверждение действия постановления 55/2024 в 2026 году"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2027,
@@ -120,5 +235,10 @@
     "Найти чешские государственные стипендии, доступные гражданам России",
     "Требования к английскому (IELTS/TOEFL) для англоязычных бакалавриатов — у каждой программы свои",
     "Проверить актуальный ценник общежитий для студентов полного цикла (данные из fact sheet для обмена)"
-  ]
+  ],
+  "prep": {
+    "must": "Сначала реши вопрос с признанием аттестата: нужна общая нострификация или решение факультета об эквивалентности, на Философском факультете оно стоит 1050 CZK. Для программ на чешском подтверди чешский не ниже B2 (CCE или SCIO), а для программ на английском проверь требования к английскому на странице своей программы; заявку на 2027/28 подай в окне факультета (на Философском это октябрь–январь для англоязычных и ноябрь–февраль для чешских программ).",
+    "good": "Подготовься к вступительному экзамену факультета или к тестам SCIO и заранее собери заверенную копию аттестата с приложением. Обязательно проверь, сможешь ли ты получить учебную визу: по данным посольства, граждан России принимают только в исключительных случаях, и учёба в списке не указана.",
+    "source": "https://cuni.cz/UKEN-1593.html"
+  }
 }

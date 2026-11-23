@@ -19,10 +19,22 @@
     "Входит в РЭУ им. Плеханова — после техникума можно продолжить учёбу в университете",
     "Есть творческая специальность «Анимация и анимационное кино»"
   ],
-  "fields": ["it", "gamedev", "design_art", "law", "engineering"],
-  "levels": ["spo"],
-  "languages_of_instruction": ["ru"],
-  "study_formats": ["full"],
+  "fields": [
+    "it",
+    "gamedev",
+    "design_art",
+    "law",
+    "engineering"
+  ],
+  "levels": [
+    "spo"
+  ],
+  "languages_of_instruction": [
+    "ru"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "programs": [
     {
       "name": "Разработка и управление программным обеспечением (09.02.11)",
@@ -30,9 +42,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 3.83,
-      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "tuition": {
+        "amount": 230000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27"
+      },
       "budget_places": 170,
-      "passing_score": { "kind": "gpa_certificate", "note": "Конкурс по среднему баллу аттестата; срок обучения — 3 г. 10 мес. после 9 класса, 2 г. 10 мес. после 11 класса. Проходной балл вуз не публикует" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу аттестата; срок обучения — 3 г. 10 мес. после 9 класса, 2 г. 10 мес. после 11 класса. Проходной балл вуз не публикует"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     },
     {
@@ -41,9 +61,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 2.83,
-      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "tuition": {
+        "amount": 230000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27"
+      },
       "budget_places": 95,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата; 2 г. 10 мес. после 9 класса, 1 г. 10 мес. после 11 класса" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата; 2 г. 10 мес. после 9 класса, 1 г. 10 мес. после 11 класса"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     },
     {
@@ -52,9 +80,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 3.83,
-      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "tuition": {
+        "amount": 230000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27"
+      },
       "budget_places": 55,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     },
     {
@@ -63,9 +99,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 2.83,
-      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27" },
+      "tuition": {
+        "amount": 230000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27"
+      },
       "budget_places": 25,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     },
     {
@@ -74,9 +118,17 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 3.83,
-      "tuition": { "amount": 230000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (40)" },
+      "tuition": {
+        "amount": 230000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (40)"
+      },
       "budget_places": 0,
-      "passing_score": { "kind": "gpa_certificate", "note": "По среднему баллу аттестата" },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "note": "По среднему баллу аттестата"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     },
     {
@@ -85,15 +137,33 @@
       "level": "spo",
       "language": "ru",
       "duration_years": 3.83,
-      "tuition": { "amount": 220000, "currency": "RUB", "period": "year", "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (20), приём после 9 класса" },
+      "tuition": {
+        "amount": 220000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платно, 1 курс 2026/27; в 2026 году только платные места (20), приём после 9 класса"
+      },
       "budget_places": 0,
-      "passing_score": { "kind": "other", "note": "Вступительное испытание — творческое задание" },
+      "passing_score": {
+        "kind": "other",
+        "note": "Вступительное испытание — творческое задание"
+      },
       "url": "https://mpt.ru/priemnaya-komissiya/"
     }
   ],
   "cost": {
-    "tuition_min": { "amount": 220000, "currency": "RUB", "period": "year", "note": "Юриспруденция, анимация; 2026/27" },
-    "tuition_max": { "amount": 230000, "currency": "RUB", "period": "year", "note": "IT-специальности; 2026/27" }
+    "tuition_min": {
+      "amount": 220000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Юриспруденция, анимация; 2026/27"
+    },
+    "tuition_max": {
+      "amount": 230000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "IT-специальности; 2026/27"
+    }
   },
   "funding": {
     "free_tuition": true,
@@ -125,17 +195,53 @@
     "notes": "По информации приёмной комиссии, общежитие не предоставляется."
   },
   "deadlines": [
-    { "what": "Приём документов (все специальности, кроме анимации)", "start": "06-20", "end": "08-15", "intake": "Осенний набор" },
-    { "what": "Приём документов на «Анимацию и анимационное кино» (творческое испытание)", "start": "06-20", "end": "08-10", "intake": "Осенний набор" },
-    { "what": "Последний срок сдачи оригинала аттестата", "end": "08-18" }
+    {
+      "what": "Приём документов (все специальности, кроме анимации)",
+      "start": "06-20",
+      "end": "08-15",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на «Анимацию и анимационное кино» (творческое испытание)",
+      "start": "06-20",
+      "end": "08-10",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Последний срок сдачи оригинала аттестата",
+      "end": "08-18"
+    }
   ],
-  "perks": ["employment", "internships"],
+  "perks": [
+    "employment",
+    "internships"
+  ],
   "sources": [
-    { "url": "https://mpt.ru/priemnaya-komissiya/", "accessed": "2026-11-23", "covers": "специальности, сроки обучения, сроки приёма 2026, документы, общежитие" },
-    { "url": "https://mpt.ru/wp-content/uploads/priem/stoimost.jpg", "accessed": "2026-11-23", "covers": "стоимость обучения 2026/27" },
-    { "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/02_spo_plan_MPT.pdf", "accessed": "2026-11-23", "covers": "план приёма 2026/27: бюджетные и платные места" },
-    { "url": "https://www.rea.ru/pk/entrant/srednee-professionalnoe-obrazovanie", "accessed": "2026-11-23", "covers": "правила приёма в колледжи РЭУ" },
-    { "url": "https://mpt.ru/wp-content/uploads/priem/arhiv-stoimosti-obucheniya-po-godam-2020-2025.pdf", "accessed": "2026-11-23", "covers": "динамика цен 2020–2026" }
+    {
+      "url": "https://mpt.ru/priemnaya-komissiya/",
+      "accessed": "2026-11-23",
+      "covers": "специальности, сроки обучения, сроки приёма 2026, документы, общежитие"
+    },
+    {
+      "url": "https://mpt.ru/wp-content/uploads/priem/stoimost.jpg",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения 2026/27"
+    },
+    {
+      "url": "https://www.rea.ru/mnt/sveden/document/priemDocLink/02_spo_plan_MPT.pdf",
+      "accessed": "2026-11-23",
+      "covers": "план приёма 2026/27: бюджетные и платные места"
+    },
+    {
+      "url": "https://www.rea.ru/pk/entrant/srednee-professionalnoe-obrazovanie",
+      "accessed": "2026-11-23",
+      "covers": "правила приёма в колледжи РЭУ"
+    },
+    {
+      "url": "https://mpt.ru/wp-content/uploads/priem/arhiv-stoimosti-obucheniya-po-godam-2020-2025.pdf",
+      "accessed": "2026-11-23",
+      "covers": "динамика цен 2020–2026"
+    }
   ],
   "verified_at": "2026-11-23",
   "data_year": 2026,
@@ -145,5 +251,10 @@
     "Срок приёма на анимацию: в таблице до 10 августа, в тексте — до 11 августа 2026, уточнить",
     "Год основания и английское название",
     "Фото здания со свободной лицензией не найдено"
-  ]
+  ],
+  "prep": {
+    "must": "Подай документы с 20 июня по 15 августа (на «Анимацию и анимационное кино» — до 10 августа) и сдай оригинал аттестата до 18 августа. Нужны заявление, согласие на обработку данных, аттестат с приложением, паспорт, СНИЛС и 4 фотографии 3×4.",
+    "good": "Экзаменов нет, зачисляют по среднему баллу аттестата, поэтому сохрани оценки как можно выше и добавь документы об индивидуальных достижениях. Для анимации подготовься к творческому заданию, а срок подачи сверь на сайте: в источниках указано 10 или 11 августа. Документы можно подать и через Госуслуги.",
+    "source": "https://mpt.ru/priemnaya-komissiya/"
+  }
 }
