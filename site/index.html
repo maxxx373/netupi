@@ -1,0 +1,224 @@
+<title>Не тупи, поступи</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  /* Layout: тёмная сцена — слева тезис и одна кнопка, справа пиксельный глобус; ниже три тихих пункта */
+  :root{
+    --bg:#0E0F13;
+    --surface:#16171D;
+    --line:rgba(242,238,230,.09);
+    --fg:#F2EEE6;
+    --muted:#8D8B95;
+    --blue:#3B57FF;
+    --orange:#FF5B1F;
+    --display:"Unbounded",system-ui,sans-serif;
+    --body:"Manrope",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  .wrap{position:relative;z-index:1}
+  /* живой фон: мягкие пятна по бокам, медленно дрейфуют */
+  .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .bg i{position:absolute;border-radius:50%;filter:blur(90px);opacity:.7;animation:drift 22s ease-in-out infinite alternate}
+  .bg .g1{width:52vw;height:52vw;left:-22vw;top:-12vw;background:radial-gradient(circle,var(--blue),transparent 68%)}
+  .bg .g2{width:46vw;height:46vw;right:-20vw;top:28vh;background:radial-gradient(circle,var(--orange),transparent 68%);opacity:.5;animation-duration:26s;animation-delay:-8s}
+  .bg .g3{width:40vw;height:40vw;left:-14vw;bottom:-22vw;background:radial-gradient(circle,#7A3CFF,transparent 68%);opacity:.32;animation-duration:30s;animation-delay:-14s}
+  .bg::after{content:"";position:absolute;inset:0;opacity:.35;
+    background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+    background-size:56px 56px;mask-image:radial-gradient(ellipse at 50% 40%,#000 0%,transparent 70%)}
+  @keyframes drift{to{transform:translate(6vw,5vh) scale(1.12)}}
+  @media (max-width:960px){.bg i{width:90vw!important;height:90vw!important}}
+  .wrap{max-width:1280px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+
+  /* header */
+  header{display:flex;align-items:center;justify-content:space-between;padding-block:24px}
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:15px;text-transform:lowercase}
+  .logo b{color:var(--orange);font-weight:800}
+  nav{display:flex;gap:32px;font-size:14px;font-weight:600;color:var(--muted)}
+  nav a{transition:color .2s}
+  nav a:hover{color:var(--fg)}
+  .login{font-size:14px;font-weight:700;padding:11px 20px;border:1px solid var(--line);border-radius:99px;transition:.2s}
+  .login:hover{border-color:var(--fg)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+
+  /* hero */
+  .hero{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:40px;padding-block:56px 72px;position:relative}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:28px}
+  .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange)}
+  h1{font-family:var(--display);font-weight:900;text-transform:uppercase;letter-spacing:-.035em;line-height:.95;font-size:clamp(40px,6.2vw,88px)}
+  h1 .row{display:flex;align-items:center;gap:.16em;white-space:nowrap}
+  h1 .o{color:var(--orange)}
+  .pill{display:inline-flex;align-items:center;justify-content:flex-end;width:1.55em;height:.74em;border-radius:99px;background:var(--blue);padding:0 .07em;flex-shrink:0}
+  .knob{width:.6em;height:.6em;border-radius:50%;background:var(--fg);display:grid;place-items:center;animation:knob 4s ease-in-out infinite}
+  .knob svg{width:50%;height:50%}
+  @keyframes knob{0%,35%{transform:translateX(-.81em)}55%,100%{transform:translateX(0)}}
+
+  .lead{margin-top:28px;max-width:30em;font-size:18px;line-height:1.6;color:var(--muted)}
+  .lead strong{color:var(--fg);font-weight:600}
+
+  .cta-row{display:flex;align-items:center;gap:20px;margin-top:40px;flex-wrap:wrap}
+  .cta{display:inline-flex;align-items:center;gap:16px;padding:8px 8px 8px 30px;border:0;border-radius:99px;cursor:pointer;
+       background:var(--orange);color:var(--fg);font-family:var(--display);font-weight:600;font-size:18px;
+       transition:transform .3s cubic-bezier(.2,.9,.3,1.3)}
+  .cta .arr{width:50px;height:50px;border-radius:50%;background:var(--bg);display:grid;place-items:center;transition:transform .35s cubic-bezier(.2,.9,.3,1.3)}
+  .cta:hover{transform:translateY(-2px)}
+  .cta:hover .arr{transform:rotate(45deg)}
+  .cta:active{transform:scale(.98)}
+  .note{font-size:13px;color:var(--muted);line-height:1.5}
+
+  /* globe */
+  .stage{position:relative;aspect-ratio:1;max-width:540px;width:100%;justify-self:end}
+  .stage::before{content:"";position:absolute;inset:-8%;border-radius:50%;
+    background:radial-gradient(circle at 50% 50%,rgba(59,87,255,.26),transparent 62%)}
+  #globe{position:relative;width:100%;height:100%;image-rendering:pixelated;display:block}
+  .chip{position:absolute;left:-4%;bottom:10%;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px;width:220px;
+        box-shadow:0 20px 50px -20px rgba(0,0,0,.8);animation:bob 7s ease-in-out infinite}
+  .chip small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .chip strong{font-size:14px;font-weight:700}
+  .bar{height:6px;border-radius:9px;background:var(--line);margin-top:10px;overflow:hidden}
+  .bar i{display:block;height:100%;width:58%;background:var(--blue);border-radius:9px}
+  @keyframes bob{50%{transform:translateY(-8px)}}
+
+  /* points */
+  .points{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+  .pt{padding:28px 28px 36px 0;display:flex;flex-direction:column;gap:10px;min-width:0}
+  .pt + .pt{padding-left:28px;border-left:1px solid var(--line)}
+  .pt h3{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.01em;text-wrap:balance}
+  .pt p{font-size:15px;line-height:1.55;color:var(--muted);max-width:28em}
+  .pt .k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+
+  footer{display:flex;justify-content:space-between;gap:16px;padding-block:28px 36px;border-top:1px solid var(--line);font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+  .rise{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(18px)}}
+
+  @media (max-width:960px){
+    nav{display:none}
+    .hero{grid-template-columns:1fr;padding-block:32px 48px}
+    .stage{justify-self:center;max-width:440px}
+    .chip{left:0}
+    .points{grid-template-columns:1fr}
+    .pt,.pt + .pt{padding:22px 0;border-left:0}
+    .pt + .pt{border-top:1px solid var(--line)}
+  }
+  @media (max-width:520px){
+    .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+    h1{font-size:clamp(30px,10vw,50px)}
+    .lead{font-size:16px}
+    .cta{font-size:16px;padding-left:24px}
+    .cta .arr{width:44px;height:44px}
+    .chip{width:190px}
+    footer{flex-direction:column}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="bg" aria-hidden="true"><i class="g1"></i><i class="g2"></i><i class="g3"></i></div>
+<div class="wrap">
+  <header>
+    <a href="#" class="logo">
+      не тупи, <b>поступи</b>
+    </a>
+    <nav>
+      <a href="#">Как это работает</a>
+      <a href="#">Вузы мира</a>
+      <a href="#">Сообщество</a>
+    </nav>
+    <a href="#" class="login">Войти</a>
+  </header>
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow rise">Спокойное поступление</div>
+      <h1>
+        <span class="row rise" style="animation-delay:.08s">Не тупи,</span>
+        <span class="row rise" style="animation-delay:.16s">
+          <span class="pill" aria-hidden="true"><span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke="#0E0F13" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+          <span class="o">поступи</span>
+        </span>
+      </h1>
+      <p class="lead rise" style="animation-delay:.26s">
+        Поможем понять, <strong>кем ты хочешь стать</strong>, подберём вуз в России или за границей
+        и проведём до зачисления: документы, экзамены, виза, деньги. По шагам и без паники.
+      </p>
+      <div class="cta-row rise" style="animation-delay:.36s">
+        <a class="cta" href="podbor.html">
+          Подобрать вуз
+          <span class="arr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2EEE6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+        <span class="note">Около 7 минут.<br>Регистрация не нужна.</span>
+      </div>
+    </div>
+
+    <div class="stage rise" style="animation-delay:.2s">
+      <canvas id="globe" width="120" height="120" aria-label="Пиксельный глобус с отмеченными городами"></canvas>
+      <div class="chip">
+        <small>Твой план · Сеул</small>
+        <strong>Документы: 7 из 12</strong>
+        <div class="bar"><i></i></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="points">
+    <div class="pt rise" style="animation-delay:.45s">
+      <span class="k">Подбор</span>
+      <h3>Вопросы, которых не страшно</h3>
+      <p>Короткое интервью с подсказкой к каждому вопросу. В конце список вузов, которые тебе подходят.</p>
+    </div>
+    <div class="pt rise" style="animation-delay:.52s">
+      <span class="k">План</span>
+      <h3>Ведём до самого зачисления</h3>
+      <p>Чек-лист под выбранный вуз: документы, виза, язык, экзамены, активити и бюджет.</p>
+    </div>
+    <div class="pt rise" style="animation-delay:.59s">
+      <span class="k">Сообщество</span>
+      <h3>Рядом такие же поступашки</h3>
+      <p>Чат абитуриентов, где можно спросить что угодно и найти тех, кто поступает туда же.</p>
+    </div>
+  </section>
+
+  <footer><span>© 2026 не тупи, поступи</span><span>Сделано для поступашек</span></footer>
+</div>
+
+<script>
+(() => {
+  const cv=document.getElementById('globe'), ctx=cv.getContext('2d'), S=cv.width, R=S*0.46;
+  const img=ctx.createImageData(S,S);
+  const hash=(x,y,z)=>{let h=x*374761393+y*668265263+z*1442695041; h=(h^(h>>>13))*1274126177; return ((h^(h>>>16))>>>0)/4294967295;};
+  const lerp=(a,b,t)=>a+(b-a)*t, sm=t=>t*t*(3-2*t);
+  function vn(x,y,z){
+    const xi=Math.floor(x),yi=Math.floor(y),zi=Math.floor(z),xf=sm(x-xi),yf=sm(y-yi),zf=sm(z-zi),c=(a,b,d)=>hash(xi+a,yi+b,zi+d);
+    return lerp(lerp(lerp(c(0,0,0),c(1,0,0),xf),lerp(c(0,1,0),c(1,1,0),xf),yf),lerp(lerp(c(0,0,1),c(1,0,1),xf),lerp(c(0,1,1),c(1,1,1),xf),yf),zf);
+  }
+  const fbm=(x,y,z)=>vn(x,y,z)*.55+vn(x*2.1,y*2.1,z*2.1)*.3+vn(x*4.3,y*4.3,z*4.3)*.15;
+  const deep=[26,38,150], ocean=[59,87,255], shallow=[98,128,255], land=[242,238,230], land2=[196,191,182], city=[255,91,31];
+  const cities=[[37.5,127],[55.7,37.6],[52.5,13.4],[50.1,14.4],[39.9,116.4],[35.7,139.7],[43.6,-79.4],[41.9,12.5]]
+    .map(([a,b])=>{a*=Math.PI/180;b*=Math.PI/180;return [Math.cos(a)*Math.cos(b),Math.sin(a),Math.cos(a)*Math.sin(b)];});
+  let rot=0;
+  function draw(){
+    const d=img.data;
+    for(let y=0;y<S;y++)for(let x=0;x<S;x++){
+      const i=(y*S+x)*4, dx=(x+.5-S/2)/R, dy=(y+.5-S/2)/R, rr=dx*dx+dy*dy;
+      if(rr>1){d[i+3]=0;continue;}
+      const dz=Math.sqrt(1-rr), lat=Math.asin(-dy), lon=Math.atan2(dx,dz)+rot;
+      const px=Math.cos(lat)*Math.cos(lon), py=Math.sin(lat), pz=Math.cos(lat)*Math.sin(lon);
+      const n=fbm(px*1.8+10,py*1.8+10,pz*1.8+10);
+      let c = n>.6 ? (n>.67?land2:land) : n>.52 ? shallow : n>.42 ? ocean : deep;
+      for(const q of cities){ if(px*q[0]+py*q[1]+pz*q[2]>.9988){c=city;break;} }
+      const l=.5+.5*Math.max(0,-.4*dx-.5*dy+.77*dz), s=Math.round(l*3)/3;
+      d[i]=c[0]*s; d[i+1]=c[1]*s; d[i+2]=c[2]*s; d[i+3]=255;
+    }
+    ctx.putImageData(img,0,0);
+  }
+  draw();
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  let last=0;
+  (function loop(t){ if(t-last>90){rot+=.03;draw();last=t;} requestAnimationFrame(loop); })(0);
+})();
+</script>

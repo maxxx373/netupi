@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Подбор вуза · не тупи, поступи</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  /* Layout: одна карточка-вопрос по центру, сверху прогресс по разделам, снизу навигация */
+  :root{
+    --bg:#0E0F13;
+    --surface:#16171D;
+    --surface-2:#1D1F27;
+    --line:rgba(242,238,230,.09);
+    --line-2:rgba(242,238,230,.18);
+    --fg:#F2EEE6;
+    --muted:#8D8B95;
+    --blue:#3B57FF;
+    --orange:#FF5B1F;
+    --display:"Unbounded",system-ui,sans-serif;
+    --body:"Manrope",system-ui,sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,monospace;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  [hidden]{display:none!important}
+  html,body{min-height:100%}
+  body{background:var(--bg);color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;
+       padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  :focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+
+  .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .bg i{position:absolute;border-radius:50%;filter:blur(90px);opacity:.6;animation:drift 22s ease-in-out infinite alternate}
+  .bg .g1{width:50vw;height:50vw;left:-24vw;top:-14vw;background:radial-gradient(circle,var(--blue),transparent 68%)}
+  .bg .g2{width:44vw;height:44vw;right:-22vw;bottom:-10vw;background:radial-gradient(circle,var(--orange),transparent 68%);opacity:.42;animation-duration:26s;animation-delay:-8s}
+  .bg .g3{width:36vw;height:36vw;right:-10vw;top:-16vw;background:radial-gradient(circle,#7A3CFF,transparent 68%);opacity:.28;animation-duration:30s;animation-delay:-14s}
+  @keyframes drift{to{transform:translate(5vw,4vh) scale(1.1)}}
+  @media (max-width:760px){.bg i{width:110vw!important;height:110vw!important}}
+
+  .wrap{position:relative;z-index:1;max-width:980px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;
+        padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:24px}
+  .logo{font-family:var(--display);font-weight:800;font-size:15px;text-transform:lowercase}
+  .logo b{color:var(--orange);font-weight:800}
+  .exit{font-size:14px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:8px;transition:color .2s}
+  .exit:hover{color:var(--fg)}
+
+  /* progress */
+  .progress{display:flex;flex-direction:column;gap:12px;padding-block:8px 28px}
+  .prog-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .prog-top b{color:var(--fg);font-weight:500}
+  .segs{display:flex;gap:6px}
+  .seg{flex:1;height:5px;border-radius:9px;background:var(--line);overflow:hidden;position:relative}
+  .seg i{position:absolute;inset:0;width:0;background:var(--fg);border-radius:9px;transition:width .5s cubic-bezier(.2,.8,.2,1)}
+  .seg.cur i{background:var(--orange)}
+  .seg-names{display:flex;gap:6px}
+  .seg-names span{flex:1;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .3s}
+  .seg-names span.on{color:var(--fg)}
+
+  /* card */
+  main{flex:1;display:flex;flex-direction:column}
+  .card{position:relative;flex:1;display:flex;flex-direction:column}
+  .q-anim{animation:qin .45s cubic-bezier(.2,.8,.2,1)}
+  .q-anim.back{animation-name:qinb}
+  @keyframes qin{from{opacity:0;transform:translateX(28px)}}
+  @keyframes qinb{from{opacity:0;transform:translateX(-28px)}}
+
+  .q-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+  .q-num{font-family:var(--mono);font-size:12px;color:var(--orange);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+  h1{font-family:var(--display);font-weight:800;font-size:clamp(24px,3.6vw,40px);line-height:1.1;letter-spacing:-.02em;text-wrap:balance;max-width:20em}
+  .q-sub{margin-top:14px;font-size:16px;line-height:1.55;color:var(--muted);max-width:36em}
+  .help-btn{flex-shrink:0;display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:99px;border:1px solid var(--line-2);font-size:13px;font-weight:700;transition:.2s;white-space:nowrap}
+  .help-btn:hover{border-color:var(--fg);background:var(--surface)}
+  .help-btn .qm{width:20px;height:20px;border-radius:50%;background:var(--blue);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--fg)}
+
+  .opts{margin-top:32px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+  .opt{position:relative;text-align:left;display:flex;gap:14px;align-items:flex-start;padding:18px 18px 18px 16px;border-radius:18px;
+       background:var(--surface);border:1px solid var(--line);transition:border-color .2s,background .2s,transform .2s}
+  .opt:hover{border-color:var(--line-2);transform:translateY(-2px)}
+  .opt .key{flex-shrink:0;width:24px;height:24px;border-radius:7px;border:1px solid var(--line-2);display:grid;place-items:center;font-family:var(--mono);font-size:11px;color:var(--muted);transition:.2s}
+  .opt .t{font-weight:700;font-size:15px;line-height:1.35}
+  .opt .d{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4;font-weight:500}
+  .opt.sel{border-color:var(--orange);background:linear-gradient(0deg,rgba(255,91,31,.12),rgba(255,91,31,.12)),var(--surface)}
+  .opt.sel .key{background:var(--orange);border-color:var(--orange);color:var(--fg)}
+
+  .chips{margin-top:32px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{padding:11px 18px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:700;font-size:14px;transition:.2s;display:flex;align-items:center;gap:8px}
+  .chip:hover{border-color:var(--line-2)}
+  .chip.sel{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+  .chip.sel::before{content:"✓";font-size:12px}
+  .chip.none{border-style:dashed}
+  .limit{margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+  .scale{margin-top:36px;display:grid;grid-template-columns:repeat(5,1fr);gap:10px;max-width:620px}
+  .scale .opt{flex-direction:column;align-items:center;text-align:center;padding:20px 8px;gap:8px}
+  .scale .big{font-family:var(--display);font-weight:800;font-size:26px}
+  .scale-legend{display:flex;justify-content:space-between;max-width:620px;margin-top:10px;font-size:12px;color:var(--muted)}
+
+  .field{margin-top:32px;max-width:560px}
+  .field input{width:100%;padding:18px 20px;border-radius:16px;background:var(--surface);border:1px solid var(--line-2);color:var(--fg);font:600 18px var(--body);transition:border-color .2s}
+  .field input::placeholder{color:var(--muted);font-weight:500}
+  .field input:focus{outline:none;border-color:var(--orange)}
+  .extra{margin-top:16px;max-width:560px}
+  .extra input{padding:14px 18px;font-size:15px}
+  .extra label{display:block;font-size:13px;color:var(--muted);margin-bottom:8px}
+
+  /* nav */
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:32px 36px;margin-top:auto}
+  .nav-l{display:flex;gap:8px}
+  .ghost{padding:14px 20px;border-radius:99px;font-weight:700;font-size:14px;color:var(--muted);transition:.2s}
+  .ghost:hover{color:var(--fg);background:var(--surface)}
+  .ghost[disabled]{opacity:.3;pointer-events:none}
+  .next{display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 26px;border-radius:99px;background:var(--orange);color:var(--fg);font:600 16px var(--display);transition:transform .25s,opacity .2s}
+  .next .arr{width:42px;height:42px;border-radius:50%;background:var(--bg);display:grid;place-items:center}
+  .next:hover{transform:translateY(-2px)}
+  .next[disabled]{opacity:.35;pointer-events:none}
+  .hint-keys{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  @media (max-width:760px){.hint-keys{display:none}}
+
+  /* help panel (заготовка) */
+  .scrim{position:fixed;inset:0;background:rgba(6,7,10,.6);backdrop-filter:blur(4px);z-index:20;opacity:0;pointer-events:none;transition:opacity .3s}
+  .scrim.on{opacity:1;pointer-events:auto}
+  .panel{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);z-index:21;background:var(--surface);border-left:1px solid var(--line);
+         padding:calc(28px + env(safe-area-inset-top,0px)) max(28px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) 28px;
+         transform:translateX(100%);transition:transform .4s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;gap:18px;overflow-y:auto}
+  .panel.on{transform:none}
+  .panel-top{display:flex;justify-content:space-between;align-items:center}
+  .panel-top span{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .x{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center}
+  .panel h2{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.2}
+  .slot{border:1px dashed var(--line-2);border-radius:16px;padding:16px;display:flex;gap:14px;align-items:center}
+  .slot .ic{width:40px;height:40px;border-radius:12px;background:var(--surface-2);display:grid;place-items:center;flex-shrink:0}
+  .slot b{display:block;font-size:14px}
+  .slot small{font-size:13px;color:var(--muted)}
+  .soon{font-size:13px;color:var(--muted);line-height:1.5}
+
+  /* result */
+  .res-grid{margin-top:32px;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .res-item{text-align:left;padding:16px 18px;border-radius:16px;background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px;transition:border-color .2s;min-width:0}
+  .res-item:hover{border-color:var(--line-2)}
+  .res-item small{font-size:12px;color:var(--muted)}
+  .res-item span{font-weight:700;font-size:14px;line-height:1.4}
+  .res-item.empty span{color:var(--muted);font-weight:500}
+  .res-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:32px}
+
+  @media (max-width:600px){
+    .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+    .seg-names{display:none}
+    .q-head{flex-direction:column-reverse;gap:16px}
+    .opts{grid-template-columns:1fr}
+    .scale{gap:6px}
+    .scale .big{font-size:20px}
+    .scale .opt .d{display:none}
+    .res-grid{grid-template-columns:1fr}
+    .ghost{padding:12px 14px}
+    .next{font-size:14px;padding-left:20px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="g1"></i><i class="g2"></i><i class="g3"></i></div>
+
+<div class="wrap">
+  <header>
+    <a href="index.html" class="logo">не тупи, <b>поступи</b></a>
+    <a href="index.html" class="exit">Выйти <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></a>
+  </header>
+
+  <div class="progress" id="progress">
+    <div class="prog-top"><span id="secName">—</span><span><b id="qPos">1</b> / <span id="qTotal">—</span></span></div>
+    <div class="segs" id="segs"></div>
+    <div class="seg-names" id="segNames"></div>
+  </div>
+
+  <main>
+    <div class="card" id="card" aria-live="polite"></div>
+  </main>
+
+  <div class="nav" id="nav">
+    <div class="nav-l">
+      <button class="ghost" id="back" type="button">← Назад</button>
+      <button class="ghost" id="skip" type="button">Пропустить</button>
+    </div>
+    <span class="hint-keys" id="hintKeys">Цифры — выбор · Enter — дальше</span>
+    <button class="next" id="next" type="button">Дальше <span class="arr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2EEE6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+  </div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" aria-hidden="true">
+  <div class="panel-top"><span>Помощь с вопросом</span><button class="x" id="closeHelp" type="button" aria-label="Закрыть">✕</button></div>
+  <h2 id="helpTitle">—</h2>
+  <p class="soon">Здесь появятся материалы именно к этому вопросу. Сейчас это заготовка.</p>
+  <div class="slot"><span class="ic">📄</span><div><b>Статья</b><small>Разбор простыми словами</small></div></div>
+  <div class="slot"><span class="ic">🧩</span><div><b>Мини-тест</b><small>Поможет определиться</small></div></div>
+  <div class="slot"><span class="ic">▶️</span><div><b>Видео</b><small>Коротко от тех, кто уже поступил</small></div></div>
+  <div class="slot"><span class="ic">💬</span><div><b>Спросить в чате</b><small>Поступашки и кураторы ответят</small></div></div>
+</aside>
+
+<script>
+/* ================== ВОПРОСЫ ==================
+   type: single | multi | scale | text
+   when(a): показывать ли вопрос, исходя из прошлых ответов
+   none: значение варианта, который снимает остальные (в multi)
+   other: поле «свой вариант»
+*/
+const SECTIONS = ['Знакомство','Учёба','Будущее','Достижения','Языки','Куда','Условия','Про тебя'];
+
+const Q = [
+  { id:'name', sec:0, type:'text', title:'Как к тебе обращаться?', sub:'Просто имя или ник. Нужно, чтобы общаться по-человечески.', placeholder:'Например, Лера', optional:true },
+  { id:'stage', sec:0, type:'single', title:'Где ты сейчас учишься?', sub:'От этого зависит, какие экзамены и сроки тебя ждут.',
+    opts:[['9','9 класс'],['10','10 класс'],['11','11 класс'],['grad','Уже окончил(а) школу','Gap year или поступаю повторно'],['college','Учусь в колледже'],['uni','Учусь в вузе','Хочу перевестись или в магистратуру']] },
+  { id:'target', sec:0, type:'single', title:'Куда хочешь поступать?', sub:'Если сомневаешься, это нормально. Поможем сравнить.',
+    opts:[['uni','Вуз','Бакалавриат или специалитет'],['college','Колледж','После 9 или 11 класса'],['master','Магистратура'],['unsure','Пока не решил(а)','Хочу понять, что лучше мне']] },
+  { id:'when', sec:0, type:'single', title:'Когда планируешь поступать?',
+    opts:[['now','В этом году'],['next','В следующем году'],['later','Через 2 года и позже'],['unsure','Пока не знаю']] },
+
+  { id:'gpa', sec:1, type:'single', title:'Какой средний балл в аттестате?', sub:'Примерно. Если аттестата ещё нет, ориентируйся на текущие оценки.',
+    opts:[['3','3,0 – 3,5'],['3.5','3,5 – 4,0'],['4','4,0 – 4,5'],['4.5','4,5 – 5,0'],['medal','Иду на медаль / красный диплом']] },
+  { id:'oge', sec:1, type:'single', title:'Как у тебя с ОГЭ?', sub:'Для колледжа часто важен средний балл аттестата и ОГЭ.',
+    when:a=>a.target==='college'||a.stage==='9'||a.stage==='10',
+    opts:[['none','Ещё не сдавал(а)'],['3','В основном тройки'],['4','Четвёрки и пятёрки'],['5','Все пятёрки']] },
+  { id:'ege', sec:1, type:'single', title:'Сколько баллов ЕГЭ в сумме?', sub:'Сумма по трём предметам. Если ещё не сдавал(а), выбери ожидаемый результат.',
+    when:a=>a.target!=='college'&&a.target!=='master'&&a.stage!=='9',
+    opts:[['none','Ещё не сдавал(а) и не знаю'],['180','До 180'],['220','180 – 220'],['260','220 – 260'],['290','260 и выше','Очень круто']] },
+  { id:'egeSubj', sec:1, type:'multi', title:'Какие предметы ЕГЭ сдаёшь или планируешь?',
+    when:a=>a.target!=='college'&&a.target!=='master'&&a.stage!=='9',
+    opts:['Русский','Математика (профиль)','Математика (база)','Информатика','Физика','Химия','Биология','Обществознание','История','Литература','Английский','Другой иностранный','География'], none:'Пока не выбрал(а)' },
+  { id:'loves', sec:1, type:'multi', title:'Что тебе по-настоящему нравится изучать?', sub:'Не то, что «надо», а то, где время летит незаметно.',
+    opts:['Математика','Программирование','Физика','Химия','Биология','История','Литература','Языки','Обществознание','Рисование и дизайн','Музыка','Спорт','Психология','Экономика'], none:'Пока ничего не цепляет' },
+
+  { id:'career', sec:2, type:'multi', max:3, title:'Кем хочешь стать?', sub:'Выбери до трёх направлений. Если не знаешь, это и есть повод пройти подбор.',
+    opts:['IT и разработка','Медицина','Инженерия','Бизнес и менеджмент','Экономика и финансы','Право','Дизайн и искусство','Психология','Медиа и журналистика','Лингвистика и перевод','Естественные науки','Педагогика','Архитектура','Гейм-дев','Маркетинг','Международные отношения'],
+    none:'Пока не знаю', other:'Или напиши своими словами' },
+  { id:'workStyle', sec:2, type:'single', title:'Какая работа тебе ближе?', sub:'Поможет уточнить направление, даже если профессия пока не ясна.',
+    opts:[['people','С людьми','Общаться, помогать, убеждать'],['tech','С техникой и кодом','Собирать, чинить, автоматизировать'],['create','Творческая','Придумывать и создавать'],['analyze','Аналитическая','Цифры, исследования, логика'],['lead','Руководить','Организовывать и принимать решения']] },
+
+  { id:'olymp', sec:3, type:'single', title:'Участвовал(а) в олимпиадах?', sub:'Победы в перечневых олимпиадах могут дать поступление без экзаменов.',
+    opts:[['no','Нет'],['part','Участвовал(а), без призовых мест'],['school','Призёр школьного или муниципального этапа'],['region','Призёр регионального этапа'],['list','Призёр перечневой или ВсОШ','Есть льготы при поступлении'],['intl','Международные олимпиады']] },
+  { id:'activity', sec:3, type:'multi', title:'Чем занимаешься кроме учёбы?', sub:'Зарубежные вузы очень смотрят на активити. Российские тоже начинают.',
+    opts:['Волонтёрство','Спорт','Музыка','Искусство и творчество','Исследования и проекты','Школьное самоуправление','Работа или стажировка','Блог или медиа','Дебаты и MUN','Хакатоны'], none:'Пока ничего' },
+  { id:'portfolio', sec:3, type:'single', title:'Собрано ли портфолио?', sub:'Нужно для творческих специальностей и для многих зарубежных вузов.',
+    opts:[['yes','Да, готово'],['wip','В процессе'],['no','Нет'],['what','Не знаю, что туда класть']] },
+  { id:'startup', sec:3, type:'single', title:'Есть свои стартапы или проекты?', sub:'Даже маленький проект может стать сильной частью заявки.',
+    opts:[['no','Нет'],['idea','Есть идея'],['building','Делаю прямо сейчас'],['launched','Запущен','Есть пользователи или продажи']] },
+
+  { id:'langs', sec:4, type:'multi', title:'Какие языки знаешь?', sub:'Русский считаем по умолчанию. Отметь те, на которых можешь хотя бы объясниться.',
+    opts:['Английский','Немецкий','Французский','Испанский','Итальянский','Китайский','Корейский','Японский','Турецкий','Арабский','Чешский'], none:'Только русский', other:'Другой язык' },
+  { id:'engLevel', sec:4, type:'single', title:'Какой у тебя уровень английского?',
+    when:a=>(a.langs||[]).includes('Английский'),
+    opts:[['a','A1–A2','Понимаю простое'],['b1','B1','Могу поддержать разговор'],['b2','B2','Свободно смотрю видео и общаюсь'],['c1','C1 и выше','Как на родном'],['unsure','Не знаю']] },
+  { id:'intlExams', sec:4, type:'multi', title:'Сдавал(а) международные экзамены?', sub:'IELTS, SAT и другие нужны для поступления за границу.',
+    opts:['IELTS','TOEFL','Duolingo English Test','SAT','ACT','HSK','TOPIK','JLPT','Goethe / TestDaF','DELF / DALF','DELE'], none:'Нет и пока не планирую', other:'Планирую сдать (напиши какой)' },
+
+  { id:'where', sec:5, type:'single', title:'Где хочешь учиться?',
+    opts:[['ru','В России'],['abroad','За границей'],['both','Рассматриваю оба варианта'],['help','Не знаю, помогите решить']] },
+  { id:'ruCity', sec:5, type:'multi', title:'Какие города в России рассматриваешь?',
+    when:a=>a.where==='ru'||a.where==='both'||a.where==='help',
+    opts:['Москва','Санкт-Петербург','Казань','Новосибирск','Екатеринбург','Нижний Новгород','Томск','Краснодар','Свой город'], none:'Любой, главное вуз' },
+  { id:'country', sec:5, type:'multi', title:'Какие страны рассматриваешь?', sub:'Можно несколько. Мы покажем, где проще с визой, языком и деньгами.',
+    when:a=>a.where==='abroad'||a.where==='both'||a.where==='help',
+    opts:['Китай','Южная Корея','Япония','Германия','Чехия','Италия','Франция','Нидерланды','Финляндия','Турция','Сербия','Казахстан','ОАЭ','Великобритания','США','Канада'], none:'Не знаю, помогите выбрать', other:'Другая страна' },
+  { id:'cityVibe', sec:5, type:'single', title:'В каком городе тебе будет комфортно?',
+    opts:[['mega','Мегаполис','Движ, возможности, шум'],['mid','Средний город','Баланс'],['calm','Спокойный студенческий город'],['any','Без разницы']] },
+
+  { id:'grant', sec:6, type:'single', title:'Грант или бюджет обязателен?', sub:'Честный ответ сэкономит кучу времени на подборе.',
+    opts:[['must','Да, только бесплатно','Бюджет или полный грант'],['partial','Подойдёт частичная скидка'],['want','Хотелось бы, но готовы платить'],['no','Не важно']] },
+  { id:'budget', sec:6, type:'single', title:'Сколько можно тратить на учёбу в год?', sub:'Только обучение, без жилья. Примерно.',
+    when:a=>a.grant&&a.grant!=='must',
+    opts:[['200','До 200 тыс. ₽'],['500','200 – 500 тыс. ₽'],['1500','500 тыс. – 1,5 млн ₽'],['more','Больше 1,5 млн ₽'],['unsure','Пока не знаю']] },
+  { id:'dorm', sec:6, type:'single', title:'Нужно ли общежитие?',
+    opts:[['must','Обязательно'],['nice','Было бы хорошо'],['no','Не нужно','Буду жить дома или снимать']] },
+  { id:'format', sec:6, type:'single', title:'Какой формат учёбы подходит?',
+    opts:[['full','Очно'],['mixed','Очно-заочно'],['online','Онлайн / дистанционно'],['any','Любой']] },
+  { id:'priority', sec:6, type:'multi', max:3, title:'Что для тебя важнее всего в вузе?', sub:'Выбери до трёх.',
+    opts:['Престиж и рейтинг','Сильная наука','Практика и стажировки','Трудоустройство','Студенческая жизнь','Международная среда','Красивый город','Кампус','Небольшие группы','Обмены за границу'] },
+
+  { id:'stress', sec:7, type:'scale', title:'Насколько тебе сейчас тревожно из-за поступления?', sub:'Без оценок. Это поможет подобрать темп и подсказки.',
+    opts:[['1','Спокойно'],['2',''],['3',''],['4',''],['5','Очень']] },
+  { id:'helpers', sec:7, type:'multi', title:'Кто тебе помогает с поступлением?',
+    opts:['Родители','Репетиторы','Школа или учителя','Агентство','Друзья','Онлайн-курсы'], none:'Справляюсь сам(а)' },
+  { id:'hours', sec:7, type:'single', title:'Сколько времени в неделю готов(а) уделять подготовке?',
+    opts:[['5','Меньше 5 часов'],['10','5 – 10 часов'],['20','10 – 20 часов'],['more','Больше 20 часов']] },
+  { id:'fear', sec:7, type:'multi', title:'Что больше всего пугает в поступлении?', sub:'Выбери всё, что откликается. Будем закрывать это в первую очередь.',
+    opts:['Не сдать экзамены','Выбрать не то','Документы и бюрократия','Деньги','Переезд','Язык','Подвести родителей','Остаться одному'], none:'Ничего не пугает' },
+];
+
+/* ================== СОСТОЯНИЕ ================== */
+const KEY='ntp-podbor-v1';
+let A={}, idx=0, dir=1, done=false;
+try{ const s=JSON.parse(localStorage.getItem(KEY)||'null'); if(s){A=s.A||{}; idx=s.idx||0; done=!!s.done;} }catch(e){}
+const save=()=>{ try{ localStorage.setItem(KEY,JSON.stringify({A,idx,done})); }catch(e){} };
+
+const visible=()=>Q.filter(q=>!q.when||q.when(A));
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ================== РЕНДЕР ================== */
+const $=id=>document.getElementById(id);
+const card=$('card');
+
+function renderProgress(){
+  const vis=visible(), q=vis[idx];
+  const segs=$('segs'), names=$('segNames');
+  if(!segs.children.length){
+    segs.innerHTML=SECTIONS.map(()=>'<div class="seg"><i></i></div>').join('');
+    names.innerHTML=SECTIONS.map(s=>`<span>${s}</span>`).join('');
+  }
+  SECTIONS.forEach((s,si)=>{
+    const inSec=vis.filter(x=>x.sec===si);
+    let pct;
+    if(done) pct=100;
+    else { const before=vis.slice(0,idx).filter(x=>x.sec===si).length; pct=inSec.length?before/inSec.length*100:100; if(q&&q.sec>si) pct=100; if(q&&q.sec<si) pct=0; }
+    const el=segs.children[si];
+    el.firstChild.style.width=pct+'%';
+    el.classList.toggle('cur',!done&&q&&q.sec===si);
+    names.children[si].classList.toggle('on',done||(q&&q.sec>=si));
+  });
+  $('secName').textContent=done?'Готово':SECTIONS[q.sec];
+  $('qPos').textContent=done?vis.length:idx+1;
+  $('qTotal').textContent=vis.length;
+}
+
+function render(){
+  const vis=visible();
+  if(idx>=vis.length){ idx=vis.length; done=true; }
+  renderProgress();
+  $('nav').hidden=done;
+  if(done){ renderResult(); save(); return; }
+  const q=vis[idx], a=A[q.id];
+  let body='';
+  if(q.type==='single'){
+    body='<div class="opts">'+q.opts.map((o,i)=>`<button type="button" class="opt${a===o[0]?' sel':''}" data-v="${esc(o[0])}"><span class="key">${i+1}</span><span><span class="t">${esc(o[1])}</span>${o[2]?`<span class="d">${esc(o[2])}</span>`:''}</span></button>`).join('')+'</div>';
+  } else if(q.type==='multi'){
+    const arr=Array.isArray(a)?a:[];
+    body='<div class="chips">'+q.opts.map(o=>`<button type="button" class="chip${arr.includes(o)?' sel':''}" data-v="${esc(o)}">${esc(o)}</button>`).join('')
+      +(q.none?`<button type="button" class="chip none${arr.includes(q.none)?' sel':''}" data-v="${esc(q.none)}" data-none="1">${esc(q.none)}</button>`:'')+'</div>'
+      +(q.max?`<div class="limit">Можно выбрать до ${q.max} · выбрано <span id="cnt">${arr.filter(x=>x!==q.none).length}</span></div>`:'')
+      +(q.other?`<div class="field extra"><label for="other-${q.id}">${esc(q.other)}</label><input id="other-${q.id}" type="text" value="${esc(A[q.id+'_other']||'')}" placeholder="Напиши здесь"></div>`:'');
+  } else if(q.type==='scale'){
+    body='<div class="scale opts">'+q.opts.map((o,i)=>`<button type="button" class="opt${a===o[0]?' sel':''}" data-v="${o[0]}"><span class="big">${o[0]}</span>${o[1]?`<span class="d">${o[1]}</span>`:''}</button>`).join('')+'</div>'
+      +'<div class="scale-legend"><span>Спокойно</span><span>Очень тревожно</span></div>';
+  } else if(q.type==='text'){
+    body=`<div class="field"><input id="text-${q.id}" type="text" autocomplete="given-name" maxlength="40" value="${esc(a||'')}" placeholder="${esc(q.placeholder||'')}"></div>`;
+  }
+  const greet = A.name && q.id==='stage' ? `${esc(A.name)}, приятно познакомиться! ` : '';
+  card.innerHTML=`<div class="q-anim${dir<0?' back':''}">
+      <div class="q-head">
+        <div><div class="q-num">Вопрос ${idx+1}</div><h1>${q.title}</h1>${(q.sub||greet)?`<p class="q-sub">${greet}${q.sub||''}</p>`:''}</div>
+        <button type="button" class="help-btn" id="helpBtn"><span class="qm">?</span>Помочь с вопросом</button>
+      </div>${body}</div>`;
+  bind(q);
+  updateNext(q);
+  $('back').disabled=idx===0;
+  $('skip').hidden=q.type==='text';
+  save();
+}
+
+function bind(q){
+  card.querySelectorAll('.opt').forEach(b=>b.onclick=()=>pickSingle(q,b.dataset.v));
+  card.querySelectorAll('.chip').forEach(b=>b.onclick=()=>toggleMulti(q,b.dataset.v,!!b.dataset.none));
+  const t=card.querySelector('#text-'+q.id);
+  if(t){ t.oninput=()=>{A[q.id]=t.value.trim();updateNext(q);save();}; setTimeout(()=>t.focus(),50); }
+  const o=card.querySelector('#other-'+q.id);
+  if(o){ o.oninput=()=>{A[q.id+'_other']=o.value.trim();updateNext(q);save();}; }
+  $('helpBtn').onclick=()=>openHelp(q);
+}
+
+let advanceTimer;
+function pickSingle(q,v){
+  A[q.id]=v;
+  card.querySelectorAll('.opt').forEach(b=>b.classList.toggle('sel',b.dataset.v===v));
+  updateNext(q); save();
+  clearTimeout(advanceTimer); advanceTimer=setTimeout(go,320);
+}
+function toggleMulti(q,v,isNone){
+  let arr=Array.isArray(A[q.id])?[...A[q.id]]:[];
+  if(isNone) arr=arr.includes(v)?[]:[v];
+  else{
+    arr=arr.filter(x=>x!==q.none);
+    if(arr.includes(v)) arr=arr.filter(x=>x!==v);
+    else { if(q.max&&arr.length>=q.max) arr.shift(); arr.push(v); }
+  }
+  A[q.id]=arr;
+  card.querySelectorAll('.chip').forEach(b=>b.classList.toggle('sel',arr.includes(b.dataset.v)));
+  const c=$('cnt'); if(c) c.textContent=arr.filter(x=>x!==q.none).length;
+  updateNext(q); save();
+}
+function answered(q){
+  const a=A[q.id];
+  if(q.type==='text') return true;
+  if(q.type==='multi') return (Array.isArray(a)&&a.length>0)||!!A[q.id+'_other'];
+  return a!=null&&a!=='';
+}
+function updateNext(q){ $('next').disabled=!answered(q); }
+
+function go(){ clearTimeout(advanceTimer); dir=1; idx++; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function back(){ clearTimeout(advanceTimer); if(idx>0){dir=-1; idx--; render();} }
+function skip(){ const q=visible()[idx]; A[q.id]=q.type==='multi'?[]:null; delete A[q.id]; go(); }
+
+$('next').onclick=go; $('back').onclick=back; $('skip').onclick=skip;
+
+/* ================== ПОМОЩЬ ================== */
+function openHelp(q){ $('helpTitle').textContent=q.title; $('panel').classList.add('on'); $('scrim').classList.add('on'); $('panel').setAttribute('aria-hidden','false'); }
+function closeHelp(){ $('panel').classList.remove('on'); $('scrim').classList.remove('on'); $('panel').setAttribute('aria-hidden','true'); }
+$('scrim').onclick=closeHelp; $('closeHelp').onclick=closeHelp;
+
+/* ================== КЛАВИАТУРА ================== */
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape') return closeHelp();
+  if(done||$('panel').classList.contains('on')) return;
+  const q=visible()[idx]; if(!q) return;
+  const typing=e.target.tagName==='INPUT';
+  if(e.key==='Enter'){ if(answered(q)){ e.preventDefault(); go(); } return; }
+  if(typing) return;
+  const n=parseInt(e.key,10);
+  if(n>=1&&n<=9&&(q.type==='single'||q.type==='scale')&&q.opts[n-1]) pickSingle(q,q.opts[n-1][0]);
+});
+
+/* ================== ИТОГ ================== */
+function label(q){
+  const a=A[q.id];
+  if(q.type==='text') return a||'';
+  if(q.type==='multi'){ const arr=[...(Array.isArray(a)?a:[])]; if(A[q.id+'_other']) arr.push(A[q.id+'_other']); return arr.join(', '); }
+  const o=q.opts.find(o=>o[0]===a); return o?(q.type==='scale'?`${o[0]} из 5`:o[1]):'';
+}
+function renderResult(){
+  const vis=visible();
+  card.innerHTML=`<div class="q-anim">
+    <div class="q-num">Анкета заполнена</div>
+    <h1>${A.name?esc(A.name)+', это':'Это'} было круто. Теперь мы знаем о тебе достаточно</h1>
+    <p class="q-sub">Проверь ответы. Нажми на любой, чтобы поправить. Дальше здесь появится персональная подборка вузов и план поступления.</p>
+    <div class="res-grid">${vis.map((q,i)=>{const l=label(q);return `<button type="button" class="res-item${l?'':' empty'}" data-i="${i}"><small>${esc(q.title)}</small><span>${l?esc(l):'Пропущено'}</span></button>`;}).join('')}</div>
+    <div class="res-actions">
+      <button type="button" class="next">Показать подборку <span class="arr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2EEE6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></button>
+      <button type="button" class="ghost" id="restart">Пройти заново</button>
+    </div></div>`;
+  card.querySelectorAll('.res-item').forEach(b=>b.onclick=()=>{done=false;dir=-1;idx=+b.dataset.i;render();window.scrollTo({top:0});});
+  $('restart').onclick=()=>{A={};idx=0;done=false;dir=1;render();};
+}
+
+render();
+</script>
+</body>
+</html>
