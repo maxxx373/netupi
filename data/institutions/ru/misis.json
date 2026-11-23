@@ -29,13 +29,206 @@
       "url": "https://misis.ru/applicants/",
       "accessed": "2026-11-23",
       "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://misis.ru/applicants/admission/baccalaureate-and-specialty/",
+      "accessed": "2026-11-23",
+      "covers": "сроки приёма, олимпиады"
+    },
+    {
+      "url": "https://misis.ru/students/sto/sok/contract/info/",
+      "accessed": "2026-11-23",
+      "covers": "скидки, приказ о стоимости"
+    },
+    {
+      "url": "https://misis.ru/files/-/360c93b2b90f44c30fe80682def446c0/prikaz-_u2116255o.v.-ot-29.05.2026-1-kurs.pdf",
+      "accessed": "2026-11-23",
+      "covers": "стоимость обучения 1 курса 2026/27"
+    },
+    {
+      "url": "https://misis.ru/applicants/admission/baccalaureate-and-specialty/list/prohodnyebally/",
+      "accessed": "2026-11-23",
+      "covers": "проходные баллы 2026"
+    },
+    {
+      "url": "https://misis.ru/applicants/admission/baccalaureate-and-specialty/list/perechen_vstupitel_nyhispytanii/",
+      "accessed": "2026-11-23",
+      "covers": "предметы ЕГЭ, минимальные баллы"
+    },
+    {
+      "url": "https://misis.ru/applicants/admission/baccalaureate-and-specialty/documents/list/",
+      "accessed": "2026-11-23",
+      "covers": "документы"
+    },
+    {
+      "url": "https://misis.ru/applicants/accommodation/cost-of-living/",
+      "accessed": "2026-11-23",
+      "covers": "стоимость общежития"
     }
   ],
   "verified_at": "2026-11-23",
-  "confidence": "low",
+  "confidence": "medium",
   "todo": [
     "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Фото со свободной лицензией",
+    "Бюджетные места по программам (количество мест)",
+    "Уточнить третий предмет ЕГЭ и точные условия олимпиадных льгот",
+    "Даты в блоке deadlines взяты со страницы без явного указания года — подтвердить для 2026"
+  ],
+  "city_size": "mega",
+  "summary": "Университет науки и технологий МИСИС в Москве — сильный технический вуз с упором на материаловедение, металлургию, горное дело и IT. На айтишные направления проходные баллы на бюджет в 2026 году около 289–296, платное обучение стоит примерно 390–510 тыс. ₽ в год. Иногородним доступны общежития по тарифам от 2,4 до 3,5 тыс. ₽ в месяц.",
+  "cost": {
+    "tuition_min": {
+      "amount": 386000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очная форма, 1-й курс 2026/27: Лингвистика"
+    },
+    "tuition_max": {
+      "amount": 510000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "очная форма, 1-й курс 2026/27: Горное дело, Нанотехнологии и наноматериалы"
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Скидка на платное обучение по среднему баллу ЕГЭ",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Для очников-бакалавров: от 20% до 50% по среднему баллу ЕГЭ по трём предметам; 10% — призёрам «Открытых дверей» без квоты",
+        "url": "https://misis.ru/students/sto/sok/contract/info/"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": false,
+    "olympiad_benefits": "Победители и призёры ВсОШ и олимпиад из перечня: приём без вступительных испытаний или преимущественное право при зачислении.",
+    "documents": [
+      "Заявление (формируется при подаче)",
+      "Паспорт",
+      "Документ об образовании с приложением",
+      "СНИЛС",
+      "Согласия на обработку и распространение персональных данных",
+      "Фото 3×4",
+      "Документы о правах и индивидуальных достижениях (если есть)"
+    ],
+    "notes": "Основа приёма — ЕГЭ (для некоторых категорий поступающих — письменные внутренние испытания). Минимальные баллы ЕГЭ по профильным предметам 60–80 в зависимости от направления."
+  },
+  "programs": [
+    {
+      "name": "Прикладная математика",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": {
+        "amount": 402000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 294,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика или физика"
+      ]
+    },
+    {
+      "name": "Информатика и вычислительная техника",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": {
+        "amount": 440000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 289,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "математика",
+        "информатика или физика"
+      ]
+    },
+    {
+      "name": "Лингвистика",
+      "field": "linguistics",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": {
+        "amount": 386000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 276,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "иностранный язык",
+        "русский язык"
+      ]
+    },
+    {
+      "name": "Физика",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "tuition": {
+        "amount": 467000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "1-й курс, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 276,
+        "kind": "ege_total",
+        "note": "проходной на бюджет"
+      },
+      "ege_subjects": [
+        "физика",
+        "математика или информатика"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "what": "Приём документов на бюджет",
+      "start": "06-20",
+      "end": "07-25",
+      "intake": "Осенний набор"
+    },
+    {
+      "what": "Приём документов на платное",
+      "start": "06-20",
+      "end": "08-18",
+      "intake": "Осенний набор"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "cost_month": {
+      "amount": 2439,
+      "currency": "RUB",
+      "period": "month",
+      "note": "от 2 439 до 3 462 ₽ в месяц в зависимости от общежития (тариф для бюджетников)"
+    },
+    "notes": "Общежития «Металлург» и «Горняк» рядом с метро, есть другие адреса в Москве. Иногородним студентам места предоставляются при наличии свободных."
+  }
 }
