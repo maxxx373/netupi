@@ -2,13 +2,27 @@
   "id": "imperial",
   "type": "university",
   "name": {
-    "ru": "Imperial College London",
-    "en": "Imperial College London"
+    "ru": "Имперский колледж Лондона",
+    "en": "Imperial College London",
+    "local": "Imperial College London",
+    "short": "Imperial"
   },
   "country": "GB",
   "city": "Лондон",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1907,
   "website": "https://www.imperial.ac.uk/",
   "admissions_url": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+  "intl_students_url": "https://www.imperial.ac.uk/study/international-students/",
+  "summary": "Технический и медицинский университет в Южном Кенсингтоне, основан в 1907 году. Учит только инженерии, естественным наукам, медицине и бизнесу. Российский аттестат в списке принимаемых документов отсутствует, поэтому нужны A-levels, IB, экзамены AP или подготовительная программа UCL UPCSE или Warwick IFP (не на все курсы). На многие программы нужен тест TMUA, ESAT или UCAT и интервью. С 2027 года иностранцам дают не менее 300 стипендий Imperial Inspires по £15 000 в год.",
+  "highlights": [
+    "2-е место в QS World University Rankings 2027 (вместе со Стэнфордом) и 8-е в THE World University Rankings 2027",
+    "Не меньше 300 стипендий Imperial Inspires по £15 000 в год для иностранцев (набор 2027)",
+    "Гарантированное место в общежитии для всех первокурсников, выбравших Imperial основным вариантом",
+    "Обучение только по STEM, медицине и бизнесу, кампус в Южном Кенсингтоне",
+    "Плата для иностранцев — от £44 800 до £61 550 в год"
+  ],
   "about": "Технологический и медицинский исследовательский университет с программами в инженерии, естественных науках, медицине и бизнесе.",
   "areas": [
     "engineering",
@@ -22,33 +36,373 @@
   "art": "tech",
   "fields": [
     "engineering",
+    "it",
     "natural_sciences",
     "medicine",
-    "business"
+    "business",
+    "economics"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computing MEng",
+      "field": "it",
+      "level": "master",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 47800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф Overseas при поступлении в 2027 году"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимум A*A*A или A*AAA (A* по математике), типичное предложение A*A*A*; IB минимум 41, типично 42 (7 по математике HL). Тест TMUA, интервью по усмотрению кафедры. Английский — стандартный уровень (IELTS 6.5)"
+      },
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/computing-meng/"
+    },
+    {
+      "name": "Mathematics BSc",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 44850,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф Overseas при поступлении в 2027 году"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимум A*A*A, типично A*A*AA; IB минимум 39, типично 40. Тест TMUA и интервью. Английский — повышенный уровень (IELTS 7.0)"
+      },
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/mathematics-bsc/"
+    },
+    {
+      "name": "Electrical and Electronic Engineering MEng",
+      "field": "engineering",
+      "level": "master",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 47800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф Overseas при поступлении в 2027 году"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимум A*A*A или A*AAA; IB минимум 40, типично 41. Тест ESAT и интервью. Английский — повышенный уровень (IELTS 7.0)"
+      },
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/electrical-electronic-engineering-meng/"
+    },
+    {
+      "name": "Economics, Finance and Data Science BSc",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 44800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф Overseas при поступлении в 2027 году"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимум A*AA с A* по математике. Тест TMUA, онлайн-интервью 20–30 минут. IELTS 7.0 (6.5 по частям)"
+      },
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/economics-finance-data-science/"
+    },
+    {
+      "name": "Medicine MBBS/BSc",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 61550,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф Overseas при поступлении в 2027 году"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*AA с химией и биологией (A* по одной из них), IB 38, типично 39. Тест UCAT, интервью MMI. Повышенный уровень английского. UCL UPCSE и Warwick IFP на медицину не принимаются"
+      },
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/medicine/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 44800,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Самый низкий тариф среди просмотренных программ (Economics, Finance and Data Science), поступление 2027. Плата зависит от курса"
+    },
+    "tuition_max": {
+      "amount": 61550,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Medicine MBBS/BSc, поступление 2027"
+    },
+    "living_month_estimate": {
+      "amount": 1821,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Средний диапазон по оценке Imperial на 2026 год: £1 821–£1 893 в месяц (жильё, еда, транспорт, личные расходы)"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Imperial Inspires Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Не меньше 300 стипендий по £15 000 в год на весь срок обучения для студентов с тарифом Overseas (набор 2027), на факультетах инженерии, естественных наук, медицины и в бизнес-школе. После подачи в UCAS подходящих абитуриентов приглашают написать дополнительное эссе (с октября 2026)",
+        "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Стандартный уровень: 6.5 и не ниже 6.0 по частям; повышенный: 7.0 и не ниже 6.5. Какой нужен — указано на странице курса. Пересдача одной части не принимается"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "92",
+        "note": "Тесты до 21.01.2026: стандартный 92 (20 по частям), повышенный 100 (22). Новая шкала: 4.5 и 5.0 по всем частям"
+      },
+      {
+        "exam": "DET",
+        "note": "Duolingo English Test принимается, баллы — на странице требований к английскому"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "PTE 62",
+        "note": "PTE Academic: стандартный 62 (56 по частям), повышенный 69 (62)"
+      }
+    ],
+    "language_level": "IELTS 6.5 (стандартный уровень) или 7.0 (повышенный) — в зависимости от курса",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "no",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка UCAS с личным заявлением, прогнозом оценок и рекомендацией",
+      "Регистрация на вступительный тест курса (TMUA, ESAT или UCAT)",
+      "Сертификат английского (может понадобиться после предложения)",
+      "После предложения — итоговые результаты экзаменов для выполнения условий"
+    ],
+    "notes": "Imperial признаёт школьные документы только тех стран, что перечислены в его таблице принимаемых квалификаций; России в ней нет, то есть с одним аттестатом поступить нельзя. Варианты: A-levels (обычно от AAA до A*A*A), IB 38–42, пять экзаменов AP (5,5,5,4,4) или три AP (5,5,4) вместе со школьным аттестатом и SAT 1460 / ACT 31. Своего подготовительного года у Imperial нет, но на часть курсов (например, Computing) принимают UCL UPCSE и Warwick IFP Science & Engineering; на медицину — нет. Большинство кафедр проводят интервью с ноября по февраль."
+  },
+  "deadlines": [
+    {
+      "what": "Подача заявки через UCAS",
+      "start": "2026-09-01",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "MBBS Medicine: дедлайн UCAS (UCAT сдать до 24 сентября 2026)",
+      "end": "2026-10-15",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "ESAT и TMUA, первая сессия (запись 20 июля – 28 сентября 2026)",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "ESAT и TMUA, вторая сессия (запись 26 октября – 21 декабря 2026)",
+      "start": "2027-01-04",
+      "end": "2027-01-08",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "UCAS equal consideration — дедлайн для всех курсов, кроме медицины",
+      "end": "2027-01-13",
+      "intake": "Осень 2027 (октябрь)"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 1084,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Оценка Imperial на 2026 год для общежития колледжа (£250 в неделю)"
+    },
+    "notes": "Место гарантировано всем первокурсникам, которые выбрали Imperial основным вариантом (Firm), подали заявку на жильё до срока (для набора 2026 — до 17 июля) и приезжают одни. Аренда в 2026-27 — от £150 до £425 в неделю на человека, в неё входят коммунальные услуги, интернет и страховка. Предпочтения по корпусу не гарантируются."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (Student route)",
+    "notes": "Визу оформляют после того, как ты принял безусловное предложение и вуз выдал CAS (Confirmation of Acceptance for Studies). Нужно показать оплату обучения за первый год (сумма указана в CAS) и деньги на жизнь: £1 529 в месяц на срок до 9 месяцев (учёба в Лондоне). Деньги должны лежать на счёте не меньше 28 дней подряд, и этот период должен закончиться не раньше чем за 31 день до подачи. Подать можно не раньше чем за 6 месяцев до начала курса. Сбор — £558, плюс медицинский сбор IHS £776 за каждый год визы. Россия в списке стран, откуда для британской визы нужна справка о тесте на туберкулёз.",
+    "url": "https://www.gov.uk/student-visa"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=2"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "8"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "employment",
+    "intl_environment",
+    "campus"
   ],
   "prep": {
-    "must": "Подай заявку через UCAS и проверь признание школьной квалификации, обязательные предметы и минимальные оценки для конкретного курса. Некоторые кафедры требуют вступительный тест или интервью.",
-    "good": "Для инженерных и научных программ укрепляй математику и профильные науки; проверь требования к английскому и дополнительным этапам отбора.",
-    "source": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/"
+    "must": "Аттестата не хватит: готовь A-levels (AAA–A*A*A с A* по математике), IB 38–42 или AP. Подай UCAS до 13 января 2027 (медицина — до 15 октября 2026), запишись на TMUA, ESAT или UCAT своего курса и сдай IELTS 6.5–7.0.",
+    "good": "Если подходишь по уровню, напиши эссе на стипендию Imperial Inspires — £15 000 в год. Готовься к интервью кафедры (ноябрь–февраль) и рассчитывай на £45–62 тыс. в год за обучение плюс около £1 800–1 900 в месяц на жизнь в Лондоне.",
+    "source": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/accepted-qualifications/"
   },
   "sources": [
     {
-      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/accepted-qualifications/",
+      "accessed": "2026-11-24",
+      "covers": "Таблица принимаемых школьных квалификаций по странам (России нет), A-levels, IB, AP"
     },
     {
       "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/entry-requirements/",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "accessed": "2026-11-24",
+      "covers": "Общие требования: квалификация, тесты, английский"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/apply/english-language/",
+      "accessed": "2026-11-24",
+      "covers": "Стандартный и повышенный уровни английского: IELTS, TOEFL, PTE, Duolingo"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/",
+      "accessed": "2026-11-24",
+      "covers": "Сроки UCAS и тестов ESAT/TMUA/UCAT для набора 2027"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/process/interviews/",
+      "accessed": "2026-11-24",
+      "covers": "Интервью: сроки и формат"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/computing-meng/",
+      "accessed": "2026-11-24",
+      "covers": "Computing MEng: плата £47 800, требования, TMUA, принимаемые подготовительные программы"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/mathematics-bsc/",
+      "accessed": "2026-11-24",
+      "covers": "Mathematics BSc: плата £44 850, требования, TMUA"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/electrical-electronic-engineering-meng/",
+      "accessed": "2026-11-24",
+      "covers": "EEE MEng: плата £47 800, требования, ESAT"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/economics-finance-data-science/",
+      "accessed": "2026-11-24",
+      "covers": "Economics, Finance and Data Science: плата £44 800, A*AA, TMUA, интервью, IELTS 7.0"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/medicine/",
+      "accessed": "2026-11-24",
+      "covers": "Medicine MBBS/BSc: плата £61 550, A*AA, UCAT, подготовительные программы не принимаются"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/",
+      "accessed": "2026-11-24",
+      "covers": "Плата Overseas зависит от курса"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/",
+      "accessed": "2026-11-24",
+      "covers": "Стипендии Imperial Inspires 2027: не менее 300 по £15 000 в год"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/study/fees-and-funding/living-costs/",
+      "accessed": "2026-11-24",
+      "covers": "Расходы на жизнь в Лондоне 2026: неделя/месяц/9 месяцев"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/",
+      "accessed": "2026-11-24",
+      "covers": "Аренда общежитий 2026-27 за неделю"
+    },
+    {
+      "url": "https://www.imperial.ac.uk/students/accommodation/prospective/ug/how-to-apply/accommodation-guarantee/",
+      "accessed": "2026-11-24",
+      "covers": "Гарантия жилья для первокурсников и условия"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз QS World University Rankings 2027 (18.06.2026): топ-20, места Imperial, Oxford, Cambridge, UCL"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/sites/default/files/europe_-_wur27_pr_v3.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз THE World University Rankings 2027: места Oxford, Cambridge, Imperial, UCL, Edinburgh"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa/money",
+      "accessed": "2026-11-24",
+      "covers": "Сумма на проживание для Student visa (£1 529 / £1 171 в месяц до 9 месяцев), правило 28 дней, оплата курса по CAS"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa",
+      "accessed": "2026-11-24",
+      "covers": "Сбор за визу £558, сроки подачи (за 6 месяцев до курса)"
+    },
+    {
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "accessed": "2026-11-24",
+      "covers": "Медицинский сбор IHS £776 в год для студентов"
+    },
+    {
+      "url": "https://www.gov.uk/tb-test-visa/countries-where-you-need-a-tb-test-to-enter-the-uk",
+      "accessed": "2026-11-24",
+      "covers": "Россия в списке стран, где нужен тест на туберкулёз"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Найти самый низкий тариф Overseas среди всех программ Imperial на 2027 год (в карточке — минимум среди просмотренных)",
+    "Уточнить срок подачи заявки на общежитие для набора 2027 (известен только срок 2026 — 17 июля)",
+    "Проверить, на какие ещё курсы принимают UCL UPCSE и Warwick IFP, и подходят ли они абитуриентам из России",
+    "Добавить минимальные баллы Duolingo English Test",
+    "Добавить фото со свободной лицензией (Wikimedia Commons ограничил частоту запросов)"
   ]
 }

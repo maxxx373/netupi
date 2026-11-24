@@ -2,13 +2,27 @@
   "id": "cambridge",
   "type": "university",
   "name": {
-    "ru": "University of Cambridge",
-    "en": "University of Cambridge"
+    "ru": "Кембриджский университет",
+    "en": "University of Cambridge",
+    "local": "University of Cambridge",
+    "short": "Cambridge"
   },
   "country": "GB",
   "city": "Кембридж",
+  "city_size": "calm",
+  "ownership": "public",
+  "founded": 1209,
   "website": "https://www.cam.ac.uk/",
   "admissions_url": "https://www.undergraduate.study.cam.ac.uk/apply",
+  "intl_students_url": "https://www.undergraduate.study.cam.ac.uk/international-students",
+  "summary": "Один из двух старейших университетов Англии, основан в 1209 году. Студент учится на факультете, а живёт и занимается в малых группах (supervisions) в одном из 29 колледжей для бакалавров. Подача через UCAS до 15 октября, почти на все курсы есть вступительный тест или задание колледжа и интервью. Российского аттестата одного недостаточно: нужны A-levels, IB или 5 экзаменов AP на 5 баллов.",
+  "highlights": [
+    "6-е место в QS World University Rankings 2027 и 5-е в THE World University Rankings 2027",
+    "Коллегиальная система: занятия в малых группах и гарантированное жильё в колледже на 3–4 года",
+    "Иностранцы платят два взноса: за обучение (£30 798–£70 554 в год) и сбор колледжа (£12 500–£15 950)",
+    "Тариф для иностранцев фиксирован на весь срок обучения",
+    "Всего 22 места на медицину для студентов с оплатой по тарифу Overseas"
+  ],
   "about": "Крупный университет с коллегиальной системой и широким выбором программ, включая естественные науки, инженерное дело, медицину и право.",
   "areas": [
     "science",
@@ -24,35 +38,441 @@
   "fields": [
     "natural_sciences",
     "engineering",
+    "it",
     "medicine",
     "law",
     "economics",
+    "business",
     "linguistics",
-    "agriculture"
+    "humanities",
+    "social_sciences",
+    "psychology",
+    "architecture",
+    "design_art",
+    "music",
+    "pedagogy"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (BA / MEng)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 46872,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027 году. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс. Четвёртый год (MEng) по желанию"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимальное предложение: A-levels A*A*A (обычно A* по математике и/или Further Maths), IB 41–42 балла с 776 на Higher Level. Тест TMUA; в Peterhouse и Trinity ещё CSAT. Интервью для прошедших отбор"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/computer-science"
+    },
+    {
+      "name": "Natural Sciences (BA / MSci)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 46872,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев, поступление 2027. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A, IB 41–42 (776 HL). Тест ESAT, интервью"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/natural-sciences"
+    },
+    {
+      "name": "Economics (BA)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 30798,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев, поступление 2027. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A, IB 41–42 (776 HL). Тест TMUA, интервью"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/economics"
+    },
+    {
+      "name": "Mathematics (BA / MMath)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 34356,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев, поступление 2027. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A, IB 41–42 (776 HL) и экзамен STEP (обычно не ниже 1 по STEP 2 и 3) в условиях предложения. Тест TMUA"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/mathematics"
+    },
+    {
+      "name": "Medicine (Standard Course A100)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 70554,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев за доклинические годы, поступление 2027. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс. Для студентов с тарифом Overseas всего 22 места"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A, IB 41–42 (776 HL). Тест UCAT, интервью, проверка на судимость"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/medicine"
+    },
+    {
+      "name": "Law (BA)",
+      "field": "law",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 30798,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев, поступление 2027. К этой сумме иностранцы добавляют сбор колледжа: в 2027-28 от £12 500 до £15 950 в год в зависимости от колледжа. Тариф для иностранцев фиксирован на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*AA, IB 41–42 (776 HL). Тест LNAT, интервью"
+      },
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/law"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 30798,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Гуманитарные и социальные курсы (Economics, Law, History и др.), поступление 2027, без сбора колледжа"
+    },
+    "tuition_max": {
+      "amount": 70554,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Medicine и Veterinary Medicine, поступление 2027, без сбора колледжа (£12 500–£15 950 в год)"
+    },
+    "living_month_estimate": {
+      "amount": 1330,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Оценка университета на 2027-28: жильё £880, еда £255 и прочее; за 9 месяцев около £11 970"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Cambridge Trust (Cambridge Commonwealth, European and International Trust)",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Гранты для иностранцев, получивших место в колледже; заявку присылает колледж после предложения. Все гранты зависят от дохода семьи, полных стипендий мало",
+        "url": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support"
+      },
+      {
+        "name": "Гранты колледжей для иностранных студентов",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Некоторые колледжи дают частичную помощь; условия уточняются в приёмной колледжа",
+        "url": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "7.5",
+        "note": "IELTS Academic не ниже 7.5, обычно 7.0 по каждой части. Для интервью рекомендуется хотя бы 6.5 (не ниже 6.0 по частям). Сертификат нужен после предложения, при подаче не обязателен"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "C2 Proficiency 200",
+        "note": "Cambridge English: C2 Proficiency — 200 и не ниже 185 по частям; C1 Advanced — 193 (не ниже 185) вместе с другими подтверждениями английского"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "TOEFL в списке минимальных требований не указан — уточни в колледже"
+      }
+    ],
+    "language_level": "Английский на уровне уверенного C1 по всем четырём навыкам к началу учёбы",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка UCAS с личным заявлением, предсказанными оценками и рекомендацией учителя",
+      "Сбор Кембриджа за подачу для иностранцев — £60 (кроме стран из списка освобождения; России в нём нет)",
+      "My Cambridge Application — дополнительная анкета, до 22 октября 2026",
+      "Выписка оценок (transcript) — для международных абитуриентов, до 22 октября 2026",
+      "Регистрация на вступительный тест курса (TMUA, ESAT, LNAT, UCAT) заранее или задание колледжа на интервью",
+      "Письменные работы для некоторых гуманитарных курсов — по запросу колледжа",
+      "После предложения — сертификат английского и итоговые результаты экзаменов"
+    ],
+    "notes": "По странице для России: с аттестатом о среднем общем образовании Кембридж настоятельно советует учиться дальше — с одним аттестатом шансов почти нет. Подходят A-levels, IB, 5 и более экзаменов AP на 5 вместе с аттестатом с оценкой «отлично» по всем предметам, иногда — первый год обучения в университете вне Великобритании (в двух последних случаях нужно заранее спросить выбранный колледж). Собственный Foundation Year Кембриджа открыт только для студентов с британским статусом Home. Типичные условия: A-levels A*AA или A*A*A, IB 41–42 из 45 с 776 на Higher Level."
+  },
+  "deadlines": [
+    {
+      "what": "Подача заявки через UCAS",
+      "start": "2026-09-01",
+      "end": "2026-10-15",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Регистрация на UCAT (медицина)",
+      "end": "2026-09-16",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Регистрация на LNAT (право)",
+      "end": "2026-09-15",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Регистрация на ESAT и TMUA",
+      "start": "2026-07-20",
+      "end": "2026-09-28",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Сдача ESAT и TMUA",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "My Cambridge Application и выписка оценок",
+      "end": "2026-10-22",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Интервью в колледжах (в основном первые 3 недели декабря)",
+      "start": "2026-12-01",
+      "end": "2026-12-21",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Решение для прошедших интервью в декабре",
+      "end": "2027-01-27",
+      "intake": "Осень 2027 (октябрь)"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 880,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Оценка расходов на жильё на 2027-28 из расчёта университета; точная цена зависит от колледжа и комнаты"
+    },
+    "notes": "Жильё в колледже гарантировано на 3–4 года студентам без детей, отдельно подавать не нужно. Договоры на 27–39 недель, в аренду обычно входят отопление, электричество, уборка и интернет. Во время семестра нужно жить в радиусе 3 миль от центра города."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (Student route)",
+    "notes": "Визу оформляют после того, как ты принял безусловное предложение и вуз выдал CAS (Confirmation of Acceptance for Studies). Нужно показать оплату обучения за первый год (сумма указана в CAS) и деньги на жизнь: £1 171 в месяц на срок до 9 месяцев (учёба вне Лондона). Деньги должны лежать на счёте не меньше 28 дней подряд, и этот период должен закончиться не раньше чем за 31 день до подачи. Подать можно не раньше чем за 6 месяцев до начала курса. Сбор — £558, плюс медицинский сбор IHS £776 за каждый год визы. Россия в списке стран, откуда для британской визы нужна справка о тесте на туберкулёз.",
+    "url": "https://www.gov.uk/student-visa"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "6"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "5"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "small_groups",
+    "student_life",
+    "intl_environment",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/cambridge/1.jpg",
+      "author": "Martinvl",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kings_College_Cambridge_Chapel_from_the_river.jpg",
+      "caption": "Часовня Королевского колледжа (King's College), вид с реки Кем"
+    }
   ],
   "prep": {
-    "must": "Подай заявку через UCAS, проверь международную эквивалентность диплома, оценки и нужные предметы. В зависимости от курса и колледжа могут потребоваться тест, дополнительная анкета и интервью.",
-    "good": "Сверь требования конкретного колледжа и курса, заранее уточни регистрацию на admissions assessment и попроси школу выслать прогнозируемые оценки.",
+    "must": "С одним аттестатом в Кембридж не пройти: готовь A-levels (A*AA–A*A*A) или IB (41–42 балла, 776 на HL), либо 5 экзаменов AP на 5 плюс аттестат на «отлично». Подай UCAS до 15 октября 2026, заполни My Cambridge Application и пришли выписку оценок до 22 октября, заранее зарегистрируйся на тест своего курса (TMUA, ESAT, LNAT или UCAT).",
+    "good": "Подтяни английский до IELTS 7.5 (7.0 по частям) — он понадобится после предложения, а для интервью нужен хотя бы 6.5. Заложи в бюджет и плату за обучение, и сбор колледжа (£12,5–16 тыс. в год), и около £1 330 в месяц на жизнь; гранты Cambridge Trust частичные и зависят от дохода семьи.",
     "source": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements"
   },
   "sources": [
     {
-      "url": "https://www.undergraduate.study.cam.ac.uk/apply",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements",
+      "accessed": "2026-11-24",
+      "covers": "Требования для абитуриентов из России (аттестат, A-levels, IB, AP, первый год вуза)"
     },
     {
-      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply/before/entry-requirements",
+      "accessed": "2026-11-24",
+      "covers": "Минимальные требования к английскому (IELTS 7.5, C1/C2), IB 41–42, Foundation Year"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+      "accessed": "2026-11-24",
+      "covers": "Плата за обучение для иностранцев при поступлении в 2027 году по группам курсов, сбор колледжа"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/sites/default/files/2026-09/undergraduate_tuition_fees_2027-28.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Официальный документ: плата 2027-28 по курсам и сборы всех колледжей"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/finance/living-costs",
+      "accessed": "2026-11-24",
+      "covers": "Оценка расходов на жизнь на 2027-28 (£1 330 в месяц), сроки договоров на жильё"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/student-life/accommodation",
+      "accessed": "2026-11-24",
+      "covers": "Гарантия жилья в колледже на 3–4 года, что входит в аренду"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support",
+      "accessed": "2026-11-24",
+      "covers": "Cambridge Trust и гранты колледжей для иностранцев"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-applications",
+      "accessed": "2026-11-24",
+      "covers": "UCAS, сбор £60 для иностранцев, список стран с освобождением"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+      "accessed": "2026-11-24",
+      "covers": "Сроки приёма 2027: UCAS, тесты, My Cambridge Application, интервью, решения"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/applying/admission-assessments",
+      "accessed": "2026-11-24",
+      "covers": "Какие вступительные тесты нужны для каждого курса"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/computer-science",
+      "accessed": "2026-11-24",
+      "covers": "Computer Science: A*A*A, IB, TMUA, CSAT, срок обучения"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/natural-sciences",
+      "accessed": "2026-11-24",
+      "covers": "Natural Sciences: требования"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/economics",
+      "accessed": "2026-11-24",
+      "covers": "Economics: требования"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/mathematics",
+      "accessed": "2026-11-24",
+      "covers": "Mathematics: требования, STEP"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/medicine",
+      "accessed": "2026-11-24",
+      "covers": "Medicine: требования, 22 места для Overseas, 6 лет"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/law",
+      "accessed": "2026-11-24",
+      "covers": "Law: A*AA, LNAT"
+    },
+    {
+      "url": "https://www.undergraduate.study.cam.ac.uk/international-students/visas",
+      "accessed": "2026-11-24",
+      "covers": "Визовая информация университета и даты семестров"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa/money",
+      "accessed": "2026-11-24",
+      "covers": "Сумма на проживание для Student visa (£1 529 / £1 171 в месяц до 9 месяцев), правило 28 дней, оплата курса по CAS"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa",
+      "accessed": "2026-11-24",
+      "covers": "Сбор за визу £558, сроки подачи (за 6 месяцев до курса)"
+    },
+    {
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "accessed": "2026-11-24",
+      "covers": "Медицинский сбор IHS £776 в год для студентов"
+    },
+    {
+      "url": "https://www.gov.uk/tb-test-visa/countries-where-you-need-a-tb-test-to-enter-the-uk",
+      "accessed": "2026-11-24",
+      "covers": "Россия в списке стран, где нужен тест на туберкулёз"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз QS World University Rankings 2027 (18.06.2026): топ-20, места Imperial, Oxford, Cambridge, UCL"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/sites/default/files/europe_-_wur27_pr_v3.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз THE World University Rankings 2027: места Oxford, Cambridge, Imperial, UCL, Edinburgh"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Уточнить, принимает ли Кембридж TOEFL iBT и с каким баллом (в списке минимальных требований его нет)",
+    "Найти цены на жильё в нескольких популярных колледжах (Trinity, King's, Churchill) на 2027-28",
+    "Проверить, есть ли у Cambridge Trust гранты для абитуриентов из России",
+    "Уточнить у колледжей, засчитывают ли первый курс российского вуза для технических и естественных специальностей"
   ]
 }

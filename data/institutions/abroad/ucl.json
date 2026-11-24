@@ -2,13 +2,27 @@
   "id": "ucl",
   "type": "university",
   "name": {
-    "ru": "University College London",
-    "en": "University College London"
+    "ru": "Университетский колледж Лондона",
+    "en": "University College London",
+    "local": "University College London",
+    "short": "UCL"
   },
   "country": "GB",
   "city": "Лондон",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1826,
   "website": "https://www.ucl.ac.uk/",
   "admissions_url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply",
+  "intl_students_url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants",
+  "summary": "Многопрофильный университет в центре Лондона (Блумсбери), основан в 1826 году. Сильные направления — медицина, архитектура (Bartlett), инженерия, экономика, право и естественные науки. Заявки на бакалавриат подаются через UCAS; иностранцам, чей школьный документ не подходит для прямого поступления, UCL предлагает свой подготовительный год UPC. Сайт UCL закрыт защитой от ботов, поэтому цифры в карточке взяты из поисковой выдачи по официальным страницам.",
+  "highlights": [
+    "8-е место (делит) в QS World University Rankings 2027 и 17-е (делит) в THE World University Rankings 2027",
+    "Собственный подготовительный год для иностранцев — Undergraduate Preparatory Certificates (UPC)",
+    "Гарантия места в общежитии для первокурсников бакалавриата при подаче заявки в срок",
+    "Для большинства иностранных студентов плата не растёт в течение курса (cohort guarantee)",
+    "Стипендия UCL Global Undergraduate Scholarship для иностранцев из семей с невысоким доходом"
+  ],
   "about": "Многопрофильный университет Лондона; в каталоге представлены архитектура, инженерия, естественные науки, медицина, право и социальные дисциплины.",
   "areas": [
     "architecture",
@@ -26,52 +40,340 @@
   "fields": [
     "architecture",
     "engineering",
+    "it",
     "natural_sciences",
     "medicine",
     "law",
     "economics",
-    "psychology"
-  ],
-  "prep": {
-    "must": "Для бакалавриата нужна заявка UCAS. Проверь страновые эквиваленты диплома, предметные и языковые требования на странице выбранного курса.",
-    "good": "Подготовь академические документы и рекомендацию от школы. Для творческих и некоторых профессиональных курсов уточни портфолио, тест или интервью.",
-    "source": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants"
-  },
-  "sources": [
-    {
-      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
-    },
-    {
-      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants",
-      "accessed": "2026-11-23",
-      "covers": "prep"
-    }
-  ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
-  "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Сайт UCL закрыл доступ (ответ 403): стоимость, финансирование, требования, сроки и общежитие не проверены",
-    "Стоимость обучения для иностранцев в GBP",
-    "Требования к российскому аттестату: нужен ли подготовительный год или дополнительные квалификации",
-    "Минимальные баллы IELTS/TOEFL",
-    "Сроки UCAS для набора 2027",
-    "Стипендии для иностранных студентов",
-    "Общежитие: гарантия и цена",
-    "Русское название и фото со свободной лицензией"
-  ],
-  "summary": "Один из крупнейших вузов Лондона с сильными науками, медициной, архитектурой и социальными дисциплинами. Заявки на бакалавриат подаются через UCAS, а на странице каждого курса указаны требования по предметам и языку.",
-  "languages_of_instruction": [
-    "en"
+    "psychology",
+    "humanities",
+    "social_sciences",
+    "linguistics",
+    "pedagogy",
+    "design_art",
+    "business",
+    "international_relations"
   ],
   "levels": [
+    "foundation",
     "bachelor",
     "master",
     "phd"
   ],
-  "city_size": "mega"
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science BSc",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 48600,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027/28 (по поисковой выдаче со страницы курса); для большинства программ действует гарантия неизменной платы на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A с A* по математике или Further Maths; IB 40 (20 по трём HL, 7 по математике). Английский — уровень 1. По данным поиска, для кафедры Computer Science нужен тест TARA"
+      },
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc"
+    },
+    {
+      "name": "Economics BSc (Econ)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 40800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027/28 (по поисковой выдаче со страницы курса); для большинства программ действует гарантия неизменной платы на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*AA с A* по математике. Тест TMUA обязателен с набора 2027"
+      },
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/economics-bsc-econ"
+    },
+    {
+      "name": "Law LLB",
+      "field": "law",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 36800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027/28 (по поисковой выдаче со страницы курса); для большинства программ действует гарантия неизменной платы на весь курс"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Английский — уровень 4 (IELTS 7.5, не ниже 7.0 по частям). Оценки A-levels и необходимость LNAT по открытым данным не подтверждены"
+      },
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb"
+    },
+    {
+      "name": "Architecture BSc (Bartlett)",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 40800,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027/28 (по поисковой выдаче со страницы курса); для большинства программ действует гарантия неизменной платы на весь курс"
+      },
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/architecture-bsc"
+    },
+    {
+      "name": "Medicine MBBS BSc",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 59600,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев 2027/28; на медицину гарантия неизменной платы не распространяется, плата может расти ежегодно"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Обязателен UCAT в год подачи; интервью (около 1000 приглашений, с декабря по март). На 2027 год 337 мест. Дедлайн 15 октября 2026"
+      },
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/medicine-mbbs-bsc"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 36800,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Law LLB, 2027/28 — минимум среди найденных программ; полную таблицу тарифов открыть не удалось"
+    },
+    "tuition_max": {
+      "amount": 59600,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Medicine MBBS BSc, 2027/28"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "UCL Global Undergraduate Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Для иностранцев с тарифом Overseas из семей с невысоким доходом (ориентир — до £42 875 в год). В 2026/27 — до 33 стипендий: 10 покрывают обучение, проживание и визовые расходы, 20 — только обучение. Условия на 2027/28 не найдены",
+        "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship"
+      },
+      {
+        "name": "Undergraduate International Excellence Scholarship (Global Business School for Health)",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "£5 000 в год за академические успехи (A*A*A или эквивалент), приём заявок с 1 февраля 2027",
+        "url": "https://www.ucl.ac.uk/population-health-sciences/global-business-school-health/study/scholarships/undergraduate-international-excellence"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Уровень 1: 6.5 (6.0 по частям); уровень 2: 7.0 (6.5); уровень 3: 7.0 (6.5 чтение и письмо, 7.0 аудирование и говорение); уровень 4: 7.5 (7.0); уровень 5: 8.0 (8.0). Нужный уровень указан на странице курса"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "92",
+        "note": "Старая шкала (до 21.01.2026): от 92 (уровень 1) до 110 (уровень 5). Новая шкала: от 4.5 (4.0 по частям) до 5.5. MyBestScore не принимается"
+      }
+    ],
+    "language_level": "IELTS от 6.5 до 8.0 в зависимости от уровня английского, указанного для курса",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка UCAS с личным заявлением, прогнозом оценок и рекомендацией",
+      "Регистрация на тест курса (TMUA, UCAT и др.), если он нужен",
+      "Сертификат английского нужного уровня",
+      "Портфолио или задания — для творческих и некоторых профессиональных курсов"
+    ],
+    "notes": "Сайт UCL недоступен (403), поэтому страницу требований для России проверить не удалось. UCL предлагает подготовительный год Undergraduate Preparatory Certificates (UPC) для иностранцев, чей школьный документ не принимается для прямого поступления (стоимость — около £29 500, для архитектурного потока £31 000, год не указан). Скорее всего, с одним российским аттестатом нужен UPC, A-levels или IB, но это надо подтвердить."
+  },
+  "deadlines": [
+    {
+      "what": "Medicine MBBS: дедлайн UCAS",
+      "end": "2026-10-15",
+      "intake": "Осень 2027 (сентябрь)"
+    },
+    {
+      "what": "UCAS equal consideration — дедлайн для большинства программ",
+      "end": "2027-01-13",
+      "intake": "Осень 2027 (сентябрь)"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "UCL гарантирует место в общежитии всем первокурсникам бакалавриата очной формы, которые подали заявку до срока, но не конкретный корпус или цену. В 2026-27 есть 572 «доступные» комнаты около £200 в неделю для студентов с невысоким доходом семьи. Средняя месячная цена в найденных материалах не указана."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (Student route)",
+    "notes": "Визу оформляют после того, как ты принял безусловное предложение и вуз выдал CAS (Confirmation of Acceptance for Studies). Нужно показать оплату обучения за первый год (сумма указана в CAS) и деньги на жизнь: £1 529 в месяц на срок до 9 месяцев (учёба в Лондоне). Деньги должны лежать на счёте не меньше 28 дней подряд, и этот период должен закончиться не раньше чем за 31 день до подачи. Подать можно не раньше чем за 6 месяцев до начала курса. Сбор — £558, плюс медицинский сбор IHS £776 за каждый год визы. Россия в списке стран, откуда для британской визы нужна справка о тесте на туберкулёз.",
+    "url": "https://www.gov.uk/student-visa"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=8"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "=17"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "employment"
+  ],
+  "prep": {
+    "must": "Готовь A-levels или IB (например, Computer Science — A*A*A или IB 40, Economics — A*AA с A* по математике и тест TMUA) либо закладывай год на подготовительную программу UPC. Подай UCAS до 13 января 2027 (медицина — до 15 октября 2026 с UCAT) и сдай IELTS на уровень своего курса: от 6.5 до 7.5 и выше.",
+    "good": "Сразу после предложения подай заявку на общежитие, чтобы попасть под гарантию для первокурсников. Если доход семьи невысокий, подавай на UCL Global Undergraduate Scholarship; все цифры перепроверь на сайте UCL — карточка собрана без прямого доступа к нему.",
+    "source": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/guidance-international-applicants"
+  },
+  "sources": [
+    {
+      "url": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028",
+      "accessed": "2026-11-24",
+      "covers": "Плата 2027/28, cohort guarantee, исключение для медицины; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+      "accessed": "2026-11-24",
+      "covers": "Computer Science BSc: £48 600, A*A*A, IB 40, уровень английского 1; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/economics-bsc-econ",
+      "accessed": "2026-11-24",
+      "covers": "Economics: £40 800, A*AA, TMUA, дедлайн 13.01.2027; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/law-llb",
+      "accessed": "2026-11-24",
+      "covers": "Law LLB: £36 800; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/architecture-bsc",
+      "accessed": "2026-11-24",
+      "covers": "Architecture BSc: £40 800; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/medicine-mbbs-bsc",
+      "accessed": "2026-11-24",
+      "covers": "Medicine MBBS: £59 600; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/medical-sciences/divisions/medical-school/study/undergraduate/mbbs-admissions/entry-requirements/2027-entry",
+      "accessed": "2026-11-24",
+      "covers": "MBBS 2027: UCAT, 337 мест, интервью, дедлайн 15.10.2026; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/school-teachers-and-counsellors/tests-tasks-and-interviews",
+      "accessed": "2026-11-24",
+      "covers": "Тесты 2027: TMUA для Economics, TARA для Computer Science; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements",
+      "accessed": "2026-11-24",
+      "covers": "Уровни английского 1–5: IELTS, TOEFL; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/clie/upc-foundation",
+      "accessed": "2026-11-24",
+      "covers": "Подготовительный год UPC и его стоимость; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/study/accommodation/prospective-residents/how-apply-undergraduates",
+      "accessed": "2026-11-24",
+      "covers": "Гарантия общежития для первокурсников, доступные комнаты около £200 в неделю; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+      "accessed": "2026-11-24",
+      "covers": "UCL Global Undergraduate Scholarship 2026/27; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/population-health-sciences/global-business-school-health/study/scholarships/undergraduate-international-excellence",
+      "accessed": "2026-11-24",
+      "covers": "International Excellence Scholarship £5 000; сайт ucl.ac.uk закрыт защитой Cloudflare (403, в том числе для Chromium); данные из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз QS World University Rankings 2027 (18.06.2026): топ-20, места Imperial, Oxford, Cambridge, UCL"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/sites/default/files/europe_-_wur27_pr_v3.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз THE World University Rankings 2027: места Oxford, Cambridge, Imperial, UCL, Edinburgh"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa/money",
+      "accessed": "2026-11-24",
+      "covers": "Сумма на проживание для Student visa (£1 529 / £1 171 в месяц до 9 месяцев), правило 28 дней, оплата курса по CAS"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa",
+      "accessed": "2026-11-24",
+      "covers": "Сбор за визу £558, сроки подачи (за 6 месяцев до курса)"
+    },
+    {
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "accessed": "2026-11-24",
+      "covers": "Медицинский сбор IHS £776 в год для студентов"
+    },
+    {
+      "url": "https://www.gov.uk/tb-test-visa/countries-where-you-need-a-tb-test-to-enter-the-uk",
+      "accessed": "2026-11-24",
+      "covers": "Россия в списке стран, где нужен тест на туберкулёз"
+    }
+  ],
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "low",
+  "todo": [
+    "Сайт UCL отдаёт 403 (Cloudflare) даже в Chromium: перепроверить все цифры карточки на официальных страницах вручную",
+    "Проверить по странице UCL для России, принимается ли аттестат и с какими условиями поступают на UPC",
+    "Найти стоимость UPC и сроки подачи на набор 2027",
+    "Найти полную таблицу платы 2027/28 и минимальный тариф для иностранцев",
+    "Найти A-levels/IB и тесты для Law LLB, Architecture BSc и Medicine MBBS",
+    "Найти цены на общежития UCL на 2027-28 и срок подачи заявки на жильё",
+    "Проверить условия UCL Global Undergraduate Scholarship на 2027/28",
+    "Найти расходы на жизнь в оценке самого UCL",
+    "Добавить фото со свободной лицензией (Wikimedia Commons ограничил частоту запросов)"
+  ]
 }

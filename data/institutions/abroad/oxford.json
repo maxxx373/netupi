@@ -2,13 +2,27 @@
   "id": "oxford",
   "type": "university",
   "name": {
-    "ru": "University of Oxford",
-    "en": "University of Oxford"
+    "ru": "Оксфордский университет",
+    "en": "University of Oxford",
+    "local": "University of Oxford",
+    "short": "Oxford"
   },
   "country": "GB",
   "city": "Оксфорд",
+  "city_size": "calm",
+  "ownership": "public",
+  "founded": 1096,
   "website": "https://www.ox.ac.uk/",
   "admissions_url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford",
+  "intl_students_url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/for-international-students",
+  "summary": "Старейший университет англоязычного мира: преподавание здесь шло уже в 1096 году. Студенты живут и занимаются в одном из колледжей. Подача через UCAS до 15 октября, почти на все курсы есть вступительный тест и интервью. Для всех курсов нужен английский на уровне IELTS 7.5. Для россиян, у которых уже есть диплом российского вуза, есть стипендия Hill Foundation на второе бакалаврское образование.",
+  "highlights": [
+    "1-е место в THE World University Rankings 2027 — 11-й год подряд, 4-е место в QS World University Rankings 2027",
+    "Стипендия Hill Foundation специально для граждан России (на второе бакалаврское образование)",
+    "Почти на все курсы — вступительный тест и интервью",
+    "Первокурсникам гарантировано жильё в колледже",
+    "Плата для иностранцев при поступлении в 2027 году — от £39 620 до £66 580 в год (клиническая медицина дороже)"
+  ],
   "about": "Коллегиальный исследовательский университет с программами по естественным наукам, медицине, праву, гуманитарным дисциплинам и сельскому хозяйству.",
   "areas": [
     "science",
@@ -24,31 +38,395 @@
   "art": "classic",
   "fields": [
     "natural_sciences",
+    "it",
     "engineering",
     "medicine",
     "law",
     "economics",
+    "business",
     "linguistics",
-    "agriculture"
+    "humanities",
+    "social_sciences",
+    "psychology",
+    "music",
+    "design_art",
+    "international_relations"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (BA)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 66580,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027 году (по поисковой выдаче со страницы курса)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*AA, причём A*A по математике и Further Maths (если она есть в школе). Тест TMUA (обе части), интервью"
+      },
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science"
+    },
+    {
+      "name": "Mathematics / Mathematics and Statistics (BA / MMath)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 50420,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027 году (по поисковой выдаче со страницы курса)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*A*A с A* по математике и Further Maths; IB 39 с 766 на HL и 7 по математике HL. Тест TMUA (октябрьская сессия), интервью"
+      },
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics"
+    },
+    {
+      "name": "Philosophy, Politics and Economics (PPE)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 46210,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027 году (по поисковой выдаче со страницы курса)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels AAA, желательна математика (альтернатива — история). Тест TARA, интервью"
+      },
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-politics-and-economics"
+    },
+    {
+      "name": "Law (Jurisprudence)",
+      "field": "law",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 46210,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Тариф для иностранцев при поступлении в 2027 году (по поисковой выдаче со страницы курса)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels AAA, желателен предмет с эссе. Тест LNAT, интервью"
+      },
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence"
+    },
+    {
+      "name": "Medicine (BM BCh)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 52360,
+        "currency": "GBP",
+        "period": "year",
+        "note": "Доклинические годы 1–3, тариф для иностранцев при поступлении в 2027 году; клинические годы — около £69 160 в год (ставки для следующих лет ещё не утверждены)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "A-levels A*AA: химия и ещё один из предметов — биология, физика, математика или Further Maths. Тест UCAT, интервью"
+      },
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 39620,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Нижняя граница тарифов для иностранцев при поступлении в 2027 году (2027-28)"
+    },
+    "tuition_max": {
+      "amount": 69160,
+      "currency": "GBP",
+      "period": "year",
+      "note": "Клинические годы медицины (2027-28); на остальных курсах максимум £66 580"
+    },
+    "living_month_estimate": {
+      "amount": 1475,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Оценка университета на 2027-28: от £1 475 до £2 175 в месяц; советуют закладывать 9 месяцев"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Hill Foundation Scholarship (бакалавриат)",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Только для граждан России, постоянно живущих в России, у которых уже есть диплом российского вуза и которые идут на второе бакалаврское образование. Покрывает плату за обучение и даёт ежегодный грант на жизнь. Дедлайн для набора 2027 — 26 января 2027, 12:00 по UK; отбор в апреле, итоги до конца мая",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-support/hill-foundation-scholarships"
+      },
+      {
+        "name": "Reach Oxford Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Плата за обучение, грант на жизнь и перелёт раз в год, но только для граждан стран из списка получателей помощи ОЭСР (DAC). Россия в этот список не входит. Дедлайн 26 января 2027",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "7.5",
+        "note": "Для всех курсов повышенный уровень: 7.5 и не ниже 7.0 по каждой части. Подтвердить нужно до 31 июля года, в котором получено предложение; при подаче не обязательно"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "110",
+        "note": "110 (Listening 22, Reading 24, Speaking 25, Writing 24). Тесты, сданные с 21 января 2026 года (новая шкала), не принимаются"
+      }
+    ],
+    "language_level": "Английский около C1–C2 (IELTS 7.5)",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка UCAS с личным заявлением, прогнозом оценок и рекомендацией",
+      "Запись на вступительный тест курса (TMUA, TARA, ESAT, LNAT, UCAT) — для тестов UAT-UK до 28 сентября 2026",
+      "Письменные работы для части гуманитарных курсов — по требованию",
+      "Подтверждение английского — до 31 июля года предложения"
+    ],
+    "notes": "Все абитуриенты должны сдавать A-levels, IB или другую признанную Оксфордом квалификацию. Принимается ли российский аттестат, на открытых источниках подтвердить не удалось; по аналогичной странице для Украины Оксфорд школьный аттестат не признаёт и требует A-levels или IB. Условия по A-levels — от AAA до A*A*A в зависимости от курса; для математики по IB — 39 баллов (766 HL). Тесты на 2027 год: TMUA (математика, Computer Science), TARA (PPE, Economics and Management), LNAT (право), UCAT (медицина). Основной сайт приёма закрыт защитой Cloudflare, поэтому часть данных взята из поисковой выдачи по официальным страницам."
+  },
+  "deadlines": [
+    {
+      "what": "Запись на тесты UAT-UK (TMUA, TARA, ESAT)",
+      "start": "2026-07-20",
+      "end": "2026-09-28",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Подача заявки через UCAS (все курсы)",
+      "start": "2026-09-01",
+      "end": "2026-10-15",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Сдача TMUA (октябрьская сессия)",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Заявка на стипендии Hill Foundation и Reach Oxford",
+      "end": "2027-01-26",
+      "intake": "Осень 2027 (октябрь)"
+    },
+    {
+      "what": "Подтверждение уровня английского после предложения",
+      "end": "2027-07-31",
+      "intake": "Осень 2027 (октябрь)"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 880,
+      "currency": "GBP",
+      "period": "month",
+      "note": "Нижняя граница оценки университета на жильё в 2027-28 (£880–£1 025 в месяц с коммунальными услугами)"
+    },
+    "notes": "Первокурсникам предоставляют комнату в колледже — на основной территории или в пристройке рядом. Цены устанавливает каждый колледж; некоторые колледжи дают жильё на весь срок обучения."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (Student route)",
+    "notes": "Визу оформляют после того, как ты принял безусловное предложение и вуз выдал CAS (Confirmation of Acceptance for Studies). Нужно показать оплату обучения за первый год (сумма указана в CAS) и деньги на жизнь: £1 171 в месяц на срок до 9 месяцев (учёба вне Лондона). Деньги должны лежать на счёте не меньше 28 дней подряд, и этот период должен закончиться не раньше чем за 31 день до подачи. Подать можно не раньше чем за 6 месяцев до начала курса. Сбор — £558, плюс медицинский сбор IHS £776 за каждый год визы. Россия в списке стран, откуда для британской визы нужна справка о тесте на туберкулёз.",
+    "url": "https://www.gov.uk/student-visa"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "4"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "1"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "small_groups",
+    "student_life",
+    "intl_environment",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/oxford/1.jpg",
+      "author": "Diliff",
+      "license": "CC BY 2.5",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg",
+      "caption": "Радклифф-камера — читальный зал Бодлианской библиотеки, вид с башни церкви Святой Марии"
+    }
   ],
   "prep": {
-    "must": "Подай заявку через UCAS, проверь, принимает ли Oxford твой школьный диплом, и выполни предметные требования выбранного курса. Для ряда направлений есть вступительный тест и интервью.",
-    "good": "Заранее изучи формат теста и чтения по предмету, попроси школу подготовить академическую рекомендацию и оставь время на личное заявление. Условия различаются по курсам.",
-    "source": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford"
+    "must": "Готовь A-levels или IB (A-levels от AAA до A*A*A в зависимости от курса): про российский аттестат Оксфорд прямо не пишет, рассчитывать на него не стоит. До 28 сентября 2026 запишись на тест своего курса (TMUA, TARA, LNAT или UCAT), до 15 октября подай UCAS и готовься к интервью.",
+    "good": "Для всех курсов нужен IELTS 7.5 с 7.0 по частям, а TOEFL нового формата (с 21 января 2026) не принимают. Если ты уже окончил российский вуз, подай на стипендию Hill Foundation до 26 января 2027 — она покрывает обучение и даёт деньги на жизнь.",
+    "source": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/for-international-students"
   },
   "sources": [
     {
-      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/our-offer",
+      "accessed": "2026-11-24",
+      "covers": "Mathematics: стандартное предложение A*A*A, IB 39 (766)"
+    },
+    {
+      "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study",
+      "accessed": "2026-11-24",
+      "covers": "TMUA для математики: даты сессии и записи 2026"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/course-fees",
+      "accessed": "2026-11-24",
+      "covers": "Диапазон платы для иностранцев 2027-28 (£39 620–£66 580); страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+      "accessed": "2026-11-24",
+      "covers": "Computer Science: плата £66 580, A*AA, TMUA; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+      "accessed": "2026-11-24",
+      "covers": "Mathematics: плата £50 420; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/philosophy-politics-and-economics",
+      "accessed": "2026-11-24",
+      "covers": "PPE: плата £46 210; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/law-jurisprudence",
+      "accessed": "2026-11-24",
+      "covers": "Law: плата £46 210; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/medicine",
+      "accessed": "2026-11-24",
+      "covers": "Medicine: плата £52 360 / £69 160; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/admission-requirements/admission-requirements-table",
+      "accessed": "2026-11-24",
+      "covers": "Сводная таблица: A-levels и тесты по курсам (TARA для PPE и др.); страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants/admissions-tests",
+      "accessed": "2026-11-24",
+      "covers": "Тесты 2027: TMUA, TARA, ESAT, LNAT, UCAT; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/for-international-students/ELR",
+      "accessed": "2026-11-24",
+      "covers": "Английский: IELTS 7.5, TOEFL 110, ограничение по новому TOEFL; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/living-costs",
+      "accessed": "2026-11-24",
+      "covers": "Расходы на жизнь 2027-28 и на жильё; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-support/hill-foundation-scholarships",
+      "accessed": "2026-11-24",
+      "covers": "Hill Foundation Scholarship для граждан России; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+      "accessed": "2026-11-24",
+      "covers": "Reach Oxford Scholarship: страны DAC, дедлайн 26.01.2027; страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.ox.ac.uk/about/how-we-are-run/policies-and-statements/global-crises/ukraine",
+      "accessed": "2026-11-24",
+      "covers": "Школьный аттестат Украины не соответствует требованиям, нужны A-levels/IB (аналогия); страница www.ox.ac.uk закрыта защитой Cloudflare (403); данные взяты из поисковой выдачи по этой странице"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/news/world-university-rankings-2027-results-announced",
+      "accessed": "2026-11-24",
+      "covers": "Оксфорд — 1-е место THE 2027"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз QS World University Rankings 2027 (18.06.2026): топ-20, места Imperial, Oxford, Cambridge, UCL"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/sites/default/files/europe_-_wur27_pr_v3.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз THE World University Rankings 2027: места Oxford, Cambridge, Imperial, UCL, Edinburgh"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa/money",
+      "accessed": "2026-11-24",
+      "covers": "Сумма на проживание для Student visa (£1 529 / £1 171 в месяц до 9 месяцев), правило 28 дней, оплата курса по CAS"
+    },
+    {
+      "url": "https://www.gov.uk/student-visa",
+      "accessed": "2026-11-24",
+      "covers": "Сбор за визу £558, сроки подачи (за 6 месяцев до курса)"
+    },
+    {
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "accessed": "2026-11-24",
+      "covers": "Медицинский сбор IHS £776 в год для студентов"
+    },
+    {
+      "url": "https://www.gov.uk/tb-test-visa/countries-where-you-need-a-tb-test-to-enter-the-uk",
+      "accessed": "2026-11-24",
+      "covers": "Россия в списке стран, где нужен тест на туберкулёз"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Открыть страницу международных квалификаций Оксфорда и проверить, что сказано про российский аттестат (сайт ox.ac.uk отдаёт 403)",
+    "Сверить с официальными страницами курсов плату для иностранцев 2027 (взята из поисковой выдачи)",
+    "Найти даты интервью и объявления решений для набора 2027",
+    "Узнать стоимость жилья в нескольких колледжах на 2027-28",
+    "Проверить точные условия и сроки стипендии Hill Foundation для набора 2027 (обещали опубликовать в январе 2027)"
   ]
 }
