@@ -92,6 +92,11 @@
       "url": "https://mephi.ru/international/joint_programs",
       "accessed": "2026-11-24",
       "covers": "англоязычные и совместные программы"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Главный_корпус_МИФИ_11_апреля_2015_года.JPG",
+      "accessed": "2026-11-24",
+      "covers": "фото"
     }
   ],
   "verified_at": "2026-11-24",
@@ -402,5 +407,14 @@
     "good": "Пиши олимпиады, особенно «Росатом»: на IT-направления в 2025 году бюджет целиком заняли поступившие без экзаменов. Если рассматриваешь платное, закладывай 230 000–325 000 ₽ за семестр; на платное документы принимают до 12 августа.",
     "source": "https://admission.mephi.ru/admission/baccalaureate-and-specialty"
   },
-  "data_year": 2026
+  "data_year": 2026,
+  "photos": [
+    {
+      "file": "photos/mephi/1.jpg",
+      "author": "Brateevsky",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Главный_корпус_МИФИ_11_апреля_2015_года.JPG",
+      "caption": "Главный корпус НИЯУ МИФИ на Каширском шоссе (2015)"
+    }
+  ]
 }
