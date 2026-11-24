@@ -2,13 +2,31 @@
   "id": "michigan",
   "type": "university",
   "name": {
-    "ru": "University of Michigan",
-    "en": "University of Michigan"
+    "ru": "Мичиганский университет",
+    "en": "University of Michigan",
+    "short": "U-M",
+    "alt": [
+      "UMich",
+      "University of Michigan–Ann Arbor",
+      "Мичиганский университет в Анн-Арборе"
+    ]
   },
   "country": "US",
   "city": "Анн-Арбор, Мичиган",
+  "city_size": "calm",
+  "ownership": "public",
+  "founded": 1817,
   "website": "https://umich.edu/",
   "admissions_url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+  "intl_students_url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+  "summary": "Один из крупнейших государственных исследовательских университетов США, основан в 1817 году; кампус — в студенческом городе Анн-Арбор. Подают через Common App: обязывающий Early Decision и Early Action — до 1 ноября, основной раунд — до 1 февраля. В цикле 2027 SAT/ACT не обязательны, но английский нужен на высоком уровне: TOEFL около 100 или IELTS 7.0, Duolingo не принимают. Иностранцы платят тариф нерезидента — от 67 000 USD в год, помощи почти нет.",
+  "highlights": [
+    "23-е место в THE World University Rankings 2027",
+    "Цикл 2027 — test-optional: SAT/ACT по желанию",
+    "Высокая планка английского: TOEFL 100 (секции 21–23+) или IELTS 7.0 (секции 6.5+); Duolingo не принимают",
+    "Три раунда: Early Decision (обязывающий), Early Action и Regular Decision",
+    "Собеседований нет, кроме музыки/театра, стоматологической гигиены и педагогики"
+  ],
   "about": "Крупный публичный исследовательский университет в Анн-Арборе. Предлагает широкий выбор направлений, включая инженерные и естественные науки, бизнес, медицину и гуманитарные области.",
   "areas": [
     "engineering",
@@ -29,26 +47,345 @@
     "economics",
     "medicine",
     "law",
-    "media"
+    "media",
+    "social_sciences",
+    "humanities",
+    "psychology",
+    "architecture",
+    "design_art",
+    "music",
+    "pedagogy"
   ],
-  "prep": {
-    "must": "Common Application; школьные оценки и документы об образовании; подтверждение английского, если требуется; материалы из страны обучения по официальным правилам приёма.",
-    "good": "Проверь требования именно для страны, где учишься: университет публикует отдельные рекомендации и форматы документов. Переводы, тесты и документы от школы лучше запрашивать заранее.",
-    "source": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines"
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (College of Literature, Science, and the Arts — LSA)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 67096,
+        "currency": "USD",
+        "period": "year",
+        "note": "Нерезидент, младшие курсы (lower division), осень 2026: 33 548 USD за семестр. Плюс сбор 500 USD за семестр для студентов с визой F/J."
+      }
+    },
+    {
+      "name": "Bachelor of Business Administration (Ross School of Business)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 68224,
+        "currency": "USD",
+        "period": "year",
+        "note": "Нерезидент, Ross, младшие курсы, осень 2026: 34 112 USD за семестр (старшие — 38 165). Плюс сбор 500 USD за семестр для студентов с визой F/J."
+      }
+    },
+    {
+      "name": "Mechanical Engineering (College of Engineering)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 67488,
+        "currency": "USD",
+        "period": "year",
+        "note": "Нерезидент, Engineering, младшие курсы, осень 2026: 33 744 USD за семестр (старшие — 37 859). Плюс сбор 500 USD за семестр для студентов с визой F/J."
+      }
+    },
+    {
+      "name": "Economics (LSA)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 67096,
+        "currency": "USD",
+        "period": "year",
+        "note": "Нерезидент, младшие курсы, осень 2026: 33 548 USD за семестр. Плюс сбор 500 USD за семестр для студентов с визой F/J."
+      }
+    },
+    {
+      "name": "Psychology (LSA)",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 67096,
+        "currency": "USD",
+        "period": "year",
+        "note": "Нерезидент, младшие курсы, осень 2026: 33 548 USD за семестр. Плюс сбор 500 USD за семестр для студентов с визой F/J."
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 67096,
+      "currency": "USD",
+      "period": "year",
+      "note": "Нерезидент, младшие курсы (LSA и др.), 2 семестра по 33 548 USD (осень 2026), с обязательными сборами. Плюс сбор 500 USD за семестр для студентов с визой F/J."
+    },
+    "tuition_max": {
+      "amount": 77880,
+      "currency": "USD",
+      "period": "year",
+      "note": "Нерезидент, кинезиология, старшие курсы: 38 940 USD за семестр (осень 2026). Плюс сбор 500 USD за семестр для студентов с визой F/J."
+    }
   },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Стипендии U-M для иностранцев",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Иностранцы с временной визой не получают федеральную помощь США, а шансы на стипендии университета «очень ограничены». На многие стипендии U-M рассматривают автоматически по заявке на поступление; для грантов по потребности нужен CSS Profile (код 1839). Учитывает ли университет просьбу о помощи при зачислении иностранцев (need-blind / need-aware), официально не сказано",
+        "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7451/Limited-Financial-Aid-for-International-Students"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "TOEFL",
+        "min_score": "100",
+        "note": "Секции: чтение и аудирование от 23, говорение и письмо от 21. Новая шкала TOEFL iBT (с 21.01.2026): 5–6, каждая секция от 5 (C1). Код U-M — 1839. Нужно прислать все попытки: суперскор и MyBest не используют"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "7.0",
+        "note": "Каждая секция не ниже 6.5"
+      },
+      {
+        "exam": "DET",
+        "note": "Duolingo English Test не принимают"
+      },
+      {
+        "exam": "OTHER",
+        "note": "Также принимают Cambridge C1 Advanced / C2 Proficiency (185, секции от 180), PTE Academic (68), MET (64, секции от 59), ECPE"
+      },
+      {
+        "exam": "SAT",
+        "note": "В цикле 2027 не обязателен (test-optional): решаешь сам, отправлять ли. Без SAT заявка не проигрывает. Код U-M — 1839"
+      },
+      {
+        "exam": "ACT",
+        "note": "Не обязателен (test-optional). Код U-M — 2062"
+      }
+    ],
+    "language_level": "C1 по английскому (TOEFL ~100 / IELTS 7.0)",
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Common Application с вопросами U-M",
+      "Три эссе: основное Common App (250–650 слов), «как ты внесёшь вклад в U-M» (100–300 слов) и «чем привлекает учебная программа U-M» (100–550 слов); четвёртое, о трудностях, — по желанию",
+      "Взнос 75 USD или запрос на его отмену",
+      "Официальная выписка оценок из школы с официальным переводом на английский — школа отправляет её сама",
+      "School Report от школьного консультанта или директора",
+      "Одна рекомендация от учителя основного предмета (не родственника)",
+      "Сертификат TOEFL / IELTS / другого принятого экзамена",
+      "Для Early Decision — соглашение, подписанное тобой, родителем и консультантом",
+      "Для I-20 после зачисления: депозит 300 USD, Financial Resources Statement, справка из банка или письмо работодателя спонсора не старше года, копия паспорта"
+    ],
+    "notes": "Все документы, включая выписку оценок и School Report, должны прийти к 1 ноября (ED/EA) или 1 февраля (RD). Документы не на английском нужны с официальным переводом, оригиналы отправляет сама школа. Конкретные требования к российскому аттестату U-M публикует на странице «International Requirements by Country», но сайт приёмной комиссии закрыт для автоматического доступа. Собеседования есть только в музыке и театре (SMTD), стоматологической гигиене и педагогике. В SMTD нет ранних раундов, срок — 1 декабря. Лишних документов присылать не надо."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1",
+    "notes": "Нужна виза F-1. I-20 выдают после зачисления, депозита 300 USD и проверки финансовых документов: Financial Resources Statement, подпись спонсора и выписка из банка на сумму не меньше годовой стоимости. Гражданам России, живущим в России, Госдеп США назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); визовый отдел в Москве студенческие визы не оформляет. Записаться в Варшаву на практике сложно, чаще едут в Астану. Перед собеседованием нужно оплатить сбор SEVIS I-901 — 350 USD для F-1.",
+    "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7606/Requirements-Before-I-20-Can-Be-Issued"
+  },
+  "dorm": {
+    "available": true,
+    "notes": "Заявку на общежитие подают с начала апреля после оплаты депозита, срок — 11 мая. Есть ли гарантия места для первокурсников и сколько оно стоит, проверить не удалось: сайт Michigan Housing закрыт для автоматического доступа."
+  },
+  "deadlines": [
+    {
+      "what": "Early Decision (обязывающий)",
+      "end": "2026-11-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Early Action (необязывающий)",
+      "end": "2026-11-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по ED — до конца декабря 2026, подтвердить место до 6 января",
+      "end": "2027-01-06",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по EA — до конца января 2027",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Regular Decision",
+      "end": "2027-02-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Музыка, театр и танец (SMTD), без ранних раундов",
+      "end": "2026-12-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по RD — в начале апреля, ответ до 1 мая",
+      "end": "2027-05-01",
+      "intake": "Осенний 2027"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "23"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life"
+  ],
+  "photos": [
+    {
+      "file": "photos/michigan/1.jpg",
+      "author": "Cbl62",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Burton_Memorial_Tower_(2010).jpg",
+      "caption": "Мемориальная башня Бертона с карильоном"
+    }
+  ],
   "sources": [
     {
       "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-24",
+      "covers": "Страница для иностранцев; закрыта для автоматического доступа (Cloudflare), данные взяты из официальной базы знаний приёмной комиссии ниже"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7490/Test-optional-Policy-for-SAT-and-ACT",
+      "accessed": "2026-11-24",
+      "covers": "Test-optional в цикле 2027, коды SAT/ACT, сроки тестов"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7504/English-Language-Proficiency",
+      "accessed": "2026-11-24",
+      "covers": "Минимумы TOEFL, IELTS и др., Duolingo не принимают"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7570/Materials-Needed-to-Complete-a-First-year-Application",
+      "accessed": "2026-11-24",
+      "covers": "Список документов, взнос 75 USD, перевод документов"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7497/Admissions-Application-Deadline",
+      "accessed": "2026-11-24",
+      "covers": "Сроки ED/EA 1 ноября, RD 1 февраля, SMTD 1 декабря"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/14057/Early-Decision-Plan",
+      "accessed": "2026-11-24",
+      "covers": "ED обязывающий, даты решений и подтверждения"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7424/First-year-Essay-Questions",
+      "accessed": "2026-11-24",
+      "covers": "Эссе и лимиты слов"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7452/First-year-Recommendations",
+      "accessed": "2026-11-24",
+      "covers": "Рекомендация учителя и School Report"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7510/Interviews-Are-Only-Required-for-Some-Programs",
+      "accessed": "2026-11-24",
+      "covers": "Собеседования"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7506/Method-to-Submit-Application-Materials-Transcripts-Recommendations-Test-Scores-etc",
+      "accessed": "2026-11-24",
+      "covers": "Как отправлять документы, официальный перевод"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7451/Limited-Financial-Aid-for-International-Students",
+      "accessed": "2026-11-24",
+      "covers": "Помощь иностранцам очень ограничена"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7639/Applying-for-Financial-Aid-and-Scholarships",
+      "accessed": "2026-11-24",
+      "covers": "CSS Profile, стипендии"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7606/Requirements-Before-I-20-Can-Be-Issued",
+      "accessed": "2026-11-24",
+      "covers": "Условия выдачи I-20"
+    },
+    {
+      "url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7437/Housing",
+      "accessed": "2026-11-24",
+      "covers": "Заявка на общежитие, срок 11 мая"
+    },
+    {
+      "url": "https://provost.umich.edu/wp-content/uploads/FY-2027-Tuition-Fee-Table-FINAL.pdf",
+      "accessed": "2026-11-24",
+      "covers": "Тарифы на осень 2026 по школам для нерезидентов, сбор 500 USD для виз F/J"
+    },
+    {
+      "url": "https://taubmancollege.umich.edu/admissions/pay-for-your-degree/bachelor-of-science-in-urban-technology",
+      "accessed": "2026-11-24",
+      "covers": "International Student Fee — 1 000 USD в год (подтверждает 500 USD за семестр)"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-michigan-ann-arbor",
+      "accessed": "2026-11-24",
+      "covers": "THE World University Rankings 2027 — 23-е место; год основания 1817"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-24",
+      "covers": "Посольства для россиян (Астана, Варшава). Страница закрыта для автоматического доступа (Cloudflare), сведения взяты из поисковой выдачи по ней и публикаций СМИ — перепроверить вручную"
+    },
+    {
+      "url": "https://www.ice.gov/sevis/i901",
+      "accessed": "2026-11-24",
+      "covers": "Сбор SEVIS I-901 для F-1 — 350 USD"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Найти требования U-M к российскому аттестату на странице «International Requirements by Country» (сайт admissions.umich.edu закрыт для бота)",
+    "Найти официальную оценку расходов на жильё и питание 2026–27 (finaid.umich.edu закрыт для бота)",
+    "Узнать, гарантировано ли общежитие первокурсникам и сколько оно стоит (housing.umich.edu закрыт для бота)",
+    "Проверить, need-blind ли приём для иностранцев и какие стипендии им реально доступны",
+    "Добавить место в QS World University Rankings 2027 с официального сайта",
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
+  ],
+  "prep": {
+    "must": "Подай Common App с тремя эссе U-M до 1 ноября (Early Action или обязывающий Early Decision) или до 1 февраля 2027. К тому же сроку школа должна прислать выписку оценок с официальным переводом и School Report, учитель — рекомендацию. Сдай TOEFL от 100 (секции 21–23+) или IELTS от 7.0 — Duolingo не принимают.",
+    "good": "SAT в этом цикле по желанию: отправляй, если балл сильный. Помощи иностранцам почти нет, а обучение стоит от 67 000 USD в год плюс жильё — для I-20 спонсор должен подтвердить деньги на весь первый год.",
+    "source": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/Article/7570/Materials-Needed-to-Complete-a-First-year-Application"
+  }
 }
