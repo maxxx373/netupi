@@ -2,13 +2,30 @@
   "id": "harvard",
   "type": "university",
   "name": {
-    "ru": "Harvard University",
-    "en": "Harvard University"
+    "ru": "Гарвардский университет",
+    "en": "Harvard University",
+    "short": "Harvard",
+    "alt": [
+      "Гарвард",
+      "Harvard College"
+    ]
   },
   "country": "US",
   "city": "Кембридж, Массачусетс",
+  "city_size": "mid",
+  "ownership": "private",
+  "founded": 1636,
   "website": "https://www.harvard.edu/",
   "admissions_url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+  "intl_students_url": "https://college.harvard.edu/admissions/apply/international-applicants",
+  "summary": "Старейший университет США, основан в 1636 году; бакалавриат — Harvard College в Кембридже под Бостоном. Поступают на весь колледж, специальность (concentration) выбирают позже — их 51. Правила приёма и финансовой помощи одинаковы для всех: иностранцев не выделяют, квот нет, а решение о зачислении не зависит от того, просил ли ты помощь. Нужны SAT или ACT, а TOEFL/IELTS не обязательны.",
+  "highlights": [
+    "5-е место в QS World University Rankings 2027 и 6-е в THE World University Rankings 2027",
+    "Приём need-blind и для иностранцев: просьба о помощи не влияет на решение",
+    "Покрывает 100% доказанной финансовой потребности; при доходе семьи до 100 000 USD родители не платят",
+    "Все первокурсники живут в общежитиях у Harvard Yard и едят в Annenberg Hall",
+    "51 специальность (concentration), выбор — после поступления"
+  ],
   "about": "Частный исследовательский университет в Кембридже, рядом с Бостоном. Бакалавриат Harvard College предлагает широкий выбор учебных концентраций; студенты сначала подают документы в колледж, а не на отдельную специальность.",
   "areas": [
     "science",
@@ -24,36 +41,328 @@
   "fields": [
     "natural_sciences",
     "it",
-    "law",
     "economics",
-    "business",
+    "social_sciences",
+    "humanities",
+    "engineering",
     "linguistics",
+    "law",
+    "business",
     "medicine",
     "media"
   ],
-  "prep": {
-    "must": "Common Application и ответы Harvard College; школьная выписка и School Report; рекомендации учителей; SAT или ACT. Для иностранных школьных документов может понадобиться перевод.",
-    "good": "Начни эссе и подготовку к тесту заранее; попроси школьного консультанта и учителей о рекомендациях заблаговременно. TOEFL/IELTS не заменяют SAT/ACT и не обязательны для всех кандидатов.",
-    "source": "https://college.harvard.edu/admissions/apply/international-applicants"
-  },
-  "sources": [
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
     {
-      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "name": "Economics",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 62226,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для всех студентов, без сборов (6 216 USD), жилья и питания"
+      }
     },
     {
-      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 62226,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для всех студентов, без сборов (6 216 USD), жилья и питания"
+      }
+    },
+    {
+      "name": "Government",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 62226,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для всех студентов, без сборов (6 216 USD), жилья и питания"
+      }
+    },
+    {
+      "name": "Applied Mathematics",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 62226,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для всех студентов, без сборов (6 216 USD), жилья и питания"
+      }
+    },
+    {
+      "name": "Molecular and Cellular Biology",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 62226,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для всех студентов, без сборов (6 216 USD), жилья и питания"
+      }
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "cost": {
+    "tuition_min": {
+      "amount": 62226,
+      "currency": "USD",
+      "period": "year",
+      "note": "Обучение 2026–27; плюс обязательные сборы 6 216 USD. Полная стоимость с жильём и питанием — 95 134–100 134 USD в год, плюс медстраховка 4 954 USD, если нет своей"
+    },
+    "tuition_max": {
+      "amount": 62226,
+      "currency": "USD",
+      "period": "year",
+      "note": "Тариф единый для всех специальностей"
+    },
+    "living_month_estimate": {
+      "amount": 23192,
+      "currency": "USD",
+      "period": "year",
+      "note": "Жильё 14 250 + питание 8 942 USD за учебный год 2026–27 (оплачивается университету)"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Финансовая помощь Harvard (Harvard Scholarship, по потребности)",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Правила одинаковы для всех граждан. Приём need-blind: решение не зависит от просьбы о помощи. Гарвард покрывает 100% доказанной потребности грантом, кредиты не обязательны. При доходе семьи до 100 000 USD вклад родителей — ноль, до 200 000 USD — как минимум оплачено обучение. Merit-стипендий (за успехи) нет — вся помощь по потребности. Нужны CSS Profile и пакет документов IDOC",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "note": "Обязателен SAT или ACT; порогов нет. Только если тест недоступен (нет мест, нельзя оплатить), его заменяют AP, IB, A-Level или результаты национальных выпускных экзаменов. Можно указать баллы самостоятельно"
+      },
+      {
+        "exam": "ACT",
+        "note": "Альтернатива SAT; учитывают лучший суммарный балл"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Не обязателен и не заменяет SAT/ACT; можно приложить по желанию"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Не обязателен и не заменяет SAT/ACT; можно приложить по желанию"
+      },
+      {
+        "exam": "DET",
+        "note": "Не обязателен и не заменяет SAT/ACT; можно приложить по желанию"
+      }
+    ],
+    "interview": true,
+    "portfolio": "no",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Common Application с дополнительными вопросами Harvard: основное эссе Common App и пять коротких ответов до 150 слов",
+      "Взнос за заявку или запрос на его отмену (fee waiver) — отказ при финансовых трудностях не вредит заявке",
+      "School Report от школьного консультанта: выписка оценок, рекомендация, профиль школы",
+      "Две рекомендации от учителей разных предметов",
+      "Midyear School Report с оценками за первое полугодие выпускного класса (если школа их выставляет)",
+      "Результаты SAT или ACT (можно сначала указать самостоятельно)",
+      "После зачисления — Final School Report и итоговые оценки не позже 1 июля",
+      "Для финансовой помощи: CSS Profile (код 3434) и документы о доходах родителей через IDOC; российскую налоговую декларацию или справку о доходах можно перевести самостоятельно, официальный перевод не нужен"
+    ],
+    "notes": "Требования одинаковы для всех, отдельной программы для иностранцев нет. Российские школьные документы школа отправляет как обычные School Report и transcript; если школа не ставит полугодовые оценки, Midyear Report не нужен. Интервью с выпускником возможно, но не гарантировано: его назначают после подачи заявки. Дополнительные материалы (музыка, искусство, исследования) — по желанию."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1; основание — форма I-20 от Гарварда после зачисления. Гражданам России, живущим в России, Госдеп США назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); визовый отдел в Москве студенческие визы не оформляет. Записаться в Варшаву на практике сложно, чаще едут в Астану. Перед собеседованием нужно оплатить сбор SEVIS I-901 — 350 USD для F-1. В 2025 году власти США пытались ограничить приём иностранных студентов в Гарвард; суд заблокировал эти меры, Гарвард публикует новости о судебных делах на отдельной странице — проверь её перед подачей.",
+    "url": "https://www.harvard.edu/federal-lawsuits/international-student-visas/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 14250,
+      "currency": "USD",
+      "period": "year",
+      "note": "Жильё за учебный год 2026–27; питание ещё 8 942 USD"
+    },
+    "notes": "Все первокурсники живут в общежитиях в Harvard Yard или рядом, обычно в блоках на 2–4 спальни; распределяет First-Year Dean’s Office. Со второго курса — в одном из «домов» (Houses)."
+  },
+  "deadlines": [
+    {
+      "what": "Restrictive Early Action (необязывающий ранний раунд)",
+      "end": "2026-11-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "CSS Profile для REA",
+      "end": "2026-11-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по REA — в середине декабря 2026",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Regular Decision (основной раунд)",
+      "end": "2027-01-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "CSS Profile для Regular Decision",
+      "end": "2027-02-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по Regular Decision — в конце марта 2027",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Ответ зачисленных (ориентир — 1 мая, депозит не нужен)",
+      "end": "2027-05-01",
+      "intake": "Осенний 2027"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "5"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "6"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "campus",
+    "student_life"
+  ],
+  "photos": [
+    {
+      "file": "photos/harvard/1.jpg",
+      "author": "Kenneth C. Zirkel",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Widener_Library,_Harvard_University.jpg",
+      "caption": "Библиотека Уайденера в Гарвард-Ярде"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "accessed": "2026-11-24",
+      "covers": "Правила для иностранцев: одинаковый приём, квот нет, тесты, TOEFL не обязателен, need-blind"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply/application-requirements",
+      "accessed": "2026-11-24",
+      "covers": "Common App, пять коротких ответов, School Report, две рекомендации, Midyear Report, SAT/ACT, сроки 1 ноября и 1 января"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "accessed": "2026-11-24",
+      "covers": "Сроки REA и RD, даты решений, интервью с выпускником"
+    },
+    {
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works/cost-attendance",
+      "accessed": "2026-11-24",
+      "covers": "Стоимость 2026–27: обучение, сборы, жильё, питание, страховка; доходы семьи до 100 000 / 200 000 USD"
+    },
+    {
+      "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+      "accessed": "2026-11-24",
+      "covers": "CSS Profile и IDOC, сроки 1 ноября / 1 февраля, документы иностранцев о доходах"
+    },
+    {
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works/types-aid",
+      "accessed": "2026-11-24",
+      "covers": "100% потребности, гранты, без обязательных кредитов"
+    },
+    {
+      "url": "https://college.harvard.edu/student-life/residential-life",
+      "accessed": "2026-11-24",
+      "covers": "Общежития первокурсников в Harvard Yard"
+    },
+    {
+      "url": "https://college.harvard.edu/academics/liberal-arts-sciences",
+      "accessed": "2026-11-24",
+      "covers": "51 concentration"
+    },
+    {
+      "url": "https://www.harvard.edu/about/",
+      "accessed": "2026-11-24",
+      "covers": "Год основания — 1636"
+    },
+    {
+      "url": "https://www.harvard.edu/federal-lawsuits/international-student-visas/",
+      "accessed": "2026-11-24",
+      "covers": "Новости о судебных делах по иностранным студентам"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-24",
+      "covers": "Пресс-релиз QS о рейтинге 2027: Гарвард 5-й"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/harvard-university",
+      "accessed": "2026-11-24",
+      "covers": "THE World University Rankings 2027 — 6-е место"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-24",
+      "covers": "Посольства для россиян (Астана, Варшава). Страница закрыта для автоматического доступа (Cloudflare), сведения взяты из поисковой выдачи по ней и публикаций СМИ — перепроверить вручную"
+    },
+    {
+      "url": "https://www.ice.gov/sevis/i901",
+      "accessed": "2026-11-24",
+      "covers": "Сбор SEVIS I-901 для F-1 — 350 USD"
+    }
+  ],
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Уточнить, нужен ли заверенный перевод российского аттестата и выписки оценок для заявки",
+    "Найти размер взноса за заявку (application fee) на 2026–27",
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
+  ],
+  "prep": {
+    "must": "Подай Common App с пятью короткими ответами Harvard до 1 ноября (ранний раунд REA) или до 1 января 2027 и сдай SAT или ACT — TOEFL их не заменяет. Попроси школу отправить School Report с оценками и двух учителей разных предметов — рекомендации. Если нужна помощь, заполни CSS Profile к 1 ноября или 1 февраля.",
+    "good": "Покажи сильные активити и глубокий интерес к предмету: конкурс огромный, порогов по баллам нет. Не бойся просить помощь — на зачисление это не влияет, а при доходе семьи до 100 000 USD родители ничего не платят. Для визы F-1 закладывай поездку на собеседование в Астану.",
+    "source": "https://college.harvard.edu/admissions/apply/international-applicants"
+  }
 }

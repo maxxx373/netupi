@@ -2,13 +2,30 @@
   "id": "berkeley",
   "type": "university",
   "name": {
-    "ru": "University of California, Berkeley",
-    "en": "University of California, Berkeley"
+    "ru": "Калифорнийский университет в Беркли",
+    "en": "University of California, Berkeley",
+    "short": "UC Berkeley",
+    "alt": [
+      "Беркли",
+      "Cal"
+    ]
   },
   "country": "US",
   "city": "Беркли, Калифорния",
+  "city_size": "mid",
+  "ownership": "public",
+  "founded": 1868,
   "website": "https://www.berkeley.edu/",
   "admissions_url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/",
+  "intl_students_url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/",
+  "summary": "Старейший кампус Калифорнийского университета (UC), основан в 1868 году, на берегу залива Сан-Франциско. Это государственный вуз, поэтому иностранцы платят полный тариф нерезидента — около 57 500 USD в год — и почти не получают институциональной помощи. Подают через общую заявку UC с 1 октября по 30 ноября; SAT/ACT при отборе не учитывают, зато вместо рекомендаций нужно ответить на 4 личных вопроса.",
+  "highlights": [
+    "9-е место (делит) в THE World University Rankings 2027 и 20-е (делит) в QS 2027",
+    "SAT и ACT при отборе не учитываются — смотрят оценки, предметы и эссе",
+    "Иностранцам нужен английский: TOEFL 90, IELTS 6.5 или Duolingo 115",
+    "Гарантия общежития на два года для первокурсников",
+    "Без собеседований и рекомендательных писем"
+  ],
   "about": "Публичный исследовательский университет в районе залива Сан-Франциско. Среди направлений — инженерия, естественные науки, бизнес, экономика, общественные и гуманитарные дисциплины.",
   "areas": [
     "engineering",
@@ -27,28 +44,334 @@
     "natural_sciences",
     "economics",
     "business",
+    "social_sciences",
+    "humanities",
+    "architecture",
+    "design_art",
     "law",
-    "media",
-    "design_art"
+    "media"
   ],
-  "prep": {
-    "must": "Заявка UC; завершённое среднее образование и документ, дающий право поступать в университет в стране обучения; академические результаты и требуемые подтверждения учебной программы.",
-    "good": "Сверь обязательные школьные предметы с выбранным направлением и заранее подготовь заверенные переводы. UC не использует SAT/ACT при отборе; проверь актуальные языковые требования и сроки подачи.",
-    "source": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/"
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Electrical Engineering & Computer Sciences (EECS), College of Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    },
+    {
+      "name": "Computer Science (College of Letters & Science)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    },
+    {
+      "name": "Data Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    },
+    {
+      "name": "Economics",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    },
+    {
+      "name": "Business Administration (Haas School of Business)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    },
+    {
+      "name": "Molecular and Cell Biology",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 57484,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 57484,
+      "currency": "USD",
+      "period": "year",
+      "note": "2026–27 для новых студентов-нерезидентов: 18 214 USD обучение и сборы + 39 270 USD Nonresident Supplemental Tuition; суммы ещё могут утвердить с изменениями"
+    },
+    "tuition_max": {
+      "amount": 57484,
+      "currency": "USD",
+      "period": "year",
+      "note": "Единый тариф нерезидента; плюс медстраховка SHIP 5 066 USD (можно заменить своей, если она не хуже)"
+    },
+    "living_month_estimate": {
+      "amount": 23640,
+      "currency": "USD",
+      "period": "year",
+      "note": "Общежитие 16 640 + питание 7 000 USD за учебный год 2026–27; полная стоимость для нерезидента в общежитии — около 94 000 USD"
+    }
   },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Грант и стипендии Berkeley для нерезидентов",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Новые студенты, не живущие в Калифорнии, не получают need-based грантов и большинства стипендий Беркли; отдельных денег на доплату нерезидента нет, апелляции обычно не помогают. Советуют искать внешние стипендии. Влияет ли просьба о помощи на зачисление иностранца (need-blind / need-aware), на сайте не сказано",
+        "url": "https://financialaid.berkeley.edu/meeting-nonresident-costs/"
+      }
+    ]
+  },
+  "requirements": {
+    "gpa_min": 3.4,
+    "intl_exams": [
+      {
+        "exam": "TOEFL",
+        "min_score": "90",
+        "note": "Или 4.5 по новой шкале TOEFL iBT. Английский нужно подтвердить до 31 января; результат действителен 2 года на дату начала учёбы. Код Беркли — 4833"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.5"
+      },
+      {
+        "exam": "DET",
+        "min_score": "115"
+      },
+      {
+        "exam": "SAT",
+        "note": "В отборе UC не учитывает SAT/ACT. Балл может засчитаться только как подтверждение английского (SAT Writing and Language от 31 или ACT English Language Arts от 24)"
+      }
+    ],
+    "interview": false,
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Заявка UC Application (одна на все кампусы UC) с 1 октября по 30 ноября",
+      "Ответы на 4 из 8 личных вопросов (Personal Insight Questions), до 350 слов каждый",
+      "Самостоятельно внесённые оценки за 9–12 (у нас 8–11) классы — точно как в школьных документах, без пересчёта",
+      "Результат TOEFL / IELTS / Duolingo (или другой способ подтвердить английский)",
+      "Рекомендательные письма не нужны (иногда их просят отдельные программы)",
+      "После зачисления — официальные документы школы и аттестат; ксерокопии могут попросить раньше",
+      "Для I-20 — форма Non-immigrant Information Form (NIF) и гарантия спонсора, что денег хватит на первый год"
+    ],
+    "notes": "Для иностранцев UC требует 15 годовых академических курсов со средним баллом 3.4: 2 года истории, 4 года родного языка и литературы, 3 года математики (алгебра и геометрия), 2 года естественных наук, 2 года иностранного языка, 1 год искусства и 1 курс сверху. Нужен документ об окончании школы, который даёт право поступать в вуз в своей стране — для России это аттестат о среднем общем образовании. Россия относится к группе «все остальные страны»: нужна сложная программа подготовки к вузу и право поступать в конкурентный университет своей страны, отдельных правил нет. Собеседований нет; по желанию можно прислать запись интервью InitialView до 30 ноября — английский тест оно не заменяет. Если в стране обязательная армия после школы, подавать нужно после службы."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1. После зачисления заполняешь Non-immigrant Information Form и подтверждаешь деньги на первый год, затем Berkeley International Office выдаёт I-20. Гражданам России, живущим в России, Госдеп США назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); визовый отдел в Москве студенческие визы не оформляет. Записаться в Варшаву на практике сложно, чаще едут в Астану. Перед собеседованием нужно оплатить сбор SEVIS I-901 — 350 USD для F-1.",
+    "url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 16640,
+      "currency": "USD",
+      "period": "year",
+      "note": "Жильё в общежитии за учебный год 2026–27, питание ещё 7 000 USD"
+    },
+    "notes": "Новым первокурсникам гарантируют жильё на два года (переведённым студентам — на один)."
+  },
+  "deadlines": [
+    {
+      "what": "Подача заявки UC Application",
+      "start": "2026-10-01",
+      "end": "2026-11-30",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Подтвердить английский (TOEFL/IELTS/DET)",
+      "end": "2027-01-31",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения о зачислении — в марте 2027",
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Подтвердить место (Statement of Intent to Register)",
+      "end": "2027-05-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Итоговые официальные документы школы",
+      "end": "2027-07-01",
+      "intake": "Осенний 2027"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=20"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "=9"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "intl_environment"
+  ],
+  "photos": [
+    {
+      "file": "photos/berkeley/1.jpg",
+      "author": "Almonroth",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sather_Tower-3.jpg",
+      "caption": "Башня Сатер (Кампанила) — символ кампуса"
+    }
+  ],
   "sources": [
     {
       "url": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-24",
+      "covers": "Требования к иностранцам: аттестат, английский (TOEFL 90, IELTS 6.5, DET 115), без интервью, InitialView, NIF и I-20"
+    },
+    {
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/first-year-students/",
+      "accessed": "2026-11-24",
+      "covers": "Personal Insight Questions"
+    },
+    {
+      "url": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/index.html",
+      "accessed": "2026-11-24",
+      "covers": "15 курсов и GPA 3.4 для иностранцев, оценки как в документах, рекомендации не нужны, окно подачи 1 октября – 30 ноября"
+    },
+    {
+      "url": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/applying-for-admission/freshman-requirements-country.html",
+      "accessed": "2026-11-24",
+      "covers": "Правила по странам: для России отдельных нет («All other countries»)"
+    },
+    {
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+      "accessed": "2026-11-24",
+      "covers": "Сроки цикла 2026–27: подача, решения, SIR, итоговые документы"
+    },
+    {
+      "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html",
+      "accessed": "2026-11-24",
+      "covers": "4 из 8 вопросов, до 350 слов"
+    },
+    {
+      "url": "https://www.universityofcalifornia.edu/press-room/university-california-board-regents-approves-changes-standardized-testing-requirement",
+      "accessed": "2026-11-24",
+      "covers": "UC не учитывает SAT/ACT при зачислении"
+    },
+    {
+      "url": "https://financialaid.berkeley.edu/cost-of-attendance/",
+      "accessed": "2026-11-24",
+      "covers": "Стоимость 2026–27 для новых студентов: обучение, доплата нерезидента 39 270 USD, общежитие, питание, страховка"
+    },
+    {
+      "url": "https://financialaid.berkeley.edu/meeting-nonresident-costs/",
+      "accessed": "2026-11-24",
+      "covers": "Нерезиденты не получают need-based грантов и большинства стипендий"
+    },
+    {
+      "url": "https://housing.berkeley.edu/",
+      "accessed": "2026-11-24",
+      "covers": "Гарантия жилья на два года для первокурсников"
+    },
+    {
+      "url": "https://www.berkeley.edu/about/",
+      "accessed": "2026-11-24",
+      "covers": "Год основания UC — 1868"
+    },
+    {
+      "url": "https://poetsandquants.com/2026/06/23/how-mit-again-topped-the-qs-world-university-rankings/",
+      "accessed": "2026-11-24",
+      "covers": "QS 2027: Беркли опустился с 17-го на 20-е место (агрегатор; сайт QS закрыт для автоматического доступа)"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-california-berkeley",
+      "accessed": "2026-11-24",
+      "covers": "THE World University Rankings 2027 — =9"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-24",
+      "covers": "Посольства для россиян (Астана, Варшава). Страница закрыта для автоматического доступа (Cloudflare), сведения взяты из поисковой выдачи по ней и публикаций СМИ — перепроверить вручную"
+    },
+    {
+      "url": "https://www.ice.gov/sevis/i901",
+      "accessed": "2026-11-24",
+      "covers": "Сбор SEVIS I-901 для F-1 — 350 USD"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Узнать размер взноса за заявку UC для иностранцев",
+    "Проверить, влияет ли просьба о помощи на зачисление иностранцев (need-blind / need-aware) и доступна ли им стипендия Regents’ and Chancellor’s",
+    "Подтвердить место в QS 2027 на topuniversities.com",
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
+  ],
+  "prep": {
+    "must": "Подай заявку UC Application до 30 ноября 2026: внеси оценки точно как в школьных документах и ответь на 4 личных вопроса до 350 слов. Подтверди английский до 31 января — TOEFL от 90, IELTS от 6.5 или Duolingo от 115. SAT не нужен — его не учитывают.",
+    "good": "Нужен средний балл не ниже 3.4 по 15 академическим курсам, включая 2 года иностранного языка и год искусства, так что держи оценки ровными. Помощи для нерезидентов почти нет, поэтому заранее посчитай бюджет около 94 000 USD в год и ищи внешние стипендии.",
+    "source": "https://admissions.berkeley.edu/apply-to-berkeley/international-students/requirements-for-international-students/"
+  }
 }
