@@ -260,6 +260,15 @@
     "student_life",
     "employment"
   ],
+  "photos": [
+    {
+      "file": "photos/ucl/1.jpg",
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wilkins_Building_1%2C_UCL%2C_London_-_Diliff.jpg",
+      "caption": "Здание Уилкинса (Wilkins Building) с портиком — главный корпус UCL"
+    }
+  ],
   "prep": {
     "must": "Готовь A-levels или IB (например, Computer Science — A*A*A или IB 40, Economics — A*AA с A* по математике и тест TMUA) либо закладывай год на подготовительную программу UPC. Подай UCAS до 13 января 2027 (медицина — до 15 октября 2026 с UCAT) и сдай IELTS на уровень своего курса: от 6.5 до 7.5 и выше.",
     "good": "Сразу после предложения подай заявку на общежитие, чтобы попасть под гарантию для первокурсников. Если доход семьи невысокий, подавай на UCL Global Undergraduate Scholarship; все цифры перепроверь на сайте UCL — карточка собрана без прямого доступа к нему.",
@@ -373,7 +382,6 @@
     "Найти A-levels/IB и тесты для Law LLB, Architecture BSc и Medicine MBBS",
     "Найти цены на общежития UCL на 2027-28 и срок подачи заявки на жильё",
     "Проверить условия UCL Global Undergraduate Scholarship на 2027/28",
-    "Найти расходы на жизнь в оценке самого UCL",
-    "Добавить фото со свободной лицензией (Wikimedia Commons ограничил частоту запросов)"
+    "Найти расходы на жизнь в оценке самого UCL"
   ]
 }
