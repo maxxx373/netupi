@@ -2,13 +2,29 @@
   "id": "cincinnati",
   "type": "university",
   "name": {
-    "ru": "University of Cincinnati",
-    "en": "University of Cincinnati"
+    "ru": "Университет Цинциннати",
+    "en": "University of Cincinnati",
+    "short": "UC",
+    "alt": [
+      "UCincinnati"
+    ]
   },
   "country": "US",
   "city": "Цинциннати, Огайо",
+  "city_size": "mid",
+  "ownership": "public",
+  "founded": 1819,
   "website": "https://www.uc.edu/",
   "admissions_url": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
+  "intl_students_url": "https://www.admissions.uc.edu/information/international.html",
+  "summary": "Государственный исследовательский университет в Огайо, основан в 1819 году; здесь в 1906 году появилась первая в мире программа кооперативного обучения (co-op), когда учёба чередуется с оплачиваемой работой. Подают через Common App, SAT/ACT не обязательны, английский — IELTS 6.5 или TOEFL 79. Обучение для иностранцев — около 30 000 USD в год и фиксируется на весь срок, а merit-стипендия до 15 000 USD в год назначается автоматически.",
+  "highlights": [
+    "Родина кооперативного обучения (co-op) — оплачиваемая работа по специальности во время учёбы",
+    "Стипендия International Outreach Award 5 000–15 000 USD в год без отдельной заявки",
+    "SAT/ACT не обязательны, Duolingo принимают (от 100)",
+    "Тариф Cincinnati Tuition Guarantee: цена обучения и жилья не меняется 4–5 лет",
+    "На сайте есть отдельные правила для российского аттестата"
+  ],
   "about": "Государственный исследовательский университет с программами в инженерии, медицине, бизнесе, дизайне и информационных технологиях. Университет подчёркивает практическое обучение и опыт работы в ходе учёбы.",
   "areas": [
     "engineering",
@@ -22,31 +38,314 @@
   "art": "modern",
   "fields": [
     "engineering",
+    "it",
     "business",
     "medicine",
     "design_art",
-    "it",
+    "architecture",
     "natural_sciences",
-    "media"
+    "media",
+    "music",
+    "pedagogy",
+    "social_sciences",
+    "humanities"
   ],
-  "prep": {
-    "must": "Common Application; школьные transcript и подтверждение окончания школы; английский тест для иностранных абитуриентов. SAT/ACT для ряда заявок необязательны, но политика зависит от программы.",
-    "good": "Переведи школьные документы, проверь требования к английскому и дополнительным материалам конкретного колледжа. Рекомендательное письмо в общих правилах указано как желательное, но не обязательное.",
-    "source": "https://www.admissions.uc.edu/information/international/requirements/freshman.html"
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (College of Engineering and Applied Science)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    },
+    {
+      "name": "Mechanical Engineering (CEAS)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    },
+    {
+      "name": "Architecture (College of Design, Architecture, Art, and Planning — DAAP)",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    },
+    {
+      "name": "Industrial Design (DAAP)",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    },
+    {
+      "name": "Business (Lindner College of Business)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    },
+    {
+      "name": "Nursing (College of Nursing)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "tuition": {
+        "amount": 30158,
+        "currency": "USD",
+        "period": "year",
+        "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 30158,
+      "currency": "USD",
+      "period": "year",
+      "note": "Когорта 2026–27, кампус Uptown, нерезидент: 15 079 USD за семестр (7 412 обучение и сборы + 7 667 доплата нерезидента); тариф фиксируется на 4–5 лет. Могут добавиться сборы программы"
+    },
+    "tuition_max": {
+      "amount": 30158,
+      "currency": "USD",
+      "period": "year",
+      "note": "Единый тариф нерезидента для кампуса Uptown; на региональных кампусах Blue Ash и Clermont дешевле (8 218 и 7 196 USD за семестр)"
+    },
+    "living_month_estimate": {
+      "amount": 14546,
+      "currency": "USD",
+      "period": "year",
+      "note": "Общежитие (традиционная комната на несколько человек) с обязательным для первокурсников планом питания, когорта 2026–27, за учебный год"
+    }
   },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "International Outreach Award",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Merit-стипендия 5 000–15 000 USD в год на основном кампусе (2 000–4 000 USD на региональных), продлевается до 8 семестров. Отдельной заявки нет: решают по документам для поступления. Нужен средний балл не ниже 3.0 из 4.0 (без надбавок) и официальный сертификат английского, а полная заявка — к 1 ноября. Покрывает только доплату нерезидента. Полных стипендий и помощи по потребности иностранцам нет",
+        "url": "https://www.admissions.uc.edu/information/international/finance/scholarship.html"
+      }
+    ]
+  },
+  "requirements": {
+    "gpa_min": 3.0,
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Письмо и говорение от 6.0, остальное от 5.5. Для большинства колледжей; в колледже музыки CCM — 6.0. Результат не старше 2 лет"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "79",
+        "note": "Письмо и говорение от 20, остальное от 15. С января 2026 по новой шкале: 4.0 (секции письмо/говорение 4.0, остальные 3.5). В CCM — 66"
+      },
+      {
+        "exam": "DET",
+        "min_score": "100",
+        "note": "Production и Conversation тоже от 100"
+      },
+      {
+        "exam": "SAT",
+        "min_score": "480",
+        "note": "Сам SAT не обязателен. Reading & Writing от 480 засчитывают как подтверждение английского"
+      },
+      {
+        "exam": "ACT",
+        "min_score": "19",
+        "note": "Не обязателен; English от 19 засчитывают как подтверждение английского"
+      },
+      {
+        "exam": "OTHER",
+        "note": "Также принимают Cambridge (176, лучше C1 Advanced), PTE (53), ELS (уровень 112). В колледже медсестёр (Nursing) английский подтверждают только через SAT или ACT"
+      }
+    ],
+    "recommendations": false,
+    "documents": [
+      "Common Application",
+      "Взнос 100 USD (не возвращается)",
+      "Выписки оценок за последние 3–4 года с заверенным переводом на английский",
+      "Результат английского теста (или основание для освобождения)",
+      "По желанию: SAT/ACT и одно рекомендательное письмо (учитель, консультант, тренер, руководитель — не родственник)",
+      "После зачисления — итоговые оценки, результаты экзаменов и документ об окончании школы от школьного консультанта"
+    ],
+    "notes": "Для России: укажи текущие предметы в разделе Common App «Current or Most Recent Year Courses», а школа загружает копию аттестата об основном общем образовании (9 класс) с результатами экзаменов, оценки за 10 класс и всё, что есть за 11-й к сроку подачи. Если школа уже окончена — заверенную копию аттестата о среднем общем образовании. Документы не на английском — с переводом. Документ должен давать право поступать в вуз в своей стране. Ожидаются 4 года математики и 3–4 года естественных наук, включая химию или физику. Школа может прислать документы на почту приёмной комиссии или через Common App; присланные тобой копии считаются неофициальными."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1",
+    "notes": "Нужна виза F-1. Основание — I-20 от университета после зачисления и подтверждения денег на учёбу. Гражданам России, живущим в России, Госдеп США назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); визовый отдел в Москве студенческие визы не оформляет. Записаться в Варшаву на практике сложно, чаще едут в Астану. Перед собеседованием нужно оплатить сбор SEVIS I-901 — 350 USD для F-1.",
+    "url": "https://www.uc.edu/about/international/visa.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 7273,
+      "currency": "USD",
+      "period": "semester",
+      "note": "Традиционная комната на несколько человек с планом питания All-Access, когорта 2026–27; одноместная — 7 966 USD за семестр"
+    },
+    "notes": "Первокурсники, живущие дальше 50 миль от кампуса, обязаны жить в общежитии и покупать полный план питания. Место гарантировано, если заявка на жильё подана до приоритетного срока — 1 мая (в цикле 2026–27). На региональных кампусах жильё не гарантировано."
+  },
+  "deadlines": [
+    {
+      "what": "Early Action (приоритет на конкурсные программы и Honors; гарантирует рассмотрение на стипендию)",
+      "end": "2026-11-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Совет приёмной комиссии: прислать полную заявку с документами заранее",
+      "end": "2026-10-20",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Rolling — рассмотрение при наличии мест",
+      "end": "2027-03-01",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Rolling на весенний семестр",
+      "end": "2026-11-01",
+      "intake": "Весенний 2027"
+    }
+  ],
+  "rankings": [],
+  "perks": [
+    "internships",
+    "employment",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/cincinnati/1.jpg",
+      "author": "Antony-22",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:McMicken_Hall_UofC_2017.jpg",
+      "caption": "Макмикен-холл на главном кампусе"
+    }
+  ],
   "sources": [
     {
       "url": "https://www.admissions.uc.edu/information/international/requirements/freshman.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-24",
+      "covers": "Как подать, взнос 100 USD, сроки EA и rolling, SAT/ACT по желанию, минимумы английского по колледжам, рекомендация по желанию"
+    },
+    {
+      "url": "https://admissions.uc.edu/information/international/requirements/transcript.html",
+      "accessed": "2026-11-24",
+      "covers": "Требования к российским школьным документам (аттестаты, оценки 10–11 классов, перевод)"
+    },
+    {
+      "url": "https://www.admissions.uc.edu/information/international/finance/scholarship.html",
+      "accessed": "2026-11-24",
+      "covers": "International Outreach Award: размер, условия, срок 1 ноября; нет need-based и full ride"
+    },
+    {
+      "url": "https://www.admissions.uc.edu/information/international/finance.html",
+      "accessed": "2026-11-24",
+      "covers": "Обязательное общежитие для иностранных первокурсников, co-op (цены на странице устарели — 2022–23)"
+    },
+    {
+      "url": "https://www.uc.edu/about/bursar/tuition-fees.html",
+      "accessed": "2026-11-24",
+      "covers": "Тарифы когорты 2026–27, Tuition Guarantee"
+    },
+    {
+      "url": "https://www.uc.edu/about/bursar/tuition-fees/non-resident-surcharges.html",
+      "accessed": "2026-11-24",
+      "covers": "Доплата нерезидента 2026–27"
+    },
+    {
+      "url": "https://www.uc.edu/campus-life/housing/apply/rates.html",
+      "accessed": "2026-11-24",
+      "covers": "Цены жилья с питанием 2026–27, обязательный план питания"
+    },
+    {
+      "url": "https://www.uc.edu/campus-life/housing.html",
+      "accessed": "2026-11-24",
+      "covers": "Приоритетный срок заявки на жильё 1 мая и гарантия"
+    },
+    {
+      "url": "https://www.uc.edu/campus-life/housing/apply/local-exemption.html",
+      "accessed": "2026-11-24",
+      "covers": "Обязанность жить в общежитии при расстоянии больше 50 миль"
+    },
+    {
+      "url": "https://www.uc.edu/about.html",
+      "accessed": "2026-11-24",
+      "covers": "Год основания — 1819"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-cincinnati",
+      "accessed": "2026-11-24",
+      "covers": "Первая программа co-op в 1906 году; в THE 2027 университета нет (последний результат — 2021, 251–300)"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-24",
+      "covers": "Посольства для россиян (Астана, Варшава). Страница закрыта для автоматического доступа (Cloudflare), сведения взяты из поисковой выдачи по ней и публикаций СМИ — перепроверить вручную"
+    },
+    {
+      "url": "https://www.ice.gov/sevis/i901",
+      "accessed": "2026-11-24",
+      "covers": "Сбор SEVIS I-901 для F-1 — 350 USD"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Уточнить, обязательно ли эссе Common App для поступления в Цинциннати",
+    "Уточнить сборы программ (program fees) для инженерии, DAAP и других колледжей",
+    "Найти официальную оценку полной стоимости года (питание, страховка, личные расходы) на 2026–27 — на странице для иностранцев цены 2022–23",
+    "Добавить место в QS World University Rankings 2027 с официального сайта (по агрегаторам — 741–750)",
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
+  ],
+  "prep": {
+    "must": "Подай Common App до 1 ноября 2026 (Early Action) — это даёт приоритет на конкурсные программы и гарантирует рассмотрение на стипендию; позже можно до 1 марта, если остались места. Школа загружает аттестат за 9 класс, оценки за 10–11 классы с переводом на английский, а ты сдаёшь IELTS от 6.5, TOEFL от 79 или Duolingo от 100.",
+    "good": "Держи средний балл не ниже 3.0 из 4.0 — это порог для стипендии до 15 000 USD в год, которую назначают автоматически. Приложи рекомендацию учителя и подай заявку на общежитие до 1 мая, чтобы место было гарантировано.",
+    "source": "https://www.admissions.uc.edu/information/international/requirements/freshman.html"
+  }
 }

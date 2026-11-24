@@ -2,13 +2,31 @@
   "id": "gatech",
   "type": "university",
   "name": {
-    "ru": "Georgia Institute of Technology",
-    "en": "Georgia Institute of Technology"
+    "ru": "Технологический институт Джорджии",
+    "en": "Georgia Institute of Technology",
+    "short": "Georgia Tech",
+    "alt": [
+      "GT",
+      "Georgia Tech",
+      "Джорджия Тек"
+    ]
   },
   "country": "US",
   "city": "Атланта, Джорджия",
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1885,
   "website": "https://www.gatech.edu/",
-  "admissions_url": "https://admission.gatech.edu/international/first-year",
+  "admissions_url": "https://admission.gatech.edu/first-year/deadlines",
+  "intl_students_url": "https://admission.gatech.edu/international/first-year",
+  "summary": "Государственный технологический университет в центре Атланты, основан в 1885 году; сильнее всего в инженерии и компьютерных науках. Подают только через Common App, иностранцы — в раунд Early Action 2 (до 2 ноября) или Regular Decision (до 6 января). SAT или ACT обязательны всем, а английский подтверждают по правилам университетской системы Джорджии. Обучение для иностранцев — около 37 300 USD в год с учётом сборов.",
+  "highlights": [
+    "49-е место в THE World University Rankings 2027",
+    "SAT или ACT обязательны для всех поступающих",
+    "Иностранцы подают в Early Action 2 (до 2 ноября) — только ранние раунды дают шанс на merit-стипендии",
+    "Обучение дешевле многих топ-вузов США: 35 610 USD в год для иностранцев",
+    "Совет для школ с 11-летней программой: подтвердить математику (особенно матанализ) сертификатом Schoolhouse.world"
+  ],
   "about": "Публичный технологический университет в Атланте, известный инженерными, вычислительными и естественно-научными направлениями. Есть междисциплинарные и архитектурные программы.",
   "areas": [
     "engineering",
@@ -23,26 +41,358 @@
     "it",
     "natural_sciences",
     "business",
-    "architecture"
+    "architecture",
+    "design_art",
+    "economics",
+    "international_relations",
+    "social_sciences"
   ],
-  "prep": {
-    "must": "Заявка первого курса; академические документы по системе образования страны; SAT или ACT; подтверждение английского языка по допустимому для Georgia Tech способу.",
-    "good": "Удели внимание математике и естественным наукам: университет рекомендует сильную подготовку по этим предметам. Проверь, как именно школе отправлять документы и какой языковой экзамен подходит.",
-    "source": "https://admission.gatech.edu/international/first-year"
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (College of Computing)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35610,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год"
+      }
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35610,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год"
+      }
+    },
+    {
+      "name": "Industrial Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35610,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год"
+      }
+    },
+    {
+      "name": "Aerospace Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35610,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год"
+      }
+    },
+    {
+      "name": "Business Administration (Scheller College of Business)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35610,
+        "currency": "USD",
+        "period": "year",
+        "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 35610,
+      "currency": "USD",
+      "period": "year",
+      "note": "Тариф 2026–27 для иностранцев (Out of Country): 2 семестра по 17 805 USD; плюс обязательные сборы 1 716 USD в год. Полная стоимость первого года в общежитии — 56 520 USD"
+    },
+    "tuition_max": {
+      "amount": 35610,
+      "currency": "USD",
+      "period": "year",
+      "note": "Единый тариф Out of Country для кампуса в Атланте"
+    },
+    "living_month_estimate": {
+      "amount": 14628,
+      "currency": "USD",
+      "period": "year",
+      "note": "Общежитие 8 318 + питание 6 310 USD за учебный год 2026–27 (бюджет Georgia Tech для первокурсника на кампусе)"
+    }
   },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Merit-стипендии (Stamps President’s Scholars, Scheller Dean’s Scholarship и др.)",
+        "coverage": "partial",
+        "note": "Рассматривают автоматически, отдельной заявки нет, но только если подаёшь в раунд Early Action. Могут ли получить их иностранцы, на сайте не сказано",
+        "url": "https://admission.gatech.edu/first-year/deadlines"
+      },
+      {
+        "name": "Частные кредиты и экстренный кредит на обучение",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Для иностранцев финансовый офис предлагает частные кредиты (обычно нужен поручитель — гражданин или резидент США), экстренный кредит при непредвиденных проблемах и рассрочку. Грантов по потребности для иностранцев на странице нет; политика need-blind / need-aware не указана",
+        "url": "https://finaid.gatech.edu/apply/international"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "note": "SAT или ACT обязательны. Смотрят лучший результат по каждой секции (Reading & Writing и Math). Эссе не нужно. Баллы можно указать самостоятельно, официальные — после зачисления. Код — 5248"
+      },
+      {
+        "exam": "ACT",
+        "note": "Альтернатива SAT: учитывают English, Math и Reading. Код — 0818"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "3.5",
+        "note": "Минимум системы университетов Джорджии (USG) по новой шкале: 3.5, рекомендуется 4.0; для тестов до 2026 года — 69 (рекомендуется 79)"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "Минимум USG, рекомендуется 6.5"
+      },
+      {
+        "exam": "DET",
+        "note": "Duolingo требование USG не закрывает, но его можно приложить как дополнительный материал"
+      },
+      {
+        "exam": "OTHER",
+        "note": "Также подходят PTE Academic (53, рекомендуется 58), Cambridge (169, рекомендуется 177), MET (55) или SAT Reading & Writing от 480"
+      }
+    ],
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Common Application — Georgia Tech принимает только её",
+      "Взнос за заявку 85 USD для иностранцев",
+      "Эссе на одну из семи тем Common App",
+      "Выписки оценок за каждый год старшей школы с переводом на английский",
+      "Результаты SAT или ACT (можно указать самостоятельно)",
+      "Подтверждение английского по правилам USG",
+      "По желанию: до двух рекомендаций учителей и одна от консультанта, School Report",
+      "По желанию: неподготовленное интервью через InitialView или Vericant — до срока подачи документов"
+    ],
+    "notes": "Для российской школы действуют правила «других национальных программ»: нужны оценки за каждый год старшей школы с переводом, и ты должен закончить уровень, который позволяет поступить в сильный вуз своей страны. Если в школе меньше четырёх лет старших классов, выписку за четвёртый год (например, 8-й класс) пришлют до начала учёбы. Тем, у кого меньше 12 лет школы или нет курса матанализа, советуют получить бесплатный сертификат по предмету на Schoolhouse.world, особенно по calculus. Нужно пройти программу, равноценную американской: 4 года английского, математики и естественных наук, 3 года обществознания, 2 года иностранного языка. Отбор целостный, жители Джорджии составляют большинство набора, поэтому конкурс для иностранцев выше. Сотрудники приёмной комиссии интервью не проводят."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1",
+    "notes": "Нужна виза F-1. Основание — I-20, который университет выдаёт после зачисления и проверки финансовых документов. Гражданам России, живущим в России, Госдеп США назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); визовый отдел в Москве студенческие визы не оформляет. Записаться в Варшаву на практике сложно, чаще едут в Астану. Перед собеседованием нужно оплатить сбор SEVIS I-901 — 350 USD для F-1.",
+    "url": "https://admission.gatech.edu/international/first-year"
+  },
+  "dorm": {
+    "available": true,
+    "cost_month": {
+      "amount": 3919,
+      "currency": "USD",
+      "period": "semester",
+      "note": "Двухместная комната в традиционном общежитии (Armstrong, Caldwell и др.), 2026–27; другие варианты — от 3 762 до 5 498 USD за семестр. Плюс обязательный для первокурсников план питания и разовый взнос 80 USD за заявку"
+    },
+    "notes": "Большинство первокурсников живёт на кампусе, но жить там не обязательно. Гарантию места для первокурсников на сайте найти не удалось."
+  },
+  "deadlines": [
+    {
+      "what": "Early Action 2 (для поступающих не из Джорджии, включая иностранцев)",
+      "start": "2026-08-01",
+      "end": "2026-11-02",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "EA2: срок для документов (выписки, рекомендации, интервью)",
+      "end": "2026-11-16",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "EA2: срок для самостоятельно указанных баллов SAT/ACT",
+      "end": "2026-12-08",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по EA2 — в конце января 2027",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Regular Decision",
+      "end": "2027-01-06",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "RD: срок для документов и баллов SAT/ACT",
+      "end": "2027-01-22",
+      "intake": "Осенний 2027"
+    },
+    {
+      "what": "Решения по RD — в середине марта 2027; депозит до 1 мая",
+      "end": "2027-05-01",
+      "intake": "Осенний 2027"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "49"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment"
+  ],
+  "photos": [
+    {
+      "file": "photos/gatech/1.jpg",
+      "author": "Mistercontributer",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lettie_Pate_Whitehead_Evans_Administration_Building.jpg",
+      "caption": "Административное здание с башней Tech Tower"
+    }
+  ],
   "sources": [
     {
       "url": "https://admission.gatech.edu/international/first-year",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-24",
+      "covers": "Приём иностранцев: требования к выпискам по странам, английский по правилам USG, Duolingo и интервью как дополнение, Schoolhouse"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/deadlines",
+      "accessed": "2026-11-24",
+      "covers": "Сроки 2026–27 (EA1, EA2, RD), состав заявки, merit-стипендии только в EA"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/standardized-tests",
+      "accessed": "2026-11-24",
+      "covers": "SAT/ACT обязательны, коды, оценка по секциям"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/personal-essays",
+      "accessed": "2026-11-24",
+      "covers": "Эссе Common App"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/recommendations",
+      "accessed": "2026-11-24",
+      "covers": "Рекомендации по желанию"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/interview",
+      "accessed": "2026-11-24",
+      "covers": "Интервью InitialView/Vericant по желанию"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/application-fees",
+      "accessed": "2026-11-24",
+      "covers": "Взнос 85 USD для иностранцев"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/academic-preparation",
+      "accessed": "2026-11-24",
+      "covers": "Обязательные предметы USG"
+    },
+    {
+      "url": "https://admission.gatech.edu/first-year/application-review",
+      "accessed": "2026-11-24",
+      "covers": "Целостный отбор, приоритет жителей Джорджии"
+    },
+    {
+      "url": "https://www.usg.edu/international_education/esl_programs/english_proficiency_requirements",
+      "accessed": "2026-11-24",
+      "covers": "Минимальные и рекомендуемые баллы английских тестов USG"
+    },
+    {
+      "url": "https://finaid.gatech.edu/costs/undergraduate-costs",
+      "accessed": "2026-11-24",
+      "covers": "Стоимость 2026–27 для иностранцев (Out of Country): обучение, сборы, жильё, питание"
+    },
+    {
+      "url": "https://bursar.gatech.edu/tuition-fees",
+      "accessed": "2026-11-24",
+      "covers": "Тариф Out-of-Country 17 805 USD за семестр"
+    },
+    {
+      "url": "https://finaid.gatech.edu/apply/international",
+      "accessed": "2026-11-24",
+      "covers": "Финансирование для иностранцев: частные и экстренные кредиты"
+    },
+    {
+      "url": "https://housing.gatech.edu/rates",
+      "accessed": "2026-11-24",
+      "covers": "Цены общежитий 2026–27"
+    },
+    {
+      "url": "https://housing.gatech.edu/new-to-georgia-tech",
+      "accessed": "2026-11-24",
+      "covers": "Жить на кампусе не обязательно, план питания и взнос 80 USD"
+    },
+    {
+      "url": "https://www.gatech.edu/about",
+      "accessed": "2026-11-24",
+      "covers": "Год основания — 1885"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/georgia-institute-technology",
+      "accessed": "2026-11-24",
+      "covers": "THE World University Rankings 2027 — 49-е место"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-24",
+      "covers": "Посольства для россиян (Астана, Варшава). Страница закрыта для автоматического доступа (Cloudflare), сведения взяты из поисковой выдачи по ней и публикаций СМИ — перепроверить вручную"
+    },
+    {
+      "url": "https://www.ice.gov/sevis/i901",
+      "accessed": "2026-11-24",
+      "covers": "Сбор SEVIS I-901 для F-1 — 350 USD"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-24",
+  "data_year": 2027,
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Узнать, могут ли иностранцы получить Stamps President’s Scholars и другие merit-стипендии",
+    "Проверить, есть ли гарантия общежития для первокурсников и сколько стоит план питания",
+    "Уточнить, нужен ли заверенный (а не любой) перевод российских документов",
+    "Добавить место в QS World University Rankings 2027 с официального сайта",
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
+  ],
+  "prep": {
+    "must": "Подай Common App в раунд Early Action 2 до 2 ноября (документы — до 16 ноября) или в Regular Decision до 6 января 2027. Сдай SAT или ACT — без них заявку не рассмотрят — и подтверди английский: TOEFL от 3.5 по новой шкале (лучше 4.0) или IELTS от 6.0 (лучше 6.5). Приложи выписки оценок за каждый год старшей школы с переводом.",
+    "good": "Подавай в Early Action — только этот раунд даёт шанс на merit-стипендии. Подтверди уровень по математике бесплатным сертификатом Schoolhouse.world по calculus и запишись на интервью InitialView или Vericant, чтобы показать свой английский.",
+    "source": "https://admission.gatech.edu/international/first-year"
+  }
 }
