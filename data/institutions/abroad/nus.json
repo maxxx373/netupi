@@ -46,13 +46,13 @@
     },
     {
       "url": "https://nus.edu.sg/oam/admissions/important-dates",
-      "accessed": "2026-11-25",
-      "covers": "Окно подачи на AY2027/28"
+      "accessed": "2026-11-26",
+      "covers": "сроки подачи 2027"
     },
     {
       "url": "https://nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
-      "accessed": "2026-11-25",
-      "covers": "Тарифы AY2026/27 по школам и гранту"
+      "accessed": "2026-11-26",
+      "covers": "плата 2026/27 с грантом и без"
     },
     {
       "url": "https://osa.nus.edu.sg/accommodation/hostel-application/application-guide-undergraduate/eligibility/",
@@ -61,8 +61,8 @@
     },
     {
       "url": "https://nus.edu.sg/oam/financial-aid/living-costs",
-      "accessed": "2026-11-25",
-      "covers": "Расходы на проживание"
+      "accessed": "2026-11-26",
+      "covers": "расходы на жизнь, общежития"
     },
     {
       "url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass",
@@ -90,11 +90,11 @@
       "covers": "Фотография библиотеки"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "До публикации проверить с NUS, какая дополнительная квалификация нужна именно выпускникам российских 11-летних школ; общая страница не решает этот случай однозначно.",
-    "Обновить тарифы, стипендии и сроки на AY2027/28, когда NUS их выпустит."
+    "Требования NUS к российскому аттестату (SAT/ACT?)",
+    "Место в QS 2027"
   ],
   "founded": 1905,
   "city_size": "mega",
@@ -110,12 +110,13 @@
   "study_formats": [
     "full"
   ],
-  "summary": "Крупный государственный исследовательский университет на юге Сингапура, с кампусом Kent Ridge и учебным районом University Town. Бакалаврские направления включают вычислительные науки, инженерию, естественные науки, бизнес, право, архитектуру и медицину; для ряда программ есть отдельный отбор. Английский — основной язык обучения.",
+  "summary": "Лучший университет Азии по многим рейтингам, в Сингапуре; обучение на английском. Иностранцы могут получить государственный грант на обучение (Tuition Grant) — тогда плата 18 050–22 200 сингапурских долларов в год, но после выпуска нужно 3 года отработать в Сингапуре. Без гранта — 33 400–44 450. Подача с 16 декабря 2026 по 17 февраля 2027.",
   "highlights": [
-    "University Town объединяет учебные пространства, студенческие резиденции и места для совместной работы",
-    "Широкий выбор бакалаврских школ и междисциплинарных программ",
-    "Международная среда и развитые студенческие клубы",
-    "MOE Tuition Grant снижает плату, но для иностранных студентов связан с обязательством работать в Сингапуре три года после выпуска"
+    "Обучение на английском, кампус Kent Ridge и University Town",
+    "С грантом MOE: 21 400 S$ (CS, инженерия, науки), 22 200 S$ (бизнес) для неазиатских иностранцев",
+    "Без гранта: 33 400–44 450 S$ (кроме медицины)",
+    "Подача: 16 декабря 2026 — 17 февраля 2027",
+    "Общежитие 4 000–10 290 S$ в год"
   ],
   "intl_students_url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass",
   "programs": [
@@ -129,9 +130,14 @@
         "amount": 21400,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, международный тариф с MOE Tuition Grant; 2027/28 тариф ещё не опубликован"
+        "note": "С грантом MOE (обязательство 3 года работы в Сингапуре), набор 2026/27; без гранта — 39700 S$"
       },
-      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/"
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для части аттестатов нужны SAT/ACT"
+      }
     },
     {
       "name": "Business Administration",
@@ -143,9 +149,14 @@
         "amount": 22200,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, международный тариф с MOE Tuition Grant"
+        "note": "С грантом MOE (обязательство 3 года работы в Сингапуре), набор 2026/27; без гранта — 33400 S$"
       },
-      "url": "https://bba.nus.edu.sg/"
+      "url": "https://bba.nus.edu.sg/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для части аттестатов нужны SAT/ACT"
+      }
     },
     {
       "name": "Law",
@@ -157,9 +168,14 @@
         "amount": 30450,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, международный тариф с MOE Tuition Grant"
+        "note": "С грантом MOE (обязательство 3 года работы в Сингапуре), набор 2026/27; без гранта — 44450 S$"
       },
-      "url": "https://law.nus.edu.sg/"
+      "url": "https://law.nus.edu.sg/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для части аттестатов нужны SAT/ACT"
+      }
     },
     {
       "name": "Architecture",
@@ -168,18 +184,49 @@
       "language": "en",
       "duration_years": 4,
       "tuition": {
-        "amount": 22750,
+        "amount": 21400,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, международный тариф с MOE Tuition Grant"
+        "note": "С грантом MOE (обязательство 3 года работы в Сингапуре), набор 2026/27; без гранта — 36650 S$"
       },
-      "url": "https://cde.nus.edu.sg/arch/"
+      "url": "https://cde.nus.edu.sg/arch/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для части аттестатов нужны SAT/ACT"
+      }
     }
   ],
-  "cost": {},
+  "cost": {
+    "tuition_min": {
+      "amount": 21400,
+      "currency": "SGD",
+      "period": "year",
+      "note": "С грантом MOE, иностранцы не из АСЕАН, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 44450,
+      "currency": "SGD",
+      "period": "year",
+      "note": "Право без гранта; медицина — до 190 150 S$"
+    },
+    "living_month_estimate": {
+      "amount": 500,
+      "currency": "SGD",
+      "period": "month",
+      "note": "6 000 S$ в год без жилья по оценке NUS (еда, транспорт, личное, книги)"
+    }
+  },
   "funding": {
     "free_tuition": false,
     "grants": [
+      {
+        "name": "MOE Tuition Grant",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Снижает плату примерно вдвое; взамен — 3 года работы в Сингапуре после выпуска",
+        "url": "https://nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf"
+      },
       {
         "name": "NUS International Undergraduate Scholarship",
         "coverage": "partial",
@@ -218,45 +265,73 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Singapore Student’s Pass",
-    "notes": "Для очного обучения иностранному студенту обычно нужен Student’s Pass; подача оформляется после получения места через инструкции NUS/ICA. Сроки и документы уточнить после оффера.",
+    "type": "Student's Pass (Сингапур)",
+    "notes": "Нужен Student's Pass: после зачисления NUS регистрирует тебя в системе ICA (SOLAR), ты подаёшь заявку онлайн, а по приезде проходишь оформление в ICA. Нужна ли отдельная въездная виза, ICA укажет в письме об одобрении.",
     "url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "notes": "Иностранных первокурсников, подавших заявку в срок, приоритизируют для размещения на первый год, но место не гарантируется. Опубликованный годовой тариф NUS зависит от резиденции, комнаты и плана питания; смотри актуальную таблицу по типу жилья."
+    "notes": "Общежития на кампусе 4 000–10 290 S$ в год в зависимости от корпуса и комнаты."
   },
   "deadlines": [
     {
-      "what": "Заявка на бакалавриат для international qualifications (кроме IB), набор AY2027/28",
+      "what": "Заявка (иностранная квалификация, кроме IB)",
       "start": "2026-12-16",
       "end": "2027-02-17",
-      "intake": "август 2027"
+      "intake": "Август 2027"
     }
   ],
   "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/National_University_of_Singapore_Entrance_C_17Jul2026.jpg/1280px-National_University_of_Singapore_Entrance_C_17Jul2026.jpg",
+      "author": "RFNirmala",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:National_University_of_Singapore_Entrance_C_17Jul2026.jpg",
+      "caption": "Въезд на кампус Kent Ridge"
+    },
     {
       "file": "https://nus.edu.sg/oam/images/default-source/oam_revamp/utown-overview--resized-1.jpg",
       "author": "NUS Office of Admissions",
       "license": "© NUS; изображение с официальной страницы",
       "source_url": "https://nus.edu.sg/oam/nus-experience",
-      "caption": "University Town: общий вид жилой и учебной зоны"
+      "caption": "University Town — жилая и учебная зона, вид сверху"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/University_Town_Skyline_from_Northwest_Kent_Ridge_Campus%2C_National_University_of_Singapore%2C_February_2020.jpg/1280px-University_Town_Skyline_from_Northwest_Kent_Ridge_Campus%2C_National_University_of_Singapore%2C_February_2020.jpg",
+      "author": "Joshua Rommel Hayag Vargas",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_Town_Skyline_from_Northwest_Kent_Ridge_Campus,_National_University_of_Singapore,_February_2020.jpg",
+      "caption": "Корпуса University Town"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/National_University_of_Singapore_-_Sports_and_Recreation_Centre.jpg/1280px-National_University_of_Singapore_-_Sports_and_Recreation_Centre.jpg",
+      "author": "RFNirmala",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:National_University_of_Singapore_-_Sports_and_Recreation_Centre.jpg",
+      "caption": "Спортивный центр NUS"
     },
     {
       "file": "https://nus.edu.sg/nuslibraries/images/default-source/sustainability-page/msl_skylight_msl-opening.jpg",
       "author": "NUS Libraries",
       "license": "© NUS; изображение с официальной страницы",
       "source_url": "https://nus.edu.sg/nuslibraries/sustainability",
-      "caption": "Интерьер учебной библиотеки с верхним естественным светом"
+      "caption": "Библиотека с верхним естественным светом"
     },
     {
-      "file": "https://nus.edu.sg/osa/images/default-source/default-album/pgpr-hostel.jpeg?sfvrsn=8ab0ab74_0",
-      "author": "NUS Office of Student Affairs",
-      "license": "© NUS; изображение с официальной страницы",
-      "source_url": "https://nus.edu.sg/osa/pgpr/admission/room-types",
-      "caption": "Студенческая резиденция Prince George’s Park"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/CREATE_Tower%2C_National_University_of_Singapore_at_night_13Jul2026.jpg/1280px-CREATE_Tower%2C_National_University_of_Singapore_at_night_13Jul2026.jpg",
+      "author": "RFNirmala",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CREATE_Tower,_National_University_of_Singapore_at_night_13Jul2026.jpg",
+      "caption": "Исследовательская башня CREATE"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "campus",
+    "internships",
+    "employment"
+  ]
 }

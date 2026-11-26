@@ -2,8 +2,9 @@
   "id": "auckland",
   "type": "university",
   "name": {
-    "ru": "The University of Auckland",
-    "en": "The University of Auckland"
+    "ru": "Оклендский университет",
+    "en": "The University of Auckland",
+    "short": "UoA"
   },
   "country": "NZ",
   "city": "Окленд",
@@ -48,17 +49,17 @@
     {
       "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/undergraduate-english-language-requirements.html",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "IELTS указан по программам"
     },
     {
       "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/undergraduate-application-closing-dates.html",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "сроки подачи на семестр 1 2027"
     },
     {
       "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "плата для иностранцев 2027 по программам"
     },
     {
       "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/scholarships-for-international-students/undergraduate-scholarships-for-international-students.html",
@@ -84,9 +85,11 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Перед подачей сверить российский аттестат в country-specific qualification tool: может потребоваться foundation или дополнительная университетская учёба."
+    "Требования к российскому аттестату",
+    "Сумма денег на жизнь для визы (INZ)",
+    "Место в QS 2027"
   ],
-  "summary": "Крупный исследовательский университет в центре Окленда. Исторические здания и ClockTower соседствуют с научными корпусами, библиотеками, инженерными площадками и несколькими студенческими резиденциями.",
+  "summary": "Крупнейший и самый высокий в рейтингах университет Новой Зеландии, в центре Окленда. Плата для иностранцев на 2027 год: искусство — 42 236 новозеландских долларов, коммерция — 51 020, инженерия — 60 910. Заявка на февральский набор 2027 — до 8 декабря 2026.",
   "data_year": 2027,
   "founded": 1883,
   "city_size": "mega",
@@ -103,9 +106,11 @@
     "en"
   ],
   "highlights": [
-    "Много городских кампусов и лабораторий в центре Окленда",
-    "International tuition 2027 опубликован по программам",
-    "Обязательная страховка международного студента"
+    "Лучший университет Новой Зеландии, кампус в центре Окленда",
+    "Обучение 2027: 42 236 NZD (искусство) — 60 910 NZD (инженерия)",
+    "Заявка на семестр 1 2027 — до 8 декабря 2026",
+    "IELTS Academic — минимум указан на странице каждой программы",
+    "Резиденции в шаговой доступности от кампуса"
   ],
   "intl_students_url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
   "programs": [
@@ -114,42 +119,80 @@
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html"
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html",
+      "tuition": {
+        "amount": 60909.6,
+        "currency": "NZD",
+        "period": "year",
+        "note": "Плата для иностранцев, набор 2027 (по программе)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен признанный аттестат с проходным баллом программы; минимум IELTS указан на странице программы"
+      }
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен признанный аттестат с проходным баллом программы; минимум IELTS указан на странице программы"
+      }
     },
     {
       "name": "Bachelor of Architectural Studies",
       "field": "architecture",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html"
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html",
+      "tuition": {
+        "amount": 54754.8,
+        "currency": "NZD",
+        "period": "year",
+        "note": "Плата для иностранцев, набор 2027 (по программе)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен признанный аттестат с проходным баллом программы; минимум IELTS указан на странице программы"
+      }
     },
     {
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html"
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html",
+      "tuition": {
+        "amount": 51020.4,
+        "currency": "NZD",
+        "period": "year",
+        "note": "Плата для иностранцев, набор 2027 (по программе)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен признанный аттестат с проходным баллом программы; минимум IELTS указан на странице программы"
+      }
     }
   ],
   "cost": {
     "tuition_min": {
-      "amount": 42236,
+      "amount": 42236.4,
       "currency": "NZD",
       "period": "year",
-      "note": "Оценка годового tuition 2027 для большинства программ бакалавриата: Arts около NZD 42,236, Engineering около NZD 60,910; медицина и некоторые направления дороже. Не включает student services fee, страховку и проживание."
+      "note": "Bachelor of Arts, 2027"
     },
     "tuition_max": {
-      "amount": 60910,
+      "amount": 60909.6,
       "currency": "NZD",
       "period": "year",
-      "note": "Оценка годового tuition 2027 для большинства программ бакалавриата: Arts около NZD 42,236, Engineering около NZD 60,910; медицина и некоторые направления дороже. Не включает student services fee, страховку и проживание."
+      "note": "Bachelor of Engineering (Honours), 2027; медицина дороже"
     }
   },
   "funding": {
@@ -172,7 +215,7 @@
         "note": "Для большинства бакалаврских программ, без части ниже 5.5; у отдельных курсов выше."
       }
     ],
-    "language_level": "IELTS Academic обычно 6.0 overall и не ниже 5.5 по компоненту; accepted alternatives перечислены университетом.",
+    "language_level": "IELTS Academic: минимум указан для каждой программы (для большинства бакалаврских — 6.0, без частей ниже 5.5).",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -190,8 +233,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "New Zealand Student Visa",
-    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "type": "Студенческая виза Новой Зеландии",
+    "notes": "Нужна студенческая виза: подаётся онлайн в Immigration New Zealand с письмом о зачислении, подтверждением оплаты обучения, денег на жизнь, медстраховкой и билетом (или деньгами на него). Решение принимает только INZ — начинай сразу после предложения.",
     "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
   },
   "dorm": {
@@ -201,51 +244,52 @@
   },
   "deadlines": [
     {
-      "what": "Стандартный срок международной заявки на Semester One 2027",
+      "what": "Заявка на семестр 1 2027 (большинство программ)",
       "end": "2026-12-08",
-      "intake": "март 2027"
-    },
-    {
-      "what": "Стандартный срок международной заявки на Semester Two 2027",
-      "end": "2027-06-08",
-      "intake": "июль 2027"
+      "intake": "Февраль–март 2027"
     }
   ],
   "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Old_Arts_Building%2C_University_of_Auckland_%285936714196%29.jpg/1280px-Old_Arts_Building%2C_University_of_Auckland_%285936714196%29.jpg",
+      "author": "possumgirl2",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Old_Arts_Building,_University_of_Auckland_(5936714196).jpg",
+      "caption": "Old Arts Building с башней с часами — символ университета"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/00_0495_Clock_Tower%2C_University_of_Auckland.jpg/1280px-00_0495_Clock_Tower%2C_University_of_Auckland.jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:00_0495_Clock_Tower,_University_of_Auckland.jpg",
+      "caption": "Башня с часами в окружении пальм"
+    },
     {
       "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/par/linkspagetemplategri_2067374283/par2/subflexicomponentlin/image.img.480.low.jpg/1774313301472.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
-      "caption": "Городской вид рядом с резиденциями Carlaw Park"
+      "caption": "Резиденции Carlaw Park рядом с кампусом"
     },
     {
       "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/firstGrid/par1/subflexicomponentlin/image.img.480.low.jpg/1774313044332.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
-      "caption": "Студенты занимаются у панорамных окон в общем пространстве"
-    },
-    {
-      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/par/linkspagetemplategri_2067374283/par1/subflexicomponentlin/image.img.480.low.jpg/1774313617614.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
-      "caption": "Новый корпус студенческого жилья — визуализация"
+      "caption": "Учебное пространство с панорамными окнами"
     },
     {
       "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/firstGrid/par2/subflexicomponentlin/image.img.480.low.jpg/1701730775276.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
-      "caption": "Стойка и лобби студенческой резиденции"
-    },
-    {
-      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/life-accommodation/_jcr_content/firstGrid/par1/subflexicomponentlin/image.img.480.low.jpg/1749425322040.png",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/life-accommodation.html",
-      "caption": "Жители Grafton Hall во время ориентационной недели"
+      "caption": "Лобби студенческой резиденции"
     }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "campus"
   ]
 }

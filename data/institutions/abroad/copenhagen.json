@@ -2,8 +2,10 @@
   "id": "copenhagen",
   "type": "university",
   "name": {
-    "ru": "University of Copenhagen",
-    "en": "University of Copenhagen"
+    "ru": "Копенгагенский университет",
+    "en": "University of Copenhagen",
+    "short": "UCPH",
+    "local": "Københavns Universitet"
   },
   "country": "DK",
   "city": "Копенгаген",
@@ -40,7 +42,7 @@
     {
       "url": "https://www.ku.dk/studies/admission/bachelor/non-eu-eea-and-non-nordic-countries",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "бакалавриат только на датском, квота 2, тест, сроки"
     },
     {
       "url": "https://www.ku.dk/studies/admission/bachelor",
@@ -55,7 +57,7 @@
     {
       "url": "https://www.ku.dk/studies/admission/application-and-tuition-fees",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "плата для неевропейцев, сбор за заявку"
     },
     {
       "url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships/tuition-fees-and-scholarships",
@@ -91,9 +93,11 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Проверить актуальную цену выбранной программы и признание именно российского аттестата в годовой таблице датского агентства; национальный диапазон стоимости не равен тарифу UCPH."
+    "Точная плата за бакалавриат для неевропейцев",
+    "Где россиянам сдавать биометрию для ВНЖ Дании",
+    "Место в QS 2027"
   ],
-  "summary": "Старейший университет Дании с городскими кампусами по всему Копенгагену. Все программы бакалавриата преподаются на датском — поступающему из России нужен высокий академический датский и прохождение quota 2.",
+  "summary": "Старейший и крупнейший университет Дании (1479). Важно: все бакалаврские программы ведутся на датском, нужен высший уровень датского. Выпускники российских школ подают только через квоту 2 с отдельным тестом, а университет может потребовать 1–2 года вуза в дополнение к аттестату. Заявка до 15 марта.",
   "data_year": 2027,
   "founded": 1479,
   "city_size": "mega",
@@ -110,9 +114,11 @@
     "da"
   ],
   "highlights": [
-    "Бакалавриат ведётся на датском",
-    "Поступление non-EU идёт через quota 2",
-    "Несколько кампусов по районам Копенгагена"
+    "Весь бакалавриат — только на датском языке",
+    "Для неевропейских аттестатов — только квота 2 и тест",
+    "Может понадобиться 1–2 года вуза в дополнение к школе",
+    "Заявка до 15 марта (12:00), документы до 5 июля",
+    "На английском — в основном магистратура"
   ],
   "intl_students_url": "https://www.ku.dk/studies/admission/bachelor/non-eu-eea-and-non-nordic-countries",
   "programs": [
@@ -121,28 +127,48 @@
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "da",
-      "url": "https://www.ku.dk/studies/bachelor/biology"
+      "url": "https://www.ku.dk/studies/bachelor/biology",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Квота 2: тест и индивидуальная оценка; средний балл для неевропейских аттестатов не считается"
+      }
     },
     {
       "name": "Bachelor of Science (Data Science)",
       "field": "it",
       "level": "bachelor",
       "language": "da",
-      "url": "https://www.ku.dk/studies/bachelor/data-science"
+      "url": "https://www.ku.dk/studies/bachelor/data-science",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Квота 2: тест и индивидуальная оценка; средний балл для неевропейских аттестатов не считается"
+      }
     },
     {
       "name": "Bachelor of Science (Economics)",
       "field": "economics",
       "level": "bachelor",
       "language": "da",
-      "url": "https://www.ku.dk/studies/bachelor/economics"
+      "url": "https://www.ku.dk/studies/bachelor/economics",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Квота 2: тест и индивидуальная оценка; средний балл для неевропейских аттестатов не считается"
+      }
     },
     {
       "name": "Bachelor of Veterinary Medicine",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "da",
-      "url": "https://www.ku.dk/studies/bachelor/veterinary-medicine"
+      "url": "https://www.ku.dk/studies/bachelor/veterinary-medicine",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Квота 2: тест и индивидуальная оценка; средний балл для неевропейских аттестатов не считается"
+      }
     }
   ],
   "cost": {
@@ -165,7 +191,7 @@
   },
   "requirements": {
     "intl_exams": [],
-    "language_level": "Датский на высшем академическом уровне / подтверждение Studieprøven или равнозначной квалификации; все bachelor-программы датскоязычные.",
+    "language_level": "Датский на высшем уровне (Dansk A) или подтверждение академического датского. Английский тоже нужен, но обучение на датском.",
     "entrance_tests": true,
     "interview": false,
     "portfolio": "no",
@@ -179,12 +205,12 @@
       "Подтверждение языка обучения",
       "Дополнительные формы, экзамены или портфолио по выбранной программе"
     ],
-    "notes": "Только quota 2 для российской/иной non-EU школьной квалификации, датский обязателен. Некоторые школьные документы требуют дополнения одним-двумя годами высшего образования."
+    "notes": "С неевропейским аттестатом поступают только через квоту 2: обязательный тест и индивидуальная оценка — достаточно ли аттестата или нужно 1–2 года вуза. Подача до 15 марта 12:00, выполнить требования и загрузить документы можно до 5 июля 12:00."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Danish study residence permit",
-    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "type": "ВНЖ для учёбы в Дании",
+    "notes": "Для учёбы больше 3 месяцев нужен вид на жительство для студентов — оформляется через SIRI (nyidanmark.dk) после зачисления, с подтверждением денег на жизнь и оплаты обучения. Биометрию сдают в датском представительстве или визовом центре.",
     "url": "https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study-higher-education"
   },
   "dorm": {
@@ -194,44 +220,43 @@
   },
   "deadlines": [
     {
-      "what": "Крайний срок подачи иностранного школьного диплома через quota 2",
-      "end": "2027-03-15",
-      "intake": "осень 2027"
+      "what": "Заявка на бакалавриат (квота 2)",
+      "end": "03-15",
+      "intake": "Сентябрь"
     },
     {
-      "what": "Крайний срок выполнить/загрузить требования к поступлению",
-      "end": "2027-07-05",
-      "intake": "осень 2027"
+      "what": "Документы и выполнение требований",
+      "end": "07-05"
     }
   ],
   "photos": [
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/b/bb/University_Main_Building.jpg",
+      "author": "Mik Hartwell",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_Main_Building.jpg",
+      "caption": "Главное здание университета на площади Frue Plads"
+    },
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Copenhagen_University_Main_Entrance_DSC09700.jpg",
+      "author": "Per Meistrup",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Copenhagen_University_Main_Entrance_DSC09700.jpg",
+      "caption": "Главный вход в историческое здание"
+    },
     {
       "file": "https://socialsciences.ku.dk/photogallery/spring/foraar-bygning-spejler-sig.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://socialsciences.ku.dk/photogallery",
-      "caption": "Архитектура кампуса, отражение корпуса в стеклянном здании"
-    },
-    {
-      "file": "https://socialsciences.ku.dk/photogallery/summer/sommer-hemmelig-have-laesning.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://socialsciences.ku.dk/photogallery",
-      "caption": "Студент читает в зелёном дворе кампуса"
+      "caption": "Современный корпус факультета социальных наук"
     },
     {
       "file": "https://hum.ku.dk/presse/billeder/S_ndre_Campus_humaniora_300dpi.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://hum.ku.dk/presserum/",
-      "caption": "Студенты занимаются в библиотеке факультета гуманитарных наук; фото KU"
-    },
-    {
-      "file": "https://rootsofeurope.ku.dk/om-forskningscentret-roots-of-europe/projektlokale.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://rootsofeurope.ku.dk/english/about-roots-of-europe/",
-      "caption": "Проектная комната исследовательского центра Roots of Europe"
+      "caption": "Библиотека гуманитарного факультета на Южном кампусе"
     },
     {
       "file": "https://www.ku.dk/fileadmin/_processed_/1/5/csm_aegyptologi_f33d8b2c81.jpg",
@@ -240,5 +265,10 @@
       "source_url": "https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-egyptology",
       "caption": "Учебное пространство в здании университета"
     }
+  ],
+  "perks": [
+    "strong_research",
+    "exchange",
+    "intl_environment"
   ]
 }

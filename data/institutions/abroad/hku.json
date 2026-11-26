@@ -2,8 +2,9 @@
   "id": "hku",
   "type": "university",
   "name": {
-    "ru": "The University of Hong Kong",
-    "en": "The University of Hong Kong"
+    "ru": "Гонконгский университет",
+    "en": "The University of Hong Kong",
+    "short": "HKU"
   },
   "country": "HK",
   "city": "Гонконг",
@@ -49,7 +50,7 @@
     {
       "url": "https://www.admissions.hku.hk/fees-and-scholarships/fees",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "плата 2027/28, общежития, расходы на жизнь"
     },
     {
       "url": "https://www.admissions.hku.hk/fees-and-scholarships/scholarships",
@@ -90,9 +91,11 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Уточнить программу и российскую квалификацию в международном селекторе HKU: академические пороги, английский, интервью и дедлайны различаются."
+    "Требования HKU к российскому аттестату и английскому",
+    "Сроки подачи 2027",
+    "Место в QS 2027"
   ],
-  "summary": "Многопрофильный университет с историческими и современными корпусами на острове Hong Kong. Бакалаврские школы охватывают медицину, инженерное дело, архитектуру, бизнес, право, науки и гуманитарные направления.",
+  "summary": "Старейший и самый известный университет Гонконга, обучение на английском. Плата для иностранцев в 2027/28: 250 000 гонконгских долларов в год за гуманитарные, бизнес и право, 280 000 — за инженерию, науки и компьютерные специальности, 590 000 — за медицину. Общежитие — от 17 290 HKD в год.",
   "data_year": 2027,
   "founded": 1911,
   "city_size": "mega",
@@ -110,9 +113,11 @@
     "zh"
   ],
   "highlights": [
-    "21 жилой hall/college",
-    "Тариф 2027/28 опубликован отдельно для STEM и non-STEM",
-    "Merit scholarships оцениваются по заявке"
+    "Обучение на английском, 21 резиденция и колледж",
+    "2027/28: 250 000 HKD (не-STEM), 280 000 HKD (STEM), 590 000 HKD (медицина, стоматология)",
+    "Общежитие 17 290–37 940 HKD в год",
+    "Расходы на жизнь — до 50 000 HKD в год по оценке HKU",
+    "Есть стипендии для иностранцев"
   ],
   "intl_students_url": "https://www.admissions.hku.hk/apply/international-qualifications",
   "programs": [
@@ -121,28 +126,72 @@
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.hku.hk/prospectus/undergraduate/engineering.html"
+      "url": "https://www.hku.hk/prospectus/undergraduate/engineering.html",
+      "tuition": {
+        "amount": 280000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Для иностранцев, 2027/28"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; требования по странам на сайте HKU"
+      }
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "en",
-      "url": "https://www.scifac.hku.hk/prospective/ug"
+      "url": "https://www.scifac.hku.hk/prospective/ug",
+      "tuition": {
+        "amount": 280000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Для иностранцев, 2027/28"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; требования по странам на сайте HKU"
+      }
     },
     {
       "name": "Bachelor of Business Administration",
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "url": "https://ug.hkubs.hku.hk/"
+      "url": "https://ug.hkubs.hku.hk/",
+      "tuition": {
+        "amount": 250000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Для иностранцев, 2027/28"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; требования по странам на сайте HKU"
+      }
     },
     {
       "name": "Bachelor of Arts",
       "field": "humanities",
       "level": "bachelor",
       "language": "en",
-      "url": "https://arts.hku.hk/prospective/undergraduate"
+      "url": "https://arts.hku.hk/prospective/undergraduate",
+      "tuition": {
+        "amount": 250000,
+        "currency": "HKD",
+        "period": "year",
+        "note": "Для иностранцев, 2027/28"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; требования по странам на сайте HKU"
+      }
     }
   ],
   "cost": {
@@ -150,13 +199,19 @@
       "amount": 250000,
       "currency": "HKD",
       "period": "year",
-      "note": "Годовой tuition non-local студентов в 2027/28: HKD 250,000 non-STEM; HKD 280,000 STEM; HKD 590,000 MBBS/BDS. Размещение, питание и личные расходы отдельно."
+      "note": "Не-STEM, 2027/28"
     },
     "tuition_max": {
       "amount": 590000,
       "currency": "HKD",
       "period": "year",
-      "note": "Годовой tuition non-local студентов в 2027/28: HKD 250,000 non-STEM; HKD 280,000 STEM; HKD 590,000 MBBS/BDS. Размещение, питание и личные расходы отдельно."
+      "note": "MBBS и BDS, 2027/28"
+    },
+    "living_month_estimate": {
+      "amount": 4170,
+      "currency": "HKD",
+      "period": "month",
+      "note": "До 50 000 HKD в год по оценке HKU, без жилья"
     }
   },
   "funding": {
@@ -196,14 +251,14 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Hong Kong student visa / entry permit",
-    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "type": "Студенческая виза / разрешение на въезд в Гонконг",
+    "notes": "Для учёбы нужна студенческая виза Гонконга: подаётся в Иммиграционный департамент через HKU как спонсора после зачисления. Без неё учиться нельзя, даже если въезд для туризма безвизовый.",
     "url": "https://www.immd.gov.hk/eng/services/visas/study.html"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "notes": "HKU сообщает о 21 residential hall и college; годовая стоимость университетского размещения — около HKD 17,290–37,940 (285 дней, без летнего семестра). Подача на место отдельная, сроки и приоритеты проверяй в личном портале."
+    "notes": "21 резиденция и колледж; 17 290–37 940 HKD в год. Вне кампуса — 30 000–50 000 HKD в год."
   },
   "deadlines": [
     {
@@ -258,5 +313,11 @@
       "source_url": "https://www.estates.hku.hk/",
       "caption": "Студенты у современного учебного commons"
     }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "campus",
+    "student_life"
   ]
 }
