@@ -2,8 +2,9 @@
   "id": "uct",
   "type": "university",
   "name": {
-    "ru": "University of Cape Town",
-    "en": "University of Cape Town"
+    "ru": "Кейптаунский университет",
+    "en": "University of Cape Town",
+    "short": "UCT"
   },
   "country": "ZA",
   "city": "Кейптаун",
@@ -34,9 +35,9 @@
     "social_sciences"
   ],
   "prep": {
-    "must": "Сверь иностранный аттестат с требованиями курса и English; подавай онлайн до дедлайна и вместе с admission отправь заявку на residence, если она нужна.",
-    "good": "До выбора программы запроси pro forma fee invoice и учти tuition, international fees, health cover, жильё и медстраховку для визы.",
-    "source": "https://uct.ac.za/students/applications/international-applicants"
+    "must": "Сдай IELTS от 6.5 (каждая часть от 6.0) или TOEFL 88 и подай заявку до 31 июля вместе с заявкой на общежитие. Документы иностранца — до 30 сентября.",
+    "good": "Сразу после предложения начни оформлять визу (8–12 недель) и сертификат Matriculation Board. Заложи первый платёж 127 400 ZAR.",
+    "source": "https://degree.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf"
   },
   "sources": [
     {
@@ -62,25 +63,32 @@
     {
       "url": "https://www.uct.ac.za/international/accommodation",
       "accessed": "2026-11-26",
-      "covers": "residence, ограниченное число мест и дедлайн подачи"
+      "covers": "общежития: 6 000 мест, срок 31 июля"
     },
     {
       "url": "https://degree.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
       "accessed": "2026-11-26",
-      "covers": "программные требования, виза и международное финансирование"
+      "covers": "сроки 2027, английский, Matriculation Board, NBT, сбор за заявку"
     },
     {
       "url": "https://www.uct.ac.za/international/student-support/visas",
       "accessed": "2026-11-26",
       "covers": "study visa и medical cover"
+    },
+    {
+      "url": "https://www.uct.ac.za/sites/default/files/media/documents/uct_ac_za/63/2027-international-students-initial-fees-payment-dates.pdf",
+      "accessed": "2026-11-26",
+      "covers": "первый платёж 2027 для иностранцев"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Для конкретной степени получить pro forma invoice: tuition зависит от курсов и international term/administrative fees; в карточке не указана фиктивная единая цена."
+    "Полная плата за год по программам (Student Fees Handbook 2027 выйдет в конце 2026)",
+    "Требования Matriculation Board к российскому аттестату",
+    "Место в QS 2027"
   ],
-  "summary": "University of Cape Town — исследовательский университет на склонах Table Mountain. На кампусах в Cape Town есть инженерные и научные факультеты, медицина, бизнес, право, библиотеки и резиденции; обучение на английском.",
+  "summary": "Старейший университет ЮАР и один из лучших в Африке, кампус на склоне Столовой горы в Кейптауне. Обучение на английском. Иностранцы вне региона SADC вносят первый платёж 127 400 рандов до регистрации. С иностранным аттестатом нужен сертификат Matriculation Board. Подача на 2027 год шла до 31 июля 2026.",
   "intl_students_url": "https://www.uct.ac.za/students/applications/international-applicants",
   "founded": 1829,
   "city_size": "mega",
@@ -97,9 +105,11 @@
     "full"
   ],
   "highlights": [
-    "Кампусы находятся у Table Mountain в Кейптауне",
-    "UCT публикует international deadlines заранее для подготовки study visa",
-    "Места в residence ограничены, заявка на жильё подаётся одновременно с admission"
+    "Кампус на склоне Столовой горы, обучение на английском",
+    "IELTS 6.5 (каждая часть от 6.0) или TOEFL iBT 88",
+    "Первый платёж для иностранцев вне SADC — 127 400 ZAR (2027)",
+    "Подача и заявка на общежитие — до 31 июля",
+    "Общежитие есть только для ~6 000 из 29 000 студентов"
   ],
   "programs": [
     {
@@ -108,7 +118,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "url": "https://www.uct.ac.za/students/applications-admission-requirements"
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements",
+      "tuition": {
+        "amount": 127400,
+        "currency": "ZAR",
+        "period": "year",
+        "note": "Первый обязательный платёж до регистрации для иностранцев вне SADC (2027); это не полная сумма — остаток до 31 июля, зависит от выбранных курсов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Ранжирование по Faculty Points Score (баллы аттестата); нужен сертификат освобождения Matriculation Board"
+      }
     },
     {
       "name": "Bachelor of Engineering in Mechanical Engineering",
@@ -116,7 +137,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://ebe.uct.ac.za/"
+      "url": "https://ebe.uct.ac.za/",
+      "tuition": {
+        "amount": 127400,
+        "currency": "ZAR",
+        "period": "year",
+        "note": "Первый обязательный платёж до регистрации для иностранцев вне SADC (2027); это не полная сумма — остаток до 31 июля, зависит от выбранных курсов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Ранжирование по Faculty Points Score (баллы аттестата); нужен сертификат освобождения Matriculation Board"
+      }
     },
     {
       "name": "Bachelor of Medicine and Bachelor of Surgery",
@@ -124,21 +156,39 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 6,
-      "url": "https://health.uct.ac.za/"
+      "url": "https://health.uct.ac.za/",
+      "tuition": {
+        "amount": 127400,
+        "currency": "ZAR",
+        "period": "year",
+        "note": "Первый обязательный платёж до регистрации для иностранцев вне SADC (2027); это не полная сумма — остаток до 31 июля, зависит от выбранных курсов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Ранжирование по Faculty Points Score (баллы аттестата); нужен сертификат освобождения Matriculation Board"
+      }
     }
   ],
   "requirements": {
     "intl_exams": [
       {
         "exam": "IELTS",
-        "note": "English score зависит от категории кандидата; проверь минимальный overall/component score в актуальном prospectus."
+        "min_score": "6.5",
+        "note": "Academic, каждая часть не ниже 6.0, не старше 2 лет"
       },
       {
         "exam": "TOEFL",
-        "note": "Допустимые тесты/score опубликованы UCT; для некоторых degrees добавляются NBT или портфолио."
+        "min_score": "88",
+        "note": "iBT: Listening 19, Writing 19, Reading 20, Speaking 22"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "PTE 67 / NBT AL",
+        "note": "Или NBT Academic Literacy уровня Upper Intermediate"
       }
     ],
-    "language_level": "Английский; доказательство требуется к отдельному сроку. Проверяй требования 2027 prospectus и условия для страны обучения.",
+    "language_level": "Английский: IELTS 6.5 (каждая часть от 6.0), TOEFL iBT 88 или PTE 67.",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -153,7 +203,7 @@
       "Дополнительные aptitude/NBT/portfolio материалы по курсу",
       "Подтверждение медстраховки и study visa перед регистрацией"
     ],
-    "notes": "Минимальные предметные требования различаются по программе. Для 2027 UCT указал дедлайн undergraduate 31 July 2026, документы международного кандидата до 30 September; проверить новый intake calendar."
+    "notes": "С иностранным аттестатом нужно право на освобождение от Matriculation Board (Universities South Africa) — факультет проверяет его до предложения, а сам сертификат оформляют в течение первого года. Для медицины и права (LLB) обязательны тесты NBT в любой стране. Сбор за заявку для иностранцев — 300 ZAR. Документы иностранцев — до 30 сентября; чтобы успеть с визой, предложение выдают до 15 ноября."
   },
   "funding": {
     "free_tuition": false,
@@ -161,51 +211,92 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "South African study visa",
-    "notes": "Иностранный студент должен получить study visa до приезда; UCT выдаёт undertaking letter после offer. Также нужна подходящая medical aid на срок действия визы и подтверждение жилья/финансов по правилам консульства.",
-    "url": "https://www.uct.ac.za/international/student-support/visas"
+    "type": "Учебная виза ЮАР (study visa)",
+    "notes": "Россияне могут въезжать в ЮАР без визы на 90 дней, но для учёбы нужна учебная виза — подаётся в посольство ЮАР в Москве до приезда. Нужны письмо UCT, медстраховка в южноафриканской медицинской схеме на весь срок, справка о несудимости и подтверждение денег. Оформление занимает 8–12 недель — начинай сразу после предложения.",
+    "url": "https://www.uct.ac.za/international/student-support/fees"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "notes": "UCT предоставляет undergraduate и postgraduate residences трёх типов, но общежитием можно разместить около 6,000 из более чем 29,000 студентов. Для residence заявку надо подать одновременно с поступлением, не позже 31 июля для следующего календарного года; поздние заявки не принимаются."
+    "notes": "Мест в резиденциях около 6 000 на 29 000 студентов. Подача вместе с заявкой на учёбу, до 31 июля. Первый платёж за резиденцию: 47 000 ZAR с питанием или 31 000 ZAR без питания (это не полная сумма)."
   },
   "photos": [
     {
-      "file": "https://www.news.uct.ac.za/images/userfiles/images/publications/campuslife/2021/2021-02-15_UCT_sax-appeal.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.news.uct.ac.za/article/-2021-03-03-have-you-heard",
-      "caption": "Кампус UCT и студенческая жизнь"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/UCT_Jammie_Plaza.jpg/1280px-UCT_Jammie_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Adrian Frith",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:UCT_Jammie_Plaza.jpg",
+      "caption": "Jammie Plaza и Sarah Baartman Hall (бывш. Jameson Hall) у подножия Столовой горы"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Sarah_Baartman_Hall.jpg/1280px-Sarah_Baartman_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Martin Hipangwa",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sarah_Baartman_Hall.jpg",
+      "caption": "Sarah Baartman Hall — главный зал университета на верхнем кампусе"
     },
     {
       "file": "https://onlinecourses.uct.ac.za/sites/default/files/media/images/uct_ac_za/housing-guide-cta.png",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://onlinecourses.uct.ac.za/dsa/student-housing",
-      "caption": "Исторический residence building, покрытый плющом"
+      "caption": "Историческая резиденция, увитая плющом"
     },
     {
       "file": "https://degree.uct.ac.za/sites/default/files/styles/slide_full_width/public/media/images/uct_ac_za/dsa-homepage-housing-02.webp?h=8d924784&itok=fw_W6UhA",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://degree.uct.ac.za/dsa",
-      "caption": "Жилой двор UCT и вид на горный хребет"
-    },
-    {
-      "file": "https://www.news.uct.ac.za/images/userfiles/images/publications/campuslife/2026/20260102_where-to-stay_lead-image.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.news.uct.ac.za/article/-2026-01-27-where-to-stay",
-      "caption": "Студенческая резиденция с видом на горы"
+      "caption": "Студенческие резиденции с видом на горы"
     },
     {
       "file": "https://www.news.uct.ac.za/images/archive/dailynews/2016/2016-06-24_SRC02_700.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://www.news.uct.ac.za/article/-2016-06-24-uct-residences-launch-knowyourneighbour-campaign",
-      "caption": "Студенты разговаривают у Sutter Hall"
+      "caption": "Внутренний двор резиденции"
+    },
+    {
+      "file": "https://www.news.uct.ac.za/images/userfiles/images/publications/campuslife/2021/2021-02-15_UCT_sax-appeal.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.news.uct.ac.za/article/-2021-03-03-have-you-heard",
+      "caption": "Студенты на ступенях Jammie Steps"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 127400,
+      "currency": "ZAR",
+      "period": "year",
+      "note": "Первый платёж 2027 для иностранцев вне SADC; полная плата = курсы + международный сбор + административный сбор 5 800 ZAR"
+    }
+  },
+  "deadlines": [
+    {
+      "what": "Подача заявки и заявки на общежитие",
+      "start": "2026-04-01",
+      "end": "2026-07-31",
+      "intake": "Февраль 2027"
+    },
+    {
+      "what": "Подтверждение английского и документы иностранцев",
+      "end": "2026-09-30"
+    },
+    {
+      "what": "Крайний срок предложения иностранцам (для визы)",
+      "end": "2026-11-15"
+    },
+    {
+      "what": "Первый платёж",
+      "end": "2027-01-29"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment",
+    "student_life"
+  ]
 }

@@ -2,8 +2,10 @@
   "id": "usp",
   "type": "university",
   "name": {
-    "ru": "University of São Paulo",
-    "en": "University of São Paulo"
+    "ru": "Университет Сан-Паулу",
+    "en": "University of São Paulo",
+    "short": "USP",
+    "local": "Universidade de São Paulo"
   },
   "country": "BR",
   "city": "Сан-Паулу",
@@ -33,15 +35,15 @@
     "social_sciences"
   ],
   "prep": {
-    "must": "Определи доступный маршрут: FUVEST vestibular, PEC-G при соответствии национальности и возрасту, либо перевод при наличии свободных мест. Готовь португальский и документы об аттестате.",
-    "good": "Заранее проверь экзаменационный цикл/центр проведения, student visa и частное жильё: USP не размещает international students.",
+    "must": "Выучи португальский до уровня, на котором сможешь сдать FUVEST, и приезжай в Бразилию на экзамен (без визы до 90 дней).",
+    "good": "Сначала можно приехать по обмену из российского вуза — USP принимает студентов по обмену с уровнем португальского от B1.",
     "source": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/"
   },
   "sources": [
     {
       "url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/",
       "accessed": "2026-11-26",
-      "covers": "admission routes for full degree and exchange students"
+      "covers": "пути поступления для иностранцев: FUVEST, PEC-G, перевод, обмен; португальский B1 для обмена"
     },
     {
       "url": "https://internationaloffice.usp.br/en/index.php/admissions/degree-seeking-students/regular-undergraduat/",
@@ -61,7 +63,7 @@
     {
       "url": "https://www.fuvest.br/",
       "accessed": "2026-11-26",
-      "covers": "official entrance examinations"
+      "covers": "экзамен FUVEST 2027"
     },
     {
       "url": "https://www.gov.br/mre/pt-br/consulado-milao/vistos/visto-temporario-iv-vitem-iv",
@@ -92,9 +94,11 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Фото третьей позиции связано с PDF-файлом, который в карточке может открываться как документ; перед продакшеном заменить его отдельным campus image. Также проверить VITEM IV именно по российскому консульскому округу."
+    "Даты FUVEST 2028 (для поступления в 2028)",
+    "Общежитие (CRUSP) для иностранцев",
+    "Место в QS 2027"
   ],
-  "summary": "Universidade de São Paulo (USP) — крупный государственный и бесплатный по tuition университет Бразилии. Полное поступление на бакалавриат обычно идёт через FUVEST/vestibular на португальском; отдельный путь доступен по PEC-G.",
+  "summary": "Крупнейший и самый сильный университет Бразилии, обучение бесплатное. Но поступить на бакалавриат иностранцу непросто: основной путь — вступительный экзамен FUVEST на португальском, который сдают только в Бразилии. Программа PEC-G для россиян не подходит — она для стран Африки, Латинской Америки и Карибов.",
   "intl_students_url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/",
   "founded": 1934,
   "city_size": "mega",
@@ -111,9 +115,11 @@
     "full"
   ],
   "highlights": [
-    "Undergraduate tuition и enrolment fees не взимаются",
-    "Основной конкурс FUVEST проходит на португальском и в Бразилии",
-    "Международное жильё не предоставляется — частную аренду ищут самостоятельно"
+    "Обучение бесплатное, в том числе для иностранцев",
+    "Поступление — экзамен FUVEST на португальском, только в Бразилии",
+    "PEC-G — не для граждан России",
+    "Основной язык — португальский",
+    "Перевод из другого вуза возможен при свободных местах"
   ],
   "programs": [
     {
@@ -122,7 +128,18 @@
       "level": "bachelor",
       "language": "pt",
       "duration_years": 4,
-      "url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/"
+      "url": "https://internationaloffice.usp.br/new/en/incoming/undergraduate-student/",
+      "tuition": {
+        "amount": 0,
+        "currency": "BRL",
+        "period": "year",
+        "note": "Государственный вуз, обучение бесплатное"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс FUVEST: 1-й и 2-й этапы на португальском"
+      }
     },
     {
       "name": "Bachelor in Medicine",
@@ -130,7 +147,18 @@
       "level": "bachelor",
       "language": "pt",
       "duration_years": 6,
-      "url": "https://www5.usp.br/ensino/graduacao/cursos-oferecidos/"
+      "url": "https://www5.usp.br/ensino/graduacao/cursos-oferecidos/",
+      "tuition": {
+        "amount": 0,
+        "currency": "BRL",
+        "period": "year",
+        "note": "Государственный вуз, обучение бесплатное"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс FUVEST: 1-й и 2-й этапы на португальском"
+      }
     },
     {
       "name": "Bachelor in Engineering",
@@ -138,17 +166,29 @@
       "level": "bachelor",
       "language": "pt",
       "duration_years": 5,
-      "url": "https://www5.usp.br/ensino/graduacao/cursos-oferecidos/"
+      "url": "https://www5.usp.br/ensino/graduacao/cursos-oferecidos/",
+      "tuition": {
+        "amount": 0,
+        "currency": "BRL",
+        "period": "year",
+        "note": "Государственный вуз, обучение бесплатное"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс FUVEST: 1-й и 2-й этапы на португальском"
+      }
     }
   ],
   "requirements": {
     "intl_exams": [
       {
         "exam": "OTHER",
-        "note": "Для regular admission сдают vestibular/FUVEST либо применимый entrance process; состав и календарь ежегодно публикует FUVEST."
+        "min_score": "FUVEST",
+        "note": "Вступительный экзамен на португальском, проводится только в Бразилии"
       }
     ],
-    "language_level": "Португальский: все undergraduate exams проходят на португальском; занятия бакалавриата идут преимущественно на португальском.",
+    "language_level": "Португальский на уровне, достаточном для FUVEST и учёбы. Отдельный языковой сертификат USP не требует.",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -163,7 +203,7 @@
       "CELPE-Bras для PEC-G, если требуется",
       "Документы для student visa и регистрации в Бразилии"
     ],
-    "notes": "Для обмена отдельный процесс через университет-партнёр; он не равен прямому поступлению на полную степень. PEC-G доступна только гражданам стран-участниц."
+    "notes": "Пути поступления: FUVEST (для всех стран), PEC-G (только для стран-партнёров Бразилии в Африке, Латинской Америке и Карибах, нужен CELPE-Bras), перевод из другого вуза через отбор FUVEST при свободных местах, дипломатическая квота. Документ о среднем образовании — с заверенным переводом на португальский."
   },
   "funding": {
     "free_tuition": true,
@@ -171,8 +211,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Brazil Student Visa (VITEM IV)",
-    "notes": "Для очного обучения обычно нужна временная student visa VITEM IV, затем регистрация иностранца в федеральной полиции. Проверь свежую процедуру подачи для граждан России на сайте бразильского консульства.",
+    "type": "Временная учебная виза VITEM IV",
+    "notes": "Россияне могут въезжать в Бразилию без визы на 90 дней (этого хватит, чтобы сдать FUVEST), но для учёбы нужна учебная виза VITEM IV — в консульстве Бразилии в Москве с документом о зачислении. После приезда — регистрация иностранца в Федеральной полиции (CRNM).",
     "url": "https://www.gov.br/mre/pt-br/consulado-milao/vistos/visto-temporario-iv-vitem-iv"
   },
   "dorm": {
@@ -182,40 +222,53 @@
   },
   "photos": [
     {
-      "file": "https://media.gazetadopovo.com.br/2020/04/03171644/USP-540x540.jpg",
-      "author": "Gazeta do Povo",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.gazetadopovo.com.br/educacao/usp-unicamp-e-unesp-volta-aulas-remotas-agosto/",
-      "caption": "Башня часов и центральная площадь кампуса USP"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/At_the_University_of_S%C3%A3o_Paulo_2017_061.jpg/1280px-At_the_University_of_S%C3%A3o_Paulo_2017_061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Photograph by Mike Peel (www.mikepeel.net).",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:At_the_University_of_S%C3%A3o_Paulo_2017_061.jpg",
+      "caption": "Praça do Relógio — центральная площадь кампуса с башней-часами"
     },
     {
       "file": "https://media-cdn.sygictraveldata.com/media/1200x630/612664395a40232133447d33247d383335393432373238",
       "author": "Tripomatic",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://tripomatic.com/pt/poi/cidade-universitaria-armando-de-salles-oliveira-poi%3A5100525",
-      "caption": "Аэрофотосъёмка Cidade Universitária Armando de Salles Oliveira"
+      "caption": "Cidade Universitária в Сан-Паулу — главный кампус USP с высоты"
     },
     {
-      "file": "https://pbs.twimg.com/profile_images/1206488428/DSC03706_400x400.JPG",
-      "author": "Biblioteca IF USP",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://x.com/BibliotecaIfusp",
-      "caption": "Читальный зал библиотеки Института физики USP"
-    },
-    {
-      "file": "https://conteudo.imguol.com.br/c/noticias/46/2023/12/03/estudante-acessa-computador-em-biblioteca-na-usp-1701622446370_v2_900x506.jpg",
-      "author": "UOL",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.uol.com.br/tilt/colunas/blog-do-dunker/2023/12/07/uso-de-bibliotecas-universitarias-por-millennials-e-geracao-z.htm",
-      "caption": "Студент работает за компьютером в университетской библиотеке"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Sao_Paulo_campus_2016_008.jpg/1280px-University_of_Sao_Paulo_campus_2016_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Photograph by Mike Peel (www.mikepeel.net).",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Sao_Paulo_campus_2016_008.jpg",
+      "caption": "Площадь кампуса и корпус ректората"
     },
     {
       "file": "https://s2-oglobo.glbimg.com/XBBcYekci-UqgVvFBkO4CP4jE1E%3D/1200x/smart/filters%3Acover%28%29%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/t/O/MiAi68Q3GKAxx4DpBBRA/103912999-sao-paulo-sp-09-08-2023-fauusp-a-faculdade-de-arquitetura-e-urbanismo-da-universidade-de.jpg",
       "author": "O Globo",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://oglobo.globo.com/saude/noticia/2023/10/20/brasil-tem-1294-pesquisadores-na-lista-dos-cientistas-com-maior-impacto-do-mundo.ghtml",
-      "caption": "Архитектурный комплекс Faculdade de Arquitetura e Urbanismo USP"
+      "caption": "Учебные корпуса Cidade Universitária, вид сверху"
+    },
+    {
+      "file": "https://conteudo.imguol.com.br/c/noticias/46/2023/12/03/estudante-acessa-computador-em-biblioteca-na-usp-1701622446370_v2_900x506.jpg",
+      "author": "UOL",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.uol.com.br/tilt/colunas/blog-do-dunker/2023/12/07/uso-de-bibliotecas-universitarias-por-millennials-e-geracao-z.htm",
+      "caption": "Университетская библиотека"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 0,
+      "currency": "BRL",
+      "period": "year",
+      "note": "Бесплатно"
+    }
+  },
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life"
+  ]
 }

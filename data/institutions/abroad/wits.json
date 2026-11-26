@@ -2,8 +2,9 @@
   "id": "wits",
   "type": "university",
   "name": {
-    "ru": "University of the Witwatersrand",
-    "en": "University of the Witwatersrand"
+    "ru": "Витватерсрандский университет",
+    "en": "University of the Witwatersrand",
+    "short": "Wits"
   },
   "country": "ZA",
   "city": "Йоханнесбург",
@@ -33,15 +34,15 @@
     "it"
   ],
   "prep": {
-    "must": "Выбери degree и проверь country-specific requirements, школьные предметы/оценки, сроки, English и нужно ли оформить exemption certificate USAf.",
-    "good": "Сразу рассчитай полную стоимость (двойная tuition, жильё, medical aid) и начни оформление study visa после offer.",
+    "must": "Подай заявку до 30 сентября (медицина и архитектура — до 30 июня) и сдай IELTS 6.5 или TOEFL 79. Параллельно подай документы в Matriculation Board.",
+    "good": "Заранее закажи справку о несудимости и оформи южноафриканскую медстраховку — без них визу не дадут.",
     "source": "https://www.wits.ac.za/undergraduate/apply-to-wits/"
   },
   "sources": [
     {
       "url": "https://www.wits.ac.za/undergraduate/apply-to-wits/",
       "accessed": "2026-11-26",
-      "covers": "заявка и сроки международного поступления"
+      "covers": "сроки подачи 2027, сбор 100 ZAR"
     },
     {
       "url": "https://www.wits.ac.za/internationalstudents/",
@@ -51,12 +52,12 @@
     {
       "url": "https://www.wits.ac.za/internationalstudents/financial-information/fee-structure/",
       "accessed": "2026-11-26",
-      "covers": "двойная tuition, IRF и схема платежей"
+      "covers": "плата: двойная местная для иностранцев вне SADC, график оплаты"
     },
     {
       "url": "https://www.wits.ac.za/internationalstudents/immigration-information/",
       "accessed": "2026-11-26",
-      "covers": "study visa документы"
+      "covers": "учебная виза: документы, сроки"
     },
     {
       "url": "https://www.wits.ac.za/accommodation/applications/",
@@ -71,15 +72,17 @@
     {
       "url": "https://www.wits.ac.za/media/wits-university/study/international/documents/2026%20International%20Students%20Handbook.pdf",
       "accessed": "2026-11-26",
-      "covers": "требования и тарифная модель международного приёма"
+      "covers": "английский, Matriculation Board, стоимость жизни"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "До фактической подачи подставить цену выбранной программы из официального расчёта: для иностранца вне SADC это двойная локальная tuition, а не единый ZAR-тариф."
+    "Местная плата по программам (для расчёта двойной)",
+    "Цены общежитий",
+    "Место в QS 2027"
   ],
-  "summary": "Публичный исследовательский университет Йоханнесбурга с городскими кампусами Braamfontein и Parktown. Сильные области — инженерия, здравоохранение, бизнес, право, науки и гуманитарные дисциплины.",
+  "summary": "Крупный исследовательский университет в Йоханнесбурге, известен инженерией, медициной, горным делом и бизнесом. Иностранцы вне SADC платят двойную местную стоимость обучения: 75% до регистрации, остальное — до 30 июня. Обучение на английском (IELTS 6.5), с иностранным аттестатом нужно освобождение Matriculation Board. Подача — до 30 сентября (медицина и архитектура — до 30 июня).",
   "intl_students_url": "https://www.wits.ac.za/internationalstudents/",
   "founded": 1896,
   "city_size": "mega",
@@ -96,9 +99,11 @@
     "full"
   ],
   "highlights": [
-    "Городские кампусы Braamfontein и Parktown",
-    "Иностранный аттестат требует проверки по правилам Wits и возможного exemption USAf",
-    "Для иностранных бакалавров вне SADC применяется двойная локальная tuition"
+    "Бакалавриат для иностранцев вне SADC — двойная местная стоимость",
+    "Подача до 30 сентября; медицина, архитектура, кино — до 30 июня",
+    "IELTS 6.5 или TOEFL iBT 79",
+    "Жизнь в Йоханнесбурге — 8 000–12 000 ZAR в месяц по оценке Wits",
+    "Сбор за заявку всего 100 ZAR"
   ],
   "programs": [
     {
@@ -107,7 +112,12 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по баллам аттестата (APS) по программе; нужен сертификат Matriculation Board"
+      }
     },
     {
       "name": "Bachelor of Engineering Science (Honours)",
@@ -115,7 +125,12 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по баллам аттестата (APS) по программе; нужен сертификат Matriculation Board"
+      }
     },
     {
       "name": "Bachelor of Commerce",
@@ -123,21 +138,27 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по баллам аттестата (APS) по программе; нужен сертификат Matriculation Board"
+      }
     }
   ],
   "requirements": {
     "intl_exams": [
       {
         "exam": "IELTS",
-        "note": "Порог зависит от категории и программы; сверить в текущем международном руководстве Wits."
+        "min_score": "6.5"
       },
       {
         "exam": "TOEFL",
-        "note": "Вуз публикует перечень принимаемых подтверждений английского и возможные освобождения."
+        "min_score": "79 (iBT)",
+        "note": "550 PBT; факультеты могут требовать больше"
       }
     ],
-    "language_level": "Английский для преподавания и оценки; иностранный кандидат должен выполнить опубликованный Wits English requirement или освобождение.",
+    "language_level": "IELTS 6.5 или TOEFL iBT 79.",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -152,7 +173,7 @@
       "Сертифицированные переводы на английский",
       "Подтверждение английского и дополнительные материалы курса"
     ],
-    "notes": "Допуск зависит от страны, школьной программы, факультета и доступных мест; минимальные требования не гарантируют admission. Для международных студентов нужны оригиналы/сертифицированные документы и действующая study visa Wits."
+    "notes": "Иностранный аттестат нужно подтвердить в Matriculation Board (Universities South Africa): подаются нотариально заверенные копии и присяжный перевод на английский. Бакалавры из стран вне SADC платят двойную местную плату за обучение, 75% до регистрации и 25% до 30 июня; общежитие оплачивается отдельно."
   },
   "funding": {
     "free_tuition": false,
@@ -160,8 +181,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "South African study visa",
-    "notes": "Заявление подаётся в южноафриканское посольство/консульство. Wits требует offer letter, подтверждение arranged accommodation, средства и остальные документы по правилам Home Affairs; студент обязан поддерживать study visa, действующую на обучение в Wits.",
+    "type": "Учебная виза ЮАР (study visa)",
+    "notes": "Подаётся в посольство ЮАР в стране проживания, оформление от 6–8 недель. Нужны письмо о зачислении Wits, медстраховка в южноафриканской медицинской схеме (продлевается ежегодно), справка о несудимости из всех стран, где жил больше 12 месяцев после 18 лет, подтверждение жилья и денег. Виза действует только для Wits.",
     "url": "https://www.wits.ac.za/internationalstudents/immigration-information/"
   },
   "dorm": {
@@ -175,14 +196,21 @@
       "author": "The Heritage Portal",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://www.theheritageportal.co.za/files/wits-great-hall-heritage-portal-2013jpg",
-      "caption": "Great Hall и открытая часть кампуса"
+      "caption": "Great Hall — главное здание Wits на East Campus"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Great_Hall_facade_through_jacarandas.jpg/1280px-Great_Hall_facade_through_jacarandas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Heather Elke",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Great_Hall_facade_through_jacarandas.jpg",
+      "caption": "Фасад Great Hall за цветущими джакарандами"
     },
     {
       "file": "https://storage.googleapis.com/joburg-co-za-media/wp-content/uploads/2021/07/Barnato-Hall-1200x500-1.jpg",
       "author": "Joburg.co.za",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://joburg.co.za/study-at-wits-university/",
-      "caption": "Barnato Hall на West Campus"
+      "caption": "Barnato Hall — резиденция на West Campus"
     },
     {
       "file": "https://www.wits.ac.za/media/wits-university/students/accommodation/images/East%20Campus%20-%20final%20resize.jpg",
@@ -196,7 +224,7 @@
       "author": "Lwazi Mbokodo / Wits",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://www.wits.ac.za/about-wits/facts-and-figures/",
-      "caption": "International House, резиденция Wits"
+      "caption": "International House — резиденция Wits"
     },
     {
       "file": "https://www.wits.ac.za/media/wits-university/students/accommodation/images/Wits%20Junction.png",
@@ -206,5 +234,36 @@
       "caption": "Wits Junction — студенческий жилой комплекс"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "cost": {
+    "living_month_estimate": {
+      "amount": 10000,
+      "currency": "ZAR",
+      "period": "month",
+      "note": "Средний бюджет 8 000–12 000 ZAR по оценке Wits (справочник для иностранцев 2026)"
+    }
+  },
+  "deadlines": [
+    {
+      "what": "Медицина, архитектура, аудиология, кино",
+      "end": "06-30",
+      "intake": "Февраль следующего года"
+    },
+    {
+      "what": "Все остальные программы",
+      "end": "09-30",
+      "intake": "Февраль следующего года"
+    },
+    {
+      "what": "Заявка на общежитие",
+      "start": "04-01",
+      "end": "09-30"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "employment",
+    "internships",
+    "student_life"
+  ]
 }
