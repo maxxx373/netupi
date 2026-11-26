@@ -2,8 +2,10 @@
   "id": "kyoto",
   "type": "university",
   "name": {
-    "ru": "Kyoto University",
-    "en": "Kyoto University"
+    "ru": "Киотский университет",
+    "en": "Kyoto University",
+    "short": "Kyoto University",
+    "local": "京都大学"
   },
   "country": "JP",
   "city": "Киото",
@@ -32,9 +34,9 @@
     "economics"
   ],
   "prep": {
-    "must": "Выбери конкретный маршрут до подготовки: обычный бакалавриат требует японского; Kyoto iUP и Civil Engineering имеют собственные международные правила и календарь.",
-    "good": "Собери школьные оценки, языковые подтверждения и документы для переводов заранее; изучи конкурсные этапы и интервью.",
-    "source": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs"
+    "must": "Сдай TOEFL iBT (у зачисленных обычно от 90) или IELTS (от 6.5) и подай заявку в Kyoto iUP со 2 ноября по 3 декабря. Так как российская школа — 11 лет, заранее пройди Eligibility Screening.",
+    "good": "Попроси учителя заполнить форму B и приложи олимпиады и проекты. Начни учить японский хотя бы базово — после подготовки основные курсы на японском.",
+    "source": "https://www.iup.kyoto-u.ac.jp/apply/"
   },
   "sources": [
     {
@@ -71,12 +73,56 @@
       "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/",
       "accessed": "2026-11-26",
       "covers": "государственные стипендии MEXT"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/apply/",
+      "accessed": "2026-11-26",
+      "covers": "сроки подачи на октябрь 2027"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/academics/",
+      "accessed": "2026-11-26",
+      "covers": "структура iUP, подготовительный курс, японский"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/student-support/",
+      "accessed": "2026-11-26",
+      "covers": "стипендии, освобождение от оплаты, тарифы"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/faq/financial-support/",
+      "accessed": "2026-11-26",
+      "covers": "MEXT, условия стипендий"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/faq/english-language-proficiency/",
+      "accessed": "2026-11-26",
+      "covers": "TOEFL 90 / IELTS 6.5 у зачисленных"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/faq/eligibility/",
+      "accessed": "2026-11-26",
+      "covers": "12 лет обучения, eligibility screening, без переводов"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/faq/accommodation/",
+      "accessed": "2026-11-26",
+      "covers": "общежитие на 1,5 года"
+    },
+    {
+      "url": "https://www.iup.kyoto-u.ac.jp/faq/application-documents/",
+      "accessed": "2026-11-26",
+      "covers": "документы, форма B"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
-  "todo": [],
-  "summary": "Исследовательский университет в Киото с десятью факультетами. Большинство бакалаврских программ преподаётся на японском; основные англоязычные маршруты — Kyoto iUP и International Course in Civil Engineering.",
+  "todo": [
+    "Место в QS/THE 2027",
+    "Признаёт ли Киотский университет 11-летнее российское образование без дополнительного года (результат Eligibility Screening)",
+    "Сроки Eligibility Screening для набора 2027"
+  ],
+  "summary": "Второй старейший императорский университет Японии (1897), известен сильной наукой и нобелевскими лауреатами. Для иностранцев главный путь — Kyoto iUP: полгода подготовки, потом 4 года бакалавриата; сначала обучение на английском, затем на японском. Всем студентам iUP дают освобождение от вступительного взноса, полное или частичное от платы за обучение и до 120 000 иен в месяц на подготовительном курсе. Российская школа — 11 лет, поэтому нужна предварительная проверка права на подачу.",
   "intl_students_url": "https://www.kyoto-u.ac.jp/en/education-campus/education-and-admissions/undergraduate-degree-programs",
   "founded": 1897,
   "city_size": "mega",
@@ -94,18 +140,50 @@
     "full"
   ],
   "highlights": [
-    "10 факультетов на трёх кампусах Киото",
-    "Для большинства бакалаврских программ нужен японский",
-    "Есть специальные бакалаврские маршруты Kyoto iUP и Civil Engineering на английском"
+    "Kyoto iUP: всем студентам — освобождение от вступительного взноса и от платы за обучение (полностью или частично) на 4,5 года",
+    "До 120 000 иен в месяц на подготовительном курсе",
+    "Японский учат с нуля: 6 месяцев интенсивного курса",
+    "Общежитие на первые полтора года",
+    "Подача на набор октября 2027 — со 2 ноября по 3 декабря 2026"
   ],
   "programs": [
     {
-      "name": "Kyoto University International Undergraduate Program (Kyoto iUP)",
+      "name": "Kyoto iUP — естественные науки, инженерия, сельское хозяйство (6 мес. подготовки + 4 года)",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский и японский",
-      "duration_years": 4,
-      "url": "https://www.iup.kyoto-u.ac.jp/"
+      "language": "en",
+      "duration_years": 4.5,
+      "tuition": {
+        "amount": 535800,
+        "currency": "JPY",
+        "period": "year",
+        "note": "Базовая ставка; студентам iUP дают полное или частичное освобождение на 4,5 года. Подготовительный курс — 296 000 иен за 6 месяцев"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимума нет; типичные баллы зачисленных — TOEFL iBT 90 или IELTS 6.5. Отбор по документам и собеседованию"
+      },
+      "url": "https://www.iup.kyoto-u.ac.jp/academics/"
+    },
+    {
+      "name": "Kyoto iUP — экономика, право, гуманитарные и социальные науки",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "ja",
+      "duration_years": 4.5,
+      "tuition": {
+        "amount": 535800,
+        "currency": "JPY",
+        "period": "year",
+        "note": "Базовая ставка; освобождение для студентов iUP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Типичные баллы зачисленных — TOEFL iBT 90 / IELTS 6.5. После подготовки основные курсы на японском"
+      },
+      "url": "https://www.iup.kyoto-u.ac.jp/academics/"
     },
     {
       "name": "International Course Program of Civil Engineering",
@@ -113,25 +191,29 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
+      "tuition": {
+        "amount": 535800,
+        "currency": "JPY",
+        "period": "year",
+        "note": "Базовая ставка государственного вуза"
+      },
       "url": "https://www.s-ge.t.kyoto-u.ac.jp/int/en"
     }
   ],
   "requirements": {
     "intl_exams": [
       {
-        "exam": "OTHER",
-        "note": "Экзамены и доказательство академической подготовки зависят от факультета; для iUP применяется отдельный отбор."
+        "exam": "TOEFL",
+        "min_score": "90 (типичный)",
+        "note": "Минимума нет, это типичный балл зачисленных. Принимают только TOEFL или IELTS"
       },
       {
         "exam": "IELTS",
-        "note": "Требование зависит от англоязычной программы и года подачи."
-      },
-      {
-        "exam": "TOEFL",
-        "note": "Принимаемые форматы и порог проверяются в текущих правилах курса."
+        "min_score": "6.5 (типичный)",
+        "note": "Academic"
       }
     ],
-    "language_level": "Для обычных японскоязычных бакалаврских курсов необходим японский; у Kyoto iUP есть подготовительный языковой этап.",
+    "language_level": "Японский для поступления в iUP не нужен — его учат 6 месяцев на подготовке и дальше 2 года. Английский — типично TOEFL iBT 90 / IELTS 6.5.",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -139,13 +221,14 @@
     "recommendations": true,
     "activities_matter": "medium",
     "documents": [
-      "Паспорт",
-      "Аттестат и академическая выписка",
-      "Подтверждение языка по выбранному маршруту",
-      "Переводы документов",
-      "Рекомендации, эссе и результаты экзаменов — если требует программа"
+      "Онлайн-заявка Kyoto iUP и сбор 17 000 иен",
+      "Транскрипт оценок за всю старшую школу (10–11 класс) с переводом",
+      "Форма B — оценка от школы (заполняет учитель)",
+      "Результат TOEFL или IELTS",
+      "Результаты стандартизированных экзаменов (например, ЕГЭ, SAT)",
+      "По желанию: награды, олимпиады, внеучебная активность"
     ],
-    "notes": "Порядок приёма не единый: сверяй отдельно факультет, Kyoto iUP или международный инженерный курс. Минимальное соответствие не гарантирует зачисление."
+    "notes": "Нужны 12 лет школьного образования. В России школа 11 лет, поэтому пройди Eligibility Screening до подачи — университет проверит, можно ли тебе подавать. Переводов нет: даже студенты вузов начинают с подготовительного курса. Все документы — на английском или с переводом; форму B (оценка от школы) заполняет школа. Отбор — документы и собеседование."
   },
   "cost": {
     "tuition_min": {
@@ -159,30 +242,43 @@
       "currency": "JPY",
       "period": "year",
       "note": "Базовая государственная плата; проверь тариф нового года и возможное освобождение."
+    },
+    "living_month_estimate": {
+      "amount": 120000,
+      "currency": "JPY",
+      "period": "month",
+      "note": "Ориентир — размер ежемесячного пособия iUP на подготовительном курсе"
     }
   },
   "funding": {
-    "free_tuition": false,
+    "free_tuition": true,
     "grants": [
       {
-        "name": "MEXT Scholarship",
+        "name": "Стипендия Kyoto iUP",
         "coverage": "full",
         "for_foreigners": true,
-        "note": "Государственная стипендия Японии; конкурс, критерии и процедура подачи зависят от маршрута (посольство или рекомендация университета).",
-        "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/"
+        "note": "Всем студентам iUP: полное освобождение от вступительного взноса (282 000 иен), полное или частичное — от платы за обучение на 4,5 года; до 120 000 иен в месяц на подготовительном курсе, дальше — merit-пособия. Отдельной заявки нет, отмечаешь в анкете",
+        "url": "https://www.iup.kyoto-u.ac.jp/student-support/"
+      },
+      {
+        "name": "MEXT (рекомендация университета)",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Kyoto iUP рекомендует нескольких зачисленных на государственную стипендию MEXT. Через посольство Японии можно подать на MEXT отдельно",
+        "url": "https://www.iup.kyoto-u.ac.jp/faq/financial-support/"
       }
     ]
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Student visa (Japan)",
-    "notes": "После зачисления оформляется Certificate of Eligibility через принимающую сторону, затем заявление на визу. Для российских граждан проверяй актуальные требования посольства Японии и правила конкретного курса.",
+    "type": "Студенческая виза («Student» / 留学)",
+    "notes": "После зачисления университет оформляет в Японии Сертификат соответствия (Certificate of Eligibility, CoE). С ним подаёшь на студенческую визу в посольство Японии в Москве или генконсульство по месту жительства. При въезде получаешь статус «Student» — он обязателен для зачисления в iUP. Двойное гражданство с японским нужно разрешить до начала учёбы.",
     "url": "https://www.mofa.go.jp/j_info/visit/visa/long/visa6.html"
   },
   "dorm": {
     "available": true,
-    "guaranteed_first_year": false,
-    "notes": "Университет управляет несколькими International Houses, однако места ограничены и распределяются по правилам; жильё не является автоматической гарантией. У Kyoto iUP доступно место в International House на первые 1,5 года при условиях программы; примеры цены и коммунальных расходов опубликованы отдельно."
+    "guaranteed_first_year": true,
+    "notes": "Студентам iUP дают место в International House Киотского университета на первые 12 месяцев с продлением до 18. Потом — частная квартира, офис помогает с поиском."
   },
   "photos": [
     {
@@ -228,5 +324,19 @@
       "caption": "Столовая Camphora и университетская терраса"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Kyoto iUP: онлайн-подача",
+      "start": "2026-11-02",
+      "end": "2026-12-03",
+      "intake": "Октябрь 2027"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "campus",
+    "small_groups"
+  ]
 }

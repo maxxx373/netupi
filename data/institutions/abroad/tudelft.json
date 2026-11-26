@@ -2,8 +2,10 @@
   "id": "tudelft",
   "type": "university",
   "name": {
-    "ru": "Delft University of Technology",
-    "en": "Delft University of Technology"
+    "ru": "Делфтский технический университет",
+    "en": "Delft University of Technology",
+    "short": "TU Delft",
+    "local": "Technische Universiteit Delft"
   },
   "country": "NL",
   "city": "Делфт",
@@ -27,9 +29,9 @@
     "natural_sciences"
   ],
   "prep": {
-    "must": "Проверь, эквивалентен ли школьный диплом нидерландскому VWO, и выполни требования по математике, физике и другим предметам выбранной программы. Для поступления требуется достаточный английский.",
-    "good": "Для архитектурных и инженерных курсов внимательно изучи программу отбора, предметные prerequisites и порядок загрузки заверенных документов.",
-    "source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma"
+    "must": "Сразу после российской школы в TU Delft не поступить: сначала окончи первый курс профильного бакалавриата (60 ECTS) со средним баллом от 75%. Готовь IELTS 6.5 или TOEFL 5 (90 по старой шкале).",
+    "good": "Для Aerospace, Computer Science и Nanobiology подавай до 15 января — там отбор. Сделай биометрический загранпаспорт для визы MVV.",
+    "source": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements"
   },
   "sources": [
     {
@@ -39,13 +41,13 @@
     },
     {
       "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements",
-      "accessed": "2026-11-23",
-      "covers": "Требования к аттестату, предметам и английскому"
+      "accessed": "2026-11-26",
+      "covers": "профильные предметы, языки программ"
     },
     {
       "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/dates-deadlines",
-      "accessed": "2026-11-23",
-      "covers": "Сроки подачи, год на странице не указан"
+      "accessed": "2026-11-26",
+      "covers": "сроки 2027"
     },
     {
       "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/required-documents",
@@ -60,15 +62,32 @@
     {
       "url": "https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements/country-specific-requirements",
       "accessed": "2026-11-26",
-      "covers": "специальные требования для российского школьного аттестата: неэквивалентность VWO, 60 ECTS и GPA минимум 75% за первый год"
+      "covers": "российский аттестат: нужен 1 курс вуза с GPA от 75%"
+    },
+    {
+      "url": "https://www.tudelft.nl/en/education/practical-matters/scholarships",
+      "accessed": "2026-11-26",
+      "covers": "стипендии (только магистратура), сумма IND 14 200 €"
+    },
+    {
+      "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-long-stay-visa-mvv",
+      "accessed": "2026-11-26",
+      "covers": "MVV для граждан РФ, запись в посольстве"
+    },
+    {
+      "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-short-stay-schengen-visa",
+      "accessed": "2026-11-26",
+      "covers": "небиометрические паспорта РФ с 1.10.2026"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "medium",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Стипендии для бакалавров из-за пределов ЕС (страница Scholarships)"
+    "Место в QS 2027 (по одной вторичной публикации — 48-е, не подтверждено)",
+    "Стоимость жилья через TU Delft / DUWO",
+    "Holland Scholarship для неевропейских бакалавров — проверить, участвует ли TU Delft"
   ],
-  "summary": "Ведущий технический университет Нидерландов в Делфте: инженерия, архитектура, информатика, прикладная физика. Часть программ идёт на английском, часть на нидерландском. Для иностранцев из-за пределов ЕС обучение дорогое, но университет возвращает сумму на проживание для визы. Программы с отбором принимают заявки до 15 января.",
+  "summary": "Крупнейший и старейший технический университет Нидерландов: аэрокосмическая инженерия, информатика, архитектура, промышленный дизайн. Важно: российский аттестат не считается равным нидерландскому VWO, поэтому сразу после школы поступить нельзя — сначала нужен минимум год профильного бакалавриата со средним баллом от 75%. Обучение для неевропейцев — 19 906 евро в год (2026/27).",
   "languages_of_instruction": [
     "en",
     "nl"
@@ -91,10 +110,25 @@
       "currency": "EUR",
       "period": "year",
       "note": "Тот же тариф для всех бакалаврских программ. Сверх него: визовый сбор 254 EUR, жилищный сбор TU Delft 285 EUR, и около 14 200 EUR на проживание, которые университет возвращает примерно через три недели после начала занятий"
+    },
+    "living_month_estimate": {
+      "amount": 1183,
+      "currency": "EUR",
+      "period": "month",
+      "note": "Минимум, который IND требует подтвердить для студенческого ВНЖ: 14 200 € на 2026/27. TU Delft берёт эту сумму вперёд и возвращает примерно через три недели после начала учёбы"
     }
   },
   "funding": {
-    "free_tuition": false
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Justus & Louise van Effen Excellence Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Только для магистратуры (16 полных стипендий): обучение и 14 200 € на жизнь. Собственных стипендий для неевропейских бакалавров на странице нет",
+        "url": "https://www.tudelft.nl/en/education/practical-matters/scholarships"
+      }
+    ]
   },
   "requirements": {
     "intl_exams": [
@@ -121,30 +155,29 @@
       "Копия паспорта",
       "Переводы документов, если они не на английском или нидерландском"
     ],
-    "notes": "Аттестат должен считаться эквивалентным нидерландскому VWO. Российский аттестат на прочитанных страницах отдельно не упоминается: университет оценивает его после подачи через Studielink и Osiaan, а страна есть на отдельной странице требований. Нужны математика для всех программ и физика почти для всех, плюс химия или биология для части. Недостающие предметы можно закрыть экзаменами, например Boswell-Bèta, до 1 сентября. Для шести программ (электротехника, прикладная физика, прикладная математика, морские технологии, молекулярные науки, нанобиология) есть обязательная программа matching. Для российского школьного аттестата прямого поступления нет: TU Delft не считает его эквивалентом VWO. На страновой странице указаны минимум первый год (60 ECTS) BSc/BEng в аккредитованном вузе в том же/близком направлении и средний балл за этот год не ниже 75%."
+    "notes": "Российский аттестат TU Delft не считает равным нидерландскому VWO. Чтобы поступить, нужно успешно окончить минимум первый курс (60 ECTS) бакалавриата BSc/BEng в аккредитованном вузе по той же или близкой специальности со средним баллом не ниже 75%. Кроме того, нужны профильные предметы (математика, для большинства программ — физика). Подача через Studielink. Для программ с отбором (numerus fixus) — отдельный отборочный процесс.",
+    "olympiad_benefits": "Льгот нет"
   },
   "deadlines": [
     {
-      "what": "Подача заявки: обычные программы",
-      "start": "10-15",
-      "end": "04-01",
-      "intake": "Осенний (сентябрь)"
-    },
-    {
-      "what": "Подача заявки: программы с отбором (Aerospace, Architecture, Clinical Technology, Computer Science and Engineering)",
+      "what": "Программы с отбором (numerus fixus): подача",
       "start": "10-15",
       "end": "01-15",
-      "intake": "Осенний (сентябрь)"
+      "intake": "Сентябрь 2027"
     },
     {
-      "what": "Подтверждение участия (Confirmation Statement)",
-      "end": "06-01",
-      "intake": "Осенний (сентябрь)"
+      "what": "Остальные программы: подача для неевропейцев",
+      "start": "10-15",
+      "end": "04-01",
+      "intake": "Сентябрь 2027"
     },
     {
-      "what": "Полная оплата (для тех, кому нужна виза)",
-      "end": "07-01",
-      "intake": "Осенний (сентябрь)"
+      "what": "Загрузка недостающих документов (после основной подачи)",
+      "end": "06-01"
+    },
+    {
+      "what": "Финальный срок (Confirmation Statement)",
+      "end": "07-01"
     }
   ],
   "dorm": {
@@ -176,5 +209,108 @@
       "source_url": "https://www.tudelft.nl/en/",
       "caption": "Студенты общаются за общим столом"
     }
-  ]
+  ],
+  "ownership": "public",
+  "founded": 1842,
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Российский аттестат не принимают: нужен 1 курс профильного вуза со средним баллом от 75%",
+    "На английском — Aerospace Engineering, Computer Science and Engineering, Earth Climate and Technology, Nanobiology",
+    "Обучение 19 906 € в год для неевропейцев (2026/27), 20 563 € на 2027/28",
+    "Для программ с конкурсом (numerus fixus) подача до 15 января"
+  ],
+  "programs": [
+    {
+      "name": "Aerospace Engineering (English track)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 19906,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Тариф для граждан стран вне ЕС, 2026/27; на 2027/28 — 20 563 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для выпускников из РФ: 1 курс (60 ECTS) профильного бакалавриата со средним баллом от 75%. Нужна математика (для Aerospace — и физика). Программа с отбором (numerus fixus)"
+      },
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+    },
+    {
+      "name": "Computer Science and Engineering (English track)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 19906,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Тариф для граждан стран вне ЕС, 2026/27; на 2027/28 — 20 563 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для выпускников из РФ: 1 курс (60 ECTS) профильного бакалавриата со средним баллом от 75%. Нужна математика (для Aerospace — и физика). Программа с отбором (numerus fixus)"
+      },
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+    },
+    {
+      "name": "Earth, Climate and Technology",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 19906,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Тариф для граждан стран вне ЕС, 2026/27; на 2027/28 — 20 563 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для выпускников из РФ: 1 курс (60 ECTS) профильного бакалавриата со средним баллом от 75%. Нужны математика, физика, химия"
+      },
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+    },
+    {
+      "name": "Nanobiology",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 19906,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Тариф для граждан стран вне ЕС, 2026/27; на 2027/28 — 20 563 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для выпускников из РФ: 1 курс (60 ECTS) профильного бакалавриата со средним баллом от 75%. Нужна математика (для Aerospace — и физика). Программа с отбором (numerus fixus)"
+      },
+      "url": "https://www.tudelft.nl/en/education/programmes/bachelors"
+    }
+  ],
+  "rankings": [],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "internships",
+    "employment"
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "MVV (виза для долгосрочного пребывания) + ВНЖ для учёбы",
+    "notes": "Заявку на MVV и ВНЖ подаёт за тебя TU Delft как признанный спонсор; нужно перечислить вузу плату за обучение и 14 200 € на жизнь (их вернут). После одобрения IND получаешь MVV в посольстве Нидерландов в Москве; если нет слотов, студенты могут написать на mos-date@minbuza.nl с датой начала учёбы. С 1 октября 2026 Нидерланды не принимают небиометрические загранпаспорта РФ — нужен биометрический паспорт, действительный ещё минимум 6 месяцев.",
+    "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-long-stay-visa-mvv"
+  },
+  "data_year": 2027
 }

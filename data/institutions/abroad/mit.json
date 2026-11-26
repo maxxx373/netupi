@@ -2,8 +2,9 @@
   "id": "mit",
   "type": "university",
   "name": {
-    "ru": "Massachusetts Institute of Technology",
-    "en": "Massachusetts Institute of Technology"
+    "ru": "Массачусетский технологический институт",
+    "en": "Massachusetts Institute of Technology",
+    "short": "MIT"
   },
   "country": "US",
   "city": "Кембридж, Массачусетс",
@@ -40,8 +41,8 @@
     },
     {
       "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/annual-student-budget/",
-      "accessed": "2026-11-23",
-      "covers": "Стоимость обучения, жилья и питания на 2026–27"
+      "accessed": "2026-11-26",
+      "covers": "смета 2026/27: обучение, жильё, питание, книги, личные расходы"
     },
     {
       "url": "https://mitadmissions.org/apply/firstyear/international/",
@@ -82,11 +83,23 @@
       "url": "https://www.ice.gov/sevis/i901",
       "accessed": "2026-11-26",
       "covers": "сбор I-901 SEVIS для F/M"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-26",
+      "covers": "визы для граждан РФ: Астана и Варшава"
+    },
+    {
+      "url": "https://chemistry.mit.edu/chemistry-news/qs-ranks-mit-the-worlds-no-1-university-for-2026-27/",
+      "accessed": "2026-11-26",
+      "covers": "QS 2027: 1-е место (новость MIT)"
     }
   ],
-  "verified_at": "2026-11-23",
+  "verified_at": "2026-11-26",
   "confidence": "high",
-  "todo": [],
+  "todo": [
+    "Место в THE World University Rankings 2027"
+  ],
   "summary": "Частный исследовательский университет в Кембридже (Массачусетс), сильнейший в инженерии, информатике и естественных науках. Для иностранцев нет отдельного конкурса: нужны SAT или ACT, две рекомендации учителей и эссе в анкете. На размер финансовой помощи статус иностранца не влияет.",
   "languages_of_instruction": [
     "en"
@@ -109,6 +122,12 @@
       "currency": "USD",
       "period": "year",
       "note": "Обучение 2026–27; сверх этого студенческий взнос 420 USD, жильё до 14 090 USD и питание до 8 104 USD, общий бюджет до 92 760 USD"
+    },
+    "living_month_estimate": {
+      "amount": 2570,
+      "currency": "USD",
+      "period": "month",
+      "note": "Официальная смета 2026/27: жильё $14 090 + питание $8 104 + книги $930 + личные расходы $2 496 = $25 620 за 9–10 месяцев, без перелётов и медстраховки"
     }
   },
   "funding": {
@@ -259,7 +278,150 @@
   "visa": {
     "needed_for_ru": true,
     "type": "F-1",
-    "notes": "После зачисления MIT выдаёт I-20 при выполнении требований по финансированию. Типичный порядок: оплатить I-901 SEVIS, заполнить DS-160, записаться на интервью в консульстве/посольстве с актуальным порядком подачи для своей страны. Консульство может запросить подтверждение академической подготовки, финансов и намерения соблюдать статус. Сборы и доступность записи меняются; сверяйте официальные инструкции перед подачей.",
-    "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
-  }
+    "notes": "Нужна виза F-1. I-20 MIT выдаёт после зачисления и проверки финансовых документов. Затем оплачиваешь SEVIS I-901 (350 USD), заполняешь DS-160 и идёшь на собеседование. Гражданам России, живущим в России, Госдеп с сентября 2025 года назначил для собеседования посольства в Астане (Казахстан) и Варшаве (Польша); посольство в Москве студенческие визы не оформляет. В Варшаву без шенгенской визы или ВНЖ в ЕС записаться почти невозможно, поэтому реалистичный вариант — Астана (въезд для россиян без визы). Если есть ВНЖ в другой стране, подаёшь там.",
+    "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html"
+  },
+  "ownership": "private",
+  "founded": 1861,
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "1-е место в QS World University Rankings 2027 — 15-й год подряд",
+    "Need-blind приём иностранцев и 100% покрытие доказанной потребности",
+    "Все первокурсники живут в кампусе, жильё гарантировано на 8 семестров",
+    "Специальность (Course) выбирают после первого курса",
+    "Обучение $66 720 в год (2026/27), полная смета около $92 760"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science and Engineering (Course 6-3)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    },
+    {
+      "name": "Electrical Engineering and Computer Science (Course 6-2)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    },
+    {
+      "name": "Mechanical Engineering (Course 2)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    },
+    {
+      "name": "Mathematics (Course 18)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    },
+    {
+      "name": "Physics (Course 8)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    },
+    {
+      "name": "Economics (Course 14)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 66720,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка 2026/27 для всех специальностей"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка. SAT/ACT обязательны, минимума MIT не публикует; специальность выбирается после 1 курса"
+      },
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "1"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "internships",
+    "employment",
+    "intl_environment",
+    "student_life"
+  ]
 }

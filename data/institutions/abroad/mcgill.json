@@ -2,8 +2,9 @@
   "id": "mcgill",
   "type": "university",
   "name": {
-    "ru": "McGill University",
-    "en": "McGill University"
+    "ru": "Университет Макгилла",
+    "en": "McGill University",
+    "short": "McGill"
   },
   "country": "CA",
   "city": "Монреаль, Квебек",
@@ -33,40 +34,40 @@
     "humanities"
   ],
   "prep": {
-    "must": "Заявка McGill и академические документы; школьные prerequisites и конкурентные оценки для конкретного факультета; подтверждение английского, если применимо.",
-    "good": "Проверь требования для страны и выбранной программы, а также признание школьного диплома. Закажи официальную отправку результатов и языкового теста, если он нужен.",
+    "must": "Готовь IELTS Academic от 6.5 (каждая часть от 6.0), TOEFL от 100 / 5.0 или Duolingo от 125 и высокие оценки по профильным предметам. Российский аттестат подходит напрямую.",
+    "good": "Сразу после зачисления подавай на CAQ Квебека и собери выписки со счёта за 6 месяцев (не меньше 24 617 CAD на жизнь плюс обучение). Заявку на общежитие подавай в марте.",
     "source": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency"
   },
   "sources": [
     {
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "accessed": "2026-11-26",
+      "covers": "российский аттестат в списке принимаемых документов"
     },
     {
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "accessed": "2026-11-26",
+      "covers": "IELTS, TOEFL, Duolingo, Cambridge, CAEL"
     },
     {
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/deadlines",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "общие сведения (страница проверена при прошлом заполнении)"
     },
     {
       "url": "https://www.mcgill.ca/undergraduate-admissions/tuition-fees",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "общие сведения (страница проверена при прошлом заполнении)"
     },
     {
       "url": "https://www.mcgill.ca/students/housing/",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "общежития"
     },
     {
       "url": "https://www.mcgill.ca/internationalstudents/immigration",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "общие сведения (страница проверена при прошлом заполнении)"
     },
     {
       "url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/faculty-arts",
@@ -92,14 +93,51 @@
       "url": "https://www.mcgill.ca/accommodations/media-gallery/detail/1267/186",
       "accessed": "2026-11-25",
       "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf",
+      "accessed": "2026-11-26",
+      "covers": "тарифы для иностранцев 2026/27 по факультетам, фиксация цены"
+    },
+    {
+      "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads",
+      "accessed": "2026-11-26",
+      "covers": "стипендии и need-based помощь"
+    },
+    {
+      "url": "https://www.mcgill.ca/students/housing/fees-applying",
+      "accessed": "2026-11-26",
+      "covers": "гарантия жилья первокурсникам"
+    },
+    {
+      "url": "https://www.mcgill.ca/internationalstudents/faqs/caq-faqs/new-students",
+      "accessed": "2026-11-26",
+      "covers": "CAQ: деньги 24 617 CAD, лимит CAQ"
+    },
+    {
+      "url": "https://www.mcgill.ca/internationalstudents/faqs/study-permit-faqs/new-students",
+      "accessed": "2026-11-26",
+      "covers": "study permit, CAQ как PAL"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
+    },
+    {
+      "url": "https://www.aap.com.au/aapreleases/cision20260617ae86024/",
+      "accessed": "2026-11-26",
+      "covers": "QS 2027: McGill 30-е место"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Подтвердить по выбранному факультету эквивалентность российского аттестата, конкурентный средний балл и точную сумму тарифа."
+    "Сроки подачи 2027 (страница дедлайнов не открылась)",
+    "Цена общежития в месяц на 2027/28",
+    "Требования к профильным предметам по факультетам для российского аттестата"
   ],
-  "summary": "Исследовательский университет в Монреале с англоязычным бакалавриатом, двумя кампусами и широким выбором науки, инженерии, менеджмента и гуманитарных областей. Российская квалификация должна быть академическим аттестатом, дающим право поступать в вуз.",
+  "summary": "Старейший англоязычный исследовательский университет Канады в центре Монреаля, основан в 1821 году. Российский аттестат принимают напрямую — foundation не нужен. Обучение для иностранцев в 2026/27 — от 54 000 до 71 700 канадских долларов в год в зависимости от факультета, цена фиксируется на весь срок. Учиться в Квебеке можно только с квебекским сертификатом CAQ.",
   "data_year": 2027,
   "founded": 1821,
   "city_size": "mega",
@@ -116,60 +154,165 @@
     "en"
   ],
   "highlights": [
-    "Исторический кампус у Mount Royal",
-    "Англоязычное обучение в Монреале",
-    "Требуется признанная академическая школьная квалификация"
+    "30-е место в QS World University Rankings 2027 — лучший в Канаде",
+    "Российский аттестат принимают напрямую",
+    "Цена обучения фиксируется на всю программу для набора 2026/27",
+    "Жильё гарантировано первокурсникам до 22 лет",
+    "Обучение на английском во франкоязычном Монреале"
   ],
   "intl_students_url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
   "programs": [
     {
-      "name": "Computer Science",
-      "field": "it",
-      "level": "bachelor",
-      "language": "en",
-      "duration_years": 4,
-      "url": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science"
-    },
-    {
-      "name": "Mechanical Engineering",
-      "field": "engineering",
-      "level": "bachelor",
-      "language": "en",
-      "duration_years": 4,
-      "url": "https://www.mcgill.ca/undergraduate-admissions/program/mechanical-engineering"
-    },
-    {
-      "name": "Arts",
+      "name": "Bachelor of Arts (BA)",
       "field": "humanities",
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.mcgill.ca/undergraduate-admissions/program/arts"
+      "tuition": {
+        "amount": 54000.0,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
+    },
+    {
+      "name": "Bachelor of Science (BSc), в т.ч. Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 64785.9,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
+    },
+    {
+      "name": "Bachelor of Engineering (BEng), в т.ч. Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 65167.5,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
+    },
+    {
+      "name": "Bachelor of Commerce (BCom)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 71687.4,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
+    },
+    {
+      "name": "Bachelor of Arts and Science (BA&Sc)",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 56000.1,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
+    },
+    {
+      "name": "BSc Agricultural & Environmental Sciences / Food Science",
+      "field": "agriculture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 35561.1,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Тариф для иностранцев, зачисленных в 2026/27, за 30 кредитов; фиксируется на весь срок без перерывов. Со сборами и страховкой выше на ~3 500–4 000 CAD"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимального балла McGill не публикует; конкурентный уровень — высокие оценки по профильным предметам"
+      },
+      "url": "https://www.mcgill.ca/student-accounts/files/student-accounts/new_intl_ugrad_degree_students_admitted_2026-27_0.pdf"
     }
   ],
   "cost": {
     "tuition_min": {
-      "amount": 30000,
+      "amount": 35561.1,
       "currency": "CAD",
       "period": "year",
-      "note": "Диапазон ориентировочной годовой платы international undergraduate; McGill рассчитывает сумму по программе и резидентскому статусу, плюс обязательные сборы."
+      "note": "Самый дешёвый бакалавриат для иностранцев 2026/27 — аграрные и пищевые науки, архитектура (BScArch). Педагогика — 31 836,60"
     },
     "tuition_max": {
-      "amount": 65000,
+      "amount": 71687.4,
       "currency": "CAD",
       "period": "year",
-      "note": "Диапазон ориентировочной годовой платы international undergraduate; McGill рассчитывает сумму по программе и резидентскому статусу, плюс обязательные сборы."
+      "note": "Bachelor of Commerce, 2026/27; со сборами — 75 321 CAD. Медицина и право считаются отдельно"
+    },
+    "living_month_estimate": {
+      "amount": 2050,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Минимум, который Квебек требует подтвердить для CAQ: 24 617 CAD в год на одного взрослого"
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Need-based / entrance financial aid",
+        "name": "Entrance Scholarship Program",
         "coverage": "partial",
         "for_foreigners": true,
-        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
-        "url": "https://www.mcgill.ca/students/housing/"
+        "note": "Merit-стипендии за академические успехи, разовые и продлеваемые; в прошлом цикле выдано более 6,2 млн CAD. Отдельной заявки для разовых стипендий нет, рассматривают по заявке на поступление",
+        "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads"
+      },
+      {
+        "name": "Entrance Bursary Program",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Need-based помощь семьям с низким и средним доходом; в прошлом цикле 6,3 млн CAD для 550 первокурсников. Подаётся после получения предложения о зачислении",
+        "url": "https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads"
       }
     ]
   },
@@ -177,10 +320,25 @@
     "intl_exams": [
       {
         "exam": "IELTS",
-        "note": "Точные минимумы и освобождения зависят от теста и учебной истории."
+        "min_score": "6.5",
+        "note": "Academic; каждая часть не ниже 6.0"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "100 (iBT до 20.01.2026) / 5.0 (с 21.01.2026)",
+        "note": "Код McGill — 0935-00"
+      },
+      {
+        "exam": "DET",
+        "min_score": "125",
+        "note": "130 для B.Com. и B.Ed. (TESL)"
+      },
+      {
+        "exam": "OTHER",
+        "note": "Также принимают Cambridge C1 Advanced / C2 Proficiency и CAEL"
       }
     ],
-    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "language_level": "Английский: IELTS 6.5 (каждая часть от 6.0), TOEFL 100 / 5.0 или Duolingo 125. Французский не нужен.",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -188,24 +346,24 @@
     "recommendations": false,
     "activities_matter": "medium",
     "documents": [
-      "Аттестат и приложение с оценками",
-      "Официальный перевод документов, если требуется",
-      "Подтверждение английского/языка обучения, если применимо",
-      "Заявка и дополнительные материалы выбранной программы",
-      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+      "Онлайн-заявка Minerva и сбор",
+      "Аттестат и оценки за последние классы (с заверенным переводом на английский или французский)",
+      "Результат теста по английскому",
+      "Документы по программе, если требуются (портфолио для архитектуры и музыки)",
+      "После зачисления: CAQ Квебека, затем разрешение на учёбу Канады"
     ],
-    "notes": "Требуется признанный академический довузовский диплом, ведущий к поступлению в вуз; vocational track обычно не подходит."
+    "notes": "Российский «Аттестат о среднем (полном) общем образовании» есть в списке принимаемых документов McGill — поступать можно сразу после 11 класса. Нужен академический аттестат; диплом колледжа/техникума обычно не подходит. Требования к профильным предметам зависят от факультета."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Study permit + CAQ (Québec)",
-    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
-    "url": "https://www.mcgill.ca/internationalstudents/immigration"
+    "type": "CAQ Квебека + разрешение на учёбу (study permit)",
+    "notes": "Сначала получаешь CAQ — сертификат приёма Квебека (подача онлайн через Arrima). Нужно подтвердить деньги на обучение за первый год, перелёт и жизнь — не меньше 24 617 CAD; удобнее всего выписками со счёта за последние 6 месяцев. CAQ одновременно служит провинциальным письмом (PAL), без которого заявку на study permit не примут. Затем подаёшь онлайн на разрешение на учёбу в IRCC. Биометрию россияне сдают по записи в визовых центрах Канады в России (бесплатно для записи). С 29 января 2026 визовые центры в России больше не принимают паспорта для пересылки в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
+    "url": "https://www.mcgill.ca/internationalstudents/faqs/caq-faqs/new-students"
   },
   "dorm": {
     "available": true,
-    "guaranteed_first_year": false,
-    "notes": "Есть несколько резиденций в центре Монреаля и Macdonald campus. Наличие места зависит от срока и условий гарантии; тарифы различаются по корпусу, типу комнаты и питанию."
+    "guaranteed_first_year": true,
+    "notes": "Жильё в резиденциях гарантировано всем первокурсникам бакалавриата до 22 лет, принявшим предложение о зачислении. Заявки на 2027/28 открываются в марте 2027."
   },
   "deadlines": [
     {
@@ -255,5 +413,19 @@
       "source_url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/faculty-arts",
       "caption": "Студенты факультета искусств"
     }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "30"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "exchange",
+    "campus"
   ]
 }
