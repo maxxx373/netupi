@@ -2,8 +2,9 @@
   "id": "ucla",
   "type": "university",
   "name": {
-    "ru": "University of California, Los Angeles",
-    "en": "University of California, Los Angeles"
+    "ru": "Калифорнийский университет в Лос-Анджелесе",
+    "en": "University of California, Los Angeles",
+    "short": "UCLA"
   },
   "country": "US",
   "city": "Лос-Анджелес, Калифорния",
@@ -41,32 +42,32 @@
     {
       "url": "https://admission.ucla.edu/apply/first-year",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://admission.ucla.edu/apply/international-applicants",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://admission.ucla.edu/sites/default/files/documents/UCLA-Counselor-Admission-FAQ-2026.pdf",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://housing.ucla.edu/",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://internationalcenter.ucla.edu/visa-and-immigration/f-1-students",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://newsroom.ucla.edu/file?fid=65e733882cfac2500b0516c2",
@@ -92,9 +93,14 @@
       "url": "https://www.pcl.com/us/en/our-work/ucla-holly-ridge-and-gardenia-way-residence-halls",
       "accessed": "2026-11-25",
       "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-26",
+      "covers": "визы для граждан РФ: Астана и Варшава"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
     "Уточнить тест английского и требуемый балл по личной истории обучения; пересчитать общий бюджет для выбранного типа проживания."
@@ -126,7 +132,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.cs.ucla.edu/undergraduate/"
     },
@@ -134,7 +140,7 @@
       "name": "Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.mae.ucla.edu/undergraduate/"
     },
@@ -142,7 +148,7 @@
       "name": "Psychology",
       "field": "psychology",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.psych.ucla.edu/undergraduate/"
     },
@@ -150,7 +156,7 @@
       "name": "Film and Television",
       "field": "media",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.tft.ucla.edu/programs/film-television-digital-media-ba/"
     }
@@ -207,8 +213,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "F-1 student visa",
-    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1. Основание — форма I-20: её выдаёт Dashew Center for International Students and Scholars UCLA после зачисления и проверки документов о деньгах на учёбу и жизнь. Гражданам России, живущим в России, Госдеп США с сентября 2025 года назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); посольство в Москве студенческие визы не оформляет. Записаться в Варшаву почти невозможно без шенгенской визы или ВНЖ в ЕС, поэтому реалистичный вариант — Астана (для россиян въезд в Казахстан без визы). Если у тебя ВНЖ в другой стране, подаёшь там. Перед собеседованием оплачивается сбор SEVIS I-901 (350 USD для F-1). Правила меняются — перед записью проверь страницу Госдепа.",
     "url": "https://internationalcenter.ucla.edu/visa-and-immigration/f-1-students"
   },
   "dorm": {

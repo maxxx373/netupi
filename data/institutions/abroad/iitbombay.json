@@ -107,28 +107,28 @@
       "name": "B.Tech. Computer Science and Engineering",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.cse.iitb.ac.in/"
     },
     {
       "name": "B.Tech. Aerospace Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.aero.iitb.ac.in/"
     },
     {
       "name": "Bachelor of Design",
       "field": "design_art",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.iitb.ac.in/newacadhome/bdes.jsp"
     },
     {
       "name": "B.S. Mathematics",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.math.iitb.ac.in/"
     }
   ],

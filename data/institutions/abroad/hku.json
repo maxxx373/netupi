@@ -120,28 +120,28 @@
       "name": "Bachelor of Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.hku.hk/prospectus/undergraduate/engineering.html"
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.scifac.hku.hk/prospective/ug"
     },
     {
       "name": "Bachelor of Business Administration",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://ug.hkubs.hku.hk/"
     },
     {
       "name": "Bachelor of Arts",
       "field": "humanities",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://arts.hku.hk/prospective/undergraduate"
     }
   ],

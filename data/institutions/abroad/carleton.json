@@ -116,7 +116,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://carleton.ca/scs/"
     },
@@ -124,7 +124,7 @@
       "name": "Architecture",
       "field": "architecture",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://architecture.carleton.ca/"
     },
@@ -132,7 +132,7 @@
       "name": "Journalism",
       "field": "media",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://carleton.ca/sjc/undergraduate/"
     },
@@ -140,7 +140,7 @@
       "name": "International Relations",
       "field": "international_relations",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://carleton.ca/ir/"
     }

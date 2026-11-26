@@ -123,35 +123,35 @@
       "name": "Medicine",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://medicine.cu.edu.eg/"
     },
     {
       "name": "Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://eng.cu.edu.eg/en/"
     },
     {
       "name": "Agriculture",
       "field": "agriculture",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://agr.cu.edu.eg/"
     },
     {
       "name": "Veterinary Medicine",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://vet.cu.edu.eg/"
     },
     {
       "name": "Economics and Political Science",
       "field": "social_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://feps.edu.eg/"
     }
   ],

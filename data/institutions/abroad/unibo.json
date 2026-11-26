@@ -108,7 +108,7 @@
       "name": "Economics and Finance",
       "field": "economics",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 3,
       "url": "https://corsi.unibo.it/1cycle/EconomicsFinance"
     },
@@ -124,7 +124,7 @@
       "name": "International Studies",
       "field": "international_relations",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 3,
       "url": "https://corsi.unibo.it/1cycle/InternationalStudies"
     }

@@ -110,7 +110,7 @@
       "name": "Bachelor of Science in Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://computerscience.uonbi.ac.ke/"
     },
@@ -118,7 +118,7 @@
       "name": "Bachelor of Medicine and Bachelor of Surgery",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 6,
       "url": "https://medschool.uonbi.ac.ke/"
     },
@@ -126,7 +126,7 @@
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://business.uonbi.ac.ke/"
     }

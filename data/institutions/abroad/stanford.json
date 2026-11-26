@@ -118,7 +118,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "tuition": {
         "amount": 67731,
@@ -132,7 +132,7 @@
       "name": "Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "tuition": {
         "amount": 67731,
@@ -146,7 +146,7 @@
       "name": "Economics",
       "field": "economics",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "tuition": {
         "amount": 67731,
@@ -160,7 +160,7 @@
       "name": "Human Biology",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "tuition": {
         "amount": 67731,

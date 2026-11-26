@@ -110,7 +110,7 @@
       "name": "Bachelor of Engineering (Honours)",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.monash.edu/study/courses/find-a-course/engineering"
     },
@@ -118,7 +118,7 @@
       "name": "Bachelor of Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 3,
       "url": "https://www.monash.edu/study/courses/find-a-course/computer-science"
     },
@@ -126,7 +126,7 @@
       "name": "Bachelor of Pharmacy (Honours)",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.monash.edu/study/courses/find-a-course/pharmacy"
     }

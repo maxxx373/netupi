@@ -110,7 +110,7 @@
       "name": "Bachelor of Science in Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.qu.edu.qa/en-us/Colleges/engineering/academics/Pages/undergraduate-programs.aspx"
     },
@@ -118,7 +118,7 @@
       "name": "Bachelor of Business Administration",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.qu.edu.qa/en-us/Colleges/business/Pages/default.aspx"
     },
@@ -126,7 +126,7 @@
       "name": "Bachelor of Science in Pharmacy",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 5,
       "url": "https://www.qu.edu.qa/en-us/Colleges/pharmacy/Pages/default.aspx"
     }

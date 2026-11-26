@@ -121,7 +121,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/russia"
     },
@@ -129,7 +129,7 @@
       "name": "Software Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/software-engineering/high-school/international-system/russia"
     },
@@ -137,7 +137,7 @@
       "name": "Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/mechanical-engineering/high-school/international-system/russia"
     }

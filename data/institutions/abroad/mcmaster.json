@@ -101,7 +101,7 @@
       "name": "Bachelor of Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://future.mcmaster.ca/programs/engineering/"
     },
@@ -109,7 +109,7 @@
       "name": "Bachelor of Health Sciences (Honours)",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://future.mcmaster.ca/programs/health-sciences/"
     },
@@ -117,7 +117,7 @@
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://future.mcmaster.ca/programs/business/"
     }

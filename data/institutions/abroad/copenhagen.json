@@ -120,28 +120,28 @@
       "name": "Bachelor of Science (Biology)",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "датский",
+      "language": "da",
       "url": "https://www.ku.dk/studies/bachelor/biology"
     },
     {
       "name": "Bachelor of Science (Data Science)",
       "field": "it",
       "level": "bachelor",
-      "language": "датский",
+      "language": "da",
       "url": "https://www.ku.dk/studies/bachelor/data-science"
     },
     {
       "name": "Bachelor of Science (Economics)",
       "field": "economics",
       "level": "bachelor",
-      "language": "датский",
+      "language": "da",
       "url": "https://www.ku.dk/studies/bachelor/economics"
     },
     {
       "name": "Bachelor of Veterinary Medicine",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "датский",
+      "language": "da",
       "url": "https://www.ku.dk/studies/bachelor/veterinary-medicine"
     }
   ],

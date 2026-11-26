@@ -124,7 +124,7 @@
       "name": "Licence Sciences, technologies, santé",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "url": "https://sciences.sorbonne-universite.fr/en/apply/licences/first-year-licence-l1"
     },
@@ -132,7 +132,7 @@
       "name": "Licence Lettres",
       "field": "humanities",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "url": "https://lettres.sorbonne-universite.fr/formation"
     },
@@ -140,7 +140,7 @@
       "name": "Licence Informatique",
       "field": "it",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences"
     }

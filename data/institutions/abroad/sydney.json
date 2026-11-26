@@ -128,7 +128,7 @@
       "name": "Bachelor of Engineering Honours",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours.html"
     },
@@ -136,7 +136,7 @@
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science.html"
     },
@@ -144,7 +144,7 @@
       "name": "Bachelor of Arts",
       "field": "humanities",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts.html"
     },
@@ -152,7 +152,7 @@
       "name": "Bachelor of Architecture and Environments",
       "field": "architecture",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-in-architecture.html"
     }

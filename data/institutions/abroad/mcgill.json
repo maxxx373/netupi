@@ -126,7 +126,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science"
     },
@@ -134,7 +134,7 @@
       "name": "Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.mcgill.ca/undergraduate-admissions/program/mechanical-engineering"
     },
@@ -142,7 +142,7 @@
       "name": "Arts",
       "field": "humanities",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.mcgill.ca/undergraduate-admissions/program/arts"
     }

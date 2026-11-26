@@ -120,7 +120,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "tuition": {
         "amount": 4480,
@@ -134,7 +134,7 @@
       "name": "Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "tuition": {
         "amount": 4480,
@@ -148,7 +148,7 @@
       "name": "Architecture",
       "field": "architecture",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "tuition": {
         "amount": 4480,
@@ -162,7 +162,7 @@
       "name": "Life Sciences Engineering",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "французский",
+      "language": "fr",
       "duration_years": 3,
       "tuition": {
         "amount": 4480,

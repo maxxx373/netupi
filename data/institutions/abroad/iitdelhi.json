@@ -99,7 +99,7 @@
       "name": "B.Tech. Computer Science and Engineering",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://international.iitd.ac.in/undergraduate-studies/"
     },
@@ -107,7 +107,7 @@
       "name": "B.Tech. Electrical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://international.iitd.ac.in/undergraduate-studies/"
     },
@@ -115,7 +115,7 @@
       "name": "B.Tech. Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://international.iitd.ac.in/undergraduate-studies/"
     },
@@ -123,7 +123,7 @@
       "name": "B.Tech. Civil Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://international.iitd.ac.in/undergraduate-studies/"
     }

@@ -107,28 +107,28 @@
       "name": "Bachelor of Advanced Computing (Honours)",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://programsandcourses.anu.edu.au/2027/program/baadvcomp"
     },
     {
       "name": "Bachelor of Engineering (Honours)",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://programsandcourses.anu.edu.au/2027/program/benh"
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc"
     },
     {
       "name": "Bachelor of International Relations",
       "field": "international_relations",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://programsandcourses.anu.edu.au/2027/program/bir"
     }
   ],

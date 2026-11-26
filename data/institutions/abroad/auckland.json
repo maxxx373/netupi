@@ -113,28 +113,28 @@
       "name": "Bachelor of Engineering (Honours)",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html"
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
     },
     {
       "name": "Bachelor of Architectural Studies",
       "field": "architecture",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html"
     },
     {
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html"
     }
   ],

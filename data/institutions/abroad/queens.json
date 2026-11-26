@@ -109,7 +109,7 @@
       "name": "Bachelor of Computing",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.queensu.ca/admission/programs/computing"
     },
@@ -117,7 +117,7 @@
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.queensu.ca/admission/programs/commerce"
     },
@@ -125,7 +125,7 @@
       "name": "Bachelor of Applied Science (Engineering)",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.queensu.ca/admission/programs/engineering"
     }

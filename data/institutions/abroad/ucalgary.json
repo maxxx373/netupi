@@ -105,7 +105,7 @@
       "name": "Bachelor of Science in Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs"
     },
@@ -113,7 +113,7 @@
       "name": "Bachelor of Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://schulich.ucalgary.ca/future-students/undergraduate"
     },
@@ -121,7 +121,7 @@
       "name": "Bachelor of Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://haskayne.ucalgary.ca/future-students/undergraduate"
     }

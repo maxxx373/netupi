@@ -122,7 +122,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html"
     },
@@ -130,7 +130,7 @@
       "name": "Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/engineering.html"
     },
@@ -138,7 +138,7 @@
       "name": "Management and Organizational Studies",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/management-and-organizational-studies.html"
     }

@@ -2,8 +2,9 @@
   "id": "yale",
   "type": "university",
   "name": {
-    "ru": "Yale University",
-    "en": "Yale University"
+    "ru": "Йельский университет",
+    "en": "Yale University",
+    "short": "Yale"
   },
   "country": "US",
   "city": "Нью-Хейвен, Коннектикут",
@@ -40,36 +41,6 @@
   },
   "sources": [
     {
-      "url": "https://admissions.yale.edu/international",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
-      "url": "https://admissions.yale.edu/standardized-testing",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
-      "url": "https://admissions.yale.edu/timelines",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
-      "url": "https://admissions.yale.edu/affordability",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
-      "url": "https://admissions.yale.edu/residential-colleges",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
-      "url": "https://oiss.yale.edu/immigration/f-1-students",
-      "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
-    },
-    {
       "url": "https://yalealumnimagazine.org/articles/4607-the-new-college-try",
       "accessed": "2026-11-25",
       "covers": "Источник одной из фотографий в галерее"
@@ -93,14 +64,45 @@
       "url": "https://www.ramsa.com/projects/project/yale-residential-colleges",
       "accessed": "2026-11-25",
       "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://admissions.yale.edu/international",
+      "accessed": "2026-11-26",
+      "covers": "need-blind для иностранцев, финпомощь, тесты по английскому, перевод документов, SAT/ACT"
+    },
+    {
+      "url": "https://finaid.yale.edu/coa",
+      "accessed": "2026-11-26",
+      "covers": "смета 2026/27: обучение, сбор, жильё, питание, книги, личные расходы"
+    },
+    {
+      "url": "https://admissions.yale.edu/timelines",
+      "accessed": "2026-11-26",
+      "covers": "сроки подачи"
+    },
+    {
+      "url": "https://admissions.yale.edu/residential-colleges",
+      "accessed": "2026-11-26",
+      "covers": "общежитие"
+    },
+    {
+      "url": "https://oiss.yale.edu/immigration/f-1-students",
+      "accessed": "2026-11-26",
+      "covers": "I-20 и F-1"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-26",
+      "covers": "визы для граждан РФ: Астана и Варшава"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Проверить опубликованный полный бюджет 2027/28 после выхода новой таблицы; тестовые альтернативы зависят от доступности экзамена в стране."
+    "Рейтинги QS/THE 2027 с сайтов рейтингов",
+    "Смета 2027/28 после публикации"
   ],
-  "summary": "Частный исследовательский университет в Нью-Хейвене с системой residential colleges: у студентов есть жилой колледж, общие пространства и отдельные академические корпуса. Иностранные первокурсники следуют общей процедуре подачи и тестовой политике Yale.",
+  "summary": "Частный исследовательский университет Лиги плюща в Нью-Хейвене, основан в 1701 году. Бакалавры живут в residential colleges — жилых колледжах со своими столовыми и библиотеками. Иностранцев рассматривают need-blind и покрывают 100% доказанной финансовой потребности, но SAT или ACT обязательны. Обучение в 2026/27 — $72 500 в год.",
   "data_year": 2027,
   "founded": 1701,
   "city_size": "mid",
@@ -117,9 +119,10 @@
     "en"
   ],
   "highlights": [
-    "Система residential colleges",
-    "Иностранцам доступна need-based помощь",
-    "Поступление включает обязательные SAT/ACT по текущей политике"
+    "Need-blind приём иностранцев и 100% покрытие доказанной потребности",
+    "Все бакалавры живут в residential colleges",
+    "SAT или ACT обязательны с 2025 года",
+    "Обучение $72 500 в год (2026/27), полная смета около $98 000"
   ],
   "intl_students_url": "https://admissions.yale.edu/international",
   "programs": [
@@ -127,58 +130,88 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
-      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/"
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/",
+      "tuition": {
+        "amount": 72500,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка Yale College, 2026/27"
+      }
     },
     {
       "name": "Economics",
       "field": "economics",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
-      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/economics/"
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/economics/",
+      "tuition": {
+        "amount": 72500,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка Yale College, 2026/27"
+      }
     },
     {
       "name": "Environmental Studies",
       "field": "natural_sciences",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
-      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/environmental-studies/"
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/environmental-studies/",
+      "tuition": {
+        "amount": 72500,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка Yale College, 2026/27"
+      }
     },
     {
       "name": "Architecture",
       "field": "architecture",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
-      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/architecture/"
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/architecture/",
+      "tuition": {
+        "amount": 72500,
+        "currency": "USD",
+        "period": "year",
+        "note": "Единая ставка Yale College, 2026/27"
+      }
     }
   ],
   "cost": {
     "tuition_min": {
-      "amount": 69000,
+      "amount": 72500,
       "currency": "USD",
       "period": "year",
-      "note": "Ориентир tuition и полного бюджета 2026/27: tuition около $69 тыс., общая стоимость с проживанием, питанием и сборами выше; зависит от личных расходов."
+      "note": "Плата за обучение в Yale College на 2026/27 (плюс студенческий сбор $185). Одна ставка для всех специальностей и для иностранцев"
     },
     "tuition_max": {
-      "amount": 95000,
+      "amount": 72685,
       "currency": "USD",
       "period": "year",
-      "note": "Ориентир tuition и полного бюджета 2026/27: tuition около $69 тыс., общая стоимость с проживанием, питанием и сборами выше; зависит от личных расходов."
+      "note": "Обучение $72 500 + student activity fee $185, 2026/27"
+    },
+    "living_month_estimate": {
+      "amount": 2500,
+      "currency": "USD",
+      "period": "month",
+      "note": "Расчёт по официальной смете 2026/27: жильё $12 080 + питание $9 520 + книги $1 000 + личные расходы $2 700 = $25 300 за 9–10 месяцев учебного года, без перелётов. Полная смета вместе с обучением — около $98 000 в год"
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Need-based / entrance financial aid",
-        "coverage": "partial",
+        "name": "Need-based financial aid Yale",
+        "coverage": "full",
         "for_foreigners": true,
-        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
-        "url": "https://admissions.yale.edu/residential-colleges"
+        "note": "Yale рассматривает иностранцев need-blind (просьба о помощи не влияет на решение о зачислении) и покрывает 100% доказанной финансовой потребности. Помощь для иностранцев включает жильё, питание и два перелёта в год; учитывается разница экономик страны семьи и США. Подавать заявку на помощь каждый год заново не нужно.",
+        "url": "https://admissions.yale.edu/international"
       }
     ]
   },
@@ -186,14 +219,30 @@
     "intl_exams": [
       {
         "exam": "SAT",
-        "note": "SAT или ACT обязателен по текущей политике, предусмотрены альтернативные тесты только при ограниченной доступности."
+        "note": "SAT или ACT обязательны для всех, включая иностранцев. Школьные выпускные и языковые экзамены их не заменяют"
       },
       {
         "exam": "ACT",
-        "note": "Альтернатива SAT по действующей политике Yale."
+        "note": "Альтернатива SAT"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Нужен, если ты учился в школе на английском меньше двух лет. Минимальный балл Yale не публикует"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Альтернатива TOEFL"
+      },
+      {
+        "exam": "DET",
+        "note": "Duolingo English Test тоже принимают"
+      },
+      {
+        "exam": "OTHER",
+        "note": "Также принимают Cambridge English Qualifications и интервью InitialView"
       }
     ],
-    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "language_level": "Тест по английскому (TOEFL, IELTS, Duolingo, Cambridge или InitialView) обязателен, если ты учился на английском меньше двух лет старшей школы. Порогового балла Yale не называет.",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -201,19 +250,20 @@
     "recommendations": true,
     "activities_matter": "high",
     "documents": [
-      "Аттестат и приложение с оценками",
-      "Официальный перевод документов, если требуется",
-      "Подтверждение английского/языка обучения, если применимо",
-      "Заявка и дополнительные материалы выбранной программы",
-      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+      "Заявка Common App, Coalition или QuestBridge и эссе Yale",
+      "Школьный транскрипт (оценки) и рекомендации учителей и школьного консультанта",
+      "Результаты SAT или ACT",
+      "Результат теста по английскому, если школа была не на английском",
+      "Заверенный перевод на английский всех документов не на английском — свой перевод не принимают",
+      "После зачисления: паспорт и документы о деньгах для I-20 и визы"
     ],
-    "notes": "Подай общую first-year application и школьные документы; SAT/ACT включены в текущую тестовую политику."
+    "notes": "Иностранцы подают те же документы и проходят тот же отбор, что американцы. Российский аттестат подходит как школьный документ (с заверенным переводом), но SAT/ACT нужны обязательно."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "F-1 student visa",
-    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
-    "url": "https://oiss.yale.edu/immigration/f-1-students"
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1. Основание — форма I-20: её выдаёт Office of International Students and Scholars (OISS) Yale после зачисления и проверки документов о деньгах на учёбу и жизнь. Гражданам России, живущим в России, Госдеп США с сентября 2025 года назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); посольство в Москве студенческие визы не оформляет. Записаться в Варшаву почти невозможно без шенгенской визы или ВНЖ в ЕС, поэтому реалистичный вариант — Астана (для россиян въезд в Казахстан без визы). Если у тебя ВНЖ в другой стране, подаёшь там. Перед собеседованием оплачивается сбор SEVIS I-901 (350 USD для F-1). Правила меняются — перед записью проверь страницу Госдепа.",
+    "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html"
   },
   "dorm": {
     "available": true,

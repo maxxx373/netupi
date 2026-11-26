@@ -118,7 +118,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/"
     },
@@ -126,7 +126,7 @@
       "name": "Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://you.ubc.ca/ubc_programs/applied-science-vancouver-basc/"
     },
@@ -134,7 +134,7 @@
       "name": "Commerce",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://you.ubc.ca/ubc_programs/commerce-vancouver-bcom/"
     },
@@ -142,7 +142,7 @@
       "name": "Psychology",
       "field": "psychology",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://you.ubc.ca/ubc_programs/psychology-vancouver-ba/"
     }

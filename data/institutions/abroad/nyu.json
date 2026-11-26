@@ -2,8 +2,9 @@
   "id": "nyu",
   "type": "university",
   "name": {
-    "ru": "New York University",
-    "en": "New York University"
+    "ru": "Нью-Йоркский университет",
+    "en": "New York University",
+    "short": "NYU"
   },
   "country": "US",
   "city": "Нью-Йорк, Нью-Йорк",
@@ -42,32 +43,32 @@
     {
       "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests.html",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://www.nyu.edu/students/student-information-and-resources/housing.html",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html",
       "accessed": "2026-11-25",
-      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
     },
     {
       "url": "https://www.law.nyu.edu/registrar",
@@ -93,9 +94,14 @@
       "url": "https://architizer.com/projects/john-a-paulson-center/",
       "accessed": "2026-11-25",
       "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "accessed": "2026-11-26",
+      "covers": "визы для граждан РФ: Астана и Варшава"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
     "Проверить точные дедлайны 2027 и требования школы/кампуса: отдельные подразделения NYU имеют дополнительные материалы."
@@ -127,7 +133,7 @@
       "name": "Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://cs.nyu.edu/home/undergrad/"
     },
@@ -135,7 +141,7 @@
       "name": "Business",
       "field": "business",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://www.stern.nyu.edu/programs-admissions/undergraduate"
     },
@@ -143,7 +149,7 @@
       "name": "Film and Television",
       "field": "media",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://tisch.nyu.edu/film-tv"
     },
@@ -151,7 +157,7 @@
       "name": "Interactive Media Arts",
       "field": "design_art",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://tisch.nyu.edu/itp/undergraduate"
     }
@@ -202,8 +208,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "F-1 student visa",
-    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1. Основание — форма I-20: её выдаёт Office of Global Services (OGS) NYU после зачисления и проверки документов о деньгах на учёбу и жизнь. Гражданам России, живущим в России, Госдеп США с сентября 2025 года назначил для собеседования на неиммиграционные визы, включая студенческие, посольства в Астане (Казахстан) и Варшаве (Польша); посольство в Москве студенческие визы не оформляет. Записаться в Варшаву почти невозможно без шенгенской визы или ВНЖ в ЕС, поэтому реалистичный вариант — Астана (для россиян въезд в Казахстан без визы). Если у тебя ВНЖ в другой стране, подаёшь там. Перед собеседованием оплачивается сбор SEVIS I-901 (350 USD для F-1). Правила меняются — перед записью проверь страницу Госдепа.",
     "url": "https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html"
   },
   "dorm": {

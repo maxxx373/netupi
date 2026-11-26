@@ -106,7 +106,7 @@
       "name": "Bachelor of Science in Computer Science",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 3,
       "url": "https://www.uct.ac.za/students/applications-admission-requirements"
     },
@@ -114,7 +114,7 @@
       "name": "Bachelor of Engineering in Mechanical Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "url": "https://ebe.uct.ac.za/"
     },
@@ -122,7 +122,7 @@
       "name": "Bachelor of Medicine and Bachelor of Surgery",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 6,
       "url": "https://health.uct.ac.za/"
     }

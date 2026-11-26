@@ -104,7 +104,7 @@
       "name": "Ingeniería Civil",
       "field": "engineering",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 6,
       "url": "https://uchile.cl/admision-y-matriculas"
     },
@@ -112,7 +112,7 @@
       "name": "Medicina",
       "field": "medicine",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 7,
       "url": "https://uchile.cl/admision-y-matriculas"
     },
@@ -120,7 +120,7 @@
       "name": "Derecho",
       "field": "law",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 5,
       "url": "https://uchile.cl/admision-y-matriculas"
     }

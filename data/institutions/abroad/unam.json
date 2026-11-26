@@ -107,7 +107,7 @@
       "name": "Licenciatura en Medicina",
       "field": "medicine",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 6,
       "url": "https://oferta.unam.mx/medicina.html"
     },
@@ -115,7 +115,7 @@
       "name": "Licenciatura en Ingeniería en Computación",
       "field": "it",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 4,
       "url": "https://oferta.unam.mx/ingenieria-en-computacion.html"
     },
@@ -123,7 +123,7 @@
       "name": "Licenciatura en Derecho",
       "field": "law",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 5,
       "url": "https://oferta.unam.mx/derecho.html"
     }

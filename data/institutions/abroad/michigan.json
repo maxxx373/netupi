@@ -266,7 +266,15 @@
     "campus",
     "student_life"
   ],
-  "photos": [],
+  "photos": [
+    {
+      "file": "photos/michigan/1.jpg",
+      "author": "Cbl62",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Burton_Memorial_Tower_(2010).jpg",
+      "caption": "Мемориальная башня Бертона с карильоном"
+    }
+  ],
   "sources": [
     {
       "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
@@ -373,8 +381,7 @@
     "Узнать, гарантировано ли общежитие первокурсникам и сколько оно стоит (housing.umich.edu закрыт для бота)",
     "Проверить, need-blind ли приём для иностранцев и какие стипендии им реально доступны",
     "Добавить место в QS World University Rankings 2027 с официального сайта",
-    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава",
-    "Подобрать и проверить галерею из 4–5 фотографий: фасад/кампус, учебные пространства, жильё (если есть), студенческая жизнь; использовать только релевантные изображения с атрибуцией."
+    "Проверить на travel.state.gov, что для россиян по-прежнему назначены Астана и Варшава"
   ],
   "prep": {
     "must": "Подай Common App с тремя эссе U-M до 1 ноября (Early Action или обязывающий Early Decision) или до 1 февраля 2027. К тому же сроку школа должна прислать выписку оценок с официальным переводом и School Report, учитель — рекомендацию. Сдай TOEFL от 100 (секции 21–23+) или IELTS от 7.0 — Duolingo не принимают.",

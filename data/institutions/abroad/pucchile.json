@@ -105,7 +105,7 @@
       "name": "Ingeniería Civil",
       "field": "engineering",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 6,
       "url": "https://admision.uc.cl/carreras/ingenieria-civil/"
     },
@@ -113,7 +113,7 @@
       "name": "Medicina",
       "field": "medicine",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 7,
       "url": "https://admision.uc.cl/carreras/medicina/"
     },
@@ -121,7 +121,7 @@
       "name": "Derecho",
       "field": "law",
       "level": "bachelor",
-      "language": "испанский",
+      "language": "es",
       "duration_years": 5,
       "url": "https://admision.uc.cl/carreras/derecho/"
     }

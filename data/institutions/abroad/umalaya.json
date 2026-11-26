@@ -106,7 +106,7 @@
       "name": "Bachelor of Computer Science (Artificial Intelligence)",
       "field": "it",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 3.5,
       "url": "https://study.um.edu.my/bachelor-of-computer-science-artificial-intelligence"
     },
@@ -114,7 +114,7 @@
       "name": "Bachelor of Civil Engineering",
       "field": "engineering",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 4,
       "tuition": {
         "amount": 132100,
@@ -128,7 +128,7 @@
       "name": "Bachelor of Medicine and Bachelor of Surgery",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский",
+      "language": "en",
       "duration_years": 5,
       "tuition": {
         "amount": 673200,
