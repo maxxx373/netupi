@@ -2,8 +2,9 @@
   "id": "mcmaster",
   "type": "university",
   "name": {
-    "ru": "McMaster University",
-    "en": "McMaster University"
+    "ru": "Университет Макмастера",
+    "en": "McMaster University",
+    "short": "McMaster"
   },
   "country": "CA",
   "city": "Гамильтон, Онтарио",
@@ -52,7 +53,7 @@
     {
       "url": "https://future.mcmaster.ca/app/uploads/2025/10/MCM02_Int-8-pager-Brochure-2026_ENG_1-ReadingOrder.pdf",
       "accessed": "2026-11-26",
-      "covers": "ориентир tuition на 2025/26 и сведения о residence guarantee 2026"
+      "covers": "английский, цены 2025/26, подача через OUAC"
     },
     {
       "url": "https://housing.mcmaster.ca/future-residents/buildings/",
@@ -68,14 +69,22 @@
       "url": "https://future.mcmaster.ca/campus-life/",
       "accessed": "2026-11-26",
       "covers": "кампус, студенческая жизнь и фото"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Показанная стоимость является датированным ориентиром 2025/26; обновить точный диапазон после публикации/расчёта выбранной программы на учебный год абитуриента."
+    "Цены 2026/27 для иностранцев по программам",
+    "Требования к российскому аттестату",
+    "Цены резиденций",
+    "Место в QS 2027"
   ],
-  "summary": "Крупный исследовательский университет в Гамильтоне, Канада. Сильные направления — инженерия, медицина и health sciences, бизнес, естественные и общественные науки; на кампусе есть библиотеки, лаборатории и резиденции.",
+  "summary": "Исследовательский университет в Гамильтоне (Онтарио), известен медициной, инженерией и наукой о здоровье, а также методом обучения через решение задач. Иностранцы платят от 45 000 до 69 000 канадских долларов в год в зависимости от программы. Английский: IELTS 6.5 (каждая часть от 6.0), TOEFL 86 или Duolingo 120.",
   "intl_students_url": "https://future.mcmaster.ca/apply/international/",
   "founded": 1887,
   "city_size": "mid",
@@ -92,9 +101,11 @@
     "full"
   ],
   "highlights": [
-    "Главный кампус расположен у природной зоны Cootes Paradise в Гамильтоне",
-    "Требования к школьной квалификации отличаются по факультетам",
-    "Университет предлагает широкий выбор кампусных резиденций и типов комнат"
+    "Сильные медицина, наука о здоровье и инженерия",
+    "IELTS 6.5 / TOEFL 86 / Duolingo 120",
+    "Обучение для иностранцев 45 158–69 354 CAD в год (2025/26)",
+    "Подача через OUAC 105, рекомендуемый срок — 15 января",
+    "Зелёный кампус рядом с природной зоной Cootes Paradise"
   ],
   "programs": [
     {
@@ -103,7 +114,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://future.mcmaster.ca/programs/engineering/"
+      "url": "https://future.mcmaster.ca/programs/engineering/",
+      "tuition": {
+        "amount": 45158,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Нижняя граница для иностранцев 2025/26; точная сумма — в калькуляторе по программе"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     },
     {
       "name": "Bachelor of Health Sciences (Honours)",
@@ -111,7 +133,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://future.mcmaster.ca/programs/health-sciences/"
+      "url": "https://future.mcmaster.ca/programs/health-sciences/",
+      "tuition": {
+        "amount": 45158,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Нижняя граница для иностранцев 2025/26; точная сумма — в калькуляторе по программе"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     },
     {
       "name": "Bachelor of Commerce",
@@ -119,21 +152,38 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://future.mcmaster.ca/programs/business/"
+      "url": "https://future.mcmaster.ca/programs/business/",
+      "tuition": {
+        "amount": 45158,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Нижняя граница для иностранцев 2025/26; точная сумма — в калькуляторе по программе"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     }
   ],
   "requirements": {
     "intl_exams": [
       {
         "exam": "IELTS",
-        "note": "Английский минимум зависит от программы и текущего перечня допустимых тестов."
+        "min_score": "6.5",
+        "note": "Каждая часть не ниже 6.0"
       },
       {
         "exam": "TOEFL",
-        "note": "Сверь общий и секционные минимумы на странице English proficiency."
+        "min_score": "86",
+        "note": "Каждая часть не ниже 20"
+      },
+      {
+        "exam": "DET",
+        "min_score": "120"
       }
     ],
-    "language_level": "Подтверждённый английский по текущим требованиям McMaster; требования и освобождения отличаются по кандидату.",
+    "language_level": "IELTS 6.5 (каждая часть от 6.0), TOEFL iBT 86 (каждая часть от 20) или Duolingo 120. При более низких баллах — языковая программа McMaster.",
     "entrance_tests": false,
     "interview": true,
     "portfolio": "some_programs",
@@ -170,8 +220,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Study permit; TRV/eTA as required",
-    "notes": "После offer проверь актуальную подачу на study permit, PAL/TAL (если применяется), подтверждение средств и отдельные условия въездного документа для гражданства. Решение принимает канадская миграционная служба.",
+    "type": "Разрешение на учёбу (study permit) + PAL Онтарио",
+    "notes": "Нужно разрешение на учёбу (study permit). Для бакалавриата требуется провинциальное письмо PAL (Онтарио) — его выдаёт университет после зачисления. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
   },
   "dorm": {
@@ -181,11 +231,25 @@
   },
   "photos": [
     {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/University_Hall_McMaster_2013.jpg/1280px-University_Hall_McMaster_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "JustSomePics",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_Hall_McMaster_2013.jpg",
+      "caption": "University Hall — исторический главный корпус McMaster"
+    },
+    {
       "file": "https://future.mcmaster.ca/app/uploads/2025/05/Campus-with-Cootes_jpg.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://future.mcmaster.ca/campus-life/",
-      "caption": "Кампус McMaster и природная зона Cootes"
+      "caption": "Кампус с высоты: рядом природная зона Cootes Paradise"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Hamilton_Hall%2C_McMaster_University_%285806663685%29.jpg/1280px-Hamilton_Hall%2C_McMaster_University_%285806663685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "jockrutherford from Owen Sound, ON",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hamilton_Hall,_McMaster_University_(5806663685).jpg",
+      "caption": "Hamilton Hall"
     },
     {
       "file": "https://future.mcmaster.ca/app/uploads/2025/05/CAP_0115classroomhamiltonhall_jpg-768x617-1.jpg",
@@ -199,22 +263,28 @@
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://housing.mcmaster.ca/future-residents/buildings/",
-      "caption": "Bates Residence на кампусе"
+      "caption": "Общежитие Bates Residence"
     },
     {
       "file": "https://housing.mcmaster.ca/app/uploads/2026/03/20260327-HCS-lahroomfull-007.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://housing.mcmaster.ca/future-residents/buildings/",
-      "caption": "Общежитие Lincoln Alexander Hall: общая комната"
-    },
-    {
-      "file": "https://future.mcmaster.ca/app/uploads/2025/05/CampusStudents_Summer_ABC07107_jpg-768x512-2.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://future.mcmaster.ca/campus-life/",
-      "caption": "Студенты на зелёном основном кампусе"
+      "caption": "Гостиная в общежитии Lincoln Alexander Hall"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Подача через OUAC (105) для равного рассмотрения",
+      "end": "01-15",
+      "intake": "Сентябрь 2027"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "internships",
+    "intl_environment"
+  ]
 }

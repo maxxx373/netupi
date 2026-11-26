@@ -2,8 +2,9 @@
   "id": "queens",
   "type": "university",
   "name": {
-    "ru": "Queen’s University",
-    "en": "Queen’s University"
+    "ru": "Королевский университет (Queen’s)",
+    "en": "Queen’s University",
+    "short": "Queen's"
   },
   "country": "CA",
   "city": "Кингстон, Онтарио",
@@ -60,7 +61,7 @@
     {
       "url": "https://www.queensu.ca/residences/apply/residence-fees",
       "accessed": "2026-11-26",
-      "covers": "стоимость residence и meal plan"
+      "covers": "срок депозита за общежитие 2027"
     },
     {
       "url": "https://www.queensu.ca/residences/apply/first-year-student-residence-application",
@@ -76,14 +77,21 @@
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
       "accessed": "2026-11-26",
       "covers": "канадский study permit"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Уточнить по циклу поступления: гарантированное жильё зависит от дедлайна, даты offer и своевременной заявки; стоимость в карточке — примеры нескольких факультетов, не полный тарифный справочник."
+    "Минимальные баллы английского для 2027",
+    "Требования к российскому аттестату (раздел по странам)",
+    "Место в QS 2027"
   ],
-  "summary": "Исследовательский университет в Кингстоне, Онтарио, с историческими каменными корпусами, библиотеками, резиденциями и программами в инженерии, бизнесе, вычислительной технике, науках, праве и гуманитарных дисциплинах.",
+  "summary": "Один из старейших университетов Канады (1841) в Кингстоне, Онтарио, известен бизнес-школой Smith, инженерией и сильной студенческой жизнью. Обучение для иностранцев в 2026/27 — от 44 810 канадских долларов (искусства и науки) до 60 839 (коммерция). Подача — через OUAC.",
   "intl_students_url": "https://www.queensu.ca/admission/applying/admission-requirements/international",
   "founded": 1841,
   "city_size": "mid",
@@ -100,9 +108,11 @@
     "full"
   ],
   "highlights": [
-    "Исторический кампус у озера Ontario в Кингстоне",
-    "Требования к иностранным школьным системам и предметам зависят от программы",
-    "18 резиденций с разными конфигурациями комнат и более 4,800 мест для первокурсников"
+    "Исторический кампус на берегу озера Онтарио",
+    "Обучение для иностранцев 44 810–60 839 CAD в год (2026/27)",
+    "Большинство первокурсников живут в резиденциях",
+    "Депозит за общежитие для первокурсников — до 1 июня 2027",
+    "Сильная бизнес-школа Smith и инженерия"
   ],
   "programs": [
     {
@@ -111,7 +121,12 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.queensu.ca/admission/programs/computing"
+      "url": "https://www.queensu.ca/admission/programs/computing",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     },
     {
       "name": "Bachelor of Commerce",
@@ -119,7 +134,12 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.queensu.ca/admission/programs/commerce"
+      "url": "https://www.queensu.ca/admission/programs/commerce",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     },
     {
       "name": "Bachelor of Applied Science (Engineering)",
@@ -127,7 +147,12 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.queensu.ca/admission/programs/engineering"
+      "url": "https://www.queensu.ca/admission/programs/engineering",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
     }
   ],
   "requirements": {
@@ -187,8 +212,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Study permit; TRV as required",
-    "notes": "Для длительной очной учёбы обычно требуется study permit; проверь актуальную необходимость PAL/TAL, документы о средствах, медосмотр и въездной документ для гражданства. Официальное решение принимает IRCC.",
+    "type": "Разрешение на учёбу (study permit) + PAL Онтарио",
+    "notes": "Нужно разрешение на учёбу (study permit). Для бакалавриата требуется провинциальное письмо PAL (Онтарио) — его выдаёт университет после зачисления. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
     "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
   },
   "dorm": {
@@ -204,40 +229,64 @@
   },
   "photos": [
     {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Grant_Hall_%28Queen%27s_University_at_Kingston%29.jpg/1280px-Grant_Hall_%28Queen%27s_University_at_Kingston%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Takipoint123",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grant_Hall_(Queen%27s_University_at_Kingston).jpg",
+      "caption": "Grant Hall — символ Queen’s с часовой башней"
+    },
+    {
       "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/DJI_0090%20%281%29.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://www.queensu.ca/residences/buildings",
-      "caption": "Панорама кампуса и резиденций со стороны озера"
+      "caption": "Кампус и резиденции на берегу озера Онтарио"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Goodes_Hall_-_Queens_University%2C_Canada.JPG/1280px-Goodes_Hall_-_Queens_University%2C_Canada.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Acurran at English Wikipedia",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Goodes_Hall_-_Queens_University,_Canada.JPG",
+      "caption": "Goodes Hall — бизнес-школа Smith"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Summerhill_at_Queen%27s_University_in_2007.jpg/1280px-Summerhill_at_Queen%27s_University_in_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "John Vetterli",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Summerhill_at_Queen%27s_University_in_2007.jpg",
+      "caption": "Summerhill — старейшее здание кампуса"
     },
     {
       "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Adelaide/Adelaide-Hall01-small-1024x683.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://www.queensu.ca/residences/buildings",
-      "caption": "Adelaide Hall — фасад студенческой резиденции"
+      "caption": "Adelaide Hall — резиденция"
     },
     {
       "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Brant/Brant-House-ext-5-1024x683.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://www.queensu.ca/residences/buildings",
-      "caption": "Brant House, резиденция на кампусе"
-    },
-    {
-      "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Chown/chown-1.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.queensu.ca/residences/buildings",
-      "caption": "Chown Hall — жилой корпус"
-    },
-    {
-      "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Ban%20Righ/ban-righ-hall-1.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.queensu.ca/residences/buildings",
-      "caption": "Ban Righ Hall — ещё одна резиденция в жилом квартале кампуса"
+      "caption": "Brant House — резиденция"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Подача через OUAC (105) для равного рассмотрения",
+      "end": "01-15",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Заявка и депозит на общежитие для первокурсников",
+      "end": "2027-06-01"
+    }
+  ],
+  "perks": [
+    "student_life",
+    "campus",
+    "strong_research",
+    "employment"
+  ]
 }
