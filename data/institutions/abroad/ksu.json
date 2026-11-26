@@ -2,8 +2,10 @@
   "id": "ksu",
   "type": "university",
   "name": {
-    "ru": "King Saud University",
-    "en": "King Saud University"
+    "ru": "Университет короля Сауда",
+    "en": "King Saud University",
+    "short": "KSU",
+    "local": "جامعة الملك سعود"
   },
   "country": "SA",
   "city": "Эр-Рияд",
@@ -31,15 +33,15 @@
     "social_sciences"
   ],
   "prep": {
-    "must": "Проверь eligibility для external scholarship или self-funded health sciences, список доступных курсов, возраст/год выпуска, аттестат и нужный SAT порог.",
-    "good": "Свяжись с Deanship of Admission and Registration для проверки российского аттестата, языка курса, визы, жилья и актуального цикла.",
+    "must": "Сдай SAT от 1010 (для медицины — от 1200), подготовь аттестат с оценками «очень хорошо» и справку о несудимости. Подавай заявку на si.ksu.edu.sa — тебе должно быть 17–25 лет.",
+    "good": "Начни учить арабский заранее: сначала будет год языковой программы. Конкурс идёт по квоте мест для каждой страны.",
     "source": "https://dar.ksu.edu.sa/en/overseas"
   },
   "sources": [
     {
       "url": "https://dar.ksu.edu.sa/en/overseas",
       "accessed": "2026-11-26",
-      "covers": "внешний и внутренний admission routes, требования для иностранных кандидатов"
+      "covers": "условия для иностранцев: стипендия и платные медпрограммы, SAT, возраст"
     },
     {
       "url": "https://vrea.ksu.edu.sa/en/node/374",
@@ -49,7 +51,7 @@
     {
       "url": "https://faculty.ksu.edu.sa/sites/default/files/KSU%20Scholarship%20Flyer%20EN.pdf",
       "accessed": "2026-11-26",
-      "covers": "условия scholarship в официальной брошюре"
+      "covers": "льготы стипендии, программы, порядок, арабский язык"
     },
     {
       "url": "https://ksu.edu.sa/king-saud-libraries",
@@ -75,9 +77,11 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Подтвердить в международном офисе текущую визовую процедуру и точный список external scholarship программ на год подачи."
+    "Сроки подачи на внешнюю стипендию 2027",
+    "Цена платных медицинских программ",
+    "Место в QS 2027"
   ],
-  "summary": "Крупный государственный университет Эр-Рияда. Для иностранцев, живущих за пределами Саудовской Аравии, официальный сайт описывает внешнюю стипендиальную подачу на ограниченный набор бакалаврских программ; отдельные платные места предусмотрены в некоторых health sciences.",
+  "summary": "Старейший и крупнейший государственный университет Саудовской Аравии в Эр-Рияде. Иностранцы, живущие вне королевства, могут поступить на полную стипендию: бесплатное обучение, жильё, ежемесячная выплата, медицина и авиабилеты. Для этого нужен SAT от 1010, возраст 17–25 лет и хорошие оценки. Тем, кто не говорит по-арабски, сначала дают годовую программу арабского языка.",
   "intl_students_url": "https://dar.ksu.edu.sa/en/overseas",
   "founded": 1957,
   "city_size": "mega",
@@ -95,30 +99,100 @@
     "full"
   ],
   "highlights": [
-    "Отдельная внешняя scholarship-подача для кандидатов, живущих за пределами Саудовской Аравии",
-    "Доступные иностранцам программы ограничены и отличаются по маршруту",
-    "Некоторые scholarship-пакеты включают финансовую поддержку, но self-funded условия проверяются отдельно"
+    "Полная стипендия для иностранцев: обучение, жильё, стипендия, медицина, авиабилеты",
+    "SAT от 1010 (для медицины — от 1200)",
+    "Возраст 17–25 лет, после школы — не больше 5 лет",
+    "Сначала программа арабского языка для неарабоговорящих",
+    "Платные программы по медицинским наукам для самофинансируемых"
   ],
   "programs": [
     {
-      "name": "Bachelor of Science in Computer Science",
-      "field": "it",
-      "level": "bachelor",
-      "language": "английский/арабский — зависит от курса",
-      "url": "https://dar.ksu.edu.sa/en/overseas"
-    },
-    {
-      "name": "Bachelor of Engineering",
+      "name": "Инженерия (Scientific Colleges Track)",
       "field": "engineering",
       "level": "bachelor",
-      "language": "арабский/английский — зависит от курса",
+      "language": "ar",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 0,
+        "currency": "SAR",
+        "period": "year",
+        "note": "Бесплатно по внешней стипендии"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT от 1010, оценки «очень хорошо», конкурс по квоте страны"
+      },
       "url": "https://dar.ksu.edu.sa/en/overseas"
     },
     {
-      "name": "Bachelor of Medicine",
+      "name": "Компьютерные и информационные науки",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ar",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 0,
+        "currency": "SAR",
+        "period": "year",
+        "note": "Бесплатно по внешней стипендии"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT от 1010, конкурс по квоте страны"
+      },
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    },
+    {
+      "name": "Архитектура и планирование",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "ar",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 0,
+        "currency": "SAR",
+        "period": "year",
+        "note": "Бесплатно по внешней стипендии"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT от 1010"
+      },
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    },
+    {
+      "name": "Бизнес: финансы, экономика, маркетинг, бухучёт, MIS",
+      "field": "business",
+      "level": "bachelor",
+      "language": "ar",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 0,
+        "currency": "SAR",
+        "period": "year",
+        "note": "Бесплатно по внешней стипендии"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT от 1010"
+      },
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    },
+    {
+      "name": "Medicine and Surgery (платно, для самофинансируемых)",
       "field": "medicine",
       "level": "bachelor",
-      "language": "английский/арабский — зависит от курса",
+      "language": "en",
+      "duration_years": 6,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT от 1200; чтобы продолжить, нужен GPA не ниже 4,5 из 5 за первый год"
+      },
       "url": "https://dar.ksu.edu.sa/en/overseas"
     }
   ],
@@ -127,85 +201,105 @@
       {
         "exam": "SAT",
         "min_score": "1010",
-        "note": "Опубликованный минимальный SAT для внешней scholarship-подачи; health-science self-funded route имеет свои условия, для medicine указан более высокий порог. Проверяй текущий цикл."
+        "note": "Для внешней стипендии; для Medicine and Surgery — от 1200"
       }
     ],
-    "language_level": "Арабский или английский зависит от колледжа и выбранной программы; подтверждение языка проверяется индивидуально.",
+    "language_level": "Без арабского сначала проходишь Diploma Program of Proficiency in the Arabic Language, потом бакалавриат. Медицинские программы — на английском.",
     "entrance_tests": true,
-    "interview": true,
-    "portfolio": "some_programs",
-    "motivation_letter": true,
-    "recommendations": true,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
     "activities_matter": "medium",
     "documents": [
-      "Паспорт",
-      "Признанный аттестат о среднем образовании",
-      "Перевод и требуемое заверение аттестата",
-      "Результат SAT/других указанных тестов",
-      "Медицинские и дополнительные документы курса",
-      "Документы scholarship или подтверждение самофинансирования"
+      "Аттестат с оценками, заверенный по требованиям университета",
+      "Результат SAT",
+      "Загранпаспорт",
+      "Справка о несудимости",
+      "Медицинская справка",
+      "Онлайн-заявка на si.ksu.edu.sa"
     ],
-    "notes": "Для внешней scholarship опубликованы ограничения по возрасту (обычно 17–25 лет) и давности школьного диплома; перечень курсов и требования зависят от внешнего/внутреннего статуса и цикла. Минимум не гарантирует место."
+    "notes": "Нужно жить вне Саудовской Аравии, иметь аттестат с общей оценкой не ниже «очень хорошо», признанный для выбранной программы; со дня окончания школы — не больше 5 лет; возраст 17–25 лет; не получать других саудовских стипендий; справка о несудимости и медосмотр. Если твоей стране нужно разрешение на учёбу в Саудовской Аравии — его тоже. Подача через портал si.ksu.edu.sa."
   },
   "funding": {
-    "free_tuition": false,
+    "free_tuition": true,
     "grants": [
       {
-        "name": "KSU External Scholarship for Non-Saudis",
+        "name": "External Scholarship KSU",
         "coverage": "full",
         "for_foreigners": true,
-        "note": "Внешний грантовый маршрут доступен кандидатам, живущим за рубежом, на ограниченный перечень программ. Конкретные условия, проживание и выплаты подтверждать по текущему объявлению.",
-        "url": "https://dar.ksu.edu.sa/en/overseas"
+        "note": "Освобождение от платы, жильё и питание со скидкой, бесплатный билет при зачислении и ежегодно, ежемесячная стипендия, двухмесячная выплата по приезде, медицина для студента и семьи, выплата на выпуск. Конкурс по квоте мест для каждой страны",
+        "url": "https://faculty.ksu.edu.sa/sites/default/files/KSU%20Scholarship%20Flyer%20EN.pdf"
       }
     ]
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Saudi student visa",
-    "notes": "Визовый маршрут зависит от типа admission/scholarship и может оформляться через университет. После offer проверь актуальную Saudi student visa процедуру, документы, сроки и условия для российского паспорта.",
+    "type": "Студенческая виза Саудовской Аравии",
+    "notes": "После окончательного одобрения Министерства образования университет запускает оформление визы; затем ты привозишь оригиналы документов в KSU. Самостоятельно студенческую визу оформлять не нужно — следуй инструкциям приёмной комиссии после одобрения.",
     "url": "https://studyinsaudi.moe.gov.sa/"
   },
   "dorm": {
     "available": true,
-    "guaranteed_first_year": false,
-    "notes": "На кампусе есть студенческая инфраструктура и жильё; доступность для иностранца зависит от типа гранта и конкретного предложения. Уточни у KSU, включено ли место и питание для выбранной external scholarship."
+    "guaranteed_first_year": true,
+    "notes": "Стипендиатам жильё предоставляется в рамках внешней стипендии, питание — со скидкой."
   },
   "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/King_Saud_University_Entrance_Gate%2C_Riyadh.jpg/1280px-King_Saud_University_Entrance_Gate%2C_Riyadh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Dr. Basil Al Bayati",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:King_Saud_University_Entrance_Gate,_Riyadh.jpg",
+      "caption": "Главные ворота Университета короля Сауда"
+    },
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/0/0b/King_saud_university_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Abrnkak",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:King_saud_university_entrance.jpg",
+      "caption": "Главный административный корпус (University Center)"
+    },
     {
       "file": "https://identity.ksu.edu.sa/sites/identity.ksu.edu.sa/files/imce_images/17.png",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://identity.ksu.edu.sa/ar/node/155",
-      "caption": "Вход в университетскую библиотеку"
-    },
-    {
-      "file": "https://news.ksu.edu.sa/sites/default/files/u2969/lmktb_1.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://news.ksu.edu.sa/ar/node/118952",
-      "caption": "Библиотека King Salman на кампусе"
-    },
-    {
-      "file": "https://library.ksu.edu.sa/sites/library.ksu.edu.sa/files/imce_images/jfy09.jpeg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://library.ksu.edu.sa/ar/node/1902",
-      "caption": "Зона для чтения и самостоятельной работы"
-    },
-    {
-      "file": "https://static.majalla.com/styles/780_scale/public/2025-11/199054.jpeg?VersionId=nQsbeALIc7jjTCbp6QSi6sXjBhsuyD.z",
-      "author": "Al Majalla",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://en.majalla.com/node/328298/culture-social-affairs/education-missing-pillar-us%E2%80%93saudi-partnership",
-      "caption": "Студенты в крытой галерее кампуса"
+      "caption": "Центральная библиотека короля Салмана"
     },
     {
       "file": "https://smapse.ru/storage/2020/04/converted/825_585_king-saud-university-ksu-7.jpg",
       "author": "SMAPSE",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://smapse.ru/king-saud-university-ksu-universitet-korolya-sauda/",
-      "caption": "Студенты в арочной галерее университета"
+      "caption": "Крытая галерея между корпусами кампуса"
+    },
+    {
+      "file": "https://library.ksu.edu.sa/sites/library.ksu.edu.sa/files/imce_images/jfy09.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://library.ksu.edu.sa/ar/node/1902",
+      "caption": "Читальный зал библиотеки"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Entire_King_Saud_University_Stadium.jpg/1280px-Entire_King_Saud_University_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Alina.chiorean",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Entire_King_Saud_University_Stadium.jpg",
+      "caption": "Университетский стадион на кампусе"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 0,
+      "currency": "SAR",
+      "period": "year",
+      "note": "По внешней стипендии обучение бесплатно. Цены платных медицинских программ на странице не опубликованы"
+    }
+  },
+  "perks": [
+    "campus",
+    "intl_environment",
+    "strong_research"
+  ]
 }

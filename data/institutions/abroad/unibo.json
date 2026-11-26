@@ -2,8 +2,10 @@
   "id": "unibo",
   "type": "university",
   "name": {
-    "ru": "University of Bologna",
-    "en": "University of Bologna"
+    "ru": "Болонский университет",
+    "en": "University of Bologna",
+    "short": "Unibo",
+    "local": "Alma Mater Studiorum – Università di Bologna"
   },
   "country": "IT",
   "city": "Болонья",
@@ -35,20 +37,20 @@
     "social_sciences"
   ],
   "prep": {
-    "must": "Выбери first-cycle degree и язык; проверь школьный диплом, entry test/limited access и языковой уровень. Non-EU за пределами Италии также оформляет pre-enrolment на Universitaly для study visa.",
-    "good": "Сразу подай документы на ER.GO scholarship/benefits, собери переводы и финансовые бумаги, начни искать жильё до выдачи визы.",
+    "must": "Подай предзаявку на Universitaly и заявку в Studenti Online по правилам своей программы; для международных курсов — TOLC или SAT и сертификат английского. С российским 11-летним аттестатом закрой недостающий год вуза.",
+    "good": "Собери документы о доходе семьи и подай на освобождение — при доходе до 27 000 € учёба почти бесплатна. Параллельно подавай на стипендию и общежитие ER.GO.",
     "source": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country"
   },
   "sources": [
     {
       "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country",
       "accessed": "2026-11-26",
-      "covers": "international first-cycle admission, Universitaly, visa and financial means"
+      "covers": "порядок для неевропейцев, Universitaly, TOLC/SAT"
     },
     {
       "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
       "accessed": "2026-11-26",
-      "covers": "2026/27 fee composition and exemptions"
+      "covers": "взносы 2026/27, освобождения, сроки оплаты"
     },
     {
       "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programmes",
@@ -79,7 +81,9 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Уточнить variable tuition для выбранного degree и личной финансовой категории; максимум меняется по курсу. Отдельно сверить срок ER.GO для текущего года."
+    "Точный максимум взноса по программам (PDF-таблица на итальянском)",
+    "Цены общежитий ER.GO",
+    "Место в QS 2027"
   ],
   "summary": "University of Bologna — многопрофильный государственный университет с кампусами по региону Эмилия-Романья. Есть степени на итальянском и английском; для non-EU поступающих предзачисление Universitaly не заменяет конкурс программы.",
   "intl_students_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country",
@@ -110,15 +114,37 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance"
+      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance",
+      "tuition": {
+        "amount": 157.04,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Минимум (фиксированная часть); максимум зависит от программы (таблица на сайте). При доходе семьи до 27 000 € — только 157,04 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для международных программ — TOLC или SAT и подтверждение английского; правила в call for applications программы"
+      }
     },
     {
       "name": "Computer Science and Engineering",
       "field": "it",
       "level": "bachelor",
-      "language": "английский/итальянский — зависит от программы",
+      "language": "en",
       "duration_years": 3,
-      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programmes"
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programmes",
+      "tuition": {
+        "amount": 157.04,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Минимум (фиксированная часть); максимум зависит от программы (таблица на сайте). При доходе семьи до 27 000 € — только 157,04 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для международных программ — TOLC или SAT и подтверждение английского; правила в call for applications программы"
+      }
     },
     {
       "name": "International Studies",
@@ -126,7 +152,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3,
-      "url": "https://corsi.unibo.it/1cycle/InternationalStudies"
+      "url": "https://corsi.unibo.it/1cycle/InternationalStudies",
+      "tuition": {
+        "amount": 157.04,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Минимум (фиксированная часть); максимум зависит от программы (таблица на сайте). При доходе семьи до 27 000 € — только 157,04 €"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для международных программ — TOLC или SAT и подтверждение английского; правила в call for applications программы"
+      }
     }
   ],
   "requirements": {
@@ -155,24 +192,31 @@
       "Тест, portfolio или дополнительные документы курса",
       "Предварительная заявка Universitaly для non-EU кандидатов за рубежом"
     ],
-    "notes": "Поступление, Universitaly pre-enrolment и студенческая виза — три отдельных этапа. Успешное pre-enrolment не является зачислением; выполняй тест/условия degree."
+    "notes": "Подача через Studenti Online, для нужных виз — предзаявка на Universitaly. Для части программ — тест TOLC, для международных — TOLC, SAT или языковые тесты (по условиям call for applications). Нужен школьный документ после 12 лет обучения; с 11-летним российским аттестатом недостающий год закрывают университетскими экзаменами по правилам Министерства. Готовь перевод, легализацию и «declaration of value» аттестата заранее."
   },
   "cost": {
     "tuition_min": {
       "amount": 157.04,
       "currency": "EUR",
       "period": "year",
-      "note": "Фиксированная составляющая fee 2026/27; переменная часть зависит от финансовых документов, гражданства/страны и программы."
+      "note": "Фиксированный взнос 2026/27; при показателе дохода семьи до 27 000 € переменная часть не платится вовсе"
     }
   },
   "funding": {
-    "free_tuition": false,
+    "free_tuition": true,
     "grants": [
       {
-        "name": "ER.GO regional scholarship and fee reductions",
+        "name": "Освобождение от взносов по доходу",
         "coverage": "full",
         "for_foreigners": true,
-        "note": "Итальянские и международные студенты могут претендовать на региональные льготы, освобождение tuition и scholarship по доходу/заслугам. Нужна отдельная заявка и финансовые документы; конкурс/места действуют по ежегодному call.",
+        "note": "При показателе дохода семьи до 27 000 € платишь только 157,04 €; иностранцы подают документы о доходе за рубежом",
+        "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines"
+      },
+      {
+        "name": "Стипендии ER.GO",
+        "coverage": "stipend",
+        "for_foreigners": true,
+        "note": "Региональные стипендии и места в общежитиях по доходу и успеваемости",
         "url": "https://www.er-go.it/"
       }
     ]
@@ -190,40 +234,58 @@
   },
   "photos": [
     {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Palazzo_Poggi_Bologna.jpg/1280px-Palazzo_Poggi_Bologna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Vlach Pavel",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Palazzo_Poggi_Bologna.jpg",
+      "caption": "Палаццо Поджи — ректорат и исторический центр университета"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Bologna_-_Archiginnasio_di_Bologna_-_202109011516.jpeg/1280px-Bologna_-_Archiginnasio_di_Bologna_-_202109011516.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Lary3lary",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bologna_-_Archiginnasio_di_Bologna_-_202109011516.jpeg",
+      "caption": "Двор Архигимназия — первое единое здание университета (XVI век)"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Archiginnasio_di_Bologna.jpg/1280px-Archiginnasio_di_Bologna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Anita.malina",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Archiginnasio_di_Bologna.jpg",
+      "caption": "Галереи Архигимназия с гербами студентов"
+    },
+    {
       "file": "https://www.unibo.it/it/immagini/2024-portale/chisiamo/%40%40images/16e6bc3a-a341-4067-823e-14cb97010ebc.jpeg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://www.unibo.it/it/ateneo",
-      "caption": "Портики Piazza Verdi и историческая университетская зона"
+      "caption": "Piazza Verdi — сердце университетского квартала на via Zamboni"
     },
     {
       "file": "https://bur.sba.unibo.it/chi-siamo/biblioteca-ficlit-sala-calcaterra-1/%40%40download/image/biblioteca%20ficlit%20sala%20calcaterra%202.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
       "source_url": "https://bur.sba.unibo.it/chi-siamo",
-      "caption": "Зал библиотеки Biblioteca Ficlit"
-    },
-    {
-      "file": "https://archiviostorico.unibo.it/it/immagini/per-testata-1360-550-px/biblioteca/%40%40images/dfb2783b-4004-44a2-aee0-b9030ffb9551.png",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://archiviostorico.unibo.it/it",
-      "caption": "Архивная библиотека и исследовательские места"
-    },
-    {
-      "file": "https://lingue.unibo.it/it/index.html/%40%40unibo.tiles.multi.galleria/0a8f42ab610948c49684ddae298fff3f/%40%40obj-images/73fce75156244410a2b952eac7ef194a/85035c35-21b2-41ba-acf8-211bd378bd63.jpeg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://lingue.unibo.it/it",
-      "caption": "Современный учебный зал и студенты"
-    },
-    {
-      "file": "https://www.unibo.it/it/immagini/2024-portale/bologna-vivere-la-citta/%40%40images/b23d7f1e-4c75-480c-957a-9013c09309a6.jpeg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.unibo.it/it/ateneo/organizzazione-e-sedi/campus-di-bologna",
-      "caption": "Студенты в университетском районе Болоньи"
+      "caption": "Читальный зал библиотеки факультета филологии (FICLIT)"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Оплата первого взноса (или по сроку программы)",
+      "end": "2026-09-24",
+      "intake": "2026/27"
+    },
+    {
+      "what": "Поздняя оплата с пеней",
+      "end": "2026-11-19",
+      "intake": "2026/27"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "student_life",
+    "intl_environment",
+    "exchange"
+  ]
 }

@@ -2,8 +2,10 @@
   "id": "pucchile",
   "type": "university",
   "name": {
-    "ru": "Pontificia Universidad Católica de Chile",
-    "en": "Pontificia Universidad Católica de Chile"
+    "ru": "Папский католический университет Чили",
+    "en": "Pontificia Universidad Católica de Chile",
+    "short": "UC Chile",
+    "local": "Pontificia Universidad Católica de Chile"
   },
   "country": "CL",
   "city": "Сантьяго",
@@ -33,9 +35,9 @@
     "design_art"
   ],
   "prep": {
-    "must": "Определи, поступаешь ли на полную степень или обмен; для degree admission проверь признание аттестата, испанский, обязательные экзамены и национальный/специальный маршрут.",
-    "good": "Запроси индивидуальный расчёт tuition и уточни, какие scholarship/benefit доступны именно иностранцам.",
-    "source": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/"
+    "must": "Держи высокий средний балл аттестата: нужен эквивалент не ниже 5,0 по шкале Чили 1–7 (для медицины и психологии — 5,5). Подай заявку на специальный приём до 28 октября на мартовский набор.",
+    "good": "Подтяни испанский до B2 и сдай DELE или SIELE. Заранее начни оформлять признание аттестата и визу для учёбы.",
+    "source": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/ensenanza-media-en-el-extranjero/"
   },
   "sources": [
     {
@@ -72,14 +74,37 @@
       "url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/",
       "accessed": "2026-11-26",
       "covers": "альтернативные пути поступления"
+    },
+    {
+      "url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/ensenanza-media-en-el-extranjero/",
+      "accessed": "2026-11-26",
+      "covers": "специальный приём для выпускников иностранных школ: условия, баллы, документы"
+    },
+    {
+      "url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/calendario/",
+      "accessed": "2026-11-26",
+      "covers": "сроки 2027"
+    },
+    {
+      "url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/requisitos-para-postulantes-extranjeros/",
+      "accessed": "2026-11-26",
+      "covers": "испанский B2, ВНЖ для учёбы, страховка"
+    },
+    {
+      "url": "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/aranceles-de-pregrado/",
+      "accessed": "2026-11-26",
+      "covers": "сбор за зачисление 2026"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Определить стоимость по конкретной программе: единый тариф для всего университета некорректен. Подтвердить жильё для degree-seeking по нужному кампусу."
+    "Арансели (плата за обучение) по специальностям — таблица на сайте грузится скриптом",
+    "Пересчёт российских оценок в шкалу Чили — уточнить у UC",
+    "Общежитие для иностранцев",
+    "Место в QS 2027"
   ],
-  "summary": "Крупный частный католический исследовательский университет в Сантьяго с несколькими кампусами. Предлагает программы в инженерии, медицине, бизнесе, праве, архитектуре, науках, искусстве и гуманитарных дисциплинах.",
+  "summary": "Один из лучших университетов Латинской Америки, в Сантьяго. Выпускники иностранных школ поступают через «специальный приём» без чилийского экзамена PAES: по оценкам аттестата, документам и оценочным испытаниям. Набор дважды в год, учёба на испанском — желателен уровень B2.",
   "intl_students_url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
   "founded": 1888,
   "city_size": "mega",
@@ -96,9 +121,11 @@
     "full"
   ],
   "highlights": [
-    "Пять кампусов, включая центральные площадки Сантьяго и кампус Villarrica",
-    "Основной язык бакалавриата — испанский",
-    "Путь для иностранных degree-seeking кандидатов зависит от признания аттестата и способа поступления"
+    "Поступление без PAES — по специальному приёму для выпускников иностранных школ",
+    "Средний балл аттестата от 5,0 по чилийской шкале (от 5,5 для медицины и психологии)",
+    "Два набора в год: на март и на август",
+    "Учёба на испанском, рекомендуется B2 (DELE или SIELE)",
+    "Подача на март 2027 — до 28 октября 2026"
   ],
   "programs": [
     {
@@ -107,7 +134,13 @@
       "level": "bachelor",
       "language": "es",
       "duration_years": 6,
-      "url": "https://admision.uc.cl/carreras/ingenieria-civil/"
+      "url": "https://admision.uc.cl/carreras/ingenieria-civil/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "value": 5.0,
+        "note": "Минимальный средний балл школы по шкале Чили 1–7 (или эквивалент) для специального приёма; дальше — оценочные испытания"
+      }
     },
     {
       "name": "Medicina",
@@ -115,7 +148,13 @@
       "level": "bachelor",
       "language": "es",
       "duration_years": 7,
-      "url": "https://admision.uc.cl/carreras/medicina/"
+      "url": "https://admision.uc.cl/carreras/medicina/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "value": 5.5,
+        "note": "Минимальный средний балл школы по шкале Чили 1–7 (или эквивалент) для специального приёма; дальше — оценочные испытания"
+      }
     },
     {
       "name": "Derecho",
@@ -123,17 +162,24 @@
       "level": "bachelor",
       "language": "es",
       "duration_years": 5,
-      "url": "https://admision.uc.cl/carreras/derecho/"
+      "url": "https://admision.uc.cl/carreras/derecho/",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "value": 5.0,
+        "note": "Минимальный средний балл школы по шкале Чили 1–7 (или эквивалент) для специального приёма; дальше — оценочные испытания"
+      }
     }
   ],
   "requirements": {
     "intl_exams": [
       {
-        "exam": "OTHER",
-        "note": "Для стандартного национального поступления применяются PAES и пороговые условия цикла; международные исключения/пути определяются UC."
+        "exam": "DELE",
+        "min_score": "B2 (рекомендуется)",
+        "note": "Или SIELE / письмо учебного заведения; можно пройти диагностику при подаче"
       }
     ],
-    "language_level": "Испанский для основной массы undergraduate программ; проверь уровень и подтверждающие документы у admission office.",
+    "language_level": "Испанский: рекомендуемый уровень B2. Без него UC предлагает групповые курсы испанского в рамках учёбы.",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -141,14 +187,15 @@
     "recommendations": true,
     "activities_matter": "medium",
     "documents": [
+      "Заявление и анкета мотивации (из системы подачи)",
       "Паспорт",
-      "Школьный аттестат и оценки",
-      "Признание/омологация иностранного образования, если требуется",
-      "Перевод и легализация документов",
-      "Подтверждение испанского по запросу программы",
-      "PAES или документы альтернативного международного маршрута"
+      "Оценки за 3 последних года школы со шкалой оценок",
+      "Нотариальное заявление, что ты не учился в вузе",
+      "Справка о рейтинге выпуска (или подтверждение, что школа его не делает)",
+      "Аттестат; к зачислению — признание в Министерстве образования Чили",
+      "Для отдельных специальностей: портфолио, резюме, письмо"
     ],
-    "notes": "Общий минимум PAES и дедлайны относятся к конкретному чилийскому циклу и не заменяют проверку маршрута иностранного degree-seeking кандидата."
+    "notes": "Специальный приём для выпускников иностранных школ: последние 2 года школы окончены за рубежом (последний — не раньше чем за 3 года до подачи), нет учёбы в вузе. Средний балл аттестата не ниже 5,0 по шкале Чили 1–7 (Kinesiología, Medicina, Nutrición, Odontología, Psicología — 5,5). Для некоторых специальностей — портфолио, резюме или мотивационное письмо. При зачислении нужна омологация аттестата (Licencia de enseñanza media) в Министерстве образования Чили."
   },
   "funding": {
     "free_tuition": false,
@@ -156,8 +203,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Temporary residence for study (Chile)",
-    "notes": "Для длительного обучения проверь актуальную чилийскую процедуру temporary residence for study, документы от учебного заведения и правила подачи для граждан России. Разрешение не является автоматическим следствием зачисления.",
+    "type": "Residencia temporal por motivos de estudio",
+    "notes": "Временный вид на жительство для учёбы нужно оформить из-за границы и получить одобрение до въезда в Чили. После приезда — оформить чилийскую ID-карту (cédula). Обязательна медстраховка, действующая в Чили минимум 90 дней (UC рекомендует покрытие от 30 000 USD) — её копию попросят при зачислении.",
     "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/"
   },
   "dorm": {
@@ -167,40 +214,84 @@
   },
   "photos": [
     {
-      "file": "https://www.uc.cl/site/assets/files/16564/hero-uc-estudiantes_2.1440x680.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.uc.cl/en/",
-      "caption": "Студенты UC на кампусе"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Casa_Central_Pontificia_Universidad_Catolica_de_Chile.JPG/1280px-Casa_Central_Pontificia_Universidad_Catolica_de_Chile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Sfs90",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Central_Pontificia_Universidad_Catolica_de_Chile.JPG",
+      "caption": "Casa Central — исторический главный корпус UC на проспекте Аламеда"
     },
     {
-      "file": "https://www.uc.cl/site/assets/files/14483/bibliotecas-web.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.uc.cl/noticias/ocho-recomendaciones-para-volver-a-las-bibliotecas-de-la-uc/",
-      "caption": "Библиотека UC"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Pontificia_Universidad_Cat%C3%B3lica_de_Chile%27s_Casa_Central_campus.jpg/1280px-Pontificia_Universidad_Cat%C3%B3lica_de_Chile%27s_Casa_Central_campus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Jorge Láscar",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pontificia_Universidad_Cat%C3%B3lica_de_Chile%27s_Casa_Central_campus.jpg",
+      "caption": "Кампус Casa Central в центре Сантьяго, вид сверху"
     },
     {
-      "file": "https://www.uc.cl/site/assets/files/18015/hero-uc-universo-desktop.1440x680.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.uc.cl/en/",
-      "caption": "Научные направления и лабораторная среда"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Campus_San_Joaqu%C3%ADn_UC_en_2016.jpg/1280px-Campus_San_Joaqu%C3%ADn_UC_en_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Pontificia Universidad Católica de Chile",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Campus_San_Joaqu%C3%ADn_UC_en_2016.jpg",
+      "caption": "Аллея кампуса San Joaquín — крупнейшего кампуса UC"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Centro_de_Innovaci%C3%B3n_UC_Anacleto_Angelini%2C_Campus_San_Joaqu%C3%ADn_PUC%2C_Macul%2C_Santiago_20241108.jpg/1280px-Centro_de_Innovaci%C3%B3n_UC_Anacleto_Angelini%2C_Campus_San_Joaqu%C3%ADn_PUC%2C_Macul%2C_Santiago_20241108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Carlos Figueroa Rojas",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Centro_de_Innovaci%C3%B3n_UC_Anacleto_Angelini,_Campus_San_Joaqu%C3%ADn_PUC,_Macul,_Santiago_20241108.jpg",
+      "caption": "Центр инноваций Anacleto Angelini, кампус San Joaquín"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Campus_San_Joaqu%C3%ADn_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile_%282%29.jpg/1280px-Campus_San_Joaqu%C3%ADn_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Pontificia Universidad Católica de Chile from Santiago, Chile",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Campus_San_Joaqu%C3%ADn_de_la_Pontificia_Universidad_Cat%C3%B3lica_de_Chile_(2).jpg",
+      "caption": "Учебный корпус на кампусе San Joaquín"
     },
     {
       "file": "https://admision.uc.cl/htdocs/content/uploads/2022/03/MG_5977-1-scaled.jpg",
       "author": "University / official page",
       "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
       "source_url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/",
-      "caption": "Студенты и учебное пространство UC"
-    },
-    {
-      "file": "https://www.uc.cl/site/assets/files/22392/hero-uc-desktop-voces-2.1440x680.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.uc.cl/en/",
-      "caption": "Учебная и исследовательская работа студентов"
+      "caption": "Библиотека UC: залы для самостоятельной работы"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Специальный приём на 1-й семестр 2027: первый период подачи",
+      "start": "2026-08-24",
+      "end": "2026-09-24",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Специальный приём на 1-й семестр 2027: второй период подачи",
+      "start": "2026-09-28",
+      "end": "2026-10-28",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Оценочные испытания",
+      "start": "2026-11-16",
+      "end": "2026-12-04"
+    },
+    {
+      "what": "Результаты",
+      "end": "2026-12-28"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 195000,
+      "currency": "CLP",
+      "period": "year",
+      "note": "Только единый сбор за зачисление (Derecho de Matrícula) 2026; стоимость обучения по специальностям — в таблице аранселей UC, зависит от программы"
+    }
+  },
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "exchange"
+  ]
 }
