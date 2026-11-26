@@ -42,8 +42,8 @@
     },
     {
       "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
-      "accessed": "2026-11-25",
-      "covers": "Международные тарифы AY2026/27 и условия Tuition Grant"
+      "accessed": "2026-11-26",
+      "covers": "плата 2026/27 с грантом и без"
     },
     {
       "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/application",
@@ -76,11 +76,11 @@
       "covers": "Фото жилой комнаты"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Письменно подтвердить в NTU, что опубликованная категория other international qualifications применяется к конкретному российскому аттестату и уточнить требуемую дополнительную квалификацию.",
-    "Обновить цену и общежитие для AY2027/28 после публикации NTU."
+    "Признание российского аттестата (вне списка квалификаций NTU)",
+    "Место в QS 2027"
   ],
   "founded": 1981,
   "city_size": "mega",
@@ -117,7 +117,12 @@
         "period": "year",
         "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-science"
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-science",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
+      }
     },
     {
       "name": "Mechanical Engineering",
@@ -131,7 +136,12 @@
         "period": "year",
         "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering"
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
+      }
     },
     {
       "name": "Business",
@@ -145,7 +155,12 @@
         "period": "year",
         "note": "AY2026/27, международная ставка с MOE Tuition Grant"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-business"
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-business",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
+      }
     },
     {
       "name": "Environmental Earth Systems Science",
@@ -159,13 +174,39 @@
         "period": "year",
         "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-environmental-earth-systems-science"
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-environmental-earth-systems-science",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
+      }
     }
   ],
-  "cost": {},
+  "cost": {
+    "tuition_min": {
+      "amount": 21400,
+      "currency": "SGD",
+      "period": "year",
+      "note": "С грантом MOE, иностранцы не из АСЕАН, большинство программ, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 45600,
+      "currency": "SGD",
+      "period": "year",
+      "note": "Без гранта (бизнес/бухучёт); медицина отдельно"
+    }
+  },
   "funding": {
     "free_tuition": false,
-    "grants": []
+    "grants": [
+      {
+        "name": "MOE Tuition Grant",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Снижает плату примерно вдвое; взамен 3 года работы в Сингапуре после выпуска",
+        "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees"
+      }
+    ]
   },
   "requirements": {
     "intl_exams": [
@@ -226,22 +267,42 @@
       "author": "NTU Singapore",
       "license": "© NTU Singapore; изображение с официальной страницы",
       "source_url": "https://www.ntu.edu.sg/research/research-hub/news/detail/ntu-2025-an-ambitious-agenda-for-global-impact",
-      "caption": "Зелёный кампус NTU и солнечные панели на крышах"
+      "caption": "Зелёный кампус NTU в западной части Сингапура"
+    },
+    {
+      "file": "https://www.ntu.edu.sg/media/images/default-source/cco/hive-banner6a71a5f2-0107-4855-937d-05d10a7bfd93.jpg?sfvrsn=3ed0cba3_3",
+      "author": "NTU",
+      "license": "© NTU; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.ntu.edu.sg/about-us",
+      "caption": "The Hive — учебный корпус-символ NTU"
     },
     {
       "file": "photos/ntu/2.jpg",
       "author": "NTU Singapore",
       "license": "© NTU Singapore; изображение с официальной страницы",
       "source_url": "https://www.ntu.edu.sg/hey/search-stories/detail/standing-tall",
-      "caption": "Внутреннее пространство учебного здания The Hive"
+      "caption": "Внутреннее пространство The Hive"
     },
     {
       "file": "photos/ntu/3.jpg",
       "author": "NTU Singapore",
       "license": "© NTU Singapore; изображение с официальной страницы",
       "source_url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/detail/hall-7",
-      "caption": "Пример одноместной комнаты в Hall 7"
+      "caption": "Одноместная комната в общежитии Hall 7"
+    },
+    {
+      "file": "https://www.ntu.edu.sg/media/images/default-source/cco/life-at-ntu-education/the-loope3ed0003-e1c3-40bc-aa6e-dfdbee844bad.jpg?sfvrsn=ac91c1c6_3",
+      "author": "NTU",
+      "license": "© NTU; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.ntu.edu.sg/life-at-ntu",
+      "caption": "Студенческая жизнь: обед в кампусе"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment",
+    "internships"
+  ]
 }

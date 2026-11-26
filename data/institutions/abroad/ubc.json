@@ -46,8 +46,8 @@
     },
     {
       "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
-      "accessed": "2026-11-25",
-      "covers": "Сроки кампании Winter Session 2027 и housing"
+      "accessed": "2026-11-26",
+      "covers": "сроки 2027"
     },
     {
       "url": "https://you.ubc.ca/applying-ubc/how-to-apply/application/",
@@ -83,13 +83,33 @@
       "url": "https://about.library.ubc.ca/2021/10/19/nass-reading-room-in-ikblc-reopens-with-new-quiet-study-spots-and-accessible-group-tables/",
       "accessed": "2026-11-25",
       "covers": "Фото библиотеки"
+    },
+    {
+      "url": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+      "accessed": "2026-11-26",
+      "covers": "плата для иностранцев 2026/27, рост до 3%"
+    },
+    {
+      "url": "https://vancouver.calendar.ubc.ca/fees/tuition-fees/undergraduate",
+      "accessed": "2026-11-26",
+      "covers": "плата за кредит по факультетам"
+    },
+    {
+      "url": "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/",
+      "accessed": "2026-11-26",
+      "covers": "IELTS/TOEFL/DET/CAEL/PTE"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Получить точные российские требования по каждой выбранной степени из актуального фильтра UBC (кампус и программа меняют список школьных предметов).",
-    "Уточнить стоимости 2027/28 по degree-specific калькулятору UBC перед отображением цены обучения."
+    "Требования к российскому аттестату (страница по странам — интерактивная)",
+    "Место в QS 2027"
   ],
   "founded": 1908,
   "city_size": "mega",
@@ -107,10 +127,11 @@
   ],
   "summary": "Крупный государственный исследовательский университет с двумя основными кампусами: Vancouver и Okanagan в Келоуне. Для бакалавриата студент выбирает степень и кампус; требования к школьным предметам, личному профилю и стоимости зависят от выбранной программы.",
   "highlights": [
-    "Два кампуса с разной городской средой — Ванкувер и Келоуна",
-    "В Vancouver сильная кампусная среда и обширные резиденции; для части первокурсников действует housing guarantee",
-    "Заявка требует общеуниверситетских и программных предметных требований плюс английский",
-    "Международная стипендия International Scholars ориентирована на академически сильных кандидатов с существенной финансовой потребностью"
+    "Кампус в Ванкувере между океаном и горами",
+    "Обучение 2026/27: 51 530 (Arts) — 66 678 CAD (Commerce) в год, рост не более 3% в год",
+    "IELTS 6.5 / TOEFL 90 / Duolingo 125",
+    "Стипендии International Scholars — заявка до 2 декабря 2026",
+    "Подача на осень 2027 — до 15 января 2027"
   ],
   "intl_students_url": "https://you.ubc.ca/international",
   "programs": [
@@ -120,7 +141,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/"
+      "url": "https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/",
+      "tuition": {
+        "amount": 53082,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для новых иностранцев с 2026/27 за первый год; дальше рост не более 3% в год"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по оценкам и личному профилю; минимальный балл зависит от программы и страны"
+      }
     },
     {
       "name": "Engineering",
@@ -128,7 +160,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://you.ubc.ca/ubc_programs/applied-science-vancouver-basc/"
+      "url": "https://you.ubc.ca/ubc_programs/applied-science-vancouver-basc/",
+      "tuition": {
+        "amount": 66200,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для новых иностранцев с 2026/27 за первый год; дальше рост не более 3% в год"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по оценкам и личному профилю; минимальный балл зависит от программы и страны"
+      }
     },
     {
       "name": "Commerce",
@@ -136,7 +179,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://you.ubc.ca/ubc_programs/commerce-vancouver-bcom/"
+      "url": "https://you.ubc.ca/ubc_programs/commerce-vancouver-bcom/",
+      "tuition": {
+        "amount": 66678,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для новых иностранцев с 2026/27 за первый год; дальше рост не более 3% в год"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по оценкам и личному профилю; минимальный балл зависит от программы и страны"
+      }
     },
     {
       "name": "Psychology",
@@ -144,10 +198,33 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://you.ubc.ca/ubc_programs/psychology-vancouver-ba/"
+      "url": "https://you.ubc.ca/ubc_programs/psychology-vancouver-ba/",
+      "tuition": {
+        "amount": 51530,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для новых иностранцев с 2026/27 за первый год; дальше рост не более 3% в год"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по оценкам и личному профилю; минимальный балл зависит от программы и страны"
+      }
     }
   ],
   "cost": {
+    "tuition_min": {
+      "amount": 51530,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Arts, 30 кредитов, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 66678,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Commerce (Sauder); инженерия — 66 200"
+    },
     "living_month_estimate": {
       "amount": 1700,
       "currency": "CAD",
@@ -178,18 +255,24 @@
     "intl_exams": [
       {
         "exam": "IELTS",
-        "note": "Один из допустимых способов подтвердить English Language Admission Standard; минимальный балл и допустимые версии смотри на текущей странице UBC."
+        "min_score": "6.5",
+        "note": "Academic, ни одна часть ниже 6.0"
       },
       {
         "exam": "TOEFL",
-        "note": "Один из допустимых способов подтвердить английский; правила и минимумы зависят от актуального стандарта."
+        "min_score": "90",
+        "note": "Чтение и аудирование не ниже 22; остальные минимумы — на странице UBC"
       },
       {
         "exam": "DET",
-        "note": "Может приниматься UBC как подтверждение английского при соблюдении текущих условий и балла."
+        "min_score": "125"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "CAEL 70 / PTE 65"
       }
     ],
-    "language_level": "English Language Admission Standard (ELAS); конкретный тест и минимальный балл проверяются на актуальной странице UBC.",
+    "language_level": "IELTS 6.5 (каждая часть от 6.0), TOEFL 90, Duolingo 125, CAEL 70 или PTE 65.",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -207,8 +290,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Canadian study permit",
-    "notes": "Для программы дольше шести месяцев нерезиденту Канады требуется study permit. Сначала нужны письмо о зачислении и Provincial Attestation Letter от Британской Колумбии; начни оформление после их получения. Въездные документы зависят от гражданства и места подачи.",
+    "type": "Разрешение на учёбу (study permit) + PAL Британской Колумбии",
+    "notes": "Нужно разрешение на учёбу и провинциальное письмо PAL (выдаёт UBC после зачисления). Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег. Биометрию россияне сдают по записи в визовых центрах Канады в России; с 29 января 2026 центры не пересылают паспорта в посольство — как передать паспорт, смотри в инструкциях IRCC.",
     "url": "https://you.ubc.ca/applying-ubc/admitted/study-permit/"
   },
   "dorm": {
@@ -224,46 +307,52 @@
   },
   "deadlines": [
     {
-      "what": "Подача на большинство программ Winter Session 2027",
-      "start": "2026-10-01",
-      "end": "2027-01-15",
-      "intake": "сентябрь 2027"
-    },
-    {
-      "what": "International Scholars Program, продлённый дедлайн, Pacific Time",
-      "start": "2026-09-01",
+      "what": "Заявка на UBC и на стипендию International Scholars (срок продлён с 15 ноября)",
       "end": "2026-12-02",
-      "intake": "осень 2027"
+      "intake": "Сентябрь 2027"
     },
     {
-      "what": "Заявка на гарантированное жильё первокурсников",
-      "start": "2026-10-01",
-      "end": "2027-05-01",
-      "intake": "осень 2027"
+      "what": "Подача на осень 2027 (основной срок)",
+      "end": "2027-01-15",
+      "intake": "Сентябрь 2027"
     }
   ],
   "photos": [
     {
-      "file": "https://vancouver.housing.ubc.ca/wp-content/uploads/2015/08/Orchard-Commons-Exterior.jpg",
-      "author": "UBC Student Housing",
-      "license": "© UBC; изображение с официальной страницы",
-      "source_url": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
-      "caption": "Orchard Commons — жилая резиденция кампуса Vancouver"
+      "file": "https://you.ubc.ca/wp-content/uploads/2025/05/ubc-vancouver-campus-1280x720.jpg.webp",
+      "author": "UBC",
+      "license": "© UBC; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://you.ubc.ca/ubc-life/vancouver/",
+      "caption": "Кампус UBC Vancouver с высоты — на берегу океана, на фоне гор"
+    },
+    {
+      "file": "https://you.ubc.ca/wp-content/uploads/2013/06/Law-1024x576.jpg.webp",
+      "author": "UBC",
+      "license": "© UBC; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://you.ubc.ca/ubc-life/vancouver/",
+      "caption": "Аудитория юридического факультета Allard Hall"
     },
     {
       "file": "https://about.library.ubc.ca/files/2021/10/Nass_Web-10_blog_920x512.jpg",
       "author": "UBC Library",
       "license": "© UBC; изображение с официальной страницы",
       "source_url": "https://about.library.ubc.ca/2021/10/19/nass-reading-room-in-ikblc-reopens-with-new-quiet-study-spots-and-accessible-group-tables/",
-      "caption": "Учебное пространство Nass Reading Room в библиотеке IKBLC"
+      "caption": "Читальный зал Nass в библиотеке Irving K. Barber"
     },
     {
-      "file": "https://vancouver.housing.ubc.ca/wp-content/uploads/2017/04/Orchard-Commons-Room_720x480.jpg",
-      "author": "UBC Student Housing",
-      "license": "© UBC; изображение с официальной страницы",
-      "source_url": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
-      "caption": "Пример жилой комнаты в Orchard Commons"
+      "file": "https://you.ubc.ca/wp-content/uploads/2019/08/manufacturing-engineering-hero-1024x768.jpg.webp",
+      "author": "UBC",
+      "license": "© UBC; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://you.ubc.ca/ubc-life/vancouver/",
+      "caption": "Инженерная лаборатория"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment",
+    "exchange",
+    "student_life"
+  ]
 }

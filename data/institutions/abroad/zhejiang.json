@@ -2,8 +2,10 @@
   "id": "zhejiang",
   "type": "university",
   "name": {
-    "ru": "Zhejiang University",
-    "en": "Zhejiang University"
+    "ru": "Чжэцзянский университет",
+    "en": "Zhejiang University",
+    "short": "ZJU",
+    "local": "浙江大学"
   },
   "country": "CN",
   "city": "Ханчжоу",
@@ -43,13 +45,13 @@
   "sources": [
     {
       "url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "гид для иностранных бакалавров 2027: CSCA, сроки, сбор, возраст"
     },
     {
       "url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
-      "accessed": "2026-11-23",
-      "covers": "deadlines, requirements, documents, scholarships: приём на 2027"
+      "accessed": "2026-11-26",
+      "covers": "гид для иностранных бакалавров 2027: CSCA, сроки, сбор, возраст"
     },
     {
       "url": "http://iczu.zju.edu.cn/admissionsen/2022/0530/c95568a3225030/page.htm",
@@ -90,9 +92,11 @@
   "verified_at": "2026-11-26",
   "confidence": "medium",
   "todo": [
-    "Сверять конкретную плату и язык по каталогу выбранной программы; опубликованные границы цен не заменяют тариф конкретного направления."
+    "Плата по программам из каталогов 2027 (PDF)",
+    "Даты CSCA для набора 2027",
+    "Место в QS 2027"
   ],
-  "summary": "Zhejiang University — крупный государственный исследовательский университет в Ханчжоу с программами в инженерии, естественных науках, медицине, сельском хозяйстве, бизнесе и гуманитарных дисциплинах. Бакалаврские программы в основном ведутся на китайском, но доступны отдельные англоязычные направления; набор иностранных студентов на 2027 год уже опубликован.",
+  "summary": "Один из сильнейших университетов Китая (лига C9) в Ханчжоу: инженерия, IT, медицина, сельское хозяйство. Бакалавриат в основном на китайском, есть англоязычные программы. С набора 2027 иностранцам нужен новый экзамен CSCA (China Scholastic Competency Assessment) и языковой сертификат. Подача до 28 февраля 2027, сбор 800 юаней.",
   "languages_of_instruction": [
     "zh",
     "en"
@@ -118,6 +122,11 @@
   "requirements": {
     "intl_exams": [
       {
+        "exam": "OTHER",
+        "min_score": "CSCA",
+        "note": "China Scholastic Competency Assessment — обязателен с набора 2027"
+      },
+      {
         "exam": "HSK",
         "note": "Для программ на китайском требуются баллы HSK по каталогу выбранной программы."
       },
@@ -141,18 +150,18 @@
       "Две рекомендации",
       "Медицинские документы по требованиям университета"
     ],
-    "notes": "Набор 2027 предполагает возраст обычно 18–25 лет и статус не гражданина КНР. Российский аттестат подаётся с переводом и проверяется университетом; предметные требования — в каталоге программы."
+    "notes": "Нужно окончить школу, возраст 18–25 лет, сертификат языка (HSK для китайских программ, английский — для англоязычных), результат экзамена CSCA и требования из каталога программы. Отбор по оценкам, языку и собеседованию; после предварительного зачисления нужно оплатить первый год."
   },
   "deadlines": [
     {
-      "what": "Большинство undergraduate applications",
+      "what": "Подача заявки (большинство программ)",
       "end": "2027-02-28",
-      "intake": "September 2027"
+      "intake": "Сентябрь 2027"
     },
     {
-      "what": "Некоторые программы — крайний срок по каталогу",
+      "what": "Подача для отдельных специальностей",
       "end": "2027-05-31",
-      "intake": "September 2027"
+      "intake": "Сентябрь 2027"
     }
   ],
   "dorm": {
@@ -161,10 +170,11 @@
     "notes": "Университет предлагает on-campus accommodation на нескольких кампусах; цены и наличие зависят от campus и типа комнаты. Забронировать жильё нужно после admission."
   },
   "highlights": [
-    "На 2027 год приём открыт до 28 февраля; у ряда программ крайний срок — 31 мая",
-    "Обязателен экзамен CSCA для international undergraduate applicants",
-    "Основной язык бакалавриата — китайский; есть отдельные англоязычные программы",
-    "Плата и язык отличаются по программе и кампусу"
+    "Лига C9 — «китайская Лига плюща», кампус Цзыцзинган в Ханчжоу",
+    "С 2027 обязателен экзамен CSCA для иностранцев",
+    "Подача до 28 февраля 2027 (отдельные специальности — до 31 мая)",
+    "Возраст 18–25 лет, сбор за заявку 800 CNY",
+    "Программы на китайском (HSK) и английском"
   ],
   "study_formats": [
     "full"
@@ -175,28 +185,48 @@
       "field": "it",
       "level": "bachelor",
       "language": "zh",
-      "duration_years": 4
+      "duration_years": 4,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
+      }
     },
     {
       "name": "Biomedical Engineering",
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 4
+      "duration_years": 4,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
+      }
     },
     {
       "name": "Global Communication and Management",
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 4
+      "duration_years": 4,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
+      }
     },
     {
       "name": "Clinical Medicine (MBBS)",
       "field": "medicine",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 6
+      "duration_years": 6,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
+      }
     }
   ],
   "cost": {
@@ -220,20 +250,24 @@
     "url": "https://www.visaforchina.cn/HKG3_EN/"
   },
   "perks": [
-    "campus",
-    "exchange",
-    "intl_environment",
     "strong_research",
-    "dual_degree",
-    "student_life"
+    "campus",
+    "intl_environment"
   ],
-  "data_year": 2026,
+  "data_year": 2027,
   "photos": [
+    {
+      "file": "https://iczu.zju.edu.cn/_upload/column/02/75/66165/picture.png",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://iczu.zju.edu.cn/iczuen/wnwcampus/list.htm",
+      "caption": "Ворота в традиционном стиле на кампусе Чжэцзянского университета"
+    },
     {
       "file": "https://www.zju.edu.cn/_upload/article/images/2d/a1/d11089174b5ca9d72bdb3c25da3a/1fae9228-e466-46b0-9b29-25edee8272f7.jpg",
       "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
       "source_url": "https://www.zju.edu.cn/2018/0307/c32764a1513452/page.htm",
-      "caption": "Кампус Цзыцзинан: Crescent Building"
+      "caption": "Crescent Building на кампусе Цзыцзинган"
     },
     {
       "file": "https://www.zju.edu.cn/_upload/article/images/cc/5b/8692fd534c7080b191457815649f/5ef24a9d-65d7-4bd3-b3aa-e181e30c5635.jpg",
@@ -246,12 +280,8 @@
       "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
       "source_url": "https://www.zju.edu.cn/2021/0522/c32859a2377049/page.htm",
       "caption": "Интерьер университетской библиотеки"
-    },
-    {
-      "file": "https://iczu.zju.edu.cn/_upload/article/images/63/20/b2ebb8ed40c99ac4e42e81500daa/0b5b3b5d-77e0-44f2-b495-2098cad28eb2.jpeg",
-      "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://iczu.zju.edu.cn/iczuen/wnwcampus/list.htm",
-      "caption": "Студенческая резиденция: комната общежития"
     }
-  ]
+  ],
+  "ownership": "public",
+  "founded": 1897
 }

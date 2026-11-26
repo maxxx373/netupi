@@ -46,13 +46,13 @@
     },
     {
       "url": "https://admission.ucla.edu/apply/international-applicants",
-      "accessed": "2026-11-25",
-      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
+      "accessed": "2026-11-26",
+      "covers": "английский для иностранцев, ESLPE"
     },
     {
       "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
-      "accessed": "2026-11-25",
-      "covers": "требования, расходы, жильё, виза (общая проверка страницы)"
+      "accessed": "2026-11-26",
+      "covers": "смета и плата для нерезидентов 2026/27"
     },
     {
       "url": "https://admission.ucla.edu/sites/default/files/documents/UCLA-Counselor-Admission-FAQ-2026.pdf",
@@ -103,7 +103,8 @@
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Уточнить тест английского и требуемый балл по личной истории обучения; пересчитать общий бюджет для выбранного типа проживания."
+    "Точный срок подачи UC Application для осени 2027",
+    "Место в QS 2027"
   ],
   "summary": "Государственный исследовательский университет в Westwood, Лос-Анджелес. На большом кампусе есть библиотеки, лаборатории, резиденции и программы от инженерии и наук до кино, искусства и психологии.",
   "data_year": 2027,
@@ -122,9 +123,11 @@
     "en"
   ],
   "highlights": [
-    "Большой кампус в Westwood",
-    "Сильная библиотечная и исследовательская инфраструктура",
-    "SAT/ACT не используются при решении о зачислении"
+    "Один из самых популярных университетов США, кампус в Лос-Анджелесе",
+    "Обучение для нерезидентов ≈ 55 700 USD в год (2026/27)",
+    "Полная смета на кампусе — 84 770 USD в год",
+    "SAT/ACT не нужны — UC их не учитывает",
+    "TOEFL выше 100 или IELTS 7.5 — конкурентный уровень"
   ],
   "intl_students_url": "https://admission.ucla.edu/apply/first-year",
   "programs": [
@@ -134,7 +137,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.cs.ucla.edu/undergraduate/"
+      "url": "https://www.cs.ucla.edu/undergraduate/",
+      "tuition": {
+        "amount": 55700,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы для нерезидентов, 2026/27"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT/ACT не учитываются (UC test-free); оценки школы и эссе"
+      }
     },
     {
       "name": "Mechanical Engineering",
@@ -142,7 +156,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.mae.ucla.edu/undergraduate/"
+      "url": "https://www.mae.ucla.edu/undergraduate/",
+      "tuition": {
+        "amount": 55700,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы для нерезидентов, 2026/27"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT/ACT не учитываются (UC test-free); оценки школы и эссе"
+      }
     },
     {
       "name": "Psychology",
@@ -150,7 +175,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.psych.ucla.edu/undergraduate/"
+      "url": "https://www.psych.ucla.edu/undergraduate/",
+      "tuition": {
+        "amount": 55700,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы для нерезидентов, 2026/27"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT/ACT не учитываются (UC test-free); оценки школы и эссе"
+      }
     },
     {
       "name": "Film and Television",
@@ -158,21 +194,32 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.tft.ucla.edu/programs/film-television-digital-media-ba/"
+      "url": "https://www.tft.ucla.edu/programs/film-television-digital-media-ba/",
+      "tuition": {
+        "amount": 55700,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы для нерезидентов, 2026/27"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "SAT/ACT не учитываются (UC test-free); оценки школы и эссе"
+      }
     }
   ],
   "cost": {
     "tuition_min": {
-      "amount": 79000,
+      "amount": 55700,
       "currency": "USD",
       "period": "year",
-      "note": "Бюджет посещения международного студента за девять месяцев по плану 2026/27; включает не только tuition, итог меняется из-за жилья, страховки и расходов."
+      "note": "Обучение и сборы для нерезидентов 2026/27: 16 430 + 39 270 доплата нерезидента"
     },
-    "tuition_max": {
-      "amount": 85000,
+    "living_month_estimate": {
+      "amount": 2800,
       "currency": "USD",
-      "period": "year",
-      "note": "Бюджет посещения международного студента за девять месяцев по плану 2026/27; включает не только tuition, итог меняется из-за жилья, страховки и расходов."
+      "period": "month",
+      "note": "Общежитие на кампусе: жильё 12 299 + питание 7 568 + прочее ≈ 29 000 за 9 мес.; полная смета 84 770 USD"
     }
   },
   "funding": {
@@ -190,12 +237,21 @@
   "requirements": {
     "intl_exams": [
       {
+        "exam": "TOEFL",
+        "min_score": "100 / 5.0",
+        "note": "Конкурентный уровень: >100 (части >24) или 5+ по новой шкале"
+      },
+      {
         "exam": "IELTS",
         "min_score": "7.5",
-        "note": "Альтернативы включают TOEFL и DET; UCLA публикует актуальные эквиваленты."
+        "note": "Конкурентный уровень"
+      },
+      {
+        "exam": "DET",
+        "note": "Принимается"
       }
     ],
-    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "language_level": "Если школа была не на английском, нужен тест: конкурентно — TOEFL выше 100 или IELTS 7.5. После зачисления возможен экзамен ESLPE.",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -209,7 +265,7 @@
       "Заявка и дополнительные материалы выбранной программы",
       "Паспорт и документы по финансовой поддержке/визе после зачисления"
     ],
-    "notes": "UC application; SAT/ACT не учитываются. Переводы и экзамены по английскому нужны по индивидуальному профилю."
+    "notes": "Подача через UC Application. Университет Калифорнии не рассматривает SAT/ACT при приёме (test-free). Отбор по оценкам, личным эссе (Personal Insight Questions) и активностям."
   },
   "visa": {
     "needed_for_ru": true,
@@ -266,5 +322,11 @@
       "source_url": "https://www.pcl.com/us/en/our-work/ucla-holly-ridge-and-gardenia-way-residence-halls",
       "caption": "Holly Ridge residence halls; фото подрядчика PCL"
     }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "intl_environment"
   ]
 }

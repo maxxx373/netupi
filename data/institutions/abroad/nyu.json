@@ -99,12 +99,23 @@
       "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
       "accessed": "2026-11-26",
       "covers": "визы для граждан РФ: Астана и Варшава"
+    },
+    {
+      "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships/cost-of-attendance.html",
+      "accessed": "2026-11-26",
+      "covers": "смета 2026/27"
+    },
+    {
+      "url": "https://www.nyu.edu/content/dam/nyu/bursar/documents/2026-2027%20Tuition%20and%20Fees.pdf",
+      "accessed": "2026-11-26",
+      "covers": "плата 2026/27 по школам"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Проверить точные дедлайны 2027 и требования школы/кампуса: отдельные подразделения NYU имеют дополнительные материалы."
+    "Требования к английскому и тестам (сайт закрыт для автоматических запросов)",
+    "Место в QS 2027"
   ],
   "summary": "Частный университет в центре Нью-Йорка, чьи учебные здания и резиденции встроены в город. Программы включают бизнес, инженерию, компьютерные науки, искусство, кино и социальные дисциплины.",
   "data_year": 2027,
@@ -123,9 +134,11 @@
     "en"
   ],
   "highlights": [
-    "Городской формат вокруг Washington Square",
-    "Несколько школ с разными процедурами и стоимостью",
-    "Резиденции находятся в разных районах Нью-Йорка"
+    "Кампус встроен в Манхэттен вокруг Washington Square Park",
+    "Обучение 2026/27: 68 576 USD (большинство школ), до 75 326 USD (Tisch)",
+    "Полная смета с жильём — около 101 000–108 000 USD в год",
+    "Кампусы-побратимы в Абу-Даби и Шанхае",
+    "Виза F-1: собеседование для россиян — Астана или Варшава"
   ],
   "intl_students_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
   "programs": [
@@ -135,7 +148,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://cs.nyu.edu/home/undergrad/"
+      "url": "https://cs.nyu.edu/home/undergrad/",
+      "tuition": {
+        "amount": 68576,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы 2026/27 (большинство школ); Stern — 70 464, Tisch — 75 326"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка заявки через Common App"
+      }
     },
     {
       "name": "Business",
@@ -143,7 +167,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://www.stern.nyu.edu/programs-admissions/undergraduate"
+      "url": "https://www.stern.nyu.edu/programs-admissions/undergraduate",
+      "tuition": {
+        "amount": 68576,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы 2026/27 (большинство школ); Stern — 70 464, Tisch — 75 326"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка заявки через Common App"
+      }
     },
     {
       "name": "Film and Television",
@@ -151,7 +186,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://tisch.nyu.edu/film-tv"
+      "url": "https://tisch.nyu.edu/film-tv",
+      "tuition": {
+        "amount": 68576,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы 2026/27 (большинство школ); Stern — 70 464, Tisch — 75 326"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка заявки через Common App"
+      }
     },
     {
       "name": "Interactive Media Arts",
@@ -159,7 +205,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 4,
-      "url": "https://tisch.nyu.edu/itp/undergraduate"
+      "url": "https://tisch.nyu.edu/itp/undergraduate",
+      "tuition": {
+        "amount": 68576,
+        "currency": "USD",
+        "period": "year",
+        "note": "Обучение и сборы 2026/27 (большинство школ); Stern — 70 464, Tisch — 75 326"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка заявки через Common App"
+      }
     }
   ],
   "cost": {
@@ -167,13 +224,19 @@
       "amount": 68576,
       "currency": "USD",
       "period": "year",
-      "note": "Диапазон tuition + проживания и питания из ориентиров NYU 2026/27 по разным школам; расходы отличаются по кампусу, школе и размещению."
+      "note": "Обучение и сборы 2026/27 для большинства школ NYU в Нью-Йорке (CAS, Tandon, Nursing и др.)"
     },
     "tuition_max": {
-      "amount": 107748,
+      "amount": 75326,
       "currency": "USD",
       "period": "year",
-      "note": "Диапазон tuition + проживания и питания из ориентиров NYU 2026/27 по разным школам; расходы отличаются по кампусу, школе и размещению."
+      "note": "Tisch School of the Arts, 2026/27; Stern — 70 464"
+    },
+    "living_month_estimate": {
+      "amount": 2940,
+      "currency": "USD",
+      "period": "month",
+      "note": "Жильё и питание 26 438 USD за 9 месяцев по оценке NYU; полная смета 100 998–107 748 USD в год"
     }
   },
   "funding": {
@@ -235,7 +298,14 @@
       "author": "Университет / издатель страницы",
       "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
       "source_url": "https://www.law.nyu.edu/registrar",
-      "caption": "Студенты у Washington Square Arch"
+      "caption": "Washington Square Arch — сердце кампуса NYU на Манхэттене"
+    },
+    {
+      "file": "https://www.law.nyu.edu/sites/default/files/2025-06/OHO_Hero_Library_02.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.law.nyu.edu/library",
+      "caption": "Читальный зал библиотеки юридической школы"
     },
     {
       "file": "https://cims.nyu.edu/media/ai/carousel_photos/IMG_9798__1_.jpg",
@@ -245,25 +315,18 @@
       "caption": "Занятие и командная работа в аудитории"
     },
     {
-      "file": "https://www.law.nyu.edu/sites/default/files/2025-06/OHO_Hero_Library_02.jpg",
-      "author": "Университет / издатель страницы",
-      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
-      "source_url": "https://www.law.nyu.edu/library",
-      "caption": "Читальный зал библиотеки NYU Law"
-    },
-    {
-      "file": "https://architizer-prod.imgix.net/media/mediadata/uploads/16963451455690864_N445_pptxlarge.jpg?auto=format%2Ccompress&cs=strip&q=60&w=1680",
-      "author": "Университет / издатель страницы",
-      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
-      "source_url": "https://architizer.com/projects/john-a-paulson-center/",
-      "caption": "Интерьер John A. Paulson Center; фото проекта на Architizer"
-    },
-    {
       "file": "https://gw-advance-prod-us-east-1-system.s3.amazonaws.com/uploads/campaign_image/name/65e638490bc816247e8015fa/8fb5f714-d3e5-4f07-8531-b72a866252e0.jpeg",
       "author": "Университет / издатель страницы",
       "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
       "source_url": "https://nyuoneday.org/campaigns/nyu-fund",
       "caption": "Студенты в учебном пространстве NYU"
     }
+  ],
+  "perks": [
+    "intl_environment",
+    "internships",
+    "student_life",
+    "exchange",
+    "employment"
   ]
 }
