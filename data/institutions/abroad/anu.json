@@ -2,8 +2,9 @@
   "id": "anu",
   "type": "university",
   "name": {
-    "ru": "Australian National University",
-    "en": "Australian National University"
+    "ru": "Австралийский национальный университет",
+    "en": "Australian National University",
+    "short": "ANU"
   },
   "country": "AU",
   "city": "Канберра",
@@ -42,7 +43,7 @@
     {
       "url": "https://study.anu.edu.au/apply/international-applications",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "сроки 2027, сбор за заявку, принятие предложения"
     },
     {
       "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc",
@@ -67,20 +68,27 @@
     {
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
       "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "covers": "официальная страница визы 500 (не открылась из нашей сети)"
     },
     {
       "url": "https://iceds.anu.edu.au/news-events/news/anu-co-investment-opportunity-hydrogen-projects",
       "accessed": "2026-11-26",
       "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://www.idp.com/australia/study-to-migrate/australian-visa-fee-increases/",
+      "accessed": "2026-11-26",
+      "covers": "сбор за визу 500 с 1 июля 2026 (IDP, сверить с Home Affairs)"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "high",
   "todo": [
-    "Проверить конкретный российский документ и требования к оценкам для выбранной программы в калькуляторе/каталоге ANU."
+    "IELTS по программам",
+    "Признание российского аттестата",
+    "Место в QS 2027"
   ],
-  "summary": "Исследовательский университет в Канберре с зелёным кампусом рядом с озером, лабораториями и жилыми колледжами. Программы охватывают науку, ИТ, инженерию, право, экономику и гуманитарные направления.",
+  "summary": "Национальный университет Австралии в Канберре, сильнейший в стране по политологии, международным отношениям, физике и компьютерным наукам. Заявка на февральский набор 2027 — до 15 декабря 2026, сбор 150 AUD. Обучение для иностранцев — порядка 50 000–58 000 AUD в год (Bachelor of Science — 57 640 в 2027).",
   "data_year": 2027,
   "founded": 1946,
   "city_size": "mid",
@@ -97,9 +105,11 @@
     "en"
   ],
   "highlights": [
-    "Международным первокурсникам Semester 1 гарантируют предложение кампусного жилья",
-    "Программы на стыке науки и госорганизаций в столице Австралии",
-    "Автоматическое рассмотрение на Chancellor’s International Scholarship"
+    "Сильнейший в Австралии по политике, международным отношениям и физике",
+    "Заявка на семестр 1 2027 — до 15 декабря 2026",
+    "Сбор за заявку 150 AUD",
+    "Bachelor of Science — 57 640 AUD в год (2027)",
+    "Большинство первокурсников живут в резиденциях кампуса"
   ],
   "intl_students_url": "https://study.anu.edu.au/apply/international-applications",
   "programs": [
@@ -108,28 +118,48 @@
       "field": "it",
       "level": "bachelor",
       "language": "en",
-      "url": "https://programsandcourses.anu.edu.au/2027/program/baadvcomp"
+      "url": "https://programsandcourses.anu.edu.au/2027/program/baadvcomp",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of Engineering (Honours)",
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
-      "url": "https://programsandcourses.anu.edu.au/2027/program/benh"
+      "url": "https://programsandcourses.anu.edu.au/2027/program/benh",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of Science",
       "field": "natural_sciences",
       "level": "bachelor",
       "language": "en",
-      "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc"
+      "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of International Relations",
       "field": "international_relations",
       "level": "bachelor",
       "language": "en",
-      "url": "https://programsandcourses.anu.edu.au/2027/program/bir"
+      "url": "https://programsandcourses.anu.edu.au/2027/program/bir",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     }
   ],
   "cost": {
@@ -178,8 +208,8 @@
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Student visa subclass 500",
-    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "type": "Студенческая виза subclass 500",
+    "notes": "Нужна студенческая виза subclass 500 — подаётся онлайн через ImmiAccount после получения подтверждения зачисления (CoE). Сбор с 1 июля 2026 — 2 500 AUD. Нужно подтвердить деньги на жизнь — около 29 710 AUD в год плюс обучение и перелёт, оформить медстраховку OSHC на весь срок, пройти проверку «настоящего студента» (GS) и, если попросят, сдать биометрию и медосмотр. Правила часто меняются — перед подачей сверь с сайтом Home Affairs.",
     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
   },
   "dorm": {
@@ -189,51 +219,68 @@
   },
   "deadlines": [
     {
-      "what": "Основная заявка на Semester 1",
+      "what": "Заявка на семестр 1 2027",
       "end": "2026-12-15",
-      "intake": "2027"
+      "intake": "Февраль 2027"
     },
     {
-      "what": "Основная заявка на Semester 2",
+      "what": "Принять предложение (если ты за рубежом)",
+      "end": "2027-01-15"
+    },
+    {
+      "what": "Заявка на семестр 2 2027",
       "end": "2027-05-15",
-      "intake": "2027"
+      "intake": "Июль 2027"
     }
   ],
   "photos": [
     {
-      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Toad%20Hall%20-%20Banner_0.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
-      "caption": "Здание студенческой резиденции Toad Hall"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Telstra_Tower_from_ANU_campus%2C_Canberra_Australia.jpg/1280px-Telstra_Tower_from_ANU_campus%2C_Canberra_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Thennicke",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_from_ANU_campus,_Canberra_Australia.jpg",
+      "caption": "Кампус ANU у ручья Салливанс-Крик, вдали — Telstra Tower"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/New_entrance_to_Chifley_library.jpg/1280px-New_entrance_to_Chifley_library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Sam Wilson  (taken with Samsung Galaxy S21 FE 5G)",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:New_entrance_to_Chifley_library.jpg",
+      "caption": "Новый вход в библиотеку Chifley"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Book_shelves_on_the_top_floor_of_the_Chifley_Library_August_2026.jpg/1280px-Book_shelves_on_the_top_floor_of_the_Chifley_Library_August_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Book_shelves_on_the_top_floor_of_the_Chifley_Library_August_2026.jpg",
+      "caption": "Книжные залы библиотеки Chifley"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/ANU_AD_Hope_building_and_surrounding_area.jpg/1280px-ANU_AD_Hope_building_and_surrounding_area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "MrMosely",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ANU_AD_Hope_building_and_surrounding_area.jpg",
+      "caption": "Корпус AD Hope и окрестности"
     },
     {
       "file": "https://d3gu8jtw4r0om.cloudfront.net/sites/study.anu.edu.au/files/2023-08/Bruce%20Hall%20-%20Banner.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://iceds.anu.edu.au/news-events/news/anu-co-investment-opportunity-hydrogen-projects",
-      "caption": "Резиденция Bruce Hall Main Wing с внутренним двором"
+      "caption": "Резиденция Bruce Hall"
     },
     {
-      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Davey%20Lodge%20-%20Banner.jpg",
+      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Toad%20Hall%20-%20Banner_0.jpg",
       "author": "University / official page",
       "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
       "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
-      "caption": "Резиденция Davey Lodge"
-    },
-    {
-      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Wamburun%20Hall%20-%20Banner.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
-      "caption": "Общежитие Wamburun Hall"
-    },
-    {
-      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Wright%20Hall%20-%20Banner.jpg",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
-      "caption": "Резиденция Wright Hall"
+      "caption": "Резиденция Toad Hall"
     }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "small_groups",
+    "intl_environment"
   ]
 }

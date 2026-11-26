@@ -2,8 +2,9 @@
   "id": "uq",
   "type": "university",
   "name": {
-    "ru": "The University of Queensland",
-    "en": "The University of Queensland"
+    "ru": "Квинслендский университет",
+    "en": "The University of Queensland",
+    "short": "UQ"
   },
   "country": "AU",
   "city": "Брисбен",
@@ -43,8 +44,8 @@
   "sources": [
     {
       "url": "https://study.uq.edu.au/admissions/undergraduate/review-entry-requirements",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "accessed": "2026-11-26",
+      "covers": "требования: эквивалент Year 12, проходной балл"
     },
     {
       "url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
@@ -69,20 +70,28 @@
     {
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
       "accessed": "2026-11-26",
-      "covers": "официальная student visa 500"
+      "covers": "официальная страница визы 500 (не открылась из нашей сети)"
+    },
+    {
+      "url": "https://www.idp.com/australia/study-to-migrate/australian-visa-fee-increases/",
+      "accessed": "2026-11-26",
+      "covers": "сбор за визу 500 с 1 июля 2026 (IDP, сверить с Home Affairs)"
     }
   ],
   "verified_at": "2026-11-26",
   "confidence": "medium",
   "todo": [
-    "Точные годовые tuition и академические требования добавлять на уровне выбранной программы UQ; универсальный тариф для всего вуза некорректен."
+    "Точная плата по выбранным программам",
+    "Признание российского аттестата",
+    "Место в QS 2027"
   ],
-  "summary": "The University of Queensland — государственный исследовательский университет в Брисбене с главным кампусом St Lucia у реки. Международные выпускники школ подают на бакалавриат напрямую в UQ; стоимость и академические требования зависят от программы, а для отдельных направлений действуют дополнительные тесты и более ранние сроки.",
+  "summary": "Один из ведущих университетов Австралии (Group of Eight) в Брисбене, известен биологией, медициной, инженерией и экологией. Иностранцам нужен эквивалент квинслендского Year 12 с проходным баллом программы и IELTS от 6.5. Плата — примерно 46 000–75 000 AUD в год.",
   "highlights": [
-    "Главный кампус St Lucia расположен у реки Брисбен",
-    "Международным школьникам за пределами Австралии нужно подавать напрямую в UQ",
-    "Учебная плата рассчитывается по программе и пересматривается ежегодно",
-    "Есть университетские резиденции и независимые колледжи с разной стоимостью"
+    "Кампус St Lucia с главным корпусом Forgan Smith и Great Court",
+    "Нужен эквивалент Year 12 и проходной балл программы",
+    "IELTS от 6.5 / TOEFL от 87",
+    "Рекомендуемый срок заявки на семестр 1 2027 — 30 ноября 2026",
+    "Сбор за визу 500 — 2 500 AUD с июля 2026"
   ],
   "levels": [
     "bachelor",
@@ -103,28 +112,48 @@
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 4
+      "duration_years": 4,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of Computer Science",
       "field": "it",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 3
+      "duration_years": 3,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of Business Management",
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 3
+      "duration_years": 3,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     },
     {
       "name": "Bachelor of Veterinary Science (Honours)",
       "field": "medicine",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 5
+      "duration_years": 5,
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен эквивалент австралийского Year 12 (ATAR) по программе; признание российского аттестата — уточнить"
+      }
     }
   ],
   "cost": {
@@ -183,7 +212,7 @@
       "Сертифицированные копии и переводы документов",
       "Дополнительные тесты или портфолио, если требует программа"
     ],
-    "notes": "UQ оценивает иностранную квалификацию индивидуально по требованиям курса. Для российской школы проверь country-specific qualification и предметные требования в International Admissions."
+    "notes": "Нужно окончить квинслендский Year 12 или равноценную иностранную квалификацию с проходным баллом выбранной программы. Если учишься в школе за рубежом, нужен эквивалент проходного балла."
   },
   "deadlines": [
     {
@@ -199,8 +228,8 @@
   ],
   "visa": {
     "needed_for_ru": true,
-    "type": "Student visa (subclass 500)",
-    "notes": "После зачисления требуется Confirmation of Enrolment и оформление студенческой визы Австралии; проверить актуальные требования, финансовые доказательства и медстрахование для заявителей из РФ.",
+    "type": "Студенческая виза subclass 500",
+    "notes": "Нужна студенческая виза subclass 500 — подаётся онлайн через ImmiAccount после получения подтверждения зачисления (CoE). Сбор с 1 июля 2026 — 2 500 AUD. Нужно подтвердить деньги на жизнь — около 29 710 AUD в год плюс обучение и перелёт, оформить медстраховку OSHC на весь срок, пройти проверку «настоящего студента» (GS) и, если попросят, сдать биометрию и медосмотр. Правила часто меняются — перед подачей сверь с сайтом Home Affairs.",
     "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
   },
   "dorm": {
@@ -216,38 +245,50 @@
     }
   ],
   "perks": [
-    "campus",
-    "internships",
-    "exchange",
     "strong_research",
-    "employment",
-    "student_life"
+    "campus",
+    "student_life",
+    "internships"
   ],
-  "data_year": 2026,
+  "data_year": 2027,
   "photos": [
     {
-      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/st-lucia-campus.jpg?itok=39nkzdMY",
-      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.uq.edu.au/",
-      "caption": "Главный корпус Forgan Smith на кампусе St Lucia"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Buildings_surrounding_the_Great_Court%2C_University_of_Queensland_05.jpg/1280px-Buildings_surrounding_the_Great_Court%2C_University_of_Queensland_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Buildings_surrounding_the_Great_Court,_University_of_Queensland_05.jpg",
+      "caption": "Great Court — главный двор кампуса St Lucia"
     },
     {
-      "file": "https://www.uq.edu.au/sites/default/files/styles/image_panel/public/2022-05/Find-a-researcher.jpg?itok=QGcGWmVl",
-      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.uq.edu.au/",
-      "caption": "Исследовательская работа с микроскопом"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Steele_Building_surrounding_the_Great_Court%2C_University_of_Queensland_01.jpg/1280px-Steele_Building_surrounding_the_Great_Court%2C_University_of_Queensland_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steele_Building_surrounding_the_Great_Court,_University_of_Queensland_01.jpg",
+      "caption": "Корпус Steele у Great Court"
     },
     {
-      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/brand-imagery-two-students-laptop.jpg?itok=FI9stIbd",
-      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.uq.edu.au/",
-      "caption": "Студенты работают вместе за ноутбуком"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Parnell_Building_surrounding_the_Great_Court%2C_University_of_Queensland.jpg/1280px-Parnell_Building_surrounding_the_Great_Court%2C_University_of_Queensland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Parnell_Building_surrounding_the_Great_Court,_University_of_Queensland.jpg",
+      "caption": "Корпус Parnell у Great Court"
     },
     {
-      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/brand-imagery-two-students_0.jpg?itok=8DtOrqqh",
-      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.uq.edu.au/",
-      "caption": "Студенты беседуют на кампусе"
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Covered_walkway_at_the_southern_edge_of_the_Great_Court_at_the_University_of_Queensland_July_2015.jpg/1280px-Covered_walkway_at_the_southern_edge_of_the_Great_Court_at_the_University_of_Queensland_July_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Covered_walkway_at_the_southern_edge_of_the_Great_Court_at_the_University_of_Queensland_July_2015.jpg",
+      "caption": "Крытая галерея вдоль Great Court"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Goddard_Building_surrounding_the_Great_Court%2C_University_of_Queensland.jpg/1280px-Goddard_Building_surrounding_the_Great_Court%2C_University_of_Queensland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Kgbo",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Goddard_Building_surrounding_the_Great_Court,_University_of_Queensland.jpg",
+      "caption": "Корпус Goddard"
     }
-  ]
+  ],
+  "ownership": "public",
+  "founded": 1909,
+  "city_size": "mega"
 }
