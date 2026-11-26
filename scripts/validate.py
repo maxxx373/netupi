@@ -28,7 +28,10 @@ for f in files:
     if rec.get("id") and f.stem != rec["id"]:
         problems.append(f"имя файла должно быть {rec['id']}.json")
     for ph in rec.get("photos", []):
-        p = ROOT / "data" / ph.get("file", "")
+        photo_file = ph.get("file", "")
+        if photo_file.startswith(("https://", "http://")):
+            continue
+        p = ROOT / "data" / photo_file
         if not p.is_file():
             problems.append(f"фото не найдено: {ph.get('file')}")
         elif not (p.read_bytes()[:3] == b"\xff\xd8\xff" or p.read_bytes()[:4] == b"\x89PNG"):

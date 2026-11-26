@@ -9,47 +9,198 @@
   "city": "Сантьяго",
   "website": "https://www.uc.cl/en/",
   "admissions_url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
-  "about": "Исследовательский университет с направлениями в инженерии, архитектуре, медицине, сельском хозяйстве, экологии и бизнесе.",
+  "about": "Pontificia Universidad Católica de Chile (UC/PUC Chile) — частный католический исследовательский университет, основанный в 1888 году. Основные кампусы расположены в Сантьяго, также есть кампус Villarrica. Университет объединяет факультеты инженерии, медицины, права, экономики и бизнеса, архитектуры, искусств, социальных и естественных наук; студенческая инфраструктура включает библиотеки, лаборатории, спортивные и культурные пространства. Основной язык обучения бакалавриата — испанский.\n\nИностранцу, который хочет получить полноценную степень бакалавра, нужно отличать degree-seeking admission от обменных программ. Иностранное среднее образование должно быть признано по чилийским правилам; путь подачи зависит от гражданства, экзаменов и имеющегося школьного диплома. Большинство мест распределяется через национальный процесс с PAES и программными требованиями; UC также публикует специальные и альтернативные пути. Для обучения на испанском потребуется уверенное владение языком; отдельные курсы могут иметь дополнительные предметные критерии и этапы.\n\nОплата matrícula и годовой arancel зависит от выбранной степени и факультета; официальная UC публикует цены по программам и финансовые механизмы. Не все чилийские государственные льготы доступны иностранцам — проверяй условия каждой стипендии. Университет имеет несколько кампусов и поддерживает иностранных студентов, но наличие жилья зависит от кампуса, формата программы и конкретного предложения. Для обучения гражданину России потребуется соответствующий временный статус/разрешение на учёбу; официальную процедуру нужно сверить с чилийской миграционной службой до переезда.",
   "areas": [
-    "science",
     "engineering",
-    "construction",
-    "architecture",
     "medicine",
-    "law",
-    "botany",
-    "agriculture",
     "business",
-    "environment"
-  ],
-  "art": "classic",
-  "fields": [
-    "natural_sciences",
-    "engineering",
-    "architecture",
-    "medicine",
     "law",
-    "agriculture",
-    "business"
+    "architecture",
+    "social sciences",
+    "natural sciences",
+    "arts"
+  ],
+  "art": "historic",
+  "fields": [
+    "engineering",
+    "medicine",
+    "business",
+    "law",
+    "architecture",
+    "natural_sciences",
+    "humanities",
+    "social_sciences",
+    "design_art"
   ],
   "prep": {
-    "must": "Для иностранного школьного образования проверь один из специальных путей поступления и требования к признанию диплома. Условия различаются по программе и статусу абитуриента.",
-    "good": "Уточни, требуется ли PAES, подготовь испанский и переводы академических документов. Просмотри международную страницу приёма и отдельные критерии факультета.",
+    "must": "Определи, поступаешь ли на полную степень или обмен; для degree admission проверь признание аттестата, испанский, обязательные экзамены и национальный/специальный маршрут.",
+    "good": "Запроси индивидуальный расчёт tuition и уточни, какие scholarship/benefit доступны именно иностранцам.",
     "source": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/"
   },
   "sources": [
     {
       "url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "international degree admission и признание школьных документов"
+    },
+    {
+      "url": "https://admision.uc.cl/",
+      "accessed": "2026-11-26",
+      "covers": "программы и поступление"
+    },
+    {
+      "url": "https://admision.uc.cl/financiamiento-y-matricula/financiamiento-y-matricula-futuros-estudiantes/",
+      "accessed": "2026-11-26",
+      "covers": "tuition, matrícula и финансовые механизмы"
+    },
+    {
+      "url": "https://www.uc.cl/en/",
+      "accessed": "2026-11-26",
+      "covers": "факультеты, кампусы и университет"
+    },
+    {
+      "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/",
+      "accessed": "2026-11-26",
+      "covers": "чилийский статус для обучения"
+    },
+    {
+      "url": "https://www.uc.cl/noticias/ocho-recomendaciones-para-volver-a-las-bibliotecas-de-la-uc/",
+      "accessed": "2026-11-26",
+      "covers": "библиотечные фото и сведения"
+    },
+    {
+      "url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/",
+      "accessed": "2026-11-26",
+      "covers": "альтернативные пути поступления"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Определить стоимость по конкретной программе: единый тариф для всего университета некорректен. Подтвердить жильё для degree-seeking по нужному кампусу."
+  ],
+  "summary": "Крупный частный католический исследовательский университет в Сантьяго с несколькими кампусами. Предлагает программы в инженерии, медицине, бизнесе, праве, архитектуре, науках, искусстве и гуманитарных дисциплинах.",
+  "intl_students_url": "https://admision.uc.cl/informacion-para/estudiantes-internacionales/ven-a-estudiar-a-la-uc/",
+  "founded": 1888,
+  "city_size": "mega",
+  "ownership": "private",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Пять кампусов, включая центральные площадки Сантьяго и кампус Villarrica",
+    "Основной язык бакалавриата — испанский",
+    "Путь для иностранных degree-seeking кандидатов зависит от признания аттестата и способа поступления"
+  ],
+  "programs": [
+    {
+      "name": "Ingeniería Civil",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 6,
+      "url": "https://admision.uc.cl/carreras/ingenieria-civil/"
+    },
+    {
+      "name": "Medicina",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 7,
+      "url": "https://admision.uc.cl/carreras/medicina/"
+    },
+    {
+      "name": "Derecho",
+      "field": "law",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 5,
+      "url": "https://admision.uc.cl/carreras/derecho/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Для стандартного национального поступления применяются PAES и пороговые условия цикла; международные исключения/пути определяются UC."
+      }
+    ],
+    "language_level": "Испанский для основной массы undergraduate программ; проверь уровень и подтверждающие документы у admission office.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и оценки",
+      "Признание/омологация иностранного образования, если требуется",
+      "Перевод и легализация документов",
+      "Подтверждение испанского по запросу программы",
+      "PAES или документы альтернативного международного маршрута"
+    ],
+    "notes": "Общий минимум PAES и дедлайны относятся к конкретному чилийскому циклу и не заменяют проверку маршрута иностранного degree-seeking кандидата."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Temporary residence for study (Chile)",
+    "notes": "Для длительного обучения проверь актуальную чилийскую процедуру temporary residence for study, документы от учебного заведения и правила подачи для граждан России. Разрешение не является автоматическим следствием зачисления.",
+    "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "UC имеет международные и студенческие сервисы, но общая гарантия места в кампусном общежитии для всех degree-seeking иностранцев не заявлена. Проверь варианты и бюджет по конкретному кампусу; жильё в Сантьяго часто ищется отдельно."
+  },
+  "photos": [
+    {
+      "file": "https://www.uc.cl/site/assets/files/16564/hero-uc-estudiantes_2.1440x680.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uc.cl/en/",
+      "caption": "Студенты UC на кампусе"
+    },
+    {
+      "file": "https://www.uc.cl/site/assets/files/14483/bibliotecas-web.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uc.cl/noticias/ocho-recomendaciones-para-volver-a-las-bibliotecas-de-la-uc/",
+      "caption": "Библиотека UC"
+    },
+    {
+      "file": "https://www.uc.cl/site/assets/files/18015/hero-uc-universo-desktop.1440x680.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uc.cl/en/",
+      "caption": "Научные направления и лабораторная среда"
+    },
+    {
+      "file": "https://admision.uc.cl/htdocs/content/uploads/2022/03/MG_5977-1-scaled.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://admision.uc.cl/vias-de-admision/admision-especial-y-complementaria/",
+      "caption": "Студенты и учебное пространство UC"
+    },
+    {
+      "file": "https://www.uc.cl/site/assets/files/22392/hero-uc-desktop-voces-2.1440x680.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uc.cl/en/",
+      "caption": "Учебная и исследовательская работа студентов"
+    }
+  ],
+  "data_year": 2027
 }

@@ -9,7 +9,7 @@
   "city": "Сидней",
   "website": "https://www.sydney.edu.au/",
   "admissions_url": "https://www.sydney.edu.au/study/how-to-apply/international-students.html",
-  "about": "Многопрофильный университет Австралии с программами в инженерии, архитектуре, медицине, сельском хозяйстве, ветеринарии и естественных науках.",
+  "about": "The University of Sydney — государственный исследовательский университет Австралии, основанный в 1850 году. Основной кампус Camperdown/Darlington находится недалеко от центра Сиднея и известен зданиями из песчаника; здесь расположены библиотеки, лаборатории, студенческие службы, учебные корпуса и колледжи. В университете можно изучать гуманитарные и социальные науки, бизнес, инженерное дело, архитектуру, медицину, право, ветеринарию и естественные науки.\n\nМеждународный приём зависит от курса: университет проверяет эквивалентность российского аттестата, предметные prerequisites и английский. Календарь подачи, начало учёбы и ограниченность мест различаются; часть программ набирает только в определённый семестр. В официальном guide для 2027 опубликованы требования и эквиваленты квалификаций; стоимость tuition также указана по курсам и может повышаться ежегодно. В 2027 ориентир для иностранных бакалавров — примерно AUD 52–75 тыс. в год по области обучения. Россия входит в список стран Sydney International Student Award: стипендия может покрыть 20% tuition для подходящих студентов, поступающих на соответствующую программу. В кампусах есть общежития и колледжи; цены и условия различаются, место не следует считать гарантированным. Для обучения потребуется Student visa subclass 500 и подтверждение документов по австралийским иммиграционным правилам.",
   "areas": [
     "science",
     "engineering",
@@ -29,7 +29,10 @@
     "architecture",
     "medicine",
     "law",
-    "agriculture"
+    "agriculture",
+    "business",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
     "must": "Проверь, признаётся ли твоя школьная квалификация и достигает ли она академического порога выбранного курса. Нужны выполненные предметные prerequisites и английский язык.",
@@ -38,17 +41,218 @@
   },
   "sources": [
     {
-      "url": "https://www.sydney.edu.au/study/how-to-apply/international-students.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/applying/application-dates.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/scholarships/sydney-international-student-award.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/accommodation.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sydney.edu.au/news-opinion/news/2022/07/28/scholarships-awarded-to-five-taiwanese-research-students.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.sydney.edu.au/law/news-and-events/news/2023/06/22/law-school-professor-awarded-max-planck-cambridge-prize-for-international-law.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.sydney.edu.au/medicine-health/study-medicine-and-health/study-areas/pharmacy.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.library.sydney.edu.au/visit",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Сверить в guide 2027 точный эквивалент российского аттестата, срок подачи и tuition для выбранного курса."
+  ],
+  "summary": "Крупный государственный исследовательский университет с историческим кампусом Camperdown/Darlington в Сиднее. Обучение охватывает инженерное дело, медицину, архитектуру, науки и гуманитарные дисциплины; есть отдельная стипендия для ряда иностранных студентов из России.",
+  "data_year": 2027,
+  "founded": 1850,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Кампус с историческими зданиями из песчаника",
+    "International Student Award может покрыть 20% tuition",
+    "Есть резиденции и колледжи"
+  ],
+  "intl_students_url": "https://www.sydney.edu.au/dam/corporate/documents/study/how-to-apply/international-admission-guide.pdf",
+  "programs": [
+    {
+      "name": "Bachelor of Engineering Honours",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours.html"
+    },
+    {
+      "name": "Bachelor of Science",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-science.html"
+    },
+    {
+      "name": "Bachelor of Arts",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-arts.html"
+    },
+    {
+      "name": "Bachelor of Architecture and Environments",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-design-in-architecture.html"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 51700,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентировочный international undergraduate tuition в 2027 по областям; конкретный курс может быть за диапазоном, проживание оплачивается отдельно."
+    },
+    "tuition_max": {
+      "amount": 75000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентировочный international undergraduate tuition в 2027 по областям; конкретный курс может быть за диапазоном, проживание оплачивается отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Sydney International Student Award",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Россия указана среди eligible countries; award может покрыть 20% tuition для отвечающих критериям студентов и подходящих курсов 2027 года. Проверить условия подачи.",
+        "url": "https://www.sydney.edu.au/study/fees-and-loans/scholarships/sydney-international-student-award.html"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Подтверждение английского по требованиям курса; возможны принятые тесты и исключения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Эквивалентность российского школьного диплома, prerequisites и вступительные требования проверяются по course guide."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa subclass 500",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университет управляет колледжами, резиденциями и апартаментами. Места и тарифы отличаются, жильё нужно запрашивать отдельно; университет публикует ориентиры расходов и информацию о заявке."
+  },
+  "deadlines": [
+    {
+      "what": "Международная заявка на осенний/первый семестр 2027; точные даты зависят от курса и места",
+      "intake": "2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.sydney.edu.au/content/dam/corporate/images/sydney-law-school/news-events/2023/2023-law-school-library.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.sydney.edu.au/law/news-and-events/news/2023/06/22/law-school-professor-awarded-max-planck-cambridge-prize-for-international-law.html",
+      "caption": "Библиотека Sydney Law School"
+    },
+    {
+      "file": "https://www.sydney.edu.au/content/dam/campus-facilities-and-amenities/buildings/quadrangle/students-walking-quad.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.sydney.edu.au/news-opinion/news/2022/07/28/scholarships-awarded-to-five-taiwanese-research-students.html",
+      "caption": "Студенты проходят по историческому Quadrangle"
+    },
+    {
+      "file": "https://www.library.sydney.edu.au/content/dam/library/images/visit/abercrombie/img_abercrombie_409527_webres.jpg/jcr%3Acontent/renditions/cq5dam.web.1280.1280.jpeg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.library.sydney.edu.au/visit",
+      "caption": "Интерьер библиотеки Abercrombie"
+    },
+    {
+      "file": "https://www.sydney.edu.au/content/dam/intranet/images/news-initiatives/news/2016/june/SAGE-pharmacy-students.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.sydney.edu.au/medicine-health/study-medicine-and-health/study-areas/pharmacy.html",
+      "caption": "Студенты фармацевтической лаборатории"
+    },
+    {
+      "file": "https://www.sydney.edu.au/content/dam/campus-facilities-and-amenities/accommodation/cleveland-ensuite-room-2-with-students.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.sydney.edu.au/study/fees-and-loans/other-costs/living-costs.html",
+      "caption": "Комната и быт студентов в резиденции"
+    }
   ]
 }

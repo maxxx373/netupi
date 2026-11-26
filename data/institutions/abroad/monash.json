@@ -8,45 +8,229 @@
   "country": "AU",
   "city": "Мельбурн",
   "website": "https://www.monash.edu/",
-  "admissions_url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
-  "about": "Международный университет с программами в инженерии, медицине, фармации, бизнесе, сельском хозяйстве и естественных науках.",
+  "admissions_url": "https://www.monash.edu/admissions/apply/international-ug",
+  "about": "Monash University — государственный университет Австралии, основанный в 1958 году и названный в честь инженера Джона Монаша. Основной кампус Clayton расположен в Мельбурне; также действуют кампусы в Caulfield, Peninsula, Parkville и международные площадки. Учебная среда включает лаборатории, библиотеки, клиники и медицинские центры, спортивную инфраструктуру, студенческие сообщества и резиденции. Университет широко представлен в медицине и фармации, инженерии, ИТ, бизнесе, образовании, праве и естественных науках.\n\nИностранные выпускники школ подают заявление напрямую через Monash либо через VTAC — маршрут зависит от страны и типа школьной квалификации. Требования к оценкам, предметам-предпосылкам и английскому задаются отдельно по программе; некоторые курсы ограничивают набор или требуют дополнительного отбора. Официальный guide для поступления в 2027 даёт ориентиры по требованиям, но указанные там суммы tuition основаны на тарифах 2026 и могут измениться. Поэтому годовая стоимость индивидуальна: проверь страницу конкретного курса перед подачей. Иностранные кандидаты автоматически рассматриваются на часть Monash International Scholarships при соответствии условиям; присуждение конкурентное.\n\nНа кампусах есть общежития, но цена и доступность различаются; отдельная заявка и раннее бронирование важны. Для иностранного студента в Австралии нужна Student visa subclass 500, а также Overseas Student Health Cover на период визы. Визовые требования, финансовые документы и сроки стоит перепроверить перед каждым циклом.",
   "areas": [
-    "science",
-    "engineering",
-    "construction",
     "medicine",
+    "pharmacy",
+    "engineering",
     "business",
-    "botany",
-    "agriculture",
-    "environment",
-    "pharmacy"
+    "information technology",
+    "science",
+    "law",
+    "education",
+    "arts"
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
-    "engineering",
     "medicine",
+    "engineering",
+    "it",
     "business",
-    "agriculture"
+    "natural_sciences",
+    "law",
+    "psychology",
+    "design_art",
+    "pedagogy"
   ],
   "prep": {
-    "must": "Подготовь академические документы по всем полученным квалификациям, паспорт и доказательства английского, prerequisites и специальных требований курса. Подаваться можно напрямую или через авторизованного представителя.",
-    "good": "Подавайся заранее: некоторые курсы закрываются до начала семестра. Проверь правила заверения и перевода документов, дату старта и условия студенческой визы.",
-    "source": "https://www.monash.edu/study/how-to-apply/application-process/international-students"
+    "must": "Найди свою программу в каталоге Monash и проверь эквивалентность школьной квалификации, prerequisites и английский; подача зависит от страны и маршрута.",
+    "good": "Используй international course guide как ориентир, но точную актуальную плату смотри в карточке курса; подайся на кампусное жильё заранее.",
+    "source": "https://www.monash.edu/admissions/apply/international-ug"
   },
   "sources": [
     {
+      "url": "https://www.monash.edu/admissions/apply/international-ug",
+      "accessed": "2026-11-26",
+      "covers": "международная подача и маршруты"
+    },
+    {
       "url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "документы и порядок подачи"
+    },
+    {
+      "url": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf",
+      "accessed": "2026-11-26",
+      "covers": "международный guide набора 2027 и ориентиры на базе тарифов 2026"
+    },
+    {
+      "url": "https://www.monash.edu/study/fees-scholarships/monash-awards",
+      "accessed": "2026-11-26",
+      "covers": "award и scholarship для международных студентов"
+    },
+    {
+      "url": "https://www.monash.edu/study/accommodation",
+      "accessed": "2026-11-26",
+      "covers": "кампусное жильё"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-26",
+      "covers": "австралийская учебная виза"
+    },
+    {
+      "url": "https://www.monash.edu/study-abroad/inbound/orientation/monash-abroad-orientation-2026",
+      "accessed": "2026-11-26",
+      "covers": "фото студентов и кампуса"
+    },
+    {
+      "url": "https://architizer.com/projects/monash-university-logan-hall/",
+      "accessed": "2026-11-26",
+      "covers": "архитектурные фотографии Logan Hall"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
-  "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Сайт недоступен для автоматического чтения (ответ 403): вручную проверить стоимость, стипендии, требования, сроки и общежитие"
-  ]
+  "verified_at": "2026-11-26",
+  "confidence": "high",
+  "todo": [],
+  "summary": "Австралийский исследовательский университет с несколькими кампусами в штате Виктория и международными площадками. Программы охватывают медицину, фармацию, инженерное дело, бизнес, ИТ, науки и гуманитарные области.",
+  "intl_students_url": "https://www.monash.edu/admissions/apply/international-ug",
+  "founded": 1958,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "highlights": [
+    "Несколько кампусов в Мельбурне с разной специализацией",
+    "Заявка для иностранцев идёт напрямую или через VTAC в зависимости от квалификации",
+    "Некоторые Monash International Awards рассматривают иностранцев автоматически"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Engineering (Honours)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.monash.edu/study/courses/find-a-course/engineering"
+    },
+    {
+      "name": "Bachelor of Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://www.monash.edu/study/courses/find-a-course/computer-science"
+    },
+    {
+      "name": "Bachelor of Pharmacy (Honours)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.monash.edu/study/courses/find-a-course/pharmacy"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Порог различается по курсам; отдельные направления могут требовать более высокий уровень."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Проверь допустимый вариант теста и минимум на странице выбранного курса."
+      }
+    ],
+    "language_level": "Соответствие опубликованному английскому стандарту Monash и дополнительным условиям курса.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и выписка оценок",
+      "Подтверждение английского",
+      "Перевод документов на английский",
+      "Предметные prerequisites и дополнительные материалы для выбранного курса"
+    ],
+    "notes": "Требования к стране/квалификации, портфолио, интервью и дополнительные этапы зависят от курса."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 39500,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Грубый ориентир по нескольким программам 2026, приведённым в официальном guide для набора 2027; тарифы различаются по курсам и могут обновиться."
+    },
+    "tuition_max": {
+      "amount": 65000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентир, а не универсальный тариф; стоимость по выбранному курсу нужно подтвердить в официальном каталоге Monash."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Monash International Merit / Monash Awards",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Некоторые международные awards оценивают eligible applicants автоматически; сумма, критерии и доступность зависят от award и года.",
+        "url": "https://www.monash.edu/study/fees-scholarships/monash-awards"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa subclass 500",
+    "notes": "Требуются зачисление, подтверждение расходов, OSHC и соблюдение актуальных условий Home Affairs. Проверь актуальные правила визы и возрастные требования до подачи.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Monash предлагает разные форматы кампусного проживания, в частности резиденции и жильё с самостоятельным питанием. Доступность, возрастные правила, стоимость и даты заявок зависят от кампуса; место не считать гарантированным без письменного offer."
+  },
+  "photos": [
+    {
+      "file": "https://cdn.sculptform.com.au/app/uploads/2019/04/16103529/Sir-Louis-Matheson-Landscape04.jpg",
+      "author": "Sculptform / project photo",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://legacy.sculptform.com/project/sir-louis-matheson-library-monash-university/",
+      "caption": "Фасад Sir Louis Matheson Library и студенты у входа"
+    },
+    {
+      "file": "https://educationsnapshots.com/wp-content/uploads/sites/4/2019/04/monash-university-clayton-campus-sir-louis-matheson-library-4-700x467.jpg",
+      "author": "Education Snapshots",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://educationsnapshots.com/projects/5482/monash-university-clayton-campus-sir-louis-matheson-library/",
+      "caption": "Вход и учебный центр Sir Louis Matheson Library"
+    },
+    {
+      "file": "https://oss.gooood.cn/uploads/2018/03/001-Sir-Louis-Matheson-Library-Melbourne-Australia-by-Cox-Architecture.jpg",
+      "author": "gooood / Cox Architecture",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.gooood.cn/sir-louis-matheson-library-melbourne-australia-by-cox-architecture.htm",
+      "caption": "Учебная зона библиотеки с мягкими местами и столами"
+    },
+    {
+      "file": "https://media3.architecturemedia.net/site_media/media/cache/83/50/8350eb8643ddb723266e413dd190408b.jpg",
+      "author": "ArchitectureAu",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://architectureau.com/articles/monash-university-logan-hall/",
+      "caption": "Архитектура студенческого жилья Logan Hall"
+    },
+    {
+      "file": "https://media4.architecturemedia.net/site_media/media/cache/a4/c3/a4c3b5573f2a962ed8d0a114f14a6b04.jpg",
+      "author": "ArchitectureAu",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://architectureau.com/articles/monash-university-logan-hall/",
+      "caption": "Общие пространства резиденции Logan Hall"
+    }
+  ],
+  "data_year": 2027
 }

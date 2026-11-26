@@ -9,51 +9,203 @@
   "city": "Кейптаун",
   "website": "https://www.uct.ac.za/",
   "admissions_url": "https://www.uct.ac.za/students/applications-admission-requirements",
-  "about": "Старейший исследовательский университет ЮАР с программами по биологии, сельскому хозяйству, инженерии, архитектуре, экологии и медицине.",
+  "about": "University of Cape Town (UCT) — государственный исследовательский университет Кейптауна, основанный в 1829 году. Upper, Middle и Lower campuses расположены у склонов Devil’s Peak/Table Mountain; факультетские площадки включают Groote Schuur, Hiddingh и Breakwater. Университет предлагает инженерное дело и built environment, медицину и health sciences, бизнес, право, естественные, гуманитарные и социальные науки. Есть лаборатории, клинические партнёры, библиотеки, спортивные центры и студенческие резиденции. Основной язык преподавания — английский.\n\nИностранный школьник подаёт через UCT online application и должен соответствовать академическим требованиям выбранного факультета, предметам и уровню английского. Для российского аттестата UCT оценивает эквивалентность и требует документы с прогнозными/итоговыми оценками, заверенные переводы, доказательство английского и соблюдение сроков. Приём на 2027 открывался 1 апреля и закрывался 31 июля 2026; international supporting documents принимались до 30 сентября, а offer для иностранца нужен к 15 ноября, чтобы успеть оформить study visa. Следующий цикл надо проверить, так как календарь меняется.\n\nМеждународная плата складывается из tuition по выбранным курсам, обязательного administrative fee, а для coursework undergraduate — ещё international term fee. Конкретную сумму UCT предлагает считать по handbook/initial invoice; единый annual тариф для всех степеней некорректен. Для международных студентов вне SADC отдельно рассчитываются дополнительные international charges; некоторые bursaries для international undergraduate недоступны. Резиденции UCT существуют, но мест хватит лишь части студентов: около 6,000 residence beds при общей численности свыше 29,000. Заявка на accommodation обычно подаётся одновременно с admission, и международному студенту необходима южноафриканская study visa и medical aid, действующие на весь период.",
   "areas": [
     "science",
     "engineering",
-    "construction",
     "architecture",
     "medicine",
-    "botany",
     "agriculture",
-    "veterinary",
+    "law",
+    "business",
     "environment",
-    "law"
+    "social sciences"
   ],
-  "art": "modern",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
     "architecture",
     "medicine",
     "agriculture",
-    "law"
+    "law",
+    "business",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Иностранный школьный аттестат должен давать право на университетское обучение и соответствовать требованиям matriculation exemption. Нужны курс-специфичные предметы и подтверждение английского.",
-    "good": "Проверь admission points score и требования факультета. Для некоторых направлений нужны National Benchmark Tests или портфолио; для архитектуры проверь отдельные даты и формат.",
-    "source": "https://www.onlinestudent.uct.ac.za/students/applications-admission-requirements/eligibility-admission"
+    "must": "Сверь иностранный аттестат с требованиями курса и English; подавай онлайн до дедлайна и вместе с admission отправь заявку на residence, если она нужна.",
+    "good": "До выбора программы запроси pro forma fee invoice и учти tuition, international fees, health cover, жильё и медстраховку для визы.",
+    "source": "https://uct.ac.za/students/applications/international-applicants"
   },
   "sources": [
     {
-      "url": "https://www.uct.ac.za/students/applications-admission-requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://uct.ac.za/students/applications-international-applicants",
+      "accessed": "2026-11-26",
+      "covers": "международные кандидаты, application support и visa"
     },
     {
-      "url": "https://www.onlinestudent.uct.ac.za/students/applications-admission-requirements/eligibility-admission",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://www.student.uct.ac.za/students/applications/key-dates",
+      "accessed": "2026-11-26",
+      "covers": "дедлайны 2027 и сроки international documents"
+    },
+    {
+      "url": "https://undergrad.uct.ac.za/students/applications-apply-undergraduate-qualifications/application-procedure",
+      "accessed": "2026-11-26",
+      "covers": "application process and deadlines"
+    },
+    {
+      "url": "https://www.uct.ac.za/international/student-support/fees",
+      "accessed": "2026-11-26",
+      "covers": "структура tuition и сборов"
+    },
+    {
+      "url": "https://www.uct.ac.za/international/accommodation",
+      "accessed": "2026-11-26",
+      "covers": "residence, ограниченное число мест и дедлайн подачи"
+    },
+    {
+      "url": "https://degree.uct.ac.za/sites/default/files/media/documents/2027-uct-undergraduate-prospectus-1-april-2026.pdf",
+      "accessed": "2026-11-26",
+      "covers": "программные требования, виза и международное финансирование"
+    },
+    {
+      "url": "https://www.uct.ac.za/international/student-support/visas",
+      "accessed": "2026-11-26",
+      "covers": "study visa и medical cover"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Для конкретной степени получить pro forma invoice: tuition зависит от курсов и international term/administrative fees; в карточке не указана фиктивная единая цена."
+  ],
+  "summary": "University of Cape Town — исследовательский университет на склонах Table Mountain. На кампусах в Cape Town есть инженерные и научные факультеты, медицина, бизнес, право, библиотеки и резиденции; обучение на английском.",
+  "intl_students_url": "https://www.uct.ac.za/students/applications/international-applicants",
+  "founded": 1829,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Кампусы находятся у Table Mountain в Кейптауне",
+    "UCT публикует international deadlines заранее для подготовки study visa",
+    "Места в residence ограничены, заявка на жильё подаётся одновременно с admission"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://www.uct.ac.za/students/applications-admission-requirements"
+    },
+    {
+      "name": "Bachelor of Engineering in Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://ebe.uct.ac.za/"
+    },
+    {
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 6,
+      "url": "https://health.uct.ac.za/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "English score зависит от категории кандидата; проверь минимальный overall/component score в актуальном prospectus."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Допустимые тесты/score опубликованы UCT; для некоторых degrees добавляются NBT или портфолио."
+      }
+    ],
+    "language_level": "Английский; доказательство требуется к отдельному сроку. Проверяй требования 2027 prospectus и условия для страны обучения.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и transcript с прогнозными/итоговыми оценками",
+      "Перевод документов на английский и заверение",
+      "Подтверждение английского",
+      "Дополнительные aptitude/NBT/portfolio материалы по курсу",
+      "Подтверждение медстраховки и study visa перед регистрацией"
+    ],
+    "notes": "Минимальные предметные требования различаются по программе. Для 2027 UCT указал дедлайн undergraduate 31 July 2026, документы международного кандидата до 30 September; проверить новый intake calendar."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "South African study visa",
+    "notes": "Иностранный студент должен получить study visa до приезда; UCT выдаёт undertaking letter после offer. Также нужна подходящая medical aid на срок действия визы и подтверждение жилья/финансов по правилам консульства.",
+    "url": "https://www.uct.ac.za/international/student-support/visas"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "UCT предоставляет undergraduate и postgraduate residences трёх типов, но общежитием можно разместить около 6,000 из более чем 29,000 студентов. Для residence заявку надо подать одновременно с поступлением, не позже 31 июля для следующего календарного года; поздние заявки не принимаются."
+  },
+  "photos": [
+    {
+      "file": "https://www.news.uct.ac.za/images/userfiles/images/publications/campuslife/2021/2021-02-15_UCT_sax-appeal.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.news.uct.ac.za/article/-2021-03-03-have-you-heard",
+      "caption": "Кампус UCT и студенческая жизнь"
+    },
+    {
+      "file": "https://onlinecourses.uct.ac.za/sites/default/files/media/images/uct_ac_za/housing-guide-cta.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://onlinecourses.uct.ac.za/dsa/student-housing",
+      "caption": "Исторический residence building, покрытый плющом"
+    },
+    {
+      "file": "https://degree.uct.ac.za/sites/default/files/styles/slide_full_width/public/media/images/uct_ac_za/dsa-homepage-housing-02.webp?h=8d924784&itok=fw_W6UhA",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://degree.uct.ac.za/dsa",
+      "caption": "Жилой двор UCT и вид на горный хребет"
+    },
+    {
+      "file": "https://www.news.uct.ac.za/images/userfiles/images/publications/campuslife/2026/20260102_where-to-stay_lead-image.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.news.uct.ac.za/article/-2026-01-27-where-to-stay",
+      "caption": "Студенческая резиденция с видом на горы"
+    },
+    {
+      "file": "https://www.news.uct.ac.za/images/archive/dailynews/2016/2016-06-24_SRC02_700.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.news.uct.ac.za/article/-2016-06-24-uct-residences-launch-knowyourneighbour-campaign",
+      "caption": "Студенты разговаривают у Sutter Hall"
+    }
+  ],
+  "data_year": 2027
 }

@@ -25,11 +25,22 @@
   ],
   "photos": [
     {
-      "file": "photos/charles-university/1.jpg",
-      "author": "Stanislav Dusík",
-      "license": "CC BY-SA 4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Praha,_Univerzita_Karlova_-_Karolinum.jpg",
-      "caption": "Каролинум — историческое главное здание Карлова университета"
+      "file": "https://mocca.blogg.lu.se/files/2023/07/993df3b4-035f-11ea-a958-5e9b7282cbd1.jpeg",
+      "license": "Image credited to the publisher/photographer on source page; no reuse rights claimed",
+      "source_url": "https://mocca.blogg.lu.se/secondment-experience-from-the-anti-corruption-business-council-under-the-president-of-the-kyrgyz-republic-to-charles-university-prague/",
+      "caption": "Исторический корпус Карлова университета в центре Праги"
+    },
+    {
+      "file": "https://www.matfyz.cz/cache/images/d0/data-nodes-11169-2024-10-24-matfyz-juniorska-univerzita-019-clip-w1104-h564-o50.jpg",
+      "license": "© Matfyz / Charles University; official faculty image, no reuse rights claimed",
+      "source_url": "https://www.matfyz.cz/clanky/na-matfyzu-odstartovala-juniorska-univerzita-karlova",
+      "caption": "Открытая лекция факультета математики и физики в аудитории"
+    },
+    {
+      "file": "https://ujop.cuni.cz/UJOP-217-version1-krystal_studenti_ubytovani_rv8_8044.jpg",
+      "license": "© Institute for Language and Preparatory Studies, Charles University; no reuse rights claimed",
+      "source_url": "https://ujop.cuni.cz/UJOPEN-120.html",
+      "caption": "Студенты в комнате университетского общежития Krystal"
     }
   ],
   "fields": [
@@ -45,7 +56,8 @@
     "linguistics",
     "media",
     "international_relations",
-    "sport"
+    "sport",
+    "architecture"
   ],
   "levels": [
     "bachelor",
@@ -224,6 +236,21 @@
       "url": "https://mzv.gov.cz/moscow/ru/vizy_i_konsulskaja/novosti/x2026_03_20.html",
       "accessed": "2026-11-23",
       "covers": "подтверждение действия постановления 55/2024 в 2026 году"
+    },
+    {
+      "url": "https://cuni.cz/UKEN-194.html",
+      "accessed": "2026-11-26",
+      "covers": "официальная информация об историческом центре Карлового университета Karolinum"
+    },
+    {
+      "url": "https://www.matfyz.cz/clanky/na-matfyzu-odstartovala-juniorska-univerzita-karlova",
+      "accessed": "2026-11-26",
+      "covers": "официальная фотография учебной лекции на факультете математики и физики"
+    },
+    {
+      "url": "https://ujop.cuni.cz/UJOPEN-120.html",
+      "accessed": "2026-11-26",
+      "covers": "официальные сведения и фотография общежития Krystal"
     }
   ],
   "verified_at": "2026-11-23",
@@ -234,11 +261,13 @@
     "Собрать стоимость конкретных англоязычных бакалавриатов (медицина, информатика) на 2027/28",
     "Найти чешские государственные стипендии, доступные гражданам России",
     "Требования к английскому (IELTS/TOEFL) для англоязычных бакалавриатов — у каждой программы свои",
-    "Проверить актуальный ценник общежитий для студентов полного цикла (данные из fact sheet для обмена)"
+    "Проверить актуальный ценник общежитий для студентов полного цикла (данные из fact sheet для обмена)",
+    "Подобрать и проверить галерею из 4–5 фотографий: фасад/кампус, учебные пространства, жильё (если есть), студенческая жизнь; использовать только релевантные изображения с атрибуцией."
   ],
   "prep": {
     "must": "Сначала реши вопрос с признанием аттестата: нужна общая нострификация или решение факультета об эквивалентности, на Философском факультете оно стоит 1050 CZK. Для программ на чешском подтверди чешский не ниже B2 (CCE или SCIO), а для программ на английском проверь требования к английскому на странице своей программы; заявку на 2027/28 подай в окне факультета (на Философском это октябрь–январь для англоязычных и ноябрь–февраль для чешских программ).",
     "good": "Подготовься к вступительному экзамену факультета или к тестам SCIO и заранее собери заверенную копию аттестата с приложением. Обязательно проверь, сможешь ли ты получить учебную визу: по данным посольства, граждан России принимают только в исключительных случаях, и учёба в списке не указана.",
     "source": "https://cuni.cz/UKEN-1593.html"
-  }
+  },
+  "about": "Карлов университет — государственный исследовательский университет с факультетами гуманитарных, социальных, естественных и медицинских наук. Кампусы расположены в Праге, Градец-Кралове и Пльзене. Поступление организуют факультеты: вступительные испытания, даты, язык преподавания и перечень документов различаются по программе. Обучение на чешском в государственных вузах обычно бесплатное, тогда как программы на иностранных языках могут быть платными. До подачи важно проверить признание школьного аттестата, экзамены, требования к языку, оплату конкретного курса и визовые правила для гражданства абитуриента."
 }

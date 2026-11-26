@@ -2,14 +2,16 @@
   "id": "ethzurich",
   "type": "university",
   "name": {
-    "ru": "ETH Zurich",
-    "en": "ETH Zurich"
+    "ru": "Швейцарская высшая техническая школа Цюриха",
+    "en": "ETH Zurich",
+    "local": "Eidgenössische Technische Hochschule Zürich",
+    "short": "ETH Zurich"
   },
   "country": "CH",
   "city": "Цюрих",
   "website": "https://ethz.ch/en.html",
   "admissions_url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html",
-  "about": "Швейцарский федеральный технологический вуз с сильными направлениями в инженерии, архитектуре, естественных науках и сельском хозяйстве.",
+  "about": "ETH ведёт обучение и исследования в области инженерии, архитектуры, компьютерных и естественных наук, математики и смежных областей. Кампус включает исторический центральный корпус и современный Hönggerberg. В отличие от многих университетов, ETH не предоставляет каждому студенту обычное общежитие на кампусе; студенты самостоятельно ищут жильё в городе. Для кандидатов с российским аттестатом условия 2026/27 требуют проверить дополнительную российскую университетскую квалификацию и вступительный экзамен; правила публикуют заново для каждого учебного года.",
   "areas": [
     "engineering",
     "construction",
@@ -25,48 +27,68 @@
     "engineering",
     "architecture",
     "natural_sciences",
-    "agriculture"
+    "it",
+    "agriculture",
+    "economics"
   ],
   "prep": {
-    "must": "Проверь требования именно для страны и типа школьного аттестата: ETH публикует ежегодно обновляемые правила. Для бакалавриата необходимо подтвердить немецкий язык к сроку подачи.",
-    "good": "Заранее сверь перечень предметов и необходимость вступительного экзамена, подготовь переводы аттестата и уточни визовые требования.",
+    "must": "Сверь ежегодные условия ETH именно для российского аттестата: правила 2026/27 включают дополнительное подтверждение российской вузовской квалификации и вступительный экзамен. Подготовь немецкий C1 к дедлайну и подай документы с 1 декабря по 31 марта.",
+    "good": "Сразу планируй жильё в Цюрихе и бюджет: для большинства иностранных школьных квалификаций tuition теперь CHF 2,190 за семестр, но проживание обходится заметно дороже. Для визы D начни готовить документы после получения admission.",
     "source": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html"
   },
   "sources": [
     {
       "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/how-to-apply.html",
-      "accessed": "2026-11-23",
-      "covers": "Сроки, документы, экзамен, немецкий"
+      "accessed": "2026-11-25",
+      "covers": "Сроки подачи и правила для владельцев иностранных документов"
     },
     {
-      "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate.html",
-      "accessed": "2026-11-23",
-      "covers": "Даты экзамена ETH, ссылки на разделы"
+      "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/language-requirements.html",
+      "accessed": "2026-11-25",
+      "covers": "Немецкий C1 и принимаемые сертификаты"
+    },
+    {
+      "url": "https://ethz.ch/content/dam/ethz/main/education/admission/bachelor/andere-qual/ETH-ZulassungsbedingungenHS2026_EN.pdf",
+      "accessed": "2026-11-25",
+      "covers": "Условия поступления для России на 2026/27 (ежегодный документ)"
+    },
+    {
+      "url": "https://ethz.ch/students/en/studies/financial/studiengebuehren.html",
+      "accessed": "2026-11-25",
+      "covers": "Повышенная tuition fee для иностранных студентов с осени 2025"
+    },
+    {
+      "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/accommodation.html",
+      "accessed": "2026-11-25",
+      "covers": "Жильё и стоимость комнаты в Цюрихе"
     },
     {
       "url": "https://ethz.ch/en/studies/financial.html",
-      "accessed": "2026-11-23",
-      "covers": "Плата 804 CHF за семестр, стипендии, расходы на жизнь"
+      "accessed": "2026-11-25",
+      "covers": "Социальная помощь студентам ETH"
+    },
+    {
+      "url": "https://www.schweiz-russland.eda.admin.ch/ru/nacionalnye-vizy",
+      "accessed": "2026-11-25",
+      "covers": "Национальная виза D для учёбы, подача в РФ"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/eth-zurich",
+      "accessed": "2026-11-25",
+      "covers": "THE ranking 2027"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Список стран для российского аттестата: нужен ли экзамен ETH или дополнительный год",
-    "Необходимый уровень немецкого (страница Language requirements)",
-    "Размер вступительного взноса",
-    "Подтвердить, к какому году относятся сроки подачи",
-    "Условия социальных и других стипендий для иностранцев",
-    "Общежитие (WOKO, wohnen.ethz.ch): цена и доступность",
-    "Русское название и фото со свободной лицензией",
-    "Проверить плату для иностранцев: ETH обсуждала и вводила повышенный тариф для иностранных студентов, а 804 CHF за семестр может быть общей ставкой"
+    "Опубликовать и перепроверить условия ETH для российских документов на 2027/28: приведённое описание экзамена относится к официальному документу 2026/27.",
+    "Уточнить фактическую ставку и дополнительные семестровые сборы после публикации ETH fee schedule на 2027/28.",
+    "Проверить визовый чек-лист в компетентном представительстве Швейцарии перед заявкой."
   ],
-  "summary": "Ведущий технический университет Швейцарии в Цюрихе, сильный в инженерии, информатике и естественных науках. Бакалавриат преподают главным образом по-немецки, поэтому его уровень нужно подтвердить до 31 марта. Часть абитуриентов с иностранным аттестатом сдаёт вступительный экзамен ETH. Плата за обучение низкая и одинаковая для всех.",
+  "summary": "ETH Zurich — государственный федеральный технический университет Швейцарии, основанный в 1855 году. Бакалаврское обучение в основном ведётся на немецком; многие магистерские программы — на английском. Для школьных документов из России действуют специальные ежегодно обновляемые условия: могут потребоваться подтверждение допуска в российский вуз по той же специальности и вступительный экзамен ETH. Перед подготовкой важно сверить требования для своей квалификации и года поступления.",
   "languages_of_instruction": [
-    "de"
+    "de",
+    "en"
   ],
   "levels": [
     "bachelor",
@@ -76,81 +98,205 @@
   "city_size": "mid",
   "cost": {
     "tuition_min": {
-      "amount": 1608,
+      "amount": 4380,
       "currency": "CHF",
       "period": "year",
-      "note": "Плата и семестровые взносы 804 CHF за семестр, отдельного тарифа для иностранцев на странице не указано. Расходы на жизнь и учёбу сайт оценивает в 20 000–26 000 CHF в год"
+      "note": "CHF 2,190 за семестр — повышенная ставка для большинства иностранных студентов с иностранной school-leaving certificate с осени 2025; дополнительно semester fees."
     },
     "tuition_max": {
-      "amount": 1608,
+      "amount": 4380,
       "currency": "CHF",
       "period": "year",
-      "note": "804 CHF за семестр, умножено на два семестра"
+      "note": "Та же базовая повышенная ставка; учебные сборы и возможные exemption зависят от статуса."
+    },
+    "living_month_estimate": {
+      "amount": 1800,
+      "currency": "CHF",
+      "period": "month",
+      "note": "Плановый месячный бюджет студента в Цюрихе по ETH: жильё, питание, транспорт и личные расходы; индивидуальный бюджет различается."
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Социальные стипендии ETH (по финансовой потребности)",
-        "coverage": "partial",
-        "for_foreigners": false,
-        "note": "На странице стипендий сказано, что они есть для бакалавриата и магистратуры, условия и суммы не приведены. Доступны ли они иностранцам, не проверено",
-        "url": "https://ethz.ch/en/studies/financial.html"
-      },
-      {
-        "name": "ESOP Excellence Scholarship",
-        "coverage": "partial",
-        "note": "Награда за отличные результаты. На странице не сказано, только ли для магистратуры",
+        "name": "ETH Social Scholarship",
+        "coverage": "stipend",
+        "for_foreigners": true,
+        "note": "ETH предоставляет социальную финансовую помощь Bachelor- и Master-студентам при выполнении критериев; это не гарантированная стипендия поступающему и не автоматическое покрытие tuition. ESOP относится к магистратуре, не к Bachelor.",
         "url": "https://ethz.ch/en/studies/financial.html"
       }
     ]
   },
   "requirements": {
-    "language_level": "Немецкий; требуемый уровень надо смотреть на странице Language requirements, мы её не читали",
     "intl_exams": [
       {
-        "exam": "OTHER",
-        "note": "Немецкий сертификат нужен, если он требуется для твоего аттестата; сдать и приложить до 31 марта"
+        "exam": "GOETHE",
+        "min_score": "C1",
+        "note": "Для бакалавриата сертификат немецкого уровня C1 должен быть предоставлен к 31 марта; ETH принимает только указанные в официальном списке сертификаты."
       }
     ],
+    "language_level": "Немецкий C1 для бакалаврского зачисления; значительная часть обучения на Bachelor идёт на немецком. Английский нужен в отдельных курсах/магистратуре.",
     "entrance_tests": true,
     "interview": false,
-    "portfolio": "no",
+    "portfolio": "some_programs",
     "motivation_letter": false,
     "recommendations": false,
+    "activities_matter": "low",
     "documents": [
-      "Цветное фото на паспорт",
-      "Копия паспорта",
-      "Резюме",
-      "Аттестат о среднем образовании",
-      "Школьные табели за последние три года",
-      "Справка о допуске в университет страны выдачи аттестата, если нужна",
-      "Немецкий сертификат, если нужен",
-      "Подписанное согласие (PDF с формы)",
-      "Официальный перевод, если документ не на немецком, английском, французском или итальянском",
-      "Оплата невозвращаемого сбора"
+      "Аттестат и предметные оценки, заверенные переводы",
+      "Сертификат немецкого C1 из списка ETH",
+      "Для России по условиям 2026/27 — подтверждение допуска/зачисления в признанный российский вуз на ту же специальность",
+      "Заявка на ETH и необходимые документы в установленные сроки",
+      "Вступительный экзамен ETH (сокращённый или полный — по индивидуальному решению)"
     ],
-    "notes": "Требования зависят от страны и типа аттестата, их ежегодно обновляет ETH. Что нужно именно для российского аттестата, на прочитанных страницах не сказано: ссылка на список стран в PDF. Некоторым абитуриентам нужен вступительный экзамен ETH. Мотивационные письма, портфолио и рекомендации загружать не нужно."
+    "notes": "Условия поступления с иностранным документом устанавливаются по стране и обновляются ежегодно. В опубликованных условиях на 2026/27 для РФ указаны школьный документ, подтверждение допуска на ту же предметную область в российском университете и reduced entrance examination; без соответствующих условий может потребоваться comprehensive entrance examination. Не переносить без проверки на 2027/28."
   },
   "deadlines": [
     {
-      "what": "Подача заявки (год на странице не указан)",
+      "what": "Заявка Bachelor с иностранным документом",
       "start": "12-01",
       "end": "03-31",
-      "intake": "Осенний"
-    },
-    {
-      "what": "Регистрация на вступительный экзамен ETH, если он требуется",
-      "start": "09-15",
-      "end": "10-15",
-      "intake": "Осенний"
-    },
-    {
-      "what": "Вступительный экзамен ETH",
-      "start": "2027-01-18",
-      "end": "2027-01-28",
-      "intake": "Осенний"
+      "intake": "Осенний семестр; для цикла 2027/28 уточнить календарь после публикации"
     }
-  ]
+  ],
+  "ownership": "public",
+  "founded": 1855,
+  "intl_students_url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate.html",
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "THE World University Rankings 2027: 12-е место в мире.",
+    "Бакалавриат в основном на немецком; подтверждение немецкого C1 требуется к сроку подачи.",
+    "Заявка владельцев иностранного школьного документа: с 1 декабря по 31 марта на осеннее начало.",
+    "Для большинства иностранных квалификаций плата с осени 2025 — CHF 2,190 за семестр; личный бюджет проживания в Цюрихе существенно выше tuition."
+  ],
+  "programs": [
+    {
+      "name": "Computer Science BSc",
+      "field": "it",
+      "level": "bachelor",
+      "language": "de",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 4380,
+        "currency": "CHF",
+        "period": "year",
+        "note": "Для большинства иностранных школьных квалификаций с осени 2025: CHF 2,190 за семестр; плюс обязательные семестровые сборы."
+      },
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes/engineering-sciences/computer-science.html"
+    },
+    {
+      "name": "Mechanical Engineering BSc",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "de",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 4380,
+        "currency": "CHF",
+        "period": "year",
+        "note": "CHF 2,190/семестр для большинства иностранных студентов с осени 2025; плюс семестровые сборы."
+      },
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes/engineering-sciences/mechanical-engineering.html"
+    },
+    {
+      "name": "Architecture BSc",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "de",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 4380,
+        "currency": "CHF",
+        "period": "year",
+        "note": "CHF 2,190/семестр для большинства иностранных студентов с осени 2025; плюс семестровые сборы."
+      },
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes/architecture-and-civil-engineering/architecture.html"
+    },
+    {
+      "name": "Environmental Sciences BSc",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "de",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 4380,
+        "currency": "CHF",
+        "period": "year",
+        "note": "CHF 2,190/семестр для большинства иностранных студентов с осени 2025; плюс семестровые сборы."
+      },
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes/natural-sciences-and-mathematics/environmental-sciences.html"
+    },
+    {
+      "name": "Mathematics BSc",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "de",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 4380,
+        "currency": "CHF",
+        "period": "year",
+        "note": "CHF 2,190/семестр для большинства иностранных студентов с осени 2025; плюс семестровые сборы."
+      },
+      "url": "https://ethz.ch/en/studies/bachelor/degree-programmes/natural-sciences-and-mathematics/mathematics.html"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 900,
+      "currency": "CHF",
+      "period": "month",
+      "note": "Ориентир ETH: CHF 800–1,000 в месяц за комнату в shared accommodation; общежитие/комната может стоить иначе."
+    },
+    "notes": "ETH обычно не предоставляет студентам стандартный кампусный dorm; жильё ищут самостоятельно через рынок и организации вроде WOKO. Количество мест ограничено, гарантии первокурсникам нет. На центральном кампусе и Hönggerberg есть учебные и общественные пространства, но ночлег не размещён непосредственно во всех корпусах."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Swiss national visa D for study",
+    "notes": "Для длительной учёбы гражданину РФ нужна национальная виза D и разрешение на проживание. Подача через компетентное представительство Швейцарии; решение по разрешению принимает кантон, поэтому процесс может занимать несколько недель. Подготовь admission confirmation, финансовые доказательства, жильё и документы по официальному чек-листу; подавайся заранее.",
+    "url": "https://www.schweiz-russland.eda.admin.ch/ru/nacionalnye-vizy"
+  },
+  "rankings": [
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "12"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "employment",
+    "exchange",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/ethzurich/2.jpg",
+      "author": "Alessandro Della Bella",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ETH-HK-Hauptgeb%C3%A4ude_Seite_R%C3%A4mistrasse.tif",
+      "caption": "Главное здание ETH на Rämistrasse"
+    },
+    {
+      "file": "photos/ethzurich/1.jpg",
+      "author": "Balise42",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ETH_H%C3%B6nggerberg_campus,_seen_from_H%C3%B6nggerbergstrasse.jpg",
+      "caption": "Кампус Hönggerberg ETH Zurich"
+    },
+    {
+      "file": "photos/ethzurich/3.jpg",
+      "author": "Alessandro Della Bella",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ETH-HK-Halle_im_Hauptgeb%C3%A4ude.tif",
+      "caption": "Исторический холл главного здания ETH"
+    }
+  ],
+  "data_year": 2027
 }

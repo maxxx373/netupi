@@ -9,7 +9,7 @@
   "city": "Лос-Анджелес, Калифорния",
   "website": "https://www.ucla.edu/",
   "admissions_url": "https://admission.ucla.edu/apply/international-applicants",
-  "about": "Публичный исследовательский университет в Лос-Анджелесе. Выбор включает науки о жизни, инженерию, ИТ, кино и медиа, психологию, экономику и другие области.",
+  "about": "University of California, Los Angeles (UCLA) — крупный государственный исследовательский университет в районе Westwood, Лос-Анджелес. Кампус устроен как отдельный университетский квартал: исторические здания Royce Hall и Powell Library соседствуют с лабораториями, спортивными объектами, студенческими резиденциями и зелёными дворами. Среди направлений бакалавриата — инженерия, науки о жизни, психология, экономика, искусство, кино и медиа.\n\nПервокурсники подают единую заявку University of California в установленное окно; на осень 2027 заявки подаются с 1 октября по 30 ноября 2026 года. UCLA не рассматривает SAT/ACT при решениях о зачислении. Иностранный школьный диплом оценивается как эквивалент завершённого среднего образования, а школьные предметы и академические результаты проверяются по правилам UC. Для абитуриентов, которым нужно подтвердить английский, университет публикует минимальные результаты; они зависят от типа теста и могут меняться. Бюджет обучения для иностранного студента включает tuition, nonresident supplemental tuition, страховку, жильё и питание; ориентир 2026/27 — около $79 тыс. за девять месяцев, а точная сумма зависит от проживания и сборов. UCLA предлагает гарантированное университетское жильё первокурсникам по условиям кампании. После зачисления для очного обучения потребуется F-1 и подтверждение финансирования.",
   "areas": [
     "medicine",
     "science",
@@ -29,7 +29,8 @@
     "economics",
     "design_art",
     "media",
-    "psychology"
+    "psychology",
+    "humanities"
   ],
   "prep": {
     "must": "Заявка University of California; школьные оценки и национальные экзамены/сертификаты; документы об образовании. Для многих иностранных абитуриентов требуется подтвердить английский.",
@@ -38,17 +39,226 @@
   },
   "sources": [
     {
+      "url": "https://admission.ucla.edu/apply/first-year",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
       "url": "https://admission.ucla.edu/apply/international-applicants",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admission.ucla.edu/sites/default/files/documents/UCLA-Counselor-Admission-FAQ-2026.pdf",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://housing.ucla.edu/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://internationalcenter.ucla.edu/visa-and-immigration/f-1-students",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://newsroom.ucla.edu/file?fid=65e733882cfac2500b0516c2",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://newsroom.ucla.edu/file?fid=5b5b84f72cfac2457a0d1f96",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://admission.ucla.edu/explore/research",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.library.ucla.edu/about/programs/writing-instruction-and-research-education-wi-re/",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.pcl.com/us/en/our-work/ucla-holly-ridge-and-gardenia-way-residence-halls",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Уточнить тест английского и требуемый балл по личной истории обучения; пересчитать общий бюджет для выбранного типа проживания."
+  ],
+  "summary": "Государственный исследовательский университет в Westwood, Лос-Анджелес. На большом кампусе есть библиотеки, лаборатории, резиденции и программы от инженерии и наук до кино, искусства и психологии.",
+  "data_year": 2027,
+  "founded": 1919,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Большой кампус в Westwood",
+    "Сильная библиотечная и исследовательская инфраструктура",
+    "SAT/ACT не используются при решении о зачислении"
+  ],
+  "intl_students_url": "https://admission.ucla.edu/apply/first-year",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.cs.ucla.edu/undergraduate/"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.mae.ucla.edu/undergraduate/"
+    },
+    {
+      "name": "Psychology",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.psych.ucla.edu/undergraduate/"
+    },
+    {
+      "name": "Film and Television",
+      "field": "media",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.tft.ucla.edu/programs/film-television-digital-media-ba/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 79000,
+      "currency": "USD",
+      "period": "year",
+      "note": "Бюджет посещения международного студента за девять месяцев по плану 2026/27; включает не только tuition, итог меняется из-за жилья, страховки и расходов."
+    },
+    "tuition_max": {
+      "amount": 85000,
+      "currency": "USD",
+      "period": "year",
+      "note": "Бюджет посещения международного студента за девять месяцев по плану 2026/27; включает не только tuition, итог меняется из-за жилья, страховки и расходов."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Need-based / entrance financial aid",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
+        "url": "https://housing.ucla.edu/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "7.5",
+        "note": "Альтернативы включают TOEFL и DET; UCLA публикует актуальные эквиваленты."
+      }
+    ],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "high",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "UC application; SAT/ACT не учитываются. Переводы и экзамены по английскому нужны по индивидуальному профилю."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1 student visa",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://internationalcenter.ucla.edu/visa-and-immigration/f-1-students"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "Первокурсникам доступны кампусные общежития; UCLA указывает жилищную гарантию для первокурсников при соблюдении срока принятия предложения и подачи housing application. Стоимость различается по плану комнаты и питания."
+  },
+  "deadlines": [
+    {
+      "what": "Подача UC Application на осень 2027",
+      "start": "2026-10-01",
+      "end": "2026-11-30",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://newsroom.ucla.edu/_gallery/get_file/?album_id=&file_id=65e733882cfac2500b0516c2",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://newsroom.ucla.edu/file?fid=65e733882cfac2500b0516c2",
+      "caption": "Royce Hall и студенты на кампусе"
+    },
+    {
+      "file": "https://newsroom.ucla.edu/_gallery/get_file/?album_id=&file_id=5b5b84f72cfac2457a0d1f96",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://newsroom.ucla.edu/file?fid=5b5b84f72cfac2457a0d1f96",
+      "caption": "Читальный зал Powell Library"
+    },
+    {
+      "file": "https://admission.ucla.edu/sites/default/files/slider-mid/02-johnson.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://admission.ucla.edu/explore/research",
+      "caption": "Учебная лаборатория и исследовательская работа"
+    },
+    {
+      "file": "https://static.library.ucla.edu/craftassetsprod/images/_fullscreen/UCLA_2019_08_01-325.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.library.ucla.edu/about/programs/writing-instruction-and-research-education-wi-re/",
+      "caption": "Студенты занимаются в библиотеке"
+    },
+    {
+      "file": "https://www.pcl.com/content/dam/project-profiles-2024/UCLA%20Holly%20Ridge%20and%20Gardenia%20Way%201.jpg",
+      "author": "PCL",
+      "license": "© PCL; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.pcl.com/us/en/our-work/ucla-holly-ridge-and-gardenia-way-residence-halls",
+      "caption": "Holly Ridge residence halls; фото подрядчика PCL"
+    }
   ]
 }

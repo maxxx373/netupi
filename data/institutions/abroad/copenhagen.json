@@ -9,7 +9,7 @@
   "city": "Копенгаген",
   "website": "https://www.ku.dk/english/",
   "admissions_url": "https://www.ku.dk/studies/admission/bachelor",
-  "about": "Классический исследовательский университет с сильными направлениями в медицине, естественных науках, праве, сельском хозяйстве и ветеринарии.",
+  "about": "University of Copenhagen (UCPH) — государственный исследовательский университет, основанный в 1479 году. Он распределён между несколькими зонами датской столицы: City Campus, North Campus, South Campus и Frederiksberg Campus; поэтому это сеть городских зданий, лабораторий, библиотек и учебных пространств, а не единый закрытый кампус. Сильные школы представлены в здравоохранении, естественных науках, праве, социальных и гуманитарных дисциплинах, ветеринарии и сельском хозяйстве.\n\nКлючевая особенность для абитуриента из России: все бакалаврские программы UCPH преподаются на датском. Для поступления с иностранным аттестатом кандидат идёт по quota 2, подаёт документы до 15 марта, а до 5 июля может предоставить недостающие подтверждения. Требуются признанное среднее образование, предметные уровни по выбранной программе и самый высокий уровень датского или подтверждение академической языковой подготовки. Для ряда стран одного аттестата может быть недостаточно — его оценивают отдельно, возможно, потребуется дополнительное высшее обучение. Иностранцы без статуса, освобождающего от платы, оплачивают tuition; сумма зависит от программы. Национальный портал Study in Denmark указывает общий ориентир для иностранных программ по Дании EUR 6,000–16,000 в год, но UCPH требует проверить точный тариф конкретной программы. Университет не предлагает стипендии иностранным студентам бакалавриата. Жильё университет сам не гарантирует; официально рекомендует Housing Foundation и ранний самостоятельный поиск. Для проживания в Дании потребуется study residence permit.",
   "areas": [
     "science",
     "medicine",
@@ -22,11 +22,14 @@
   ],
   "art": "classic",
   "fields": [
-    "natural_sciences",
     "medicine",
+    "natural_sciences",
     "law",
+    "agriculture",
     "economics",
-    "agriculture"
+    "humanities",
+    "social_sciences",
+    "psychology"
   ],
   "prep": {
     "must": "Для бакалавриата нужны оконченная средняя школа, требования конкретной программы и документы об образовании. Важно: все бакалаврские программы университета преподаются на датском, требуется академический уровень датского.",
@@ -35,17 +38,207 @@
   },
   "sources": [
     {
+      "url": "https://www.ku.dk/studies/admission/bachelor/non-eu-eea-and-non-nordic-countries",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
       "url": "https://www.ku.dk/studies/admission/bachelor",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.ku.dk/studies/student-life/housing",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.ku.dk/studies/admission/application-and-tuition-fees",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships/tuition-fees-and-scholarships",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study-higher-education",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://hum.ku.dk/presserum/",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://rootsofeurope.ku.dk/english/about-roots-of-europe/",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-egyptology",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://socialsciences.ku.dk/photogallery",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить актуальную цену выбранной программы и признание именно российского аттестата в годовой таблице датского агентства; национальный диапазон стоимости не равен тарифу UCPH."
+  ],
+  "summary": "Старейший университет Дании с городскими кампусами по всему Копенгагену. Все программы бакалавриата преподаются на датском — поступающему из России нужен высокий академический датский и прохождение quota 2.",
+  "data_year": 2027,
+  "founded": 1479,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "da"
+  ],
+  "highlights": [
+    "Бакалавриат ведётся на датском",
+    "Поступление non-EU идёт через quota 2",
+    "Несколько кампусов по районам Копенгагена"
+  ],
+  "intl_students_url": "https://www.ku.dk/studies/admission/bachelor/non-eu-eea-and-non-nordic-countries",
+  "programs": [
+    {
+      "name": "Bachelor of Science (Biology)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "датский",
+      "url": "https://www.ku.dk/studies/bachelor/biology"
+    },
+    {
+      "name": "Bachelor of Science (Data Science)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "датский",
+      "url": "https://www.ku.dk/studies/bachelor/data-science"
+    },
+    {
+      "name": "Bachelor of Science (Economics)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "датский",
+      "url": "https://www.ku.dk/studies/bachelor/economics"
+    },
+    {
+      "name": "Bachelor of Veterinary Medicine",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "датский",
+      "url": "https://www.ku.dk/studies/bachelor/veterinary-medicine"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 45000,
+      "currency": "DKK",
+      "period": "year",
+      "note": "Ориентир по национальному порталу Study in Denmark для tuition в Дании для non-EU; не является официальной ценой UCPH и зависит от программы. Точный счёт запросить у университета."
+    },
+    "tuition_max": {
+      "amount": 120000,
+      "currency": "DKK",
+      "period": "year",
+      "note": "Ориентир по национальному порталу Study in Denmark для tuition в Дании для non-EU; не является официальной ценой UCPH и зависит от программы. Точный счёт запросить у университета."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Датский на высшем академическом уровне / подтверждение Studieprøven или равнозначной квалификации; все bachelor-программы датскоязычные.",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Только quota 2 для российской/иной non-EU школьной квалификации, датский обязателен. Некоторые школьные документы требуют дополнения одним-двумя годами высшего образования."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Danish study residence permit",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study-higher-education"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университет не гарантирует место в резиденции. Housing Foundation Copenhagen помогает международным студентам искать жильё; официальная оценка аренды — примерно DKK 4,000–10,000 в месяц и выше, часто требуется депозит и предоплата."
+  },
+  "deadlines": [
+    {
+      "what": "Крайний срок подачи иностранного школьного диплома через quota 2",
+      "end": "2027-03-15",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Крайний срок выполнить/загрузить требования к поступлению",
+      "end": "2027-07-05",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://socialsciences.ku.dk/photogallery/spring/foraar-bygning-spejler-sig.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://socialsciences.ku.dk/photogallery",
+      "caption": "Архитектура кампуса, отражение корпуса в стеклянном здании"
+    },
+    {
+      "file": "https://socialsciences.ku.dk/photogallery/summer/sommer-hemmelig-have-laesning.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://socialsciences.ku.dk/photogallery",
+      "caption": "Студент читает в зелёном дворе кампуса"
+    },
+    {
+      "file": "https://hum.ku.dk/presse/billeder/S_ndre_Campus_humaniora_300dpi.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://hum.ku.dk/presserum/",
+      "caption": "Студенты занимаются в библиотеке факультета гуманитарных наук; фото KU"
+    },
+    {
+      "file": "https://rootsofeurope.ku.dk/om-forskningscentret-roots-of-europe/projektlokale.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://rootsofeurope.ku.dk/english/about-roots-of-europe/",
+      "caption": "Проектная комната исследовательского центра Roots of Europe"
+    },
+    {
+      "file": "https://www.ku.dk/fileadmin/_processed_/1/5/csm_aegyptologi_f33d8b2c81.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.ku.dk/studies/bachelor/middle-eastern-language-and-society-egyptology",
+      "caption": "Учебное пространство в здании университета"
+    }
   ]
 }

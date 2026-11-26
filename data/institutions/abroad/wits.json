@@ -9,47 +9,202 @@
   "city": "Йоханнесбург",
   "website": "https://www.wits.ac.za/",
   "admissions_url": "https://www.wits.ac.za/undergraduate/apply-to-wits/",
-  "about": "Исследовательский университет Йоханнесбурга с программами в инженерии, архитектуре, науках о жизни, медицине, праве и бизнесе.",
+  "about": "University of the Witwatersrand (Wits) — государственный исследовательский университет Йоханнесбурга, основанный в 1896 году. Основные кампусы Braamfontein и Parktown объединяют учебные корпуса, библиотеки, научные лаборатории, клинические площадки, музеи, спортивные объекты и несколько студенческих резиденций. Вуз известен инженерией и встроенной средой, медициной и health sciences, бизнесом, правом, гуманитарными и естественными науками. Основной язык обучения — английский.\n\nМеждународные кандидаты подают онлайн-заявку на выбранную степень. Для зарубежного школьного аттестата обычно нужно оформить certificate of exemption через Universities South Africa (USAf), а затем соответствовать предметным требованиям факультета и конкурсу. Wits просит предоставить переводы академических документов, а также подтверждение английского для кандидатов, которым оно необходимо. Для ряда программ, включая медицину и архитектуру, есть дополнительные этапы и ранние дедлайны; правила 2027 опубликованы отдельно.\n\nПлата для абитуриента вне SADC составляет двойную локальную tuition по программе; международный регистрационный сбор IRF применяется к отдельным категориям, в том числе для undergraduate SADC, а резиденция оплачивается отдельно. Университет требует внести 75% годовой суммы до регистрации. У Wits есть catered и self-catering резиденции, но место распределяется по заявке и наличию; международным новичкам необходимо учитывать крупный предварительный платёж за accommodation. Для учёбы гражданину России нужна южноафриканская study visa, выданная на обучение именно в Wits; университет советует готовить документы и финансовое подтверждение заранее.",
   "areas": [
-    "science",
     "engineering",
-    "construction",
     "architecture",
     "medicine",
-    "botany",
-    "agriculture",
     "law",
     "business",
-    "environment"
+    "science",
+    "humanities",
+    "social sciences"
   ],
-  "art": "modern",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
     "architecture",
     "medicine",
-    "agriculture",
     "law",
-    "business"
+    "business",
+    "humanities",
+    "social_sciences",
+    "it"
   ],
   "prep": {
-    "must": "Подай онлайн-заявку и приложи школьные документы. Для иностранной квалификации проверь требования к эквивалентности, английскому, APS и выбранной степени; минимальный балл не гарантирует место.",
-    "good": "Подготовь паспорт, заверенные оценки и документы о языке. Для ограниченных программ проверь ранний срок и дополнительные критерии отбора.",
+    "must": "Выбери degree и проверь country-specific requirements, школьные предметы/оценки, сроки, English и нужно ли оформить exemption certificate USAf.",
+    "good": "Сразу рассчитай полную стоимость (двойная tuition, жильё, medical aid) и начни оформление study visa после offer.",
     "source": "https://www.wits.ac.za/undergraduate/apply-to-wits/"
   },
   "sources": [
     {
       "url": "https://www.wits.ac.za/undergraduate/apply-to-wits/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "заявка и сроки международного поступления"
+    },
+    {
+      "url": "https://www.wits.ac.za/internationalstudents/",
+      "accessed": "2026-11-26",
+      "covers": "информация для международных студентов"
+    },
+    {
+      "url": "https://www.wits.ac.za/internationalstudents/financial-information/fee-structure/",
+      "accessed": "2026-11-26",
+      "covers": "двойная tuition, IRF и схема платежей"
+    },
+    {
+      "url": "https://www.wits.ac.za/internationalstudents/immigration-information/",
+      "accessed": "2026-11-26",
+      "covers": "study visa документы"
+    },
+    {
+      "url": "https://www.wits.ac.za/accommodation/applications/",
+      "accessed": "2026-11-26",
+      "covers": "подача на резиденцию и платежи"
+    },
+    {
+      "url": "https://www.wits.ac.za/accommodation/our-residences/",
+      "accessed": "2026-11-26",
+      "covers": "разновидности residence"
+    },
+    {
+      "url": "https://www.wits.ac.za/media/wits-university/study/international/documents/2026%20International%20Students%20Handbook.pdf",
+      "accessed": "2026-11-26",
+      "covers": "требования и тарифная модель международного приёма"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "До фактической подачи подставить цену выбранной программы из официального расчёта: для иностранца вне SADC это двойная локальная tuition, а не единый ZAR-тариф."
+  ],
+  "summary": "Публичный исследовательский университет Йоханнесбурга с городскими кампусами Braamfontein и Parktown. Сильные области — инженерия, здравоохранение, бизнес, право, науки и гуманитарные дисциплины.",
+  "intl_students_url": "https://www.wits.ac.za/internationalstudents/",
+  "founded": 1896,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Городские кампусы Braamfontein и Parktown",
+    "Иностранный аттестат требует проверки по правилам Wits и возможного exemption USAf",
+    "Для иностранных бакалавров вне SADC применяется двойная локальная tuition"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+    },
+    {
+      "name": "Bachelor of Engineering Science (Honours)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://www.wits.ac.za/undergraduate/academic-programmes/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Порог зависит от категории и программы; сверить в текущем международном руководстве Wits."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Вуз публикует перечень принимаемых подтверждений английского и возможные освобождения."
+      }
+    ],
+    "language_level": "Английский для преподавания и оценки; иностранный кандидат должен выполнить опубликованный Wits English requirement или освобождение.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и полная выписка оценок",
+      "Подтверждение предметов и академического уровня по стране",
+      "Certificate of Exemption USAf, если он требуется",
+      "Сертифицированные переводы на английский",
+      "Подтверждение английского и дополнительные материалы курса"
+    ],
+    "notes": "Допуск зависит от страны, школьной программы, факультета и доступных мест; минимальные требования не гарантируют admission. Для международных студентов нужны оригиналы/сертифицированные документы и действующая study visa Wits."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "South African study visa",
+    "notes": "Заявление подаётся в южноафриканское посольство/консульство. Wits требует offer letter, подтверждение arranged accommodation, средства и остальные документы по правилам Home Affairs; студент обязан поддерживать study visa, действующую на обучение в Wits.",
+    "url": "https://www.wits.ac.za/internationalstudents/immigration-information/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университет предлагает резиденции в Braamfontein, Parktown и других локациях, с catered и self-catering вариантами. Распределение проходит по заявке и политике резиденций; место не гарантируется всем. Accommodation оплачивается отдельно и включается в предварительный платёж до регистрации."
+  },
+  "photos": [
+    {
+      "file": "https://www.theheritageportal.co.za/sites/default/files/notices/Wits%20Great%20Hall%20-%20Heritage%20Portal%20-%202013.jpg",
+      "author": "The Heritage Portal",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.theheritageportal.co.za/files/wits-great-hall-heritage-portal-2013jpg",
+      "caption": "Great Hall и открытая часть кампуса"
+    },
+    {
+      "file": "https://storage.googleapis.com/joburg-co-za-media/wp-content/uploads/2021/07/Barnato-Hall-1200x500-1.jpg",
+      "author": "Joburg.co.za",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://joburg.co.za/study-at-wits-university/",
+      "caption": "Barnato Hall на West Campus"
+    },
+    {
+      "file": "https://www.wits.ac.za/media/wits-university/students/accommodation/images/East%20Campus%20-%20final%20resize.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.wits.ac.za/accommodation/our-residences/",
+      "caption": "Резиденция на East Campus"
+    },
+    {
+      "file": "https://www.wits.ac.za/media/wits-university/about-wits/images/International-House-photo-by-student-Lwazi-Mbokodo.jpg",
+      "author": "Lwazi Mbokodo / Wits",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.wits.ac.za/about-wits/facts-and-figures/",
+      "caption": "International House, резиденция Wits"
+    },
+    {
+      "file": "https://www.wits.ac.za/media/wits-university/students/accommodation/images/Wits%20Junction.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.wits.ac.za/accommodation/our-residences/",
+      "caption": "Wits Junction — студенческий жилой комплекс"
+    }
+  ],
+  "data_year": 2027
 }

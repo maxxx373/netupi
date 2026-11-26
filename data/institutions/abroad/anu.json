@@ -9,7 +9,7 @@
   "city": "Канберра",
   "website": "https://www.anu.edu.au/",
   "admissions_url": "https://study.anu.edu.au/apply/international-applications",
-  "about": "Национальный исследовательский университет Австралии с направлениями в науках, инженерии, сельском хозяйстве, экологии, праве и международных отношениях.",
+  "about": "Australian National University (ANU) — государственный исследовательский университет в Канберре, столице Австралии. Основной кампус Acton расположен рядом с озером Берли-Гриффин и объединяет учебные корпуса, лаборатории, библиотеки, зелёные зоны и жилые колледжи. Университет предлагает широкий выбор бакалаврских направлений: вычислительные и естественные науки, инженерия, право, экономика, международные отношения, искусство и общественные науки. В некоторых программах есть исследования и стажировки с государственными и научными организациями.\n\nИностранный выпускник подаёт онлайн-заявку, выбирает до трёх программ по приоритету и прикладывает академические документы, подтверждение английского и требуемые программой дополнительные материалы. Эквивалентность школьного аттестата и проходной академический уровень проверяются отдельно для квалификации и программы; минимум не гарантирует поступление. ANU требует подтвердить английский даже для местных студентов, с установленными освобождениями. На Semester 1 2027 основная заявка закрывается 15 декабря 2026; для Semester 2 — 15 мая 2027. Международная заявка стоит AUD 150. Стоимость зависит от курса: например, опубликованная оценка Bachelor of Science на 2027 год — AUD 57,640 за стандартную учебную нагрузку. Иностранцев, начинающих в Semester 1 первого года бакалавриата, ANU гарантирует предложением места в кампусном жилье при подаче заявки на проживание. Возможна автоматическая конкуренция за Chancellor’s International Scholarship на 25% или 50% tuition. Для обучения требуется Student visa subclass 500 и обязательная OSHC страховка.",
   "areas": [
     "science",
     "engineering",
@@ -25,10 +25,13 @@
   "fields": [
     "natural_sciences",
     "engineering",
+    "it",
     "law",
     "economics",
     "agriculture",
-    "international_relations"
+    "international_relations",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
     "must": "Подай онлайн-заявку и подтверди академические требования программы, английский и дополнительные условия курса. Путь подачи зависит от квалификации; отдельные программы имеют собственные критерии.",
@@ -38,16 +41,199 @@
   "sources": [
     {
       "url": "https://study.anu.edu.au/apply/international-applications",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.anu.edu.au/students/program-administration/fees-payments/fee-information-for-new-students",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://study.anu.edu.au/accommodation/find-your-fit",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://iceds.anu.edu.au/news-events/news/anu-co-investment-opportunity-hydrogen-projects",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить конкретный российский документ и требования к оценкам для выбранной программы в калькуляторе/каталоге ANU."
+  ],
+  "summary": "Исследовательский университет в Канберре с зелёным кампусом рядом с озером, лабораториями и жилыми колледжами. Программы охватывают науку, ИТ, инженерию, право, экономику и гуманитарные направления.",
+  "data_year": 2027,
+  "founded": 1946,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Международным первокурсникам Semester 1 гарантируют предложение кампусного жилья",
+    "Программы на стыке науки и госорганизаций в столице Австралии",
+    "Автоматическое рассмотрение на Chancellor’s International Scholarship"
+  ],
+  "intl_students_url": "https://study.anu.edu.au/apply/international-applications",
+  "programs": [
+    {
+      "name": "Bachelor of Advanced Computing (Honours)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://programsandcourses.anu.edu.au/2027/program/baadvcomp"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://programsandcourses.anu.edu.au/2027/program/benh"
+    },
+    {
+      "name": "Bachelor of Science",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://programsandcourses.anu.edu.au/2027/program/Bsc"
+    },
+    {
+      "name": "Bachelor of International Relations",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://programsandcourses.anu.edu.au/2027/program/bir"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 50000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентировочный годовой tuition по типичным международным программам ANU; точную сумму проверяй в каталоге курса. Для Bachelor of Science ANU указывает AUD 57,640 на 2027 год. Жильё и обязательная OSHC оплачиваются отдельно."
+    },
+    "tuition_max": {
+      "amount": 62000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентировочный годовой tuition по типичным международным программам ANU; точную сумму проверяй в каталоге курса. Для Bachelor of Science ANU указывает AUD 57,640 на 2027 год. Жильё и обязательная OSHC оплачиваются отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "ANU Chancellor’s International Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "В зависимости от award — 25% или 50% tuition на срок степени. Иностранные кандидаты автоматически рассматриваются; отдельные критерии и размер award проверять на 2027.",
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Английский для международной программы; проверяй порог и освобождения по программе.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Академическая эквивалентность и предметные prerequisites оцениваются по qualification и программе; подай онлайн и распредели до трёх предпочтений."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa subclass 500",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "ANU гарантирует предложение кампусного жилья международным первокурсникам бакалавриата, начинающим в Semester 1, если подана заявка на размещение по правилам. Есть колледжи, self-catered и catered резиденции; опубликованные стартовые цены начинаются примерно от AUD 380 в неделю."
+  },
+  "deadlines": [
+    {
+      "what": "Основная заявка на Semester 1",
+      "end": "2026-12-15",
+      "intake": "2027"
+    },
+    {
+      "what": "Основная заявка на Semester 2",
+      "end": "2027-05-15",
+      "intake": "2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Toad%20Hall%20-%20Banner_0.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
+      "caption": "Здание студенческой резиденции Toad Hall"
+    },
+    {
+      "file": "https://d3gu8jtw4r0om.cloudfront.net/sites/study.anu.edu.au/files/2023-08/Bruce%20Hall%20-%20Banner.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://iceds.anu.edu.au/news-events/news/anu-co-investment-opportunity-hydrogen-projects",
+      "caption": "Резиденция Bruce Hall Main Wing с внутренним двором"
+    },
+    {
+      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Davey%20Lodge%20-%20Banner.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
+      "caption": "Резиденция Davey Lodge"
+    },
+    {
+      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Wamburun%20Hall%20-%20Banner.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
+      "caption": "Общежитие Wamburun Hall"
+    },
+    {
+      "file": "https://study.anu.edu.au/files/styles/anu_double_narrow_16_9/public/2023-08/Wright%20Hall%20-%20Banner.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://study.anu.edu.au/accommodation/find-your-fit",
+      "caption": "Резиденция Wright Hall"
+    }
   ]
 }

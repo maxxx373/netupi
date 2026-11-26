@@ -9,7 +9,7 @@
   "city": "Депок",
   "website": "https://www.ui.ac.id/en/",
   "admissions_url": "https://admission.ui.ac.id/",
-  "about": "Крупный государственный университет Индонезии с программами в медицине, инженерии, сельском хозяйстве, естественных науках и социальных дисциплинах.",
+  "about": "UI объединяет факультеты медицины, инженерии, экономики и бизнеса, права, гуманитарных и социальных наук, естественных наук и других областей. Главный современный кампус находится в Депоке; часть подразделений и программ связана с центральной Джакартой. На территории есть центральная библиотека, учебные и исследовательские лаборатории, спортивные и студенческие пространства, медицинская поддержка и общежитие. Международный бакалаврский маршрут IUP/KKI может включать обучение в UI и партнёрском зарубежном университете; схема зависит от факультета и конкретной программы.",
   "areas": [
     "medicine",
     "engineering",
@@ -24,10 +24,14 @@
   "fields": [
     "medicine",
     "engineering",
-    "natural_sciences",
-    "law",
     "business",
-    "agriculture"
+    "law",
+    "economics",
+    "social_sciences",
+    "humanities",
+    "natural_sciences",
+    "architecture",
+    "it"
   ],
   "prep": {
     "must": "Иностранные абитуриенты подают заявку через International Admission. Проверь доступные программы и период приёма; подготовь паспорт, школьный аттестат и транскрипт, а для англоязычных программ — подтверждение английского.",
@@ -44,14 +48,236 @@
       "url": "https://admission.ui.ac.id/procedure",
       "accessed": "2026-11-23",
       "covers": "prep"
+    },
+    {
+      "url": "https://international.ui.ac.id/prospective-students/",
+      "accessed": "2026-11-26",
+      "covers": "направления, подача, общий профиль, расходы и инфраструктура"
+    },
+    {
+      "url": "https://international.ui.ac.id/wp-content/uploads/sites/14/2026/02/Undergraduate-International-Student-Booklet.pdf",
+      "accessed": "2026-11-26",
+      "covers": "документы, языковые сертификаты, порядок подачи, общежитие"
+    },
+    {
+      "url": "https://international.ui.ac.id/kki-ft/",
+      "accessed": "2026-11-26",
+      "covers": "2026 тариф инженерного факультета для иностранных студентов"
+    },
+    {
+      "url": "https://international.ui.ac.id/faqs-immigration/",
+      "accessed": "2026-11-26",
+      "covers": "обработка учебной визы, запрет одновременно использовать VOA"
+    },
+    {
+      "url": "https://international.ui.ac.id/student-visa-index-e30b/",
+      "accessed": "2026-11-26",
+      "covers": "тип визы E30B и документы"
+    },
+    {
+      "url": "https://www.detik.com/edu/edutainment/d-5569163/5-lokasi-yang-pernah-jadi-lokasi-syuting-film-di-ui",
+      "accessed": "2026-11-26",
+      "covers": "фото центральной библиотеки и территории кампуса UI"
+    },
+    {
+      "url": "https://feb.ui.ac.id/2019/05/02/belajar-ekonomi-industri-prodi-ilmu-ekonomi-feb-ui-datangkan-ahli-dari-samsung-indonesia/",
+      "accessed": "2026-11-26",
+      "covers": "фото занятия со студентами на факультете экономики и бизнеса"
+    },
+    {
+      "url": "https://feb.ui.ac.id/2025/12/01/",
+      "accessed": "2026-11-26",
+      "covers": "фото аудитории и гостевой лекции на факультете экономики и бизнеса"
+    },
+    {
+      "url": "https://www.detik.com/edu/perguruan-tinggi/d-7972644/pendaftaran-asrama-ui-dibuka-1-juli-2025-begini-fasilitas-dan-biayanya",
+      "accessed": "2026-11-26",
+      "covers": "фото корпуса общежития; дополнительно — опубликованные сведения о регистрации в общежитие и тарифах 2025"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Уточнить по выбранному факультету стоимость комнаты в общежитии и ближайшее открытое окно подачи; общий тариф UI не заменяет факультетскую таблицу."
+  ],
+  "summary": "Universitas Indonesia — крупный государственный университет с кампусами в Депоке и Джакарте и широким выбором программ. Для иностранных бакалавров доступен International Undergraduate Program (IUP/KKI): подача онлайн, нужны школьные документы, паспорт, медицинская справка и свежий сертификат английского; требования и плата различаются по факультетам.",
+  "highlights": [
+    "Два кампуса: Депок и Центральная Джакарта",
+    "12 факультетов участвуют в международном бакалаврском маршруте IUP/KKI",
+    "У отдельных программ есть совместный/двойной диплом с зарубежными партнёрами",
+    "Плата, экзамены и языковой минимум задаются конкретным факультетом"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "id"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Civil Engineering (IUP/KKI)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 60000000,
+        "currency": "IDR",
+        "period": "year",
+        "note": "2026: 30 млн IDR за семестр по факультету инженерии, без учёбы у зарубежного партнёра."
+      }
+    },
+    {
+      "name": "Computer Engineering (IUP/KKI)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 60000000,
+        "currency": "IDR",
+        "period": "year",
+        "note": "2026: ставка факультета инженерии для иностранцев; схема партнёрской части меняет расходы."
+      }
+    },
+    {
+      "name": "Management (IUP/KKI)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4
+    },
+    {
+      "name": "Medicine",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 33200000,
+      "currency": "IDR",
+      "period": "year",
+      "note": "Официальный ориентир UI для международных студентов: IDR 16,6–64,5 млн за семестр; тариф конкретного факультета может отличаться."
+    },
+    "tuition_max": {
+      "amount": 129000000,
+      "currency": "IDR",
+      "period": "year",
+      "note": "Верхняя граница опубликованного диапазона 2026; дополнительно возможен разовый admission fee."
+    },
+    "living_month_estimate": {
+      "amount": 678,
+      "currency": "USD",
+      "period": "month",
+      "note": "Университетский ориентир расходов, включая жильё, питание, транспорт и бытовые траты."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "UI international scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Набор и доступность зависят от уровня обучения и факультета; не считать автоматическим финансированием для бакалавриата.",
+        "url": "https://international.ui.ac.id/prospective-students/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "TOEFL",
+        "min_score": "ITP 500 / iBT 61",
+        "note": "Некоторые факультеты требуют выше."
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "5.5",
+        "note": "Минимум из общего руководства; факультет может поднять порог."
+      }
+    ],
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат",
+      "Транскрипт школьных оценок",
+      "Медицинская справка",
+      "Цветная фотография",
+      "Сертификат английского, если не применимо освобождение"
+    ],
+    "notes": "Сертификат английского должен быть выдан с марта 2024 года. Для факультетов применяются отдельные пороги, тесты и сроки. Иностранный аттестат/переводы подтверждаются по требованиям конкретной программы."
+  },
+  "deadlines": [
+    {
+      "what": "Подача через международный admission portal; окна публикуются на цикл и факультет",
+      "intake": "2026/27; check current faculty intake"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "E30B student visa / study stay permit",
+    "notes": "UI организует оформление студенческой визы и разрешения на пребывание после приёма; правила включают подтверждение финансов, страхование и требования к паспорту. Не въезжай по VOA без подтверждения от UI.",
+    "url": "https://international.ui.ac.id/student-visa-index-e30b/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "На кампусе есть общежитие UI; размещение по заявке и наличию мест. Цены и типы комнат публикуются в актуальном буклете/администрацией общежития."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2025,
+      "position": "206"
+    }
+  ],
+  "perks": [
+    "campus",
+    "exchange",
+    "intl_environment",
+    "strong_research",
+    "student_life",
+    "dual_degree"
+  ],
+  "data_year": 2026,
+  "photos": [
+    {
+      "file": "https://awsimages.detik.net.id/community/media/visual/2020/08/07/ilustrasi-kampus-ui-4_43.jpeg?w=1200",
+      "license": "Image © its publisher / Universitas Indonesia faculty; hotlinked with source attribution; reuse rights not claimed",
+      "source_url": "https://www.detik.com/edu/edutainment/d-5569163/5-lokasi-yang-pernah-jadi-lokasi-syuting-film-di-ui",
+      "caption": "Центральная библиотека — один из узнаваемых корпусов кампуса UI в Депоке"
+    },
+    {
+      "file": "https://feb.ui.ac.id/uploads/2019/05/IMG-20190502-WA0026.jpg",
+      "license": "Image © its publisher / Universitas Indonesia faculty; hotlinked with source attribution; reuse rights not claimed",
+      "source_url": "https://feb.ui.ac.id/2019/05/02/belajar-ekonomi-industri-prodi-ilmu-ekonomi-feb-ui-datangkan-ahli-dari-samsung-indonesia/",
+      "caption": "Открытая лекция со студентами в учебном центре факультета экономики и бизнеса"
+    },
+    {
+      "file": "https://feb.ui.ac.id/uploads/2025/12/IMG_0387.jpg",
+      "license": "Image © its publisher / Universitas Indonesia faculty; hotlinked with source attribution; reuse rights not claimed",
+      "source_url": "https://feb.ui.ac.id/2025/12/01/",
+      "caption": "Гостевая лекция в аудитории факультета экономики и бизнеса UI"
+    },
+    {
+      "file": "https://awsimages.detik.net.id/api/wm/2025/06/19/asrama-ui-1750322960065_169.jpeg?t=jpeg&v=1&w=1200&wid=54",
+      "license": "Image © its publisher / Universitas Indonesia faculty; hotlinked with source attribution; reuse rights not claimed",
+      "source_url": "https://www.detik.com/edu/perguruan-tinggi/d-7972644/pendaftaran-asrama-ui-dibuka-1-juli-2025-begini-fasilitas-dan-biayanya",
+      "caption": "Корпуса студенческого общежития Universitas Indonesia"
+    }
   ]
 }

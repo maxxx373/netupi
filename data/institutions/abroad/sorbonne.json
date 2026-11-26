@@ -9,7 +9,7 @@
   "city": "Париж",
   "website": "https://www.sorbonne-universite.fr/en",
   "admissions_url": "https://sciences.sorbonne-universite.fr/en/education/admissions",
-  "about": "Парижский университет с программами в естественных науках, медицине, инженерии, гуманитарных дисциплинах и исследованиях океана.",
+  "about": "Sorbonne Université — государственный исследовательский университет Парижа, образованный объединением естественно-научных, медицинских и гуманитарных подразделений. Его повседневная жизнь распределена между несколькими площадками: историческим кампусом Sorbonne в Латинском квартале, кампусами науки и медицины, библиотеками и лабораториями. Поэтому студентам важно заранее смотреть, где проходят занятия выбранной программы. Бакалаврские направления включают науки и инженерию, медицину, литературу, языки, историю и искусство.\n\nДля российского абитуриента процедура зависит от уровня и факультета. Подача на первый курс Licence может проходить по процедуре DAP; в России действует Études en France через Campus France, а календарь и маршрут надо согласовать по конкретной программе, не смешивая дедлайны факультетов. Для большинства программ на французском нужно подтвердить язык; факультеты указывают, например, B2 для части Licence и более высокий уровень для некоторых гуманитарных программ. Стоимость государственных дипломов регулируется французскими тарифами: для студентов вне ЕС может применяться дифференцированная плата, но возможны освобождения и исключения; точную сумму необходимо сверять по уровню, году и решению факультета. После принятия предложения студент оформляет долгосрочную студенческую визу через официальную процедуру France-Visas. Университетские общежития и CROUS доступны ограниченно, поэтому жильё в Париже лучше искать заранее.",
   "areas": [
     "science",
     "medicine",
@@ -26,7 +26,9 @@
     "medicine",
     "engineering",
     "linguistics",
-    "law"
+    "law",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
     "must": "Проверь условия на странице конкретной степени и порядок подачи с учётом страны проживания и гражданства. Большинство бакалаврских программ ведётся на французском; может потребоваться подтверждение языка.",
@@ -35,17 +37,204 @@
   },
   "sources": [
     {
-      "url": "https://sciences.sorbonne-universite.fr/en/education/admissions",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://sciences.sorbonne-universite.fr/international-1/venir-la-faculte/etudiantes-et-etudiants-internationaux/venir-titre-individuel-0",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://sciences.sorbonne-universite.fr/en/apply/licences/first-year-licence-l1",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://lettres.sorbonne-universite.fr/formation/inscription/etudiants-non-europeens",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.sorbonne-universite.fr/formation-et-vie-etudiante/candidater-et-sinscrire/modalites-dinscription-et-couts-des-etudes",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.russie.campusfrance.org/ru/zapis-v-vuzy-podacha-dokumentov",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://france-visas.gouv.fr/etudiants",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://sciences.sorbonne-universite.fr/international-1",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.sorbonne-universite.fr/bu/decouvrir-nos-bibliotheques/la-bibliotheque-de-biologie-chimie-physique-recherche",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://sante.sorbonne-universite.fr/profil/futur-etudiant-0",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://lettres.sorbonne-universite.fr/en/academics/international-applicants-outside-exchange-programmes",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://guideetudiant.sorbonne-universite.fr/etudes",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "До подачи письменно сверить: EEF против DAP для конкретной программы, языковой сертификат и применимую ставку tuition/освобождение."
+  ],
+  "summary": "Государственный исследовательский университет с факультетами науки, медицины и гуманитарных дисциплин в разных кампусах Парижа. Для поступающих из России нужно проверить процедуру Études en France или DAP по уровню и факультету.",
+  "data_year": 2027,
+  "founded": 2018,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "fr"
+  ],
+  "highlights": [
+    "Несколько парижских кампусов и факультетов",
+    "Французский обычно необходим для Licence",
+    "Для России маршрут часто проходит через Études en France"
+  ],
+  "intl_students_url": "https://sciences.sorbonne-universite.fr/international-1/venir-la-faculte/etudiantes-et-etudiants-internationaux/venir-titre-individuel-0",
+  "programs": [
+    {
+      "name": "Licence Sciences, technologies, santé",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "французский",
+      "duration_years": 3,
+      "url": "https://sciences.sorbonne-universite.fr/en/apply/licences/first-year-licence-l1"
+    },
+    {
+      "name": "Licence Lettres",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "французский",
+      "duration_years": 3,
+      "url": "https://lettres.sorbonne-universite.fr/formation"
+    },
+    {
+      "name": "Licence Informatique",
+      "field": "it",
+      "level": "bachelor",
+      "language": "французский",
+      "duration_years": 3,
+      "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 175,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Ориентир от обычного регистрационного сбора государственного диплома до дифференцированной платы вне ЕС; применимость освобождений и сумма зависят от уровня и года."
+    },
+    "tuition_max": {
+      "amount": 3800,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Ориентир от обычного регистрационного сбора государственного диплома до дифференцированной платы вне ЕС; применимость освобождений и сумма зависят от уровня и года."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Французский обычно B2 для Licence; некоторые факультеты могут требовать C1.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Порядок подачи, язык и стоимость уточняются по факультету и уровню; для России проверь EEF/DAP."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Long-stay student visa (VLS-TS)",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://france-visas.gouv.fr/etudiants"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Возможны университетские и CROUS резиденции, но места в Париже ограничены и не гарантируются. Часть студентов живёт в частном жилье; ориентируйтесь на отдельный бюджет и ранний поиск."
+  },
+  "deadlines": [
+    {
+      "what": "Études en France для России: проверяйте календарь текущей кампании; для входа в Licence через DAP возможен отдельный более ранний срок",
+      "start": "2026-10-01",
+      "end": "2027-01-30",
+      "intake": "2027/28"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://sciences.sorbonne-universite.fr/sites/default/files/styles/1860xauto/public/media/2020-12/Campus__venir_etudier_FSI.jpg?itok=ORLjXjGl",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://sciences.sorbonne-universite.fr/international-1",
+      "caption": "Кампус факультета наук и студенты"
+    },
+    {
+      "file": "https://lettres.sorbonne-universite.fr/sites/default/files/media/2022-10/CampusSorbonne_SU_VBourdon_0.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://lettres.sorbonne-universite.fr/en/academics/international-applicants-outside-exchange-programmes",
+      "caption": "Исторический двор Sorbonne"
+    },
+    {
+      "file": "https://www.sorbonne-universite.fr/sites/default/files/styles/2400xauto/public/media/2020-01/Etudiants_SU_VBourdon%20%2842%29.jpg?itok=HRuygmrJ",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.sorbonne-universite.fr/bu/decouvrir-nos-bibliotheques/la-bibliotheque-de-biologie-chimie-physique-recherche",
+      "caption": "Студенты в научной библиотеке"
+    },
+    {
+      "file": "https://sante.sorbonne-universite.fr/sites/default/files/styles/1536xauto/public/media/2020-01/formations-sciences.jpg?itok=OrZg02mg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://sante.sorbonne-universite.fr/profil/futur-etudiant-0",
+      "caption": "Учебное пространство научного факультета"
+    },
+    {
+      "file": "https://guideetudiant.sorbonne-universite.fr/sites/default/files/styles/930xauto/public/media/2022-07/55_GE_viedecampus_tempsfortrentr%C3%A9e.jpg?itok=2BLfP3tI",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://guideetudiant.sorbonne-universite.fr/etudes",
+      "caption": "Лекционная аудитория и университетская жизнь"
+    }
   ]
 }

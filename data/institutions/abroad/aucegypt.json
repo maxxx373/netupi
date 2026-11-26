@@ -9,7 +9,7 @@
   "city": "Новый Каир",
   "website": "https://www.aucegypt.edu/",
   "admissions_url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
-  "about": "Англоязычный исследовательский университет Каира с программами в инженерии, науках, бизнесе, архитектуре, гуманитарных и социальных областях.",
+  "about": "The American University in Cairo (AUC) — частный англоязычный университет с американской моделью liberal arts. Он основан в 1919 году; основной кампус площадью около 260 акров находится в New Cairo, а исторический Tahrir Square Campus используется для отдельных событий, учебных и культурных площадок. New Cairo сочетает песчаниковую архитектуру, зелёную площадь, библиотеку, лаборатории, творческие студии, спорткомплекс и резиденции. Вуз предлагает более 35 бакалаврских степеней по инженерии и наукам, бизнесу, архитектуре, гуманитарным и социальным направлениям.\n\nДля зачисления нужны онлайн-заявка, документы об окончании средней школы и результаты английского теста: AUC требует подтвердить академический английский и не освобождает только на основании гражданства или англоязычной школы. Обычно обязательны личное эссе и две рекомендации учителей/консультантов; страновые документы и академические пороги зависят от типа аттестата. На осень 2027 ранний срок — 1 февраля, обычный — 1 июня; весенний набор имеет отдельный календарь. Для иностранных студентов tuition составляет USD 735 за кредитный час; типичная нагрузка 12–15 кредитов в семестр даёт примерно USD 17,640–22,050 в год без сборов. Есть merit- и need-sensitive Excellence Scholarships; отдельные программы полной поддержки ограничены странами и критериями. На кампусе работает сеть резиденций и общих кухонь/учебных зон. После зачисления студент сначала оформляет въездную визу, затем выполняет процедуру получения египетского student residence permit.",
   "areas": [
     "science",
     "engineering",
@@ -22,12 +22,15 @@
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
     "engineering",
-    "architecture",
+    "natural_sciences",
     "business",
-    "law",
-    "media"
+    "architecture",
+    "humanities",
+    "social_sciences",
+    "media",
+    "it",
+    "economics"
   ],
   "prep": {
     "must": "Подай онлайн-заявку и загрузи документы об образовании по требованиям своего школьного сертификата. Для всех новых студентов требуется академический английский; нужны две рекомендации от учителей или консультантов.",
@@ -37,16 +40,217 @@
   "sources": [
     {
       "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/tuition-and-financial-assistance",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/student-life/residences",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/student-life/residences/rates",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/international-students/application-steps",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.aucegypt.edu/about",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Сверить требования к конкретному российскому аттестату с AUC до подачи: общий сайт направляет за страновым подтверждением в admissions office."
+  ],
+  "summary": "Англоязычный частный университет с американской моделью обучения. Большой кампус New Cairo включает библиотеку, лаборатории, студии, спортивный комплекс и общежития; также есть историческая площадка в центре Каира.",
+  "data_year": 2027,
+  "founded": 1919,
+  "city_size": "mega",
+  "ownership": "private",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Англоязычная американская модель обучения",
+    "Два кампуса: New Cairo и Tahrir Square",
+    "Общежития, спортивный комплекс и библиотеки на кампусе"
+  ],
+  "intl_students_url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
+  "programs": [
+    {
+      "name": "Computer Science and Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/computer-science-and-engineering"
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/architecture"
+    },
+    {
+      "name": "Business Administration",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/business-administration"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/mechanical-engineering"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 17640,
+      "currency": "USD",
+      "period": "year",
+      "note": "Оценка tuition при 12–15 кредитах в каждый из двух семестров по ставке USD 735 за кредитный час для международных студентов; без сборов, летних курсов, проживания и питания."
+    },
+    "tuition_max": {
+      "amount": 22050,
+      "currency": "USD",
+      "period": "year",
+      "note": "Оценка tuition при 12–15 кредитах в каждый из двух семестров по ставке USD 735 за кредитный час для международных студентов; без сборов, летних курсов, проживания и питания."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Excellence Scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Конкурсные merit awards с учётом финансовой потребности; комбинации грантов могут покрыть до 100% tuition. Критерии и дедлайн зависят от цикла.",
+        "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "AUC требует academic English test; минимум зависит от результата и выбранного английского placement."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Принимаются официальные TOEFL results и другие варианты по текущей таблице AUC."
+      },
+      {
+        "exam": "DET",
+        "note": "Duolingo принимается по текущей таблице AUC."
+      }
+    ],
+    "language_level": "Академический английский обязателен для всех новых undergraduate applicants; citizenship и English-medium school сами по себе не дают освобождения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Нужны онлайн-заявка, школьные оценки, personal statement, две рекомендации и подтверждение английского. Страновые аттестаты сверить в таблице AUC; закрытый файл тормозит решение."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Въездная виза + египетский student residence permit",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://www.aucegypt.edu/admissions/international-students/application-steps"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть университетские резиденции в New Cairo: одноместные, двухместные и premium-комнаты, отдельные студии и общие гостиные с кухонными зонами. На осень и весну 2026/27 ориентир за семестр — USD 1,000 за обычную double и USD 1,390 за single; место нужно запрашивать отдельно."
+  },
+  "deadlines": [
+    {
+      "what": "Ранний срок подачи на осень 2027",
+      "end": "2027-02-01",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Обычный срок подачи на осень 2027",
+      "end": "2027-06-01",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.aucegypt.edu/sites/default/files/styles/banner/public/2025-10/20241029_4211-copy-lowres_for_website.jpeg?itok=opWN4VNj",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.aucegypt.edu/about",
+      "caption": "Песчаниковая арка и центральная площадь кампуса"
+    },
+    {
+      "file": "https://www.aucegypt.edu/sites/default/files/styles/large_widget/public/2023-10/20230903-_dsc0972.jpg?itok=WU8Pm-Kc",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Здания кампуса и прогулочная зона"
+    },
+    {
+      "file": "https://www.aucegypt.edu/sites/default/files/styles/large_widget/public/2026-04/4-dsc_6425_0.jpg?itok=x4v-Lp8W",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Студенты в учебной аудитории и проектной работе"
+    },
+    {
+      "file": "https://www.aucegypt.edu/sites/default/files/styles/large_widget/public/2026-06/231014_7491_copy-lowres_for_website_1.jpg?itok=gNm3C2Am",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Студенты в комнате резиденции"
+    },
+    {
+      "file": "https://www.aucegypt.edu/sites/default/files/styles/large_widget/public/2023-03/20230307-_dsc4802.jpg?itok=c6dzh5FQ",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Студенты на площади AUC New Cairo"
+    }
   ]
 }

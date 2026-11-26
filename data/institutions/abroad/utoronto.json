@@ -2,14 +2,16 @@
   "id": "utoronto",
   "type": "university",
   "name": {
-    "ru": "University of Toronto",
-    "en": "University of Toronto"
+    "ru": "Торонтский университет",
+    "en": "University of Toronto",
+    "local": "University of Toronto",
+    "short": "U of T"
   },
   "country": "CA",
   "city": "Торонто, Онтарио",
   "website": "https://www.utoronto.ca/",
   "admissions_url": "https://future.utoronto.ca/apply/requirements/international-high-school/",
-  "about": "Крупный исследовательский университет с кампусами в Торонто и широким выбором программ. Подходящие предметы и условия зависят от выбранного подразделения и образовательной системы.",
+  "about": "Основан в 1827 году; университет включает три кампуса с разными программами, атмосферой и вариантами жилья. В St. George городская среда сочетается с историческими корпусами, библиотеками и студенческими резиденциями. На бакалавриате студенты часто начинают в подразделении (например, Faculty of Arts & Science) и позднее выбирают специализацию; некоторые направления, включая Engineering, имеют прямой конкурс и отдельные дополнительные формы. Международная плата зависит от программы и кампуса.",
   "areas": [
     "science",
     "engineering",
@@ -26,53 +28,80 @@
     "natural_sciences",
     "engineering",
     "it",
-    "medicine",
     "business",
     "economics",
     "law",
     "media",
-    "linguistics"
+    "linguistics",
+    "humanities",
+    "social_sciences",
+    "medicine",
+    "architecture"
   ],
   "prep": {
-    "must": "Подай заявку через соответствующую систему (часто OUAC для бакалавриата в Онтарио); подготовь школьные результаты, сведения о текущих курсах и предметные prerequisites выбранной программы.",
-    "good": "Если обучение проходило не на английском языке, проверь требование по английскому. Некоторые программы запрашивают supplemental application; смотри checklist в applicant portal.",
-    "source": "https://future.utoronto.ca/english-language-requirements"
+    "must": "Выбери кампус и программу, подай OUAC к сроку, а затем загрузи аттестат/оценки и supplemental application, если она нужна. Проверь требования именно к российскому аттестату, предметам и английскому для своего направления.",
+    "good": "Подай residence application и прими offer вовремя, если хочешь воспользоваться гарантией жилья; рассчитай международную плату, жильё и подтверждение средств для study permit. Pearson Scholarship для набора 2027 уже закрыта.",
+    "source": "https://future.utoronto.ca/deadlines"
   },
   "sources": [
     {
-      "url": "https://future.utoronto.ca/apply/requirements/international-high-school/",
-      "accessed": "2026-11-23",
-      "covers": "Требования для иностранных выпускников школ, SAT/ACT"
-    },
-    {
-      "url": "https://future.utoronto.ca/english-language-requirements",
-      "accessed": "2026-11-23",
-      "covers": "Минимальные баллы по английскому"
-    },
-    {
-      "url": "https://future.utoronto.ca/finances/fees/",
-      "accessed": "2026-11-23",
-      "covers": "Помощь иностранцам: университет её не предлагает; суммы не указаны"
-    },
-    {
       "url": "https://future.utoronto.ca/deadlines",
-      "accessed": "2026-11-23",
-      "covers": "Сроки подачи на осень 2027"
+      "accessed": "2026-11-25",
+      "covers": "Дедлайны OUAC, supporting documents и программы"
+    },
+    {
+      "url": "https://future.utoronto.ca/international-high-school-requirements-country?page=5",
+      "accessed": "2026-11-25",
+      "covers": "Требования к российскому аттестату"
+    },
+    {
+      "url": "https://www.iep.utoronto.ca/wp-content/uploads/2027-28-International-UAB.pdf",
+      "accessed": "2026-11-25",
+      "covers": "Международный bulletin: требования, английский, tuition 2026/27, residence guarantee"
+    },
+    {
+      "url": "https://future.utoronto.ca/housing",
+      "accessed": "2026-11-25",
+      "covers": "Резиденции, стоимость проживания и питание"
+    },
+    {
+      "url": "https://future.utoronto.ca/pearson-scholarships",
+      "accessed": "2026-11-25",
+      "covers": "Lester B. Pearson Scholarship: покрытие и сроки"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+      "accessed": "2026-11-25",
+      "covers": "Требование IRCC к средствам на проживание"
+    },
+    {
+      "url": "https://future.utoronto.ca/program/rotman-commerce/",
+      "accessed": "2026-11-25",
+      "covers": "Программа Rotman Commerce"
+    },
+    {
+      "url": "https://discover.engineering.utoronto.ca/how-to-apply/admission-requirements/",
+      "accessed": "2026-11-25",
+      "covers": "Требования Engineering"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/university-toronto",
+      "accessed": "2026-11-25",
+      "covers": "QS ranking"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-toronto",
+      "accessed": "2026-11-25",
+      "covers": "THE ranking"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Стоимость обучения для иностранцев в CAD (страницы с тарифами найти не удалось)",
-    "Требования к российскому аттестату (раздел High School Requirements by Country)",
-    "Стоимость и условия общежития",
-    "Стипендии для иностранцев (например, Lester B. Pearson): страницу найти не удалось",
-    "Русское название и фото со свободной лицензией"
+    "Стоимость обучения указана по опубликованной таблице 2026/27 как плановый ориентир; обновить, когда U of T опубликует тарифы 2027/28.",
+    "Проверить конкретные дополнительные требования выбранной программы и кампуса."
   ],
-  "summary": "Крупнейший университет Канады с тремя кампусами: Сент-Джордж, Миссиссога и Скарборо. Иностранные выпускники школ поступают по оценкам и обязательным предметам программы, для ряда факультетов нужны дополнительные анкеты. SAT и ACT необязательны. Университет заявляет, что финансовой помощи иностранным студентам предложить не может.",
+  "summary": "University of Toronto — крупный государственный исследовательский университет с тремя кампусами: St. George в центре Торонто, UTM в Миссиссоге и UTSC в Скарборо. Выбор специальности и требования к аттестату различаются по кампусу и программе; российский документ — аттестат о среднем общем образовании, а инженерные направления имеют отдельные предметные prerequisites. Бакалавриат для иностранных абитуриентов подаётся через OUAC, после чего университет запрашивает дополнительные документы.",
   "languages_of_instruction": [
     "en"
   ],
@@ -83,63 +112,236 @@
   ],
   "city_size": "mega",
   "funding": {
-    "free_tuition": false
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Lester B. Pearson International Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Полное покрытие обучения, книг, incidental fees и проживания для ограниченного числа (около 37) выдающихся иностранных школьников; нужна номинация школы. Для поступления осенью 2027 дедлайны номинации/заявки/кандидатуры в октябре–ноябре 2026 прошли.",
+        "url": "https://future.utoronto.ca/pearson-scholarships"
+      }
+    ]
   },
   "requirements": {
     "intl_exams": [
       {
         "exam": "IELTS",
         "min_score": "6.5",
-        "note": "Academic, общий 6.5 и не менее 6.0 по каждой части, за одну сдачу. IELTS Indicator не принимается"
+        "note": "Общий минимум обычно 6.5, ни одна часть ниже 6.0; отдельные программы могут требовать больше."
       },
       {
         "exam": "TOEFL",
         "min_score": "89",
-        "note": "Для тестов до 21 января 2026: 89 в сумме, по 22 за Speaking и Writing. Для более поздних тестов на странице указана другая шкала, с опечаткой, нужно уточнить"
+        "note": "Для стандартного TOEFL iBT минимум 89 и не ниже 22 в speaking и writing; сверяй текущие правила."
       },
       {
         "exam": "DET",
         "min_score": "120",
-        "note": "120 в целом и 120 за Production"
-      },
-      {
-        "exam": "SAT",
-        "note": "Необязателен. Абитуриенты на инженерные программы должны указать все результаты тестов"
-      },
-      {
-        "exam": "ACT",
-        "note": "Необязателен, как и SAT"
+        "note": "Минимальный общий балл 120; может применяться дополнительный порог Production."
       }
     ],
-    "motivation_letter": false,
+    "language_level": "Подтверждение английского требуется, если абитуриент не подпадает под освобождение по правилам U of T.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
     "documents": [
-      "Онлайн-заявка",
-      "Документы по списку в кабинете абитуриента (Join U of T или Engineering Applicant Portal)",
-      "Школьные оценки и сведения о текущих курсах",
-      "Результаты языкового теста, если не освобождён"
+      "Аттестат и оценки старших классов; для России — Attestat o Srednem (Polnom) Obshchem Obrazovanii",
+      "Перевод документов на английский, если требуется",
+      "Подтверждение английского или основание для освобождения",
+      "Supplemental Application/Profile для программ, которые его требуют",
+      "Для Engineering — обязательные предметы и отдельные формы/профиль по сроку"
     ],
-    "notes": "Обязательны курс английского на уровне 12-го класса и остальные предметы программы на том же уровне. Для большинства математических, естественнонаучных и коммерческих программ нужно исчисление. Оффер условный, он зависит от итоговых оценок. Как принимают российский аттестат, на прочитанной странице не сказано: страна есть в разделе High School Requirements by Country. Дополнительные анкеты нужны на инженерию, музыку, архитектуру, Rotman Commerce, информатику, кинезиологию и часть программ Скарборо."
+    "notes": "Российский школьный документ указан в страновом справочнике университета. Нужны сильные оценки по предметам программы; для инженерии и некоторых конкурентных программ действуют дополнительные формы и предметные требования. Оценки/конкурсные минимумы зависят от программы и цикла; не трактуй прошлогодний минимум как гарантию поступления."
   },
   "deadlines": [
     {
-      "what": "Рекомендуемая ранняя подача",
-      "end": "2026-11-07",
-      "intake": "Осенний 2027"
-    },
-    {
-      "what": "Основной срок подачи (большинство факультетов)",
+      "what": "Подать OUAC application на большинство программ",
       "end": "2027-01-15",
-      "intake": "Осенний 2027"
+      "intake": "Осень 2027"
     },
     {
-      "what": "Документы: инженерия и музыка",
-      "end": "2027-01-15",
-      "intake": "Осенний 2027"
-    },
-    {
-      "what": "Документы: остальные факультеты; анкеты Rotman Commerce, информатики, архитектуры",
+      "what": "Большинство supporting documents",
       "end": "2027-02-01",
-      "intake": "Осенний 2027"
+      "intake": "Осень 2027; отдельные программы раньше"
+    },
+    {
+      "what": "Резиденция — подать заявку для гарантии первокурсника",
+      "end": "2027-06-01",
+      "intake": "Осень 2027; проверить offer acceptance и deposit conditions"
+    },
+    {
+      "what": "Pearson Scholarship — nomination / OUAC / candidate deadlines",
+      "end": "2026-11-06",
+      "intake": "Осень 2027; цикл закрыт"
     }
-  ]
+  ],
+  "ownership": "public",
+  "founded": 1827,
+  "intl_students_url": "https://future.utoronto.ca/international-high-school-requirements-country?page=5",
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Три кампуса и широкий выбор программ от Arts & Science до инженерии и менеджмента.",
+    "Для России опубликованы отдельные требования к школьным документам.",
+    "Поступившим впервые на очное обучение первокурсникам предусмотрена гарантия резиденции при выполнении условий и сроков.",
+    "Стипендия Lester B. Pearson покрывает обучение и резиденцию для небольшой группы выдающихся международных абитуриентов; цикл 2027 уже закрыт."
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (Arts & Science, St. George)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 59901,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Ориентир 2026/27, международный тариф Arts & Science; не является фиксированной стоимостью на 2027/28."
+      },
+      "url": "https://www.artsci.utoronto.ca/future/ready-apply/admission-categories/computer-science"
+    },
+    {
+      "name": "Engineering Science / Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 70749,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Ориентир 2026/27, международный тариф Applied Science & Engineering; сумма зависит от программы и года."
+      },
+      "url": "https://discover.engineering.utoronto.ca/how-to-apply/admission-requirements/"
+    },
+    {
+      "name": "Rotman Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 59901,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Ориентир 2026/27 по международному тарифу Arts & Science; дополнительная плата/изменение тарифа возможны."
+      },
+      "url": "https://future.utoronto.ca/program/rotman-commerce/"
+    },
+    {
+      "name": "Architecture, Landscape, and Design",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 61504,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Ориентир международной платы 2026/27 для Architecture, Landscape & Design."
+      },
+      "url": "https://www.daniels.utoronto.ca/admissions/undergraduate"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 49750,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентир 2026/27: минимальная категория из международного bulletin; программа/кампус могут отличаться."
+    },
+    "tuition_max": {
+      "amount": 70749,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентир 2026/27: Applied Science & Engineering; 2027/28 ставки будут опубликованы позднее."
+    },
+    "living_month_estimate": {
+      "amount": 1800,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Плановый бюджет для Торонто; фактические расходы зависят от жилья и питания. Для визы IRCC отдельно требует CAD 23,448 на год проживания (с 1 сентября 2026), сверх tuition и поездки."
+    }
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 1650,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Ориентировочный диапазон проживания U of T по резиденции и meal plan; опубликованные годовые суммы 2026/27 примерно CAD 13,645–29,700, разделить на 8–12 месяцев по договору."
+    },
+    "notes": "Гарантия относится к eligible first-time, full-time undergraduate students, подавшим residence application и принявшим offer/deposit к опубликованным срокам; уточняй различия кампусов. Цены зависят от здания, комнаты, срока и meal plan. У Annesley Hall фото показывает внешний вид одной резиденции."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Study permit + Temporary Resident Visa (TRV)",
+    "notes": "Для очного обучения обычно нужен study permit. Для въезда гражданину РФ также требуется действительный документ для въезда в Канаду (обычно TRV, если нет исключения). IRCC с 1 сентября 2026 указывает CAD 23,448 на год проживания для одного заявителя вне Квебека, сверх tuition и транспортных расходов. Получи Letter of Acceptance, проверь актуальный перечень документов и подайся заблаговременно.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "29"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "21"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "employment",
+    "exchange",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/utoronto/2.jpg",
+      "author": "Jeff Hitchcock",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Robarts_Library_2015.jpg",
+      "caption": "Библиотека Robarts — узнаваемое здание кампуса"
+    },
+    {
+      "file": "photos/utoronto/1.jpg",
+      "author": "Maksim Sokolov (Maxergon)",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_view_from_the_Back_Campus_of_the_University_of_Toronto.jpg",
+      "caption": "Back Campus и открытое пространство St. George Campus"
+    },
+    {
+      "file": "photos/utoronto/3.jpg",
+      "author": "Ken Eckert",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:E.J._Pratt_Library,_Victoria_University,_University_of_Toronto,_Canada.jpg",
+      "caption": "Интерьер E. J. Pratt Library с рабочими местами"
+    },
+    {
+      "file": "photos/utoronto/5.jpg",
+      "author": "Loozrboy",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:John_Andrews_Building_Scarborough_2010_(1).jpg",
+      "caption": "Световой фонарь и интерьер John Andrews Building, кампус Scarborough"
+    },
+    {
+      "file": "photos/utoronto/4.jpg",
+      "author": "B Sutherland",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:AnnesleyHallToronto.jpg",
+      "caption": "Annesley Hall — историческая студенческая резиденция"
+    }
+  ],
+  "data_year": 2027
 }

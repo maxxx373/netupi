@@ -9,7 +9,7 @@
   "city": "Монреаль, Квебек",
   "website": "https://www.mcgill.ca/",
   "admissions_url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements",
-  "about": "Англо- и франкоязычный исследовательский университет в Монреале. Включает программы по наукам, медицине, инженерии, праву, экономике и гуманитарным дисциплинам.",
+  "about": "McGill University — государственный англоязычный исследовательский университет в центре Монреаля. Кампус у подножия Mount Royal включает исторические корпуса, современные лаборатории, библиотеки и студенческие резиденции; отдельный кампус Macdonald находится в Сент-Анн-де-Бельвю. Бакалавриат охватывает науки, инженерное дело, менеджмент, сельское хозяйство, гуманитарные и социальные дисциплины.\n\nДля поступления после российской школы McGill требует признанный академический довузовский аттестат, ведущий к университетскому образованию; профессионально-технические программы обычно не подходят. Приём конкурентный: минимальные и средние проходные показатели, prerequisites и документы различаются по факультетам. Стандартный срок подачи для международной категории — 15 января, подтверждающие документы обычно до 1 марта; для некоторых программ и стипендий сроки другие. Английский подтверждается согласно правилам университета. Международные тарифы зависят от программы и статуса; к tuition добавляются обязательные сборы, жильё и питание. Есть вступительные и нуждаемостные формы поддержки, однако доступность и критерии отличаются. Российскому студенту потребуется разрешение на учёбу в Канаде и обычно CAQ для обучения в Квебеке, кроме отдельных исключений; начинать иммиграционные шаги следует заранее.",
   "areas": [
     "science",
     "medicine",
@@ -27,7 +27,10 @@
     "it",
     "law",
     "economics",
-    "linguistics"
+    "linguistics",
+    "business",
+    "agriculture",
+    "humanities"
   ],
   "prep": {
     "must": "Заявка McGill и академические документы; школьные prerequisites и конкурентные оценки для конкретного факультета; подтверждение английского, если применимо.",
@@ -36,22 +39,221 @@
   },
   "sources": [
     {
-      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
     },
     {
       "url": "https://www.mcgill.ca/undergraduate-admissions/apply/english-proficiency",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/deadlines",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.mcgill.ca/undergraduate-admissions/tuition-fees",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.mcgill.ca/students/housing/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.mcgill.ca/internationalstudents/immigration",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/faculty-arts",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/mcgill-libraries",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.mcgill.ca/accommodations/media-gallery/detail/1261/241",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.mcgill.ca/newsroom/media-gallery/detail/149441/225658",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.mcgill.ca/accommodations/media-gallery/detail/1267/186",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Подтвердить по выбранному факультету эквивалентность российского аттестата, конкурентный средний балл и точную сумму тарифа."
+  ],
+  "summary": "Исследовательский университет в Монреале с англоязычным бакалавриатом, двумя кампусами и широким выбором науки, инженерии, менеджмента и гуманитарных областей. Российская квалификация должна быть академическим аттестатом, дающим право поступать в вуз.",
+  "data_year": 2027,
+  "founded": 1821,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Исторический кампус у Mount Royal",
+    "Англоязычное обучение в Монреале",
+    "Требуется признанная академическая школьная квалификация"
+  ],
+  "intl_students_url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/mechanical-engineering"
+    },
+    {
+      "name": "Arts",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.mcgill.ca/undergraduate-admissions/program/arts"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 30000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Диапазон ориентировочной годовой платы international undergraduate; McGill рассчитывает сумму по программе и резидентскому статусу, плюс обязательные сборы."
+    },
+    "tuition_max": {
+      "amount": 65000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Диапазон ориентировочной годовой платы international undergraduate; McGill рассчитывает сумму по программе и резидентскому статусу, плюс обязательные сборы."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Need-based / entrance financial aid",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
+        "url": "https://www.mcgill.ca/students/housing/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Точные минимумы и освобождения зависят от теста и учебной истории."
+      }
+    ],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Требуется признанный академический довузовский диплом, ведущий к поступлению в вуз; vocational track обычно не подходит."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Study permit + CAQ (Québec)",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://www.mcgill.ca/internationalstudents/immigration"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть несколько резиденций в центре Монреаля и Macdonald campus. Наличие места зависит от срока и условий гарантии; тарифы различаются по корпусу, типу комнаты и питанию."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка для большинства международных программ бакалавриата",
+      "end": "2027-01-15",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Подтверждающие документы для большинства международных программ",
+      "end": "2027-03-01",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://giving.mcgill.ca/sites/default/files/styles/hero_background_image_half/public/2025-02/morris-hall-islamic-studies-library-octagon-room-525x560-sec2.jpg?h=fc252f49&itok=mFPyEcCU",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/mcgill-libraries",
+      "caption": "Читальный зал библиотеки в Morris Hall"
+    },
+    {
+      "file": "https://www.mcgill.ca/newsroom/files/newsroom/styles/media_gallery_large/public/lab_students.jpg?itok=Sq-_hmiy",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.mcgill.ca/newsroom/media-gallery/detail/149441/225658",
+      "caption": "Студенты работают в лаборатории"
+    },
+    {
+      "file": "https://www.mcgill.ca/accommodations/files/accommodations/styles/media_gallery_large/public/single2_upper_residences.jpg?itok=n87nM8zo",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.mcgill.ca/accommodations/media-gallery/detail/1261/241",
+      "caption": "Комната в резиденции Upper Residences"
+    },
+    {
+      "file": "https://www.mcgill.ca/accommodations/files/accommodations/styles/media_gallery_large/public/rvc_west_double.jpg?itok=pfFRz80s",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.mcgill.ca/accommodations/media-gallery/detail/1267/186",
+      "caption": "Двухместная комната резиденции"
+    },
+    {
+      "file": "https://giving.mcgill.ca/sites/default/files/styles/hero_background_image_half/public/2025-05/arts-diverse-students-525x560-sec.jpg?h=fc252f49&itok=KUY6-7-8",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://giving.mcgill.ca/make-your-mark/faculties-schools-and-units/faculty-arts",
+      "caption": "Студенты факультета искусств"
+    }
   ]
 }

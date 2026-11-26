@@ -9,7 +9,7 @@
   "city": "Окленд",
   "website": "https://www.auckland.ac.nz/",
   "admissions_url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
-  "about": "Крупный исследовательский университет Новой Зеландии с инженерными, медицинскими, архитектурными, экологическими и естественно-научными программами.",
+  "about": "Waipapa Taumata Rau, University of Auckland — государственный исследовательский университет, основанный в 1883 году. Основной City Campus находится в центре Окленда: исторический ClockTower и старые корпуса соседствуют с современными лабораториями, General Library, студенческими пространствами и несколькими резиденциями. Вуз входит в число крупнейших университетов Новой Зеландии; бакалаврские направления включают инженерное дело, науки, архитектуру и дизайн, медицину и здоровье, бизнес, право и гуманитарные области.\n\nМеждународные абитуриенты подают заявку онлайн на выбранную программу и должны показать академическую квалификацию, эквивалентную требованиям университета; для части стран после школы может понадобиться foundation или дополнительное обучение. Минимумы и предметные prerequisites зависят от программы. Для бакалавриата общий порог IELTS Academic — 6.0, ни одна часть не ниже 5.5; есть официальные эквиваленты TOEFL и других тестов и иногда освобождение по предшествующему обучению. Для большинства стандартных программ, начинающихся в Semester One 2027, срок подачи — 8 декабря 2026; медицинские и некоторые профессиональные программы закрывались раньше. Опубликованные международные тарифы на 2027 — примерно NZD 42,236 за Arts до NZD 60,910 за Engineering; медицинские программы стоят больше, плата считается по курсам и кредитам. Есть международные scholarships, но доступность зависит от категории кандидата. Резиденции включают catered halls и self-catered жильё; студент подаёт отдельную заявку и оплачивает страховку, жильё и жизнь. Для учёбы требуется New Zealand Student Visa.",
   "areas": [
     "science",
     "engineering",
@@ -25,10 +25,14 @@
   "fields": [
     "natural_sciences",
     "engineering",
+    "it",
     "architecture",
     "medicine",
     "law",
-    "agriculture"
+    "business",
+    "economics",
+    "design_art",
+    "humanities"
   ],
   "prep": {
     "must": "Подтверди эквивалент школьной квалификации для страны обучения и английский язык. У некоторых программ есть дополнительные академические или профессиональные требования.",
@@ -38,16 +42,210 @@
   "sources": [
     {
       "url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/undergraduate-english-language-requirements.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/undergraduate-application-closing-dates.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/scholarships-for-international-students/undergraduate-scholarships-for-international-students.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/on-campus/accommodation/life-accommodation.html",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Перед подачей сверить российский аттестат в country-specific qualification tool: может потребоваться foundation или дополнительная университетская учёба."
+  ],
+  "summary": "Крупный исследовательский университет в центре Окленда. Исторические здания и ClockTower соседствуют с научными корпусами, библиотеками, инженерными площадками и несколькими студенческими резиденциями.",
+  "data_year": 2027,
+  "founded": 1883,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Много городских кампусов и лабораторий в центре Окленда",
+    "International tuition 2027 опубликован по программам",
+    "Обязательная страховка международного студента"
+  ],
+  "intl_students_url": "https://www.auckland.ac.nz/en/study/international-students/entry-requirements-international-students.html",
+  "programs": [
+    {
+      "name": "Bachelor of Engineering (Honours)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html"
+    },
+    {
+      "name": "Bachelor of Science",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
+    },
+    {
+      "name": "Bachelor of Architectural Studies",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 42236,
+      "currency": "NZD",
+      "period": "year",
+      "note": "Оценка годового tuition 2027 для большинства программ бакалавриата: Arts около NZD 42,236, Engineering около NZD 60,910; медицина и некоторые направления дороже. Не включает student services fee, страховку и проживание."
+    },
+    "tuition_max": {
+      "amount": 60910,
+      "currency": "NZD",
+      "period": "year",
+      "note": "Оценка годового tuition 2027 для большинства программ бакалавриата: Arts около NZD 42,236, Engineering около NZD 60,910; медицина и некоторые направления дороже. Не включает student services fee, страховку и проживание."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Undergraduate scholarships for international students",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Есть разные awards по происхождению и предыдущей школе; найденная School Leaver Scholarship предназначена для выпускников новозеландских школ, поэтому условия для российского аттестата нужно фильтровать по конкретной award.",
+        "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/scholarships-for-international-students/undergraduate-scholarships-for-international-students.html"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "Для большинства бакалаврских программ, без части ниже 5.5; у отдельных курсов выше."
+      }
+    ],
+    "language_level": "IELTS Academic обычно 6.0 overall и не ниже 5.5 по компоненту; accepted alternatives перечислены университетом.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Проверь международную таблицу признанных школьных документов и предметные условия; некоторым кандидатам нужен foundation или дополнительное высшее обучение."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "New Zealand Student Visa",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть catered halls, апартаменты и self-catered резиденции; стоимость, питание и правила зависят от здания. Место не следует считать гарантированным: подай заявку в accommodation отдельно и заранее. Университет страхует международных студентов обязательной медицинской и travel страховкой."
+  },
+  "deadlines": [
+    {
+      "what": "Стандартный срок международной заявки на Semester One 2027",
+      "end": "2026-12-08",
+      "intake": "март 2027"
+    },
+    {
+      "what": "Стандартный срок международной заявки на Semester Two 2027",
+      "end": "2027-06-08",
+      "intake": "июль 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/par/linkspagetemplategri_2067374283/par2/subflexicomponentlin/image.img.480.low.jpg/1774313301472.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
+      "caption": "Городской вид рядом с резиденциями Carlaw Park"
+    },
+    {
+      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/firstGrid/par1/subflexicomponentlin/image.img.480.low.jpg/1774313044332.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
+      "caption": "Студенты занимаются у панорамных окон в общем пространстве"
+    },
+    {
+      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/par/linkspagetemplategri_2067374283/par1/subflexicomponentlin/image.img.480.low.jpg/1774313617614.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
+      "caption": "Новый корпус студенческого жилья — визуализация"
+    },
+    {
+      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/about-accommodation/_jcr_content/firstGrid/par2/subflexicomponentlin/image.img.480.low.jpg/1701730775276.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/about-accommodation.html",
+      "caption": "Стойка и лобби студенческой резиденции"
+    },
+    {
+      "file": "https://www.auckland.ac.nz/content/auckland/en/on-campus/accommodation/life-accommodation/_jcr_content/firstGrid/par1/subflexicomponentlin/image.img.480.low.jpg/1749425322040.png",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.auckland.ac.nz/en/on-campus/accommodation/life-accommodation.html",
+      "caption": "Жители Grafton Hall во время ориентационной недели"
+    }
   ]
 }

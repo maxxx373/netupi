@@ -8,7 +8,7 @@
   "city": "Владивосток",
   "website": "https://www.dvfu.ru/",
   "admissions_url": "https://www.dvfu.ru/admission/",
-  "about": "Многопрофильный университет во Владивостоке с программами в инженерии, морских науках, медицине, экономике и гуманитарных областях.",
+  "about": "ДВФУ — государственный университет с главным кампусом в бухте Аякс на острове Русский. В структуре вуза представлены инженерия и технологии, медицина, естественные науки, экономика, право, гуманитарные дисциплины, востоковедение и международные отношения. Кампус включает образовательные и научные корпуса, спортивную инфраструктуру, общежития и сервисы для студентов; часть зданий использовалась как инфраструктура форума АТЭС. Программы различаются по языку, форме и набору вступительных предметов, поэтому требования и стоимость нужно проверять по конкретному направлению и году поступления.",
   "areas": [
     "engineering",
     "science",
@@ -23,27 +23,247 @@
   "art": "modern",
   "fields": [
     "engineering",
-    "natural_sciences",
+    "it",
     "medicine",
+    "business",
     "economics",
     "law",
+    "natural_sciences",
+    "agriculture",
     "linguistics",
     "international_relations",
-    "business",
-    "media"
+    "humanities",
+    "social_sciences",
+    "architecture"
   ],
   "sources": [
     {
       "url": "https://www.dvfu.ru/admission/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "официальная приёмная комиссия и документы"
+    },
+    {
+      "url": "https://www.dvfu.ru/about/campus/students/accommodation/",
+      "accessed": "2026-11-26",
+      "covers": "студенческое жильё и заселение"
+    },
+    {
+      "url": "https://www.dvfu.ru/international/training-of-foreign-citizens/foreign-applicant/",
+      "accessed": "2026-11-26",
+      "covers": "информация иностранным абитуриентам"
+    },
+    {
+      "url": "https://www.dvfu.ru/en/admission/booklets/Welcome.pdf",
+      "accessed": "2026-11-26",
+      "covers": "пример программ, стоимость и общежития для международной аудитории"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/far-eastern-federal-university",
+      "accessed": "2026-11-26",
+      "covers": "QS 2026"
+    },
+    {
+      "url": "https://xn--2030-43dmm7ajlhyqa8bq7n.xn--p1ai/education/university/dalnevostocnyi-federalnyi-universitet",
+      "accessed": "2026-11-26",
+      "covers": "фото входа в университетский корпус с группой студентов"
+    },
+    {
+      "url": "https://vl.aif.ru/society/people/354634",
+      "accessed": "2026-11-26",
+      "covers": "аэрофотосъёмка кампуса ДВФУ"
+    },
+    {
+      "url": "https://okean.org/press-tsentr/news/uchastniki-programmy-ekologicheskiy-forum-zhivi-zemlya-posetili-laboratorii-kampusa-dvfu",
+      "accessed": "2026-11-26",
+      "covers": "экскурсия школьников в лаборатории кампуса"
+    },
+    {
+      "url": "https://www.russian-university.com/en/fefu",
+      "accessed": "2026-11-26",
+      "covers": "фото общежития ДВФУ"
+    },
+    {
+      "url": "https://studyinrussia.ru/en/university-show/226/about",
+      "accessed": "2026-11-26",
+      "covers": "фото комнаты общежития ДВФУ"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Подтвердить тариф обучения для российских абитуриентов по приказу 2026/27 и условия гарантии общежития для первокурсников."
+  ],
+  "summary": "Дальневосточный федеральный университет расположен на острове Русский во Владивостоке; его приморский кампус объединяет учебные корпуса, лаборатории, спортивные пространства и студенческое жильё. Вуз многопрофильный: от инженерии, ИТ и медицины до экономики, международных отношений, востоковедения и природных наук.",
+  "highlights": [
+    "Крупный кампус на острове Русский у Владивостока",
+    "Научные школы связаны с Азиатско-Тихоокеанским регионом",
+    "Есть отдельные правила приёма на программы СПО, бакалавриата и специалитета",
+    "Иностранным студентам доступна помощь по прибытию и размещению"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Прикладная математика и информатика",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Международные отношения",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Востоковедение и африканистика",
+      "field": "linguistics",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 116000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Опубликованный ДВФУ international booklet содержит примерные тарифы; стоимость для граждан РФ и набор 2026/27 сверять по официальному тарифному приказу."
+    },
+    "tuition_max": {
+      "amount": 500000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Ориентир по платным программам: зависит от направления и уровня; не использовать без проверки тарифного документа 2026/27."
+    },
+    "living_month_estimate": {
+      "amount": 3700,
+      "currency": "RUB",
+      "period": "month",
+      "note": "Ориентир студенческого тарифа двухместного проживания из официального FAQ для иностранных студентов; питание и личные траты отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Бюджетные места",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Приём на бюджетные места по общему конкурсу; отдельные квоты и международные программы имеют свои правила.",
+        "url": "https://www.dvfu.ru/admission/"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "documents": [
+      "Заявление",
+      "Паспорт",
+      "Аттестат/диплом и приложения",
+      "СНИЛС при наличии",
+      "Результаты ЕГЭ или внутренних испытаний",
+      "Документы об индивидуальных достижениях"
+    ],
+    "notes": "Набор предметов и минимумы определяются для каждой программы в правилах приёма 2026; прошлогодний проходной балл не гарантирует зачисление."
+  },
+  "deadlines": [
+    {
+      "what": "Приём документов на бюджет и платное — сроки в календаре 2026",
+      "intake": "2026"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Для граждан РФ не требуется",
+    "notes": "Эта карточка описывает российского абитуриента; для иностранных граждан университет оформляет приглашение и миграционные документы."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 3600,
+      "currency": "RUB",
+      "period": "month",
+      "note": "Официальный FAQ для иностранных студентов приводит 3 500–3 700 ₽/мес. при двухместном размещении; внутренние тарифы для российских студентов и тип комнаты могут отличаться."
+    },
+    "notes": "Общежития находятся в кампусе; порядок предоставления зависит от категории поступающего и заявки."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=542"
+    }
+  ],
+  "perks": [
+    "campus",
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "exchange"
+  ],
+  "data_year": 2026,
+  "prep": {
+    "must": "Сначала выбери конкретную программу и кампус, затем собери документы и проверь сроки, требования и стоимость на официальной странице текущего набора.",
+    "good": "Подготовь переводы школьных документов заранее и заложи время на языковой сертификат, медицинские документы и жильё.",
+    "source": "https://www.dvfu.ru/admission/"
+  },
+  "photos": [
+    {
+      "file": "https://cdn.dv2030.ru/cdn-image/universities/slider/6batBKC9pxD5cezB7edbOgmVld5itShsUuJ4e46cVPVkRmymdhM2faytB6ZXSS5MpdxazB7CoM7UFPJ2VFjA2L91RkyKSomZHtSrKMWZ8b6Ot3FBjbv0yncRtlSQ9gdb.jpg",
+      "license": "© project «Дальний Восток 2030»; image from the official regional development project, reuse rights not claimed",
+      "source_url": "https://xn--2030-43dmm7ajlhyqa8bq7n.xn--p1ai/education/university/dalnevostocnyi-federalnyi-universitet",
+      "caption": "Студенты выходят из главного входа кампуса ДВФУ"
+    },
+    {
+      "file": "https://aif-s3.aif.ru/images/007/964/e5dfee766282abf11bab29872aaa428c.jpg",
+      "license": "© АиФ Владивосток; image from publisher page, reuse rights not claimed",
+      "source_url": "https://vl.aif.ru/society/people/354634",
+      "caption": "Аэрофотосъёмка кампуса ДВФУ на острове Русский"
+    },
+    {
+      "file": "https://okean.org/thumb/1500x1500xin/uploads/images/articles/13210/Rat9UjeFxTMjIRYjmWtCnp5i9brtW36PmQmIrhYT.jpg",
+      "license": "© ВДЦ «Океан»; image from official educational centre page, reuse rights not claimed",
+      "source_url": "https://okean.org/press-tsentr/news/uchastniki-programmy-ekologicheskiy-forum-zhivi-zemlya-posetili-laboratorii-kampusa-dvfu",
+      "caption": "Школьники на экскурсии в лабораторном корпусе ДВФУ"
+    },
+    {
+      "file": "https://static.wixstatic.com/media/b69b12_c4c150c3bfa44913872937a8e1e90ecf~mv2.jpeg/v1/fill/w_960%2Ch_720%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/b69b12_c4c150c3bfa44913872937a8e1e90ecf~mv2.jpeg",
+      "license": "© russian-university.com; image from institution profile, reuse rights not claimed",
+      "source_url": "https://www.russian-university.com/en/fefu",
+      "caption": "Здание студенческой резиденции ДВФУ"
+    },
+    {
+      "file": "https://studyinrussia.ru/storage/images/university-infrastructure/226/cover/dAVixpvNh9nAbu9DC6ULJz4yhmX8fZCn7JsWtMKW_s1.webp",
+      "license": "© Study in Russia / source institution; image from official study portal, reuse rights not claimed",
+      "source_url": "https://studyinrussia.ru/en/university-show/226/about",
+      "caption": "Двухместная комната студенческого общежития"
+    }
   ]
 }

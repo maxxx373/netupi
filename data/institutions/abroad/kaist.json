@@ -9,7 +9,7 @@
   "city": "Тэджон",
   "website": "https://www.kaist.ac.kr/en/",
   "admissions_url": "https://admission.kaist.ac.kr/intl-undergraduate",
-  "about": "Научно-технологический университет Южной Кореи, ориентированный на инженерные, вычислительные, естественные и биотехнологические направления.",
+  "about": "KAIST — исследовательский университет в Тэджоне, специализирующийся на науке, инженерии и технологиях. Направления охватывают вычислительные и электротехнические дисциплины, механику, биологию, химию, физику и междисциплинарные области. Бакалавриат сочетает общую академическую подготовку с последующим выбором специализации; заметная часть учебной среды связана с проектами, лабораториями и кампусной жизнью. Иностранные абитуриенты подают документы по отдельному руководству набора. Значимость языковых результатов и дополнительных экзаменов зависит от правил цикла. Опубликованные стипендии нужно проверять по условиям сохранения, требованиям успеваемости и размеру поддержки именно на год поступления.",
   "areas": [
     "science",
     "engineering",
@@ -23,7 +23,8 @@
   "fields": [
     "natural_sciences",
     "engineering",
-    "it"
+    "it",
+    "architecture"
   ],
   "prep": {
     "must": "Международные кандидаты подают заявку на первый курс и должны завершить старшую школу к сроку, указанному для набора. Нужны школьные транскрипты и рекомендация учителя; проверь актуальное руководство KAIST.",
@@ -55,6 +56,21 @@
       "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/coa",
       "accessed": "2026-11-23",
       "covers": "cost, dorm, funding: стоимость обучения, общежитие, упоминание стипендии"
+    },
+    {
+      "url": "https://bcs.kaist.ac.kr/sub0701/view/page/sub0701/id/204",
+      "accessed": "2026-11-26",
+      "covers": "официальное фото студентов на территории кампуса"
+    },
+    {
+      "url": "https://nuclear.kaist.ac.kr/eng/board/gallery_view.php?k_id=15066&page=4&searchvalue=&selectvalue=",
+      "accessed": "2026-11-26",
+      "covers": "фото лекционной аудитории департамента Nuclear and Quantum Engineering"
+    },
+    {
+      "url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "accessed": "2026-11-26",
+      "covers": "официальные фото вариантов комнат общежитий и характеристики размещения"
     }
   ],
   "verified_at": "2026-11-23",
@@ -66,7 +82,8 @@
     "Прочитать PDF Admissions Guide 2027: минимум TOEFL/IELTS, SAT, список документов, мотивационное письмо",
     "Прочитать страницу стипендии KAIST (сайт отдавал 503): условия и кому доступна",
     "Уточнить, гарантировано ли общежитие на первом курсе",
-    "Уточнить, нужно ли иностранцам платить обучение при отсутствии стипендии"
+    "Уточнить, нужно ли иностранцам платить обучение при отсутствии стипендии",
+    "Галерея показывает аудиторию и общежития, но нужен отдельный официальный общий вид основного кампуса/учебного корпуса; подтвердить гарантии места и конкретную стоимость проживания для бакалавров."
   ],
   "summary": "Государственный научно-технологический университет в Тэджоне, один из сильнейших вузов Кореи по инженерии, ИТ и естественным наукам. Иностранцы поступают как первокурсники по раннему или обычному набору, набор идёт на весенний и осенний семестры 2027 года. Стипендия KAIST может покрывать всю стоимость обучения на 4 года.",
   "languages_of_instruction": [
@@ -154,5 +171,31 @@
       "note": "Hee Mang Hall, двухместная комната, 4 месяца в семестре (664 000 вон за семестр)"
     },
     "notes": "Цена из расчёта расходов на сайте приёма. Гарантию места на первом курсе на прочитанных страницах не нашли."
-  }
+  },
+  "photos": [
+    {
+      "file": "https://bcs.kaist.ac.kr/_files/board_e/20240425/7e5df330cd0bab36e6b498d2cfed6aec.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://bcs.kaist.ac.kr/sub0701/view/page/sub0701/id/204",
+      "caption": "Студенты отдыхают на газоне рядом с корпусом KAIST"
+    },
+    {
+      "file": "https://nuclear.kaist.ac.kr/files/attach/images/234/066/015/8e1955e2d468203ff1d8e1fc6d909a90.JPG",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://nuclear.kaist.ac.kr/eng/board/gallery_view.php?k_id=15066&page=4&searchvalue=&selectvalue=",
+      "caption": "Лекционная аудитория департамента Nuclear and Quantum Engineering"
+    },
+    {
+      "file": "https://kds.kaist.ac.kr/resources/images/dorm/ar/room2.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "caption": "Двухместная комната студенческого общежития"
+    },
+    {
+      "file": "https://kds.kaist.ac.kr/resources/images/dorm/ha/room3.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "caption": "Одноместная комната общежития с рабочей зоной"
+    }
+  ]
 }

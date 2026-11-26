@@ -9,7 +9,7 @@
   "city": "Брисбен",
   "website": "https://www.uq.edu.au/",
   "admissions_url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
-  "about": "Исследовательский университет Квинсленда с сильными программами по аграрным и морским наукам, ветеринарии, медицине, инженерии и экологии.",
+  "about": "UQ — многопрофильный университет штата Квинсленд с крупным зелёным кампусом St Lucia, а также площадками в Herston и Gatton. Вуз ведёт обучение и исследования в инженерии, медицине, бизнесе, естественных науках, сельском хозяйстве, архитектуре и гуманитарных областях. На St Lucia расположены исторические аркады Great Court, библиотеки, учебные корпуса, лаборатории, спортивные и студенческие пространства. Проживание доступно в колледжах и университетских резиденциях, однако разные операторы устанавливают собственные требования и тарифы.",
   "areas": [
     "science",
     "engineering",
@@ -23,10 +23,17 @@
   ],
   "art": "environment",
   "fields": [
-    "natural_sciences",
     "engineering",
+    "it",
     "medicine",
-    "agriculture"
+    "business",
+    "economics",
+    "law",
+    "architecture",
+    "natural_sciences",
+    "agriculture",
+    "social_sciences",
+    "psychology"
   ],
   "prep": {
     "must": "Подтверди эквивалентную школьную квалификацию, минимальный rank для программы и английский язык. Для ряда степеней есть обязательные предметы или отдельные требования, например UCAT.",
@@ -35,22 +42,212 @@
   },
   "sources": [
     {
-      "url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
-    },
-    {
       "url": "https://study.uq.edu.au/admissions/undergraduate/review-entry-requirements",
       "accessed": "2026-11-23",
       "covers": "prep"
+    },
+    {
+      "url": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
+      "accessed": "2026-11-26",
+      "covers": "прямое поступление, документы и даты на 2027"
+    },
+    {
+      "url": "https://study.uq.edu.au/admissions/undergraduate/review-fees-and-financial-support",
+      "accessed": "2026-11-26",
+      "covers": "стоимость по программам и стипендии"
+    },
+    {
+      "url": "https://study.uq.edu.au/stories/student-accommodation-brisbane-which-suburb-should-you-live",
+      "accessed": "2026-11-26",
+      "covers": "актуальные ориентиры жилья UQ и частных провайдеров"
+    },
+    {
+      "url": "https://study.uq.edu.au/sites/default/files/2023-05/international-guide-undergraduate-postgraduate.pdf",
+      "accessed": "2026-11-26",
+      "covers": "требования, сборы и тарифы 2026"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-26",
+      "covers": "официальная student visa 500"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Точные годовые tuition и академические требования добавлять на уровне выбранной программы UQ; универсальный тариф для всего вуза некорректен."
+  ],
+  "summary": "The University of Queensland — государственный исследовательский университет в Брисбене с главным кампусом St Lucia у реки. Международные выпускники школ подают на бакалавриат напрямую в UQ; стоимость и академические требования зависят от программы, а для отдельных направлений действуют дополнительные тесты и более ранние сроки.",
+  "highlights": [
+    "Главный кампус St Lucia расположен у реки Брисбен",
+    "Международным школьникам за пределами Австралии нужно подавать напрямую в UQ",
+    "Учебная плата рассчитывается по программе и пересматривается ежегодно",
+    "Есть университетские резиденции и независимые колледжи с разной стоимостью"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Engineering (Honours)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4
+    },
+    {
+      "name": "Bachelor of Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3
+    },
+    {
+      "name": "Bachelor of Business Management",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3
+    },
+    {
+      "name": "Bachelor of Veterinary Science (Honours)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 46000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Ориентир: международная плата по программе; UQ публикует точную цену на странице выбранного курса, ставки ежегодно пересматриваются."
+    },
+    "tuition_max": {
+      "amount": 75000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Медицина и некоторые клинические/профессиональные программы могут стоить существенно дороже; проверь курс. 2026 guide."
+    },
+    "living_month_estimate": {
+      "amount": 3000,
+      "currency": "AUD",
+      "period": "month",
+      "note": "Плановый ориентир для проживания в Брисбене; фактическая сумма зависит от жилья и личных расходов."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "UQ scholarships for international students",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Стипендии выдаются по отдельным условиям; проверь критерии и отдельные даты на год поступления.",
+        "url": "https://scholarships.uq.edu.au/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Распространённый общий уровень; медицинские, юридические и иные программы могут требовать выше."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "87",
+        "note": "Минимумы по секциям зависят от программы."
+      }
+    ],
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "documents": [
+      "Аттестат и академическая выписка",
+      "Паспорт",
+      "Подтверждение английского языка",
+      "Сертифицированные копии и переводы документов",
+      "Дополнительные тесты или портфолио, если требует программа"
+    ],
+    "notes": "UQ оценивает иностранную квалификацию индивидуально по требованиям курса. Для российской школы проверь country-specific qualification и предметные требования в International Admissions."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка на Semester 1 2027: международные школьники подаются напрямую; общий рекомендованный срок",
+      "end": "2026-11-30",
+      "intake": "Semester 1, 2027"
+    },
+    {
+      "what": "Semester 2, 2027: общий срок международной заявки",
+      "end": "2027-05-31",
+      "intake": "Semester 2, 2027"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (subclass 500)",
+    "notes": "После зачисления требуется Confirmation of Enrolment и оформление студенческой визы Австралии; проверить актуальные требования, финансовые доказательства и медстрахование для заявителей из РФ.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть 10 residential colleges на St Lucia и несколько UQ residences. Место не следует считать гарантированным; подаваться и уточнять стоимость нужно у выбранного провайдера."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=42"
+    }
+  ],
+  "perks": [
+    "campus",
+    "internships",
+    "exchange",
+    "strong_research",
+    "employment",
+    "student_life"
+  ],
+  "data_year": 2026,
+  "photos": [
+    {
+      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/st-lucia-campus.jpg?itok=39nkzdMY",
+      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uq.edu.au/",
+      "caption": "Главный корпус Forgan Smith на кампусе St Lucia"
+    },
+    {
+      "file": "https://www.uq.edu.au/sites/default/files/styles/image_panel/public/2022-05/Find-a-researcher.jpg?itok=QGcGWmVl",
+      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uq.edu.au/",
+      "caption": "Исследовательская работа с микроскопом"
+    },
+    {
+      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/brand-imagery-two-students-laptop.jpg?itok=FI9stIbd",
+      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uq.edu.au/",
+      "caption": "Студенты работают вместе за ноутбуком"
+    },
+    {
+      "file": "https://www.uq.edu.au/sites/default/files/styles/uqds_card/public/2023-12/brand-imagery-two-students_0.jpg?itok=8DtOrqqh",
+      "license": "© The University of Queensland; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uq.edu.au/",
+      "caption": "Студенты беседуют на кампусе"
+    }
   ]
 }

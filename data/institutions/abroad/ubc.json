@@ -2,14 +2,15 @@
   "id": "ubc",
   "type": "university",
   "name": {
-    "ru": "University of British Columbia",
-    "en": "University of British Columbia"
+    "ru": "Университет Британской Колумбии",
+    "en": "The University of British Columbia",
+    "short": "UBC"
   },
   "country": "CA",
   "city": "Ванкувер и Келоуна, Британская Колумбия",
   "website": "https://www.ubc.ca/",
   "admissions_url": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/",
-  "about": "Публичный исследовательский университет с кампусами в Ванкувере и Оканагане. Требования к предметам зависят от выбранной степени, кампуса и страны, где получено школьное образование.",
+  "about": "The University of British Columbia (UBC) — крупный государственный исследовательский университет провинции Британская Колумбия. У него два главных кампуса: Vancouver на полуострове Point Grey рядом с городом Ванкувер и Okanagan в городе Келоуна. Ванкуверский кампус включает учебные и исследовательские корпуса, музеи, библиотеки, спортивные объекты, береговую линию и развитые студенческие резиденции; кампус Okanagan меньше и находится в более спокойной городской среде.\n\nНа бакалавриате можно выбирать направления от компьютерных наук и инженерии до бизнеса, экономики, психологии, естественных наук и гуманитарных дисциплин. Требования зависят от кампуса, степени и школьной системы: нужны общие условия поступления, профильные школьные предметы, подтверждение английского, а для некоторых программ — personal profile или отдельный отбор. Страница требований UBC предлагает выбрать страну и degree, поэтому российский аттестат и необходимые предметы надо сверить именно в соответствующем профиле. Для поступления в Winter Session 2027 общая дата подачи — 15 января 2027 года; международная заявка стоит CAD173.25.\n\nДля иностранцев tuition зависит от степени, кампуса и учебной нагрузки; UBC предлагает официальный калькулятор, а единая сумма для всего университета была бы вводящей в заблуждение. На Vancouver campus типичная стоимость первого года в резиденции с планом питания составляет около CAD12,000–14,500 за восемь месяцев. Подходящие первокурсники могут получить гарантию жилья, если подадут заявку до 1 мая 2027 и выполнят условия по окончанию школы и принятию оффера. Международным студентам программы длиннее шести месяцев требуется study permit; подавать следует после получения admission letter и Provincial Attestation Letter. International Scholars Program открыт для международных выпускников школы с сильной успеваемостью, лидерским опытом и существенной подтверждаемой финансовой потребностью; на текущей странице срок продлён до 2 декабря 2026 года, 12:00 по Pacific Time.",
   "areas": [
     "science",
     "engineering",
@@ -29,26 +30,240 @@
     "economics",
     "medicine",
     "psychology",
-    "linguistics"
+    "linguistics",
+    "humanities"
   ],
   "prep": {
-    "must": "Заявка UBC; школьные оценки и документ об окончании школы; общие и программные предметные требования для выбранной страны и степени; требование по английскому.",
-    "good": "Сравни кампусы и конкретные степени, подготовь список школьных курсов с оценками. Для некоторых программ понадобится personal profile; проверь это до отправки заявки.",
+    "must": "Выбери кампус и степень, затем проверь требования UBC для России: общие условия, обязательные школьные предметы для выбранной программы и English Language Admission Standard. Подай заявку и следи за своим Applicant Service Centre — там появится индивидуальный список документов.",
+    "good": "Заранее составь перечень оценок за старшие классы, подготовь официальные переводы, выясни нужен ли personal profile и подай отдельную residence application до 1 мая, если рассчитываешь на гарантию первокурсника.",
     "source": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/"
   },
   "sources": [
     {
       "url": "https://you.ubc.ca/applying-ubc/requirements/international-high-schools/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Страновые и программные условия поступления"
+    },
+    {
+      "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+      "accessed": "2026-11-25",
+      "covers": "Сроки кампании Winter Session 2027 и housing"
+    },
+    {
+      "url": "https://you.ubc.ca/applying-ubc/how-to-apply/application/",
+      "accessed": "2026-11-25",
+      "covers": "Заявка, сбор CAD173.25 и общий срок"
+    },
+    {
+      "url": "https://you.ubc.ca/ubc-life/vancouver/residence",
+      "accessed": "2026-11-25",
+      "covers": "Первогоднее жильё и ориентир стоимости"
+    },
+    {
+      "url": "https://you.ubc.ca/applying-ubc/admitted/study-permit/",
+      "accessed": "2026-11-25",
+      "covers": "Study permit и Provincial Attestation Letter"
+    },
+    {
+      "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+      "accessed": "2026-11-25",
+      "covers": "Условия и актуальный продлённый дедлайн стипендии"
+    },
+    {
+      "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-entrance-scholarships/",
+      "accessed": "2026-11-25",
+      "covers": "Суммы международных входных стипендий на 2027/28"
+    },
+    {
+      "url": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
+      "accessed": "2026-11-25",
+      "covers": "Изображения резиденции"
+    },
+    {
+      "url": "https://about.library.ubc.ca/2021/10/19/nass-reading-room-in-ikblc-reopens-with-new-quiet-study-spots-and-accessible-group-tables/",
+      "accessed": "2026-11-25",
+      "covers": "Фото библиотеки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Получить точные российские требования по каждой выбранной степени из актуального фильтра UBC (кампус и программа меняют список школьных предметов).",
+    "Уточнить стоимости 2027/28 по degree-specific калькулятору UBC перед отображением цены обучения."
+  ],
+  "founded": 1908,
+  "city_size": "mega",
+  "ownership": "public",
+  "languages_of_instruction": [
+    "en"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "summary": "Крупный государственный исследовательский университет с двумя основными кампусами: Vancouver и Okanagan в Келоуне. Для бакалавриата студент выбирает степень и кампус; требования к школьным предметам, личному профилю и стоимости зависят от выбранной программы.",
+  "highlights": [
+    "Два кампуса с разной городской средой — Ванкувер и Келоуна",
+    "В Vancouver сильная кампусная среда и обширные резиденции; для части первокурсников действует housing guarantee",
+    "Заявка требует общеуниверситетских и программных предметных требований плюс английский",
+    "Международная стипендия International Scholars ориентирована на академически сильных кандидатов с существенной финансовой потребностью"
+  ],
+  "intl_students_url": "https://you.ubc.ca/international",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/"
+    },
+    {
+      "name": "Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://you.ubc.ca/ubc_programs/applied-science-vancouver-basc/"
+    },
+    {
+      "name": "Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://you.ubc.ca/ubc_programs/commerce-vancouver-bcom/"
+    },
+    {
+      "name": "Psychology",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://you.ubc.ca/ubc_programs/psychology-vancouver-ba/"
+    }
+  ],
+  "cost": {
+    "living_month_estimate": {
+      "amount": 1700,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Ванкувер, очень грубый ориентир: UBC указывает CAD12,000–14,500 за room + meal plan за 8-месячный год для первокурсников. Стоимость зависит от комнаты; без tuition и личных расходов."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "UBC International Scholars Program",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Конкурсная помощь с учётом финансовой потребности. Нужны сильные оценки, лидерский вклад, номинация школы и значительная подтверждённая финансовая потребность; заявка на 2027 год имеет продлённый дедлайн 2 декабря 2026, 12:00 PCT.",
+        "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/"
+      },
+      {
+        "name": "International Major Entrance Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Для набора 2027/28 на официальной странице указаны суммы CAD10,000–25,000 в год; автоматически рассматривают подходящих международных кандидатов, подавших полную заявку к сроку.",
+        "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-entrance-scholarships/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Один из допустимых способов подтвердить English Language Admission Standard; минимальный балл и допустимые версии смотри на текущей странице UBC."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Один из допустимых способов подтвердить английский; правила и минимумы зависят от актуального стандарта."
+      },
+      {
+        "exam": "DET",
+        "note": "Может приниматься UBC как подтверждение английского при соблюдении текущих условий и балла."
+      }
+    ],
+    "language_level": "English Language Admission Standard (ELAS); конкретный тест и минимальный балл проверяются на актуальной странице UBC.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Онлайн-заявка и сбор CAD173.25 для международного абитуриента",
+      "Школьные оценки и документ о завершении образования",
+      "Документы для оценки общих и программных требований выбранной степени",
+      "Подтверждение English Language Admission Standard или основание для waiver",
+      "Personal profile и дополнительные материалы, если требует степень"
+    ],
+    "notes": "Страница UBC фильтрует требования по стране, кампусу и программе. Учитывай школьные курсы, нужные конкретной степени, и проверь персональный список документов в Applicant Service Centre. Для study permit после оффера потребуется Provincial Attestation Letter (PAL), кроме предусмотренных исключений."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Canadian study permit",
+    "notes": "Для программы дольше шести месяцев нерезиденту Канады требуется study permit. Сначала нужны письмо о зачислении и Provincial Attestation Letter от Британской Колумбии; начни оформление после их получения. Въездные документы зависят от гражданства и места подачи.",
+    "url": "https://you.ubc.ca/applying-ubc/admitted/study-permit/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 1650,
+      "currency": "CAD",
+      "period": "month",
+      "note": "CAD12,000–14,500 за 8 учебных месяцев вместе с meal plan для типичного первокурсника на Vancouver campus; цена комнаты и плана различается."
+    },
+    "notes": "Гарантия доступна только подходящим первокурсникам, окончившим школу в текущем академическом году, подавшим заявление на Winter Session housing до 1 мая и принявшим оффер в срок (не позднее 1 июня); отдельное заявление нужно подать на каждый кампус."
+  },
+  "deadlines": [
+    {
+      "what": "Подача на большинство программ Winter Session 2027",
+      "start": "2026-10-01",
+      "end": "2027-01-15",
+      "intake": "сентябрь 2027"
+    },
+    {
+      "what": "International Scholars Program, продлённый дедлайн, Pacific Time",
+      "start": "2026-09-01",
+      "end": "2026-12-02",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Заявка на гарантированное жильё первокурсников",
+      "start": "2026-10-01",
+      "end": "2027-05-01",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://vancouver.housing.ubc.ca/wp-content/uploads/2015/08/Orchard-Commons-Exterior.jpg",
+      "author": "UBC Student Housing",
+      "license": "© UBC; изображение с официальной страницы",
+      "source_url": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
+      "caption": "Orchard Commons — жилая резиденция кампуса Vancouver"
+    },
+    {
+      "file": "https://about.library.ubc.ca/files/2021/10/Nass_Web-10_blog_920x512.jpg",
+      "author": "UBC Library",
+      "license": "© UBC; изображение с официальной страницы",
+      "source_url": "https://about.library.ubc.ca/2021/10/19/nass-reading-room-in-ikblc-reopens-with-new-quiet-study-spots-and-accessible-group-tables/",
+      "caption": "Учебное пространство Nass Reading Room в библиотеке IKBLC"
+    },
+    {
+      "file": "https://vancouver.housing.ubc.ca/wp-content/uploads/2017/04/Orchard-Commons-Room_720x480.jpg",
+      "author": "UBC Student Housing",
+      "license": "© UBC; изображение с официальной страницы",
+      "source_url": "https://vancouver.housing.ubc.ca/residences/orchard-commons/",
+      "caption": "Пример жилой комнаты в Orchard Commons"
+    }
+  ],
+  "data_year": 2027
 }

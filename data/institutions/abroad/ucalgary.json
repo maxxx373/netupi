@@ -9,15 +9,16 @@
   "city": "Калгари, Альберта",
   "website": "https://www.ucalgary.ca/",
   "admissions_url": "https://www.ucalgary.ca/future-students/undergraduate",
-  "about": "Публичный университет в Калгари с программами в инженерии, энергетике, естественных науках, бизнесе, здравоохранении и социальных дисциплинах.",
+  "about": "University of Calgary (UCalgary) — государственный исследовательский университет, основанный в 1966 году. Основной кампус расположен на северо-западе Калгари, недалеко от Bow River и Rocky Mountains; дополнительная площадка — campus in Qatar для отдельных профессиональных программ. В университете обучают инженерии, бизнесу, компьютерным наукам, наукам о Земле и энергии, медицине, ветеринарии, праву, образованию и гуманитарным дисциплинам. Студенческая инфраструктура включает Taylor Family Digital Library, лаборатории, спорткомплекс, residence communities и карьерные сервисы.\n\nИностранный школьник подаёт онлайн-заявку на конкретную степень. UCalgary использует эквивалентность образования по стране, требуемые школьные предметы и конкурсные оценки; поступление зависит от наличия мест. Отдельно нужно выполнить English Language Proficiency requirement или подтвердить допустимое освобождение. Для Fall 2027 международная подача открывается по собственному календарю; дедлайны разнятся по факультетам, и некоторые программы закрываются раньше.\n\nTuition зависит от факультета, курса и набора; официальные инструменты UCalgary позволяют рассчитать международную стоимость на 2026/27 год. В качестве ориентиров опубликованы ставки для каждого 3-unit course, а residence + meal plan отдельно рассчитываются по комнате и сроку проживания. Университет предлагает entrance awards и другие формы поддержки, но финансирование конкурентное. Первокурсники могут подать на резиденцию, и приоритет зависит от срока и условий конкретного набора. Для учёбы россиянину нужен канадский study permit с актуальными документами IRCC, включая provincial attestation при применимости.",
   "areas": [
     "engineering",
     "science",
     "business",
-    "economics",
+    "energy",
     "medicine",
-    "it",
-    "psychology"
+    "computing",
+    "law",
+    "social sciences"
   ],
   "art": "modern",
   "fields": [
@@ -27,31 +28,197 @@
     "economics",
     "medicine",
     "it",
-    "psychology"
+    "psychology",
+    "law",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Онлайн-заявка; школьные оценки и документы; предметные требования программы и подтверждение английского, если необходимо. Для поступающих с международной системой набор документов определяется страной.",
-    "good": "Проверь prerequisites и дедлайн на странице конкретной степени, а затем отслеживай applicant portal для дополнительных запросов. Результаты и средние баллы зависят от года и программы.",
-    "source": "https://www.ucalgary.ca/future-students/undergraduate/apply"
+    "must": "Выбери программу и проверь школьную эквивалентность, prerequisites, конкурентные баллы, английский и факультетный дедлайн. Подай онлайн и оплати заявку.",
+    "good": "Считай бюджет по official cost estimator, а на residence подавайся как можно раньше; если нужен study permit, проверь документы IRCC.",
+    "source": "https://www.ucalgary.ca/future-students/undergraduate"
   },
   "sources": [
     {
       "url": "https://www.ucalgary.ca/future-students/undergraduate",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "undergraduate admission, deadlines and program requirements"
     },
     {
-      "url": "https://www.ucalgary.ca/future-students/undergraduate/apply",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://calendar.ucalgary.ca/pages/e9845c2c03e84596bcaf892d52666fbf",
+      "accessed": "2026-11-26",
+      "covers": "English language proficiency"
+    },
+    {
+      "url": "https://ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator",
+      "accessed": "2026-11-26",
+      "covers": "tuition estimate for 2026/27"
+    },
+    {
+      "url": "https://calendar.ucalgary.ca/pages/b15b7e973a234197aded0daf61f34b9a",
+      "accessed": "2026-11-26",
+      "covers": "international undergraduate tuition per course"
+    },
+    {
+      "url": "https://www.ucalgary.ca/ancillary/residence/live-us/places-live/rates-2026-2027",
+      "accessed": "2026-11-26",
+      "covers": "residence and meal plan 2026/27"
+    },
+    {
+      "url": "https://www.ucalgary.ca/ancillary/residence/live-us/places-live/residence-cost-comparison",
+      "accessed": "2026-11-26",
+      "covers": "residence costs"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "accessed": "2026-11-26",
+      "covers": "study permit requirements"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Проверить официальную смету выбранного degree и meal plan для учебного года: цена курса и комнаты зависит от факультета/варианта размещения."
+  ],
+  "summary": "University of Calgary — исследовательский университет Альберты с программами в инженерии, энергетике, бизнесе, науках, медицине и ИТ. Кампус сочетает современные корпуса, библиотеки, студенческие объединения и резиденции.",
+  "intl_students_url": "https://www.ucalgary.ca/future-students/international",
+  "founded": 1966,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Северо-западный кампус в Калгари с видом на Скалистые горы",
+    "Tuition на 2026/27 рассчитывается по факультету и кредитам",
+    "Есть residence communities, включая комнаты, common areas и meal plans"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs"
+    },
+    {
+      "name": "Bachelor of Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://schulich.ucalgary.ca/future-students/undergraduate"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://haskayne.ucalgary.ca/future-students/undergraduate"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Английские минимумы и component scores смотрите в действующем calendar; для некоторых курсов/категорий условия различаются."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Принимаемые варианты и score requirements приведены в English language proficiency rules."
+      }
+    ],
+    "language_level": "English Language Proficiency requirement обязателен, если кандидат не попадает под официальное освобождение.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный диплом и transcript",
+      "Требуемые предметы старших классов по программе",
+      "Подтверждение английского или освобождение",
+      "Официальные переводы",
+      "Supplementary application для программ, где она есть"
+    ],
+    "notes": "Admission averages competitive and vary by degree; meeting subject minima alone does not guarantee admission."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "International Entrance Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "UCalgary предлагает международные entrance awards; eligibility, award amount and renewal vary by entering class and application. Проверь ежегодный award listing.",
+        "url": "https://www.ucalgary.ca/registrar/finances/awards-scholarships-and-bursaries"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Canadian study permit; TRV as required",
+    "notes": "После admission проверь IRCC study permit, PAL/TAL при необходимости, доказательство средств и необходимые въездные документы для гражданства. Условия федеральной программы меняются, поэтому ориентируйся на актуальную инструкцию IRCC.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 1700,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Оценка residence и meal plan для восьмимесячного проживания; точная сумма определяется комнатой/корпусом на 2026/27."
+    },
+    "notes": "Кампусные residences предлагают разные типы комнат и meal plan; стоимость зависит от здания и срока. Место не считать гарантированным без offer, а дедлайн заявки на 2026/27 сверять в Residence Services."
+  },
+  "photos": [
+    {
+      "file": "https://www.ucalgary.ca/ancillary/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2023-10/0L1U0550.JPG?h=959d4768&itok=MrmZyBku",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ucalgary.ca/ancillary/residence/current-residents",
+      "caption": "Комната в residence с общим жилым пространством"
+    },
+    {
+      "file": "https://www.ucalgary.ca/ancillary/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2023-10/ENPV2083e.jpg?h=e208a1c6&itok=buZMSt-_",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ucalgary.ca/ancillary/residence/current-residents/services",
+      "caption": "Lounge в студенческой резиденции"
+    },
+    {
+      "file": "https://www.ucalgary.ca/ancillary/sites/default/files/styles/ucws_image_desktop/public/2025-07/YAMNUSKA_ROOM_WEB_RES_0.jpg?itok=lD4_buBX",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ucalgary.ca/ancillary/accommodations-and-events/sports-teams",
+      "caption": "Комната и кухонная зона в residence"
+    },
+    {
+      "file": "https://esl.ucalgary.ca/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2023-11/TFDL_011A6808final.jpg?h=7f395eb0&itok=k1_KTmjV",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://esl.ucalgary.ca/programs/compare-programs",
+      "caption": "Студенты на площади у Taylor Family Digital Library"
+    },
+    {
+      "file": "https://haskayne.ucalgary.ca/sites/default/files/styles/ucws_hero_cta_desktop/public/2019-01/Banner_block_Tall_1500_600_Future_Students.jpg?itok=WKDxlK7_",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://haskayne.ucalgary.ca/future-students",
+      "caption": "Студенты между занятиями на главном кампусе"
+    }
+  ],
+  "data_year": 2027
 }

@@ -9,7 +9,7 @@
   "city": "Вагенинген",
   "website": "https://www.wur.nl/",
   "admissions_url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
-  "about": "Университет, специализирующийся на сельском хозяйстве, биологии, пищевых системах, экологии, природопользовании и науках о животных.",
+  "about": "Wageningen University & Research — государственный исследовательский университет в небольшом студенческом городе Вагенинген. Его профиль объединяет природные науки, агротехнологии, питание, биотехнологию, экологию, управление природными ресурсами и устойчивое развитие. Университетский кампус известен учебными и исследовательскими зданиями Forum и Orion, библиотекой, лабораториями и открытыми пространствами. Университет помогает иностранным студентам с визой/ВНЖ после поступления и оплаты, но жильё в Вагенингене ограничено и требует раннего поиска.",
   "areas": [
     "botany",
     "agriculture",
@@ -23,7 +23,13 @@
   "art": "environment",
   "fields": [
     "agriculture",
-    "natural_sciences"
+    "natural_sciences",
+    "engineering",
+    "business",
+    "economics",
+    "social_sciences",
+    "it",
+    "architecture"
   ],
   "prep": {
     "must": "Подай заявку через Studielink и заверши анкету WUR для иностранного диплома. Проверь соответствие школьного образования уровню VWO, обязательные предметы конкретного бакалавриата и язык обучения.",
@@ -35,14 +41,230 @@
       "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
       "accessed": "2026-11-23",
       "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme",
+      "accessed": "2026-11-26",
+      "covers": "процесс поступления, сроки, документы и визовая процедура"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/language-requirements",
+      "accessed": "2026-11-26",
+      "covers": "официальные экзамены и минимумы языка"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/study-expenses-bachelors",
+      "accessed": "2026-11-26",
+      "covers": "плата, расходы, страховка, permit и финансовое подтверждение 2026/27"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/study-expenses-bachelors/tuition-fees-and-study-finances",
+      "accessed": "2026-11-26",
+      "covers": "tuition 2026/27 и последующие годы"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/after-your-application-bachelor",
+      "accessed": "2026-11-26",
+      "covers": "последующие шаги и разрешение на проживание"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Получить официальное подтверждение эквивалентности российского аттестата и наличие жилья для выбранного года; официальная оценка жилья не является гарантией комнаты."
+  ],
+  "summary": "Wageningen University & Research специализируется на сельском хозяйстве, продовольствии, экологии, климате, биологии и смежных технологиях. Большинство бакалавриатов преподаётся на нидерландском, часть — на английском; для поступления с иностранным аттестатом важны предметная подготовка и подтверждение языка.",
+  "highlights": [
+    "Профиль на стыке биологии, продовольствия, экологии и инженерии",
+    "Англоязычные бакалавриаты есть, но не все программы доступны на английском",
+    "Виза и ВНЖ оформляются университетом после приёма и оплаты",
+    "Для граждан вне ЕС/ЕЭЗ опубликована обязательная предоплата расходов на первый год"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "nl"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Environmental Sciences",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18300,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Non-EU tuition, 2026/27."
+      }
+    },
+    {
+      "name": "Food Technology",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18300,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Non-EU tuition, 2026/27."
+      }
+    },
+    {
+      "name": "International Land and Water Management",
+      "field": "agriculture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18300,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Non-EU tuition, 2026/27."
+      }
+    },
+    {
+      "name": "Animal Sciences",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18300,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Non-EU tuition, 2026/27."
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 18300,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Non-EU bachelor fee, 2026/27; 2027/28 amount is provisional on the current university page."
+    },
+    "tuition_max": {
+      "amount": 18300,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Non-EU bachelor fee, 2026/27; confirm exact fee by programme."
+    },
+    "living_month_estimate": {
+      "amount": 1150,
+      "currency": "EUR",
+      "period": "month",
+      "note": "University/IND estimate: €41,400 for three years, covering everyday living expenses."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "WUR scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Scholarships are limited and frequently targeted at master’s applicants; check eligibility for each bachelor programme.",
+        "url": "https://www.wur.nl/en/education/scholarships"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "Speaking minimum 6.0; test validity and accepted format rules apply."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "80",
+        "note": "Speaking minimum 20; Home Edition/MyBest not accepted per current page."
+      }
+    ],
+    "language_level": "English proficiency; Dutch additionally for Dutch-taught bachelors",
+    "entrance_tests": false,
+    "portfolio": "some_programs",
+    "documents": [
+      "Школьный аттестат и оценки",
+      "Паспорт",
+      "Сертифицированные переводы документов, если нужны",
+      "Подтверждение английского языка",
+      "Математика и профильные школьные предметы по выбранной программе"
+    ],
+    "notes": "Для российского аттестата оценивается эквивалентность требованиям программы; решение принимает Admission Board. Уточни у Student Service Centre, требуется ли подготовительный год/дополнительная квалификация для конкретной школы."
+  },
+  "deadlines": [
+    {
+      "what": "Подача non-EU/non-EFTA на сентябрьский набор — Studielink",
+      "end": "04-15",
+      "intake": "September, annually; 2027 date should be confirmed"
+    },
+    {
+      "what": "Загрузка документов non-EU в Osiris",
+      "end": "05-01",
+      "intake": "September, annually"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "MVV entry visa + Dutch residence permit for study",
+    "notes": "WUR подаёт документы на учебный ВНЖ для поступивших студентов из-за пределов ЕС/ЕЭЗ после оплаты счёта и проверки документов. Для граждан РФ возможны дополнительные финансовые и санкционные проверки; уточнять по индивидуальному делу.",
+    "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/after-your-application-bachelor"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университет предлагает искать жильё через кампусные сервисы, но доступность ограничена и место не гарантируется всем. Начинай поиск сразу после conditional admission."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=153"
+    }
+  ],
+  "perks": [
+    "campus",
+    "internships",
+    "exchange",
+    "strong_research",
+    "employment"
+  ],
+  "data_year": 2026,
+  "photos": [
+    {
+      "file": "https://backend.wur.nl/sites/default/files/2026-10/CIBIA-building-2000x1333.jpg",
+      "license": "© Wageningen University & Research; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.wur.nl/nl/over-wur/campus-locaties",
+      "caption": "Фасад здания CIBIA FoodTech на территории WUR"
+    },
+    {
+      "file": "https://www.wur.nl/upload_mm/d/0/e/1a66fb9b-a71a-498a-9d4c-9e82997a7729_BOL_WUR-26-03-2018_750x400.jpg",
+      "license": "© Wageningen University & Research; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.wur.nl/nl/locatie/bibliotheek-forum-gebouwnummer-102.htm",
+      "caption": "Интерьер библиотеки Forum"
+    },
+    {
+      "file": "https://backend.wur.nl/sites/default/files/2025-09/Cyclic-IMS-onderzoeksfaciliteiten-6352x4237.jpg",
+      "license": "© Wageningen University & Research; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.wur.nl/nl/onderzoek/faciliteiten",
+      "caption": "Исследовательская установка Cyclic IMS"
+    },
+    {
+      "file": "https://backend.wur.nl/sites/default/files/2026-10/Madeline-student-opanday-6000x4000.png",
+      "license": "© Wageningen University & Research; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.wur.nl/",
+      "caption": "Студенты работают вместе в учебном пространстве"
+    }
   ]
 }

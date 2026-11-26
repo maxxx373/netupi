@@ -9,15 +9,16 @@
   "city": "Эдмонтон, Альберта",
   "website": "https://www.ualberta.ca/",
   "admissions_url": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html",
-  "about": "Публичный исследовательский университет в Эдмонтоне, охватывающий инженерные, естественно-научные, медицинские, сельскохозяйственные и бизнес-направления.",
+  "about": "University of Alberta (U of A) — государственный исследовательский университет Эдмонтона, основанный в 1908 году. Главный North Campus находится в долине реки North Saskatchewan, а система включает кампус Augustana, French-language Campus Saint-Jean и медицинские/исследовательские площадки. Вуз предлагает инженерные, компьютерные, естественно-научные, медицинские, сельскохозяйственные, бизнес-, гуманитарные и социальные программы. В университетской среде есть библиотеки, лаборатории, спортивные объекты, студенческие объединения и резиденции.\n\nИностранный школьник подаёт прямую заявку на конкретную undergraduate программу. U of A оценивает документы из всех стран, но каждый degree имеет собственные конкурентные средние оценки и обязательные предметы; для большинства учебных систем проверяется набор из пяти предметов. Текущие результаты старшей школы могут оцениваться условно до получения финальных. Кандидату нужно подтвердить английский, если он не подпадает под освобождение. Заявка на 2027 обычно открывается летом предыдущего года; факультетные сроки и документы надо сверить в портале.\n\nДля первокурсников Fall 2026 университет публикует международную годовую tuition от CAD 35,908 до CAD 49,953 в зависимости от факультета; бизнес и инженерия находятся ближе к верхней границе. Дополнительно закладываются книги/сборы от CAD 3,700 и резиденция с meal plan примерно от CAD 14,200. Международные студенты узнают гарантированную tuition своей программы в offer; есть entrance awards, в том числе International Leader Scholarship до CAD 15,000. Резиденции есть на нескольких кампусах, места распределяются по типу программы и сроку заявки. Для длительной учёбы гражданину России потребуется канадский study permit и соблюдение действующих условий IRCC, включая PAL/TAL при применимости.",
   "areas": [
     "science",
     "engineering",
-    "it",
+    "computing",
     "medicine",
     "agriculture",
-    "economics",
-    "business"
+    "business",
+    "humanities",
+    "social sciences"
   ],
   "art": "modern",
   "fields": [
@@ -27,26 +28,218 @@
     "medicine",
     "agriculture",
     "economics",
-    "business"
+    "business",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Завершить или планировать завершить среднюю школу; показать требуемые пять академических предметов (набор зависит от программы), оценки и английскую подготовку.",
-    "good": "Проверь международные эквиваленты и prerequisites выбранной программы. Если не хватает предметов, посмотри Year One Foundation Program; требования по среднему баллу меняются по факультетам.",
+    "must": "Выбери степень и проверь эквивалент своей школьной системы, требуемые предметы, конкурентный средний балл и английский. Подай документы в срок через U of A Launchpad.",
+    "good": "Используй Cost Calculator для tuition/жилья по курсу, а после offer — подай residence application и проверь визовый чек-лист.",
     "source": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html"
   },
   "sources": [
     {
       "url": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "международный приём и академические квалификации"
+    },
+    {
+      "url": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/tuition-and-fees.html",
+      "accessed": "2026-11-26",
+      "covers": "tuition и cost calculator"
+    },
+    {
+      "url": "https://www.ualberta.ca/en/admissions/media-library/uai-assets/docs/viewbook-2026-27/viewbook-international-2026-27-web.pdf",
+      "accessed": "2026-11-26",
+      "covers": "tuition 2026/27 и International Leader Scholarship"
+    },
+    {
+      "url": "https://www.ualberta.ca/en/residence/our-residences/index.html",
+      "accessed": "2026-11-26",
+      "covers": "жилые кампусы"
+    },
+    {
+      "url": "https://www.ualberta.ca/en/international/international-student-services/settlement-services/housing/index.html",
+      "accessed": "2026-11-26",
+      "covers": "жильё для иностранных студентов"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "accessed": "2026-11-26",
+      "covers": "канадский study permit"
+    },
+    {
+      "url": "https://www.ualberta.ca/en/admissions/programs/index.html",
+      "accessed": "2026-11-26",
+      "covers": "программы бакалавриата"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Уточнить стоимость конкретной программы и срок residence application для нужного года; сумма tuition в offer имеет приоритет над общими диапазонами."
+  ],
+  "summary": "Крупный государственный исследовательский университет в Эдмонтоне с направлениями в инженерии, науках, бизнесе, сельском хозяйстве, здравоохранении и гуманитарных дисциплинах; англоязычные программы и кампусное жильё.",
+  "intl_students_url": "https://www.ualberta.ca/en/admissions/how-to-apply/international-admission-requirements/index.html",
+  "founded": 1908,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "fr"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Студенческие кампусы расположены в Эдмонтоне и Camrose",
+    "Для большинства программ оцениваются пять требуемых школьных предметов",
+    "International tuition Fall 2026 — CAD 35,908–49,953 в зависимости от факультета"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computing Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.ualberta.ca/en/admissions/programs/index.html"
+    },
+    {
+      "name": "Bachelor of Science in Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.ualberta.ca/en/admissions/programs/index.html"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 46547,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Официальная годовая tuition для international undergraduate 2026/27 Faculty of Business."
+      },
+      "url": "https://www.ualberta.ca/en/admissions/programs/index.html"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "English language proficiency minimum varies by route; confirm overall and component minimums for the target intake."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Accepted score and section thresholds are listed on the English proficiency page."
+      }
+    ],
+    "language_level": "Английский по стандарту U of A либо документированное освобождение; отдельные французские программы имеют собственный язык.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и результаты предыдущих/текущих классов",
+      "Финальные оценки и подтверждение выпуска",
+      "Предметные prerequisites программы (часто 5 предметов)",
+      "Подтверждение английского либо основание для освобождения",
+      "Официальные переводы документов"
+    ],
+    "notes": "Приём конкурентный и зависит от доступности места. Эквивалентность российского аттестата и набор предметов определяются по таблице страны и программе, не по единому GPA."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 35908,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Официальный international tuition annual для ряда факультетов Fall 2026."
+    },
+    "tuition_max": {
+      "amount": 49953,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Официальный international tuition annual для инженерии Fall 2026. Книги/сборы и проживание отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "International Leader Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Admission-based award: международные выпускники школ с сильной успеваемостью и лидерским потенциалом могут получить до CAD 15,000; критерии и наличие уточнить для набора.",
+        "url": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/scholarships/international-scholarships.html"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Canadian study permit; TRV as required",
+    "notes": "После зачисления проверь актуальные федеральные условия для study permit, provincial attestation letter (PAL/TAL) при необходимости, документы о средствах и въездной документ для российского паспорта.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 1775,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Бюджетный ориентир из annual residence with meal plan от CAD 14,200 за 8 месяцев; точная цена зависит от корпуса, комнаты и питания."
+    },
+    "notes": "Есть общежития и residence communities на North Campus и Augustana. Гарантия мест зависит от кампуса, статуса первокурсника и дедлайна. Официальный budget 2026/27 указывает residence+meal plan от CAD 14,200+; подавай отдельную заявку."
+  },
+  "photos": [
+    {
+      "file": "https://www.ualberta.ca/en/international/media-library/iss/images/on-campus-residence.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ualberta.ca/en/international/international-student-services/settlement-services/housing/index.html",
+      "caption": "Корпус On-Campus Residence"
+    },
+    {
+      "file": "https://images.shiksha.com/mediadata/images/1533646005phpgizQzC.jpeg",
+      "author": "Shiksha",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.shiksha.com/studyabroad/canada/universities/university-of-alberta/campus",
+      "caption": "Жилой корпус университета зимой"
+    },
+    {
+      "file": "https://www.ualberta.ca/en/residence/media-library/images/international-house-winter.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ualberta.ca/en/residence/our-residences/international-house/index.html",
+      "caption": "International House зимой на кампусе"
+    },
+    {
+      "file": "https://www.gimme-shelter.com/wp-content/uploads/2013/02/Lister-Center-Henday-Hall-University-of-Alberta-Residence-in-Edmonton-1024x683.jpg",
+      "author": "Gimme-Shelter",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.gimme-shelter.com/student-housing-options-around-the-university-of-alberta-10011/",
+      "caption": "Lister Centre — студенческая резиденция"
+    },
+    {
+      "file": "https://macleans.mblycdn.com/mac/resized/2022/03/900x900/UNIVERSITY-GUIDEBOOK-2022-ALBERTA-02.jpg",
+      "author": "Macleans",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://macleans.ca/education/university/university-of-alberta-student-life-on-campus-2/",
+      "caption": "Студенты идут по North Campus"
+    }
+  ],
+  "data_year": 2027
 }

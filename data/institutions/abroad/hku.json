@@ -9,7 +9,7 @@
   "city": "Гонконг",
   "website": "https://www.hku.hk/",
   "admissions_url": "https://www.admissions.hku.hk/apply/international-qualifications",
-  "about": "Многопрофильный университет Гонконга с программами в медицине, праве, инженерии, архитектуре, науках и бизнесе.",
+  "about": "The University of Hong Kong (HKU) — государственный исследовательский университет, основанный в 1911 году. Главный кампус в районе Pokfulam на острове Hong Kong сочетает исторический Main Building и современные учебные площадки; рядом расположены библиотеки, Chi Wah Learning Commons, спортивный центр, лаборатории и жилые колледжи. В структуре есть инженерия, медицина и стоматология, архитектура, бизнес, право, науки, образование, искусство и новые междисциплинарные программы. Большая часть обучения ведётся на английском, хотя для отдельных курсов могут требоваться китайские языки.\n\nИностранные выпускники подают онлайн через International/Non-JUPAS Admissions Scheme. Абитуриент указывает школьные результаты и прогнозы, загружает документы и рекомендации; решение оценивает оценки, выбранную программу, эссе, интервью и дополнительные материалы. Для российского документа HKU предлагает проверить соответствие через список международных квалификаций; если точной категории нет, результат оценивают индивидуально. Первый раунд набора 2027 открыт с 23 сентября 2026, первая оценка — для заявок до 25 ноября; после этого заявки идут rolling basis до закрытия 25 августа 2027. Application fee HKD 780. Для non-local students tuition 2027/28 составляет HKD 250,000 для non-STEM, HKD 280,000 для STEM и HKD 590,000 для MBBS/BDS; резиденции стоят примерно HKD 17,290–37,940 в год, проживание вне кампуса дороже. HKU автоматически рассматривает поступивших на merit awards по заявке, отдельные гранты могут покрывать tuition и расходы. Студенту потребуется Hong Kong student visa/entry permit.",
   "areas": [
     "medicine",
     "law",
@@ -24,12 +24,16 @@
   "art": "classic",
   "fields": [
     "medicine",
-    "law",
     "engineering",
     "architecture",
     "natural_sciences",
+    "law",
     "business",
-    "agriculture"
+    "economics",
+    "humanities",
+    "social_sciences",
+    "it",
+    "design_art"
   ],
   "prep": {
     "must": "Выбери путь подачи по своей школьной квалификации и представь актуальные или прогнозируемые оценки. Проверь English Language Requirement и требования факультета; shortlisted candidates могут приглашаться на интервью.",
@@ -39,16 +43,220 @@
   "sources": [
     {
       "url": "https://www.admissions.hku.hk/apply/international-qualifications",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.admissions.hku.hk/fees-and-scholarships/fees",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.admissions.hku.hk/fees-and-scholarships/scholarships",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.admissions.hku.hk/experience/life-at-hku",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.admissions.hku.hk/faqs/international",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.immd.gov.hk/eng/services/visas/study.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.estates.hku.hk/",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://www.estates.hku.hk/project-management/recently-completed-projects/improvement-works-gf-and-2f-main-library",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
+    },
+    {
+      "url": "https://www.amo.gov.hk/tc/about-us/online-articles/20260611/index.html",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Уточнить программу и российскую квалификацию в международном селекторе HKU: академические пороги, английский, интервью и дедлайны различаются."
+  ],
+  "summary": "Многопрофильный университет с историческими и современными корпусами на острове Hong Kong. Бакалаврские школы охватывают медицину, инженерное дело, архитектуру, бизнес, право, науки и гуманитарные направления.",
+  "data_year": 2027,
+  "founded": 1911,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "zh"
+  ],
+  "highlights": [
+    "21 жилой hall/college",
+    "Тариф 2027/28 опубликован отдельно для STEM и non-STEM",
+    "Merit scholarships оцениваются по заявке"
+  ],
+  "intl_students_url": "https://www.admissions.hku.hk/apply/international-qualifications",
+  "programs": [
+    {
+      "name": "Bachelor of Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.hku.hk/prospectus/undergraduate/engineering.html"
+    },
+    {
+      "name": "Bachelor of Science",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.scifac.hku.hk/prospective/ug"
+    },
+    {
+      "name": "Bachelor of Business Administration",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://ug.hkubs.hku.hk/"
+    },
+    {
+      "name": "Bachelor of Arts",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://arts.hku.hk/prospective/undergraduate"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 250000,
+      "currency": "HKD",
+      "period": "year",
+      "note": "Годовой tuition non-local студентов в 2027/28: HKD 250,000 non-STEM; HKD 280,000 STEM; HKD 590,000 MBBS/BDS. Размещение, питание и личные расходы отдельно."
+    },
+    "tuition_max": {
+      "amount": 590000,
+      "currency": "HKD",
+      "period": "year",
+      "note": "Годовой tuition non-local студентов в 2027/28: HKD 250,000 non-STEM; HKD 280,000 STEM; HKD 590,000 MBBS/BDS. Размещение, питание и личные расходы отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "HKU Entrance Scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Поступившие международные кандидаты автоматически рассматриваются на entrance awards; размер зависит от академических результатов, некоторые awards включают tuition и проживание.",
+        "url": "https://www.admissions.hku.hk/fees-and-scholarships/scholarships"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Языковая планка и альтернативы проверяются по выбранной квалификации и программе."
+      }
+    ],
+    "language_level": "Английский для международной программы; проверяй порог и освобождения по программе.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Международные заявки через Non-JUPAS. Минимумы HKU не гарантируют место; рассмотрение holistic, факультеты могут проводить интервью и просить дополнительные материалы."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Hong Kong student visa / entry permit",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://www.immd.gov.hk/eng/services/visas/study.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "HKU сообщает о 21 residential hall и college; годовая стоимость университетского размещения — около HKD 17,290–37,940 (285 дней, без летнего семестра). Подача на место отдельная, сроки и приоритеты проверяй в личном портале."
+  },
+  "deadlines": [
+    {
+      "what": "Открытие заявок International/Non-JUPAS на intake 2027",
+      "start": "2026-09-23",
+      "intake": "2027/28"
+    },
+    {
+      "what": "Первый раунд оценки международных заявок",
+      "end": "2026-11-25",
+      "intake": "2027/28"
+    },
+    {
+      "what": "Окончательное закрытие заявок",
+      "end": "2027-08-25",
+      "intake": "2027/28"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.amo.gov.hk/filemanager/amo/en/content_2370/100-4.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.amo.gov.hk/tc/about-us/online-articles/20260611/index.html",
+      "caption": "Главный корпус с часовой башней и аркадами"
+    },
+    {
+      "file": "https://www.admissions.hku.hk/sites/default/files/styles/hkuad_image_crop/public/2021-02/Chi%20Wah%202.jpg?itok=c3pESk_G",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.admissions.hku.hk/experience/life-at-hku",
+      "caption": "Chi Wah Learning Commons и двор"
+    },
+    {
+      "file": "https://www.estates.hku.hk/application/files/4215/9254/9104/p8.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.estates.hku.hk/project-management/recently-completed-projects/improvement-works-gf-and-2f-main-library",
+      "caption": "Зона групповой работы во втором этаже Main Library"
+    },
+    {
+      "file": "https://www.admissions.hku.hk/sites/default/files/styles/hkuad_image_crop/public/2020-10/uhall.jpeg?itok=v9tcwfZp",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.admissions.hku.hk/experience/life-at-hku",
+      "caption": "University Hall — историческое общежитие"
+    },
+    {
+      "file": "https://www.estates.hku.hk/application/files/5015/3129/4344/bg-CC2.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.estates.hku.hk/",
+      "caption": "Студенты у современного учебного commons"
+    }
   ]
 }

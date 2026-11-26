@@ -7,47 +7,205 @@
   },
   "country": "SA",
   "city": "Эр-Рияд",
-  "website": "https://ksu.edu.sa/en",
+  "website": "https://ksu.edu.sa/",
   "admissions_url": "https://dar.ksu.edu.sa/en/overseas",
-  "about": "Государственный университет Саудовской Аравии с факультетами инженерии, архитектуры, сельского хозяйства, естественных наук, медицины и бизнеса.",
+  "about": "King Saud University (KSU) — государственный университет в Эр-Рияде, основанный в 1957 году. Основной кампус объединяет учебные корпуса, лаборатории, библиотеки, медицинские и спортивные объекты, студенческие сервисы и жилые пространства. Университет предлагает программы в естественных и медицинских науках, инженерии, бизнесе, гуманитарных и общественных направлениях. Язык и условия отличаются по колледжам; значительная часть курсов ведётся на арабском, а отдельные профессиональные и естественно-научные программы используют английский.\n\nВажно различать внутреннюю стипендию (кандидат уже проживает в Саудовской Аравии) и внешнюю (кандидат подаётся из-за рубежа). Для иностранных кандидатов, проживающих вне страны, KSU публикует отдельную процедуру: доступен ограниченный перечень бакалаврских программ по внешней scholarship, а также ограниченный self-funded маршрут для некоторых health-science программ. На scholarship маршруте указываются требования к признанному школьному аттестату, возрасту, сроку после выпуска и стандартизированному экзамену SAT; точная eligibility зависит от курса и пола/распределения программ. Отбор конкурсный, а список программ и правила могут меняться по циклам.\n\nПлата для scholarship-пути отличается от self-funded обучения; KSU публикует отдельные правила и виды финансовой поддержки, поэтому общую tuition цену для всех иностранцев не указываем. У университета есть жилые объекты и сервисы для студентов, но тип места и условия нужно уточнить у международного офиса и в конкретном offer. Для зачисленных иностранных студентов оформляются учебные документы и визовый маршрут через саудовские органы/университет; проверь текущие правила для граждан России и конкретный тип финансирования.",
   "areas": [
+    "medicine",
+    "engineering",
     "science",
-    "engineering",
-    "construction",
-    "architecture",
-    "medicine",
-    "botany",
-    "agriculture",
     "business",
-    "environment"
+    "humanities",
+    "law",
+    "computer science"
   ],
-  "art": "classic",
+  "art": "modern",
   "fields": [
-    "natural_sciences",
     "engineering",
-    "architecture",
     "medicine",
-    "agriculture",
-    "business"
+    "natural_sciences",
+    "business",
+    "it",
+    "law",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Международным абитуриентам доступны отдельные внешние стипендиальные места и ограниченные платные пути. Для стипендии требуются признанный школьный диплом и SAT; условия зависят от программы и категории заявителя.",
-    "good": "Проверь возраст, давность аттестата, требуемые заверения и доступность специальности иностранцам. Подготовь паспорт, перевод документов и документы, запрашиваемые платформой Study in Saudi.",
+    "must": "Проверь eligibility для external scholarship или self-funded health sciences, список доступных курсов, возраст/год выпуска, аттестат и нужный SAT порог.",
+    "good": "Свяжись с Deanship of Admission and Registration для проверки российского аттестата, языка курса, визы, жилья и актуального цикла.",
     "source": "https://dar.ksu.edu.sa/en/overseas"
   },
   "sources": [
     {
       "url": "https://dar.ksu.edu.sa/en/overseas",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "внешний и внутренний admission routes, требования для иностранных кандидатов"
+    },
+    {
+      "url": "https://vrea.ksu.edu.sa/en/node/374",
+      "accessed": "2026-11-26",
+      "covers": "финансирование scholarship students"
+    },
+    {
+      "url": "https://faculty.ksu.edu.sa/sites/default/files/KSU%20Scholarship%20Flyer%20EN.pdf",
+      "accessed": "2026-11-26",
+      "covers": "условия scholarship в официальной брошюре"
+    },
+    {
+      "url": "https://ksu.edu.sa/king-saud-libraries",
+      "accessed": "2026-11-26",
+      "covers": "центральные библиотеки и campus environment"
+    },
+    {
+      "url": "https://library.ksu.edu.sa/en",
+      "accessed": "2026-11-26",
+      "covers": "библиотечная инфраструктура и фотографии"
+    },
+    {
+      "url": "https://studyinsaudi.moe.gov.sa/",
+      "accessed": "2026-11-26",
+      "covers": "официальная система обучения и визового сопровождения"
+    },
+    {
+      "url": "https://identity.ksu.edu.sa/en/signage",
+      "accessed": "2026-11-26",
+      "covers": "официальные фотографии и навигация кампуса"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Подтвердить в международном офисе текущую визовую процедуру и точный список external scholarship программ на год подачи."
+  ],
+  "summary": "Крупный государственный университет Эр-Рияда. Для иностранцев, живущих за пределами Саудовской Аравии, официальный сайт описывает внешнюю стипендиальную подачу на ограниченный набор бакалаврских программ; отдельные платные места предусмотрены в некоторых health sciences.",
+  "intl_students_url": "https://dar.ksu.edu.sa/en/overseas",
+  "founded": 1957,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ar",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Отдельная внешняя scholarship-подача для кандидатов, живущих за пределами Саудовской Аравии",
+    "Доступные иностранцам программы ограничены и отличаются по маршруту",
+    "Некоторые scholarship-пакеты включают финансовую поддержку, но self-funded условия проверяются отдельно"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский/арабский — зависит от курса",
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    },
+    {
+      "name": "Bachelor of Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "арабский/английский — зависит от курса",
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    },
+    {
+      "name": "Bachelor of Medicine",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "английский/арабский — зависит от курса",
+      "url": "https://dar.ksu.edu.sa/en/overseas"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "min_score": "1010",
+        "note": "Опубликованный минимальный SAT для внешней scholarship-подачи; health-science self-funded route имеет свои условия, для medicine указан более высокий порог. Проверяй текущий цикл."
+      }
+    ],
+    "language_level": "Арабский или английский зависит от колледжа и выбранной программы; подтверждение языка проверяется индивидуально.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Признанный аттестат о среднем образовании",
+      "Перевод и требуемое заверение аттестата",
+      "Результат SAT/других указанных тестов",
+      "Медицинские и дополнительные документы курса",
+      "Документы scholarship или подтверждение самофинансирования"
+    ],
+    "notes": "Для внешней scholarship опубликованы ограничения по возрасту (обычно 17–25 лет) и давности школьного диплома; перечень курсов и требования зависят от внешнего/внутреннего статуса и цикла. Минимум не гарантирует место."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "KSU External Scholarship for Non-Saudis",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Внешний грантовый маршрут доступен кандидатам, живущим за рубежом, на ограниченный перечень программ. Конкретные условия, проживание и выплаты подтверждать по текущему объявлению.",
+        "url": "https://dar.ksu.edu.sa/en/overseas"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Saudi student visa",
+    "notes": "Визовый маршрут зависит от типа admission/scholarship и может оформляться через университет. После offer проверь актуальную Saudi student visa процедуру, документы, сроки и условия для российского паспорта.",
+    "url": "https://studyinsaudi.moe.gov.sa/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "На кампусе есть студенческая инфраструктура и жильё; доступность для иностранца зависит от типа гранта и конкретного предложения. Уточни у KSU, включено ли место и питание для выбранной external scholarship."
+  },
+  "photos": [
+    {
+      "file": "https://identity.ksu.edu.sa/sites/identity.ksu.edu.sa/files/imce_images/17.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://identity.ksu.edu.sa/ar/node/155",
+      "caption": "Вход в университетскую библиотеку"
+    },
+    {
+      "file": "https://news.ksu.edu.sa/sites/default/files/u2969/lmktb_1.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://news.ksu.edu.sa/ar/node/118952",
+      "caption": "Библиотека King Salman на кампусе"
+    },
+    {
+      "file": "https://library.ksu.edu.sa/sites/library.ksu.edu.sa/files/imce_images/jfy09.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://library.ksu.edu.sa/ar/node/1902",
+      "caption": "Зона для чтения и самостоятельной работы"
+    },
+    {
+      "file": "https://static.majalla.com/styles/780_scale/public/2025-11/199054.jpeg?VersionId=nQsbeALIc7jjTCbp6QSi6sXjBhsuyD.z",
+      "author": "Al Majalla",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://en.majalla.com/node/328298/culture-social-affairs/education-missing-pillar-us%E2%80%93saudi-partnership",
+      "caption": "Студенты в крытой галерее кампуса"
+    },
+    {
+      "file": "https://smapse.ru/storage/2020/04/converted/825_585_king-saud-university-ksu-7.jpg",
+      "author": "SMAPSE",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://smapse.ru/king-saud-university-ksu-universitet-korolya-sauda/",
+      "caption": "Студенты в арочной галерее университета"
+    }
+  ],
+  "data_year": 2027
 }

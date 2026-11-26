@@ -9,7 +9,7 @@
   "city": "Ватерлоо, Онтарио",
   "website": "https://uwaterloo.ca/",
   "admissions_url": "https://uwaterloo.ca/future-students/admissions/required-documents",
-  "about": "Публичный университет в Ватерлоо с крупными направлениями в математике, ИТ, инженерии и естественных науках. В ряде факультетов предусмотрены дополнительные анкеты о проектах и опыте.",
+  "about": "University of Waterloo — государственный исследовательский университет в городе Ватерлоо, Онтарио. Кампус объединяет факультеты математики, инженерии, науки и окружающей среды, библиотеки, мастерские, общежития и пространства для студенческих проектов. Вуз особенно известен кооперативным обучением: на многих программах студенты чередуют учебные семестры с оплачиваемой работой, но co-op не гарантирует конкретное место работы.\n\nПоступление для российских выпускников оценивается по школьной системе и требованиям конкретной программы; Waterloo публикует отдельные страницы по России и предметным prerequisite. Для ряда программ инженерии и математики нужно заполнить Admission Information Form, некоторые направления требуют дополнительную анкету или портфолио. Английский подтверждается тестом, если абитуриент не подпадает под опубликованное освобождение; у университета есть баллы и подуровни по тестам. Международная стоимость для 2026/27/2027 зависит от факультета: ориентир порядка CAD 51–74 тыс. tuition за год, сверх него жильё, питание и сборы. Иностранцам нужен канадский study permit; университет объясняет получение PAL. Жильё предоставляется через разные резиденции, а гарантия зависит от дедлайна подачи и статуса кандидата.",
   "areas": [
     "it",
     "engineering",
@@ -34,17 +34,209 @@
   },
   "sources": [
     {
+      "url": "https://uwaterloo.ca/future-students/admissions/deadlines",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/financing/tuition",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/international-students/study-permits",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
       "url": "https://uwaterloo.ca/future-students/admissions/required-documents",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/missing-manual/student-life/what-its-live-residence",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-students/missing-manual/student-life/six-free-things-do-waterloo-region",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://uwaterloo.ca/engineering/news/industry-challenges-students-design-workplace-ready",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://uwaterloo.ca/future-graduate-students/catalogs/future-graduate-student-research-opportunities/chronicling-loss-reimagined-archives-wake-disaster",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Для выбранной программы сверить конкретный срок и критерии residence guarantee; индивидуальная цена зависит от программы."
+  ],
+  "summary": "Исследовательский университет в Онтарио, известный математикой, инженерией, ИТ и co-op программами. Требования к российским абитуриентам и дополнительные анкеты различаются по специальностям.",
+  "data_year": 2027,
+  "founded": 1957,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Известные co-op программы",
+    "Отдельные российские требования по программам",
+    "Много инженерных и проектных пространств"
+  ],
+  "intl_students_url": "https://uwaterloo.ca/future-students/admissions/deadlines",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/computer-science/high-school/international-system/russia"
+    },
+    {
+      "name": "Software Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/software-engineering/high-school/international-system/russia"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements/mechanical-engineering/high-school/international-system/russia"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 51000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентировочный международный tuition за учебный год по опубликованным диапазонам; стоимость программы может выйти за пределы ориентира, жильё отдельно."
+    },
+    "tuition_max": {
+      "amount": 74000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентировочный международный tuition за учебный год по опубликованным диапазонам; стоимость программы может выйти за пределы ориентира, жильё отдельно."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "7.0",
+        "note": "Порог и минимумы по компонентам сверять по текущей таблице; освобождение возможно по истории обучения."
+      }
+    ],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Российские требования опубликованы отдельно; нужные предметы и дополнительные формы сильно различаются между факультетами."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Study permit (Canada)",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://uwaterloo.ca/future-students/international-students/study-permits"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Несколько типов резиденций и университетских колледжей; правила гарантии зависят от программы и сроков подачи заявления на жильё. Стоимость зависит от корпуса, комнаты и плана питания."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка на осень 2027; многие программы имеют дедлайн 15 февраля, документы могут иметь отдельные даты",
+      "end": "2027-02-15",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://uwaterloo.ca/engineering/sites/default/files/styles/uw_is_ig_medium/public/uploads/images/ideas-clinic-tmmc.jpg?itok=ogvfoszb",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://uwaterloo.ca/engineering/news/industry-challenges-students-design-workplace-ready",
+      "caption": "Студенческая инженерная мастерская Ideas Clinic"
+    },
+    {
+      "file": "https://uwaterloo.ca/future-graduate-students/sites/default/files/uploads/images/69_17_.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://uwaterloo.ca/future-graduate-students/catalogs/future-graduate-student-research-opportunities/chronicling-loss-reimagined-archives-wake-disaster",
+      "caption": "Учебное пространство библиотеки"
+    },
+    {
+      "file": "https://uwaterloo.ca/future-students/sites/default/files/uploads/resize/residence-_-undergraduate-programs-_-university-of-waterloo-700x475.png",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://uwaterloo.ca/future-students/",
+      "caption": "Жилой корпус и кампус Waterloo"
+    },
+    {
+      "file": "https://uwaterloo.ca/future-students/sites/default/files/uploads/images/where_study_700x475-1.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://uwaterloo.ca/future-students/missing-manual/student-life/what-its-live-residence",
+      "caption": "Общая зона для занятий в резиденции"
+    },
+    {
+      "file": "https://uwaterloo.ca/future-students/sites/default/files/uploads/images/live_in_residence_700x475_1.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://uwaterloo.ca/future-students/missing-manual/student-life/six-free-things-do-waterloo-region",
+      "caption": "Интерьер университетского жилья"
+    }
   ]
 }

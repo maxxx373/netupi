@@ -8,42 +8,194 @@
   "country": "SE",
   "city": "Стокгольм",
   "website": "https://www.kth.se/en",
-  "admissions_url": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312",
-  "about": "Технологический университет Стокгольма с программами по инженерии, ИТ, архитектуре, строительству и устойчивым технологиям.",
+  "admissions_url": "https://www.kth.se/en/studies/bachelor",
+  "about": "KTH Royal Institute of Technology — государственный технический университет Стокгольма, основанный в 1827 году. Университет объединяет несколько кампусов и специализируется на инженерии, технологиях, архитектуре, естественных науках, устойчивом развитии и цифровых направлениях. Городской кампус сочетает исторические корпуса, современные лаборатории, библиотеки, учебные пространства и студенческие объединения.\n\nДля иностранного школьника важно учитывать язык: KTH сообщает, что единственная обычная программа бакалавриата, полностью преподаваемая на английском, — Information and Communication Technology (180 ECTS, 3 года); для большинства остальных бакалаврских программ нужен шведский. Для англоязычной программы требуется завершённое среднее образование, математика и английский, а конкурс оценивается по конкретным правилам приёма. Опубликованная плата за ICT составляет SEK 423,000 за весь трёхлетний курс; заявочный сбор для кандидатов вне ЕС/ЕЭЗ — SEK 900. На уровне бакалавриата KTH не предлагает собственных tuition scholarships.\n\nПодача для иностранных кандидатов обычно идёт через Universityadmissions.se и имеет ранний общий дедлайн; даты нового набора сверяй на официальной странице. Студенты, которым нужна плата за обучение, могут иметь право на жильё на первый год при выполнении условий KTH Housing, но гарантия зависит от срока поступления, оплаты и заявки. Гражданину России для обучения дольше 90 дней потребуется шведский ВНЖ для учёбы; требуются зачисление, оплата и подтверждение средств по правилам Миграционного агентства.",
   "areas": [
+    "information and communication technology",
     "engineering",
-    "construction",
     "architecture",
-    "it",
-    "science",
-    "materials",
-    "environment"
+    "physics",
+    "sustainability"
   ],
   "art": "modern",
   "fields": [
     "engineering",
-    "architecture",
     "it",
+    "architecture",
     "natural_sciences"
   ],
   "prep": {
-    "must": "Заявки на бакалавриат подаются через University Admissions Sweden. Проверь общие требования к завершённому среднему образованию, предметные prerequisites и английский для программы.",
-    "good": "Подготовь документы по правилам своей образовательной системы и переводы. На бакалавриате KTH выбор англоязычных программ ограничен, поэтому внимательно проверь язык курса.",
-    "source": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312"
+    "must": "Проверь соответствие школьного образования, английского и математики требованиям ICT; подавай через Universityadmissions.se в установленный раунд.",
+    "good": "Заранее изучи жильё KTH Housing и подготовь подтверждение средств для шведского ВНЖ.",
+    "source": "https://www.kth.se/en/studies/bachelor"
   },
   "sources": [
     {
-      "url": "https://www.kth.se/en/studies/bachelor/how-to-apply-for-bachelor-s-studies-1.450312",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.kth.se/en/studies/bachelor",
+      "accessed": "2026-11-26",
+      "covers": "англоязычные и шведоязычные программы бакалавриата"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/fees-1.646274",
+      "accessed": "2026-11-26",
+      "covers": "плата за обучение и application fee"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/accommodation-for-new-students-1.529520",
+      "accessed": "2026-11-26",
+      "covers": "условия получения жилья для новых студентов"
+    },
+    {
+      "url": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html",
+      "accessed": "2026-11-26",
+      "covers": "ВНЖ для обучения в Швеции"
+    },
+    {
+      "url": "https://www.universityadmissions.se/en/",
+      "accessed": "2026-11-26",
+      "covers": "общая подача и требования для иностранных абитуриентов"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/master/innovative-technology-for-healthy-living",
+      "accessed": "2026-11-26",
+      "covers": "кампусная фотография и учебная среда"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Перед заявкой на конкретный год повторно проверить окна подачи, доказательство English 6 и суммы средств для ВНЖ."
+  ],
+  "summary": "Технический университет в Стокгольме. Среди бакалаврских программ на английском указан BSc Information and Communication Technology; большинство других программ бакалавриата ведутся на шведском.",
+  "intl_students_url": "https://www.kth.se/en/studies/bachelor",
+  "founded": 1827,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "sv"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Англоязычный бакалавриат ICT — трёхлетняя программа",
+    "Большинство бакалаврских программ KTH требуют шведский язык",
+    "Плата ICT опубликована как SEK 423,000 за всю программу"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Information and Communication Technology",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 423000,
+        "currency": "SEK",
+        "period": "total",
+        "note": "Официальная общая стоимость программы; заявочный сбор SEK 900 оплачивается отдельно."
+      },
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Точный минимальный балл смотри в требованиях English 6 для выбранного года и квалификации."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Допустимый тест и эквивалентный минимум сверяй с официальными правилами University Admissions."
+      }
+    ],
+    "language_level": "Для англоязычной ICT необходимо соответствовать English 6; большинство других бакалаврских программ требуют шведский.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Паспорт",
+      "Документ о полном среднем образовании и оценки",
+      "Подтверждение математики на требуемом уровне",
+      "Подтверждение английского или признанное освобождение",
+      "Переводы документов по требованиям University Admissions"
+    ],
+    "notes": "Проверяются как общая, так и предметная eligibility; формальное соответствие минимуму не гарантирует место."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 141000,
+      "currency": "SEK",
+      "period": "year",
+      "note": "Расчёт из официальной общей стоимости ICT SEK 423,000 за 3 года; фактические платежи по семестрам и расходы на жизнь отдельно."
+    },
+    "tuition_max": {
+      "amount": 141000,
+      "currency": "SEK",
+      "period": "year",
+      "note": "Единственная англоязычная программа бакалавриата; стоимость может быть обновлена для нового набора."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Residence permit for higher education",
+    "notes": "Для учёбы более 90 дней гражданину России обычно нужен ВНЖ для обучения. Проверь актуальные условия: зачисление, оплату и достаточные средства подтверждают по требованиям Миграционного агентства Швеции.",
+    "url": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "KTH сообщает о возможности гарантированного жилья на первый год для ряда fee-paying студентов и получателей KTH tuition scholarship при соблюдении условий. Заявка подаётся после admission/оплаты; наличие и правила для конкретного набора нужно подтвердить."
+  },
+  "photos": [
+    {
+      "file": "https://www.kth.se/polopoly_fs/1.676191.1733400381!/image/Civil-and-Architectural-Engineering.webp",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.kth.se/en/studies/master/civil-and-architectural-engineering",
+      "caption": "Инженерные корпуса и архитектурные направления"
+    },
+    {
+      "file": "https://www.cesis.kth.se/polopoly_fs/1.1319543.1708697360!/image/_DSC6238_header.jpg",
+      "author": "KTH research centre",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.cesis.kth.se/2.411/sociala-medier",
+      "caption": "Кампус и пространство KTH"
+    },
+    {
+      "file": "https://www.kth.se/polopoly_fs/1.915753.1735820053!/image/Innovative-Technology-for-Healthy-Living.webp",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.kth.se/en/studies/master/innovative-technology-for-healthy-living",
+      "caption": "Современная учебная и исследовательская среда"
+    },
+    {
+      "file": "https://www.kth.se/polopoly_fs/1.1159901.1793021501!/image/graduation.jpg",
+      "author": "KTH / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.kth.se/en/studies/bachelor",
+      "caption": "Выпускники KTH и университетская среда"
+    },
+    {
+      "file": "https://i0.wp.com/www.kth.se/blogs/studentblog/files/2023/01/IMG_1244-edited.jpg?resize=1200%2C900&ssl=1",
+      "author": "KTH Student blog",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.kth.se/blogs/studentblog/2023/01/back-to-school-the-spring-semester-begins/",
+      "caption": "Студенческая жизнь: начало семестра"
+    }
+  ],
+  "data_year": 2027
 }

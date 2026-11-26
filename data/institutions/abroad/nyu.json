@@ -9,7 +9,7 @@
   "city": "Нью-Йорк, Нью-Йорк",
   "website": "https://www.nyu.edu/",
   "admissions_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
-  "about": "Частный исследовательский университет в Нью-Йорке с программами в бизнесе, искусстве, медиа, социальных науках, международных исследованиях и других направлениях.",
+  "about": "New York University — частный исследовательский университет, центральный кампус которого расположен вокруг Washington Square в Манхэттене. Университетские корпуса встроены в городскую среду, а не огорожены в единый кампус; отдельные учебные здания, библиотеки, студенческие резиденции и пространства для выступлений находятся в разных районах Нью-Йорка. NYU включает College of Arts and Science, Tandon Engineering, Stern Business, Tisch Arts и другие школы; выбор программ охватывает науку, технологии, бизнес, искусство и медиа.\n\nКандидаты на первый курс подают Common Application, выбирают кампус и школу, прикладывают школьные оценки и материалы конкретного подразделения. Политика стандартизированных тестов зависит от года поступления и школы; для цикла 2027–28 NYU объявил test-optional. Для поступления иностранцу могут потребоваться подтверждения английского и официальные переводы школьных документов. Сроки ранней и обычной подачи различаются; для типичного осеннего набора нужно следить за календарём NYU и отдельными требованиями Tisch или иных школ. Стоимость обучения и жизни — одна из самых высоких в США: бюджет 2026/27 для бакалавриата в Нью-Йорке часто превышает $100 тыс. в год с проживанием, однако точная tuition зависит от школы и кредитной нагрузки. Места в резиденциях доступны, но распределение и цена меняются по зданию. Для учёбы потребуется F-1, I-20 и подтверждение средств.",
   "areas": [
     "business",
     "economics",
@@ -29,7 +29,9 @@
     "law",
     "linguistics",
     "international_relations",
-    "psychology"
+    "psychology",
+    "it",
+    "engineering"
   ],
   "prep": {
     "must": "Заявка для первого курса через Common Application; академические документы; дополнительные вопросы/материалы выбранного подразделения. Для абитуриентов, которым английский не родной и не был языком обучения, обычно нужен языковой экзамен.",
@@ -39,16 +41,223 @@
   "sources": [
     {
       "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://bulletins.nyu.edu/undergraduate/arts/cost-attendance/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.nyu.edu/students/student-information-and-resources/housing.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.law.nyu.edu/registrar",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://cims.nyu.edu/ai/educational-programs/pathways-ai/",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://nyuoneday.org/campaigns/nyu-fund",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.law.nyu.edu/library",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://architizer.com/projects/john-a-paulson-center/",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить точные дедлайны 2027 и требования школы/кампуса: отдельные подразделения NYU имеют дополнительные материалы."
+  ],
+  "summary": "Частный университет в центре Нью-Йорка, чьи учебные здания и резиденции встроены в город. Программы включают бизнес, инженерию, компьютерные науки, искусство, кино и социальные дисциплины.",
+  "data_year": 2027,
+  "founded": 1831,
+  "city_size": "mega",
+  "ownership": "private",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Городской формат вокруг Washington Square",
+    "Несколько школ с разными процедурами и стоимостью",
+    "Резиденции находятся в разных районах Нью-Йорка"
+  ],
+  "intl_students_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://cs.nyu.edu/home/undergrad/"
+    },
+    {
+      "name": "Business",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://www.stern.nyu.edu/programs-admissions/undergraduate"
+    },
+    {
+      "name": "Film and Television",
+      "field": "media",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://tisch.nyu.edu/film-tv"
+    },
+    {
+      "name": "Interactive Media Arts",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://tisch.nyu.edu/itp/undergraduate"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 68576,
+      "currency": "USD",
+      "period": "year",
+      "note": "Диапазон tuition + проживания и питания из ориентиров NYU 2026/27 по разным школам; расходы отличаются по кампусу, школе и размещению."
+    },
+    "tuition_max": {
+      "amount": 107748,
+      "currency": "USD",
+      "period": "year",
+      "note": "Диапазон tuition + проживания и питания из ориентиров NYU 2026/27 по разным школам; расходы отличаются по кампусу, школе и размещению."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Need-based / entrance financial aid",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
+        "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Common App и материалы выбранной школы; NYU test-optional для цикла 2027–28, но правила школы могут отличаться."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1 student visa",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университет предлагает резиденции в разных районах Манхэттена и Бруклина. Заявка, распределение и стоимость отличаются по кампусу и зданию; проживание в Нью-Йорке следует закладывать отдельной крупной статьёй расходов."
+  },
+  "deadlines": [
+    {
+      "what": "Early Decision I — ориентировочно",
+      "end": "2026-11-01",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Regular Decision — ориентировочно",
+      "end": "2027-01-05",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.law.nyu.edu/sites/default/files/2025-06/OHO_Hero_Students_26_1.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.law.nyu.edu/registrar",
+      "caption": "Студенты у Washington Square Arch"
+    },
+    {
+      "file": "https://cims.nyu.edu/media/ai/carousel_photos/IMG_9798__1_.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://cims.nyu.edu/ai/educational-programs/pathways-ai/",
+      "caption": "Занятие и командная работа в аудитории"
+    },
+    {
+      "file": "https://www.law.nyu.edu/sites/default/files/2025-06/OHO_Hero_Library_02.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.law.nyu.edu/library",
+      "caption": "Читальный зал библиотеки NYU Law"
+    },
+    {
+      "file": "https://architizer-prod.imgix.net/media/mediadata/uploads/16963451455690864_N445_pptxlarge.jpg?auto=format%2Ccompress&cs=strip&q=60&w=1680",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://architizer.com/projects/john-a-paulson-center/",
+      "caption": "Интерьер John A. Paulson Center; фото проекта на Architizer"
+    },
+    {
+      "file": "https://gw-advance-prod-us-east-1-system.s3.amazonaws.com/uploads/campaign_image/name/65e638490bc816247e8015fa/8fb5f714-d3e5-4f07-8531-b72a866252e0.jpeg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://nyuoneday.org/campaigns/nyu-fund",
+      "caption": "Студенты в учебном пространстве NYU"
+    }
   ]
 }

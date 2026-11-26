@@ -9,7 +9,7 @@
   "city": "Нью-Хейвен, Коннектикут",
   "website": "https://www.yale.edu/",
   "admissions_url": "https://admissions.yale.edu/requirements",
-  "about": "Частный исследовательский университет с бакалаврским колледжем и сильной системой академических подразделений. Студенты выбирают из широкого круга гуманитарных, социальных и естественно-научных программ.",
+  "about": "Yale University — частный исследовательский университет в Нью-Хейвене, штат Коннектикут. Бакалавриат устроен вокруг residential colleges: студенты разных курсов живут в одном из колледжей с общими дворами, столовыми, библиотеками и пространствами для встреч, а занятия проходят также в общеуниверситетских корпусах и лабораториях. Yale предлагает широкий выбор гуманитарных, естественных, социальных и инженерных направлений; медицинская школа предназначена для последующего профессионального образования.\n\nИностранные кандидаты подают ту же заявку первого курса, что и остальные абитуриенты: Common Application, Coalition Application или QuestBridge, школьные оценки, рекомендации, эссе и результаты тестирования по текущей политике Yale. С 2025 года вуз требует SAT или ACT, с ограниченными альтернативами для тех, кому тест недоступен; условия подтверждения английского для части кандидатов зависят от языка и длительности обучения в школе. Early Action обычно завершается 1 ноября, Regular Decision — 2 января. Yale публикует полную стоимость обучения и жизни отдельно; ориентир на 2026/27 — tuition около $69 тыс. в год, полный бюджет выше $90 тыс. Need-based помощь доступна и иностранным студентам на тех же принципах, что американцам; запрос не влияет на решение о зачислении. Первокурсники размещаются в residential colleges. После зачисления студент оформляет F-1 через Yale Office of International Students and Scholars.",
   "areas": [
     "science",
     "law",
@@ -29,7 +29,9 @@
     "media",
     "medicine",
     "psychology",
-    "international_relations"
+    "international_relations",
+    "humanities",
+    "engineering"
   ],
   "prep": {
     "must": "Заявка первого курса через Common App, Coalition Application или QuestBridge; школьные документы и рекомендации; стандартные тесты в соответствии с действующей политикой Yale.",
@@ -38,17 +40,233 @@
   },
   "sources": [
     {
-      "url": "https://admissions.yale.edu/requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://admissions.yale.edu/international",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admissions.yale.edu/standardized-testing",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admissions.yale.edu/timelines",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admissions.yale.edu/affordability",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admissions.yale.edu/residential-colleges",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://oiss.yale.edu/immigration/f-1-students",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://yalealumnimagazine.org/articles/4607-the-new-college-try",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://admissions.yale.edu/bulldogs-blogs/max/2017/02/26/living-history-sterling-memorial-library",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://news.yale.edu/2017/04/24/yale-s-newest-stem-labs-teaching-takes-bold-step-forward",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://admissions.yale.edu/bulldogs-blogs/bernice/2022/03/31/residential-colleges-yale-debunked",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.ramsa.com/projects/project/yale-residential-colleges",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить опубликованный полный бюджет 2027/28 после выхода новой таблицы; тестовые альтернативы зависят от доступности экзамена в стране."
+  ],
+  "summary": "Частный исследовательский университет в Нью-Хейвене с системой residential colleges: у студентов есть жилой колледж, общие пространства и отдельные академические корпуса. Иностранные первокурсники следуют общей процедуре подачи и тестовой политике Yale.",
+  "data_year": 2027,
+  "founded": 1701,
+  "city_size": "mid",
+  "ownership": "private",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Система residential colleges",
+    "Иностранцам доступна need-based помощь",
+    "Поступление включает обязательные SAT/ACT по текущей политике"
+  ],
+  "intl_students_url": "https://admissions.yale.edu/international",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/computer-science/"
+    },
+    {
+      "name": "Economics",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/economics/"
+    },
+    {
+      "name": "Environmental Studies",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/environmental-studies/"
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/architecture/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 69000,
+      "currency": "USD",
+      "period": "year",
+      "note": "Ориентир tuition и полного бюджета 2026/27: tuition около $69 тыс., общая стоимость с проживанием, питанием и сборами выше; зависит от личных расходов."
+    },
+    "tuition_max": {
+      "amount": 95000,
+      "currency": "USD",
+      "period": "year",
+      "note": "Ориентир tuition и полного бюджета 2026/27: tuition около $69 тыс., общая стоимость с проживанием, питанием и сборами выше; зависит от личных расходов."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Need-based / entrance financial aid",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Финансовая помощь и право иностранных студентов зависят от политики университета и конкретной программы; проверь условия до подачи.",
+        "url": "https://admissions.yale.edu/residential-colleges"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "note": "SAT или ACT обязателен по текущей политике, предусмотрены альтернативные тесты только при ограниченной доступности."
+      },
+      {
+        "exam": "ACT",
+        "note": "Альтернатива SAT по действующей политике Yale."
+      }
+    ],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Подай общую first-year application и школьные документы; SAT/ACT включены в текущую тестовую политику."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "F-1 student visa",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://oiss.yale.edu/immigration/f-1-students"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "Все бакалавры входят в один из residential colleges и живут в университетском жилье; первокурсников распределяют по колледжам. План питания и жильё учитываются в опубликованном бюджете."
+  },
+  "deadlines": [
+    {
+      "what": "Single-Choice Early Action",
+      "end": "2026-11-01",
+      "intake": "осень 2027"
+    },
+    {
+      "what": "Regular Decision",
+      "end": "2027-01-02",
+      "intake": "осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://admissions.yale.edu/sites/default/files/styles/admissions_blog_blog_page_760x__/public/bulldogs-blogs/td.jpg?itok=zKQll2xo",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://admissions.yale.edu/bulldogs-blogs/bernice/2022/03/31/residential-colleges-yale-debunked",
+      "caption": "Двор жилого колледжа и студенты"
+    },
+    {
+      "file": "https://admissions.yale.edu/sites/default/files/styles/admissions_blog_blog_page_760x__/public/bulldogs-blogs/blogcover_0.jpg?itok=B4IOJ10T",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://admissions.yale.edu/bulldogs-blogs/max/2017/02/26/living-history-sterling-memorial-library",
+      "caption": "Интерьер Sterling Memorial Library"
+    },
+    {
+      "file": "https://news.yale.edu/sites/default/files/d6_files/White-coats.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://news.yale.edu/2017/04/24/yale-s-newest-stem-labs-teaching-takes-bold-step-forward",
+      "caption": "Учебные лаборатории STEM"
+    },
+    {
+      "file": "https://www.ramsa.com/sites/default/files/2017A72_818_HR.jpg",
+      "author": "RAMSA",
+      "license": "© RAMSA; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.ramsa.com/projects/project/yale-residential-colleges",
+      "caption": "Общее пространство нового колледжа; источник — архитектурное бюро RAMSA"
+    },
+    {
+      "file": "https://yalealumnimagazine.org/uploads/images/8500085/1509565801/NEWCOLLEGES_dorm.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://yalealumnimagazine.org/articles/4607-the-new-college-try",
+      "caption": "Комната в новом residential college"
+    }
   ]
 }

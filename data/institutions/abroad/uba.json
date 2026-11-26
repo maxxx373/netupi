@@ -8,21 +8,19 @@
   "country": "AR",
   "city": "Буэнос-Айрес",
   "website": "https://www.uba.ar/",
-  "admissions_url": "https://www.uba.ar/estudiantesextranjeros",
-  "about": "Крупный государственный университет Аргентины с факультетами медицины, права, архитектуры, инженерии, ветеринарии, сельского хозяйства и естественных наук.",
+  "admissions_url": "https://www.uba.ar/ingresouba",
+  "about": "Universidad de Buenos Aires (UBA) — государственный исследовательский университет, основанный в 1821 году. Факультеты расположены в разных районах Буэнос-Айреса: медицина и психология, право, точные и естественные науки, инженерия, архитектура, экономика, ветеринария, агрономия и социальные дисциплины. Вуз соединяет монументальные исторические корпуса, городские учебные площадки, библиотеки, клиники и исследовательские центры. Основной язык преподавания — испанский.\n\nСтандартный путь к степени бакалавра проходит через Ciclo Básico Común (CBC), после которого студент продолжает программу в выбранном факультете; доступны очная и частично онлайн-формы через UBA XXI. Иностранные школьники могут подать документы, но для учёбы нужен завершённый и конвалидированный в Аргентине школьный аттестат, удостоверение личности и, когда требуется, подтверждение достаточного испанского. Точные даты регистрации и последовательность легализации определяются ежегодно; для иностранного кандидата без постоянного проживания предусмотрен отдельный правовой режим.\n\nUBA описывает undergraduate путь как государственное обучение без единой рыночной tuition, однако в 2025–26 году обсуждались/менялись правила платы для иностранцев без постоянного проживания. Поэтому не следует обещать бесплатное обучение всем российским кандидатам: перед подачей запросите письменное подтверждение политики UBA для своего миграционного статуса, курса и года. Университет не предоставляет централизованное общежитие для всех студентов; жильё обычно ищут в Буэнос-Айресе самостоятельно. Для проживания с целью регулярной учёбы гражданину России следует получить соответствующий student residence в миграционном ведомстве Аргентины после проверки визовых правил.",
   "areas": [
     "science",
     "engineering",
-    "construction",
     "architecture",
     "medicine",
     "law",
-    "botany",
     "agriculture",
-    "veterinary",
-    "economics"
+    "economics",
+    "social sciences"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
@@ -30,26 +28,180 @@
     "medicine",
     "law",
     "agriculture",
-    "economics"
+    "economics",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Проверь правила зачисления иностранцев в зависимости от статуса и страны диплома. Для ряда поступающих предусмотрены признание аттестата и обязательный Ciclo Básico Común; обучение в основном на испанском.",
-    "good": "Начни с подтверждения уровня испанского и оформления аттестата/его эквивалентности. Отдельно уточни требования факультета и документы для проживания.",
-    "source": "https://www.uba.ar/estudiantesextranjeros"
+    "must": "Уточни с CBC/UBA международный маршрут, подготовь convalidación школьного аттестата и переводы, проверь испанский и регистрацию в установленное окно.",
+    "good": "До планирования бюджета получи письменное подтверждение цены/льгот для граждан России без постоянного резидентства и найди жильё отдельно.",
+    "source": "https://codigo.rec.uba.ar/codigo_uba/libro-i-normas-generales-de-la-universidad-de-buenos-aires-1/titulo-14-regimen-de-admision-de-estudiantes-extranjeros-e-internacionales-para-el-nivel-de-grado/capitulo-b-de-los-estudiantes-extranjeros/"
   },
   "sources": [
     {
+      "url": "https://codigo.rec.uba.ar/codigo_uba/libro-i-normas-generales-de-la-universidad-de-buenos-aires-1/titulo-14-regimen-de-admision-de-estudiantes-extranjeros-e-internacionales-para-el-nivel-de-grado/capitulo-b-de-los-estudiantes-extranjeros/",
+      "accessed": "2026-11-26",
+      "covers": "официальные правила для иностранных студентов бакалавриата"
+    },
+    {
+      "url": "https://codigo.rec.uba.ar/codigo_uba/libro-i-normas-generales-de-la-universidad-de-buenos-aires-1/titulo-16-ciclo-basico-comun/capitulo-c-regimen-para-el-ciclo-basico-comun-de-inscripcion-cursado-evaluacion-y-promocion-de-asignaturas/",
+      "accessed": "2026-11-26",
+      "covers": "CBC регистрация и документы"
+    },
+    {
+      "url": "https://www.uba.ar/ingresouba",
+      "accessed": "2026-11-26",
+      "covers": "процедура поступления через CBC/UBA XXI"
+    },
+    {
       "url": "https://www.uba.ar/estudiantesextranjeros",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "информация иностранным студентам"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/migraciones/residencias/estudiante",
+      "accessed": "2026-11-26",
+      "covers": "студенческая резиденция в Аргентине"
+    },
+    {
+      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
+      "accessed": "2026-11-26",
+      "covers": "порядок признания иностранного среднего образования для CBC"
+    },
+    {
+      "url": "https://www.uba.ar/",
+      "accessed": "2026-11-26",
+      "covers": "университет и факультеты"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Перед набором запросить официальное разъяснение UBA о tuition policy для иностранных студентов без постоянного резидентства: не полагаться на прежние утверждения о безусловной бесплатности."
+  ],
+  "summary": "Крупный государственный университет Буэнос-Айреса. Большинство бакалаврских степеней начинается с общего базового цикла CBC; обучение ведётся преимущественно на испанском.",
+  "intl_students_url": "https://www.uba.ar/estudiantesextranjeros",
+  "founded": 1821,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "highlights": [
+    "Для большинства степеней первым этапом является базовый цикл CBC",
+    "Можно изучать предметы CBC также через дистанционную программу UBA XXI",
+    "Иностранный школьный диплом требует конвалидации и легализации"
+  ],
+  "programs": [
+    {
+      "name": "Medicina",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 6,
+      "url": "https://www.fmed.uba.ar/"
+    },
+    {
+      "name": "Abogacía",
+      "field": "law",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 5,
+      "url": "https://www.derecho.uba.ar/"
+    },
+    {
+      "name": "Ingeniería en Informática",
+      "field": "it",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 5,
+      "url": "https://www.fi.uba.ar/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Большинство степеней начинается с CBC; дополнительные экзамены возможны по факультету/программе."
+      }
+    ],
+    "language_level": "Испанский; для некоторых международных абитуриентов подтверждается минимальный уровень по правилам UBA.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Паспорт или аргентинский DNI",
+      "Аттестат о полном среднем образовании",
+      "Конвалидация иностранного аттестата Министерством образования Аргентины",
+      "Апостиль/легализация и перевод на испанский",
+      "Документы для миграционного статуса студента",
+      "Подтверждение испанского, если требуется"
+    ],
+    "notes": "Нормативный код UBA описывает отдельные требования для иностранных студентов с постоянной и временной резиденцией, включая конвалидацию аттестата, идентификацию и минимальный испанский. Проверь действующую реализацию с CBC."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student temporary residence (Argentina)",
+    "notes": "Для длительного обучения потребуется легальный студенческий миграционный статус; UBA относит студентов к подкатегории J. Перед подачей проверь актуальный порядок въезда/резиденции для граждан России и документы в Dirección Nacional de Migraciones.",
+    "url": "https://www.argentina.gob.ar/migraciones/residencias/estudiante"
+  },
+  "dorm": {
+    "available": false,
+    "guaranteed_first_year": false,
+    "notes": "Единой системы общежитий для всех факультетов нет. UBA — городской университет с разнесёнными корпусами; иностранцы обычно самостоятельно ищут аренду в Буэнос-Айресе недалеко от факультета."
+  },
+  "photos": [
+    {
+      "file": "https://www.derecho.uba.ar/comunicaciones/content/noticias/modificacion-del-acceso-de-la-calle-julio-v-gonzalez-durante-las-obras-de-reparacion-de-cornisas-del-edificio.29211.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.derecho.uba.ar/noticias/2024/modificacion-del-acceso-de-la-calle-julio-v-gonzalez-durante-las-obras-de-reparacion-de-cornisas-del-edificio",
+      "caption": "Студенты у монументального корпуса Facultad de Derecho"
+    },
+    {
+      "file": "https://www.lahora.com.ec/__export/1744755445686/sites/lahora/img/2025/04/15/20250415_041723639_Cada_vez_mxs_jxvenes_viajan_al_exterior_20230826-0006.jpg",
+      "author": "La Hora",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.lahora.com.ec/esmeraldas/Cada-vez-mas-jovenes-viajan-a-estudiar-en-el-exterior-20230826-0006.html",
+      "caption": "Факультет медицинских наук UBA"
+    },
+    {
+      "file": "https://blogs.qut.edu.au/crime-and-justice-research-centre/files/2018/11/UBA-staff-photo-e1542251758587.jpg",
+      "author": "Queensland University of Technology",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://blogs.qut.edu.au/crime-and-justice-research-centre/2018/11/15/school-of-justice-faculty-of-law-staff-visit-faculty-of-law-university-of-buenos-aires/",
+      "caption": "Историческая лестница Facultad de Derecho"
+    },
+    {
+      "file": "https://media2.utp.edu.co/programas/5/5-4.jpg",
+      "author": "Universidad Tecnológica de Pereira",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://educacion.utp.edu.co/destacados/el-dr-diego-leandro-marin-ossa-figura-clave-en-la-reflexion-sobre-el-tecnocapitalismo-y-la-investigacion-narrativa-en-el-seminario-iice-de-la-universidad-de-buenos-aires/",
+      "caption": "Участники семинара у корпуса философии и литературы"
+    },
+    {
+      "file": "https://pbs.twimg.com/media/HEv0JZVXMAAsYe_.jpg",
+      "author": "Exactas UBA",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://x.com/Exactas_UBA",
+      "caption": "Студенческая лестница факультета точных наук"
+    }
+  ],
+  "data_year": 2027
 }

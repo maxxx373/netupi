@@ -2,14 +2,16 @@
   "id": "melbourne",
   "type": "university",
   "name": {
-    "ru": "The University of Melbourne",
-    "en": "The University of Melbourne"
+    "ru": "Мельбурнский университет",
+    "en": "The University of Melbourne",
+    "local": "The University of Melbourne",
+    "short": "UniMelb"
   },
   "country": "AU",
   "city": "Мельбурн",
   "website": "https://www.unimelb.edu.au/",
   "admissions_url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements",
-  "about": "Исследовательский университет с программами по биологии, ботанике, сельскому хозяйству, ветеринарии, инженерии, архитектуре и медицине.",
+  "about": "Университет расположен в Мельбурне, штат Виктория; основной кампус Parkville известен зелёными дворами, историческими зданиями и современными центрами для учёбы. Международные заявки на бакалавриат подаются напрямую. Российская квалификация оценивается по страновым правилам университета и требованиям конкретного курса; нельзя переносить проходной ATAR для австралийских выпускников на российских заявителей. Международная стоимость зависит от курса и набора предметов. Принимающимся студентам нужна австралийская Student visa (subclass 500), OSHC, а студентам младше 18 лет — утверждённые университетом проживание и надзор.",
   "areas": [
     "science",
     "engineering",
@@ -29,26 +31,288 @@
     "architecture",
     "medicine",
     "law",
-    "agriculture"
+    "agriculture",
+    "business",
+    "economics",
+    "humanities",
+    "social_sciences",
+    "design_art",
+    "psychology"
   ],
   "prep": {
-    "must": "Для международного бакалавриата нужны признанная квалификация эквивалентная Year 12, минимальный балл курса, обязательные предметы и подтверждение английского. Условия публикуются отдельно по степеням.",
-    "good": "Сверь страновую эквивалентность оценок и предметные prerequisites, а также способ подачи для своей системы образования. Для некоторых программ требуются интервью, прослушивание или иные задания.",
-    "source": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements"
+    "must": "Проверь на странице выбранного курса, какой российский школьный результат и какие предметы нужны, затем подай прямую заявку и приложи академические документы и английский. На февральский набор 2027 текущая дата закрытия заявок — 30 ноября 2026.",
+    "good": "Сравни курс и будущую профессию: некоторые лицензируемые направления требуют postgraduate study. Подай заявку на жильё заранее, заложи плату курса и OSHC; если тебе ещё нет 18 лет, заранее согласуй проживание и welfare supervision.",
+    "source": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications"
   },
   "sources": [
     {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/applications",
+      "accessed": "2026-11-25",
+      "covers": "Способ подачи, сроки 2027, international undergraduate"
+    },
+    {
       "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Международные требования, страна и курс"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/fees-and-payments",
+      "accessed": "2026-11-25",
+      "covers": "International fees, deposit, OSHC, students under 18"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/how-to-apply/fees/previous-years-fees-and-student-contribution-amounts",
+      "accessed": "2026-11-25",
+      "covers": "Таблица fees за предыдущие годы, ориентир 2026"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/accommodation",
+      "accessed": "2026-11-25",
+      "covers": "Варианты жилья, цены и application"
+    },
+    {
+      "url": "https://study.unimelb.edu.au/study-with-us/international-scholarships",
+      "accessed": "2026-11-25",
+      "covers": "Международные стипендии и eligibility"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-25",
+      "covers": "Student visa subclass 500, средства, OSHC и условия"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/university-melbourne",
+      "accessed": "2026-11-25",
+      "covers": "QS ranking"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-melbourne",
+      "accessed": "2026-11-25",
+      "covers": "THE ranking"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Плата 2027 для отдельных курсов ещё зависит от будущей таблицы; текущие цифры — 2026 ориентиры.",
+    "Подтвердить точную российскую country-equivalency по выбранному курсу и текущей таблице требований перед заявкой.",
+    "Сверить актуальную eligibility для scholarships для граждан РФ на цикл 2027."
+  ],
+  "city_size": "mega",
+  "ownership": "public",
+  "founded": 1853,
+  "intl_students_url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications",
+  "languages_of_instruction": [
+    "en"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "summary": "The University of Melbourne — государственный исследовательский университет, основанный в 1853 году. Главный кампус Parkville находится рядом с центром Мельбурна; здесь есть исторические корпуса, современные учебные пространства, библиотеки и студенческий квартал. Международные абитуриенты подают заявку напрямую в университет; поступление зависит от признания школьной квалификации, предметных требований и английского языка конкретной программы.",
+  "highlights": [
+    "QS World University Rankings 2027: 22-е место (совместно); THE World University Rankings 2027: 34-е (совместно).",
+    "Бакалавриат включает программы Arts, Commerce, Biomedicine, Design, Science и другие; часть профессий требует последующей магистратуры.",
+    "Для 2027 start-year февральского набора текущий дедлайн подачи — 30 ноября 2026; сроки могут отличаться по программе.",
+    "Несколько вариантов проживания рядом с кампусом; места и стоимость зависят от резиденции, питание включено не везде."
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Arts",
+      "field": "humanities",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-arts/"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/"
+    },
+    {
+      "name": "Bachelor of Biomedicine",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-biomedicine/"
+    },
+    {
+      "name": "Bachelor of Design",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-design/"
+    },
+    {
+      "name": "Bachelor of Science",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "url": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 43000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Индикативный нижний порядок по опубликованной таблице international fees 2026; сумма зависит от дисциплин и учебной нагрузки. Не тариф 2027."
+    },
+    "tuition_max": {
+      "amount": 65000,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Индикативный верхний порядок по опубликованной таблице international fees 2026; отдельные программы могут выходить за диапазон."
+    },
+    "living_month_estimate": {
+      "amount": 2476,
+      "currency": "AUD",
+      "period": "month",
+      "note": "Иммиграционный минимум средств на проживание — AUD 29,710 за год (AUD 2,476/мес. пересчётом); это визовый финансовый критерий, а не оценка полного бюджета города."
+    }
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Типовой общий ориентир, обычно не ниже 6.0 за каждую часть; медицинские и некоторые другие курсы требуют более высоких результатов."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "79",
+        "note": "Типовой минимум для ряда курсов; пороги и подбаллы зависят от курса."
+      },
+      {
+        "exam": "DET",
+        "min_score": "120",
+        "note": "Принимаемые тесты и результат нужно проверять по странице курса и действующим English language requirements."
+      }
+    ],
+    "language_level": "English entry requirement определяется выбранной степенью; часто IELTS 6.5 overall и минимум 6.0 по каждому компоненту.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Заявка напрямую через портал университета",
+      "Аттестат и академическая выписка с переводом, если требуется",
+      "Подтверждение английского или право на exemption",
+      "Предметные prerequisites и минимальный результат для конкретной степени",
+      "Портфолио/интервью только если они указаны для курса"
+    ],
+    "notes": "Проверка российской школьной квалификации индивидуальна и зависит от курса. Требования курса показывают country-specific equivalent, prerequisite subjects и английский. ATAR в австралийской таблице не является проходным баллом для российского аттестата; используйте equivalency, указанную для Russia."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка на февральский start-year 2027 для international undergraduate",
+      "end": "2026-11-30",
+      "intake": "Февраль/март 2027; дедлайн близко, отдельные курсы могут иметь более ранние сроки"
+    },
+    {
+      "what": "Заявка на mid-year 2027",
+      "end": "2027-05-31",
+      "intake": "Июль 2027, если курс принимает mid-year"
+    }
+  ],
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 2050,
+      "currency": "AUD",
+      "period": "month",
+      "note": "Ориентировочно AUD 448–939 в неделю в опубликованных тарифах 2027; диапазон по residence, комнатам и включённым услугам. Около AUD 1,940–4,069 за календарный месяц."
+    },
+    "notes": "Есть University Accommodation, residential colleges и студенческие резиденции; предложения отличаются удалённостью, питанием и услугами. Университет рекомендует подаваться рано; место не гарантировано. International House и Wilam включают питание в ряде тарифов. Студентам младше 18 лет требуется одобренное проживание и welfare supervision."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa (subclass 500)",
+    "notes": "После принятия offer и получения Confirmation of Enrolment подают на Student visa. Нужны Genuine Student ответы/документы, финансовые доказательства по персональному checklist и Overseas Student Health Cover (OSHC) на срок визы. Австралийское правительство указывает минимум AUD 29,710 на год проживания для основного заявителя; дополнительно нужны плата за обучение и дорогу. До 18 лет обязательны утверждённое welfare/accommodation arrangement. Условия и суммы проверить на дату подачи.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Melbourne International Undergraduate Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Стипендии международным студентам доступны по отдельным eligibility criteria; состав стран/критерии и сумма зависят от набора и программы. Не считать право граждан РФ гарантированным без проверки действующего списка.",
+        "url": "https://study.unimelb.edu.au/study-with-us/international-scholarships"
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "22"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "34"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "employment",
+    "exchange",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/melbourne/1.jpg",
+      "author": "ColonelLight",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Melbourne_Student_Precinct.jpg",
+      "caption": "Современный Student Precinct кампуса Parkville"
+    },
+    {
+      "file": "photos/melbourne/4.jpg",
+      "author": "Polly clip",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_Of_Melbourne_Student_Union_House.JPG",
+      "caption": "Student Union House на кампусе Parkville"
+    },
+    {
+      "file": "photos/melbourne/5.jpg",
+      "author": "Canley",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gatekeeper%27s_Cottage,_University_of_Melbourne.jpg",
+      "caption": "Историческое Gatekeeper’s Cottage на территории кампуса"
+    },
+    {
+      "file": "photos/melbourne/2.jpg",
+      "author": "Sgroey",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Interior_of_Brownless_Library.jpg",
+      "caption": "Интерьер Brownless Library с учебными местами"
+    },
+    {
+      "file": "photos/melbourne/3.jpg",
+      "author": "Rexness",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Queen%27s_College,_Melbourne_University,_Melbourne_Australia_(4585094076).jpg",
+      "caption": "Queen’s College — жилой колледж рядом с кампусом"
+    }
+  ],
+  "data_year": 2027
 }

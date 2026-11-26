@@ -8,7 +8,7 @@
   "city": "Нижний Новгород",
   "website": "https://www.unn.ru/",
   "admissions_url": "https://www.unn.ru/site/abitur",
-  "about": "Многопрофильный университет с направлениями по математике и ИТ, радиофизике, экономике, праву, психологии, филологии и международным отношениям.",
+  "about": "ННГУ имени Н. И. Лобачевского — многопрофильный университет в Нижнем Новгороде, объединяющий естественные и точные науки, ИТ, инженерные и биомедицинские направления, экономику, право и социальные науки. Университетские подразделения расположены в нескольких корпусах города; для студентов доступны библиотеки, научные центры, спортивные и общественные пространства, а также общежития. Приём проводится на бюджетные и платные места по результатам ЕГЭ или внутренних испытаний. На 2026/27 опубликованы цены для отдельных программ и скидки иностранным первокурсникам; проходной балл зависит от конкурса и направления.",
   "areas": [
     "it",
     "science",
@@ -23,27 +23,264 @@
   "art": "classic",
   "fields": [
     "it",
+    "engineering",
     "natural_sciences",
+    "medicine",
+    "business",
     "economics",
     "law",
     "psychology",
+    "humanities",
+    "social_sciences",
     "linguistics",
-    "media",
-    "international_relations",
-    "pedagogy"
+    "pedagogy",
+    "architecture"
   ],
   "sources": [
     {
       "url": "https://www.unn.ru/site/abitur",
       "accessed": "2026-11-23",
       "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii",
+      "accessed": "2026-11-26",
+      "covers": "правила и график приёма ННГУ 2026"
+    },
+    {
+      "url": "https://www.unn.ru/site/images/docs/priem/2026/Stoimost/Stoimost_VO_2026.pdf",
+      "accessed": "2026-11-26",
+      "covers": "тарифы бакалавриата/специалитета на 2026/27"
+    },
+    {
+      "url": "https://www.unn.ru/site/images/docs/priem/2026/Stoimost/Skidki_2026.pdf",
+      "accessed": "2026-11-26",
+      "covers": "скидка 30% иностранным первокурсникам"
+    },
+    {
+      "url": "https://eng.unn.ru/admissions",
+      "accessed": "2026-11-26",
+      "covers": "международный приём и проживание"
+    },
+    {
+      "url": "https://www.unn.ru/site/about/zhizn-v-universitete/sotsialnaya-podderzhka",
+      "accessed": "2026-11-26",
+      "covers": "социальная поддержка и студенческая жизнь"
+    },
+    {
+      "url": "https://eng.unn.ru/news2/lobachevsky-university-is-in-the-top-10-of-superjob-ranking-in-terms-of-graduate-salaries",
+      "accessed": "2026-11-26",
+      "covers": "официальное фото учебного корпуса и территории университета"
+    },
+    {
+      "url": "https://www.unn.ru/site/about/news/prijomnaya-kampaniya-startovala-v-universitete-lobachevskogo-20-iyunya",
+      "accessed": "2026-11-26",
+      "covers": "официальная фотография студентов и корпуса"
+    },
+    {
+      "url": "https://eng.unn.ru/news2/lobachevsky-university-ranked-among-the-top-10-russian-universities-by-the-salaries-of-its-graduates-working-in-the-it-sector-2",
+      "accessed": "2026-11-26",
+      "covers": "официальное фото компьютерной лаборатории"
+    },
+    {
+      "url": "https://www.unn.ru/site/about/news/20-let-vmeste-nngu-vtoroj-dom-dlya-studentov-so-vsego-mira",
+      "accessed": "2026-11-26",
+      "covers": "официальное фото международного студенческого сообщества"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить точный тариф и конкурсное требование для выбранного направления; подобрать минимальный балл из опубликованного конкурсного списка после зачисления."
+  ],
+  "summary": "Университет Лобачевского (ННГУ) — государственный исследовательский университет в Нижнем Новгороде с сильными направлениями в математике, ИТ, физике, химии, медицине, экономике, гуманитарных и социальных науках. Вуз ведёт приём по программам бакалавриата, специалитета и СПО, публикуя на 2026/27 отдельные таблицы стоимости и правила поступления.",
+  "highlights": [
+    "Крупный исследовательский университет Нижнего Новгорода",
+    "Широкий выбор естественно-научных, ИТ, медицинских и гуманитарных программ",
+    "Есть общежития и отдельный международный бакалаврский набор",
+    "На 2026/27 опубликованы тарифы и отдельные скидки иностранным студентам"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Прикладная математика и информатика",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 320000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Пример очного платного тарифа 2026/27 по ряду математических/естественно-научных программ."
+      }
+    },
+    {
+      "name": "Биология",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 320000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Тариф ННГУ 2026/27, очно."
+      }
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 320000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платный тариф 2026/27; англоязычные варианты могут быть дороже."
+      }
+    },
+    {
+      "name": "Международные отношения",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 285000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Платный тариф 2026/27 для программы на русском; английский маршрут имеет отдельную ставку."
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 230000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Стартовые цены очного бакалавриата 2026/27 по отдельным программам."
+    },
+    "tuition_max": {
+      "amount": 520000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Верхний тариф по отдельным клиническим/англоязычным программам; сверять по приложению."
+    },
+    "living_month_estimate": {
+      "amount": 2500,
+      "currency": "RUB",
+      "period": "month",
+      "note": "Оценка по тарифам общежития; зависит от корпуса, типа комнаты и статуса студента."
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Скидка ННГУ для иностранных первокурсников",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Приказ 2026/27 предусматривает 30% скидку иностранным студентам очной формы, поступившим на платное; проверить программу и условия применения.",
+        "url": "https://www.unn.ru/site/images/docs/priem/2026/Stoimost/Skidki_2026.pdf"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "documents": [
+      "Заявление",
+      "Паспорт",
+      "Аттестат и приложение",
+      "Результаты ЕГЭ или внутренних испытаний",
+      "Документы об индивидуальных достижениях"
+    ],
+    "notes": "Комбинация предметов и минимумы устанавливаются программой. Иностранные абитуриенты подают документ об образовании с переводом и следуют отдельному международному набору."
+  },
+  "deadlines": [
+    {
+      "what": "Приёмная комиссия: бюджетный и платный набор 2026",
+      "intake": "2026/27"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Для граждан РФ не требуется"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Общежитие предоставляется по правилам ННГУ и заявлению; наличие и ежемесячная плата зависят от места и типа комнаты."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "#1001–1200"
+    }
+  ],
+  "perks": [
+    "campus",
+    "strong_research",
+    "internships",
+    "employment",
+    "exchange"
+  ],
+  "data_year": 2026,
+  "prep": {
+    "must": "Сначала выбери конкретную программу и кампус, затем собери документы и проверь сроки, требования и стоимость на официальной странице текущего набора.",
+    "good": "Подготовь переводы школьных документов заранее и заложи время на языковой сертификат, медицинские документы и жильё.",
+    "source": "https://www.unn.ru/site/abitur"
+  },
+  "photos": [
+    {
+      "file": "https://eng.unn.ru/images/news/2022/07/19/1/rejting-vuzov-nngu-2022.jpg",
+      "license": "© Университет Лобачевского; изображение с официального сайта университета, права на повторное использование не заявлены",
+      "source_url": "https://eng.unn.ru/news2/lobachevsky-university-is-in-the-top-10-of-superjob-ranking-in-terms-of-graduate-salaries",
+      "caption": "Один из учебных корпусов университета среди зелёных зон кампуса"
+    },
+    {
+      "file": "https://www.unn.ru/site/images/news/2023/06/20/3/priyomnaya-kampaniya-startovala-v-universitete-lobachevskogo-20-iyunya-1.jpg",
+      "license": "© Университет Лобачевского; изображение с официального сайта университета, права на повторное использование не заявлены",
+      "source_url": "https://www.unn.ru/site/about/news/prijomnaya-kampaniya-startovala-v-universitete-lobachevskogo-20-iyunya",
+      "caption": "Студенты у университетского корпуса во время приёмной кампании"
+    },
+    {
+      "file": "https://eng.unn.ru/images/news/2022/06/16/2/rejting-vypusknikov-it-nngu.jpg",
+      "license": "© Университет Лобачевского; изображение с официального сайта университета, права на повторное использование не заявлены",
+      "source_url": "https://eng.unn.ru/news2/lobachevsky-university-ranked-among-the-top-10-russian-universities-by-the-salaries-of-its-graduates-working-in-the-it-sector-2",
+      "caption": "Занятие в компьютерной лаборатории университета"
+    },
+    {
+      "file": "https://www.unn.ru/site/images/news/2025/07/07/21/3/oufdD1IQi2mSlvuwew61S-rjU1LXgNKZ-x7MDGkd3z1NsxnNX-Io2j15nQDE9ZrpVQ_NbBO2PYGIUqwf3L5lUYXA.jpg",
+      "license": "© Университет Лобачевского; изображение с официального сайта университета, права на повторное использование не заявлены",
+      "source_url": "https://www.unn.ru/site/about/news/20-let-vmeste-nngu-vtoroj-dom-dlya-studentov-so-vsego-mira",
+      "caption": "Иностранные студенты на территории университета"
+    },
+    {
+      "file": "https://eng.unn.ru/images/eng/images/undergraduate/accomodation.jpg",
+      "license": "© Университет Лобачевского; изображение с официального сайта университета, права на повторное использование не заявлены",
+      "source_url": "https://eng.unn.ru/admissions",
+      "caption": "Здание общежития, указанное на странице приёма университета"
+    }
   ]
 }

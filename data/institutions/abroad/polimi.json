@@ -9,7 +9,7 @@
   "city": "Милан",
   "website": "https://www.polimi.it/en",
   "admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply",
-  "about": "Технический университет с направлениями в архитектуре, строительстве, дизайне, инженерии, технологиях и городском планировании.",
+  "about": "Politecnico di Milano — государственный технический университет с кампусами в Милане и других городах Ломбардии. Главный кампус Leonardo сочетает исторические корпуса и современные учебные здания; Bovisa включает инженерные лаборатории и пространства для проектной работы. Бакалаврские Laurea охватывают инженерию, архитектуру и дизайн; часть программ ведётся на английском, часть — на итальянском. Учебная модель предполагает интенсивную математику, проектную и лабораторную работу.\n\nИностранные абитуриенты с неитальянским школьным образованием проходят отдельную процедуру проверки диплома и вступительный отбор. Для инженерии требуется тест CEnT-S, для дизайна — TOLD, архитектурные программы используют собственный конкурс; календарь и число попыток различаются. Нужно проверить требование к языку именно выбранной программы и признание школьной квалификации. Для 2027/28 университет публикует отдельные календари поступления. Стоимость зависит от экономического положения семьи и числа кредитов: опубликованный первый взнос около €880, итоговая годовая плата рассчитывается по правилам университета и может быть существенно выше; международные студенты могут претендовать на региональную и университетскую поддержку. Для проживания в Италии гражданину России потребуется национальная учебная виза D и pre-enrolment через Universitaly; даты визовой процедуры зависят от кампании. Студенческие резиденции есть, но мест меньше, чем желающих.",
   "areas": [
     "engineering",
     "construction",
@@ -23,7 +23,8 @@
     "engineering",
     "architecture",
     "design_art",
-    "it"
+    "it",
+    "natural_sciences"
   ],
   "prep": {
     "must": "Проверь правила приёма для выбранной программы Laurea: могут быть вступительный тест и требования по языку. Для иностранного школьного диплома заранее проверь условия признания.",
@@ -32,17 +33,203 @@
   },
   "sources": [
     {
-      "url": "https://www.polimi.it/en/prospective-students/how-to-apply",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://dynamicpoli.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering/cent-s",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/design/told",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/scholarships-and-financial-aid",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification/student-visa",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://dynamicpoli.polimi.it/sviluppo-sostenibile/ambiente/energia-e-decarbonizzazione/gestione-energetica",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://dynamicpoli.polimi.it/en/campus-and-services/spaces-and-study-areas/spaces/libraries",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.ilgiorno.it/milano/cronaca/residenza-politecnico-studenti-corvetto-bcafd695",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.frontiere.polimi.it/new-labora/?lang=en",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.auic.polimi.it/en/la-scuola/projects/advanced-school-of-architecture-asa/1st-edition",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Сверить точное расписание теста, язык и требуемый школьный документ выбранной Laurea для российского аттестата."
+  ],
+  "summary": "Технический университет с кампусами Милана, инженерными лабораториями, архитектурой и дизайн-школой. Для поступления нужны разные отборочные испытания: CEnT-S для инженерии, TOLD для дизайна и отдельный конкурс архитектуры.",
+  "data_year": 2027,
+  "founded": 1863,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "it",
+    "en"
+  ],
+  "highlights": [
+    "Тесты зависят от архитектуры, дизайна или инженерии",
+    "Стипендии и освобождение от части платы",
+    "Кампусы в Милане и других городах региона"
+  ],
+  "intl_students_url": "https://dynamicpoli.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification",
+  "programs": [
+    {
+      "name": "Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "итальянский или английский (зависит от программы)",
+      "duration_years": 3,
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering"
+    },
+    {
+      "name": "Design",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "итальянский или английский (зависит от программы)",
+      "duration_years": 3,
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/design"
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "итальянский или английский (зависит от программы)",
+      "duration_years": 3,
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/architecture"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 880,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Первый платёж порядка €880; итоговая годовая плата зависит от доходной категории, льгот и кредитов. Значение верхней границы — только ориентир, проверить официальную квитанцию для 2027/28."
+    },
+    "tuition_max": {
+      "amount": 4000,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Первый платёж порядка €880; итоговая годовая плата зависит от доходной категории, льгот и кредитов. Значение верхней границы — только ориентир, проверить официальную квитанцию для 2027/28."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Требование зависит от языка конкретной программы; проверь итальянский/английский сертификат.",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Школьный документ должен отвечать итальянским правилам допуска; конкретный тест и язык зависят от программы."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "National study visa D",
+    "notes": "После зачисления следуй актуальным инструкциям университета и официальной миграционной службы страны; требуются документы о зачислении и подтверждение финансов. Процесс и доступность визовых услуг меняются.",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification/student-visa"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть места в университетских и партнёрских резиденциях, в том числе через льготные конкурсы; жильё ограничено и обычно требует отдельной ранней заявки. Тариф зависит от резиденции и права на льготу."
+  },
+  "deadlines": [
+    {
+      "what": "Отбор и последующая регистрация на Laurea 2027/28: календарь отдельный для инженерии, дизайна и архитектуры",
+      "intake": "2027/28"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://dynamicpoli.polimi.it/fileadmin/_processed_/9/3/csm_15_PV-Leo_c2973eef0b.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://dynamicpoli.polimi.it/sviluppo-sostenibile/ambiente/energia-e-decarbonizzazione/gestione-energetica",
+      "caption": "Кампус Leonardo"
+    },
+    {
+      "file": "https://dynamicpoli.polimi.it/fileadmin/_processed_/3/4/csm_Biblioteca_BBC_Candiani_1920x650_9b5b42b2f4.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://dynamicpoli.polimi.it/en/campus-and-services/spaces-and-study-areas/spaces/libraries",
+      "caption": "Университетская библиотека"
+    },
+    {
+      "file": "https://www.frontiere.polimi.it/wp-content/uploads/2021/09/2021-06-22_7005.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.frontiere.polimi.it/new-labora/?lang=en",
+      "caption": "Пространство проектной лаборатории LaborA"
+    },
+    {
+      "file": "https://www.auic.polimi.it/fileadmin/_processed_/6/1/csm_AB_asa_1_ed_masterclass_1-1__5__01_7044836602.png",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.auic.polimi.it/en/la-scuola/projects/advanced-school-of-architecture-asa/1st-edition",
+      "caption": "Макет студенческого архитектурного проекта"
+    },
+    {
+      "file": "https://www.ilgiorno.it/image-service/version/c%3AZmI4MmExYjEtMGQ3Yi00%3AYjEtMGQ3Yi00NmNlNWVi/nella-foto-gli-interni-delle-residenze-e-le-aree-comuni-ansa-davide-canella.webp",
+      "author": "ANSA / Davide Canella",
+      "license": "© ANSA / Davide Canella; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.ilgiorno.it/milano/cronaca/residenza-politecnico-studenti-corvetto-bcafd695",
+      "caption": "Интерьер резиденции Marie Curie; фото ANSA / Davide Canella"
+    }
   ]
 }

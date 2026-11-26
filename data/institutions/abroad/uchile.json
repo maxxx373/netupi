@@ -9,46 +9,211 @@
   "city": "Сантьяго",
   "website": "https://uchile.cl/english",
   "admissions_url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
-  "about": "Государственный исследовательский университет Чили с программами в инженерии, сельском хозяйстве, ветеринарии, архитектуре, медицине и естественных науках.",
+  "about": "Universidad de Chile — государственный исследовательский университет, основанный в 1842 году. Его факультеты и институты расположены на нескольких площадках Сантьяго и в других регионах страны; направления включают инженерные науки, медицину, право, архитектуру, экономику, сельское хозяйство, ветеринарию, социальные и естественные науки. Учебная инфраструктура включает библиотеки, лаборатории, клиники, музеи и спортивные площадки. Преподавание бакалавриата ведётся на испанском.\n\nДля абитуриента, завершившего среднюю школу за пределами Чили, Universidad de Chile предлагает специальный процесс SIEXT. Для набора 2027 установлены условия по месту и длительности обучения за рубежом: например, при окончании последнего класса за рубежом нужно пройти там как минимум два последних года очного обучения в обычной школе. Кандидат подаёт зарубежные школьные документы и сдаёт экзамены, заданные выбранной степенью; вес отдельных тестов, доступные места и сроки публикуются отдельно. Этот маршрут отличается от обычного чилийского процесса PAES и не гарантирует зачисление.\n\nОфициальная страница новых студентов на 2026 год указывает ежегодное базовое matricula fee CLP 217,600; tuition/arancel зависит от программы, дополнительных условий и финансовой категории. Университет предлагает несколько scholarships, но допуск зависит от гражданства и правил конкретного финансирования. Единая система общежитий для всех иностранных первокурсников не гарантируется; проживание нужно планировать по кампусу и городу. Для длительного обучения российскому гражданину потребуется чилийский временный статус/резиденция для учёбы; проверь текущую миграционную категорию и оформление документов.",
   "areas": [
     "science",
     "engineering",
-    "construction",
     "architecture",
     "medicine",
     "law",
-    "botany",
     "agriculture",
     "veterinary",
-    "environment"
+    "social sciences"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
     "architecture",
     "medicine",
     "law",
-    "agriculture"
+    "agriculture",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Иностранные выпускники могут подать через специальную систему ingreso para personas con estudios medios en el extranjero. Нужны документы о завершённой школе и выполнение требований конкретной программы.",
-    "good": "Изучи ежегодное руководство, заранее подготовь копию паспорта и подтверждённые школьные документы. Большинство степеней ведётся на испанском; проверь порядок признания аттестата.",
+    "must": "Проверь eligibility SIEXT по тому, где и сколько лет ты учился, подай документы и выполни экзамены именно выбранной программы. Подтверди испанский для обучения.",
+    "good": "Сверь список SIEXT 2027 вакансий/мест и взвешивание экзаменов; запроси tuition/arancel и базовый matricula в актуальной тарифной сетке.",
     "source": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado"
   },
   "sources": [
     {
       "url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "международная подача на бакалавриат"
+    },
+    {
+      "url": "https://uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/personas-con-estudios-medios-en-el-extranjero",
+      "accessed": "2026-11-26",
+      "covers": "специальный доступ для иностранных школьных дипломов"
+    },
+    {
+      "url": "https://uchile.cl/dam/jcr%3Aaae178ca-84bc-4db1-be1a-436a4e41d672/Instructivo%20Admisi%C3%B3n%20Extranjeros%202027.pdf",
+      "accessed": "2026-11-26",
+      "covers": "подробные правила SIEXT набора 2027"
+    },
+    {
+      "url": "https://uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/vacantes-y-ponderaciones-admision-extranjeros-2022",
+      "accessed": "2026-11-26",
+      "covers": "экзамены и взвешивание SIEXT 2027"
+    },
+    {
+      "url": "https://uchile.cl/admision-y-matriculas/aranceles-y-credito/aranceles/estudiantes-nuevos",
+      "accessed": "2026-11-26",
+      "covers": "matrícula fee и arancel 2026"
+    },
+    {
+      "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/",
+      "accessed": "2026-11-26",
+      "covers": "чилейская резиденция для учёбы"
+    },
+    {
+      "url": "https://medicina.uchile.cl/biblioteca/biblioteca-central/presentacion",
+      "accessed": "2026-11-26",
+      "covers": "кампусная библиотека и фото"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Подобрать точный arancel и срок SIEXT для выбранного бакалавриата; базовая matrícula в cost не включает полную tuition."
+  ],
+  "summary": "Государственный университет Сантьяго с большим набором программ на испанском. Для абитуриентов с зарубежным школьным образованием действует специальный процесс SIEXT со своими условиями и экзаменами.",
+  "intl_students_url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
+  "founded": 1842,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Для выпускников школ за пределами Чили работает специальный маршрут SIEXT",
+    "SIEXT 2027 требует очного обучения за рубежом в течение указанного числа последних школьных лет",
+    "На 2026 год базовый matricula fee — CLP 217,600; tuition зависит от степени"
+  ],
+  "programs": [
+    {
+      "name": "Ingeniería Civil",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 6,
+      "url": "https://uchile.cl/admision-y-matriculas"
+    },
+    {
+      "name": "Medicina",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 7,
+      "url": "https://uchile.cl/admision-y-matriculas"
+    },
+    {
+      "name": "Derecho",
+      "field": "law",
+      "level": "bachelor",
+      "language": "испанский",
+      "duration_years": 5,
+      "url": "https://uchile.cl/admision-y-matriculas"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Для SIEXT поступающий сдаёт тесты отбора, установленные Universidad de Chile и конкретной программой; это не всегда тот же пакет, что PAES."
+      }
+    ],
+    "language_level": "Испанский для академического обучения; большинство программ университета ведётся на испанском.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Документы об очном среднем образовании за рубежом за требуемые годы",
+      "Аттестат и оценки, переведённые/легализованные по правилам",
+      "Подтверждение соответствия страны и программы SIEXT",
+      "Экзамены и подтверждение испанского",
+      "Дополнительные документы выбранного факультета"
+    ],
+    "notes": "Для SIEXT 2027 применяются отдельные eligibility, предметы, взвешенные результаты и места по степени; проверь актуальный инструктивный документ."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 217600,
+      "currency": "CLP",
+      "period": "year",
+      "note": "Это ежегодный базовый matrícula fee 2026; годовой arancel обучения оплачивается дополнительно и зависит от программы."
+    },
+    "tuition_max": {
+      "amount": 217600,
+      "currency": "CLP",
+      "period": "year",
+      "note": "Только базовый matrícula fee; не является полной ценой обучения. Tuition/arancel нужно смотреть в тарифе выбранной степени."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Temporary residence for study (Chile)",
+    "notes": "Для длительной учёбы получи соответствующую временную резиденцию/разрешение на обучение. Проверь текущий список требований SERMIG и процедуры подачи за пределами Чили.",
+    "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университетские residencia/колледжи существуют в отдельных кампусах и факультетах, но не являются общей гарантией размещения для иностранного бакалавра. Проверь по выбранному факультету; частное жильё в Сантьяго нужно искать отдельно."
+  },
+  "photos": [
+    {
+      "file": "https://uchile.cl/dam/jcr%3A6759dae4-a391-4085-9f98-c85d8c701ff6/WhatsApp%20Image%202025-11-24%20at%2013.16.17.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://uchile.cl/noticias/235275/u-de-chile-moderniza-la-fcqyf-con-nueva-infraestructura-y-tecnologia",
+      "caption": "Студенты у обновлённого корпуса химии и фармации"
+    },
+    {
+      "file": "https://uchile.cl/dam/jcr%3Ae47b9a3a-921f-45fc-8389-94e4d46edee8/banner-biblioteca.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://fau.uchile.cl/biblioteca",
+      "caption": "Библиотека факультета архитектуры и урбанистики"
+    },
+    {
+      "file": "https://portaluchile.uchile.cl/.imaging/stk/uchile/ancho1000/dam/imagenes/Medicina/imagenes-contenidos-generales/124070_0_124070-biblioteca-central_S/jcr%3Acontent/124070-biblioteca-central.jpg.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://medicina.uchile.cl/biblioteca/biblioteca-central/presentacion",
+      "caption": "Центральная библиотека факультета медицины"
+    },
+    {
+      "file": "https://uchile.cl/dam/jcr%3A70adb564-c3b8-468e-80b5-64c38d4e6f1d/Biblioteca%20Bachillerato.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://uchile.cl/noticias/228273/programa-de-bachillerato-renueva-su-biblioteca",
+      "caption": "Обновлённая библиотека Bachillerato"
+    },
+    {
+      "file": "https://portaluchile.uchile.cl/.imaging/stk/uchile/ancho1000/dam/imagenes/Uchile/imagenes-noticias/109291_3_biblioteca-05-l_L/jcr%3Acontent/biblioteca-05-l.jpg.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://uchile.cl/noticias/109291/bibliotecas-de-la-u-de-chile-un-universo-de-recursos-por-descubrir",
+      "caption": "Учебный зал с библиотечными фондами"
+    }
+  ],
+  "data_year": 2027
 }

@@ -9,7 +9,7 @@
   "city": "Мумбаи",
   "website": "https://www.iitb.ac.in/",
   "admissions_url": "https://acad.iitb.ac.in/admissions/international",
-  "about": "Технологический институт в Мумбаи с инженерными, естественно-научными, архитектурными, дизайнерскими и междисциплинарными программами.",
+  "about": "Indian Institute of Technology Bombay (IIT Bombay) — государственный технологический институт, основанный в 1958 году, расположен в Powai на северо-востоке Мумбаи. Кампус площадью около 2.2 км² окружён зеленью и водоёмами Powai и Vihar; внутри — 17 общежитий, факультеты, центральная библиотека, лекционные комплексы, спортивные и культурные площадки. Бакалаврские программы включают инженерные специальности, науки, дизайн и междисциплинарные направления; обучение и оценивание в основном идут на английском.\n\nДля иностранцев поступление на очный бакалавриат организовано не через обычную школьную заявку: IIT Bombay указывает ежегодный отбор по JEE Advanced для иностранных граждан на выделенные сверхлимитные места. Кандидат должен выполнить академические, возрастные и экзаменационные правила именно текущего JEE Advanced; само наличие российского аттестата не гарантирует допуск. Для B.Des применяется профильный отбор UCEED. На 2026/27 опубликованный семестровый счёт для foreign nationals по бакалаврским программам — ₹334,150 academic fees плюс hostel fees ₹19,950 и mess advance ₹22,500 за семестр; тарифы могут пересматриваться, а ежегодная сумма зависит от категории допуска. У иностранных студентов нет общей гарантированной стипендии для всех; проверяются отдельные государственные/международные программы. Бакалавры размещаются в одном из общежитий, есть питание и базовые бытовые сервисы. Для очного обучения потребуется Student Visa India; процедуру следует начинать после официального offer и регистрации через Study in India, если применимо.",
   "areas": [
     "engineering",
     "construction",
@@ -22,10 +22,11 @@
   "art": "engineering",
   "fields": [
     "engineering",
-    "architecture",
     "natural_sciences",
+    "architecture",
+    "design_art",
     "it",
-    "design_art"
+    "business"
   ],
   "prep": {
     "must": "Для иностранных граждан IIT Bombay указывает поступление на undergraduate программы через JEE Advanced. Проверь категорию гражданства, eligibility и требования текущего экзамена на официальном сайте.",
@@ -34,17 +35,191 @@
   },
   "sources": [
     {
-      "url": "https://acad.iitb.ac.in/admissions/international",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://acad.iitb.ac.in/index.php/admissions/international",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://jeeadv.ac.in/foreign.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/details-fees-payable",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/sites/default/files/Final%20SignedFee_circular_2026-27.pdf",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.ir.iitb.ac.in/about-campus",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.studyinindia.gov.in/",
+      "accessed": "2026-11-26",
+      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+    },
+    {
+      "url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Campus.jsp",
+      "accessed": "2026-11-26",
+      "covers": "Источник фотографии карточки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить действующие правила JEE Advanced, включая возраст, число попыток, перечень предметов 12-го класса и документы иностранца для цикла 2027."
+  ],
+  "summary": "Технический институт на зелёном кампусе Powai в Мумбаи, окружённом озёрами. Бакалаврский приём иностранцев идёт по отдельной схеме через JEE Advanced, а для дизайна используется UCEED.",
+  "data_year": 2027,
+  "founded": 1958,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Кампус Powai рядом с двумя озёрами",
+    "17 общежитий и большая студенческая среда",
+    "Иностранный undergraduate admission через JEE Advanced"
+  ],
+  "intl_students_url": "https://acad.iitb.ac.in/index.php/admissions/international",
+  "programs": [
+    {
+      "name": "B.Tech. Computer Science and Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.cse.iitb.ac.in/"
+    },
+    {
+      "name": "B.Tech. Aerospace Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.aero.iitb.ac.in/"
+    },
+    {
+      "name": "Bachelor of Design",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.iitb.ac.in/newacadhome/bdes.jsp"
+    },
+    {
+      "name": "B.S. Mathematics",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "английский",
+      "url": "https://www.math.iitb.ac.in/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 668300,
+      "currency": "INR",
+      "period": "year",
+      "note": "Ориентир двух семестров по опубликованному счёту 2026/27 для foreign nationals: ₹334,150 academic fees за семестр, сверх того отдельно hostel ₹19,950 и mess advance ₹22,500 за семестр; возможны разовые платежи и пересмотр."
+    },
+    "tuition_max": {
+      "amount": 668300,
+      "currency": "INR",
+      "period": "year",
+      "note": "Ориентир двух семестров по опубликованному счёту 2026/27 для foreign nationals: ₹334,150 academic fees за семестр, сверх того отдельно hostel ₹19,950 и mess advance ₹22,500 за семестр; возможны разовые платежи и пересмотр."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Английский для международной программы; проверяй порог и освобождения по программе.",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный аттестат и приложение с оценками",
+      "Официальные переводы и заверение по требованиям страны",
+      "Подтверждение языка обучения",
+      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+    ],
+    "notes": "Иностранный first-year admission на BTech/BS требует допуска по ежегодному JEE Advanced для foreign nationals; для BDes — отдельный отбор UCEED. Правила меняются ежегодно."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "India Student Visa",
+    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
+    "url": "https://www.studyinindia.gov.in/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "IIT Bombay имеет 17 общежитий для студентов; в корпусах предусмотрены комнаты, компьютерная зона, прачечная, спорт/игры и столовая. Размещение организуется после зачисления; назначение конкретного корпуса зависит от статуса и доступности."
+  },
+  "deadlines": [
+    {
+      "what": "Регистрация и подача в JEE Advanced для иностранных кандидатов",
+      "intake": "ежегодная кампания; следить за официальным календарём JEE Advanced"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Images/Campus/thumbnail-MB-front.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Campus.jsp",
+      "caption": "Фасад главного корпуса IIT Bombay"
+    },
+    {
+      "file": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Images/Campus/thumbnail-2797.JPG",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Campus.jsp",
+      "caption": "Здание и зелёная территория кампуса IIT Bombay"
+    },
+    {
+      "file": "https://gymkhana.iitb.ac.in/students/img/hostel9.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "caption": "Здание общежития Hostel 9"
+    },
+    {
+      "file": "https://gymkhana.iitb.ac.in/students/img/hostel12.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "caption": "Здание общежития Hostel 12"
+    },
+    {
+      "file": "https://gymkhana.iitb.ac.in/students/img/hostels.jpg",
+      "author": "University / official page",
+      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
+      "source_url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "caption": "Студенческие общежития IIT Bombay"
+    }
   ]
 }

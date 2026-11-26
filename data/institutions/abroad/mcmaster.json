@@ -8,50 +8,213 @@
   "country": "CA",
   "city": "Гамильтон, Онтарио",
   "website": "https://www.mcmaster.ca/",
-  "admissions_url": "https://future.mcmaster.ca/apply/requirements/",
-  "about": "Исследовательский университет в Гамильтоне с программами в медицине и науках о здоровье, инженерии, бизнесе, естественных и социальных науках.",
+  "admissions_url": "https://future.mcmaster.ca/apply/",
+  "about": "McMaster University — государственный исследовательский университет в Гамильтоне, провинция Онтарио, основанный в 1887 году. Основной кампус расположен в западной части города у природной зоны Cootes Paradise; вокруг учебных корпусов находятся библиотеки, лаборатории, спортивный центр, студенческие службы и несколько жилых кварталов. Университет включает факультеты инженерии, здравоохранения, бизнеса, науки, гуманитарных и общественных наук.\n\nИностранные школьники подают документы на первый курс через официальный портал McMaster; требования к предметам и среднему баллу задаются отдельно по программе и школьной системе. Для англоязычного поступления нужно подтвердить английский (например, IELTS Academic/TOEFL с действующими порогами) или соответствовать опубликованному освобождению. Для отдельных направлений есть дополнительный профильный отбор и supplementary application. После получения offer нужно выполнить условия зачисления и оплатить депозит.\n\nСтоимость существенно различается по факультетам: опубликованные McMaster оценки для международных студентов 2025/26 лежат примерно в диапазоне CAD 45,000–69,400 в год до проживания; точную сумму на 2026/27 и для конкретной программы нужно считать официальным estimator. Есть 12+ резиденций с разными комнатами и планами питания. На 2026 набор McMaster публиковал гарантию проживания для международных выпускников школ, принятых осенью, при своевременной заявке и депозите; проверь, действует ли это для своего года. Для учёбы в Канаде гражданину России нужен study permit и, если требуется для поездки, въездной документ; для многих новых заявлений требуется provincial attestation letter по действующим правилам.",
   "areas": [
-    "medicine",
+    "engineering",
+    "health sciences",
+    "business",
     "science",
-    "engineering",
-    "business",
-    "economics",
-    "psychology",
-    "it"
+    "humanities",
+    "social sciences"
   ],
-  "art": "classic",
+  "art": "modern",
   "fields": [
-    "medicine",
-    "natural_sciences",
     "engineering",
+    "medicine",
     "business",
-    "economics",
+    "natural_sciences",
     "psychology",
-    "it"
+    "social_sciences",
+    "humanities"
   ],
   "prep": {
-    "must": "Заявка для международных абитуриентов; школьные академические документы и предметные prerequisites программы; подтверждение английского по требованиям университета.",
-    "good": "Сверь эквивалентность школьных предметов и оценки: набор требований и конкурсный средний балл различаются по программам. Проверь, нужны ли дополнительные формы или материалы.",
+    "must": "Подай международную заявку и проверь требуемые школьные предметы, средний балл, английский и supplementary application своей программы.",
+    "good": "Сравни стоимость через estimator, заранее оцени жильё и проверь отдельную дату подачи заявки на резиденцию.",
     "source": "https://future.mcmaster.ca/apply/curriculum-requirements/"
   },
   "sources": [
     {
-      "url": "https://future.mcmaster.ca/apply/requirements/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://future.mcmaster.ca/apply/curriculum-requirements/",
+      "accessed": "2026-11-26",
+      "covers": "международные требования по школьным системам и программам"
     },
     {
-      "url": "https://future.mcmaster.ca/apply/curriculum-requirements/",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://future.mcmaster.ca/apply/requirements/",
+      "accessed": "2026-11-26",
+      "covers": "поиск требований по программе"
+    },
+    {
+      "url": "https://future.mcmaster.ca/finances/cost-estimator/",
+      "accessed": "2026-11-26",
+      "covers": "оценка расходов 2026/27"
+    },
+    {
+      "url": "https://future.mcmaster.ca/app/uploads/2025/10/MCM02_Int-8-pager-Brochure-2026_ENG_1-ReadingOrder.pdf",
+      "accessed": "2026-11-26",
+      "covers": "ориентир tuition на 2025/26 и сведения о residence guarantee 2026"
+    },
+    {
+      "url": "https://housing.mcmaster.ca/future-residents/buildings/",
+      "accessed": "2026-11-26",
+      "covers": "резиденции и типы комнат"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "accessed": "2026-11-26",
+      "covers": "study permit и текущие требования Канады"
+    },
+    {
+      "url": "https://future.mcmaster.ca/campus-life/",
+      "accessed": "2026-11-26",
+      "covers": "кампус, студенческая жизнь и фото"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Показанная стоимость является датированным ориентиром 2025/26; обновить точный диапазон после публикации/расчёта выбранной программы на учебный год абитуриента."
+  ],
+  "summary": "Крупный исследовательский университет в Гамильтоне, Канада. Сильные направления — инженерия, медицина и health sciences, бизнес, естественные и общественные науки; на кампусе есть библиотеки, лаборатории и резиденции.",
+  "intl_students_url": "https://future.mcmaster.ca/apply/international/",
+  "founded": 1887,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Главный кампус расположен у природной зоны Cootes Paradise в Гамильтоне",
+    "Требования к школьной квалификации отличаются по факультетам",
+    "Университет предлагает широкий выбор кампусных резиденций и типов комнат"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://future.mcmaster.ca/programs/engineering/"
+    },
+    {
+      "name": "Bachelor of Health Sciences (Honours)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://future.mcmaster.ca/programs/health-sciences/"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 4,
+      "url": "https://future.mcmaster.ca/programs/business/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Английский минимум зависит от программы и текущего перечня допустимых тестов."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Сверь общий и секционные минимумы на странице English proficiency."
+      }
+    ],
+    "language_level": "Подтверждённый английский по текущим требованиям McMaster; требования и освобождения отличаются по кандидату.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и оценки старших классов",
+      "Предметные prerequisites по программе",
+      "Подтверждение английского или признанное освобождение",
+      "Переводы документов",
+      "Supplementary application для программ, где она требуется"
+    ],
+    "notes": "Конкурсные пороги и дополнительные материалы программы могут меняться каждый цикл; минимум не гарантирует offer."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 45158,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентир по международным undergraduate программам на 2025/26; стоимость зависит от программы и нагрузки, не включает проживание и дополнительные сборы."
+    },
+    "tuition_max": {
+      "amount": 69354,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентир по международным undergraduate программам на 2025/26; для 2026/27 используй официальный estimator."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Study permit; TRV/eTA as required",
+    "notes": "После offer проверь актуальную подачу на study permit, PAL/TAL (если применяется), подтверждение средств и отдельные условия въездного документа для гражданства. Решение принимает канадская миграционная служба.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "На кампусе есть резиденции с традиционными комнатами и apartment-style вариантами; тип, питание и цена отличаются. Гарантию для 2026 года получали определённые международные первокурсники при соблюдении условий и дедлайна; не переносить её автоматически на будущий набор."
+  },
+  "photos": [
+    {
+      "file": "https://future.mcmaster.ca/app/uploads/2025/05/Campus-with-Cootes_jpg.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://future.mcmaster.ca/campus-life/",
+      "caption": "Кампус McMaster и природная зона Cootes"
+    },
+    {
+      "file": "https://future.mcmaster.ca/app/uploads/2025/05/CAP_0115classroomhamiltonhall_jpg-768x617-1.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://future.mcmaster.ca/campus-life/",
+      "caption": "Занятие в аудитории Hamilton Hall"
+    },
+    {
+      "file": "https://housing.mcmaster.ca/app/uploads/2018/06/Bates-1.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://housing.mcmaster.ca/future-residents/buildings/",
+      "caption": "Bates Residence на кампусе"
+    },
+    {
+      "file": "https://housing.mcmaster.ca/app/uploads/2026/03/20260327-HCS-lahroomfull-007.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://housing.mcmaster.ca/future-residents/buildings/",
+      "caption": "Общежитие Lincoln Alexander Hall: общая комната"
+    },
+    {
+      "file": "https://future.mcmaster.ca/app/uploads/2025/05/CampusStudents_Summer_ABC07107_jpg-768x512-2.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://future.mcmaster.ca/campus-life/",
+      "caption": "Студенты на зелёном основном кампусе"
+    }
+  ],
+  "data_year": 2027
 }

@@ -2,14 +2,16 @@
   "id": "utokyo",
   "type": "university",
   "name": {
-    "ru": "The University of Tokyo",
-    "en": "The University of Tokyo"
+    "ru": "Токийский университет",
+    "en": "The University of Tokyo",
+    "local": "東京大学",
+    "short": "UTokyo"
   },
   "country": "JP",
   "city": "Токио",
   "website": "https://www.u-tokyo.ac.jp/en/",
   "admissions_url": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html",
-  "about": "Ведущий японский университет с факультетами естественных наук, инженерии, архитектуры, сельского хозяйства, права и медицины.",
+  "about": "UTokyo — один из ведущих национальных университетов Японии с большим набором факультетов и тремя основными кампусами. Hongo сочетает историческую архитектуру и современные лаборатории; студенческая жизнь распределена между районами города. Большинство обычных японских бакалаврских программ требует обучения на японском языке и отдельного отбора. Ранее англоязычная программа PEAK завершила набор после 2026; новая College of Design принимает международных школьников на англоязычный пятилетний интегрированный bachelor/master. Для российского 11-летнего аттестата нужно отдельно подтвердить соответствие требованию о 12 годах обучения или допустимому эквиваленту; нельзя автоматически считать его достаточным.",
   "areas": [
     "science",
     "engineering",
@@ -24,55 +26,89 @@
   ],
   "art": "classic",
   "fields": [
-    "natural_sciences",
+    "design_art",
     "engineering",
-    "architecture",
-    "medicine",
-    "law",
+    "natural_sciences",
+    "humanities",
+    "social_sciences",
     "economics",
+    "law",
+    "medicine",
     "agriculture"
   ],
   "prep": {
-    "must": "Для традиционных бакалаврских программ иностранным выпускникам школ за пределами Японии нужно смотреть отдельные правила Special Screening Tests; большинство занятий на японском и требует высокого уровня языка. Прежняя англоязычная программа PEAK завершила набор после 2026 года.",
-    "good": "Изучи требования факультета и экзамена на японском, проверь признание школьного образования и язык задолго до подачи. Англоязычная альтернатива Global Science Course предназначена для перевода после двух лет университета.",
-    "source": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html"
+    "must": "Для англоязычного поступления со школы смотри College of Design Route B: сначала подтверди, что твоя школьная траектория удовлетворяет требованию 12 лет обучения/эквивалента, затем подготовь SAT/ACT/IB/A-level результат и английский. Набор на сентябрь 2027 закрылся 5 ноября 2026; жди нового цикла и новых требований.",
+    "good": "Если у тебя российский 11-летний аттестат, до подготовки тестов запроси письменное подтверждение eligibility у admissions. Изучи обязательное проживание в Mejirodai для первокурсников 2027 и визовый процесс COE → Student visa. Для других факультетов отдельно проверь японский язык и Special Screening.",
+    "source": "https://design.adm.u-tokyo.ac.jp/admissions/"
   },
   "sources": [
     {
+      "url": "https://design.adm.u-tokyo.ac.jp/admissions/",
+      "accessed": "2026-11-25",
+      "covers": "Приём College of Design, календарь и структура"
+    },
+    {
+      "url": "https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/",
+      "accessed": "2026-11-25",
+      "covers": "Route B: образовательная eligibility, SAT/ACT/IB/A-level, English, жильё и scholarship"
+    },
+    {
+      "url": "https://design.adm.u-tokyo.ac.jp/admissions/admissions-overview-2027/",
+      "accessed": "2026-11-25",
+      "covers": "Обзор приёмного цикла 2027"
+    },
+    {
       "url": "https://www.u-tokyo.ac.jp/en/prospective-students/traditional.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Традиционные программы и language context"
+    },
+    {
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/peak.html",
+      "accessed": "2026-11-25",
+      "covers": "Завершение набора PEAK"
     },
     {
       "url": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html",
-      "accessed": "2026-11-23",
-      "covers": "cost: плата за обучение и вступительный взнос"
+      "accessed": "2026-11-25",
+      "covers": "Tuition и admission fee"
     },
     {
-      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/scholarships.html",
-      "accessed": "2026-11-23",
-      "covers": "funding: список стипендий"
+      "url": "https://www.ru.emb-japan.go.jp/VISANDTOURISM/RabotaDolgosrochn.html",
+      "accessed": "2026-11-25",
+      "covers": "Долгосрочная студенческая виза гражданам РФ"
     },
     {
-      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_scholarships.html",
-      "accessed": "2026-11-23",
-      "covers": "Навигация по разделу стоимости и стипендий"
+      "url": "https://www.moj.go.jp/isa/applications/procedures/16-1.html",
+      "accessed": "2026-11-25",
+      "covers": "Certificate of Eligibility (COE)"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/university-tokyo",
+      "accessed": "2026-11-25",
+      "covers": "QS ranking"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/university-tokyo",
+      "accessed": "2026-11-25",
+      "covers": "THE ranking"
+    },
+    {
+      "url": "https://www.u-tokyo.ac.jp/adm/housing-office/en/housing/shukusha/mejirodai.html",
+      "accessed": "2026-11-25",
+      "covers": "Официальная информация о Mejirodai International Village и жилье UTokyo"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-25",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Прочитать условия PEAK и GSC (английский, SAT/IB, документы, сроки): страница PEAK отдавала 503",
-    "Уточнить сроки подачи 2026-27 и принимается ли российский аттестат",
-    "Уточнить условия MEXT и общежитие"
+    "Для цикла 2028 запросить UTokyo подтверждение, признаётся ли российский 11-летний аттестат в связке с конкретным внешним экзаменом как эквивалент 12 лет.",
+    "Правила College of Design, tuition, жильё и scholarship на 2028 могут измениться; заменить данные после выхода нового annual guideline.",
+    "Для японскоязычных традиционных факультетов конкретные требования и японский экзамен не описаны в этой карточке; проверять выбранную программу."
   ],
-  "summary": "Ведущий университет Японии в Токио. Традиционные программы бакалавриата идут на японском и требуют высокого уровня языка, а для выпускников зарубежных школ есть отдельные экзамены. Для обучающихся на английском есть программы PEAK и GSC. Обучение стоит 642 960 иен в год плюс единоразовый вступительный взнос 282 000 иен.",
+  "summary": "The University of Tokyo (UTokyo) — национальный исследовательский университет с кампусами Hongo, Komaba и Kashiwa. Большинство традиционных программ бакалавриата преподаётся на японском и имеет отдельный конкурс для иностранных абитуриентов. Новая англоязычная программа UTokyo College of Design стартует в сентябре 2027 как пятилетний путь bachelor + master; цикл набора 2027 закрылся 5 ноября 2026, поэтому карточка показывает условия этого уже завершённого набора как ориентир для будущих лет.",
   "languages_of_instruction": [
-    "ja",
-    "en"
+    "en",
+    "ja"
   ],
   "levels": [
     "bachelor",
@@ -85,45 +121,183 @@
       "amount": 642960,
       "currency": "JPY",
       "period": "year",
-      "note": "Годовая плата бакалавриата, единая для всех; вступительный взнос 282 000 иен платится один раз"
+      "note": "Базовая годовая плата UTokyo на 2026; вступительный fee JPY 282,000 отдельно. Проверить тариф для поступления в 2027."
     },
     "tuition_max": {
       "amount": 642960,
       "currency": "JPY",
-      "period": "year"
+      "period": "year",
+      "note": "Для единственной карточкированной здесь англоязычной программы базовый тариф; специальные fees могут отличаться."
+    },
+    "living_month_estimate": {
+      "amount": 82300,
+      "currency": "JPY",
+      "period": "month",
+      "note": "Тариф Mejirodai International Village: JPY 82,300/мес. плюс initial fee JPY 70,930 по руководству 2027; питание/личные расходы отдельно."
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Правительственная стипендия Японии (MEXT)",
-        "coverage": "full",
-        "for_foreigners": true,
-        "note": "В списке стипендий университета; условия и суммы на этой странице не указаны",
-        "url": "https://www.u-tokyo.ac.jp/en/prospective-students/mext_scholarship.html"
-      },
-      {
-        "name": "MEXT Honors Scholarship (JASSO) для обучающихся за свой счёт",
+        "name": "College of Design need-based scholarship (2027 entry)",
         "coverage": "stipend",
         "for_foreigners": true,
-        "note": "Указана в списке; суммы не проверены",
-        "url": "https://www.u-tokyo.ac.jp/en/prospective-students/scholarships.html"
-      },
-      {
-        "name": "Университетская стипендия для студентов PEAK",
-        "coverage": "partial",
-        "for_foreigners": true,
-        "note": "Указана в списке; условия на странице PEAK, которая не открылась",
-        "url": "https://peak.c.u-tokyo.ac.jp/fees_scholarships"
+        "note": "Для eligible студентов 2027 guideline описывает JPY 2.4 млн в год, эквивалент admission fee и односторонний перелёт, максимум на 5 лет; отдельная merit scholarship — JPY 600,000 в год. Крайний срок совпадал с подачей программы и уже прошёл. Перепроверить критерии и доступность на новом цикле.",
+        "url": "https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/"
       }
     ]
   },
   "requirements": {
-    "language_level": "Для традиционных программ нужен высокий уровень японского; приём для выпускников зарубежных школ описан только на японском",
-    "notes": "Есть два пути: общий экзамен (для выпускников школ Японии) и специальные экзамены для выпускников зарубежных школ, их условия опубликованы только по-японски. Принимается ли российский аттестат напрямую и нужны ли дополнительные экзамены, на прочитанных страницах не указано. Для английских программ PEAK и GSC условия лежат на отдельных страницах, которые не открылись."
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "min_score": "1480",
+        "note": "Порог Route B College of Design (2027 entry). Альтернативы: ACT 33, IB 38/42 либо 3 A-level с оценкой A и выше."
+      },
+      {
+        "exam": "ACT",
+        "min_score": "33",
+        "note": "Route B College of Design, 2027 entry; альтернативные академические квалификации перечислены в guideline."
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "Ориентир минимального ожидаемого результата Route B; TOEFL iBT более 80 (новая шкала после 21.01.2026 — более 4), Cambridge 169, DET 110. Точную применимость смотри в annual guideline."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "80",
+        "note": "В guideline 2027 указан результат выше 80 по старой шкале; для результатов после 21 января 2026 указана новая шкала выше 4."
+      },
+      {
+        "exam": "DET",
+        "min_score": "110",
+        "note": "Минимальное значение, указанное в annual guideline Route B 2027."
+      }
+    ],
+    "language_level": "Английский нужен для College of Design Route B; освобождение возможно для учащихся, обучавшихся на английском не менее 3 из последних 4 лет согласно guideline. Традиционные японскоязычные программы обычно требуют высокого японского.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Документы, подтверждающие 12 лет обучения или приемлемый эквивалент",
+      "SAT/ACT/IB/A-level results по одной из признанных траекторий Route B",
+      "Академический transcript и выпускной документ с переводом на английский",
+      "Подтверждение английского или основание для освобождения",
+      "Эссе и рекомендательные материалы, указанные в application guidelines",
+      "Дополнительные этапы отбора/интервью по процедуре программы"
+    ],
+    "notes": "В руководстве 2027 Route B образовательная eligibility требует 12 лет обучения или одну из определённых эквивалентных квалификаций. Российский стандартный 11-летний аттестат сам по себе может не удовлетворять условию; запрашивай индивидуальное подтверждение у admissions до подготовки заявки. College of Design Route B — единственная описанная здесь англоязычная школьная траектория UTokyo; обычные факультеты не следует считать англоязычными."
   },
   "dorm": {
-    "notes": "Данных об общежитии на прочитанных страницах нет."
-  }
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 82300,
+      "currency": "JPY",
+      "period": "month",
+      "note": "Mejirodai International Village, JPY 82,300/мес. плюс initial payment JPY 70,930 по guideline College of Design 2027; проверить актуальные тарифы."
+    },
+    "notes": "Для College of Design 2027 first-year students должны проживать в Mejirodai International Village по условиям программы; жильё в первый год включено в обязательную модель обучения, а не является свободным выбором общежития. Условия оплаты приведены в guideline. Доступность и политика следующих наборов могут измениться."
+  },
+  "ownership": "public",
+  "founded": 1877,
+  "intl_students_url": "https://design.adm.u-tokyo.ac.jp/admissions/",
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "QS World University Rankings 2027: 36-е место; THE World University Rankings 2027: 26-е.",
+    "Англоязычный College of Design — новая программа с началом обучения в сентябре 2027; длительность 5 лет до объединённой квалификации bachelor/master.",
+    "Для Route B опубликованы пороги SAT 1480, ACT 33, IB 38/42 или три A-level оценки A и выше; также нужно подтверждение английского.",
+    "В 2027 цикле заявка подавалась 15 октября–5 ноября 2026; этот срок уже прошёл."
+  ],
+  "programs": [
+    {
+      "name": "UTokyo College of Design (5-year integrated bachelor + master)",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 642960,
+        "currency": "JPY",
+        "period": "year",
+        "note": "Официальная базовая годовая tuition на 2026 год для бакалавриата; для нового набора 2027 будущие изменения уточнять. Вступительный сбор JPY 282,000 отдельно."
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Для Route B: SAT 1480, ACT 33, IB 38/42 или три A-level grades A и выше; требуется соответствовать eligibility по 12 годам обучения. Дополнительно английский. Набор 2027 закрыт 5 ноября 2026."
+      },
+      "url": "https://design.adm.u-tokyo.ac.jp/admissions/application-guidelines-2027/route-b/"
+    }
+  ],
+  "deadlines": [
+    {
+      "what": "College of Design Route B applications (2027 entry)",
+      "start": "2026-10-15",
+      "end": "2026-11-05",
+      "intake": "Сентябрь 2027; набор закрыт"
+    },
+    {
+      "what": "Объявление результата Route B",
+      "end": "2027-02-20",
+      "intake": "2027 entry"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Japan Student visa (留学)",
+    "notes": "После зачисления университет обычно помогает получить Certificate of Eligibility (COE); затем студент подаёт заявление на долгосрочную Student visa через японское представительство в России. Нужны admission/COE и документы по текущему консульскому списку; могут запросить дополнительные бумаги. Не покупай невозвратные билеты до выдачи визы и перепроверь процедуру на дату подачи.",
+    "url": "https://www.ru.emb-japan.go.jp/VISANDTOURISM/RabotaDolgosrochn.html"
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "36"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "26"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "employment",
+    "exchange",
+    "campus"
+  ],
+  "photos": [
+    {
+      "file": "photos/utokyo/1.jpg",
+      "author": "Tokyo538",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hongo_Campus,_University_of_Tokyo_seen_from_Engineering_Building_11.jpg",
+      "caption": "Панорамный вид кампуса Hongo"
+    },
+    {
+      "file": "photos/utokyo/2.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Students,_Engineering_Building_2_-_Hongo_Campus,_the_University_of_Tokyo_-_DSC05011.jpg",
+      "caption": "Студенческое пространство в Engineering Building 2, кампус Hongo"
+    },
+    {
+      "file": "photos/utokyo/3.jpg",
+      "author": "Автор не указан на странице Commons",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E5%A4%A7%E8%B1%8A%E5%B3%B6%E5%9B%BD%E9%9A%9B%E5%AD%A6%E7%94%9F%E5%AE%BF%E8%88%8E.jpg",
+      "caption": "Здание международного студенческого общежития Toshima при UTokyo (снимок 2008 года; это не Mejirodai International Village)"
+    }
+  ],
+  "data_year": 2027
 }

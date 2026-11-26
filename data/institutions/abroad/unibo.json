@@ -9,19 +9,19 @@
   "city": "Болонья",
   "website": "https://www.unibo.it/en",
   "admissions_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country",
-  "about": "Многопрофильный университет с программами в сельском хозяйстве, ветеринарии, инженерии, архитектуре, праве и гуманитарных науках.",
+  "about": "Università di Bologna (Alma Mater Studiorum) — государственный исследовательский университет, основанный в 1088 году и считающийся старейшим университетом западного мира. Кампусы расположены в Болонье, Чезене, Форли, Равенне и Римини. Университет охватывает право, экономику, инженерию, медицину, аграрные и ветеринарные науки, архитектуру, языки, гуманитарные и социальные дисциплины. Учебная среда сочетает исторические здания Болоньи, современные лаборатории, библиотеки и студенческие службы. Программы бакалавриата ведутся на итальянском и английском, язык нужно проверять по каждому degree.\n\nДля поступления на first-cycle (бакалавриат) иностранному кандидату требуется завершённое среднее образование, которое даёт право поступать в университет в стране выдачи, а также пройти отбор/экзамен выбранной программы. В отдельных курсах есть limited access, тест, рейтинг или языковой минимум; предварительное зачисление на Universitaly — шаг для визы и не означает admission. Для non-EU гражданина, проживающего за пределами Италии, университет требует создать pre-enrolment заявку на Universitaly и после условной/безусловной валидации обратиться за study visa; консульство может запросить языковой B2, документы о квалификации и средства. Для 2026 годовой финансовый минимум подтверждения для визы опубликован как EUR 10,179.85.\n\nПлата 2026/27 формируется из фиксированной части EUR 157.04 и переменной части, зависящей от финансовых документов и/или страны происхождения, с максимумом, различающимся по программе. Иностранным студентам доступны региональные льготы ER.GO и освобождения, но они требуют отдельной заявки и документов о семье/доходах. У университета нет гарантированной комнаты для каждого поступающего; ER.GO предоставляет места и стипендии по правилам региона и наличию, поэтому искать жильё нужно заранее. Для учёбы россиянину обычно потребуется национальная study visa D и после приезда permit of stay.",
   "areas": [
     "science",
     "engineering",
     "architecture",
     "agriculture",
-    "botany",
-    "veterinary",
     "law",
     "economics",
-    "languages"
+    "languages",
+    "medicine",
+    "humanities"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
@@ -29,26 +29,201 @@
     "agriculture",
     "law",
     "economics",
-    "linguistics"
+    "linguistics",
+    "medicine",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Изучи call for applications именно своей программы: могут требоваться TOLC, вступительный экзамен, языковой тест или ограниченное число мест. Подготовь диплом, выписку оценок и переводы.",
-    "good": "Для иностранного диплома заранее проверь признание и легализацию документов. После приёма может потребоваться предварительная регистрация через Universitaly для студенческой визы.",
+    "must": "Выбери first-cycle degree и язык; проверь школьный диплом, entry test/limited access и языковой уровень. Non-EU за пределами Италии также оформляет pre-enrolment на Universitaly для study visa.",
+    "good": "Сразу подай документы на ER.GO scholarship/benefits, собери переводы и финансовые бумаги, начни искать жильё до выдачи визы.",
     "source": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country"
   },
   "sources": [
     {
       "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "international first-cycle admission, Universitaly, visa and financial means"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
+      "accessed": "2026-11-26",
+      "covers": "2026/27 fee composition and exemptions"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programmes",
+      "accessed": "2026-11-26",
+      "covers": "undergraduate degree list"
+    },
+    {
+      "url": "https://www.er-go.it/",
+      "accessed": "2026-11-26",
+      "covers": "regional scholarship and accommodation calls"
+    },
+    {
+      "url": "https://www.unibo.it/en/university/campuses-and-structures",
+      "accessed": "2026-11-26",
+      "covers": "regional campus locations"
+    },
+    {
+      "url": "https://www.unibo.it/en/libraries-and-historical-archive",
+      "accessed": "2026-11-26",
+      "covers": "libraries and historical archive"
+    },
+    {
+      "url": "https://www.unibo.it/it/ateneo/organizzazione-e-sedi/campus-di-bologna",
+      "accessed": "2026-11-26",
+      "covers": "Bologna campus and photo"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Уточнить variable tuition для выбранного degree и личной финансовой категории; максимум меняется по курсу. Отдельно сверить срок ER.GO для текущего года."
+  ],
+  "summary": "University of Bologna — многопрофильный государственный университет с кампусами по региону Эмилия-Романья. Есть степени на итальянском и английском; для non-EU поступающих предзачисление Universitaly не заменяет конкурс программы.",
+  "intl_students_url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country",
+  "founded": 1088,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "it",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Пять кампусов по Эмилии-Романье с отдельными направлениями и условиями",
+    "В зависимости от курса отбор проходит через тест, рейтинг или конкурсный экзамен",
+    "Для non-EU Universitaly pre-enrolment нужна для визы, но сама по себе не даёт admission"
+  ],
+  "programs": [
+    {
+      "name": "Economics and Finance",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance"
+    },
+    {
+      "name": "Computer Science and Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "английский/итальянский — зависит от программы",
+      "duration_years": 3,
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programmes"
+    },
+    {
+      "name": "International Studies",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "английский",
+      "duration_years": 3,
+      "url": "https://corsi.unibo.it/1cycle/InternationalStudies"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Entry test/ranking зависит от конкретного курса; сверяй call for applications выбранного degree."
+      },
+      {
+        "exam": "IELTS",
+        "note": "Для англоязычного курса виза/университет могут запросить B2; доказательства и альтернативы устанавливаются программой."
+      }
+    ],
+    "language_level": "Итальянский или английский в зависимости от программы; уровень подтверждается по правилам курса и, при необходимости, консульства.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Документ о полном среднем образовании, дающий право на вуз в стране выдачи",
+      "Транскрипт и переводы/легализация",
+      "Языковой сертификат или признанное освобождение",
+      "Тест, portfolio или дополнительные документы курса",
+      "Предварительная заявка Universitaly для non-EU кандидатов за рубежом"
+    ],
+    "notes": "Поступление, Universitaly pre-enrolment и студенческая виза — три отдельных этапа. Успешное pre-enrolment не является зачислением; выполняй тест/условия degree."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 157.04,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Фиксированная составляющая fee 2026/27; переменная часть зависит от финансовых документов, гражданства/страны и программы."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "ER.GO regional scholarship and fee reductions",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Итальянские и международные студенты могут претендовать на региональные льготы, освобождение tuition и scholarship по доходу/заслугам. Нужна отдельная заявка и финансовые документы; конкурс/места действуют по ежегодному call.",
+        "url": "https://www.er-go.it/"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "National study visa D; residence permit",
+    "notes": "Подайся на долгосрочную study/university enrolment visa после необходимой Universitaly pre-enrolment. Для 2026 Unibo указывает минимум средств EUR 10,179.85, плюс языковые документы и страховка; проверь текущий список своего итальянского консульства. После приезда требуется permit of stay.",
+    "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/enrolling-in-first-cycle-and-single-cycle-degree-programmes/enrolling-in-a-first-cycle-or-single-cycle-degree-programme-if-you-come-from-a-non-eu-country"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "В Болонье и кампусных городах доступны университетские/региональные места ER.GO, студенческие residences и частная аренда. Наличие места не гарантируется поступлением; подача и распределение идут по отдельному конкурсу, финансовым условиям и кампусу."
+  },
+  "photos": [
+    {
+      "file": "https://www.unibo.it/it/immagini/2024-portale/chisiamo/%40%40images/16e6bc3a-a341-4067-823e-14cb97010ebc.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.unibo.it/it/ateneo",
+      "caption": "Портики Piazza Verdi и историческая университетская зона"
+    },
+    {
+      "file": "https://bur.sba.unibo.it/chi-siamo/biblioteca-ficlit-sala-calcaterra-1/%40%40download/image/biblioteca%20ficlit%20sala%20calcaterra%202.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://bur.sba.unibo.it/chi-siamo",
+      "caption": "Зал библиотеки Biblioteca Ficlit"
+    },
+    {
+      "file": "https://archiviostorico.unibo.it/it/immagini/per-testata-1360-550-px/biblioteca/%40%40images/dfb2783b-4004-44a2-aee0-b9030ffb9551.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://archiviostorico.unibo.it/it",
+      "caption": "Архивная библиотека и исследовательские места"
+    },
+    {
+      "file": "https://lingue.unibo.it/it/index.html/%40%40unibo.tiles.multi.galleria/0a8f42ab610948c49684ddae298fff3f/%40%40obj-images/73fce75156244410a2b952eac7ef194a/85035c35-21b2-41ba-acf8-211bd378bd63.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://lingue.unibo.it/it",
+      "caption": "Современный учебный зал и студенты"
+    },
+    {
+      "file": "https://www.unibo.it/it/immagini/2024-portale/bologna-vivere-la-citta/%40%40images/b23d7f1e-4c75-480c-957a-9013c09309a6.jpeg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.unibo.it/it/ateneo/organizzazione-e-sedi/campus-di-bologna",
+      "caption": "Студенты в университетском районе Болоньи"
+    }
+  ],
+  "data_year": 2027
 }

@@ -8,7 +8,7 @@
   "city": "Ростов-на-Дону",
   "website": "https://sfedu.ru/",
   "admissions_url": "https://welcome.sfedu.ru/",
-  "about": "Университет с программами в инженерии, ИТ, физике, биологии, экономике, психологии, педагогике и гуманитарных науках.",
+  "about": "ЮФУ — федеральный университет, ведущий историю от Императорского Варшавского университета и расположенный в Ростовской области. Учебные площадки находятся в Ростове-на-Дону и Таганроге; университет предлагает обучение в естественных науках, инженерии, радиоэлектронике и ИТ, экономике, гуманитарных дисциплинах, образовании и медицине. В инфраструктуру входят учебные корпуса, лаборатории, библиотеки, общежития и студенческие сервисы. Для российского абитуриента поступление проходит по ЕГЭ или внутренним испытаниям по требованиям выбранного направления; иностранные программы и подготовительное отделение имеют отдельные условия и тарифы.",
   "areas": [
     "engineering",
     "it",
@@ -25,25 +25,222 @@
     "engineering",
     "it",
     "natural_sciences",
-    "economics",
+    "medicine",
     "business",
-    "psychology",
+    "economics",
+    "law",
+    "humanities",
+    "social_sciences",
     "pedagogy",
-    "media",
-    "linguistics"
+    "design_art",
+    "architecture"
   ],
   "sources": [
     {
       "url": "https://welcome.sfedu.ru/",
       "accessed": "2026-11-23",
       "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+    },
+    {
+      "url": "https://sfedu.ru/www/stat_pages22.show?p=ABT%2FN",
+      "accessed": "2026-11-26",
+      "covers": "приёмная комиссия и кампании поступления"
+    },
+    {
+      "url": "https://sfedu.ru/www/stat_pages22.show?p=STD%2FN12176",
+      "accessed": "2026-11-26",
+      "covers": "общежития: размещение и цены"
+    },
+    {
+      "url": "https://podfak.sfedu.ru/index.php?Itemid=102&id=2&lang=ru&option=com_content&view=category",
+      "accessed": "2026-11-26",
+      "covers": "подготовительные программы и опубликованные расходы для иностранных студентов"
+    },
+    {
+      "url": "https://sfedu.ru/",
+      "accessed": "2026-11-26",
+      "covers": "официальная информация о структуре и инфраструктуре"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/southern-federal-university",
+      "accessed": "2026-11-26",
+      "covers": "QS ranking profile"
+    },
+    {
+      "url": "https://welcome.sfedu.ru/dormitory_en",
+      "accessed": "2026-11-26",
+      "covers": "официальные сведения о корпусах общежитий в Ростове и Таганроге, фото зданий, комнат и территории"
+    },
+    {
+      "url": "https://welcome.sfedu.ru/student_life_en",
+      "accessed": "2026-11-26",
+      "covers": "официальная страница студенческой жизни и галерея студентов/внеучебных мероприятий"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Сверить академические минимумы, проходные баллы и платную цену по выбранной программе в тарифном приложении 2026/27.",
+    "Добавить фасад основного учебного корпуса и подтверждённое фото учебных аудиторий: текущая галерея показывает общежития и студенческие мероприятия."
+  ],
+  "summary": "Южный федеральный университет — крупный государственный многопрофильный университет с кампусами в Ростове-на-Дону и Таганроге. Он объединяет естественные науки, математику и ИТ, инженерию, медицину, экономику, право, гуманитарные и педагогические направления; требования и проходные показатели зависят от программы.",
+  "highlights": [
+    "Два основных университетских города: Ростов-на-Дону и Таганрог",
+    "Сильные направления в ИТ, физике, инженерии и естественных науках",
+    "Есть общежития и отдельный международный/подготовительный маршрут",
+    "Стоимость и вступительные испытания привязаны к институту и программе"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Прикладная математика и информатика",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Информатика и вычислительная техника",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Международные отношения",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 200000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Установленная стоимость зависит от направления; перед оплатой сверить тариф 2026/27 на официальном портале."
+    },
+    "tuition_max": {
+      "amount": 500000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Для ряда медицинских и англоязычных маршрутов цена выше; точная цена по коду программы."
+    },
+    "living_month_estimate": {
+      "amount": 2500,
+      "currency": "RUB",
+      "period": "month",
+      "note": "Официальный университетский источник указывает около 15 000 ₽ за 6 месяцев для конкретного подготовительного маршрута; цена общежития зависит от корпуса."
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Бюджетные места",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Места и конкурсные квоты публикуются приёмной комиссией каждый год.",
+        "url": "https://sfedu.ru/www/stat_pages22.show?p=ABT%2FN"
+      }
+    ]
+  },
+  "requirements": {
+    "entrance_tests": true,
+    "portfolio": "some_programs",
+    "documents": [
+      "Заявление",
+      "Паспорт",
+      "Аттестат и приложение",
+      "Результаты ЕГЭ/внутренних испытаний",
+      "Документы об индивидуальных достижениях"
+    ],
+    "notes": "Предметы и минимальные баллы определяются каждой программой; творческие направления имеют дополнительные испытания. Иностранные поступающие подают документы по отдельному порядку."
+  },
+  "deadlines": [
+    {
+      "what": "Основной приём 2026 по расписанию приёмной комиссии ЮФУ",
+      "intake": "2026/27"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Для граждан РФ не требуется",
+    "notes": "Иностранным студентам вуз помогает с приглашением и миграционным оформлением; правила зависят от гражданства."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Общежития есть в Ростове-на-Дону и Таганроге; распределение, цены и корпуса зависят от института и категории студента."
+  },
+  "perks": [
+    "campus",
+    "strong_research",
+    "internships",
+    "employment",
+    "exchange",
+    "student_life"
+  ],
+  "data_year": 2026,
+  "prep": {
+    "must": "Сначала выбери конкретную программу и кампус, затем собери документы и проверь сроки, требования и стоимость на официальной странице текущего набора.",
+    "good": "Подготовь переводы школьных документов заранее и заложи время на языковой сертификат, медицинские документы и жильё.",
+    "source": "https://welcome.sfedu.ru/"
+  },
+  "photos": [
+    {
+      "file": "https://optim.tildacdn.com/tild3531-3731-4335-b233-386562333336/-/format/webp/10-03-16oboo.jpg.webp",
+      "license": "© Southern Federal University; image from the official university website; no reuse rights claimed",
+      "source_url": "https://welcome.sfedu.ru/dormitory_en",
+      "caption": "Жилой комплекс студенческого кампуса в Ростове-на-Дону"
+    },
+    {
+      "file": "https://static.tildacdn.com/tild3134-3065-4638-a234-643266353430/photo.jpg",
+      "license": "© Southern Federal University; image from the official university website; no reuse rights claimed",
+      "source_url": "https://welcome.sfedu.ru/dormitory_en",
+      "caption": "Двор и спортивная площадка жилого кампуса"
+    },
+    {
+      "file": "https://static.tildacdn.com/tild3766-3432-4531-b665-376530653163/uDNp-ATXWAY.jpg",
+      "license": "© Southern Federal University; image from the official university website; no reuse rights claimed",
+      "source_url": "https://welcome.sfedu.ru/dormitory_en",
+      "caption": "Учебное и жилое пространство студенческого общежития"
+    },
+    {
+      "file": "https://thb.tildacdn.com/tild3765-3131-4331-a236-636137326261/-/empty/BT9sxHbDmIA.jpg",
+      "license": "© Southern Federal University; image from the official university website; no reuse rights claimed",
+      "source_url": "https://welcome.sfedu.ru/student_life_en",
+      "caption": "Студенческая жизнь и мероприятия SFedU"
+    },
+    {
+      "file": "https://thb.tildacdn.com/tild3631-3066-4561-a233-336633393535/-/empty/TaJSPMmMxuY.jpg",
+      "license": "© Southern Federal University; image from the official university website; no reuse rights claimed",
+      "source_url": "https://welcome.sfedu.ru/student_life_en",
+      "caption": "Студенты университета на внеучебном мероприятии"
+    }
   ]
 }
