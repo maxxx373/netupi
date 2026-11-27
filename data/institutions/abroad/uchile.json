@@ -2,14 +2,16 @@
   "id": "uchile",
   "type": "university",
   "name": {
-    "ru": "University of Chile",
-    "en": "University of Chile"
+    "ru": "Чилийский университет",
+    "en": "University of Chile",
+    "short": "UChile",
+    "local": "Universidad de Chile"
   },
   "country": "CL",
   "city": "Сантьяго",
   "website": "https://uchile.cl/english",
   "admissions_url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
-  "about": "Universidad de Chile — государственный исследовательский университет, основанный в 1842 году. Его факультеты и институты расположены на нескольких площадках Сантьяго и в других регионах страны; направления включают инженерные науки, медицину, право, архитектуру, экономику, сельское хозяйство, ветеринарию, социальные и естественные науки. Учебная инфраструктура включает библиотеки, лаборатории, клиники, музеи и спортивные площадки. Преподавание бакалавриата ведётся на испанском.\n\nДля абитуриента, завершившего среднюю школу за пределами Чили, Universidad de Chile предлагает специальный процесс SIEXT. Для набора 2027 установлены условия по месту и длительности обучения за рубежом: например, при окончании последнего класса за рубежом нужно пройти там как минимум два последних года очного обучения в обычной школе. Кандидат подаёт зарубежные школьные документы и сдаёт экзамены, заданные выбранной степенью; вес отдельных тестов, доступные места и сроки публикуются отдельно. Этот маршрут отличается от обычного чилийского процесса PAES и не гарантирует зачисление.\n\nОфициальная страница новых студентов на 2026 год указывает ежегодное базовое matricula fee CLP 217,600; tuition/arancel зависит от программы, дополнительных условий и финансовой категории. Университет предлагает несколько scholarships, но допуск зависит от гражданства и правил конкретного финансирования. Единая система общежитий для всех иностранных первокурсников не гарантируется; проживание нужно планировать по кампусу и городу. Для длительного обучения российскому гражданину потребуется чилийский временный статус/резиденция для учёбы; проверь текущую миграционную категорию и оформление документов.",
+  "about": "Universidad de Chile — государственный университет, основанный в 1842 году. Факультеты разбросаны по Сантьяго: Каса-Сентраль на проспекте Аламеда, инженерный кампус Бошеф, медицинский, юридический и другие.\n\nИностранцы поступают через специальный приём для тех, кто окончил школу за рубежом (SIEXT). Нужно: последние два года школы учиться за границей; иметь право поступать в вуз и в Чили, и в своей стране; не участвовать в общем чилийском конкурсе. Процесс 2027: регистрация онлайн с 1 августа по 2 октября 2026 года (сбор 40 000 песо или $50); очные экзамены в Сантьяго 20–22 октября — обязательно математика и чтение на испанском, плюс профильные (биология, физика, химия или история) для некоторых программ. Затем выбираешь до 4 программ, а 15 декабря публикуют списки зачисленных; запись — 19–21 января 2027 года. Учёба начинается в марте.\n\nВсё преподавание — только на испанском. Для подготовки у университета есть годовой курс испанского для иностранцев. Обучение платное и для иностранцев, своих стипендий на обучение для этого пути у университета нет.",
   "areas": [
     "science",
     "engineering",
@@ -32,53 +34,55 @@
     "social_sciences"
   ],
   "prep": {
-    "must": "Проверь eligibility SIEXT по тому, где и сколько лет ты учился, подай документы и выполни экзамены именно выбранной программы. Подтверди испанский для обучения.",
-    "good": "Сверь список SIEXT 2027 вакансий/мест и взвешивание экзаменов; запроси tuition/arancel и базовый matricula в актуальной тарифной сетке.",
-    "source": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado"
+    "must": "Выучи испанский до уровня, на котором сможешь учиться и сдать тест на понимание текста. Готовься к экзаменам университета по математике и профильным предметам (темы 2027 года выложены на сайте). Зарегистрируйся до 2 октября и прилети в Сантьяго на экзамены 20–22 октября.",
+    "good": "Заранее поставь апостиль на аттестат и табель и сделай официальный перевод на испанский: в Чили принимают только копии, заверенные местным нотариусом. Учти, что если заканчиваешь школу во втором полугодии 2026, подаваться нужно в следующем году.",
+    "source": "https://uchile.cl/u4817"
   },
   "sources": [
     {
-      "url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
-      "accessed": "2026-11-26",
-      "covers": "международная подача на бакалавриат"
+      "url": "https://uchile.cl/u4817",
+      "accessed": "2026-11-27",
+      "covers": "SIEXT 2027: условия, этапы, даты, документы, сбор, язык"
     },
     {
-      "url": "https://uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/personas-con-estudios-medios-en-el-extranjero",
-      "accessed": "2026-11-26",
-      "covers": "специальный доступ для иностранных школьных дипломов"
+      "url": "https://uchile.cl/dam/jcr:aae178ca-84bc-4db1-be1a-436a4e41d672/Instructivo%20Admisi%C3%B3n%20Extranjeros%202027.pdf",
+      "accessed": "2026-11-27",
+      "covers": "инструкция 2027, апостиль, отсутствие стипендий"
     },
     {
-      "url": "https://uchile.cl/dam/jcr%3Aaae178ca-84bc-4db1-be1a-436a4e41d672/Instructivo%20Admisi%C3%B3n%20Extranjeros%202027.pdf",
-      "accessed": "2026-11-26",
-      "covers": "подробные правила SIEXT набора 2027"
+      "url": "https://uchile.cl/dam/jcr:4e598d96-e72d-4fb1-8b60-ff6af2eadf7e/instructivo-admisin-extranjeros-2021-conversin-notas-20200706.pdf",
+      "accessed": "2026-11-27",
+      "covers": "шкала перевода российских оценок"
     },
     {
-      "url": "https://uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/vacantes-y-ponderaciones-admision-extranjeros-2022",
-      "accessed": "2026-11-26",
-      "covers": "экзамены и взвешивание SIEXT 2027"
+      "url": "https://uchile.cl/Uchile/admision-y-matriculas/aranceles-y-credito/aranceles/estudiantes-nuevos.html",
+      "accessed": "2026-11-27",
+      "covers": "стоимость обучения 2026"
     },
     {
-      "url": "https://uchile.cl/admision-y-matriculas/aranceles-y-credito/aranceles/estudiantes-nuevos",
-      "accessed": "2026-11-26",
-      "covers": "matrícula fee и arancel 2026"
+      "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudiantes/",
+      "accessed": "2026-11-27",
+      "covers": "ВНЖ для учёбы"
     },
     {
-      "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/",
-      "accessed": "2026-11-26",
-      "covers": "чилейская резиденция для учёбы"
+      "url": "https://uchile.cl/internacional/estudia-con-nosotros/soporte-para-estudiantes-extranjeros",
+      "accessed": "2026-11-27",
+      "covers": "поддержка иностранцев, курс испанского"
     },
     {
-      "url": "https://medicina.uchile.cl/biblioteca/biblioteca-central/presentacion",
-      "accessed": "2026-11-26",
-      "covers": "кампусная библиотека и фото"
+      "url": "https://www.topuniversities.com/node/2275",
+      "accessed": "2026-11-27",
+      "covers": "QS 2026, 2027"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-27",
   "confidence": "high",
   "todo": [
-    "Подобрать точный arancel и срок SIEXT для выбранного бакалавриата; базовая matrícula в cost не включает полную tuition."
+    "Добавить места и веса экзаменов SIEXT 2027 по программам, когда их опубликуют",
+    "Найти официальную оценку расходов на жизнь в Сантьяго",
+    "Добавить фото кампуса Бошеф и общих студенческих пространств"
   ],
-  "summary": "Государственный университет Сантьяго с большим набором программ на испанском. Для абитуриентов с зарубежным школьным образованием действует специальный процесс SIEXT со своими условиями и экзаменами.",
+  "summary": "Старейший и один из двух сильнейших университетов Чили (основан в 1842 году; QS 2027 — 185-е место), главный корпус — Каса-Сентраль в центре Сантьяго. Для выпускников школ за рубежом есть отдельный приём SIEXT: экзамены в Сантьяго в октябре, на каждую программу минимум 3 места. Учёба только на испанском; обучение — от 3,6 до 9,5 млн песо в год.",
   "intl_students_url": "https://uchile.cl/internacional/estudia-con-nosotros/carreras-y-admision-al-pregrado",
   "founded": 1842,
   "city_size": "mega",
@@ -95,125 +99,317 @@
     "full"
   ],
   "highlights": [
-    "Для выпускников школ за пределами Чили работает специальный маршрут SIEXT",
-    "SIEXT 2027 требует очного обучения за рубежом в течение указанного числа последних школьных лет",
-    "На 2026 год базовый matricula fee — CLP 217,600; tuition зависит от степени"
+    "Старейший университет Чили, QS 2027 — 185-е место",
+    "Отдельный приём для окончивших школу за рубежом: минимум 3 места на каждой программе",
+    "Российский аттестат подходит: есть официальная шкала перевода 5-балльных оценок",
+    "Экзамены в Сантьяго 20–22 октября 2026 года, сбор $50",
+    "Обучение от 3,6 до 9,5 млн песо в год, всё на испанском",
+    "Россиянам для въезда виза не нужна, ВНЖ для учёбы оформляют онлайн из-за рубежа"
   ],
   "programs": [
     {
-      "name": "Ingeniería Civil",
+      "name": "Ingeniería y Ciencias — Plan Común (инженерия, общий первый этап)",
       "field": "engineering",
       "level": "bachelor",
       "language": "es",
       "duration_years": 6,
-      "url": "https://uchile.cl/admision-y-matriculas"
+      "tuition": {
+        "amount": 8695300,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
     },
     {
-      "name": "Medicina",
+      "name": "Medicina (медицина)",
       "field": "medicine",
       "level": "bachelor",
       "language": "es",
       "duration_years": 7,
-      "url": "https://uchile.cl/admision-y-matriculas"
+      "tuition": {
+        "amount": 9468300,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
     },
     {
-      "name": "Derecho",
+      "name": "Derecho (право)",
       "field": "law",
       "level": "bachelor",
       "language": "es",
       "duration_years": 5,
-      "url": "https://uchile.cl/admision-y-matriculas"
+      "tuition": {
+        "amount": 6964300,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
+    },
+    {
+      "name": "Psicología (психология)",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "es",
+      "tuition": {
+        "amount": 5442500,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
+    },
+    {
+      "name": "Ingeniería Comercial (экономика и бизнес)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "es",
+      "tuition": {
+        "amount": 7967800,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
+    },
+    {
+      "name": "Arquitectura (архитектура)",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "es",
+      "tuition": {
+        "amount": 6197700,
+        "currency": "CLP",
+        "period": "year",
+        "note": "Для поступивших в 2026 году; плюс ежегодный взнос 217 600 CLP"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 50,
+        "kind": "other",
+        "note": "SIEXT: минимум 40 из 100 по математике и по чтению на испанском, взвешенный балл от 50; дальше конкурс на ≥3 места для иностранцев"
+      },
+      "url": "https://uchile.cl/u101669"
     }
   ],
   "requirements": {
     "intl_exams": [
       {
         "exam": "OTHER",
-        "note": "Для SIEXT поступающий сдаёт тесты отбора, установленные Universidad de Chile и конкретной программой; это не всегда тот же пакет, что PAES."
+        "min_score": "40/100",
+        "note": "Собственные экзамены университета в Сантьяго: математика и понимание текста на испанском (минимум по 40 из 100) + профильные по программе; взвешенный балл от 50"
       }
     ],
-    "language_level": "Испанский для академического обучения; большинство программ университета ведётся на испанском.",
+    "language_level": "Свободный испанский: всё обучение только на испанском, тест на понимание текста — часть отбора",
     "entrance_tests": true,
-    "interview": true,
+    "interview": false,
     "portfolio": "some_programs",
-    "motivation_letter": true,
+    "motivation_letter": false,
     "recommendations": false,
-    "activities_matter": "medium",
+    "activities_matter": "low",
     "documents": [
-      "Паспорт",
-      "Документы об очном среднем образовании за рубежом за требуемые годы",
-      "Аттестат и оценки, переведённые/легализованные по правилам",
-      "Подтверждение соответствия страны и программы SIEXT",
-      "Экзамены и подтверждение испанского",
-      "Дополнительные документы выбранного факультета"
+      "Онлайн-форма SIEXT с 01.08 по 02.10.2026",
+      "Оплата сбора 40 000 CLP или $50 переводом из-за рубежа",
+      "Табель оценок за старшие классы с апостилем и официальным переводом на испанский",
+      "Аттестат с апостилем и переводом (временно), потом — признание в Чили",
+      "Фото на паспорт, скан паспорта",
+      "Копии документов, заверенные чилийским нотариусом, — сдать 20 октября после первого экзамена"
     ],
-    "notes": "Для SIEXT 2027 применяются отдельные eligibility, предметы, взвешенные результаты и места по степени; проверь актуальный инструктивный документ."
+    "notes": "Российский аттестат подходит. В официальной шкале перевода есть Россия: оценка по 5-балльной шкале x переводится в чилийскую как (x−3)·3/2+4. Россия и Чили участвуют в Гаагской конвенции, поэтому документы заверяют апостилем в России. Перевод на испанский — официальный (МИД Чили или заверенный консульством). Если ты заканчиваешь школу во втором полугодии 2026 года, в приём 2027 не попадаешь — подавайся в следующем году."
   },
   "cost": {
     "tuition_min": {
-      "amount": 217600,
+      "amount": 3588100,
       "currency": "CLP",
       "period": "year",
-      "note": "Это ежегодный базовый matrícula fee 2026; годовой arancel обучения оплачивается дополнительно и зависит от программы."
+      "note": "Самая дешёвая программа для поступивших в 2026 (базовая ступень искусств); плюс взнос 217 600 CLP"
     },
     "tuition_max": {
-      "amount": 217600,
+      "amount": 9468300,
       "currency": "CLP",
       "period": "year",
-      "note": "Только базовый matrícula fee; не является полной ценой обучения. Tuition/arancel нужно смотреть в тарифе выбранной степени."
+      "note": "Медицина, поступление 2026; плюс ежегодный взнос 217 600 CLP"
     }
   },
   "funding": {
     "free_tuition": false,
-    "grants": []
+    "grants": [
+      {
+        "name": "Стипендий на обучение для поступающих через SIEXT нет",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Университет прямо пишет, что своих стипендий на оплату обучения для этого пути у него нет. Про другие льготы можно спросить в Dirección de Bienestar y Desarrollo Estudiantil",
+        "url": "https://uchile.cl/dam/jcr:aae178ca-84bc-4db1-be1a-436a4e41d672/Instructivo%20Admisi%C3%B3n%20Extranjeros%202027.pdf"
+      }
+    ]
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Temporary residence for study (Chile)",
-    "notes": "Для длительной учёбы получи соответствующую временную резиденцию/разрешение на обучение. Проверь текущий список требований SERMIG и процедуры подачи за пределами Чили.",
-    "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudios/"
+    "type": "Временный ВНЖ для учёбы (Residencia Temporal — estudiantes)",
+    "notes": "Россиянам для коротких поездок в Чили виза не нужна, так что на вступительные экзамены в октябре можно прилететь как турист. Для учёбы нужен временный ВНЖ студента. Подают его только из-за рубежа онлайн на портале Servicio Nacional de Migraciones (SERMIG). Нужны: паспорт, действующий ещё минимум год; справка о несудимости (не старше 60 дней) с апостилем и переводом; фото; справка о зачислении; подтверждение денег (выписки, регулярные переводы или заверенное обязательство спонсора в Чили). Деньги: российские карты в Чили не работают, переводы из российских банков блокируются. Для оплаты сбора, обучения и для выписок нужен счёт в банке другой страны.",
+    "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudiantes/"
   },
   "dorm": {
-    "available": true,
+    "available": false,
     "guaranteed_first_year": false,
-    "notes": "Университетские residencia/колледжи существуют в отдельных кампусах и факультетах, но не являются общей гарантией размещения для иностранного бакалавра. Проверь по выбранному факультету; частное жильё в Сантьяго нужно искать отдельно."
+    "notes": "Общего студенческого общежития для иностранных бакалавров университет не предлагает. Жильё в Сантьяго (комнату или квартиру) ищешь сам; помочь могут социальные работники факультета и студенческая федерация FECH."
   },
   "photos": [
     {
-      "file": "https://uchile.cl/dam/jcr%3A6759dae4-a391-4085-9f98-c85d8c701ff6/WhatsApp%20Image%202025-11-24%20at%2013.16.17.jpeg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://uchile.cl/noticias/235275/u-de-chile-moderniza-la-fcqyf-con-nueva-infraestructura-y-tecnologia",
-      "caption": "Студенты у обновлённого корпуса химии и фармации"
+      "file": "photos/uchile/1.jpg",
+      "author": "Sisib Universidad de Chile",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Central_de_la_Universidad_de_Chile.jpg",
+      "caption": "Каса-Сентраль — главное здание университета на Аламеде"
     },
     {
-      "file": "https://uchile.cl/dam/jcr%3Ae47b9a3a-921f-45fc-8389-94e4d46edee8/banner-biblioteca.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://fau.uchile.cl/biblioteca",
-      "caption": "Библиотека факультета архитектуры и урбанистики"
+      "file": "photos/uchile/2.jpg",
+      "author": "Universidad de Chile",
+      "license": "© Universidad de Chile; фото с официального сайта",
+      "source_url": "https://uchile.cl/",
+      "caption": "Фасад Каса-Сентраль и памятник Андресу Бельо"
     },
     {
-      "file": "https://portaluchile.uchile.cl/.imaging/stk/uchile/ancho1000/dam/imagenes/Medicina/imagenes-contenidos-generales/124070_0_124070-biblioteca-central_S/jcr%3Acontent/124070-biblioteca-central.jpg.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://medicina.uchile.cl/biblioteca/biblioteca-central/presentacion",
-      "caption": "Центральная библиотека факультета медицины"
+      "file": "photos/uchile/3.jpg",
+      "author": "Manuel Cabezas S",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Universidad_de_Chile.jpg",
+      "caption": "Почётный зал (Salón de Honor) в Каса-Сентраль"
     },
     {
-      "file": "https://uchile.cl/dam/jcr%3A70adb564-c3b8-468e-80b5-64c38d4e6f1d/Biblioteca%20Bachillerato.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://uchile.cl/noticias/228273/programa-de-bachillerato-renueva-su-biblioteca",
-      "caption": "Обновлённая библиотека Bachillerato"
+      "file": "photos/uchile/4.jpg",
+      "author": "Universidad de Chile",
+      "license": "© Universidad de Chile; фото с официального сайта",
+      "source_url": "https://uchile.cl/",
+      "caption": "Аудитория"
     },
     {
-      "file": "https://portaluchile.uchile.cl/.imaging/stk/uchile/ancho1000/dam/imagenes/Uchile/imagenes-noticias/109291_3_biblioteca-05-l_L/jcr%3Acontent/biblioteca-05-l.jpg.jpg",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://uchile.cl/noticias/109291/bibliotecas-de-la-u-de-chile-un-universo-de-recursos-por-descubrir",
-      "caption": "Учебный зал с библиотечными фондами"
+      "file": "photos/uchile/5.jpg",
+      "author": "Universidad de Chile",
+      "license": "© Universidad de Chile; фото с официального сайта",
+      "source_url": "https://uchile.cl/",
+      "caption": "Занятие в современной учебной аудитории"
+    },
+    {
+      "file": "photos/uchile/6.jpg",
+      "author": "Universidad de Chile",
+      "license": "© Universidad de Chile; фото с официального сайта",
+      "source_url": "https://uchile.cl/",
+      "caption": "Студентки в кампусе"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Онлайн-регистрация SIEXT и загрузка документов",
+      "start": "2026-08-01",
+      "end": "2026-10-02",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Вступительные экзамены в Сантьяго (FEN, Diagonal Paraguay 257)",
+      "start": "2026-10-20",
+      "end": "2026-10-22",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Результаты экзаменов",
+      "end": "2026-11-13",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Выбор до 4 программ",
+      "start": "2026-11-14",
+      "end": "2026-11-16",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Списки зачисленных",
+      "end": "2026-12-15",
+      "intake": "Март 2027"
+    },
+    {
+      "what": "Запись и оплата",
+      "start": "2027-01-19",
+      "end": "2027-01-21",
+      "intake": "Март 2027"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=185"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "173"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "student_life",
+    "exchange",
+    "internships"
+  ],
+  "extra_links": [
+    {
+      "title": "Приём SIEXT для окончивших школу за рубежом",
+      "url": "https://uchile.cl/u4817"
+    },
+    {
+      "title": "Инструкция SIEXT 2027 (PDF)",
+      "url": "https://uchile.cl/dam/jcr:aae178ca-84bc-4db1-be1a-436a4e41d672/Instructivo%20Admisi%C3%B3n%20Extranjeros%202027.pdf"
+    },
+    {
+      "title": "Места и веса экзаменов по программам",
+      "url": "https://uchile.cl/u101669"
+    },
+    {
+      "title": "Шкалы перевода оценок (PDF)",
+      "url": "https://uchile.cl/dam/jcr:4e598d96-e72d-4fb1-8b60-ff6af2eadf7e/instructivo-admisin-extranjeros-2021-conversin-notas-20200706.pdf"
+    },
+    {
+      "title": "Стоимость обучения для новых студентов",
+      "url": "https://uchile.cl/Uchile/admision-y-matriculas/aranceles-y-credito/aranceles/estudiantes-nuevos.html"
+    },
+    {
+      "title": "ВНЖ для учёбы — SERMIG",
+      "url": "https://serviciomigraciones.cl/residencia-temporal/subcategorias/estudiantes/"
+    }
+  ]
 }
