@@ -2,7 +2,7 @@
   "id": "technion",
   "type": "university",
   "name": {
-    "ru": "Technion – Israel Institute of Technology",
+    "ru": "Технион — Израильский технологический институт",
     "en": "Technion – Israel Institute of Technology"
   },
   "country": "IL",
@@ -37,61 +37,83 @@
   "sources": [
     {
       "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "англоязычный бакалаврский маршрут, отбор, условия Sekem"
     },
     {
       "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/costs/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "учебная плата и ориентир ежемесячных расходов 2026/27"
     },
     {
       "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/housing/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "тип и гарантия жилья, ставки"
     },
     {
       "url": "https://www.gov.il/en/service/request_for_student_visa",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "официальный порядок учебной визы Израиля"
     },
     {
       "url": "https://www.topuniversities.com/universities/technion-israel-institute-technology",
-      "accessed": "2026-11-26",
-      "covers": "QS 2026"
+      "accessed": "2026-11-28",
+      "covers": "QS 2027 position"
     },
     {
       "url": "https://www.technion.ac.il/en/student-dormitories-at-the-technion/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "общежития, вместимость и инфраструктура жилья"
     },
     {
       "url": "https://dean.technion.ac.il/en/housing/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "диапазон начальной цены размещения и порядок подачи заявки"
     },
     {
       "url": "https://dean.technion.ac.il/en/dorms/dejour-dormitories-known-as-meonot-haamim/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "фото и описание типов студенческих комнат"
     },
     {
       "url": "https://www.technion.ac.il/en/the-history-of-the-technion/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "официальная фотография кампуса Technion с высоты"
     },
     {
       "url": "https://thhi.net.technion.ac.il/news/from-vision-to-reality-the-technion-teaching-bioenglab-complex-completes-its-first-semester/",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "официальные фотографии учебной лаборатории и студентов на практическом занятии"
+    },
+    {
+      "url": "https://www.technion.ac.il/en/the-history-of-the-technion/",
+      "accessed": "2026-11-28",
+      "covers": "история и начало занятий в 1924/25; официальная история"
+    },
+    {
+      "url": "https://math.technion.ac.il/en/our-history/",
+      "accessed": "2026-11-28",
+      "covers": "официальная история: учреждение создано в 1912"
+    },
+    {
+      "url": "https://embassies.gov.il/saintpetersburg/en/node/4919",
+      "accessed": "2026-11-28",
+      "covers": "студенческая A/2 виза: документы, правила для несовершеннолетних, консульская подача"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/technion-israel-institute-technology",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027 position"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-28",
   "confidence": "medium",
   "todo": [
-    "Подтвердить у приёмной комиссии индивидуальный Sekem для российского аттестата и актуальные сроки кампании 2027/28."
+    "Запросить у Technion индивидуальный Sekem и признание российского аттестата.",
+    "Уточнить в приёмной комиссии точные даты набора 2027/28.",
+    "Получить подтверждённый тариф для каждой выбранной программы и официальный способ оплаты из России."
   ],
-  "summary": "Технион — исследовательский технический университет в Хайфе, где сильны инженерные, естественно-научные, медицинские и архитектурные направления. Англоязычный бакалаврский маршрут First Year in English начинается с общего инженерного года; дальше обучение продолжается на иврите, поэтому заранее проверь языковой переход и доступность желаемой специализации.",
+  "summary": "Технион — государственный исследовательский технологический университет в Хайфе, основанный в 1912 году. Сильные области включают инженерные и естественные науки, архитектуру, сельское хозяйство и медицину. Англоязычный маршрут First Year in English даёт международным выпускникам школ первый год инженерной подготовки; для продолжения выбранной бакалаврской программы обычно важны её собственные академические правила и знание иврита.",
   "highlights": [
     "Англоязычный первый год по инженерному треку для иностранных выпускников школ",
     "После первого года дальнейшая учёба требует иврита — проверь требования заранее",
@@ -160,10 +182,10 @@
       "note": "Стоимость англоязычного первого года; не переносить на следующие годы."
     },
     "living_month_estimate": {
-      "amount": 500,
+      "amount": 550,
       "currency": "USD",
       "period": "month",
-      "note": "Официальная оценка базовых расходов на еду, транспорт и прочее; жильё оплачивается отдельно."
+      "note": "Официальный бюджет Technion International: USD 500–600 в месяц на питание, транспорт и базовые расходы; жильё отдельно. Указана середина диапазона, 2026/27."
     }
   },
   "funding": {
@@ -193,19 +215,19 @@
       "Подтверждение английского",
       "Документы на иврите/английском либо заверенный перевод"
     ],
-    "notes": "Для русскоязычного школьного аттестата конкретный расчёт Sekem и право на поступление нужно письменно подтвердить у Technion International. Для маршрута Winter 2027–28 опубликован предварительный порог; он может обновиться."
+    "notes": "Для российского школьного аттестата Technion International должен подтвердить право на поступление и индивидуальный расчёт Sekem письменно. В First Year in English опубликованы языковые и экзаменационные требования, но универсальный проходной балл для российского аттестата в открытых источниках не найден. В требованиях A/2 консульство просит зачисление и подтверждение оплаты; возможность платежа из России заранее запроси у университета."
   },
   "deadlines": [
     {
-      "what": "Подача на First Year in English; проверить набор в портале",
-      "intake": "Winter 2027–28"
+      "what": "Приём на First Year in English; для следующего цикла проверить актуальное окно в портале",
+      "intake": "Winter 2027–28; официальная дата открытия/закрытия не подтверждена"
     }
   ],
   "visa": {
     "needed_for_ru": true,
     "type": "A/2 — student visa",
-    "notes": "Для учёбы в Израиле требуется учебная виза. Порядок и возможность подачи для граждан РФ необходимо подтвердить в израильском консульстве; приглашение оформляется после зачисления.",
-    "url": "https://www.gov.il/en/service/request_for_student_visa"
+    "notes": "Гражданам России для долгосрочной учёбы нужен израильский студенческий въездной статус A/2. Консульство Израиля в Санкт-Петербурге публикует перечень для студентов: письмо о зачислении, подтверждение оплаты обучения, выписка со счёта за 3 месяца, страховка и подтверждение проживания; для заявителя младше 18 лет оба родителя подписывают заявление в консульстве. Запись и действующий тариф уточняй у израильской миссии по месту проживания. Способ оплаты обучения из российских банков Technion публично не подтверждает — уточняй у финансового офиса до платежа.",
+    "url": "https://embassies.gov.il/saintpetersburg/en/node/4919"
   },
   "dorm": {
     "available": true,
@@ -221,8 +243,8 @@
   "rankings": [
     {
       "name": "QS World University Rankings",
-      "year": 2026,
-      "position": "=259"
+      "year": 2027,
+      "position": "334"
     }
   ],
   "perks": [
@@ -231,7 +253,7 @@
     "intl_environment",
     "internships"
   ],
-  "data_year": 2026,
+  "data_year": 2027,
   "photos": [
     {
       "file": "https://www.technion.ac.il/wp-content/uploads/2024/10/AL21_02_01_79151-scaled-e1735646083743.jpg",
@@ -257,5 +279,8 @@
       "source_url": "https://dean.technion.ac.il/en/dorms/dejour-dormitories-known-as-meonot-haamim/",
       "caption": "Комната студенческого общежития с рабочим местом и спальной зоной"
     }
-  ]
+  ],
+  "city_size": "mid",
+  "ownership": "public",
+  "founded": 1912
 }
