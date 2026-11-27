@@ -2,14 +2,16 @@
   "id": "hebrew",
   "type": "university",
   "name": {
-    "ru": "The Hebrew University of Jerusalem",
-    "en": "The Hebrew University of Jerusalem"
+    "ru": "Еврейский университет в Иерусалиме",
+    "en": "The Hebrew University of Jerusalem",
+    "short": "HUJI",
+    "local": "האוניברסיטה העברית בירושלים"
   },
   "country": "IL",
   "city": "Иерусалим",
   "website": "https://en.huji.ac.il/",
-  "admissions_url": "https://international.huji.ac.il/",
-  "about": "The Hebrew University of Jerusalem (HUJI) — государственный исследовательский университет Израиля, основанный в 1918 году; первые занятия прошли в 1925-м. У него несколько кампусов: Mount Scopus объединяет гуманитарные, социальные науки, право, бизнес и международную школу Rothberg; Edmond J. Safra / Givat Ram — естественные науки и технологии; кампус медицинских наук связан с Hadassah, а сельскохозяйственный факультет находится в Rehovot. Между площадками различаются специализация, среда и логистика.\n\nБольшинство обычных бакалаврских степеней преподаётся на иврите, и для поступления нужны признанный школьный документ, академические критерии факультета и требуемый уровень иврита. Для международных абитуриентов есть ограниченные программы бакалавриата на английском в Rothberg International School: например, три года обучения на double-major BA, где студент комбинирует Business, English и Liberal Arts; требования и дедлайны задаются отдельно по треку. Для цикла 2026/27 страница этого международного BA указывала tuition USD 15,500 в год, жильё и страховка отдельно; цену 2027/28 нужно перепроверить. Иностранцы могут подаваться на ограниченное число merit- или need-based стипендий. Студенческое жильё доступно, включая Student Village на Mount Scopus, но заявку на комнату подают отдельно и место не следует считать гарантированным. Для длительного очного обучения гражданину России требуется студенческая виза A/2; порядок и возможность оформления нужно проверять по официальным израильским консульским правилам.",
+  "admissions_url": "https://overseas.huji.ac.il/admissions/apply-now/apply-now-ba/",
+  "about": "Еврейский университет — главный исследовательский университет Израиля; среди его основателей были Альберт Эйнштейн и Зигмунд Фрейд. Кампусы: гора Скопус (гуманитарные и общественные науки, школа Rothberg для иностранцев), Гиват-Рам (естественные науки), Эйн-Карем (медицина) и Реховот (сельское хозяйство).\n\nОбычный бакалавриат идёт на иврите. Для иностранцев школа Rothberg International School ведёт международный BA на английском: выбираешь две специальности из трёх — бизнес-администрирование, гуманитарные науки (liberal arts) и английский язык. Учёба длится 3 года, после неё можно за год получить магистра. Поступают двумя путями: с SAT или ACT — сразу на 3-летний BA, без них — условно, через дополнительный подготовительный год со средним баллом от 80, всего 4 года. Для бизнес-трека нужна сильная школьная математика или летний матем. курс.\n\nСтоимость 2026/27: обучение $15 500 в год, общежитие $7 530, обязательная страховка $800. Живут в Student Village на горе Скопус: у каждого своя комната с кондиционером в квартире на 5 человек с общей кухней и санузлом, в нескольких минутах от кампуса.",
   "areas": [
     "science",
     "medicine",
@@ -34,75 +36,61 @@
     "it"
   ],
   "prep": {
-    "must": "Требования к иностранному школьному диплому, языку и отбору зависят от степени и языка преподавания. Проверь международный бакалавриат и действующий порядок на сайте университета.",
-    "good": "Уточни, требуется ли подготовительная программа Mechina, экзамен психометрии или подтверждение иврита/английского; заранее приготовь переводы и апостиль документов.",
-    "source": "https://international.huji.ac.il/"
+    "must": "Сдай TOEFL iBT от 80 и, если хочешь сразу на 3-летний BA, SAT или ACT. Подготовь эссе на английском (300–500 слов), две рекомендации учителей и выписку оценок из школы. Подай заявку до 1 августа и сразу забронируй общежитие (до 1 июля).",
+    "good": "Если идёшь на бизнес-трек, подтяни математику до уровня анализа, иначе придётся приехать раньше на платный курс. Заранее уточни у приёмной комиссии, как оценят российский аттестат, и запишись в посольство Израиля на визу A/2: на месте студенческий статус не оформить.",
+    "source": "https://overseas.huji.ac.il/academics/ba/"
   },
   "sources": [
     {
-      "url": "https://overseas.huji.ac.il/BA/",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "url": "https://overseas.huji.ac.il/academics/ba/",
+      "accessed": "2026-11-27",
+      "covers": "треки BA, условия поступления, срок, цена, стипендии, фото"
     },
     {
-      "url": "https://info-overseas.huji.ac.il/application-process",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "url": "https://overseas.huji.ac.il/admissions/apply-now/apply-now-ba/",
+      "accessed": "2026-11-27",
+      "covers": "документы, взнос, TOEFL, эссе"
     },
     {
-      "url": "https://international.huji.ac.il/ba",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "url": "https://overseas.huji.ac.il/wp-content/uploads/2026/03/financial-Guide-26-27-1.pdf",
+      "accessed": "2026-11-27",
+      "covers": "стоимость 2026/27: обучение, общежитие, страховка, сроки, аванс"
+    },
+    {
+      "url": "https://overseas.huji.ac.il/admissions/visas/",
+      "accessed": "2026-11-27",
+      "covers": "виза A/2"
     },
     {
       "url": "https://overseas.huji.ac.il/student-life/university-housing/",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "accessed": "2026-11-27",
+      "covers": "общежитие, бронь, фото"
     },
     {
-      "url": "https://overseas.huji.ac.il/wp-content/uploads/2026/03/financial-Guide-DEC-2025.pdf",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "url": "https://overseas.huji.ac.il/scholarships-and-financial-aid/scholarships-and-financial-aid-for-international-students-non-us/",
+      "accessed": "2026-11-27",
+      "covers": "стипендии"
     },
     {
-      "url": "https://new.huji.ac.il/הקמפוסים-שלנו",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
+      "url": "https://www.topuniversities.com/institution/hebrew-university-jerusalem",
+      "accessed": "2026-11-27",
+      "covers": "QS 2026, 2027"
     },
     {
-      "url": "https://www.gov.il/en/departments/topics/visas/govil-landing-page",
-      "accessed": "2026-11-26",
-      "covers": "Официальные сведения о требованиях, программах, стоимости, визе, проживании или стипендиях"
-    },
-    {
-      "url": "https://new.huji.ac.il/תואר-ראשון-בוגר",
-      "accessed": "2026-11-26",
-      "covers": "Источник фотографии карточки"
-    },
-    {
-      "url": "https://math.huji.ac.il/~library/room.htm",
-      "accessed": "2026-11-26",
-      "covers": "Источник фотографии карточки"
-    },
-    {
-      "url": "https://en.idi.org.il/articles/25737",
-      "accessed": "2026-11-26",
-      "covers": "Источник фотографии карточки"
-    },
-    {
-      "url": "https://www.jpost.com/israel-news/article-796314",
-      "accessed": "2026-11-26",
-      "covers": "Источник фотографии карточки"
+      "url": "https://www.timeshighereducation.com/world-university-rankings/hebrew-university-jerusalem",
+      "accessed": "2026-11-27",
+      "covers": "THE 2027"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-27",
   "confidence": "high",
   "todo": [
-    "Уточнить новый дедлайн и тариф для приёма 2027/28; опубликованная цена относится к BA Rothberg 2026/27.",
-    "Проверить текущие консульские правила по студенческой визе A/2 для места подачи заявителя."
+    "Узнать у приёмной комиссии, как оценивают российский аттестат",
+    "Обновить срок подачи и цены, когда опубликуют набор 2027/28",
+    "Найти официальный список документов на визу A/2 на сайте посольства Израиля в Москве"
   ],
-  "summary": "Исследовательский университет с несколькими кампусами Иерусалима и сельскохозяйственным кампусом в Rehovot. Большинство бакалаврских программ на иврите; для иностранцев есть отдельные англоязычные треки Rothberg.",
-  "data_year": 2027,
+  "summary": "Старейший и один из сильнейших университетов Израиля (основан в 1918 году; QS 2027 — 218-е место). Для иностранцев школа Rothberg ведёт трёхлетний бакалавриат на английском с двумя специальностями: бизнес, гуманитарные науки (liberal arts) и английский язык. Год учёбы с общежитием и страховкой стоит $23 950. Россиянам нужна студенческая виза A/2.",
+  "data_year": 2026,
   "founded": 1918,
   "city_size": "mid",
   "ownership": "public",
@@ -119,39 +107,82 @@
     "en"
   ],
   "highlights": [
-    "Несколько кампусов по специализациям",
-    "Есть англоязычный double-major BA Rothberg",
-    "Международным студентам доступно жильё Mount Scopus"
+    "Бакалавриат на английском за 3 года: две специальности из трёх — бизнес, гуманитарные науки, английский",
+    "Можно без SAT/ACT: условное зачисление и дополнительный год, всего 4 года",
+    "Всего $23 950 в год: обучение, общежитие и страховка",
+    "Своя комната в общежитии в 5 минутах от кампуса на горе Скопус",
+    "После BA — годичная магистратура: две степени за 4 года",
+    "Бесплатный спорткомплекс, поездки по Израилю, студенты из 90+ стран"
   ],
-  "intl_students_url": "https://overseas.huji.ac.il/BA/",
+  "intl_students_url": "https://overseas.huji.ac.il/academics/ba/",
   "programs": [
     {
-      "name": "International BA — English and Liberal Arts",
-      "field": "humanities",
-      "level": "bachelor",
-      "language": "английский или иврит (зависит от трека)",
-      "url": "https://overseas.huji.ac.il/BA/"
-    },
-    {
-      "name": "International BA — Business and English",
+      "name": "International BA: Business Administration & Liberal Arts",
       "field": "business",
       "level": "bachelor",
-      "language": "английский или иврит (зависит от трека)",
-      "url": "https://overseas.huji.ac.il/BA/"
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 15500,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27; плюс общежитие $7 530 и страховка $800 — итого $23 950 в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Проходного балла нет, решает комиссия. Для бизнес-трека нужна сильная математика (Algebra II / анализ) или подготовительный курс"
+      },
+      "url": "https://overseas.huji.ac.il/academics/ba/"
     },
     {
-      "name": "International BA — Liberal Arts and Business",
-      "field": "social_sciences",
+      "name": "International BA: Business Administration & English",
+      "field": "business",
       "level": "bachelor",
-      "language": "английский или иврит (зависит от трека)",
-      "url": "https://overseas.huji.ac.il/BA/"
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 15500,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27; плюс общежитие $7 530 и страховка $800 — итого $23 950 в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Проходного балла нет; TOEFL iBT от 80; для бизнес-трека нужна математика"
+      },
+      "url": "https://overseas.huji.ac.il/academics/ba/"
     },
     {
-      "name": "BA programs in Hebrew",
+      "name": "International BA: Liberal Arts & English",
       "field": "humanities",
       "level": "bachelor",
-      "language": "английский или иврит (зависит от трека)",
-      "url": "https://international.huji.ac.il/ba"
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 15500,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27; плюс общежитие $7 530 и страховка $800 — итого $23 950 в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Проходного балла нет; для англ. трека — онлайн-мастерская письма до начала учёбы для тех, кто из неанглоязычных стран"
+      },
+      "url": "https://overseas.huji.ac.il/academics/ba/"
+    },
+    {
+      "name": "Подготовительная программа (Mechina) для поступления на программы на иврите",
+      "field": "other",
+      "level": "foundation",
+      "language": "he",
+      "duration_years": 1,
+      "tuition": {
+        "amount": 13000,
+        "currency": "USD",
+        "period": "year",
+        "note": "2026/27; общежитие $6 880 в год"
+      },
+      "url": "https://overseas.huji.ac.il/academics/preparatory-program/basis-your-pathway-to-the-prestigious-hebrew-university-of-jerusalem/"
     }
   ],
   "cost": {
@@ -159,98 +190,237 @@
       "amount": 15500,
       "currency": "USD",
       "period": "year",
-      "note": "USD 15,500 за учебный год — официальная цена международного английского double-major BA Rothberg на 2026/27. Не переносить сумму автоматически на обычные программы на иврите и цикл 2027/28; жильё и страховка дополнительно."
+      "note": "International BA 2026/27, одна ставка для всех треков; диплом выдают после оплаты минимум трёх полных лет"
     },
     "tuition_max": {
-      "amount": 15500,
+      "amount": 23950,
       "currency": "USD",
       "period": "year",
-      "note": "USD 15,500 за учебный год — официальная цена международного английского double-major BA Rothberg на 2026/27. Не переносить сумму автоматически на обычные программы на иврите и цикл 2027/28; жильё и страховка дополнительно."
+      "note": "Итог 2026/27: обучение $15 500 + общежитие $7 530 + страховка $800 + взнос за заявку $120. Если нужен математический курс — ещё $1 790"
+    },
+    "living_month_estimate": {
+      "amount": 750,
+      "currency": "USD",
+      "period": "month",
+      "note": "Только общежитие: $7 530 за учебный год (с октября по конец июля, около 10 месяцев). Питания в общежитии нет, готовишь сам или ешь в кафе кампуса; официальной сметы на еду нет"
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Rothberg International School scholarships",
+        "name": "Стипендии Rothberg International School для иностранцев (не из США)",
         "coverage": "partial",
         "for_foreigners": true,
-        "note": "Небольшое число merit- и need-based awards; требуется отдельное заявление через локальный офис/трек, финансирование не гарантировано.",
-        "url": "https://overseas.huji.ac.il/BA/"
+        "note": "Небольшое число стипендий по нужде или за успехи; подают через свой региональный офис. Гарантий нет",
+        "url": "https://overseas.huji.ac.il/scholarships-and-financial-aid/scholarships-and-financial-aid-for-international-students-non-us/"
+      },
+      {
+        "name": "Стипендии Студенческого управления для новых репатриантов",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Только для тех, кто имеет право на репатриацию и стал новым репатриантом: начинают с международного BA, учат иврит и переходят на программу на иврите",
+        "url": "https://overseas.huji.ac.il/academics/ba/"
       }
     ]
   },
   "requirements": {
-    "intl_exams": [],
-    "language_level": "Для большинства обычных бакалаврских степеней нужен иврит; английский double-major BA Rothberg имеет отдельные требования.",
+    "intl_exams": [
+      {
+        "exam": "TOEFL",
+        "min_score": "80",
+        "note": "iBT от 80; не нужен, если школа была англоязычной"
+      },
+      {
+        "exam": "SAT",
+        "note": "Для прямого зачисления на 3-летний BA. Без SAT/ACT — условное зачисление и год подготовки со средним баллом от 80"
+      },
+      {
+        "exam": "ACT",
+        "note": "Альтернатива SAT; оценки AP тоже могут засчитать вместо SAT/ACT"
+      }
+    ],
+    "language_level": "Английский: TOEFL iBT от 80. Иврит для международного BA не нужен",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "no",
-    "motivation_letter": false,
-    "recommendations": false,
+    "motivation_letter": true,
+    "recommendations": true,
     "activities_matter": "medium",
     "documents": [
-      "Паспорт",
-      "Школьный аттестат и приложение с оценками",
-      "Официальные переводы и заверение по требованиям страны",
-      "Подтверждение языка обучения",
-      "Дополнительные формы, экзамены или портфолио по выбранной программе"
+      "Онлайн-заявка и взнос $120 (карта, перевод или наличные)",
+      "Фото на паспорт",
+      "Аттестат (после выпуска — финальная копия) и официальная выписка оценок из школы — оригинал или нотариальная копия",
+      "SAT/ACT/психометрический тест — для прямого зачисления",
+      "TOEFL iBT от 80",
+      "Две рекомендации учителей",
+      "Мотивационное эссе на английском, 300–500 слов, по одной из трёх тем",
+      "Согласие родителей, если тебе меньше 18",
+      "Медицинская справка — после зачисления"
     ],
-    "notes": "Для англоязычного BA существуют отдельные application tracks; обычные бакалаврские программы на иврите имеют другие пороги и языковые требования."
+    "notes": "Решает приёмная комиссия, проходного балла нет. Российский аттестат официально в списке не указан: какие школьные документы подходят, нужно уточнить у приёмной комиссии по адресу ronitla@savion.huji.ac.il. С SAT/ACT поступаешь сразу на 3-летний BA. Без них — условно: сначала год в первокурсной программе для иностранцев со средним баллом от 80, всего 4 года. Для бизнеса нужна продвинутая математика (Algebra II, анализ) или математический курс перед стартом ($1 790). Для английского трека тем, кто из неанглоязычных стран, нужна дистанционная мастерская по письму до начала учёбы."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Student visa A/2",
-    "notes": "После официального зачисления проверь личный список документов и текущие требования миграционной службы; разрешение зависит от очной формы, срока курса и документов о средствах.",
-    "url": "https://overseas.huji.ac.il/academics/visa-information/"
+    "type": "Студенческая виза A/2 (многократная)",
+    "notes": "Для туризма россиянам виза в Израиль не нужна, но для учёбы обязательна студенческая виза A/2. Её оформляют до въезда в посольстве или консульстве Израиля (россиянам в России — посольство в Москве) по письму о зачислении; университет в этом не участвует. Начинай хотя бы за месяц до вылета. Обычно просят письмо о зачислении, подтверждение денег на учёбу и жизнь и фото — точный список уточни в посольстве. Важно: туристический статус на месте обычно не меняют на студенческий — придётся выезжать. С визой A/2 работать в Израиле нельзя, паспорт должен действовать весь срок визы, а продлевают её в МВД в Иерусалиме. Деньги: университет принимает карты Visa/MasterCard и переводы в долларах или евро в Bank Discount. Российские карты за границей не работают, а переводы из многих российских банков блокируются, поэтому заранее подготовь карту или счёт в банке другой страны. Перед поездкой проверь, что пишут официальные источники о безопасности в регионе.",
+    "url": "https://overseas.huji.ac.il/admissions/visas/"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
-    "notes": "Студенческое жильё на Mount Scopus, включая Student Village, доступно международным студентам; запрос на комнату подают с заявкой или отдельно. Наличие, цена, сроки брони и адрес зависят от трека и года."
+    "cost_month": {
+      "amount": 750,
+      "currency": "USD",
+      "period": "month",
+      "note": "$7 530 за учебный год 2026/27 (около 10 месяцев); бронь подтверждают депозитом $750"
+    },
+    "notes": "Student Village на горе Скопус, в нескольких минутах пешком от кампуса. У каждого своя комната с кондиционером, кроватью, столом и шкафом в квартире на 5 человек с общей кухней и санузлом; Wi-Fi бесплатный, прачечная на территории. Постельное и посуду везёшь или покупаешь сам. Плана питания нет, рядом кошерные кафе и магазины. В общежитии живут мадрихи — израильские студенты, которые помогают освоиться. Жильё не гарантировано: на год бронируй до 1 июля, места дают в порядке очереди."
   },
   "deadlines": [
     {
-      "what": "Заявка на English International BA Rothberg",
+      "what": "Заявка на International BA (набор 2026/27)",
       "end": "2026-08-01",
-      "intake": "2026/27; проверить новый срок 2027/28"
+      "intake": "Октябрь 2026; срок для 2027/28 ещё не опубликован, обычно тот же — 1 августа"
+    },
+    {
+      "what": "Бронь общежития на учебный год",
+      "end": "07-01",
+      "intake": "Ежегодно"
+    },
+    {
+      "what": "Аванс за обучение $1 500 (невозвратный)",
+      "end": "2026-03-15",
+      "intake": "2026/27: в течение месяца после счёта"
+    },
+    {
+      "what": "Учебный год International BA",
+      "start": "2026-10-07",
+      "end": "2027-08-01",
+      "intake": "2026/27"
     }
   ],
   "photos": [
     {
-      "file": "https://en.idi.org.il/media/12077/hebrew-university.jpg",
-      "author": "Israel Democracy Institute",
-      "license": "© Israel Democracy Institute; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://en.idi.org.il/articles/25737",
-      "caption": "Главный корпус и башня Mount Scopus; фото Israel Democracy Institute"
+      "file": "photos/hebrew/1.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/academics/ba/",
+      "caption": "Корпуса кампуса и лужайка, где отдыхают студенты"
     },
     {
-      "file": "https://new.huji.ac.il/sites/default/files/styles/os_files_xxlarge/public/mainsite/files/15-03-2015_086.jpg?itok=Fc1JDn8Q&m=1663227068",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://new.huji.ac.il/הקמפוסים-שלנו",
-      "caption": "Кампус Mount Scopus на холме в Иерусалиме"
+      "file": "photos/hebrew/2.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/academics/ba/",
+      "caption": "Аллея в кампусе на горе Скопус"
     },
     {
-      "file": "https://math.huji.ac.il/~library/views/view_0460_large.JPG",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://math.huji.ac.il/~library/room.htm",
-      "caption": "Читальный зал библиотеки математики и информатики"
+      "file": "photos/hebrew/3.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Общежитие Student Village: внутренний двор"
     },
     {
-      "file": "https://new.huji.ac.il/sites/default/files/styles/os_slideshow_16%3A9_980/public/mainsite/files/dyvr_vmvnvt.png?itok=h9a4jURA&m=1715192901",
-      "author": "University / official page",
-      "license": "© владельца изображения; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://new.huji.ac.il/תואר-ראשון-בוגר",
-      "caption": "Жилые здания и двор студенческого кампуса"
+      "file": "photos/hebrew/4.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Площадь между корпусами общежития"
     },
     {
-      "file": "https://img.lemde.fr/2024/05/31/0/0/4300/2867/1920/0/75/0/b309a7d_1717145907151-campus-israel-091.jpg",
-      "author": "Olivier Fitoussi / Flash90",
-      "license": "© Flash90; изображение приведено с указанием источника, открытая лицензия не заявлена",
-      "source_url": "https://www.jpost.com/israel-news/article-796314",
-      "caption": "Студенты на газоне кампуса Mount Scopus; Olivier Fitoussi / Flash90"
+      "file": "photos/hebrew/5.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Одноместная комната в общежитии"
+    },
+    {
+      "file": "photos/hebrew/6.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Общая кухня в квартире общежития"
+    },
+    {
+      "file": "photos/hebrew/7.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Компьютерный класс в общежитии"
+    },
+    {
+      "file": "photos/hebrew/8.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/student-life/university-housing/",
+      "caption": "Вид на Иерусалим от общежитий"
+    },
+    {
+      "file": "photos/hebrew/9.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/academics/ba/",
+      "caption": "Семинар в аудитории"
+    },
+    {
+      "file": "photos/hebrew/10.jpg",
+      "author": "Hebrew University",
+      "license": "© Rothberg International School, Hebrew University; фото с официального сайта",
+      "source_url": "https://overseas.huji.ac.il/academics/ba/",
+      "caption": "Студенты в библиотеке"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=218"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=240"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "=296"
+    }
+  ],
+  "perks": [
+    "intl_environment",
+    "strong_research",
+    "student_life",
+    "internships",
+    "campus",
+    "small_groups"
+  ],
+  "extra_links": [
+    {
+      "title": "International BA — описание и условия",
+      "url": "https://overseas.huji.ac.il/academics/ba/"
+    },
+    {
+      "title": "Как подать заявку на BA",
+      "url": "https://overseas.huji.ac.il/admissions/apply-now/apply-now-ba/"
+    },
+    {
+      "title": "Финансовый справочник 2026/27 (PDF)",
+      "url": "https://overseas.huji.ac.il/wp-content/uploads/2026/03/financial-Guide-26-27-1.pdf"
+    },
+    {
+      "title": "Студенческая виза A/2",
+      "url": "https://overseas.huji.ac.il/admissions/visas/"
+    },
+    {
+      "title": "Общежитие Student Village",
+      "url": "https://overseas.huji.ac.il/student-life/university-housing/"
+    },
+    {
+      "title": "Стипендии для иностранцев",
+      "url": "https://overseas.huji.ac.il/scholarships-and-financial-aid/scholarships-and-financial-aid-for-international-students-non-us/"
     }
   ]
 }

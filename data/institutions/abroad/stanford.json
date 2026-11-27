@@ -3,7 +3,8 @@
   "type": "university",
   "name": {
     "ru": "Стэнфордский университет",
-    "en": "Stanford University"
+    "en": "Stanford University",
+    "short": "Стэнфорд"
   },
   "country": "US",
   "city": "Стэнфорд, Калифорния",
@@ -34,62 +35,66 @@
     "humanities"
   ],
   "prep": {
-    "must": "Подай Common Application и Stanford Questions; передай транскрипт, School Report и рекомендацию школьного консультанта, две рекомендации учителей и SAT либо ACT. При необходимости запроси финансовую помощь уже в первоначальной заявке.",
-    "good": "Попроси школу заранее подготовить официальные переводы и документы по правилам Stanford. Составь реалистичный план сдачи теста и не ориентируйся на “проходной балл”: Stanford не публикует гарантированный минимум.",
+    "must": "Сдай SAT (у зачисленных обычно 1520–1570) или ACT и подай Common Application: ранний раунд — до 1 ноября, основной — до 5 января. Попроси школу прислать оценки и сделать переводы, найди двух учителей для рекомендаций. Если нужна финансовая помощь, отметь это сразу: потом запросить её нельзя.",
+    "good": "Отдельный тест по английскому не обязателен, но хороший IELTS/TOEFL подкрепит заявку. Заранее подумай о деньгах и визе: после зачисления понадобится подтверждение средств, счёт в банке вне России и поездка на собеседование в Астану или Варшаву.",
     "source": "https://admission.stanford.edu/apply/first-year/"
   },
   "sources": [
     {
       "url": "https://admission.stanford.edu/apply/first-year/",
-      "accessed": "2026-11-25",
-      "covers": "Состав заявки и сроки Regular Decision"
+      "accessed": "2026-11-27",
+      "covers": "состав заявки, сроки REA/RD"
     },
     {
       "url": "https://admission.stanford.edu/apply/international/",
-      "accessed": "2026-11-25",
-      "covers": "Подача иностранных кандидатов и школьные переводы"
+      "accessed": "2026-11-27",
+      "covers": "иностранцы: аттестат, переводы, английский, финпомощь"
+    },
+    {
+      "url": "https://admission.stanford.edu/apply/first-year/testing.html",
+      "accessed": "2026-11-27",
+      "covers": "SAT/ACT, баллы Class of 2029"
+    },
+    {
+      "url": "https://financialaid.stanford.edu/undergrad/budget/index.html",
+      "accessed": "2026-11-27",
+      "covers": "бюджет студента 2026/27"
     },
     {
       "url": "https://studentservices.stanford.edu/tuition-rates/2026-2027-undergraduate-tuition-rates",
       "accessed": "2026-11-25",
-      "covers": "Тариф full-time бакалавриата AY2026/27"
+      "covers": "ставка обучения 2026/27"
     },
     {
-      "url": "https://admit.stanford.edu/first-years/dates-deadlines",
-      "accessed": "2026-11-25",
-      "covers": "Требование жить в кампусе первокурсникам"
-    },
-    {
-      "url": "https://financialaid.stanford.edu/undergrad/how/international.html",
-      "accessed": "2026-11-25",
-      "covers": "Финансовая помощь иностранным студентам"
+      "url": "https://ru.usembassy.gov/visas/",
+      "accessed": "2026-11-27",
+      "covers": "где россиянам подавать на визу: Варшава, Астана"
     },
     {
       "url": "https://bechtel.stanford.edu/immigration/f-1-students",
       "accessed": "2026-11-25",
-      "covers": "Виза F-1 и документы"
+      "covers": "F-1, I-20"
     },
     {
-      "url": "https://mse.stanford.edu/stay-involved/student-organizations",
-      "accessed": "2026-11-25",
-      "covers": "Фото главного кампуса"
+      "url": "https://www.topuniversities.com/node/297282",
+      "accessed": "2026-11-27",
+      "covers": "QS 2026 и 2027"
     },
     {
-      "url": "https://familyweekend.stanford.edu/programs/residence-hall-receptions",
-      "accessed": "2026-11-25",
-      "covers": "Фото жилого двора"
+      "url": "https://visit.stanford.edu/",
+      "accessed": "2026-11-27",
+      "covers": "фото"
     },
     {
-      "url": "https://rde.stanford.edu/studenthousing/new-EVGR-undergraduates",
-      "accessed": "2026-11-25",
-      "covers": "Фото комнаты; источник описывает проживание части undergraduate students"
+      "url": "https://www.stanford.edu/campus-life/",
+      "accessed": "2026-11-27",
+      "covers": "фото"
     }
   ],
-  "verified_at": "2026-11-25",
+  "verified_at": "2026-11-27",
   "confidence": "high",
   "todo": [
-    "Обновить tuition, полный cost of attendance, финансовую помощь и сроки по официальной кампании 2027/28 после публикации.",
-    "Уточнить актуальную процедуру подачи заявления на F-1 по месту проживания абитуриента."
+    "Обновить бюджет и ставку на 2027/28, когда Stanford их опубликует (обычно весной)"
   ],
   "founded": 1885,
   "city_size": "mid",
@@ -105,17 +110,19 @@
   "study_formats": [
     "full"
   ],
-  "summary": "Частный исследовательский университет в Калифорнии, примерно между Сан-Франциско и Сан-Хосе. На бакалавриат поступают в университет в целом, затем студент выбирает и развивает специальность; учебная среда сочетает науку, гуманитарные направления, междисциплинарные проекты и жизнь в кампусных резиденциях.",
+  "summary": "Частный исследовательский университет в Кремниевой долине, между Сан-Франциско и Сан-Хосе; один из трёх лучших вузов мира (QS 2027 — 2-е место). Поступают в университет целиком, специальность выбирают позже. Год учёбы с жильём стоит около $97 500; иностранцам дают помощь по нужде, но её запрос делает отбор жёстче.",
   "highlights": [
-    "Первокурсники бакалавриата обязаны жить в университетском жилье",
-    "Заявка оценивается целостно; поступление подаётся в университет, а не на отдельную специальность",
-    "SAT или ACT обязателен для рассматриваемого набора",
-    "Финансовая помощь для иностранцев ограничена и учитывается при поступлении"
+    "QS World University Rankings 2027 — 2-е место (вместе с Imperial College London)",
+    "Поступаешь в университет целиком, а не на конкретную специальность — её выбираешь уже во время учёбы",
+    "SAT или ACT обязателен; средние 50% зачисленных — SAT 1520–1570, ACT 34–36",
+    "IELTS/TOEFL не обязателен, но английский должен быть свободным",
+    "Закрывает 100% подтверждённой финансовой потребности принятых, в том числе иностранцев",
+    "Первокурсники обязаны жить в кампусе"
   ],
   "intl_students_url": "https://admission.stanford.edu/apply/international/",
   "programs": [
     {
-      "name": "Computer Science",
+      "name": "Computer Science (BS)",
       "field": "it",
       "level": "bachelor",
       "language": "en",
@@ -124,12 +131,18 @@
         "amount": 67731,
         "currency": "USD",
         "period": "year",
-        "note": "Рассчитано как 3 квартала по тарифу AY2026/27; без проживания, питания, страховки и других сборов."
+        "note": "Tuition 2026/27 за 3 квартала; полный бюджет с жильём, питанием и сборами — $97 545"
       },
-      "url": "https://bulletin.stanford.edu/programs/COMPSCI-BS"
+      "passing_score": {
+        "year": 2025,
+        "value": 1545,
+        "kind": "other",
+        "note": "SAT: средние 50% зачисленных (Class of 2029) — 1520–1570; ACT — 34–36. Минимума нет"
+      },
+      "url": "https://bulletin.stanford.edu/programs/CS-BS"
     },
     {
-      "name": "Mechanical Engineering",
+      "name": "Mechanical Engineering (BS)",
       "field": "engineering",
       "level": "bachelor",
       "language": "en",
@@ -138,12 +151,18 @@
         "amount": 67731,
         "currency": "USD",
         "period": "year",
-        "note": "Стандартный full-time tuition за 3 квартала AY2026/27; без дополнительных расходов."
+        "note": "Tuition 2026/27 за 3 квартала; полный бюджет с жильём, питанием и сборами — $97 545"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 1545,
+        "kind": "other",
+        "note": "SAT: средние 50% зачисленных (Class of 2029) — 1520–1570; ACT — 34–36. Минимума нет"
       },
       "url": "https://bulletin.stanford.edu/programs/ME-BS"
     },
     {
-      "name": "Economics",
+      "name": "Economics (BA)",
       "field": "economics",
       "level": "bachelor",
       "language": "en",
@@ -152,12 +171,18 @@
         "amount": 67731,
         "currency": "USD",
         "period": "year",
-        "note": "Стандартный full-time tuition за 3 квартала AY2026/27; без дополнительных расходов."
+        "note": "Tuition 2026/27 за 3 квартала; полный бюджет с жильём, питанием и сборами — $97 545"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 1545,
+        "kind": "other",
+        "note": "SAT: средние 50% зачисленных (Class of 2029) — 1520–1570; ACT — 34–36. Минимума нет"
       },
       "url": "https://bulletin.stanford.edu/programs/ECON-BA"
     },
     {
-      "name": "Human Biology",
+      "name": "Human Biology (BS)",
       "field": "medicine",
       "level": "bachelor",
       "language": "en",
@@ -166,9 +191,35 @@
         "amount": 67731,
         "currency": "USD",
         "period": "year",
-        "note": "Стандартный full-time tuition за 3 квартала AY2026/27; без дополнительных расходов."
+        "note": "Tuition 2026/27 за 3 квартала; полный бюджет с жильём, питанием и сборами — $97 545"
       },
-      "url": "https://bulletin.stanford.edu/programs/HUMBIO-BS"
+      "passing_score": {
+        "year": 2025,
+        "value": 1545,
+        "kind": "other",
+        "note": "SAT: средние 50% зачисленных (Class of 2029) — 1520–1570; ACT — 34–36. Минимума нет"
+      },
+      "url": "https://bulletin.stanford.edu/programs/HUMBI-BS"
+    },
+    {
+      "name": "Symbolic Systems (BS) — когнитивные науки, ИИ, психология",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 67731,
+        "currency": "USD",
+        "period": "year",
+        "note": "Tuition 2026/27 за 3 квартала; полный бюджет с жильём, питанием и сборами — $97 545"
+      },
+      "passing_score": {
+        "year": 2025,
+        "value": 1545,
+        "kind": "other",
+        "note": "SAT: средние 50% зачисленных (Class of 2029) — 1520–1570; ACT — 34–36. Минимума нет"
+      },
+      "url": "https://bulletin.stanford.edu/programs/SYMBO-BS"
     }
   ],
   "cost": {
@@ -176,24 +227,30 @@
       "amount": 67731,
       "currency": "USD",
       "period": "year",
-      "note": "3 квартала по full-time ставке 2026/27; университетский бюджет посещения выше, так как жильё, питание и страховка идут отдельно."
+      "note": "Tuition 2026/27, одна ставка для всех ($22 577 за квартал × 3)"
     },
     "tuition_max": {
-      "amount": 67731,
+      "amount": 97545,
       "currency": "USD",
       "period": "year",
-      "note": "Стандартная ставка полного обучения за Autumn/Winter/Spring 2026/27; летний квартал не включён."
+      "note": "Полный бюджет студента 2026/27: обучение $67 731 + жильё и питание $22 944 + сборы $2 610 + книги $855 + личные расходы $3 405; без перелёта. Первокурсникам ещё $775 разовых сборов, иностранцам — страховка Cardinal Care"
+    },
+    "living_month_estimate": {
+      "amount": 3020,
+      "currency": "USD",
+      "period": "month",
+      "note": "Жильё и питание $22 944 + книги $855 + личные расходы $3 405 = $27 204 за учебный год (~9 месяцев) по смете Stanford 2026/27; страховка и перелёт — отдельно"
     }
   },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Need-based undergraduate financial aid",
-        "coverage": "partial",
+        "name": "Need-based financial aid",
+        "coverage": "full",
         "for_foreigners": true,
-        "note": "Для иностранных студентов помощь ограничена и запрос помощи является фактором при рассмотрении заявки; запрос нужно указать при подаче. Университет не предлагает обычные академические merit-scholarships.",
-        "url": "https://financialaid.stanford.edu/undergrad/how/international.html"
+        "note": "Stanford закрывает 100% подтверждённой потребности всех принятых, кто запросил помощь при подаче, независимо от гражданства. Но для иностранцев приём не need-blind: запрос помощи учитывается и делает конкурс жёстче. Если не запросил помощь при подаче, потом подать на неё нельзя все 4 года. Merit-стипендий нет (кроме спортивных)",
+        "url": "https://admission.stanford.edu/apply/international/"
       }
     ]
   },
@@ -201,14 +258,22 @@
     "intl_exams": [
       {
         "exam": "SAT",
-        "note": "Обязателен для бакалаврского набора; установленного минимального балла для гарантированного зачисления нет."
+        "note": "SAT или ACT обязателен; средние 50% зачисленных Class of 2029 — 1520–1570. Минимума нет. Баллы сначала указываешь сам, официальные — после зачисления"
       },
       {
         "exam": "ACT",
-        "note": "Альтернатива SAT; установленного минимального балла для гарантированного зачисления нет."
+        "note": "Альтернатива SAT; средние 50% — 34–36. ACT Writing не нужен"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Не обязателен. Можно указать любой языковой тест по желанию; он не заменяет SAT/ACT"
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Не обязателен, свободный английский — условие поступления"
       }
     ],
-    "language_level": "Английский необходим для полноценной учёбы; отдельный TOEFL/IELTS для поступления не обязателен.",
+    "language_level": "Свободный английский (сертификат не обязателен)",
     "entrance_tests": false,
     "interview": false,
     "portfolio": "some_programs",
@@ -216,63 +281,160 @@
     "recommendations": true,
     "activities_matter": "high",
     "documents": [
-      "Common Application и ответы Stanford Questions",
-      "Официальный школьный транскрипт и школьный отчёт",
-      "Рекомендация школьного консультанта",
-      "Две рекомендации учителей",
-      "SAT или ACT",
-      "Официальные переводы документов не на английском",
-      "Форма и финансовые документы, если запрашивается aid"
+      "Common Application и эссе Stanford Questions",
+      "Взнос $100 (или запрос на освобождение)",
+      "School Report и рекомендация школьного консультанта (если его нет — завуч или директор)",
+      "Официальные оценки за старшие классы, присланные школой",
+      "Промежуточные оценки за 11 класс — до 15 февраля",
+      "Две рекомендации учителей академических предметов",
+      "SAT или ACT (самостоятельно в анкете)",
+      "Переводы оценок и рекомендаций на английский — делает учитель или школа, не сам абитуриент",
+      "Портфолио по искусству — по желанию"
     ],
-    "notes": "Абитуриент подаёт заявку в университет, а не на отдельную специальность. Минимальных тестовых баллов и обязательного набора школьных предметов для поступления не указано; важен контекст школы, академическая траектория и целостная заявка. Для international applicants запрос финансовой помощи влияет на решение."
+    "notes": "Российский аттестат подходит: Stanford оценивает документы в контексте школы и страны и не требует переводить оценки в американский GPA. Рекомендуют пройти программу, достаточную для поступления в бакалавриат у себя в стране; аттестат нужно получить до начала учёбы осенью. Подавать можно не больше 3 раз за всё время. Stanford не работает с платными агентами."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "F-1 student visa",
-    "notes": "После зачисления и получения документов университета студент проходит процедуру для F-1 через Bechtel International Center и консульскую систему США. Доступность записи и процесс зависят от места подачи и актуальных правил.",
-    "url": "https://bechtel.stanford.edu/immigration/f-1-students"
+    "type": "F-1",
+    "notes": "Нужна студенческая виза F-1. После зачисления и проверки финансовых документов Stanford выдаёт форму I-20. Затем оплачиваешь сбор SEVIS I-901, заполняешь анкету DS-160 и записываешься на собеседование. Посольство США в Москве визы не выдаёт: по официальным правилам россиянам нужно подаваться в посольства в Варшаве (Польша) или Астане (Казахстан). Для Варшавы нужна шенгенская виза, поэтому живущим в России обычно проще в Астане — туда россияне въезжают без визы. Если у тебя есть ВНЖ другой страны, можно податься там. Записывайся сразу после I-20: очередь бывает длинной. Деньги: платежи из большинства российских банков в США не проходят из-за санкций, а российские карты за границей не работают. Заранее открой счёт в банке другой страны, чтобы платить за учёбу и подтверждать средства. Какие выписки подойдут для I-20, уточни у Bechtel International Center.",
+    "url": "https://ru.usembassy.gov/visas/"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": true,
-    "notes": "Новые бакалавры обязаны жить в университетском жилье первый год. Студенты подают preferences; назначение комнаты и расчёт расходов выполняются университетом."
+    "cost_month": {
+      "amount": 2550,
+      "currency": "USD",
+      "period": "month",
+      "note": "Жильё с питанием (19 приёмов пищи в неделю) — $22 944 за учебный год 2026/27, около 9 месяцев"
+    },
+    "notes": "Первокурсники обязаны жить в кампусе; резиденцию назначает университет, а ты заранее указываешь пожелания. Жильё и питание списываются со счёта Stanford поквартально."
   },
   "deadlines": [
     {
-      "what": "Regular Decision, first-year application",
-      "start": "2026-09-01",
-      "end": "2027-01-05",
-      "intake": "осень 2027"
+      "what": "Restrictive Early Action, с портфолио по искусству",
+      "end": "2026-10-15",
+      "intake": "Осень 2027"
     },
     {
       "what": "Restrictive Early Action",
-      "start": "2026-09-01",
+      "start": "2026-08-01",
       "end": "2026-11-01",
-      "intake": "осень 2027"
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Regular Decision, с портфолио по искусству",
+      "end": "2026-12-05",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Regular Decision",
+      "end": "2027-01-05",
+      "intake": "Осень 2027"
+    },
+    {
+      "what": "Промежуточные оценки (midyear transcript)",
+      "end": "2027-02-15",
+      "intake": "Осень 2027"
     }
   ],
   "photos": [
     {
       "file": "photos/stanford/1.jpg",
-      "author": "Stanford University, MSE",
-      "license": "© Stanford University; изображение с официальной страницы",
-      "source_url": "https://mse.stanford.edu/stay-involved/student-organizations",
-      "caption": "Главный кампус и Hoover Tower"
+      "author": "Stanford University",
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://visit.stanford.edu/",
+      "caption": "Главный вход: Palm Drive и Memorial Church"
     },
     {
       "file": "photos/stanford/2.jpg",
       "author": "Stanford University",
-      "license": "© Stanford University; изображение с официальной страницы",
-      "source_url": "https://familyweekend.stanford.edu/programs/residence-hall-receptions",
-      "caption": "Двор резиденции Gerhard Casper Quad"
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://visit.stanford.edu/",
+      "caption": "Main Quad — исторический центр кампуса"
     },
     {
       "file": "photos/stanford/3.jpg",
+      "author": "Stanford University, MSE",
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://mse.stanford.edu/stay-involved/student-organizations",
+      "caption": "Учебные корпуса и Hoover Tower"
+    },
+    {
+      "file": "photos/stanford/4.jpg",
+      "author": "Stanford University",
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://familyweekend.stanford.edu/programs/residence-hall-receptions",
+      "caption": "Студенческие резиденции Gerhard Casper Quad"
+    },
+    {
+      "file": "photos/stanford/5.jpg",
       "author": "Stanford R&DE",
-      "license": "© Stanford University; изображение с официальной страницы",
+      "license": "© Stanford University; фото с официального сайта",
       "source_url": "https://rde.stanford.edu/studenthousing/new-EVGR-undergraduates",
-      "caption": "Пример жилой комнаты в EVGR, где размещают и часть бакалавров"
+      "caption": "Комната в общежитии"
+    },
+    {
+      "file": "photos/stanford/6.jpg",
+      "author": "Stanford University",
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://www.stanford.edu/campus-life/",
+      "caption": "Открытая мастерская Roble Arts Gym"
+    },
+    {
+      "file": "photos/stanford/7.jpg",
+      "author": "Stanford University",
+      "license": "© Stanford University; фото с официального сайта",
+      "source_url": "https://www.stanford.edu/campus-life/",
+      "caption": "Студенческая жизнь: праздник у фонтана"
     }
   ],
-  "data_year": 2027
+  "data_year": 2027,
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=2"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "3"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "internships",
+    "employment",
+    "intl_environment",
+    "small_groups"
+  ],
+  "extra_links": [
+    {
+      "title": "Для иностранных абитуриентов (FAQ)",
+      "url": "https://admission.stanford.edu/apply/international/"
+    },
+    {
+      "title": "Требования и сроки",
+      "url": "https://admission.stanford.edu/apply/first-year/"
+    },
+    {
+      "title": "Тесты SAT/ACT",
+      "url": "https://admission.stanford.edu/apply/first-year/testing.html"
+    },
+    {
+      "title": "Бюджет студента 2026/27",
+      "url": "https://financialaid.stanford.edu/undergrad/budget/index.html"
+    },
+    {
+      "title": "Bechtel International Center — визы",
+      "url": "https://bechtel.stanford.edu/immigration/f-1-students"
+    },
+    {
+      "title": "Визы для россиян — посольство США",
+      "url": "https://ru.usembassy.gov/visas/"
+    }
+  ]
 }
