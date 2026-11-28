@@ -10,8 +10,8 @@
   "country": "SE",
   "city": "Стокгольм",
   "website": "https://www.kth.se/en",
-  "admissions_url": "https://www.kth.se/en/studies/bachelor",
-  "about": "KTH Royal Institute of Technology — государственный технический университет Стокгольма, основанный в 1827 году. Университет объединяет несколько кампусов и специализируется на инженерии, технологиях, архитектуре, естественных науках, устойчивом развитии и цифровых направлениях. Городской кампус сочетает исторические корпуса, современные лаборатории, библиотеки, учебные пространства и студенческие объединения.\n\nДля иностранного школьника важно учитывать язык: KTH сообщает, что единственная обычная программа бакалавриата, полностью преподаваемая на английском, — Information and Communication Technology (180 ECTS, 3 года); для большинства остальных бакалаврских программ нужен шведский. Для англоязычной программы требуется завершённое среднее образование, математика и английский, а конкурс оценивается по конкретным правилам приёма. Опубликованная плата за ICT составляет SEK 453,000 (набор 2027) за весь трёхлетний курс; заявочный сбор для кандидатов вне ЕС/ЕЭЗ — SEK 900. На уровне бакалавриата KTH не предлагает собственных tuition scholarships.\n\nПодача для иностранных кандидатов обычно идёт через Universityadmissions.se и имеет ранний общий дедлайн; даты нового набора сверяй на официальной странице. Студенты, которым нужна плата за обучение, могут иметь право на жильё на первый год при выполнении условий KTH Housing, но гарантия зависит от срока поступления, оплаты и заявки. Гражданину России для обучения дольше 90 дней потребуется шведский ВНЖ для учёбы; требуются зачисление, оплата и подтверждение средств по правилам Миграционного агентства.",
+  "admissions_url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/how-to-apply-for-bachelor-s-studies-1.450312",
+  "about": "KTH основан в 1827 году и сегодня — крупнейший и самый известный технический вуз Швеции: на него приходится около трети технических исследований и инженерного образования страны, QS 2027 — 82-е место в мире, 2-е в Швеции. Главный кампус — краснокирпичные корпуса начала XX века с дворами и башней на Валхаллавеген, в 10 минутах от центра Стокгольма; есть кампусы в Кисте (IT-кластер), Сёдертелье и Флемингсберге.\n\nДля школьника из России важна языковая деталь. Англоязычный бакалавриат один — Information and Communication Technology (ICT): 3 года, 180 ECTS, электроника, программирование, компьютерные сети, ИИ и машинное обучение. Конкурс жёсткий: в 2024 году взяли 71 из 684 подходящих по требованиям (10%), отбор только по среднему баллу школы — мотивационные письма и рекомендации не учитываются. Остальные программы, включая пятилетнего инженера civilingenjör (аналог специалитета) и архитектора, идут на шведском: нужен шведский уровня Svenska 3 (например, тест TISUS), подача через antagning.se. Магистратуры (2 года) почти все на английском и открыты после бакалавриата.\n\nДеньги: граждане вне ЕС платят за ICT 453 000 SEK за всю программу (набор 2027), стипендий на бакалавриат нет. Плата за шведскоязычные программы в 2026/27 — 141 000 SEK в год за первые три курса civilingenjör, 180 000 — за 4–5 курсы и магистратуру, архитектура — 237 000–300 000. Для ВНЖ нужно показать не меньше 10 656 SEK на каждый месяц учёбы. Тем, кто платит за учёбу, KTH гарантирует жильё на первый год: комната в студгородке Лаппис — 5 700 SEK в месяц.",
   "areas": [
     "information and communication technology",
     "engineering",
@@ -21,101 +21,115 @@
   ],
   "art": "modern",
   "fields": [
-    "engineering",
     "it",
+    "engineering",
     "architecture",
-    "natural_sciences"
+    "natural_sciences",
+    "economics"
   ],
   "prep": {
-    "must": "Сдай IELTS Academic от 6.5 (ни одна часть ниже 5.5) и подай заявку на universityadmissions.se до 15 января, оплати сбор 900 SEK до конца января. Сделай биометрический загранпаспорт — небиометрический Швеция не признаёт с 1 октября 2026.",
-    "good": "Заранее собери деньги на ВНЖ: от 10 656 SEK на каждый месяц учёбы, и вступи в очереди на жильё в Стокгольме.",
-    "source": "https://www.kth.se/en/studies/bachelor/fees-1.646274"
+    "must": "Сдай IELTS Academic на 6.5 (каждая часть от 5.5) и подавай после выпуска: до 15 января на universityadmissions.se, документы и сбор 900 SEK — до 1 февраля. Сделай официальный перевод аттестата на английский и биометрический загранпаспорт.",
+    "good": "Держи высокий средний балл — отбор только по нему. Заранее открой счёт в иностранном банке: надо оплатить первый семестр и показать для ВНЖ 10 656 SEK на каждый месяц. Если хочешь инженера на 5 лет, начни учить шведский до уровня TISUS.",
+    "source": "https://www.kth.se/en/studies/bachelor/information-communication-technology/entry-requirements-for-information-and-communication-technology-1.450313"
   },
   "sources": [
     {
-      "url": "https://www.kth.se/en/studies/bachelor",
-      "accessed": "2026-11-26",
-      "covers": "англоязычные и шведоязычные программы бакалавриата"
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology",
+      "accessed": "2026-11-28",
+      "covers": "программа ICT, сроки подачи 2027"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/entry-requirements-for-information-and-communication-technology-1.450313",
+      "accessed": "2026-11-28",
+      "covers": "требования, IELTS/TOEFL, математика и физика, конкурс 10%"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/how-to-apply-for-bachelor-s-studies-1.450312",
+      "accessed": "2026-11-28",
+      "covers": "порядок и сроки подачи"
     },
     {
       "url": "https://www.kth.se/en/studies/bachelor/fees-1.646274",
-      "accessed": "2026-11-26",
-      "covers": "плата 453 000 SEK за программу, сбор 900 SEK, нет стипендий"
+      "accessed": "2026-11-28",
+      "covers": "453 000 SEK, сбор 900 SEK, нет стипендий"
+    },
+    {
+      "url": "https://intra.kth.se/polopoly_fs/1.1421720.1756880886!/Kungl-Tekniska-hogskolans-foreskrifter-om-studieavgiftens-storlek2627.pdf",
+      "accessed": "2026-11-28",
+      "covers": "постановление KTH о плате 2026/27 для всех программ"
+    },
+    {
+      "url": "https://universityadmissions.se/en/apply-to-bachelors/provide-application-documents-bachelors/country-instructions/russian-federation",
+      "accessed": "2026-11-28",
+      "covers": "требования к российскому аттестату, перевод, английский из школы"
     },
     {
       "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/accommodation-for-new-students-1.529520",
-      "accessed": "2026-11-26",
-      "covers": "гарантия жилья на 1-й год"
+      "accessed": "2026-11-28",
+      "covers": "гарантия жилья на первый год"
     },
     {
-      "url": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html",
-      "accessed": "2026-11-26",
-      "covers": "ВНЖ для обучения в Швеции"
+      "url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-in-lappkarrsberget-1.946208",
+      "accessed": "2026-11-28",
+      "covers": "Лаппис: цена, условия, фото"
     },
     {
-      "url": "https://www.universityadmissions.se/en/",
-      "accessed": "2026-11-26",
-      "covers": "общая подача и требования для иностранных абитуриентов"
+      "url": "https://www.migrationsverket.se/en/you-want-to-apply/study.html",
+      "accessed": "2026-11-28",
+      "covers": "ВНЖ для учёбы, требования к деньгам"
     },
     {
-      "url": "https://www.kth.se/en/studies/master/innovative-technology-for-healthy-living",
-      "accessed": "2026-11-26",
-      "covers": "кампусная фотография и учебная среда"
+      "url": "https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-ranked-second-in-sweden-82nd-in-world-1.1481148",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027"
     },
     {
-      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology",
-      "accessed": "2026-11-26",
-      "covers": "программа ICT, сроки 2027"
+      "url": "https://www.timeshighereducation.com/world-university-rankings/kth-royal-institute-technology",
+      "accessed": "2026-11-28",
+      "covers": "THE 2026"
     },
     {
-      "url": "https://www.universityadmissions.se/en/entry-requirements/english-language-requirements/",
-      "accessed": "2026-11-26",
-      "covers": "English 6, IELTS 6.5"
-    },
-    {
-      "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html",
-      "accessed": "2026-11-26",
-      "covers": "ВНЖ: 10 656 SEK/мес, сбор, порядок"
-    },
-    {
-      "url": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden/Higher-education.html",
-      "accessed": "2026-11-26",
-      "covers": "небиометрические паспорта РФ не признаются с 1.10.2026"
+      "url": "https://commons.wikimedia.org/wiki/Category:KTH_Royal_Institute_of_Technology",
+      "accessed": "2026-11-28",
+      "covers": "фото со свободной лицензией"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-28",
   "confidence": "high",
   "todo": [
-    "Место в QS/THE 2027",
-    "Требования к математике для российского аттестата (specific entry requirements ICT)",
-    "Цена жилья KTH Housing в месяц"
+    "Добавить THE 2027, когда появится на странице KTH",
+    "Цены шведскоязычных программ на 2027/28 (KTH публикует осенью 2026)"
   ],
-  "summary": "Технический университет в Стокгольме. Среди бакалаврских программ на английском указан BSc Information and Communication Technology; большинство других программ бакалавриата ведутся на шведском.",
-  "intl_students_url": "https://www.kth.se/en/studies/bachelor",
+  "summary": "Главный технический университет Швеции в центре Стокгольма (QS 2027 — 82-е место). На английском — только один бакалавриат, Information and Communication Technology (3 года, 453 000 SEK за всю программу, берут около 10% подавших); остальные программы бакалавриата и инженера (civilingenjör) — на шведском. Большинство магистратур — на английском. Иностранцам, которые платят за учёбу, жильё гарантировано на первый год. Россиянам нужен шведский вид на жительство для учёбы и биометрический загранпаспорт.",
+  "data_year": 2027,
   "founded": 1827,
   "city_size": "mega",
   "ownership": "public",
   "levels": [
     "bachelor",
+    "specialist",
     "master",
     "phd"
+  ],
+  "study_formats": [
+    "full"
   ],
   "languages_of_instruction": [
     "en",
     "sv"
   ],
-  "study_formats": [
-    "full"
-  ],
   "highlights": [
-    "Единственный англоязычный бакалавриат — ICT, 3 года, кампус Kista",
-    "Обучение 453 000 SEK за всю программу (набор 2027), стипендий на бакалавриат нет",
-    "Жильё гарантировано на первый год тем, кто платит за обучение",
-    "Нужен IELTS 6.5 (English 6) и биометрический загранпаспорт"
+    "Главный технический вуз Швеции: QS 2027 — 82-е место, 2-е в стране",
+    "Один бакалавриат на английском — ICT (3 года), берут ~10% подавших, отбор только по аттестату",
+    "Магистратуры почти все на английском: ИИ, машинное обучение, энергетика, архитектура",
+    "Жильё гарантировано на первый год тем, кто платит за учёбу; комната в Лапписе — 5 700 SEK в месяц",
+    "Исторический кампус в центре Стокгольма, в 10 минутах от Старого города",
+    "Стипендий на бакалавриат нет: ICT стоит 453 000 SEK за всю программу"
   ],
+  "intl_students_url": "https://www.kth.se/en/studies/bachelor",
   "programs": [
     {
-      "name": "Bachelor of Science in Information and Communication Technology",
+      "name": "BSc Information and Communication Technology (на английском)",
       "field": "it",
       "level": "bachelor",
       "language": "en",
@@ -124,137 +138,322 @@
         "amount": 453000,
         "currency": "SEK",
         "period": "total",
-        "note": "Вся программа (3 года) для граждан вне ЕС/ЕЭЗ/Швейцарии, набор 2027; плюс сбор за заявку 900 SEK. Стипендий на бакалавриат KTH не даёт"
+        "note": "Вся программа (3 года) для граждан вне ЕС/ЕЭЗ/Швейцарии, набор 2027 — ≈151 000 SEK в год, платится по семестрам банковским переводом. Сбор за заявку 900 SEK. Стипендий нет"
       },
-      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology",
       "passing_score": {
-        "year": 2027,
+        "kind": "gpa_certificate",
+        "year": 2024,
+        "note": "Отбор только по среднему баллу аттестата; в 2024 году приняли 71 из 684 подходящих (10%). Обязательно: английский уровня English 6 (IELTS 6.5), математика уровня Mathematics 4 и физика уровня Physics 2"
+      },
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology"
+    },
+    {
+      "name": "Civilingenjör Datateknik — инженер по компьютерным технологиям (на шведском)",
+      "field": "it",
+      "level": "specialist",
+      "language": "sv",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 141000,
+        "currency": "SEK",
+        "period": "year",
+        "note": "2026/27: 141 000 SEK в год за 1–3 курсы и 180 000 SEK за 4–5 курсы; цены на 2027/28 KTH публикует осенью"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "year": 2026,
+        "note": "Конкурс по среднему баллу. Нужны шведский (Svenska 3 / TISUS), английский, математика Matematik 4, физика Fysik 2, химия Kemi 1. Подача через antagning.se до 15 апреля"
+      },
+      "url": "https://www.kth.se/utbildning/civilingenjor/datateknik"
+    },
+    {
+      "name": "Civilingenjör Teknisk fysik — инженер-физик (на шведском)",
+      "field": "natural_sciences",
+      "level": "specialist",
+      "language": "sv",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 141000,
+        "currency": "SEK",
+        "period": "year",
+        "note": "2026/27: 141 000 SEK в год за 1–3 курсы, 180 000 SEK за 4–5 курсы"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "year": 2026,
+        "note": "Один из самых высоких конкурсов KTH; требования как для других civilingenjör: шведский, Matematik 4, Fysik 2, Kemi 1"
+      },
+      "url": "https://www.kth.se/utbildning/civilingenjor/teknisk-fysik"
+    },
+    {
+      "name": "Arkitekt — архитектор (на шведском)",
+      "field": "architecture",
+      "level": "specialist",
+      "language": "sv",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 237000,
+        "currency": "SEK",
+        "period": "year",
+        "note": "2026/27: 237 000 SEK в год за 1–3 курсы, 300 000 SEK за 4–5 курсы"
+      },
+      "passing_score": {
         "kind": "other",
-        "note": "Конкурс по оценкам аттестата; English 6 (IELTS 6.5) и профильная математика обязательны"
-      }
+        "year": 2026,
+        "note": "Кроме аттестата и шведского — творческие задания (arbetsprov), по ним идёт значительная часть отбора"
+      },
+      "url": "https://www.kth.se/utbildning/arkitekt"
+    },
+    {
+      "name": "Магистратуры на английском (например, Machine Learning, Computer Science, Sustainable Energy Engineering)",
+      "field": "engineering",
+      "level": "master",
+      "language": "en",
+      "duration_years": 2,
+      "tuition": {
+        "amount": 180000,
+        "currency": "SEK",
+        "period": "year",
+        "note": "2026/27: 180 000 SEK в год для граждан вне ЕС; на магистратуру есть стипендии KTH, в том числе покрывающие обучение"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "Нужен диплом бакалавра по профилю и IELTS 6.5; отбор по оценкам, мотивационному письму и опыту. Подача — 16 октября — 15 января"
+      },
+      "url": "https://www.kth.se/en/studies/master"
     }
   ],
-  "requirements": {
-    "intl_exams": [
-      {
-        "exam": "IELTS",
-        "min_score": "6.5",
-        "note": "Academic (в т.ч. IELTS Online и One Skill Retake); ни одна часть не ниже 5.5. General Training не принимают"
-      },
-      {
-        "exam": "TOEFL",
-        "note": "Принимается как подтверждение English 6; точный балл — на universityadmissions.se"
-      }
-    ],
-    "language_level": "English 6 (шведский уровень) — например, IELTS Academic 6.5, ни одна часть ниже 5.5. Для ICT шведский не нужен.",
-    "entrance_tests": false,
-    "interview": false,
-    "portfolio": "no",
-    "motivation_letter": false,
-    "recommendations": false,
-    "activities_matter": "low",
-    "documents": [
-      "Паспорт",
-      "Документ о полном среднем образовании и оценки",
-      "Подтверждение математики на требуемом уровне",
-      "Подтверждение английского или признанное освобождение",
-      "Переводы документов по требованиям University Admissions"
-    ],
-    "notes": "Проверяются как общая, так и предметная eligibility; формальное соответствие минимуму не гарантирует место."
-  },
   "cost": {
     "tuition_min": {
-      "amount": 151000,
+      "amount": 141000,
       "currency": "SEK",
       "period": "year",
-      "note": "453 000 SEK за 3 года ICT, набор 2027 (ранее указанные 423 000 устарели)"
+      "note": "2026/27: шведскоязычные программы бакалавриата и 1–3 курсы civilingenjör (нужен шведский)"
     },
     "tuition_max": {
       "amount": 151000,
       "currency": "SEK",
       "period": "year",
-      "note": "Единственная англоязычная программа бакалавриата"
+      "note": "Англоязычный бакалавриат ICT: 453 000 SEK за 3 года, набор 2027. Архитектура на шведском — до 300 000 SEK в год"
     },
     "living_month_estimate": {
       "amount": 10656,
       "currency": "SEK",
       "period": "month",
-      "note": "Минимум, который Migrationsverket требует подтвердить для студенческого ВНЖ при подаче в 2026 году"
+      "note": "Минимум, который Миграционная служба Швеции требует подтвердить на каждый месяц учёбы (подачи 2026 года). Комната в общежитии KTH — от 5 700 SEK в месяц"
     }
   },
   "funding": {
     "free_tuition": false,
-    "grants": []
+    "grants": [
+      {
+        "name": "Стипендий на бакалавриат нет",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "KTH прямо пишет, что не даёт стипендий на бакалавриат ICT. Стипендии KTH, в том числе на полную оплату обучения, есть только для магистратуры",
+        "url": "https://www.kth.se/en/studies/bachelor/fees-1.646274"
+      },
+      {
+        "name": "KTH Scholarship для магистратуры",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Покрывает обучение на магистратуре для небольшого числа сильнейших заявителей вне ЕС; подаётся вместе с заявкой на магистратуру",
+        "url": "https://www.kth.se/en/studies/master"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Academic, ни одна часть ниже 5.5 (это шведский уровень English 6). Английский из российской школы засчитывают, только если он был профильным и это видно в аттестате (выпуск 2008 года и позже)"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "90",
+        "note": "iBT 90 и writing 20 (результаты до 20 января 2026) или новая шкала — 4.5, ни одна часть ниже 4 (с 21 января 2026)"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "TISUS",
+        "note": "Только для программ на шведском: шведский уровня Svenska 3 — например, тест TISUS"
+      }
+    ],
+    "language_level": "Для ICT — английский B2–C1 (IELTS 6.5). Шведский не нужен. Для civilingenjör и архитектуры — шведский уровня Svenska 3 (≈C1)",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка на universityadmissions.se (ICT) или antagning.se (программы на шведском)",
+      "Аттестат о среднем общем образовании и приложение с оценками — в оригинале на русском",
+      "Официальный перевод аттестата и приложения на английский или шведский (с подписью и печатью переводчика)",
+      "Копия страницы паспорта с фото",
+      "Сертификат IELTS/TOEFL (если английский не был профильным в школе)",
+      "Подтверждение математики и физики нужного уровня (по программе курсов, если KTH попросит)",
+      "Сбор за заявку 900 SEK до 1 февраля"
+    ],
+    "notes": "Российский аттестат подходит для поступления напрямую на 1 курс: University Admissions в Швеции принимает Аттестат о среднем общем образовании с приложением как документ об окончании школы. Нужно подтвердить уровень математики и физики (для ICT — уровня Mathematics 4 и Physics 2 шведской школы); если не хватает физики, KTH может принять подробную программу пройденного курса. Важно: в первом раунде (для неевропейцев) документы нужно загрузить до 1 февраля, поэтому выпускники этого года подать полный пакет не смогут — поступают на следующий год после окончания школы. Условного зачисления и предварительных оценок нет. Отбор только по среднему баллу, мотивационные письма и рекомендации не рассматриваются."
   },
   "visa": {
     "needed_for_ru": true,
     "type": "Вид на жительство для учёбы (residence permit for higher education)",
-    "notes": "Подаёшь онлайн в Migrationsverket только после оплаты первого взноса за обучение (вуз сам сообщит об оплате). Нужно подтвердить деньги — не меньше 10 656 SEK на каждый месяц учёбы (для подач в 2026), медстраховку и действующий паспорт; сбор 1 500 SEK. В заявке выбираешь посольство Швеции, где покажешь паспорт или пройдёшь собеседование. С 1 октября 2026 Швеция не признаёт обычные небиометрические загранпаспорта РФ — нужен биометрический. Подавай в 1-м раунде (до 15 января), чтобы успеть получить ВНЖ к началу учёбы.",
-    "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html"
+    "notes": "Подаёшь онлайн в Миграционную службу Швеции (Migrationsverket) только после того, как оплатишь первый взнос за обучение. Нужно подтвердить деньги — не меньше 10 656 SEK на каждый месяц учёбы (подачи 2026 года), медстраховку и действующий паспорт; сбор — 1 500 SEK. В заявке выбираешь посольство Швеции, где сдашь отпечатки и покажешь паспорт. С 1 октября 2026 года Швеция не признаёт обычные небиометрические загранпаспорта РФ — нужен биометрический. Подавай в первом раунде (до 15 января), иначе ВНЖ может не успеть к августу. Деньги: KTH принимает плату только банковским переводом; переводы из большинства российских банков в Швецию заблокированы санкциями, а российские карты за границей не работают — заранее открой счёт или карту в банке другой страны. Те же деньги понадобятся и для подтверждения суммы на ВНЖ. Со студенческим ВНЖ в Швеции можно работать без ограничений по часам.",
+    "url": "https://www.migrationsverket.se/en/you-want-to-apply/study.html"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": true,
-    "notes": "Тем, кто платит за обучение по полной программе, жильё через KTH Housing гарантировано на первый учебный год (заявка после зачисления и оплаты первого взноса). Цены зависят от общежития."
+    "cost_month": {
+      "amount": 5700,
+      "currency": "SEK",
+      "period": "month",
+      "note": "Студгородок Лаппис (Lappkärrsberget): комната 18 м² со своим санузлом, кухня на 10–12 человек; вода, электричество и интернет включены. Другие адреса KTH Housing: студия на Malvinas väg — 8 200 SEK, Teknikringen — 7 300–9 500 SEK"
+    },
+    "notes": "Тем, кто платит за полную программу (бакалавриат или магистратуру), KTH Housing гарантирует жильё на первый учебный год — заявку подаёшь после зачисления и оплаты первого взноса. Жильё с базовой мебелью, на кампусе и в разных районах Стокгольма. Лаппис — крупнейший студгородок Стокгольма в 3 км от KTH, рядом лес и озеро, до метро Universitetet около километра. Со второго года жильё ищешь сам: студенческие очереди Стокгольма (SSSB) длинные, вставай в них сразу по приезде."
   },
-  "photos": [
-    {
-      "file": "https://www.kth.se/polopoly_fs/1.676191.1733400381!/image/Civil-and-Architectural-Engineering.webp",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.kth.se/en/studies/master/civil-and-architectural-engineering",
-      "caption": "Инженерные корпуса и архитектурные направления"
-    },
-    {
-      "file": "https://www.cesis.kth.se/polopoly_fs/1.1319543.1708697360!/image/_DSC6238_header.jpg",
-      "author": "KTH research centre",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.cesis.kth.se/2.411/sociala-medier",
-      "caption": "Кампус и пространство KTH"
-    },
-    {
-      "file": "https://www.kth.se/polopoly_fs/1.915753.1735820053!/image/Innovative-Technology-for-Healthy-Living.webp",
-      "author": "University / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.kth.se/en/studies/master/innovative-technology-for-healthy-living",
-      "caption": "Современная учебная и исследовательская среда"
-    },
-    {
-      "file": "https://www.kth.se/polopoly_fs/1.1159901.1793021501!/image/graduation.jpg",
-      "author": "KTH / official page",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.kth.se/en/studies/bachelor",
-      "caption": "Выпускники KTH и университетская среда"
-    },
-    {
-      "file": "https://i0.wp.com/www.kth.se/blogs/studentblog/files/2023/01/IMG_1244-edited.jpg?resize=1200%2C900&ssl=1",
-      "author": "KTH Student blog",
-      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
-      "source_url": "https://www.kth.se/blogs/studentblog/2023/01/back-to-school-the-spring-semester-begins/",
-      "caption": "Студенческая жизнь: начало семестра"
-    }
-  ],
-  "data_year": 2027,
   "deadlines": [
     {
-      "what": "Подача заявки через University Admissions (1-й раунд, для неевропейцев)",
-      "end": "01-15",
-      "intake": "Осень 2027"
+      "what": "Подача на ICT, первый раунд (для граждан вне ЕС)",
+      "start": "2026-10-16",
+      "end": "2027-01-15",
+      "intake": "Август 2027"
     },
     {
-      "what": "Оплата сбора за заявку 900 SEK",
-      "end": "01-31"
+      "what": "Загрузка документов и оплата сбора 900 SEK",
+      "end": "2027-02-01",
+      "intake": "Август 2027"
     },
     {
-      "what": "Загрузка документов (для выпускников этого года)",
-      "end": "06-21",
-      "intake": "Осень 2027"
+      "what": "Результаты зачисления первого раунда",
+      "end": "2027-04-08",
+      "intake": "Август 2027"
+    },
+    {
+      "what": "Подача на программы на шведском (antagning.se)",
+      "end": "04-15",
+      "intake": "Август 2027"
+    },
+    {
+      "what": "Второй раунд ICT (в основном для граждан ЕС, неевропейцы рискуют не успеть с ВНЖ)",
+      "start": "2027-03-15",
+      "end": "2027-04-15",
+      "intake": "Август 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "photos/kth/1.jpg",
+      "author": "Jason Li",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Building,_KTH_Royal_Institute_of_Technology,_June_29_2023.jpg",
+      "caption": "Главное здание KTH на кампусе Валхаллавеген в центре Стокгольма"
+    },
+    {
+      "file": "photos/kth/2.jpg",
+      "author": "Boberger",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KTH_Borgg%C3%A5rden_fr%C3%A5n_norr_02.jpg",
+      "caption": "Борггорден — главный внутренний двор исторического кампуса"
+    },
+    {
+      "file": "photos/kth/3.jpg",
+      "author": "KTH Royal Institute of Technology",
+      "license": "© KTH; фото с официального сайта",
+      "source_url": "https://www.kth.se/blogs/studentblog/",
+      "caption": "Площадь у главного корпуса: учебный день на кампусе"
+    },
+    {
+      "file": "photos/kth/4.jpg",
+      "author": "Mpatja",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%C3%85ngdomen_l%C3%A4sesal_p%C3%A5_KTH_Biblioteket.jpg",
+      "caption": "Читальный зал библиотеки KTH"
+    },
+    {
+      "file": "photos/kth/5.jpg",
+      "author": "Mpatja",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Norra_galleriet_p%C3%A5_KTH_Biblioteket.jpg",
+      "caption": "Северная галерея библиотеки — книги и места для учёбы"
+    },
+    {
+      "file": "photos/kth/6.jpg",
+      "author": "Joongi Kim",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KTH_Main_Campus_(2438722826).jpg",
+      "caption": "Лестница и арки между дворами кампуса"
+    },
+    {
+      "file": "photos/kth/7.jpg",
+      "author": "AleWi",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kungliga_Tekniska_h%C3%B6gskolan_k%C3%A5rhus_bild_1.jpg",
+      "caption": "Студенческий союз THS: кафе, ресторан и книжный магазин"
+    },
+    {
+      "file": "photos/kth/8.jpg",
+      "author": "Esquilo",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lappk%C3%A4rrsberget,_flygfoto_2014-09-20.jpg",
+      "caption": "Студенческий городок Лаппис с высоты — здесь общежитие KTH Housing"
+    },
+    {
+      "file": "photos/kth/9.jpg",
+      "author": "KTH Royal Institute of Technology",
+      "license": "© KTH; фото с официального сайта",
+      "source_url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-in-lappkarrsberget-1.946208",
+      "caption": "Корпуса общежития в Лапписе"
+    },
+    {
+      "file": "photos/kth/10.jpg",
+      "author": "KTH Royal Institute of Technology",
+      "license": "© KTH; фото с официального сайта",
+      "source_url": "https://www.kth.se/en/student/studier/housing/locations/accommodation-in-lappkarrsberget-1.946208",
+      "caption": "Общая кухня-гостиная на этаже общежития в Лапписе"
+    },
+    {
+      "file": "photos/kth/11.jpg",
+      "author": "Björn Strömfeldt",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Klocktornet_i_Tekniska_H%C3%B6gskolan,_KTH...jpg",
+      "caption": "Колокол на башне KTH и вид на Стокгольм"
+    },
+    {
+      "file": "photos/kth/12.jpg",
+      "author": "Alice.grussu",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kungliga_Tekniska_H%C3%B6gskolan_KTH5.JPG",
+      "caption": "Кампус KTH осенью"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "82"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "78"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2026,
+      "position": "98"
     }
   ],
   "perks": [
     "strong_research",
     "intl_environment",
     "internships",
-    "employment"
+    "employment",
+    "campus",
+    "exchange"
   ]
 }
