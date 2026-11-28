@@ -2,14 +2,16 @@
   "id": "umalaya",
   "type": "university",
   "name": {
-    "ru": "Universiti Malaya",
-    "en": "Universiti Malaya"
+    "ru": "Университет Малайя",
+    "en": "Universiti Malaya",
+    "short": "UM",
+    "local": "Universiti Malaya"
   },
   "country": "MY",
   "city": "Куала-Лумпур",
   "website": "https://www.um.edu.my/",
-  "admissions_url": "https://aasd.um.edu.my/faq-ug-international-admission",
-  "about": "Universiti Malaya (UM) — старейший государственный исследовательский университет Малайзии, главный кампус расположен в юго-западной части Куала-Лумпура. Кампус сочетает факультеты и исследовательские центры, центральную библиотеку, спортивные площадки, клиническую инфраструктуру, ботанические зелёные зоны и residential colleges. Среди направлений — инженерия, медицина, фармация, бизнес и экономика, языки и лингвистика, право, компьютерные науки и естественные науки. Английский широко используется в международных программах; иностранные студенты также изучают малайский язык в рамках университета.\n\nДля международного бакалавриата UM требует не менее 12 лет завершённого школьного образования и признанную квалификацию (например, A-level, IB или эквивалент Grade 12). Минимальные оценки, prerequisite subjects, интервью и English score зависят от факультета. Опубликованные общие минимумы английского включают IELTS Academic 5.0, TOEFL iBT 60 или PTE Academic 41, но для отдельных программ могут быть выше. Заявка подаётся через портал UM и визовую систему EMGS; admission и student pass — отдельные этапы.\n\nОфициальный международный fee schedule 2025/26 указывает полную цену tuition за программу: среди примеров Malay Studies — MYR 76,300, Architecture — MYR 103,900, Civil Engineering — MYR 132,100, Pharmacy — MYR 280,100 и Medicine — MYR 673,200. Это полная стоимость degree, а не годовой платёж; тариф нового набора может измениться. На кампусе есть жилые колледжи и International House, однако места ограничены, поэтому жильё не гарантировано всем иностранцам. Для обучения нужна малайзийская student pass; UM координирует оформление с EMGS, а после приезда выполняется обязательный медосмотр и паспортное endorsement.",
+  "admissions_url": "https://study.um.edu.my/how-to-apply",
+  "about": "UM начинался в 1905 году в Сингапуре как медицинский колледж короля Эдуарда VII, а в 1962 году стал отдельным университетом в Куала-Лумпуре. Сегодня это №1 в Малайзии: QS 2027 — 56-е место в мире (лучший результат в истории страны), THE 2027 — 194-е. Кампус площадью 373 га с озером, лесом и 13 жилыми колледжами находится в черте города, рядом с районом Бангсар и деловым центром Мид-Вэлли.\n\nОбучение почти везде на английском, кроме программ по малайским и исламским исследованиям и отдельных языковых. Бакалавриат длится 3–5 лет: компьютерные науки — 3,5 года, инженерия — 4, медицина — 5. UM публикует цену сразу за всю программу: от RM 60 900 (гуманитарные направления) и RM 77 100 (бизнес, экономика) до RM 89 200 (Computer Science), RM 132 100 (инженерия) и RM 673 200 (медицина). К цене для иностранцев прибавляется 6% налога SST. Есть два набора: в октябре (основной) и в марте.\n\nДля иностранцев UM требует законченные 12 лет школы и оценки выше порога по профильным предметам: например, для Computer Science — средний балл от 65%, математика от 60%; для инженерии — средний от 75%, математика и физика от 65%. Английский: IELTS 5.5 для IT и инженерии, 6.0 для бизнеса, экономики и медицины. Если тест сдан не полностью, могут дать условное зачисление. Стипендий для иностранных бакалавров UM не даёт. Общежитие на кампусе — 450 ринггитов в месяц за место в общей комнате (900 — одноместная), но мест мало и они не гарантированы.",
   "areas": [
     "science",
     "engineering",
@@ -22,85 +24,139 @@
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
+    "it",
     "engineering",
     "medicine",
-    "agriculture",
+    "natural_sciences",
     "business",
+    "economics",
     "law",
-    "it",
+    "architecture",
     "linguistics",
-    "social_sciences"
+    "social_sciences",
+    "humanities",
+    "pedagogy"
   ],
   "prep": {
-    "must": "Подтверди 12-летнюю школьную квалификацию, предметы и оценки для выбранного факультета, затем проверь English score и подай через международный портал UM.",
-    "good": "Заранее начни EMGS/student pass, просчитай полную programme fee и подай заявку на жильё; наличие кампусных комнат ограничено.",
-    "source": "https://aasd.um.edu.my/faq-ug-international-admission"
+    "must": "До подачи напиши на study@um.edu.my, примут ли российский аттестат за 11 классов — UM требует 12 лет школы. Сдай IELTS Academic: 5.5 для IT и инженерии, 6.0 для бизнеса и медицины. Подавай после выпуска, до 30 августа (на октябрь) или до 30 января (на март).",
+    "good": "Подтяни оценки по математике и профильным предметам: для инженерии нужен средний балл аттестата от 75%. Заложи деньги на визовый пакет eVAL (RM 5 451) и заранее открой зарубежную карту для оплаты. Подай на общежитие сразу после зачисления — мест мало.",
+    "source": "https://study.um.edu.my/how-to-apply"
   },
   "sources": [
     {
+      "url": "https://study.um.edu.my/how-to-apply",
+      "accessed": "2026-11-28",
+      "covers": "сроки подачи 2026/27 для иностранцев"
+    },
+    {
+      "url": "https://study.um.edu.my/faqs-amp-info",
+      "accessed": "2026-11-28",
+      "covers": "сбор за заявку, документы, длительность, работа, язык обучения"
+    },
+    {
       "url": "https://aasd.um.edu.my/faq-ug-international-admission",
-      "accessed": "2026-11-26",
-      "covers": "общие условия бакалавриата, 12-летнее образование и English minimum"
+      "accessed": "2026-11-28",
+      "covers": "12 лет школы, английский, нет стипендий для иностранных бакалавров"
     },
     {
       "url": "https://study.um.edu.my/doc/tution-fee/Fee%20Structure%2C%20UG%2C%20International%20-%20Updated%2022%20Oct%202025.pdf",
-      "accessed": "2026-11-26",
-      "covers": "полная tuition стоимость international programmes 2025/26"
+      "accessed": "2026-11-28",
+      "covers": "цены всех программ бакалавриата для иностранцев"
+    },
+    {
+      "url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "accessed": "2026-11-28",
+      "covers": "буклет для иностранцев: рейтинги, Foundation, общежития, доп. расходы, фото"
+    },
+    {
+      "url": "https://study.um.edu.my/bachelor-of-computer-science-artificial-intelligence",
+      "accessed": "2026-11-28",
+      "covers": "требования к аттестату и английскому, SST"
+    },
+    {
+      "url": "https://study.um.edu.my/bachelor-of-civil-engineering",
+      "accessed": "2026-11-28",
+      "covers": "требования для инженерии"
+    },
+    {
+      "url": "https://study.um.edu.my/bachelor-of-business-administration",
+      "accessed": "2026-11-28",
+      "covers": "требования для бизнеса"
     },
     {
       "url": "https://study.um.edu.my/international-student",
-      "accessed": "2026-11-26",
-      "covers": "международная подача, student pass и ограниченность жилья"
+      "accessed": "2026-11-28",
+      "covers": "eVAL, SEV, MDAC, прибытие"
+    },
+    {
+      "url": "https://study.um.edu.my/doc/VISA%20SERVICES/International%20Student%20Processing%20Fees%20by%20Country%20-%20Updated%2010%20July%202026%202026.pdf",
+      "accessed": "2026-11-28",
+      "covers": "пакет eVAL для граждан России"
+    },
+    {
+      "url": "https://visa.educationmalaysia.gov.my/guidelines/sev-required-countries",
+      "accessed": "2026-11-28",
+      "covers": "Россия в списке стран, которым нужна SEV"
+    },
+    {
+      "url": "https://educationmalaysia.gov.my/plan-your-studies/plan-your-budget/cost-of-living",
+      "accessed": "2026-11-28",
+      "covers": "средние расходы на жизнь"
     },
     {
       "url": "https://hep.um.edu.my/accommodation",
-      "accessed": "2026-11-26",
-      "covers": "жилые корпуса и размещение"
+      "accessed": "2026-11-28",
+      "covers": "жилые колледжи, ремонт, фото"
     },
     {
-      "url": "https://studyabroad.um.edu.my/accommodations-for-mobility-students",
-      "accessed": "2026-11-26",
-      "covers": "внешнее жильё, ценовой диапазон и наличие International House"
+      "url": "https://hep.um.edu.my/UG%20STUDENTS%20RATE.pdf",
+      "accessed": "2026-11-28",
+      "covers": "цены общежитий, фото комнат"
     },
     {
-      "url": "https://visa.educationmalaysia.gov.my/",
-      "accessed": "2026-11-26",
-      "covers": "официальная обработка студенческой визы EMGS"
+      "url": "https://um.edu.my/news/universiti-malaya-achieves-highest-ever-global-ranking-of-56th-in-qs-world-university-rankings-2027",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027"
     },
     {
       "url": "https://www.um.edu.my/",
-      "accessed": "2026-11-26",
-      "covers": "кампус, факультеты и университет"
+      "accessed": "2026-11-28",
+      "covers": "THE 2027 — 194-е место, фото"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-28",
   "confidence": "high",
   "todo": [
-    "Уточнить точный fee текущего набора: приведённая таблица — учебный год 2025/26 и полная стоимость программы, а не годовой платёж."
+    "Получить от UM ответ, принимают ли российский аттестат (11 лет) напрямую на бакалавриат",
+    "Обновить сроки подачи, когда UM опубликует окно для набора 2027/28"
   ],
-  "summary": "Universiti Malaya — государственный исследовательский университет в Куала-Лумпуре. Программы бакалавриата охватывают инженерию, медицину, бизнес, языки, право, ИТ и естественные науки; на кампусе есть библиотека и жилые колледжи.",
-  "intl_students_url": "https://study.um.edu.my/international-student",
+  "summary": "Старейший и лучший университет Малайзии (QS 2027 — 56-е место в мире, THE 2027 — 194-е) с зелёным кампусом в Куала-Лумпуре. Почти все программы на английском, а бакалавриат целиком стоит RM 61 000–132 000 (≈$14 000–31 000) — дешевле, чем год в США. Россиянам нужна однократная въездная виза (SEV) и студенческий пропуск через EMGS. Важно: UM требует 12 лет школы, поэтому с российским аттестатом заранее уточняй, возьмут ли напрямую.",
+  "data_year": 2026,
   "founded": 1905,
   "city_size": "mega",
   "ownership": "public",
   "levels": [
+    "foundation",
     "bachelor",
     "master",
     "phd"
+  ],
+  "study_formats": [
+    "full"
   ],
   "languages_of_instruction": [
     "en",
     "ms"
   ],
-  "study_formats": [
-    "full"
-  ],
   "highlights": [
-    "Международный бакалавриат требует минимум 12 лет школьного образования",
-    "Опубликованы полные tuition суммы по отдельным программам",
-    "Жильё в residential college ограничено и не гарантируется каждому international student"
+    "№1 в Малайзии: QS 2027 — 56-е место в мире, THE 2027 — 194-е",
+    "Почти все программы на английском; IELTS от 5.5 для IT и инженерии",
+    "Весь бакалавриат Computer Science — RM 89 200 (≈$21 000 за 3,5 года)",
+    "Кампус 373 га в Куала-Лумпуре: озеро, лес, 13 жилых колледжей",
+    "Общежитие от RM 450 в месяц, коммунальные и Wi-Fi включены",
+    "Два набора в год — в октябре и в марте; можно работать до 20 часов в неделю на каникулах"
   ],
+  "intl_students_url": "https://study.um.edu.my/international-student",
   "programs": [
     {
       "name": "Bachelor of Computer Science (Artificial Intelligence)",
@@ -108,6 +164,18 @@
       "level": "bachelor",
       "language": "en",
       "duration_years": 3.5,
+      "tuition": {
+        "amount": 89200,
+        "currency": "MYR",
+        "period": "total",
+        "note": "Вся программа, набор 2025/26 и далее; ≈RM 25 500 в год. Плюс 6% SST. Те же цены у специализаций Software Engineering, Information Systems, Computer System and Network"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "value": 65,
+        "year": 2026,
+        "note": "Для школьного аттестата (Senior High School Certificate): средний балл от 65%, математика от 60% и ещё один предмет (физика, информатика, химия или биология) от 60%. IELTS от 5.5"
+      },
       "url": "https://study.um.edu.my/bachelor-of-computer-science-artificial-intelligence"
     },
     {
@@ -120,12 +188,58 @@
         "amount": 132100,
         "currency": "MYR",
         "period": "total",
-        "note": "Опубликованная полная программа в fee schedule 2025/26."
+        "note": "Вся программа; ≈RM 33 000 в год. Столько же стоят механика, электротехника, химическая и биомедицинская инженерия. Плюс 6% SST"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "value": 75,
+        "year": 2026,
+        "note": "Средний балл аттестата от 75%, математика и физика — от 65%. IELTS от 5.5"
       },
       "url": "https://study.um.edu.my/bachelor-of-civil-engineering"
     },
     {
-      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "name": "Bachelor of Business Administration",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3.5,
+      "tuition": {
+        "amount": 77100,
+        "currency": "MYR",
+        "period": "total",
+        "note": "Вся программа; ≈RM 22 000 в год. Плюс 6% SST"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "value": 70,
+        "year": 2026,
+        "note": "Средний балл от 70%, два предмета из списка (математика, экономика, физика, химия и др.) — от 60%. IELTS от 6.0 или TOEFL iBT от 60"
+      },
+      "url": "https://study.um.edu.my/bachelor-of-business-administration"
+    },
+    {
+      "name": "Bachelor of Economics",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3.5,
+      "tuition": {
+        "amount": 77100,
+        "currency": "MYR",
+        "period": "total",
+        "note": "Вся программа; ≈RM 22 000 в год. Плюс 6% SST"
+      },
+      "passing_score": {
+        "kind": "gpa_certificate",
+        "value": 65,
+        "year": 2026,
+        "note": "Средний балл от 65%, два профильных предмета — от 60%. IELTS от 6.0"
+      },
+      "url": "https://study.um.edu.my/bachelor-of-economics"
+    },
+    {
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
       "field": "medicine",
       "level": "bachelor",
       "language": "en",
@@ -134,112 +248,260 @@
         "amount": 673200,
         "currency": "MYR",
         "period": "total",
-        "note": "Опубликованная полная программа в fee schedule 2025/26."
+        "note": "Вся программа; ≈RM 135 000 в год. Плюс 6% SST"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Высокие оценки по биологии, химии и физике/математике, собеседование; IELTS от 6.0. Для иностранцев свой срок подачи — 9 июня (в 2026 году)"
       },
       "url": "https://study.um.edu.my/bachelor-of-medicine-and-bachelor-of-surgery"
+    },
+    {
+      "name": "Foundation in Physical / Life / Social Sciences",
+      "field": "other",
+      "level": "foundation",
+      "language": "en",
+      "duration_years": 1,
+      "tuition": {
+        "amount": 35000,
+        "currency": "MYR",
+        "period": "total",
+        "note": "Подготовительный год UM; иностранцам открыты Life Sciences и Social Sciences. Окно подачи в 2026 году — 3–23 августа"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Путь в бакалавриат UM, если аттестата за 11 классов не хватает до требуемых 12 лет обучения"
+      },
+      "url": "https://study.um.edu.my/how-to-apply"
     }
   ],
-  "requirements": {
-    "intl_exams": [
-      {
-        "exam": "IELTS",
-        "min_score": "5.0",
-        "note": "Общий minimum для международного бакалавриата UM; отдельные факультеты требуют выше."
-      },
-      {
-        "exam": "TOEFL",
-        "min_score": "60",
-        "note": "TOEFL iBT; проверить год набора и программу."
-      }
-    ],
-    "language_level": "Минимум IELTS 5.0 / TOEFL iBT 60 / PTE Academic 41 для общего undergraduate route; исключения и повышенные пороги проверяй у факультета.",
-    "entrance_tests": true,
-    "interview": true,
-    "portfolio": "some_programs",
-    "motivation_letter": true,
-    "recommendations": true,
-    "activities_matter": "medium",
-    "documents": [
-      "Паспорт",
-      "Аттестат/Grade 12 или A-level/IB и официальная выписка",
-      "Признание квалификации, если запрошено UM",
-      "Подтверждение английского",
-      "Официальные переводы и заверение",
-      "Медицинские формы и документы EMGS/student pass"
-    ],
-    "notes": "Университет может провести интервью на отдельных программах; академические prerequisites, срок обучения и допустимый школьный диплом зависят от курса."
-  },
   "cost": {
     "tuition_min": {
       "amount": 60900,
       "currency": "MYR",
       "period": "total",
-      "note": "Опубликованный fee schedule 2025/26: нижняя граница среди приведённых undergraduate программ. Цена полной программы, не за год."
+      "note": "Вся программа (3,5–4 года): гуманитарные направления (антропология, история, английский), ≈RM 17 000 в год. Цены для набора 2025/26 и далее, без 6% SST"
     },
     "tuition_max": {
       "amount": 673200,
       "currency": "MYR",
       "period": "total",
-      "note": "Опубликованный fee schedule 2025/26: медицина; точный тариф зависит от программы и нового набора."
+      "note": "Вся программа медицины (MBBS, 5 лет). Стоматология — RM 655 000, фармация — RM 280 100"
+    },
+    "living_month_estimate": {
+      "amount": 582,
+      "currency": "USD",
+      "period": "month",
+      "note": "Средние расходы на жизнь в Малайзии по данным EMGS (госагентство по иностранным студентам). Место в общежитии UM — RM 450 в месяц, жильё рядом с кампусом — RM 800–2 200 в месяц"
     }
   },
   "funding": {
     "free_tuition": false,
-    "grants": []
+    "grants": [
+      {
+        "name": "Стипендий для иностранных бакалавров нет",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "UM прямо пишет, что не даёт стипендий иностранным студентам бакалавриата. Можно искать внешнее финансирование (фонды, работодатели). Работать разрешено до 20 часов в неделю только на каникулах дольше 7 дней и с разрешения иммиграционной службы",
+        "url": "https://aasd.um.edu.my/faq-ug-international-admission"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "5.5",
+        "note": "Academic: 5.5 для Computer Science и инженерии, 6.0 для бизнеса, экономики и медицины. IELTS UKVI не принимают; результат действует 2 года"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "46",
+        "note": "iBT (в центре): 46 для IT и инженерии, 60 для бизнеса и экономики"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "PTE 51",
+        "note": "Тест Pearson PTE Academic: от 51 (IT, инженерия) или от 59 (бизнес, медицина); экзамены Кембриджа — от 160 или от 169 баллов"
+      }
+    ],
+    "language_level": "Английский около B1–B2: IELTS 5.5–6.0 в зависимости от программы. Без сертификата могут дать условное зачисление со сроком досдать. Малайский учить не нужно, но курс малайского языка для иностранцев обязателен в программе",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Онлайн-заявка через портал MAYA (apply.um.edu.my) и сбор RM 500 (картой, FPX или Flywire)",
+      "Фото на паспорт по требованиям иммиграционной службы Малайзии",
+      "Копия первой страницы загранпаспорта",
+      "Аттестат и приложение с оценками — только итоговые, предварительные оценки не принимают",
+      "Заверенный перевод аттестата на английский",
+      "Сертификат английского (IELTS Academic, TOEFL iBT, PTE или Cambridge)",
+      "Дополнительно при необходимости: письмо о признании квалификации, спонсорское письмо",
+      "После зачисления: взнос за зачисление RM 800 и оплата визового пакета eVAL"
+    ],
+    "notes": "Решает приёмная комиссия по оценкам аттестата: у каждой программы свой минимальный средний балл и пороги по профильным предметам. Для некоторых программ (медицина, архитектура) бывает собеседование. Важно для россиян: по правилам приёмной UM нужно минимум 12 лет школьного обучения, а в России — 11. Поэтому российский аттестат могут не принять напрямую на 1 курс. До подачи напиши на study@um.edu.my, примут ли твой аттестат. Если нет — есть подготовительный год (Foundation) в самом UM за RM 35 000 или вариант поступить после 1 курса российского вуза. Подать заявку можно только после выпуска: незаконченное образование не рассматривают."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Malaysia Student Pass via EMGS",
-    "notes": "Подача обычно координируется UM с EMGS: после progress processing выполняются медосмотр и student pass endorsement в паспорте. Требования к SEV зависят от гражданства; сверить официальное руководство EMGS и инструкции университета перед поездкой.",
-    "url": "https://visa.educationmalaysia.gov.my/"
+    "type": "Однократная въездная виза (SEV) + студенческий пропуск (Student Pass) через EMGS",
+    "notes": "Для туризма россиянам виза в Малайзию не нужна (до 30 дней), но на учёбу едут по студенческому пропуску. Порядок: после зачисления UM подаёт за тебя заявку в EMGS на eVAL — электронное одобрение визы. Россия в списке стран, которым нужна однократная въездная виза (SEV): её оформляешь онлайн через Malaysia eVISA по письму eVAL. Въехать можно не раньше чем за 2 недели до недели ориентации. За 3 дня до прилёта заполни цифровую карту прибытия MDAC, в аэропорту KLIA подойди к стойке EMGS для иностранных студентов. Потом медосмотр в Малайзии и вклейка студенческого пропуска в паспорт. Пакет eVAL для граждан России: RM 5 451 за год или RM 6 151 за три года — сюда входят страховка, студенческий пропуск, i-Kad и медосмотр. Деньги: сборы платят картой, через FPX или Flywire; российские Visa и MasterCard за границей не работают, а переводы в долларах и евро из большинства российских банков блокируются, поэтому заранее открой карту или счёт в банке другой страны. Работать можно до 20 часов в неделю, только на каникулах и с разрешения иммиграционной службы.",
+    "url": "https://study.um.edu.my/international-student"
   },
   "dorm": {
     "available": true,
     "guaranteed_first_year": false,
     "cost_month": {
-      "amount": 800,
+      "amount": 450,
       "currency": "MYR",
       "period": "month",
-      "note": "Ориентир UM Global Mobility Centre для частного жилья неподалёку, не цена университетской комнаты; диапазон частного размещения примерно MYR 800–2,000 за человека в месяц."
+      "note": "Ставка для иностранцев в колледжах KK1–KK13: RM 15 в день (RM 450 в месяц) за место в комнате на 2–6 человек, одноместная — RM 30 в день (RM 900 в месяц). Коммунальные, Wi-Fi и студенческие мероприятия включены"
     },
-    "notes": "Есть кампусные residential colleges и International House/Japan Apartment, но университет предупреждает о дефиците мест и отсутствии гарантии для всех международных undergraduate. Цены зависят от корпуса и формата; off-campus аренда оформляется с владельцем отдельно."
+    "notes": "На кампусе 13 жилых колледжей (Kolej Kediaman). В комнатах кровать (часто двухъярусная), стол, стул и шкаф, вентилятор; санузлы и гладильные общие, в колледжах есть столовые. Часть корпусов (KK4, KK9) ремонтируют, и общие санузлы бывают временно закрыты. Места распределяют по наличию — UM предупреждает, что всем иностранцам их не хватает. Если не досталось, снимают жильё рядом: RM 800–2 200 в месяц за человека."
   },
-  "photos": [
+  "deadlines": [
     {
-      "file": "https://www.apu.ac.jp/abroad/university/id36/abroad_uni_id36_tmb.jpg",
-      "author": "Ritsumeikan Asia Pacific University",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.apu.ac.jp/abroad/university/?uniid=36",
-      "caption": "Факультетский корпус в модернистском стиле"
+      "what": "Подача на бакалавриат, октябрьский набор",
+      "start": "2026-02-09",
+      "end": "2026-08-30",
+      "intake": "Октябрь 2026; для набора 2027 срок ещё не опубликован, ожидаемо февраль — конец августа 2027"
     },
     {
-      "file": "https://storage.googleapis.com/mys-wp/d3fa7552-um-library.jpg",
-      "author": "Malaysia Study Centre",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://www.mys-ryugaku.com/school-report/universiti-malaya-report-2024/",
-      "caption": "Центральная библиотека Universiti Malaya"
+      "what": "Подача на MBBS (медицина) для иностранцев",
+      "end": "2026-06-09",
+      "intake": "Октябрь 2026"
     },
     {
-      "file": "https://zansgroup.com/storage/services/01knhdr08rn1wd0t5k57343vcz-1778259871.webp",
-      "author": "Zans Group",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://zansgroup.com/services/malaysia-student-visa",
-      "caption": "Студенты у главной библиотеки UM"
+      "what": "Подача на бакалавриат, мартовский набор",
+      "start": "2026-09-07",
+      "end": "2027-01-30",
+      "intake": "Март 2027"
     },
     {
-      "file": "https://hep.um.edu.my/INDEXS/ecosystem.png",
-      "author": "Student Affairs UM",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://hep.um.edu.my/",
-      "caption": "Схема жилой экосистемы и корпусов UM"
+      "what": "Подача на подготовительный год (естественные и социальные науки)",
+      "start": "2026-08-03",
+      "end": "2026-08-23",
+      "intake": "2026/27"
     },
     {
-      "file": "https://hep.um.edu.my/accommodation",
-      "author": "Student Affairs UM",
-      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
-      "source_url": "https://hep.um.edu.my/accommodation",
-      "caption": "Кампусное размещение и residential colleges UM"
+      "what": "Въезд в Малайзию",
+      "end": "Не раньше чем за 2 недели до недели ориентации",
+      "intake": "Каждый набор"
     }
   ],
-  "data_year": 2027
+  "photos": [
+    {
+      "file": "photos/umalaya/1.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://www.um.edu.my/",
+      "caption": "Канцелярия — главное административное здание университета"
+    },
+    {
+      "file": "photos/umalaya/2.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "caption": "Главные ворота кампуса в Куала-Лумпуре"
+    },
+    {
+      "file": "photos/umalaya/3.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://umlib.um.edu.my/",
+      "caption": "Корпус главной библиотеки UM"
+    },
+    {
+      "file": "photos/umalaya/4.jpg",
+      "author": "Cerevisae",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Interior_of_Za%27ba_Memorial_Library,_University_of_Malaya.jpg",
+      "caption": "Внутри мемориальной библиотеки Заба"
+    },
+    {
+      "file": "photos/umalaya/5.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "caption": "Озеро на кампусе: студенты катаются на каяках — кампус 373 га в зелени"
+    },
+    {
+      "file": "photos/umalaya/6.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "caption": "Инженерная лаборатория"
+    },
+    {
+      "file": "photos/umalaya/7.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "caption": "Студент в мастерской-лаборатории"
+    },
+    {
+      "file": "photos/umalaya/8.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://www.um.edu.my/",
+      "caption": "Студенты на лужайке кампуса"
+    },
+    {
+      "file": "photos/umalaya/9.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://hep.um.edu.my/UG%20STUDENTS%20RATE.pdf",
+      "caption": "Корпуса одного из 13 жилых колледжей"
+    },
+    {
+      "file": "photos/umalaya/10.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://hep.um.edu.my/UG%20STUDENTS%20RATE.pdf",
+      "caption": "Комнаты в жилом колледже KK4: двухъярусные кровати, столы, шкафы"
+    },
+    {
+      "file": "photos/umalaya/11.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://hep.um.edu.my/UG%20STUDENTS%20RATE.pdf",
+      "caption": "Комната на шестерых в колледже KK13, блок A"
+    },
+    {
+      "file": "photos/umalaya/12.jpg",
+      "author": "Universiti Malaya",
+      "license": "© Universiti Malaya; фото с официального сайта",
+      "source_url": "https://study.um.edu.my/doc/booklets/International%20Booklet%20-%20Updated%2015%20Dec%202025.pdf",
+      "caption": "Студенческий фестиваль культур на сцене университета"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "56"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "58"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "194"
+    }
+  ],
+  "perks": [
+    "campus",
+    "intl_environment",
+    "strong_research",
+    "student_life",
+    "exchange",
+    "internships"
+  ]
 }
