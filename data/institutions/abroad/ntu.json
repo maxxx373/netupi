@@ -3,13 +3,15 @@
   "type": "university",
   "name": {
     "ru": "Наньянский технологический университет",
-    "en": "Nanyang Technological University"
+    "en": "Nanyang Technological University, Singapore",
+    "short": "NTU",
+    "local": "南洋理工大学"
   },
   "country": "SG",
   "city": "Сингапур",
   "website": "https://www.ntu.edu.sg/",
-  "admissions_url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements",
-  "about": "Nanyang Technological University (NTU Singapore) — государственный исследовательский университет в западной части Сингапура. Его крупный кампус объединяет учебные здания, лаборатории, библиотеки, спортивные площадки, магазины и жилые halls. The Hive — узнаваемое учебное здание с открытым внутренним пространством и небольшими групповыми классами; кампусная жизнь устроена вокруг академических школ и студенческих сообществ.\n\nОсновные области бакалавриата — инженерия, вычислительные и естественные науки, бизнес, гуманитарные и общественные науки, коммуникации и педагогическое образование. Дополнительные требования, предметные prerequisite и собеседования зависят от программы. Для международной школьной квалификации, отсутствующей в перечне NTU, опубликованное руководство на AY2027 предусматривает школьный национальный выпускной результат вместе с дополнительной квалификацией (например, AP или A-level); применимость этого правила к конкретному российскому документу обязательно нужно подтвердить с приёмной комиссией. В опубликованном руководстве для этой общей категории указан период подачи 15 октября 2026 — 20 января 2027.\n\nТарифы AY2026/27 для большинства иностранных студентов с MOE Tuition Grant составляют S$21,400 в год; для перечисленных бизнес-программ — S$21,800. Без субсидии суммы составляют S$36,350 для программ без лабораторной компоненты или S$40,600 для лабораторных программ. Иностранный студент, принимающий грант, подписывает соглашение о трёхлетней работе в сингапурской организации после выпуска. В кампусе есть общежития, но наличие места зависит от распределения и типа программы; при принятии предложения обычно вносится аванс в размере двух месяцев аренды. Для очной учёбы потребуется Student’s Pass.",
+  "admissions_url": "https://www.ntu.edu.sg/admissions/undergraduate",
+  "about": "NTU основан в 1981 году на месте Наньянского университета — первого китайскоязычного вуза Юго-Восточной Азии, от которого на кампусе остались арка и сад Юньнань. Сегодня это государственный исследовательский университет: QS 2027 — 12-е место в мире, THE 2027 — 28-е, одна из сильнейших инженерных школ планеты. Кампус площадью около 200 га на западе Сингапура — фактически отдельный городок с 20+ общежитиями, спорткомплексами, озером и знаменитым учебным корпусом The Hive, где вместо лекционных рядов — круглые столы для работы в группах.\n\nБакалавриат длится 4 года (медицина — 5), обучение на английском. Направления: инженерия (компьютерная, механическая, электротехника, химическая, гражданская и др.), Computer Science и Data Science & AI, бизнес и бухучёт (Nanyang Business School), естественные науки, гуманитарные и социальные науки, коммуникации, искусство и дизайн, медицина (Lee Kong Chian School of Medicine).\n\nДеньги: иностранцу можно взять грант Министерства образования (MOE Tuition Grant) — тогда год стоит S$21 400 (бизнес — S$21 800, медицина — S$91 250), но после выпуска нужно 3 года проработать в Сингапуре. Без гранта — S$40 600 (программы с лабораториями), S$36 350 (без лабораторий), S$45 600 (бизнес). Для всех национальностей открыты стипендии Nanyang Global и Nanyang Merit. Жильё: место в общежитии гарантировано на первые два года, комната — от S$472 в месяц.",
   "areas": [
     "engineering",
     "construction",
@@ -23,71 +25,94 @@
   "art": "tech",
   "fields": [
     "engineering",
-    "architecture",
-    "natural_sciences",
     "it",
     "business",
+    "economics",
+    "natural_sciences",
+    "medicine",
+    "media",
+    "design_art",
+    "humanities",
+    "social_sciences",
     "pedagogy"
   ],
   "prep": {
-    "must": "Определи категорию своей квалификации в таблице NTU. Подготовь школьный выпускной документ и транскрипт, подтверждение английского при необходимости, и проверь дополнительные экзамены и предметные условия конкретной программы.",
-    "good": "Если квалификация не перечислена отдельно, изучи руководство NTU для “other international qualifications”: для этой группы опубликованы дополнительные академические квалификации. Уточни у NTU письменно, как правило применяется к российскому аттестату, прежде чем готовить экзамены.",
+    "must": "С российским аттестатом готовь дополнительно 3 экзамена AP на 4–5 баллов (для инженерии — обязательно AP Calculus BC) или 3 A-level. Подай заявку и на поступление, и на стипендию до 20 января 2027. Сразу подай на общежитие — на первые два года место гарантировано.",
+    "good": "Сдай IELTS или TOEFL на высокий балл — это усиливает заявку на гуманитарные и бизнес-программы. Реши заранее, брать ли грант MOE: он вдвое снижает цену, но обязывает 3 года работать в Сингапуре. Открой зарубежную карту для оплаты.",
     "source": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf"
   },
   "sources": [
     {
       "url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf",
-      "accessed": "2026-11-25",
-      "covers": "Правила по международным квалификациям и сроки AY2027"
+      "accessed": "2026-11-28",
+      "covers": "требования по предметам, категории аттестатов, доп. квалификации AP/A-level, сроки AY2027"
     },
     {
       "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees",
-      "accessed": "2026-11-26",
+      "accessed": "2026-11-28",
       "covers": "плата 2026/27 с грантом и без"
     },
     {
-      "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/application",
-      "accessed": "2026-11-25",
-      "covers": "Процедура подачи на общежитие"
+      "url": "https://www.ntu.edu.sg/orientation/international-student-resources/readying-yourself",
+      "accessed": "2026-11-28",
+      "covers": "расходы на жизнь, e-QET, ориентация"
     },
     {
       "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/FAQ",
-      "accessed": "2026-11-25",
-      "covers": "Доступ к общежитию и сборы"
+      "accessed": "2026-11-28",
+      "covers": "гарантия общежития на 2 года, жеребьёвка"
     },
     {
-      "url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass",
-      "accessed": "2026-11-25",
-      "covers": "Student’s Pass"
+      "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/detail/hall-13",
+      "accessed": "2026-11-28",
+      "covers": "цены общежития 2026/27 и 2027/28"
     },
     {
-      "url": "https://www.ntu.edu.sg/research/research-hub/news/detail/ntu-2025-an-ambitious-agenda-for-global-impact",
-      "accessed": "2026-11-25",
-      "covers": "Фото кампуса"
+      "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/hall-facilities",
+      "accessed": "2026-11-28",
+      "covers": "удобства общежитий"
     },
     {
-      "url": "https://www.ntu.edu.sg/hey/search-stories/detail/standing-tall",
-      "accessed": "2026-11-25",
-      "covers": "Фото The Hive"
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships-and-awards/scholarship-opportunities/detail/nanyang-scholarship",
+      "accessed": "2026-11-28",
+      "covers": "стипендия Nanyang Global"
     },
     {
-      "url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/detail/hall-7",
-      "accessed": "2026-11-25",
-      "covers": "Фото жилой комнаты"
+      "url": "https://moscow.mfa.gov.sg/visa-information/",
+      "accessed": "2026-11-28",
+      "covers": "россиянам нужна виза в Сингапур"
+    },
+    {
+      "url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass/completion-of-formalities-and-issuance-of-student's-pass",
+      "accessed": "2026-11-28",
+      "covers": "Student's Pass, IPA как въездная виза, сборы"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/news/detail/ntu-singapore-ranks-12th-in-qs-world-university-rankings-2027",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/news/detail/ntu-rises-to-rank-28th-in-latest-times-higher-education-world-university-rankings",
+      "accessed": "2026-11-28",
+      "covers": "THE 2027"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Nanyang_Technological_University",
+      "accessed": "2026-11-28",
+      "covers": "фото со свободной лицензией"
     }
   ],
-  "verified_at": "2026-11-26",
+  "verified_at": "2026-11-28",
   "confidence": "high",
   "todo": [
-    "Признание российского аттестата (вне списка квалификаций NTU)",
-    "Место в QS 2027"
+    "Уточнить в приёмной NTU, может ли выпускник российской школы подать до 20 января с промежуточными оценками или только после ЕГЭ"
   ],
+  "summary": "Один из лучших технических университетов мира и Азии: QS 2027 — 12-е место, THE 2027 — 28-е. Всё обучение на английском, большой зелёный кампус с общежитиями, место в которых гарантировано на первые два года. С грантом правительства Сингапура год стоит S$21 400 (взамен — 3 года работы в Сингапуре), без гранта — S$36 350–45 600. С российским аттестатом поступают только вместе с дополнительными экзаменами (3 AP или 3 A-level), россиянам нужна виза, она приходит вместе с одобрением студенческого пропуска.",
+  "data_year": 2027,
   "founded": 1981,
   "city_size": "mega",
   "ownership": "public",
-  "languages_of_instruction": [
-    "en"
-  ],
   "levels": [
     "bachelor",
     "master",
@@ -96,17 +121,21 @@
   "study_formats": [
     "full"
   ],
-  "summary": "Государственный исследовательский университет на западе Сингапура. Сильные направления — инженерия, вычислительные и естественные науки, бизнес, коммуникации и педагогика; заметные архитектурные объекты кампуса — учебное пространство The Hive и жилые halls.",
-  "highlights": [
-    "Большой зелёный кампус в районе Jurong West",
-    "Сеть студенческих halls с общими учебными и общественными пространствами",
-    "Школы инженерии, вычислительных и естественных наук, бизнеса и коммуникаций",
-    "Субсидированный MOE Tuition Grant требует от иностранных выпускников трёх лет работы в Сингапуре"
+  "languages_of_instruction": [
+    "en"
   ],
-  "intl_students_url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass",
+  "highlights": [
+    "QS 2027 — 12-е место в мире, THE 2027 — 28-е; одна из сильнейших инженерных школ мира",
+    "Всё обучение на английском, 4 года; можно взять вторую специальность (бизнес, аналитика, предпринимательство)",
+    "С грантом MOE год стоит S$21 400 — в обмен на 3 года работы в Сингапуре после выпуска",
+    "Стипендия Nanyang Global открыта всем: обучение + S$6 500 в год на жизнь",
+    "Общежитие гарантировано на первые 2 года, комната от S$472 в месяц",
+    "Знаменитый корпус The Hive: учатся за круглыми столами в маленьких группах"
+  ],
+  "intl_students_url": "https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/msr/emsr_intnl.pdf",
   "programs": [
     {
-      "name": "Computer Science",
+      "name": "Computer Science (Bachelor of Computing)",
       "field": "it",
       "level": "bachelor",
       "language": "en",
@@ -115,14 +144,33 @@
         "amount": 21400,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
+        "note": "2026/27 с грантом MOE (с НДС 9%); без гранта — S$40 600 в год. Цена фиксирована на весь срок учёбы"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-science",
       "passing_score": {
-        "year": 2027,
         "kind": "other",
-        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
-      }
+        "year": 2027,
+        "note": "Проходного балла нет, конкурс по аттестату и доп. экзаменам. Нужна математика старших классов; с российским аттестатом — плюс 3 AP (4–5 баллов) или 3 A-level"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-computer-science"
+    },
+    {
+      "name": "Data Science and Artificial Intelligence",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 21400,
+        "currency": "SGD",
+        "period": "year",
+        "note": "2026/27 с грантом MOE; без гранта — S$40 600"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "Нужна математика старших классов на высоком уровне; для доп. квалификации — AP Calculus BC или A-level Mathematics"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme"
     },
     {
       "name": "Mechanical Engineering",
@@ -134,33 +182,52 @@
         "amount": 21400,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
+        "note": "2026/27 с грантом MOE; без гранта — S$40 600"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering",
       "passing_score": {
-        "year": 2027,
         "kind": "other",
-        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
-      }
+        "year": 2027,
+        "note": "Математика и физика/химия/биология старших классов; AP Calculus BC (или A-level Mathematics) обязателен для инженерии"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-engineering-in-mechanical-engineering"
     },
     {
-      "name": "Business",
+      "name": "Business (Nanyang Business School)",
       "field": "business",
       "level": "bachelor",
       "language": "en",
-      "duration_years": 3,
+      "duration_years": 4,
       "tuition": {
         "amount": 21800,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, международная ставка с MOE Tuition Grant"
+        "note": "2026/27 с грантом MOE; без гранта — S$45 600"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-business",
       "passing_score": {
-        "year": 2027,
         "kind": "other",
-        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
-      }
+        "year": 2027,
+        "note": "Хорошая оценка по английскому, математика; для части программ — тест или собеседование"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-business"
+    },
+    {
+      "name": "Medicine (Lee Kong Chian School of Medicine)",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 91250,
+        "currency": "SGD",
+        "period": "year",
+        "note": "2026/27 с грантом MOE; без гранта медицина иностранцам недоступна"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "Химия и биология/физика старших классов, тест UCAT, мотивационное письмо, две рекомендации, отборочный день. Если итоговые результаты выходят после апреля, на набор этого года подать нельзя"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme"
     },
     {
       "name": "Environmental Earth Systems Science",
@@ -172,14 +239,14 @@
         "amount": 21400,
         "currency": "SGD",
         "period": "year",
-        "note": "AY2026/27, стандартная международная ставка с MOE Tuition Grant"
+        "note": "2026/27 с грантом MOE; без гранта — S$40 600"
       },
-      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-environmental-earth-systems-science",
       "passing_score": {
-        "year": 2027,
         "kind": "other",
-        "note": "Конкурс по иностранной квалификации; для неперечисленных аттестатов — индивидуальная оценка"
-      }
+        "year": 2027,
+        "note": "Математика и одна естественная наука старших классов"
+      },
+      "url": "https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-environmental-earth-systems-science"
     }
   ],
   "cost": {
@@ -187,13 +254,19 @@
       "amount": 21400,
       "currency": "SGD",
       "period": "year",
-      "note": "С грантом MOE, иностранцы не из АСЕАН, большинство программ, 2026/27"
+      "note": "2026/27, иностранцы не из АСЕАН, с грантом MOE (обязательство 3 года работать в Сингапуре); с НДС 9%"
     },
     "tuition_max": {
       "amount": 45600,
       "currency": "SGD",
       "period": "year",
-      "note": "Без гранта (бизнес/бухучёт); медицина отдельно"
+      "note": "Без гранта, бизнес и бухучёт; медицина — только с грантом, S$91 250"
+    },
+    "living_month_estimate": {
+      "amount": 1450,
+      "currency": "SGD",
+      "period": "month",
+      "note": "Оценка NTU без жилья: еда S$450–630, личные расходы S$230–330, транспорт S$150–250, связь от S$50 — итого S$1 300–1 600. Плюс общежитие S$472–685 в месяц и учебники S$200–500 в год"
     }
   },
   "funding": {
@@ -203,30 +276,46 @@
         "name": "MOE Tuition Grant",
         "coverage": "partial",
         "for_foreigners": true,
-        "note": "Снижает плату примерно вдвое; взамен 3 года работы в Сингапуре после выпуска",
+        "note": "Снижает плату примерно вдвое (S$21 400 вместо S$36 350–40 600). Условие — после выпуска 3 года работать в сингапурской компании",
         "url": "https://www.ntu.edu.sg/admissions/undergraduate/fees-and-funding/tuition-fees"
+      },
+      {
+        "name": "Nanyang Global Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Открыта всем национальностям: покрывает обучение (после гранта), S$6 500 в год на жизнь, до S$2 000 в год на общежитие, до S$8 000 на поездку по обмену, S$2 000 на компьютер, зачисление в Honours College. Нужен средний балл 3.5 из 5. Подаётся вместе с заявкой на поступление",
+        "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships-and-awards/scholarship-opportunities/detail/nanyang-scholarship"
+      },
+      {
+        "name": "Nanyang Merit Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Тоже для всех национальностей, с эссе до 250 слов и собеседованием",
+        "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/college-scholarship"
       }
     ]
   },
   "requirements": {
     "intl_exams": [
       {
+        "exam": "SAT",
+        "note": "С российским аттестатом этого недостаточно: NTU принимает аттестат стран «не из списка» только вместе с доп. квалификацией — 3+ экзамена AP с баллами 4–5 (AP Calculus BC обязателен для инженерии и большинства наук) или 3 A-level за 12 месяцев (A-level Mathematics для инженерии). Результаты AP должны прийти до 15 июля 2027"
+      },
+      {
         "exam": "IELTS",
-        "note": "Языковой сертификат требуется только для ряда типов школьной квалификации или при отсутствии иного доказательства английского; минимум сверяй с категорией заявителя."
+        "note": "Отдельного порога для неперечисленных аттестатов NTU не публикует, но для гуманитарных и бизнес-программ требуется «хорошая оценка по английскому» — сильный IELTS/TOEFL повышает шансы. После зачисления все сдают внутренний тест e-QET"
       },
       {
         "exam": "TOEFL",
-        "note": "Альтернативное подтверждение английского, если оно требуется для категории квалификации."
+        "note": "Принимается как подтверждение английского; на педагогических программах NIE прямо рекомендуют хороший IELTS или TOEFL"
       },
       {
-        "exam": "SAT",
-        "note": "Для части категорий с не перечисленной отдельно школьной квалификацией нужна дополнительная академическая квалификация; допустимые варианты смотри в таблице NTU."
-      },
-      {
-        "exam": "ACT",
-        "note": "Порог и допустимость зависят от категории квалификации; не является общим требованием для всех."
+        "exam": "OTHER",
+        "min_score": "UCAT",
+        "note": "Только для медицины: тест UCAT, сданный в течение 12 месяцев до зачисления"
       }
     ],
+    "language_level": "Английский уровня B2–C1: всё обучение на английском. После зачисления — тест e-QET; кто не сдал, проходит курс академического английского",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
@@ -234,75 +323,166 @@
     "recommendations": false,
     "activities_matter": "medium",
     "documents": [
-      "Школьные академические результаты и документ об окончании школы",
-      "Документ личности",
-      "Подтверждение владения английским, если необходимо для квалификации",
-      "Дополнительная AP / A-level или иная квалификация для соответствующей категории",
-      "Программные формы, портфолио или результаты интервью, если требуются"
+      "Онлайн-заявка на сайте NTU (окно для аттестатов «не из списка» — 15 октября 2026 — 20 января 2027)",
+      "Аттестат и результаты выпускных экзаменов (ЕГЭ) с переводом на английский",
+      "Результаты доп. квалификации: 3+ AP с баллами 4–5 или 3 A-level",
+      "Загранпаспорт",
+      "Подтверждение английского (по возможности IELTS или TOEFL)",
+      "Для стипендии: эссе до 250 слов, фото, отзыв школьного учителя онлайн",
+      "Для медицины: UCAT, мотивационное письмо, две рекомендации"
     ],
-    "notes": "Для “other international qualifications” руководство AY2027 требует дополнительную квалификацию помимо школьного выпускного результата. Для инженерии и ряда научных программ указаны конкретные математические/естественно-научные предметы. Точное применение к российской квалификации надо подтвердить у NTU."
+    "notes": "NTU требует 12 лет общего образования или сдачу национальных выпускных экзаменов в год подачи; российский аттестат с ЕГЭ относится к категории «другие международные квалификации». С ним одним не поступить: нужна доп. квалификация — 3 AP с баллами 4–5 (для инженерии и большинства наук — с AP Calculus BC, для программ с физикой — AP Physics C) или 3 A-level за 12 месяцев. Поскольку ЕГЭ сдают летом, а окно подачи закрывается 20 января, выпускникам этого года стоит заранее уточнить в приёмной NTU, можно ли подать с промежуточными оценками; часто проще подать после выпуска. Для медицины итоговые результаты должны быть до апреля. Конкурс очень высокий, решают оценки, предметы и для части программ собеседование."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "Singapore Student’s Pass",
-    "notes": "Очным иностранным студентам обычно нужен Student’s Pass. После зачисления следуй процессу оформления через NTU и ICA.",
+    "type": "Student's Pass (студенческий пропуск ICA); виза включена в письмо IPA",
+    "notes": "Россиянам для въезда в Сингапур нужна виза (подтверждено посольством Сингапура в Москве). Студентам отдельную визу получать не нужно: после зачисления NTU регистрирует тебя в системе ICA, ты подаёшь онлайн-заявку на Student's Pass, и письмо об одобрении (IPA) служит однократной въездной визой. На границе показываешь распечатанное IPA и паспорт. После приезда — медосмотр и визит в ICA для выдачи пропуска; сбор за выдачу — S$60, многократная виза для поездок домой — S$30. Студенческий пропуск выдают на весь срок учёбы. Деньги: плата за обучение и общежитие вносится в сингапурских долларах. Российские Visa/MasterCard в Сингапуре не работают, а переводы из большинства российских банков блокируются санкциями, поэтому заранее открой карту или счёт в банке другой страны (на месте студенты открывают счёт в сингапурском банке). Учти грант MOE: если берёшь его, после выпуска нужно 3 года работать в Сингапуре.",
     "url": "https://www.ica.gov.sg/information-and-e-services/long-term-visit-and-study/student-s-pass"
   },
   "dorm": {
     "available": true,
-    "guaranteed_first_year": false,
-    "notes": "На кампусе много halls; распределение и доступность зависят от категории студента и наличия мест. При принятии места NTU указывает аванс, равный двум месяцам аренды; есть отдельный невозвратный сбор заявки."
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 472,
+      "currency": "SGD",
+      "period": "month",
+      "note": "Hall 13, 2026/27: двухместная комната с кондиционером — S$472 с человека, одноместная — S$642 (Hall 4 — S$494 и S$657). Коммунальные включены, кондиционер оплачивается отдельно через приложение. Плата берётся за семестр"
+    },
+    "notes": "На кампусе 20+ общежитий (halls of residence). Бакалаврам, которые подали заявку вовремя, место гарантировано на первые два года; общежитие и тип комнаты распределяются случайной жеребьёвкой, позже учитывается активность в студенческой жизни. В каждом корпусе прачечная (S$1.50 за стирку), кухня-пантри с микроволновкой и плитой, учебные комнаты, музыкальная и игровая комнаты, есть тренажёрные залы. Сбор за заявку на общежитие не возвращается, при согласии на место берут депозит в размере двухмесячной платы. Рядом с частью корпусов идёт строительство метро — может быть шумно."
   },
   "deadlines": [
     {
-      "what": "Заявка AY2027, квалификации вне опубликованного списка NTU (проверь применимость к российскому аттестату)",
+      "what": "Подача с аттестатом «не из списка» (включая российский) + доп. квалификация",
       "start": "2026-10-15",
       "end": "2027-01-20",
-      "intake": "август 2027"
+      "intake": "Август 2027"
+    },
+    {
+      "what": "Подача на стипендии NTU",
+      "end": "2027-01-20",
+      "intake": "Август 2027; одновременно с заявкой на поступление"
+    },
+    {
+      "what": "Последний день для результатов AP",
+      "end": "2027-07-15",
+      "intake": "Август 2027"
+    },
+    {
+      "what": "Подача с американским дипломом, IB, A-level (для сравнения)",
+      "start": "2026-10-15",
+      "end": "2027-03-19",
+      "intake": "Август 2027"
+    },
+    {
+      "what": "Ориентация для иностранных студентов",
+      "start": "08-01",
+      "intake": "Первая неделя августа"
     }
   ],
   "photos": [
     {
       "file": "photos/ntu/1.jpg",
-      "author": "NTU Singapore",
-      "license": "© NTU Singapore; изображение с официальной страницы",
-      "source_url": "https://www.ntu.edu.sg/research/research-hub/news/detail/ntu-2025-an-ambitious-agenda-for-global-impact",
-      "caption": "Зелёный кампус NTU в западной части Сингапура"
-    },
-    {
-      "file": "https://www.ntu.edu.sg/media/images/default-source/cco/hive-banner6a71a5f2-0107-4855-937d-05d10a7bfd93.jpg?sfvrsn=3ed0cba3_3",
-      "author": "NTU",
-      "license": "© NTU; фото с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.ntu.edu.sg/about-us",
-      "caption": "The Hive — учебный корпус-символ NTU"
+      "author": "Supanut Arunoprayote",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Hive,_NTU_(I).jpg",
+      "caption": "The Hive — учебный корпус-символ NTU из 12 «башен» с аудиториями для занятий в малых группах"
     },
     {
       "file": "photos/ntu/2.jpg",
-      "author": "NTU Singapore",
-      "license": "© NTU Singapore; изображение с официальной страницы",
-      "source_url": "https://www.ntu.edu.sg/hey/search-stories/detail/standing-tall",
-      "caption": "Внутреннее пространство The Hive"
+      "author": "ENIAC78",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:666_01_Learning_Hub_Access_view_of_the_Learning_Hub_from_Nanyang_Drive_CREDIT_Hufton_and_Crow.jpg",
+      "caption": "The Hive и учебные корпуса вдоль Nanyang Drive"
     },
     {
       "file": "photos/ntu/3.jpg",
       "author": "NTU Singapore",
-      "license": "© NTU Singapore; изображение с официальной страницы",
+      "license": "© NTU Singapore; фото с официального сайта",
+      "source_url": "https://www.ntu.edu.sg/research/research-hub/news/detail/ntu-2025-an-ambitious-agenda-for-global-impact",
+      "caption": "Зелёный кампус NTU на западе Сингапура"
+    },
+    {
+      "file": "photos/ntu/4.jpg",
+      "author": "Diyanawiki",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Overhead_view_of_Hive,_NTU.jpg",
+      "caption": "Внутри The Hive: атриум и кафе"
+    },
+    {
+      "file": "photos/ntu/5.jpg",
+      "author": "Jng067",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NTU_tutorial_room_in_%22The_Hive%22.jpg",
+      "caption": "Аудитория в The Hive: круглые столы вместо рядов парт"
+    },
+    {
+      "file": "photos/ntu/6.jpg",
+      "author": "Robert Sim",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lee_Wee_Nam_Library_entrance_-_20260807_-_RSKY.jpg",
+      "caption": "Вход в главную библиотеку Lee Wee Nam"
+    },
+    {
+      "file": "photos/ntu/7.jpg",
+      "author": "Belmond",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nanyang_Business_School_Campus_Building_-_3.jpg",
+      "caption": "Корпус бизнес-школы Nanyang Business School"
+    },
+    {
+      "file": "photos/ntu/8.jpg",
+      "author": "Alvations",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hall_of_Residence_9,_Nanyang_Technological_University,_Singapore_-_20100102.jpg",
+      "caption": "Общежитие Hall of Residence 9 на кампусе"
+    },
+    {
+      "file": "photos/ntu/9.jpg",
+      "author": "NTU Singapore",
+      "license": "© NTU Singapore; фото с официального сайта",
       "source_url": "https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing/detail/hall-7",
       "caption": "Одноместная комната в общежитии Hall 7"
     },
     {
-      "file": "https://www.ntu.edu.sg/media/images/default-source/cco/life-at-ntu-education/the-loope3ed0003-e1c3-40bc-aa6e-dfdbee844bad.jpg?sfvrsn=ac91c1c6_3",
-      "author": "NTU",
-      "license": "© NTU; фото с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.ntu.edu.sg/life-at-ntu",
-      "caption": "Студенческая жизнь: обед в кампусе"
+      "file": "photos/ntu/10.jpg",
+      "author": "NTU Singapore",
+      "license": "© NTU Singapore; фото с официального сайта",
+      "source_url": "https://www.ntu.edu.sg/hey/search-stories/detail/standing-tall",
+      "caption": "Учебное пространство внутри The Hive"
+    },
+    {
+      "file": "photos/ntu/11.jpg",
+      "author": "GoAheadFan95",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Former_Nanyang_University_Arch,_Yunnan_Garden,_October_2025.jpg",
+      "caption": "Арка бывшего Наньянского университета в саду Юньнань — исторический центр кампуса"
+    },
+    {
+      "file": "photos/ntu/12.jpg",
+      "author": "Kenrick",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nanyang_Lake,_Singapore,_2015-02-07.jpg",
+      "caption": "Озеро Наньян на территории кампуса"
     }
   ],
-  "data_year": 2027,
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "12"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "28"
+    }
+  ],
   "perks": [
     "strong_research",
     "campus",
     "intl_environment",
-    "internships"
+    "internships",
+    "exchange",
+    "employment"
   ]
 }
