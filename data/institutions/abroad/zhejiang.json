@@ -10,8 +10,8 @@
   "country": "CN",
   "city": "Ханчжоу",
   "website": "https://www.zju.edu.cn/english/",
-  "admissions_url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
-  "about": "Zhejiang University объединяет несколько кампусов в Ханчжоу, включая Zijingang, Yuquan и Haining International Campus. Университет предлагает программы по 13 крупным областям знаний и развивает широкую исследовательскую инфраструктуру: аудитории, лаборатории, библиотеки, спортивные объекты и жильё для иностранных студентов. На бакалавриате большинство программ ведётся на китайском, отдельные направления — на английском; продолжительность обычно 4–6 лет. Иностранный абитуриент проходит онлайн-отбор, проверку школьных оценок, языкового сертификата, обязательного экзамена CSCA и, при приглашении, онлайн-собеседование.",
+  "admissions_url": "https://iczu.zju.edu.cn/admissionsen/2026/1110/c95498a3225495/page.psp",
+  "about": "Чжэцзянский университет вырос из академии Цюши, основанной в 1897 году, и сегодня входит в «китайскую Лигу плюща» C9 вместе с Пекинским университетом и Цинхуа. В нём больше 60 000 студентов и 13 больших областей знаний — от философии и литературы до инженерии, медицины и сельского хозяйства. Главный кампус — Цзыцзинган на западе Ханчжоу: здесь учатся почти все иностранные бакалавры на китайских программах. Исторический кампус Юйцюань стоит у подножия гор рядом с озером Сиху, международный кампус в Хайнине (час от Ханчжоу) построен по образцу британских колледжей, медицинская школа для иностранцев — в городе Иу.\n\nБакалавриат длится 4–6 лет. Большинство программ на китайском: для них нужен HSK 5 со 180–220 баллами (для права, журналистики, медицины — HSK 6). Стоит такая учёба 19 800 юаней в год (гуманитарные), 24 800 (экономика, право, точные и инженерные науки) или 29 800 (медицина, искусство). Англоязычных программ немного и они дороже: биомедицинская инженерия — 42 800, MBBS (лечебное дело) — 68 000, Global Communication and Management — 65 000, гражданское строительство и архитектура — 80 000, двойные дипломы с Эдинбургским университетом — 200 000 юаней в год.\n\nС набора 2027 года каждый иностранный абитуриент сдаёт CSCA — общекитайский экзамен для иностранцев по математике и профильным предметам (физика, химия или гуманитарный китайский — зависит от программы). Отбор идёт по оценкам аттестата, языковому сертификату, CSCA и видеособеседованию. После предварительного зачисления надо в срок оплатить первый год, иначе место сгорит; деньги не возвращают. Жильё для иностранцев — общежития на кампусах: одноместная комната от 80 юаней в день (24 000 юаней за учебный год).",
   "areas": [
     "science",
     "engineering",
@@ -28,94 +28,282 @@
     "engineering",
     "it",
     "medicine",
-    "business",
+    "natural_sciences",
     "economics",
+    "business",
     "law",
     "architecture",
-    "natural_sciences",
     "agriculture",
     "humanities",
-    "social_sciences"
+    "social_sciences",
+    "media",
+    "linguistics"
   ],
   "prep": {
-    "must": "Для международного бакалавриата нужны иностранное гражданство по правилам КНР, оконченная старшая школа и онлайн-заявка с академическими документами. Большинство программ на китайском; есть отдельные программы на английском.",
-    "good": "Сверь язык и предметные требования в актуальном каталоге, подготовь переводы и возможные результаты национальных или международных экзаменов. Будь готов(а) к интервью.",
-    "source": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm"
+    "must": "Выбери язык обучения: для китайской программы сдай HSK 5 минимум на 180 (экономика — 210), для английской — IELTS 6.0–6.5. Обязательно сдай CSCA по предметам своей программы до 28 февраля 2027. Переведи и нотариально заверь аттестат, напиши мотивационное письмо на 800 слов и возьми две рекомендации.",
+    "good": "Если китайский пока слабый, начни с годовых языковых курсов при ZJU. Подай на стипендию Правительства КНР через посольство в Москве — она покрывает всё. Заранее узнай в банке, как перевести юани в Bank of China, чтобы успеть оплатить первый год после зачисления.",
+    "source": "https://iczu.zju.edu.cn/admissionsen/2026/1110/c95498a3225495/page.psp"
   },
   "sources": [
     {
-      "url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
-      "accessed": "2026-11-26",
-      "covers": "гид для иностранных бакалавров 2027: CSCA, сроки, сбор, возраст"
-    },
-    {
-      "url": "https://iczu.zju.edu.cn/admissionsen/95565/list.htm",
-      "accessed": "2026-11-26",
-      "covers": "гид для иностранных бакалавров 2027: CSCA, сроки, сбор, возраст"
-    },
-    {
-      "url": "http://iczu.zju.edu.cn/admissionsen/2022/0530/c95568a3225030/page.htm",
-      "accessed": "2026-11-23",
-      "covers": "funding: CSC Type A"
-    },
-    {
-      "url": "https://iczu.zju.edu.cn/admissionsen/95504/list.htm",
-      "accessed": "2026-11-23",
-      "covers": "dorm: страница общежития, цен нет"
-    },
-    {
       "url": "https://iczu.zju.edu.cn/admissionsen/2026/1110/c95498a3225495/page.psp",
-      "accessed": "2026-11-26",
-      "covers": "официальный гид undergraduate admission 2027, даты, CSCA, документы"
+      "accessed": "2026-11-28",
+      "covers": "гид для иностранных бакалавров 2027: требования, CSCA, документы, сроки, стипендии, оплата"
     },
     {
       "url": "https://iczu.zju.edu.cn/_upload/article/files/c9/7e/7814085c40f2a430addf18fd4553/291c6d13-dfab-41be-9d98-116e62a17387.pdf",
-      "accessed": "2026-11-26",
-      "covers": "каталог английских программ и их тарифы 2027"
+      "accessed": "2026-11-28",
+      "covers": "англоязычные программы 2027: цены, язык, предметы CSCA, сроки"
     },
     {
       "url": "https://iczu.zju.edu.cn/_upload/article/files/0f/d6/b10d4dee4017b5f2898acb548c3a/50c3b8da-7f16-4719-893d-0d4478864f63.pdf",
-      "accessed": "2026-11-26",
-      "covers": "каталог китайских программ и HSK/предметные требования 2027"
+      "accessed": "2026-11-28",
+      "covers": "китайские программы 2027: цены, HSK, предметы CSCA"
     },
     {
-      "url": "https://iczu.zju.edu.cn/iczuen/wnwcampus/list.htm",
-      "accessed": "2026-11-26",
-      "covers": "кампусы и комнаты international student housing"
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/9a/e0/a061b3d34a72a1fb89f4f8801829/89da511c-95f2-4d3c-98b5-4ea33f55e381.pdf",
+      "accessed": "2026-11-28",
+      "covers": "сборы, обучение, банковские реквизиты, оплата в юанях"
     },
     {
-      "url": "https://www.zju.edu.cn/2018/0307/c32764a1513452/page.htm",
-      "accessed": "2026-11-26",
-      "covers": "архитектура Zijingang: Crescent Building"
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/98/60/6af870dc46f6a2c84471ae23adb0/dd6bc6da-5628-46e0-b388-fdb037917183.pdf",
+      "accessed": "2026-11-28",
+      "covers": "общежития для иностранцев и цены"
+    },
+    {
+      "url": "https://iczu.zju.edu.cn/admissionsen/95505/list.htm",
+      "accessed": "2026-11-28",
+      "covers": "страховка 800 юаней в год"
+    },
+    {
+      "url": "https://iczu.zju.edu.cn/admissionsen/95503/list.htm",
+      "accessed": "2026-11-28",
+      "covers": "вид на жительство и виза X1"
+    },
+    {
+      "url": "http://iczu.zju.edu.cn/admissionsen/2022/0530/c95568a3225030/page.htm",
+      "accessed": "2026-11-28",
+      "covers": "стипендия CSC Type A"
+    },
+    {
+      "url": "https://english.shanghai.gov.cn/en-FAQs-StudyinShanghai/20251218/134bb78943f640519e2185ff83051f5d.html",
+      "accessed": "2026-11-28",
+      "covers": "CSCA: формат и стоимость (правительство Шанхая)"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/zhejiang-university",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027"
+    },
+    {
+      "url": "https://www.rbc.ru/life/news/6a0d6eb89a79477ee73155e9",
+      "accessed": "2026-11-28",
+      "covers": "безвиз Китая для россиян до конца 2027 года (не для учёбы)"
+    },
+    {
+      "url": "https://www.monash.edu/study-abroad/outbound/program-search/zhejiang-university_",
+      "accessed": "2026-11-28",
+      "covers": "ориентир расходов на жизнь (сверка, неофициально)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Zhejiang_University",
+      "accessed": "2026-11-28",
+      "covers": "фото со свободной лицензией"
     }
   ],
-  "verified_at": "2026-11-26",
-  "confidence": "medium",
+  "verified_at": "2026-11-28",
+  "confidence": "high",
   "todo": [
-    "Плата по программам из каталогов 2027 (PDF)",
-    "Даты CSCA для набора 2027",
-    "Место в QS 2027"
+    "Даты сессий CSCA на 2027 год и стоимость — сверить на csca.cn (сайт недоступен для проверки)",
+    "Найти фото комнат в общежитиях для иностранцев (Asian Youth Center, Chengyue)",
+    "Сверить место в THE 2027"
   ],
-  "summary": "Один из сильнейших университетов Китая (лига C9) в Ханчжоу: инженерия, IT, медицина, сельское хозяйство. Бакалавриат в основном на китайском, есть англоязычные программы. С набора 2027 иностранцам нужен новый экзамен CSCA (China Scholastic Competency Assessment) и языковой сертификат. Подача до 28 февраля 2027, сбор 800 юаней.",
+  "summary": "Один из трёх сильнейших университетов Китая (лига C9, QS 2027 — 47-е место) в Ханчжоу, в часе от Шанхая на скоростном поезде. Бакалавриат в основном на китайском (нужен HSK 5) и стоит всего 19 800–29 800 юаней в год; англоязычные программы — от 42 800 юаней. С 2027 года иностранцам обязателен экзамен CSCA. Подача до 28 февраля 2027, россиянам нужна учебная виза X1.",
+  "data_year": 2027,
+  "founded": 1897,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "study_formats": [
+    "full"
+  ],
   "languages_of_instruction": [
     "zh",
     "en"
   ],
-  "levels": [
-    "bachelor",
-    "master",
-    "phd"
+  "highlights": [
+    "Лига C9 — «китайская Лига плюща»; QS 2027 — 47-е место в мире",
+    "Китайские программы — всего 19 800–29 800 юаней в год (≈$2 800–4 200)",
+    "Англоязычные программы: MBBS, биоинженерия, бизнес-коммуникации, двойной диплом с Эдинбургом",
+    "Стипендии: Правительства КНР (через посольство в Москве) и провинции Чжэцзян",
+    "Одноместная комната в общежитии от 80 юаней в день, со своим санузлом и кондиционером",
+    "Ханчжоу — IT-столица Китая (штаб-квартира Alibaba), час до Шанхая на скоростном поезде"
   ],
-  "city_size": "mega",
+  "intl_students_url": "https://iczu.zju.edu.cn/admissionsen/",
+  "programs": [
+    {
+      "name": "Computer Science and Technology (на китайском)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 24800,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; программа на китайском, кампус Цзыцзинган"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "Проходного балла нет: конкурс по аттестату, CSCA (китайский для STEM, математика, физика) и собеседованию. HSK 5 от 180 баллов плюс английский: TOEFL от 80 или IELTS от 6.5"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/0f/d6/b10d4dee4017b5f2898acb548c3a/50c3b8da-7f16-4719-893d-0d4478864f63.pdf"
+    },
+    {
+      "name": "Economics / Finance / International Economics and Trade (на китайском)",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "zh",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 24800,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; программа на китайском"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "HSK 5 от 210 баллов; CSCA: гуманитарный китайский и математика. Нужна хорошая математика"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/0f/d6/b10d4dee4017b5f2898acb548c3a/50c3b8da-7f16-4719-893d-0d4478864f63.pdf"
+    },
+    {
+      "name": "Clinical Medicine (MBBS), на английском",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 68000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; Международная медицинская школа ZJU в городе Иу"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "От 70% по математике, физике, химии и биологии в школе; IELTS 6.0 (каждая часть от 5.0) или TOEFL 75; CSCA: математика и химия. Срок подачи — 31 мая 2027"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/c9/7e/7814085c40f2a430addf18fd4553/291c6d13-dfab-41be-9d98-116e62a17387.pdf"
+    },
+    {
+      "name": "Biomedical Engineering, на английском",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 42800,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; Международная медицинская школа ZJU в городе Иу"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "От 70% по математике, физике, химии и биологии; IELTS 6.0 или TOEFL 75; CSCA: математика и химия"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/c9/7e/7814085c40f2a430addf18fd4553/291c6d13-dfab-41be-9d98-116e62a17387.pdf"
+    },
+    {
+      "name": "Global Communication and Management, на английском",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 65000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; Международная бизнес-школа ZJU, кампус Хайнин"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "IELTS от 6.5, TOEFL от 80 или Duolingo от 120; CSCA: математика. Есть отдельная стипендия программы"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/c9/7e/7814085c40f2a430addf18fd4553/291c6d13-dfab-41be-9d98-116e62a17387.pdf"
+    },
+    {
+      "name": "Civil Engineering (Sustainable and Smart Cities), на английском",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 80000,
+        "currency": "CNY",
+        "period": "year",
+        "note": "2027; кампус Цзыцзинган"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "Хорошие оценки по математике и физике; IELTS 6.0 (каждая часть от 5.0) или TOEFL 75; CSCA: математика и физика. Два раунда: до 28 февраля и до 31 мая 2027"
+      },
+      "url": "https://iczu.zju.edu.cn/_upload/article/files/c9/7e/7814085c40f2a430addf18fd4553/291c6d13-dfab-41be-9d98-116e62a17387.pdf"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 19800,
+      "currency": "CNY",
+      "period": "year",
+      "note": "2027: гуманитарные программы на китайском (философия, литература, история, китайский язык)"
+    },
+    "tuition_max": {
+      "amount": 200000,
+      "currency": "CNY",
+      "period": "year",
+      "note": "2027: двойной диплом ZJU — Эдинбургский университет (Integrative Biomedical Sciences, Biomedical Informatics). Большинство китайских программ — 24 800, англоязычные — 42 800–80 000"
+    },
+    "living_month_estimate": {
+      "amount": 3500,
+      "currency": "CNY",
+      "period": "month",
+      "note": "Ориентир: одноместная комната в общежитии ≈2 400 юаней в месяц (80 в день) плюс еда в столовых, транспорт и связь — около 1 000–1 500 (официальной сметы нет, оценка по открытым гидам). Плюс страховка 800 юаней в год"
+    }
+  },
   "funding": {
     "free_tuition": false,
     "grants": [
       {
-        "name": "Zhejiang University scholarships",
+        "name": "Стипендия Правительства КНР — Bilateral Program (CSC Type A)",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Обучение, общежитие, страховка и ежемесячная стипендия. Только для программ на китайском. Россиянам — через посольство КНР в Москве по квоте межправительственного обмена; в заявке первым вузом указываешь Чжэцзянский университет",
+        "url": "http://iczu.zju.edu.cn/admissionsen/2022/0530/c95568a3225030/page.htm"
+      },
+      {
+        "name": "Стипендия правительства провинции Чжэцзян",
         "coverage": "partial",
         "for_foreigners": true,
-        "note": "Доступность зависит от программы; правительственные и вузовские стипендии могут иметь отдельный календарь и требования.",
-        "url": "https://iczu.zju.edu.cn/admissionsen/"
+        "note": "Только для программ на китайском; форму загружаешь вместе с заявкой в онлайн-системе ZJU",
+        "url": "https://iczu.zju.edu.cn/admissionsen/2026/1110/c95498a3225495/page.psp"
+      },
+      {
+        "name": "Стипендии англоязычных программ (MBBS, биоинженерия, Global Communication and Management, двойные дипломы с Эдинбургом)",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Свои условия и сроки у каждой программы; ссылки — в гиде 2027",
+        "url": "https://iczu.zju.edu.cn/admissionsen/2026/1110/c95498a3225495/page.psp"
       }
     ]
   },
@@ -124,164 +312,194 @@
       {
         "exam": "OTHER",
         "min_score": "CSCA",
-        "note": "China Scholastic Competency Assessment — обязателен с набора 2027"
+        "note": "China Scholastic Competency Assessment — обязателен для всех с набора 2027. Предметы зависят от программы (математика + физика/химия или гуманитарный китайский). Проводится несколько раз в год, онлайн или в центрах; по данным вузов КНР, 450 юаней за предмет или 700 за два и больше. Регистрация на csca.cn"
       },
       {
         "exam": "HSK",
-        "note": "Для программ на китайском требуются баллы HSK по каталогу выбранной программы."
+        "min_score": "HSK 5 — 180",
+        "note": "Для программ на китайском: обычно HSK 5 от 180 баллов; экономика — HSK 5 от 210; право, журналистика, медицина — HSK 6 от 180; китайская литература — HSK 6 от 210"
       },
       {
         "exam": "IELTS",
-        "note": "Для англоязычных программ требуется признанный сертификат английского либо допустимое подтверждение обучения на английском."
+        "min_score": "6.0",
+        "note": "Для англоязычных программ: 6.0, каждая часть от 5.0 (бизнес-программа в Хайнине — 6.5). Для Computer Science на китайском тоже нужен английский — IELTS 6.5"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "75",
+        "note": "iBT 75, каждая часть от 15 (бизнес — 80)"
+      },
+      {
+        "exam": "DET",
+        "min_score": "100",
+        "note": "Duolingo 100 (бизнес — 120)"
       }
     ],
+    "language_level": "Китайский HSK 5 (≈B2) для большинства программ на китайском, для части — HSK 6. Для англоязычных — IELTS 6.0–6.5",
     "entrance_tests": true,
     "interview": true,
     "portfolio": "some_programs",
     "motivation_letter": true,
     "recommendations": true,
+    "activities_matter": "medium",
     "documents": [
-      "Загранпаспорт",
-      "Аттестат о полном среднем образовании",
-      "Транскрипт за старшую школу",
-      "Сертификат HSK или английского по языку программы",
-      "CSCA transcript",
+      "Загранпаспорт, действующий как минимум до 1 марта 2028 года",
+      "Аттестат о среднем общем образовании (выпускникам этого года — справка из школы, аттестат до регистрации)",
+      "Выписка оценок за 10–11 классы, желательно с рейтингом в классе",
+      "Нотариально заверенные переводы на китайский или английский для всех документов на русском",
+      "Сертификат HSK (для китайских программ) или IELTS/TOEFL/Duolingo (для английских)",
+      "Результат экзамена CSCA",
       "Мотивационное письмо около 800 слов",
-      "Две рекомендации",
-      "Медицинские документы по требованиям университета"
+      "Две рекомендации от школьных учителей с подписью, телефоном и почтой",
+      "Дипломы олимпиад и конкурсов (если есть)",
+      "Подписанное обязательство иностранного студента ZJU; если тебе нет 18 к 1 сентября 2027 — гарантия опекуна, живущего в Китае",
+      "Сбор за заявку 800 юаней"
     ],
-    "notes": "Нужно окончить школу, возраст 18–25 лет, сертификат языка (HSK для китайских программ, английский — для англоязычных), результат экзамена CSCA и требования из каталога программы. Отбор по оценкам, языку и собеседованию; после предварительного зачисления нужно оплатить первый год."
+    "notes": "Российский аттестат после 11 класса подходит напрямую на 1 курс бакалавриата, foundation не нужен — его переводят и нотариально заверяют. Возраст — от 18 до 25 лет, младше 18 нужен опекун в Китае. Документы загружаются только через онлайн-систему, бумажные не принимают. Отбор по оценкам, языку, CSCA и видеособеседованию; места распределяют волнами. После предварительного зачисления надо оплатить первый год в указанный срок — иначе место аннулируют; если потом передумаешь, деньги не вернут. Если язык не дотягивает, можно сначала поступить на годовые курсы китайского при ZJU (18 000 юаней в год)."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Учебная виза X1 + вид на жительство для учёбы",
+    "notes": "Безвиз Китая для россиян (до 30 дней, продлён до 31 декабря 2027 года) для учёбы на бакалавриате не подходит — нужна виза X1. После зачисления скачиваешь из онлайн-системы ZJU уведомление о зачислении, а форма JW202 приходит на почту. С ними, паспортом, анкетой и медицинской формой для иностранцев (Foreigner Physical Examination Form, если учишься дольше 6 месяцев) подаёшь на визу в Визовом центре Китая в России; сдают отпечатки пальцев. В течение 30 дней после въезда нужно оформить вид на жительство в управлении въезда и выезда полиции Ханчжоу: справка от ZJU, паспорт, JW202, фото, регистрация по месту жительства и подтверждённый медосмотр. Вид на жительство продлевают каждый год; с ним можно выезжать и въезжать сколько угодно. Деньги: обучение и сборы платятся только в юанях через онлайн-систему или переводом в Bank of China (Ханчжоу, SWIFT BKCHCNBJ910). Российские Visa и MasterCard в Китае не работают, а переводы из российских банков китайские банки часто задерживают или возвращают из-за санкционных проверок — закладывай время и уточняй в банке заранее, можно ли отправить юани в Bank of China. В Китае всё оплачивается через Alipay и WeChat Pay: их можно привязать к карте UnionPay или открыть счёт в китайском банке уже на месте. Обязательная страховка — 800 юаней в год.",
+    "url": "https://iczu.zju.edu.cn/admissionsen/95503/list.htm"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 2400,
+      "currency": "CNY",
+      "period": "month",
+      "note": "Одноместная комната в Chengyue (Цзыцзинган): 80 юаней в день, 24 000 юаней за учебный год. Двухместная — 120 юаней в день на комнату (36 000 в год), то есть около 1 800 с человека в месяц. Коммунальные платежи и постельное бельё отдельно"
+    },
+    "notes": "Иностранцы живут в отдельных общежитиях: на Цзыцзингане — Asian Youth Center (корпуса A и B) и Chengyue 5–8, на Юйцюане — Международный центр Чу Кэчжэня и Цюши-Наньцунь, есть корпус на Хуацзячи. В каждой комнате кровать, стол, шкаф, кондиционер, горячая вода, свой санузел и интернет; в корпусах общие кухни, прачечные, учебные комнаты, в Chengyue рядом столовая. Цены за учебный год: одноместная — 24 000–30 000, двухместная — 36 000–48 000 на комнату, квартиры-сьюты — 60 000–84 000 юаней. Жильё бронируешь после зачисления через систему общежитий, место не гарантировано; на кампусах в Хайнине и Чжоушане свои общежития."
   },
   "deadlines": [
     {
-      "what": "Подача заявки (большинство программ)",
+      "what": "Подача заявки на большинство программ",
       "end": "2027-02-28",
       "intake": "Сентябрь 2027"
     },
     {
-      "what": "Подача для отдельных специальностей",
+      "what": "Подача на MBBS, биомедицинскую инженерию, бизнес в Хайнине, двойные дипломы с Эдинбургом, второй раунд по строительству и архитектуре",
       "end": "2027-05-31",
       "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Сдать CSCA и получить результат",
+      "end": "2027-02-28",
+      "intake": "Сентябрь 2027; сессии проходят несколько раз в год — расписание на csca.cn"
+    },
+    {
+      "what": "Заселение и регистрация первокурсников",
+      "start": "2027-09-01",
+      "intake": "Начало сентября 2027"
+    },
+    {
+      "what": "Вид на жительство после въезда по визе X1",
+      "end": "30 дней после въезда",
+      "intake": "Ежегодно"
     }
   ],
-  "dorm": {
-    "available": true,
-    "guaranteed_first_year": false,
-    "notes": "Университет предлагает on-campus accommodation на нескольких кампусах; цены и наличие зависят от campus и типа комнаты. Забронировать жильё нужно после admission."
-  },
-  "highlights": [
-    "Лига C9 — «китайская Лига плюща», кампус Цзыцзинган в Ханчжоу",
-    "С 2027 обязателен экзамен CSCA для иностранцев",
-    "Подача до 28 февраля 2027 (отдельные специальности — до 31 мая)",
-    "Возраст 18–25 лет, сбор за заявку 800 CNY",
-    "Программы на китайском (HSK) и английском"
-  ],
-  "study_formats": [
-    "full"
-  ],
-  "programs": [
+  "photos": [
     {
-      "name": "Computer Science and Technology",
-      "field": "it",
-      "level": "bachelor",
-      "language": "zh",
-      "duration_years": 4,
-      "passing_score": {
-        "year": 2027,
-        "kind": "other",
-        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
-      }
+      "file": "photos/zhejiang/1.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/2018/0307/c32764a1513452/page.htm",
+      "caption": "Кампус Цзыцзинган с высоты — главный кампус университета, где учатся иностранные бакалавры"
     },
     {
-      "name": "Biomedical Engineering",
-      "field": "engineering",
-      "level": "bachelor",
-      "language": "en",
-      "duration_years": 4,
-      "passing_score": {
-        "year": 2027,
-        "kind": "other",
-        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
-      }
+      "file": "photos/zhejiang/2.jpg",
+      "author": "星幻丶碎梦",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:South_Gate_of_Zhejiang_University_Zijingang_Campus.jpg",
+      "caption": "Южные ворота кампуса Цзыцзинган"
     },
     {
-      "name": "Global Communication and Management",
-      "field": "business",
-      "level": "bachelor",
-      "language": "en",
-      "duration_years": 4,
-      "passing_score": {
-        "year": 2027,
-        "kind": "other",
-        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
-      }
+      "file": "photos/zhejiang/3.jpg",
+      "author": "星幻丶碎梦",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zhejiang_University_Library_Main_Branch.jpg",
+      "caption": "Главная библиотека университета на кампусе Цзыцзинган"
     },
     {
-      "name": "Clinical Medicine (MBBS)",
-      "field": "medicine",
-      "level": "bachelor",
-      "language": "en",
-      "duration_years": 6,
-      "passing_score": {
-        "year": 2027,
-        "kind": "other",
-        "note": "Конкурс по оценкам школы, языку, CSCA и собеседованию"
-      }
+      "file": "photos/zhejiang/4.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/2021/0522/c32859a2377049/page.htm",
+      "caption": "Читальный зал библиотеки"
+    },
+    {
+      "file": "photos/zhejiang/5.jpg",
+      "author": "Windmemories",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20231123_Zijingang_Campus_of_Zhejiang_University_04.jpg",
+      "caption": "Корпус в традиционном китайском стиле на кампусе Цзыцзинган"
+    },
+    {
+      "file": "photos/zhejiang/6.jpg",
+      "author": "Félix An",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Advanced_Data_Structures_Class_at_ZJU_Zijingang_West_Teaching_Area.jpg",
+      "caption": "Лекция по структурам данных: на технических направлениях большие потоки"
+    },
+    {
+      "file": "photos/zhejiang/7.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/english/",
+      "caption": "Студенты-медики и инженеры в исследовательской лаборатории"
+    },
+    {
+      "file": "photos/zhejiang/8.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/english/",
+      "caption": "Международный кампус в Хайнине: здесь англоязычные программы по бизнесу, биомедицине и инженерии"
+    },
+    {
+      "file": "photos/zhejiang/9.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/english/",
+      "caption": "Иностранные студенты на кампусе"
+    },
+    {
+      "file": "photos/zhejiang/10.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/2018/0308/c32764a1513459/pagem.htm",
+      "caption": "Кампус Цзыцзинган: учебные корпуса и спортивный центр вдоль канала"
+    },
+    {
+      "file": "photos/zhejiang/11.jpg",
+      "author": "猫猫的日记本",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Third_Teaching_Building_in_Zhejiang_University_Yuquan_Campus_01_2017-10.jpg",
+      "caption": "Третий учебный корпус на историческом кампусе Юйцюань"
+    },
+    {
+      "file": "photos/zhejiang/12.jpg",
+      "author": "Zhejiang University",
+      "license": "© Zhejiang University; фото с официального сайта",
+      "source_url": "https://www.zju.edu.cn/english/",
+      "caption": "Закат над озером кампуса Цзыцзинган"
     }
   ],
-  "cost": {
-    "tuition_min": {
-      "amount": 19800,
-      "currency": "CNY",
-      "period": "year",
-      "note": "Каталог Chinese-taught undergraduate 2027 содержит ставки по каждой программе; англоязычные программы могут стоить существенно больше."
-    },
-    "tuition_max": {
-      "amount": 200000,
-      "currency": "CNY",
-      "period": "year",
-      "note": "Верхняя граница зависит от отдельных англоязычных программ и кампуса; проверить каталог 2027 перед подачей."
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "47"
     }
-  },
-  "visa": {
-    "needed_for_ru": true,
-    "type": "X1 visa (study over 180 days) + residence permit",
-    "notes": "После зачисления вуз выдаёт admission notice и форму для визы в Китай; для очной долгосрочной программы обычно оформляется X1 и затем residence permit. Сверить действующие правила для РФ с китайским визовым центром.",
-    "url": "https://www.visaforchina.cn/HKG3_EN/"
-  },
+  ],
   "perks": [
     "strong_research",
     "campus",
-    "intl_environment"
-  ],
-  "data_year": 2027,
-  "photos": [
-    {
-      "file": "https://iczu.zju.edu.cn/_upload/column/02/75/66165/picture.png",
-      "author": "Zhejiang University",
-      "license": "© Zhejiang University; фото с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://iczu.zju.edu.cn/iczuen/wnwcampus/list.htm",
-      "caption": "Ворота в традиционном стиле на кампусе Чжэцзянского университета"
-    },
-    {
-      "file": "https://www.zju.edu.cn/_upload/article/images/2d/a1/d11089174b5ca9d72bdb3c25da3a/1fae9228-e466-46b0-9b29-25edee8272f7.jpg",
-      "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.zju.edu.cn/2018/0307/c32764a1513452/page.htm",
-      "caption": "Crescent Building на кампусе Цзыцзинган"
-    },
-    {
-      "file": "https://www.zju.edu.cn/_upload/article/images/cc/5b/8692fd534c7080b191457815649f/5ef24a9d-65d7-4bd3-b3aa-e181e30c5635.jpg",
-      "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.zju.edu.cn/2018/0308/c32764a1513459/pagem.htm",
-      "caption": "Общий вид университетского кампуса"
-    },
-    {
-      "file": "https://www.zju.edu.cn/_upload/article/images/7b/8a/521d12f941ea8ab97b2350d5a634/5c38e19d-f76f-4ece-a4ae-ccd7e9f3abf9.jpg",
-      "license": "© правообладатель (Zhejiang University); внешняя фотография с официального сайта, права на повторное использование не заявлены",
-      "source_url": "https://www.zju.edu.cn/2021/0522/c32859a2377049/page.htm",
-      "caption": "Интерьер университетской библиотеки"
-    }
-  ],
-  "ownership": "public",
-  "founded": 1897
+    "intl_environment",
+    "exchange",
+    "dual_degree",
+    "internships"
+  ]
 }
