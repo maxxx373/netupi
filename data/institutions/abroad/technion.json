@@ -2,14 +2,14 @@
   "id": "technion",
   "type": "university",
   "name": {
-    "ru": "Technion – Israel Institute of Technology",
+    "ru": "Технион — Израильский технологический институт",
     "en": "Technion – Israel Institute of Technology"
   },
   "country": "IL",
   "city": "Хайфа",
   "website": "https://www.technion.ac.il/en/",
   "admissions_url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/",
-  "about": "Технический университет Израиля с направлениями в гражданском строительстве, инженерии, биологии, материаловедении, архитектуре и науках.",
+  "about": "Технион — государственный научно-технический университет на горе Кармель в Хайфе. Он объединяет инженерные школы, естественные науки, архитектуру и градостроительство, медицину, сельское хозяйство и междисциплинарные исследования. Для иностранных выпускников школ действует англоязычная программа First Year in English: первый год включает базовые инженерные дисциплины и поддержку по ивриту, а продолжение учёбы связано с выполнением академических и языковых требований выбранного направления. Университетский кампус включает учебные корпуса, лаборатории, библиотеки, спортивные объекты и студенческие общежития.",
   "areas": [
     "engineering",
     "construction",
@@ -37,16 +37,250 @@
   "sources": [
     {
       "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/admission-and-costs/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "англоязычный бакалаврский маршрут, отбор, условия Sekem"
+    },
+    {
+      "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/costs/",
+      "accessed": "2026-11-28",
+      "covers": "учебная плата и ориентир ежемесячных расходов 2026/27"
+    },
+    {
+      "url": "https://int.technion.ac.il/programs/bsc-in-engineering-1st-year-in-english/housing/",
+      "accessed": "2026-11-28",
+      "covers": "тип и гарантия жилья, ставки"
+    },
+    {
+      "url": "https://www.gov.il/en/service/request_for_student_visa",
+      "accessed": "2026-11-28",
+      "covers": "официальный порядок учебной визы Израиля"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/technion-israel-institute-technology",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027 position"
+    },
+    {
+      "url": "https://www.technion.ac.il/en/student-dormitories-at-the-technion/",
+      "accessed": "2026-11-28",
+      "covers": "общежития, вместимость и инфраструктура жилья"
+    },
+    {
+      "url": "https://dean.technion.ac.il/en/housing/",
+      "accessed": "2026-11-28",
+      "covers": "диапазон начальной цены размещения и порядок подачи заявки"
+    },
+    {
+      "url": "https://dean.technion.ac.il/en/dorms/dejour-dormitories-known-as-meonot-haamim/",
+      "accessed": "2026-11-28",
+      "covers": "фото и описание типов студенческих комнат"
+    },
+    {
+      "url": "https://www.technion.ac.il/en/the-history-of-the-technion/",
+      "accessed": "2026-11-28",
+      "covers": "официальная фотография кампуса Technion с высоты"
+    },
+    {
+      "url": "https://thhi.net.technion.ac.il/news/from-vision-to-reality-the-technion-teaching-bioenglab-complex-completes-its-first-semester/",
+      "accessed": "2026-11-28",
+      "covers": "официальные фотографии учебной лаборатории и студентов на практическом занятии"
+    },
+    {
+      "url": "https://www.technion.ac.il/en/the-history-of-the-technion/",
+      "accessed": "2026-11-28",
+      "covers": "история и начало занятий в 1924/25; официальная история"
+    },
+    {
+      "url": "https://math.technion.ac.il/en/our-history/",
+      "accessed": "2026-11-28",
+      "covers": "официальная история: учреждение создано в 1912"
+    },
+    {
+      "url": "https://embassies.gov.il/saintpetersburg/en/node/4919",
+      "accessed": "2026-11-28",
+      "covers": "студенческая A/2 виза: документы, правила для несовершеннолетних, консульская подача"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/technion-israel-institute-technology",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027 position"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Запросить у Technion индивидуальный Sekem и признание российского аттестата.",
+    "Уточнить в приёмной комиссии точные даты набора 2027/28.",
+    "Получить подтверждённый тариф для каждой выбранной программы и официальный способ оплаты из России."
+  ],
+  "summary": "Технион — государственный исследовательский технологический университет в Хайфе, основанный в 1912 году. Сильные области включают инженерные и естественные науки, архитектуру, сельское хозяйство и медицину. Англоязычный маршрут First Year in English даёт международным выпускникам школ первый год инженерной подготовки; для продолжения выбранной бакалаврской программы обычно важны её собственные академические правила и знание иврита.",
+  "highlights": [
+    "Англоязычный первый год по инженерному треку для иностранных выпускников школ",
+    "После первого года дальнейшая учёба требует иврита — проверь требования заранее",
+    "Кампус на склоне горы Кармель в Хайфе",
+    "Первые 12 месяцев проживания в кампусе гарантируются участникам программы"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "he"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "First Year in English — Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 1,
+      "tuition": {
+        "amount": 15254,
+        "currency": "ILS",
+        "period": "year",
+        "note": "Тариф для иностранцев, 2026/27; последующее направление и цена зависят от программы."
+      }
+    },
+    {
+      "name": "Architecture and Town Planning",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "he",
+      "duration_years": 4
+    },
+    {
+      "name": "Biomedical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "he",
+      "duration_years": 4
+    },
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "he",
+      "duration_years": 4
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 15254,
+      "currency": "ILS",
+      "period": "year",
+      "note": "First Year in English, non-citizen, 2026/27; прочие программы имеют отдельные тарифы."
+    },
+    "tuition_max": {
+      "amount": 15254,
+      "currency": "ILS",
+      "period": "year",
+      "note": "Стоимость англоязычного первого года; не переносить на следующие годы."
+    },
+    "living_month_estimate": {
+      "amount": 550,
+      "currency": "USD",
+      "period": "month",
+      "note": "Официальный бюджет Technion International: USD 500–600 в месяц на питание, транспорт и базовые расходы; жильё отдельно. Указана середина диапазона, 2026/27."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Проверь действующий список допустимых экзаменов и минимумы для конкретной квалификации."
+      },
+      {
+        "exam": "SAT",
+        "note": "Требуется результат SAT/эквивалент для оценки Sekem; порог зависит от аттестата и набора."
+      }
+    ],
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "documents": [
+      "Паспорт",
+      "Аттестат и транскрипт оценок",
+      "Результаты стандартизированного экзамена, если требуются для Sekem",
+      "Подтверждение английского",
+      "Документы на иврите/английском либо заверенный перевод"
+    ],
+    "notes": "Для российского школьного аттестата Technion International должен подтвердить право на поступление и индивидуальный расчёт Sekem письменно. В First Year in English опубликованы языковые и экзаменационные требования, но универсальный проходной балл для российского аттестата в открытых источниках не найден. В требованиях A/2 консульство просит зачисление и подтверждение оплаты; возможность платежа из России заранее запроси у университета."
+  },
+  "deadlines": [
+    {
+      "what": "Приём на First Year in English; для следующего цикла проверить актуальное окно в портале",
+      "intake": "Winter 2027–28; официальная дата открытия/закрытия не подтверждена"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "A/2 — student visa",
+    "notes": "Гражданам России для долгосрочной учёбы нужен израильский студенческий въездной статус A/2. Консульство Израиля в Санкт-Петербурге публикует перечень для студентов: письмо о зачислении, подтверждение оплаты обучения, выписка со счёта за 3 месяца, страховка и подтверждение проживания; для заявителя младше 18 лет оба родителя подписывают заявление в консульстве. Запись и действующий тариф уточняй у израильской миссии по месту проживания. Способ оплаты обучения из российских банков Technion публично не подтверждает — уточняй у финансового офиса до платежа.",
+    "url": "https://embassies.gov.il/saintpetersburg/en/node/4919"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 320,
+      "currency": "USD",
+      "period": "month",
+      "note": "Официальный сайт деканата указывает начальную цену $320/мес.; зависит от комплекса и категории студента. Программа First Year in English отдельно описывает оплату комнаты 15 600 NIS за академический год 2026/27."
+    },
+    "notes": "Общежития находятся на кампусе и включают разные варианты размещения; наличие и тариф нужно подтверждать по конкретной программе. На странице бакалаврской программы First Year in English указана гарантия жилья на первый год при её условиях, но это нельзя переносить на всех студентов университета."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "334"
+    }
+  ],
+  "perks": [
+    "campus",
+    "strong_research",
+    "intl_environment",
+    "internships"
+  ],
+  "data_year": 2027,
+  "photos": [
+    {
+      "file": "https://www.technion.ac.il/wp-content/uploads/2024/10/AL21_02_01_79151-scaled-e1735646083743.jpg",
+      "license": "© Technion; image from the official university website, no reuse rights claimed",
+      "source_url": "https://www.technion.ac.il/en/the-history-of-the-technion/",
+      "caption": "Панорамный вид главного кампуса Technion на склоне Кармеля"
+    },
+    {
+      "file": "https://thhi.net.technion.ac.il/files/2026/02/0988177e-986a-4410-8366-375d1882fba2-1246x830.jpeg",
+      "license": "© Technion Teaching BioEngLab Complex; official university image, no reuse rights claimed",
+      "source_url": "https://thhi.net.technion.ac.il/news/from-vision-to-reality-the-technion-teaching-bioenglab-complex-completes-its-first-semester/",
+      "caption": "Студенты проводят практическую работу в учебной лаборатории BioEngLab"
+    },
+    {
+      "file": "https://dean.technion.ac.il/wp-content/uploads/2022/01/%D7%9E%D7%A8%D7%90%D7%94-%D7%97%D7%99%D7%A6%D7%95%D7%A0%D7%99_1024x682-558x464.jpg",
+      "license": "© Technion / Technion Dean of Students; official university image, no reuse rights claimed",
+      "source_url": "https://dean.technion.ac.il/en/student-dormitories/",
+      "caption": "Внешний вид студенческого общежития кампуса"
+    },
+    {
+      "file": "https://dean.technion.ac.il/wp-content/uploads/2021/10/711A5613-477x477.jpg",
+      "license": "© Technion / Technion Dean of Students; official university image, no reuse rights claimed",
+      "source_url": "https://dean.technion.ac.il/en/dorms/dejour-dormitories-known-as-meonot-haamim/",
+      "caption": "Комната студенческого общежития с рабочим местом и спальной зоной"
+    }
+  ],
+  "city_size": "mid",
+  "ownership": "public",
+  "founded": 1912
 }

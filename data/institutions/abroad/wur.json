@@ -2,14 +2,16 @@
   "id": "wur",
   "type": "university",
   "name": {
-    "ru": "Wageningen University & Research",
-    "en": "Wageningen University & Research"
+    "ru": "Вагенингенский университет",
+    "en": "Wageningen University & Research",
+    "short": "WUR",
+    "local": "Wageningen University & Research"
   },
   "country": "NL",
   "city": "Вагенинген",
   "website": "https://www.wur.nl/",
   "admissions_url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
-  "about": "Университет, специализирующийся на сельском хозяйстве, биологии, пищевых системах, экологии, природопользовании и науках о животных.",
+  "about": "Wageningen University & Research — нидерландский университет наук о жизни: питание, сельское хозяйство, экология, климат, вода и земля. В общих рейтингах он в первой–второй сотне (THE 2027 — 66, QS 2027 — 154), а по профильным предметам — среди лучших в мире: QS Agriculture & Forestry — 1-е место, Environmental Sciences — 2-е (2026).\n\nНа английском идут 8 бакалаврских программ, каждая длится 3 года: Animal Sciences, Data Science for Global Challenges, Earth Systems Sciences, Environmental Sciences, Food Technology, International Land and Water Management, Marine Sciences и Tourism. Кампус современный, рядом с небольшим студенческим городом, где почти все ездят на велосипеде.\n\nРоссийский аттестат признают напрямую, без подготовительного года: аттестат о среднем общем образовании и ЕГЭ минимум по 4 предметам со средним баллом от 70%. Плюс нужны профильные школьные предметы (математика и химия, биология или физика — в зависимости от программы) и английский: IELTS 6.0 или TOEFL iBT 80.\n\nДля неевропейцев университет сам оформляет вид на жительство, но сначала нужно оплатить счёт: обучение за 1-й год, депозит на жизнь за 12,5 месяца, страховку и сбор за ВНЖ — всё до 1 июля. За 3 года выходит около €101 500. Общежития у университета нет: комнату ищут через Idealis/ROOM.nl, место не гарантировано.",
   "areas": [
     "botany",
     "agriculture",
@@ -23,26 +25,447 @@
   "art": "environment",
   "fields": [
     "agriculture",
-    "natural_sciences"
+    "natural_sciences",
+    "engineering",
+    "business",
+    "economics",
+    "social_sciences",
+    "it",
+    "architecture"
   ],
   "prep": {
-    "must": "Подай заявку через Studielink и заверши анкету WUR для иностранного диплома. Проверь соответствие школьного образования уровню VWO, обязательные предметы конкретного бакалавриата и язык обучения.",
-    "good": "Собери свежую ведомость оценок и заранее уточни, нужны ли дополнительные экзамены по математике, химии или биологии. Для части программ важны сочетания нескольких естественных наук.",
-    "source": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education"
+    "must": "Сдай ЕГЭ минимум по 4 предметам со средним от 70%, включая математику и химию (плюс биологию или физику — по программе). Сдай IELTS от 6.0 (говорение от 6.0) или TOEFL iBT от 80. Подай заявку в Studielink до 15 апреля и сразу загрузи оценки в Osiris.",
+    "good": "Заранее подготовь около €34 000 (наша оценка счёта за 1-й год) на счёте в банке за пределами России: их нужно перевести университету до 1 июля, иначе ВНЖ не начнут оформлять. Зарегистрируйся на ROOM.nl как можно раньше, чтобы набрать стаж в очереди за жильём.",
+    "source": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme"
   },
   "sources": [
     {
+      "url": "https://backend.wur.nl/sites/default/files/2026-10/Diploma-Eligibility-List-2027-intake-EN.pdf",
+      "accessed": "2026-11-27",
+      "covers": "признание российского аттестата и ЕГЭ"
+    },
+    {
       "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/international-prior-education",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-27",
+      "covers": "обязательные школьные предметы по программам"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme",
+      "accessed": "2026-11-27",
+      "covers": "процесс подачи, сроки 2027, оплата, ВНЖ"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/language-requirements",
+      "accessed": "2026-11-27",
+      "covers": "языковые требования"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/study-expenses-bachelors/tuition-fees-and-study-finances",
+      "accessed": "2026-11-27",
+      "covers": "плата за обучение 2026/27 и 2027/28"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/study-expenses-bachelors",
+      "accessed": "2026-11-27",
+      "covers": "смета на 3 года, депозит, страховка, ВНЖ"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/studying-wageningen/student-life/housing",
+      "accessed": "2026-11-27",
+      "covers": "жильё"
+    },
+    {
+      "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-long-stay-visa-mvv",
+      "accessed": "2026-11-27",
+      "covers": "виза MVV для россиян"
+    },
+    {
+      "url": "https://wur.nl/en/about-wur/facts-figures/rankings-and-scientific-awards",
+      "accessed": "2026-11-27",
+      "covers": "рейтинги"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-27",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Добавить фото главного корпуса (Forum/Orion) крупным планом"
+  ],
+  "summary": "Лучший в мире университет по сельскому хозяйству и одному из ведущих по экологии и пищевым технологиям (QS по предмету — 1-е место). Находится в небольшом зелёном городе Вагенинген в Нидерландах. Бакалавриат на английском длится 3 года и стоит неевропейцам €18 840 в год. Российский аттестат принимают напрямую: нужно ЕГЭ по 4 предметам со средним от 70%.",
+  "highlights": [
+    "QS по сельскому и лесному хозяйству — 1-е место в мире, по наукам об окружающей среде — 2-е (2026)",
+    "Российский аттестат принимают напрямую: ЕГЭ по 4 предметам, средний от 70%",
+    "Бакалавриат на английском за 3 года, 8 программ",
+    "€18 840 в год за обучение; около €101 500 за все 3 года с жизнью и страховкой",
+    "Английский: IELTS 6.0 или TOEFL iBT 80",
+    "ВНЖ оформляет университет; россияне получают визу MVV в посольстве в Москве"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "nl"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Food Technology (пищевые технологии)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + химия + биология или физика"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "Environmental Sciences (науки об окружающей среде)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + физика + химия"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "Animal Sciences (зоотехния и биология животных)",
+      "field": "agriculture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + химия + биология"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "Data Science for Global Challenges",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + биология, химия или физика"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "International Land and Water Management",
+      "field": "agriculture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + физика"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "Marine Sciences (морские науки)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика + химия + биология"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    },
+    {
+      "name": "Tourism (туризм)",
+      "field": "social_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 18840,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Для неевропейцев, 2027/28 (в 2026/27 — €18 300)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "value": 70,
+        "kind": "other",
+        "note": "Российский аттестат + ЕГЭ минимум по 4 предметам со средним от 70%. Обязательные школьные предметы: математика"
+      },
+      "url": "https://www.wur.nl/en/education/bachelor"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 18300,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Для неевропейцев, 2026/27"
+    },
+    "tuition_max": {
+      "amount": 18840,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Для неевропейцев, 2027/28. Оценка университета на 3 года: обучение ~€56 400 + жизнь €41 400 + страховка €3 402 + ВНЖ €254 = €101 466"
+    },
+    "living_month_estimate": {
+      "amount": 1150,
+      "currency": "EUR",
+      "period": "month",
+      "note": "Норма нидерландской миграционной службы: €41 400 за 3 года (жильё, еда, книги, одежда и т. д.). Депозит на 12,5 месяца платишь университету заранее"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Бакалаврских стипендий для неевропейцев почти нет",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Стипендии WUR в основном для магистратуры; для бакалавриата закладывай полную стоимость",
+        "url": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.0",
+        "note": "Academic, говорение от 6.0; онлайн-версия (home edition) не принимается; не старше 24 месяцев"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "80",
+        "note": "iBT, говорение от 20 (или новая шкала 4.5 / говорение 4.0); Home Edition и MyBest не принимаются"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "PTE 61",
+        "note": "PTE Academic 61 (говорение 56), LanguageCert Academic 65, Cambridge B2 First / C1 Advanced от 169"
+      }
+    ],
+    "language_level": "Английский B2: IELTS 6.0 / TOEFL iBT 80",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Заявка в Studielink, затем в портале Osiris",
+      "Список оценок (можно до выпуска — чем раньше, тем быстрее ответ)",
+      "Аттестат о среднем общем образовании с приложением",
+      "Свидетельство / результаты ЕГЭ минимум по 4 предметам",
+      "Сертификат IELTS/TOEFL",
+      "Заверенные копии и переводы — по списку в персональном письме",
+      "Паспорт (для ВНЖ)",
+      "Оплата счёта до 1 июля"
+    ],
+    "notes": "Российский аттестат + ЕГЭ минимум по 4 общеобразовательным предметам со средним баллом от 70% дают право на (условное) зачисление; решение индивидуальное. Профильные предметы обязательны (для большинства программ — математика и химия, плюс биология или физика); если их не хватает, просят сдать дополнительные экзамены уровня VWO. Визу и ВНЖ не оформляют по прогнозным оценкам: если аттестат и ЕГЭ придут поздно, старт могут перенести на год."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка в Studielink (неевропейцы)",
+      "end": "04-15",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Документы в портале Osiris",
+      "end": "05-01",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Процедура First Year Process",
+      "end": "06-01",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Оплата счёта и заверенные документы о зачислении",
+      "end": "07-01",
+      "intake": "Сентябрь 2027 (документы до 15 июля, если результаты пришли 1–15 июля)"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Виза MVV + вид на жительство для учёбы",
+    "notes": "Университет сам подаёт за тебя на вид на жительство, но только после того, как получит заверенные документы и полную оплату счёта (до 1 июля). Когда миграционная служба IND одобрит заявку, у тебя будет 3 месяца, чтобы получить визу MVV. Россияне получают её только в посольстве Нидерландов в Москве (консульство в Петербурге временно закрыто) по записи. Если свободных слотов нет, пиши на mos-date@minbuza.nl с датой начала учёбы. Паспорт должен действовать ещё минимум 6 месяцев и иметь 2 пустые страницы; виза готова до 10 рабочих дней. Биометрию для карты ВНЖ сдаёшь уже в Нидерландах. Деньги: счёт за 1-й год (по нашей оценке около €34 000: обучение €18 840 + депозит на жизнь за 12,5 месяца ~€14 400 + страховка и сбор за ВНЖ) нужно перевести на счёт университета. Переводы из большинства российских банков в ЕС не проходят, поэтому заранее нужен счёт в банке другой страны. Для первого месяца возьми €500–700 карты или наличными, пока не откроешь нидерландский счёт.",
+    "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-long-stay-visa-mvv"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Своих общежитий у университета нет. Основной студенческий арендодатель в Вагенингене и Эде — Idealis: регистрируешься на ROOM.nl как можно раньше (чем дольше в очереди, тем больше шансов) и откликаешься на комнаты на Roommatch.nl. В июле–августе и январе–феврале у безусловно зачисленных, кто живёт дальше 130 км и оплатил обучение, есть приоритет. Можно искать в соседних городах (Беннекум, Эде, Ренкум) или жить в принимающей семье через Hospi Housing. Остерегайся мошенников: не переводи деньги за комнату, которую нельзя посмотреть."
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "154"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "66"
+    },
+    {
+      "name": "QS Subject: Agriculture & Forestry",
+      "year": 2026,
+      "position": "1"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "student_life",
+    "internships",
+    "campus",
+    "small_groups"
+  ],
+  "data_year": 2027,
+  "photos": [
+    {
+      "file": "photos/wur/1.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Кампус: учебный корпус и лужайка"
+    },
+    {
+      "file": "photos/wur/2.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Полевые занятия у корпуса Forum"
+    },
+    {
+      "file": "photos/wur/3.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Заселение в студенческий дом в городе"
+    },
+    {
+      "file": "photos/wur/4.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Студенческая комната"
+    },
+    {
+      "file": "photos/wur/5.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Общая кухня и гостиная в студенческом доме"
+    },
+    {
+      "file": "photos/wur/6.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/about-wur",
+      "caption": "Занятия в университетской теплице"
+    },
+    {
+      "file": "photos/wur/7.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "В Вагенингене все ездят на велосипедах"
+    },
+    {
+      "file": "photos/wur/8.jpg",
+      "author": "Wageningen University & Research",
+      "license": "© Wageningen University & Research; фото с официального сайта",
+      "source_url": "https://www.wur.nl/en/education/studying-wageningen/student-life/campus-and-city",
+      "caption": "Спорт в кампусе"
+    }
+  ],
+  "founded": 1918,
+  "ownership": "public",
+  "city_size": "calm",
+  "extra_links": [
+    {
+      "title": "Список признаваемых аттестатов 2027 (PDF)",
+      "url": "https://backend.wur.nl/sites/default/files/2026-10/Diploma-Eligibility-List-2027-intake-EN.pdf"
+    },
+    {
+      "title": "Подача заявки и сроки",
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme"
+    },
+    {
+      "title": "Требования к английскому",
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors/apply-bachelors-programme/language-requirements"
+    },
+    {
+      "title": "Стоимость учёбы",
+      "url": "https://www.wur.nl/en/education/bachelor/study-expenses-bachelors"
+    },
+    {
+      "title": "Поиск жилья",
+      "url": "https://www.wur.nl/en/education/studying-wageningen/student-life/housing"
+    },
+    {
+      "title": "Виза MVV для россиян — посольство в Москве",
+      "url": "https://www.netherlandsworldwide.nl/countries/russian-federation/travel/applying-for-a-long-stay-visa-mvv"
+    }
   ]
 }

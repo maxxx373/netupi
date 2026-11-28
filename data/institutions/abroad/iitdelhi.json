@@ -2,49 +2,306 @@
   "id": "iitdelhi",
   "type": "university",
   "name": {
-    "ru": "Indian Institute of Technology Delhi",
-    "en": "Indian Institute of Technology Delhi"
+    "ru": "Индийский технологический институт Дели",
+    "en": "Indian Institute of Technology Delhi",
+    "short": "IIT Delhi"
   },
   "country": "IN",
   "city": "Дели",
   "website": "https://home.iitd.ac.in/",
   "admissions_url": "https://international.iitd.ac.in/undergraduate-studies/",
-  "about": "Технологический институт Индии с программами по гражданскому, биохимическому, химическому, механическому и другим направлениям инженерии.",
+  "about": "Indian Institute of Technology Delhi (IIT Delhi) — государственный исследовательский технологический институт, основанный в 1961 году. Главный кампус находится в Хауз-Кхас на юге Дели; это большой зелёный кампус с учебными и исследовательскими корпусами, библиотекой, лабораториями, спортивными пространствами и общежитиями. Основные направления — инженерия, вычислительная техника, физические и химические науки, дизайн, архитектура и менеджмент.\n\nДля иностранного абитуриента правила зависят от уровня и программы. На бакалавриат IIT Delhi указывает отдельный порядок для иностранных граждан: нужно соответствовать опубликованным требованиям и пройти JEE Advanced; зачисление конкурентное, а иностранная квота/маршрут и перечень доступных программ проверяются по актуальному циклу. Для магистратуры и PhD применяются требования конкретного факультета, включая профильное образование, тесты или исследовательское предложение.\n\nКампусное жильё есть, но места ограничены: институт сообщает, что общежитием обеспечена лишь часть студентов. Большинство комнат общие; условия отличаются по общежитию и курсу. Международные кандидаты должны отдельно проверить оплату и право на место. Стоимость обучения зависит от программы, категории и действующего прейскуранта, поэтому универсальную цену здесь не указываем. Для учёбы в Индии гражданину России обычно требуется студенческая виза; точный порядок проверяется у индийских властей после получения документов от института.",
   "areas": [
     "engineering",
-    "construction",
+    "computer science",
+    "natural sciences",
     "architecture",
-    "science",
-    "it",
-    "materials",
-    "botany",
-    "biotechnology"
+    "design",
+    "management"
   ],
   "art": "engineering",
   "fields": [
     "engineering",
-    "architecture",
+    "it",
     "natural_sciences",
-    "it"
+    "architecture",
+    "business"
   ],
   "prep": {
-    "must": "Бакалавриат IIT Delhi требует прохождения JEE Advanced, включая отдельные правила для иностранных граждан. Проверь eligibility, учебные предметы и действующий экзаменационный цикл.",
-    "good": "Системно готовь математику, физику и химию по официальной программе JEE Advanced; заранее проверь порядок регистрации, документы об окончании школы и выделение мест.",
-    "source": "https://international.iitd.ac.in/undergraduate-studies/"
+    "must": "Готовься к JEE Advanced по физике, химии и математике — это очень сложный экзамен. Подавай регистрацию напрямую, JEE Main иностранцам не нужен; сдать можно максимум 2 раза в 2 года подряд.",
+    "good": "Начни решать прошлые варианты JEE Advanced с 10 класса и проверь, засчитают ли твой 11-й класс как эквивалент 12-го.",
+    "source": "https://jeeadv.ac.in/eligibility.html"
   },
   "sources": [
     {
       "url": "https://international.iitd.ac.in/undergraduate-studies/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "международные правила бакалавриата и JEE Advanced"
+    },
+    {
+      "url": "https://international.iitd.ac.in/hostel-accommodation/",
+      "accessed": "2026-11-26",
+      "covers": "общежития для международных студентов"
+    },
+    {
+      "url": "https://home.iitd.ac.in/hall-of-residence.php",
+      "accessed": "2026-11-26",
+      "covers": "ограниченность мест и устройство жилого фонда"
+    },
+    {
+      "url": "https://home.iitd.ac.in/gallery.php",
+      "accessed": "2026-11-26",
+      "covers": "официальная фотогалерея кампуса"
+    },
+    {
+      "url": "https://home.iitd.ac.in/for-faculty-benefits-facilities-library.php",
+      "accessed": "2026-11-26",
+      "covers": "кампусная библиотека"
+    },
+    {
+      "url": "https://indianvisaonline.gov.in/",
+      "accessed": "2026-11-26",
+      "covers": "официальный визовый портал Индии"
+    },
+    {
+      "url": "https://dms.iitd.ac.in/gallery/",
+      "accessed": "2026-11-26",
+      "covers": "фото общежития из галереи факультета"
+    },
+    {
+      "url": "https://jeeadv.ac.in/eligibility.html",
+      "accessed": "2026-11-26",
+      "covers": "условия JEE Advanced 2027 для иностранцев"
+    },
+    {
+      "url": "https://jeeadv.ac.in/",
+      "accessed": "2026-11-26",
+      "covers": "дата JEE Advanced 2027"
+    },
+    {
+      "url": "https://home.iitd.ac.in/uploads/ug/25-26/Fee%20Structure_2025-26_UG%20Entry%20Students.pdf",
+      "accessed": "2026-11-26",
+      "covers": "плата для иностранцев (набор 2025)"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Плата для иностранцев на набор 2026/2027 (свежая таблица)",
+    "Признаётся ли российский аттестат 11 класса эквивалентом Class XII для JEE Advanced",
+    "Есть ли центр JEE Advanced в России или ближайших странах",
+    "Место в QS 2027",
+    "Международный сайт international.iitd.ac.in не открылся — сверить жильё и порядок для иностранцев"
+  ],
+  "summary": "Один из сильнейших технических вузов Индии в Нью-Дели. Иностранцы поступают на бакалавриат по результатам JEE Advanced — им не нужно сдавать JEE Main, а места для них выделяются сверх общего лимита. Учёба на английском и очень дешёвая даже для иностранцев: при зачислении в 2025 году — 2 000 долларов плюс около 31 000 рупий при регистрации. Главный вопрос — подготовка к JEE Advanced, одному из самых сложных экзаменов в мире.",
+  "intl_students_url": "https://international.iitd.ac.in/",
+  "founded": 1961,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Иностранцы сдают JEE Advanced напрямую, без JEE Main",
+    "Места для иностранцев — сверх общего конкурса, если ранг не хуже проходного",
+    "JEE Advanced 2027 — 23 мая 2027",
+    "Плата для иностранцев (не из стран SAARC): 2 000 USD + 31 000 INR при регистрации (набор 2025)",
+    "Обучение на английском, кампус в Хауз-Хасе на юге Дели"
+  ],
+  "programs": [
+    {
+      "name": "B.Tech. Computer Science and Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://international.iitd.ac.in/undergraduate-studies/",
+      "tuition": {
+        "amount": 2000,
+        "currency": "USD",
+        "period": "semester",
+        "note": "Плата для иностранцев не из стран SAARC при регистрации (набор 2025): 2 000 USD + 31 000 INR (прочие сборы и проживание)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен ранг CRL в JEE Advanced не хуже закрывающего ранга программы; у CSE он самый высокий"
+      }
+    },
+    {
+      "name": "B.Tech. Electrical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://international.iitd.ac.in/undergraduate-studies/",
+      "tuition": {
+        "amount": 2000,
+        "currency": "USD",
+        "period": "semester",
+        "note": "Плата для иностранцев не из стран SAARC при регистрации (набор 2025): 2 000 USD + 31 000 INR (прочие сборы и проживание)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен ранг CRL в JEE Advanced не хуже закрывающего ранга программы; у CSE он самый высокий"
+      }
+    },
+    {
+      "name": "B.Tech. Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://international.iitd.ac.in/undergraduate-studies/",
+      "tuition": {
+        "amount": 2000,
+        "currency": "USD",
+        "period": "semester",
+        "note": "Плата для иностранцев не из стран SAARC при регистрации (набор 2025): 2 000 USD + 31 000 INR (прочие сборы и проживание)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен ранг CRL в JEE Advanced не хуже закрывающего ранга программы; у CSE он самый высокий"
+      }
+    },
+    {
+      "name": "B.Tech. Civil Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://international.iitd.ac.in/undergraduate-studies/",
+      "tuition": {
+        "amount": 2000,
+        "currency": "USD",
+        "period": "semester",
+        "note": "Плата для иностранцев не из стран SAARC при регистрации (набор 2025): 2 000 USD + 31 000 INR (прочие сборы и проживание)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужен ранг CRL в JEE Advanced не хуже закрывающего ранга программы; у CSE он самый высокий"
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "min_score": "JEE Advanced",
+        "note": "Иностранцы регистрируются прямо на JEE Advanced, без JEE Main. Не больше 2 попыток в 2 года подряд"
+      }
+    ],
+    "language_level": "Обучение на английском; отдельного языкового теста для JEE-маршрута нет.",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Загранпаспорт (как подтверждение иностранного гражданства)",
+      "Документ о сдаче выпускных экзаменов (12 класс или эквивалент) с физикой, химией, математикой",
+      "Результат JEE Advanced",
+      "При зачислении: оплата сборов, медицинские документы, студенческая виза"
+    ],
+    "notes": "Условия JEE Advanced 2027 для иностранцев: родиться не раньше 1 октября 2002 года; впервые сдавать выпускные экзамены 12 класса (или эквивалент) в 2026 или 2027 году с физикой, химией и математикой; не быть ранее зачисленным в IIT. Место дают, если общий ранг (CRL) не хуже закрывающего ранга программы. Российский 11-й класс как «эквивалент 12 класса» нужно подтвердить у организаторов."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Студенческая виза Индии",
+    "notes": "После получения места через JoSAA оформляешь студенческую визу Индии: заявка онлайн на indianvisaonline.gov.in, затем подача в посольство или визовый центр Индии в России с письмом о зачислении. Для JEE Advanced отдельная виза не нужна, если сдаёшь в своей стране (если там есть центр).",
+    "url": "https://indianvisaonline.gov.in/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "На кампусе есть отдельные общежития; по данным IIT Delhi, вместимость ограничена и проживание получают не все. Для бакалавров обычно предусмотрены общие комнаты; подачу заявки, наличие места и тариф нужно подтвердить у международного офиса."
+  },
+  "photos": [
+    {
+      "file": "https://home.iitd.ac.in/images/gallery/gallery-lg1.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://home.iitd.ac.in/gallery.php",
+      "caption": "Главный корпус IIT Delhi и центральная лужайка"
+    },
+    {
+      "file": "https://home.iitd.ac.in/images/gallery/gallery-lg8.jpg",
+      "author": "IIT Delhi",
+      "license": "© IIT Delhi; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://home.iitd.ac.in/",
+      "caption": "Панорама кампуса в Хауз-Хасе"
+    },
+    {
+      "file": "https://home.iitd.ac.in/images/gallery/gallery-lg7.jpg",
+      "author": "IIT Delhi",
+      "license": "© IIT Delhi; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://home.iitd.ac.in/",
+      "caption": "Главный корпус и лекционный блок вблизи"
+    },
+    {
+      "file": "https://home.iitd.ac.in/images/for-faculty/lib1.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://home.iitd.ac.in/for-faculty-benefits-facilities-library.php",
+      "caption": "Центральная библиотека"
+    },
+    {
+      "file": "https://blogs.ubc.ca/dominicinindia/files/2012/09/X-Kumaon-Hostel.jpg",
+      "author": "Dominic in India",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://blogs.ubc.ca/dominicinindia/",
+      "caption": "Общежитие Kumaon House на кампусе"
+    },
+    {
+      "file": "https://home.iitd.ac.in/images/slider/slide3.jpg",
+      "author": "IIT Delhi",
+      "license": "© IIT Delhi; фото с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://home.iitd.ac.in/",
+      "caption": "Исследовательский и инновационный парк IIT Delhi"
+    }
+  ],
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 2000,
+      "currency": "USD",
+      "period": "semester",
+      "note": "Набор 2025, иностранцы не из SAARC; плюс 31 000 INR. Для стран SAARC — 1 000 USD"
+    },
+    "tuition_max": {
+      "amount": 2000,
+      "currency": "USD",
+      "period": "semester",
+      "note": "Единая ставка для B.Tech и Dual Degree"
+    }
+  },
+  "deadlines": [
+    {
+      "what": "JEE Advanced 2027 — экзамен",
+      "end": "2027-05-23",
+      "intake": "Июль–август 2027"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "employment",
+    "internships"
   ]
 }

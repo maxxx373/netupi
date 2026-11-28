@@ -2,14 +2,16 @@
   "id": "polimi",
   "type": "university",
   "name": {
-    "ru": "Politecnico di Milano",
-    "en": "Politecnico di Milano"
+    "ru": "Миланский политехнический университет",
+    "en": "Politecnico di Milano",
+    "short": "Polimi",
+    "local": "Politecnico di Milano"
   },
   "country": "IT",
   "city": "Милан",
   "website": "https://www.polimi.it/en",
   "admissions_url": "https://www.polimi.it/en/prospective-students/how-to-apply",
-  "about": "Технический университет с направлениями в архитектуре, строительстве, дизайне, инженерии, технологиях и городском планировании.",
+  "about": "Politecnico di Milano — государственный технический университет с кампусами в Милане и других городах Ломбардии. Главный кампус Leonardo сочетает исторические корпуса и современные учебные здания; Bovisa включает инженерные лаборатории и пространства для проектной работы. Бакалаврские Laurea охватывают инженерию, архитектуру и дизайн; часть программ ведётся на английском, часть — на итальянском. Учебная модель предполагает интенсивную математику, проектную и лабораторную работу.\n\nИностранные абитуриенты с неитальянским школьным образованием проходят отдельную процедуру проверки диплома и вступительный отбор. Для инженерии требуется тест CEnT-S, для дизайна — TOLD, архитектурные программы используют собственный конкурс; календарь и число попыток различаются. Нужно проверить требование к языку именно выбранной программы и признание школьной квалификации. Для 2027/28 университет публикует отдельные календари поступления. Стоимость зависит от экономического положения семьи и числа кредитов: опубликованный первый взнос около €880, итоговая годовая плата рассчитывается по правилам университета и может быть существенно выше; международные студенты могут претендовать на региональную и университетскую поддержку. Для проживания в Италии гражданину России потребуется национальная учебная виза D и pre-enrolment через Universitaly; даты визовой процедуры зависят от кампании. Студенческие резиденции есть, но мест меньше, чем желающих.",
   "areas": [
     "engineering",
     "construction",
@@ -23,26 +25,286 @@
     "engineering",
     "architecture",
     "design_art",
-    "it"
+    "it",
+    "natural_sciences"
   ],
   "prep": {
-    "must": "Проверь правила приёма для выбранной программы Laurea: могут быть вступительный тест и требования по языку. Для иностранного школьного диплома заранее проверь условия признания.",
-    "good": "Подготовь паспорт, школьные документы и переводы; для архитектуры и дизайна проверь формат отбора и программу вступительного испытания.",
-    "source": "https://www.polimi.it/en/prospective-students/how-to-apply"
+    "must": "Сдай тест TOL или CEnT-S (можно уже в 10 классе) и сделай сертификат английского для англоязычной программы. Учти, что российская школа — 11 лет: нужен год университетских экзаменов.",
+    "good": "Сразу после теста подай предзаявку на Universitaly и запишись в консульство Италии — сроки по визе жёсткие.",
+    "source": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification"
   },
   "sources": [
     {
-      "url": "https://www.polimi.it/en/prospective-students/how-to-apply",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://dynamicpoli.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering/cent-s",
+      "accessed": "2026-11-26",
+      "covers": "тест CEnT-S"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/design/told",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees/",
+      "accessed": "2026-11-26",
+      "covers": "взносы 2026/27"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/scholarships-and-financial-aid",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification/student-visa",
+      "accessed": "2026-11-26",
+      "covers": "Universitaly, срок подачи визы"
+    },
+    {
+      "url": "https://dynamicpoli.polimi.it/sviluppo-sostenibile/ambiente/energia-e-decarbonizzazione/gestione-energetica",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://dynamicpoli.polimi.it/en/campus-and-services/spaces-and-study-areas/spaces/libraries",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.ilgiorno.it/milano/cronaca/residenza-politecnico-studenti-corvetto-bcafd695",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.frontiere.polimi.it/new-labora/?lang=en",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.auic.polimi.it/en/la-scuola/projects/advanced-school-of-architecture-asa/1st-edition",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification",
+      "accessed": "2026-11-26",
+      "covers": "требования к иностранному аттестату, 12 лет, тест, языки"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Минимальный балл английского для англоязычных программ",
+    "Цена резиденций Polimi",
+    "Место в QS 2027"
+  ],
+  "summary": "Технический университет с кампусами Милана, инженерными лабораториями, архитектурой и дизайн-школой. Для поступления нужны разные отборочные испытания: CEnT-S для инженерии, TOLD для дизайна и отдельный конкурс архитектуры.",
+  "data_year": 2027,
+  "founded": 1863,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "it",
+    "en"
+  ],
+  "highlights": [
+    "Тесты зависят от архитектуры, дизайна или инженерии",
+    "Стипендии и освобождение от части платы",
+    "Кампусы в Милане и других городах региона"
+  ],
+  "intl_students_url": "https://dynamicpoli.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification",
+  "programs": [
+    {
+      "name": "Engineering (бакалавриат, в т.ч. на английском)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 3883,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Максимум: 880,04 € + до 3 003 € второй взнос; меньше при низком доходе семьи (ISEE или эквивалент)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Вступительный тест TOL или CEnT-S (онлайн, на английском: математика, логика, физика)"
+      },
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/engineering/cent-s"
+    },
+    {
+      "name": "Design (бакалавриат)",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "it",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 3883,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Максимум; зависит от дохода семьи"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Вступительный тест для дизайна"
+      },
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/design/told"
+    },
+    {
+      "name": "Architecture (бакалавриат)",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "it",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 3883,
+        "currency": "EUR",
+        "period": "year",
+        "note": "Максимум; зависит от дохода семьи"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Вступительный тест для архитектуры"
+      },
+      "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 880.04,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Первый взнос — платят все (при полном освобождении по доходу остаются только налоги и сборы)"
+    },
+    "tuition_max": {
+      "amount": 3883,
+      "currency": "EUR",
+      "period": "year",
+      "note": "Первый взнос 880,04 € + второй до 3 003 €; плюс региональный налог 130–190 € и гербовый сбор. Без документов о доходе — максимум"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Освобождение по доходу (ISEE / эквивалентный ISEE)",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Взнос считается по доходу семьи; иностранцы оформляют «эквивалентный ISEE» по документам о доходе",
+        "url": "https://www.polimi.it/en/students/tuition-fees-scholarships-and-financial-aid/tuition-fees/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "min_score": "TOL / CEnT-S",
+        "note": "Вступительный тест обязателен. CEnT-S — онлайн на английском, 55 вопросов, засчитывают математику, тексты и физику; можно сдавать в предпоследнем классе школы"
+      },
+      {
+        "exam": "IELTS",
+        "note": "Для англоязычных программ нужен сертификат английского (уровень — в правилах программы)"
+      }
+    ],
+    "language_level": "Для программ на английском — сертификат английского, для программ на итальянском — итальянского.",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Иностранцы поступают как все: сдают тест и потом регистрируются. Нужен школьный документ после 12 лет обучения. Российская школа — 11 лет: недостающий год можно закрыть сданными университетскими экзаменами (Annex 1 правил Министерства). Иностранцам, которым нужна виза, выделяются отдельные «зарезервированные места»."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Национальная учебная виза D",
+    "notes": "Подаёшь предзаявку на портале Universitaly с выбранной программой. После подтверждения Polimi подаёшь документы на визу в посольство или консульство Италии; для 2026/27 крайний срок — 30 ноября 2026. Предзаявка не гарантирует запись в консульство. Если визу не дадут вовремя, учиться нельзя, но внесённый взнос вернут. После приезда — оформить permesso di soggiorno.",
+    "url": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-programmes/students-with-non-italian-qualification/student-visa"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Есть места в университетских и партнёрских резиденциях, в том числе через льготные конкурсы; жильё ограничено и обычно требует отдельной ранней заявки. Тариф зависит от резиденции и права на льготу."
+  },
+  "deadlines": [
+    {
+      "what": "Подача заявления на визу через Universitaly (для 2026/27 было до 30 ноября 2026)",
+      "end": "11-30",
+      "intake": "Учебный год, начинающийся в сентябре"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Facciata_edificio_PoliMi_in_Piazza_Leonardo_da_Vinci%2C_Milano.jpeg/1280px-Facciata_edificio_PoliMi_in_Piazza_Leonardo_da_Vinci%2C_Milano.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Mænsard vokser",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Facciata_edificio_PoliMi_in_Piazza_Leonardo_da_Vinci,_Milano.jpeg",
+      "caption": "Главный корпус Politecnico на Piazza Leonardo da Vinci"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Piazza_Leonardo_da_Vinci_-_Milano_-_ingresso_POLIMI.jpg/1280px-Piazza_Leonardo_da_Vinci_-_Milano_-_ingresso_POLIMI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Ale zena",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Piazza_Leonardo_da_Vinci_-_Milano_-_ingresso_POLIMI.jpg",
+      "caption": "Площадь Леонардо да Винчи и вход в кампус Leonardo"
+    },
+    {
+      "file": "https://dynamicpoli.polimi.it/fileadmin/_processed_/9/3/csm_15_PV-Leo_c2973eef0b.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://dynamicpoli.polimi.it/sviluppo-sostenibile/ambiente/energia-e-decarbonizzazione/gestione-energetica",
+      "caption": "Кампус Leonardo с высоты: учебные корпуса в районе Città Studi"
+    },
+    {
+      "file": "https://dynamicpoli.polimi.it/fileadmin/_processed_/3/4/csm_Biblioteca_BBC_Candiani_1920x650_9b5b42b2f4.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://dynamicpoli.polimi.it/en/campus-and-services/spaces-and-study-areas/spaces/libraries",
+      "caption": "Библиотека: место для самостоятельной работы"
+    },
+    {
+      "file": "https://www.ilgiorno.it/image-service/version/c%3AZmI4MmExYjEtMGQ3Yi00%3AYjEtMGQ3Yi00NmNlNWVi/nella-foto-gli-interni-delle-residenze-e-le-aree-comuni-ansa-davide-canella.webp",
+      "author": "ANSA / Davide Canella",
+      "license": "© ANSA / Davide Canella; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.ilgiorno.it/milano/cronaca/residenza-politecnico-studenti-corvetto-bcafd695",
+      "caption": "Комната в студенческой резиденции Marie Curie"
+    },
+    {
+      "file": "https://www.auic.polimi.it/fileadmin/_processed_/6/1/csm_AB_asa_1_ed_masterclass_1-1__5__01_7044836602.png",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.auic.polimi.it/en/la-scuola/projects/advanced-school-of-architecture-asa/1st-edition",
+      "caption": "Занятия в школе архитектуры: презентация проекта"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "intl_environment",
+    "internships",
+    "employment",
+    "exchange"
   ]
 }

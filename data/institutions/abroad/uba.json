@@ -2,27 +2,27 @@
   "id": "uba",
   "type": "university",
   "name": {
-    "ru": "University of Buenos Aires",
-    "en": "University of Buenos Aires"
+    "ru": "Университет Буэнос-Айреса",
+    "en": "University of Buenos Aires",
+    "short": "UBA",
+    "local": "Universidad de Buenos Aires"
   },
   "country": "AR",
   "city": "Буэнос-Айрес",
   "website": "https://www.uba.ar/",
-  "admissions_url": "https://www.uba.ar/estudiantesextranjeros",
-  "about": "Крупный государственный университет Аргентины с факультетами медицины, права, архитектуры, инженерии, ветеринарии, сельского хозяйства и естественных наук.",
+  "admissions_url": "https://www.uba.ar/ingresouba",
+  "about": "Universidad de Buenos Aires (UBA) — государственный исследовательский университет, основанный в 1821 году. Факультеты расположены в разных районах Буэнос-Айреса: медицина и психология, право, точные и естественные науки, инженерия, архитектура, экономика, ветеринария, агрономия и социальные дисциплины. Вуз соединяет монументальные исторические корпуса, городские учебные площадки, библиотеки, клиники и исследовательские центры. Основной язык преподавания — испанский.\n\nСтандартный путь к степени бакалавра проходит через Ciclo Básico Común (CBC), после которого студент продолжает программу в выбранном факультете; доступны очная и частично онлайн-формы через UBA XXI. Иностранные школьники могут подать документы, но для учёбы нужен завершённый и конвалидированный в Аргентине школьный аттестат, удостоверение личности и, когда требуется, подтверждение достаточного испанского. Точные даты регистрации и последовательность легализации определяются ежегодно; для иностранного кандидата без постоянного проживания предусмотрен отдельный правовой режим.\n\nUBA описывает undergraduate путь как государственное обучение без единой рыночной tuition, однако в 2025–26 году обсуждались/менялись правила платы для иностранцев без постоянного проживания. Поэтому не следует обещать бесплатное обучение всем российским кандидатам: перед подачей запросите письменное подтверждение политики UBA для своего миграционного статуса, курса и года. Университет не предоставляет централизованное общежитие для всех студентов; жильё обычно ищут в Буэнос-Айресе самостоятельно. Для проживания с целью регулярной учёбы гражданину России следует получить соответствующий student residence в миграционном ведомстве Аргентины после проверки визовых правил.",
   "areas": [
     "science",
     "engineering",
-    "construction",
     "architecture",
     "medicine",
     "law",
-    "botany",
     "agriculture",
-    "veterinary",
-    "economics"
+    "economics",
+    "social sciences"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
@@ -30,26 +30,226 @@
     "medicine",
     "law",
     "agriculture",
-    "economics"
+    "economics",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Проверь правила зачисления иностранцев в зависимости от статуса и страны диплома. Для ряда поступающих предусмотрены признание аттестата и обязательный Ciclo Básico Común; обучение в основном на испанском.",
-    "good": "Начни с подтверждения уровня испанского и оформления аттестата/его эквивалентности. Отдельно уточни требования факультета и документы для проживания.",
+    "must": "Подними испанский до C1 и сдай SIELE Global. Поставь апостиль на аттестат, сделай перевод и начни признание в Министерстве образования Аргентины.",
+    "good": "Оформи студенческую резиденцию и DNI сразу по приезде. Первый год (CBC) можно частично пройти дистанционно через UBA XXI.",
     "source": "https://www.uba.ar/estudiantesextranjeros"
   },
   "sources": [
     {
+      "url": "https://codigo.rec.uba.ar/codigo_uba/libro-i-normas-generales-de-la-universidad-de-buenos-aires-1/titulo-14-regimen-de-admision-de-estudiantes-extranjeros-e-internacionales-para-el-nivel-de-grado/capitulo-b-de-los-estudiantes-extranjeros/",
+      "accessed": "2026-11-26",
+      "covers": "правила для иностранцев: DNI, признание аттестата, категория J"
+    },
+    {
+      "url": "https://codigo.rec.uba.ar/codigo_uba/libro-i-normas-generales-de-la-universidad-de-buenos-aires-1/titulo-16-ciclo-basico-comun/capitulo-c-regimen-para-el-ciclo-basico-comun-de-inscripcion-cursado-evaluacion-y-promocion-de-asignaturas/",
+      "accessed": "2026-11-26",
+      "covers": "CBC регистрация и документы"
+    },
+    {
+      "url": "https://www.uba.ar/ingresouba",
+      "accessed": "2026-11-26",
+      "covers": "порядок записи в CBC, UBA XXI"
+    },
+    {
       "url": "https://www.uba.ar/estudiantesextranjeros",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "поступление иностранцев: без экзамена, CBC, испанский C1"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/migraciones/residencias/estudiante",
+      "accessed": "2026-11-26",
+      "covers": "студенческая резиденция в Аргентине"
+    },
+    {
+      "url": "https://www.derecho.uba.ar/ingresantes/info_ingresantes_cbc_extranjeros.php",
+      "accessed": "2026-11-26",
+      "covers": "порядок признания иностранного среднего образования для CBC"
+    },
+    {
+      "url": "https://www.uba.ar/",
+      "accessed": "2026-11-26",
+      "covers": "университет и факультеты"
+    },
+    {
+      "url": "https://www.diariodecuyo.com.ar/argentina/el-gobierno-permitira-que-las-universidades-cobren-a-extranjeros-1667815.html",
+      "accessed": "2026-11-26",
+      "covers": "декрет о праве вузов брать плату с иностранцев (новость)"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Решение UBA о плате для иностранцев по декрету 366/2025",
+    "Сроки записи в CBC на 2027",
+    "Место в QS 2027"
+  ],
+  "summary": "Крупнейший университет Аргентины, бакалавриат бесплатный. Вступительных экзаменов нет: все начинают с годичного базового цикла CBC. Иностранцам с аттестатом из неиспаноязычной страны нужен испанский уровня C1 (SIELE) и признание аттестата в Министерстве образования Аргентины. Учиться можно только с аргентинским DNI — то есть с видом на жительство.",
+  "intl_students_url": "https://www.uba.ar/estudiantesextranjeros",
+  "founded": 1821,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "highlights": [
+    "Бакалавриат бесплатный (пока: с 2025 года вузам разрешено брать плату с иностранцев-нерезидентов)",
+    "Без вступительных экзаменов — сначала годичный базовый цикл CBC",
+    "Испанский C1 (SIELE Global) для неиспаноязычных аттестатов",
+    "Нужен аргентинский DNI и признанный в Аргентине аттестат",
+    "Можно учить часть CBC дистанционно через UBA XXI"
+  ],
+  "programs": [
+    {
+      "name": "Medicina",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 6,
+      "url": "https://www.fmed.uba.ar/",
+      "tuition": {
+        "amount": 0,
+        "currency": "ARS",
+        "period": "year",
+        "note": "Бакалавриат UBA бесплатный; уточни перед поступлением из-за декрета 366/2025"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Без вступительных экзаменов; нужно сдать предметы CBC"
+      }
+    },
+    {
+      "name": "Abogacía",
+      "field": "law",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 5,
+      "url": "https://www.derecho.uba.ar/",
+      "tuition": {
+        "amount": 0,
+        "currency": "ARS",
+        "period": "year",
+        "note": "Бакалавриат UBA бесплатный; уточни перед поступлением из-за декрета 366/2025"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Без вступительных экзаменов; нужно сдать предметы CBC"
+      }
+    },
+    {
+      "name": "Ingeniería en Informática",
+      "field": "it",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 5,
+      "url": "https://www.fi.uba.ar/",
+      "tuition": {
+        "amount": 0,
+        "currency": "ARS",
+        "period": "year",
+        "note": "Бакалавриат UBA бесплатный; уточни перед поступлением из-за декрета 366/2025"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Без вступительных экзаменов; нужно сдать предметы CBC"
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "min_score": "SIELE Global C1",
+        "note": "Или сертификат продвинутого испанского факультета философии и литературы UBA (C1)"
+      }
+    ],
+    "language_level": "Испанский C1 для выпускников школ неиспаноязычных стран.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Аргентинский DNI",
+      "Аттестат с апостилем и присяжным переводом на испанский",
+      "Признание аттестата Министерством образования Аргентины (или справка о начале процедуры)",
+      "Сертификат испанского C1 (SIELE Global)"
+    ],
+    "notes": "Порядок: предварительная регистрация на сайте UBA, затем документы в CBC. Нужны аргентинский DNI (вид на жительство, в т.ч. студенческий, категория J) и аттестат, признанный (convalidado) Министерством образования Аргентины. Пока признание в процессе, можно записаться в CBC со справкой о начале процедуры."
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Временная резиденция для учёбы (категория J)",
+    "notes": "Россияне въезжают в Аргентину без визы на 90 дней, но для учёбы нужна временная резиденция студента (подкатегория J) в Национальном управлении миграции — с ней выдаётся DNI, без которого в UBA не записаться.",
+    "url": "https://www.argentina.gob.ar/migraciones/residencias/estudiante"
+  },
+  "dorm": {
+    "available": false,
+    "guaranteed_first_year": false,
+    "notes": "Единой системы общежитий для всех факультетов нет. UBA — городской университет с разнесёнными корпусами; иностранцы обычно самостоятельно ищут аренду в Буэнос-Айресе недалеко от факультета."
+  },
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Facultad_de_Derecho_de_la_Universidad_de_Buenos_Aires_2023.jpg/1280px-Facultad_de_Derecho_de_la_Universidad_de_Buenos_Aires_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Karen Arévalo Calle",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Facultad_de_Derecho_de_la_Universidad_de_Buenos_Aires_2023.jpg",
+      "caption": "Facultad de Derecho — монументальный корпус юридического факультета"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Facultad_de_Derecho%2C_Universidad_de_Buenos_Aires_.jpg/1280px-Facultad_de_Derecho%2C_Universidad_de_Buenos_Aires_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Eugenio Hansen, OFS",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Facultad_de_Derecho,_Universidad_de_Buenos_Aires_.jpg",
+      "caption": "Юридический факультет со стороны парка"
+    },
+    {
+      "file": "https://pbs.twimg.com/media/HEv0JZVXMAAsYe_.jpg",
+      "author": "Exactas UBA",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://x.com/Exactas_UBA",
+      "caption": "Корпус Ciudad Universitaria (факультет точных и естественных наук)"
+    },
+    {
+      "file": "https://www.derecho.uba.ar/comunicaciones/content/noticias/modificacion-del-acceso-de-la-calle-julio-v-gonzalez-durante-las-obras-de-reparacion-de-cornisas-del-edificio.29211.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.derecho.uba.ar/noticias/2024/modificacion-del-acceso-de-la-calle-julio-v-gonzalez-durante-las-obras-de-reparacion-de-cornisas-del-edificio",
+      "caption": "Вход юридического факультета"
+    }
+  ],
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 0,
+      "currency": "ARS",
+      "period": "year",
+      "note": "Бакалавриат бесплатный"
+    }
+  },
+  "perks": [
+    "student_life",
+    "strong_research"
   ]
 }

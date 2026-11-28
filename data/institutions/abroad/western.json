@@ -2,14 +2,15 @@
   "id": "western",
   "type": "university",
   "name": {
-    "ru": "Western University",
-    "en": "Western University"
+    "ru": "Западный университет (Western)",
+    "en": "Western University",
+    "short": "Western"
   },
   "country": "CA",
   "city": "Лондон, Онтарио",
   "website": "https://www.uwo.ca/",
   "admissions_url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/index.html",
-  "about": "Исследовательский университет в Лондоне, Онтарио, с направлениями в бизнесе, инженерии, естественных и медицинских науках, социальных дисциплинах и гуманитарных областях.",
+  "about": "Western University — государственный исследовательский университет в Лондоне, Онтарио. Центральный кампус сочетает историческую неоготическую архитектуру, зелёные пространства, лаборатории, библиотеку и жилые колледжи; отдельная бизнес-школа Ivey расположена рядом. Бакалавриат включает искусство и гуманитарные науки, бизнес, инженерные и компьютерные науки, медицину и науки о здоровье.\n\nДля российских выпускников Western принимает аттестат о среднем общем образовании с перечнем предметов и оценок; нужны senior-level предметы по требованиям программы и подтверждение английского, если применимо. На 2027 год у отдельных программ свои дедлайны и дополнительные формы: например, для части заявителей срок подачи supplemental application — февраль. Иностранная заявка обычно идёт через OUAC, а документы отслеживаются в портале Western. Международная стоимость зависит от программы: университет публикует отдельную таблицу 2026/27; жильё и питание оплачиваются сверх tuition. Абитуриенты, поступающие прямо из школы, могут получить гарантию места в резиденции при соблюдении сроков. Для учёбы в Канаде понадобится study permit; в большинстве новых заявок требуется PAL, порядок получения которого объясняет вуз.",
   "areas": [
     "business",
     "engineering",
@@ -29,7 +30,9 @@
     "economics",
     "psychology",
     "law",
-    "media"
+    "media",
+    "it",
+    "humanities"
   ],
   "prep": {
     "must": "Подать заявку (обычно через OUAC); предоставить школьные оценки, страновые документы и prerequisites программы; подтвердить английский, если он требуется.",
@@ -38,17 +41,256 @@
   },
   "sources": [
     {
-      "url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/index.html",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/russia.html",
+      "accessed": "2026-11-26",
+      "covers": "российский аттестат, средний балл B"
+    },
+    {
+      "url": "https://welcome.uwo.ca/next-steps/apply/admission-deadlines.html",
+      "accessed": "2026-11-26",
+      "covers": "сроки 2027"
+    },
+    {
+      "url": "https://welcome.uwo.ca/next-steps/finances/index.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.residence.uwo.ca/applying/fees_and_payment",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://international.uwo.ca/studentservices/visas/study_permits.html",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://www.uwo.ca/current_students/index.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://residence.uwo.ca/upper-year",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://housing.uwo.ca/living/housing-options",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.uwo.ca/future_students/index.html",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.ivey.uwo.ca/about/campuses/richard-ivey-building/",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://welcome.uwo.ca/next-steps/requirements/english-language-proficiency.html",
+      "accessed": "2026-11-26",
+      "covers": "тесты по английскому, сроки, освобождение"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Точные цены 2026/27 для иностранцев (сейчас ориентир)",
+    "Минимальные баллы английского",
+    "Место в QS 2027"
+  ],
+  "summary": "Исследовательский университет в Лондоне (Онтарио) с красивым готическим кампусом, бизнес-школой Ivey и сильной медициной. Российский аттестат принимают напрямую — обычно у зачисленных средний балл не ниже канадского B (3.0). Подача через OUAC до 15 января 2027.",
+  "data_year": 2027,
+  "founded": 1878,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Российский аттестат принимается напрямую",
+    "У поступивших обычно средний балл от B (3.0 по канадской шкале)",
+    "Подача через OUAC до 15 января 2027",
+    "Бизнес-школа Ivey (раннее приглашение AEO — до 15 января)",
+    "Тест по английскому — сданный с 1 января 2025 и до марта 2027"
+  ],
+  "intl_students_url": "https://welcome.uwo.ca/next-steps/requirements/international-high-school/russia.html",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/computer-science.html",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Обычно у зачисленных — эквивалент B (3.0) и выше; конкурентнее на популярных программах"
+      }
+    },
+    {
+      "name": "Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/engineering.html",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Обычно у зачисленных — эквивалент B (3.0) и выше; конкурентнее на популярных программах"
+      }
+    },
+    {
+      "name": "Management and Organizational Studies",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/management-and-organizational-studies.html",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Обычно у зачисленных — эквивалент B (3.0) и выше; конкурентнее на популярных программах"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 39000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентировочный годовой international tuition, зависит от факультета и числа курсов; без проживания. Сверять с тарифом набора."
+    },
+    "tuition_max": {
+      "amount": 65000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Ориентировочный годовой international tuition, зависит от факультета и числа курсов; без проживания. Сверять с тарифом набора."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "note": "Academic; сдать до марта 2027"
+      },
+      {
+        "exam": "TOEFL"
+      },
+      {
+        "exam": "DET"
+      },
+      {
+        "exam": "OTHER",
+        "note": "PTE Academic, Cambridge C1/C2, CAEL"
+      }
+    ],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Принимают «Аттестат о среднем общем образовании» со всеми предметами и оценками; средний балл Western пересчитывает сам. Обычно у зачисленных — эквивалент не ниже B (3.0). Английский: IELTS Academic, TOEFL, PTE, Cambridge C1/C2, CAEL или Duolingo, сданные с 1 января 2025 года и до марта 2027; освобождение — если 4 года учился в школе на английском."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Разрешение на учёбу (study permit) + PAL Онтарио",
+    "notes": "Нужно разрешение на учёбу (study permit). Для бакалавриата требуется провинциальное письмо PAL (Онтарио) — его выдаёт университет после зачисления. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
+    "url": "https://international.uwo.ca/studentservices/visas/study_permits.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "Первокурсникам, поступающим прямо из школы, доступна гарантия жилья при своевременном принятии предложения и выполнении условий. Стоимость зависит от комнаты и meal plan; места и сроки нужно подтвердить в заявке на резиденцию."
+  },
+  "deadlines": [
+    {
+      "what": "Подача через OUAC для равного рассмотрения",
+      "end": "2027-01-15",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Ivey AEO (ранний доступ в бизнес-школу)",
+      "end": "2027-01-15"
+    },
+    {
+      "what": "Последний срок сдачи теста по английскому",
+      "end": "2027-03-31"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/University_College_at_the_University_of_Western_Ontario_in_London%2C_Ontario.jpg/1280px-University_College_at_the_University_of_Western_Ontario_in_London%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Emily CA (MPL)",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_College_at_the_University_of_Western_Ontario_in_London,_Ontario.jpg",
+      "caption": "University College — главная башня кампуса Western"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Middlesex_College%2C_University_of_Western_Ontario.jpg/1280px-Middlesex_College%2C_University_of_Western_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Better Than Bacon",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Middlesex_College,_University_of_Western_Ontario.jpg",
+      "caption": "Middlesex College"
+    },
+    {
+      "file": "https://www.uwo.ca/img/futurestudents/Homepage_Future_Students_Mobile.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.uwo.ca/future_students/index.html",
+      "caption": "Студенты у исторического корпуса"
+    },
+    {
+      "file": "https://www.ivey.uwo.ca/media/3778345/rib-library.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://www.ivey.uwo.ca/about/campuses/richard-ivey-building/",
+      "caption": "Библиотека бизнес-школы Ivey"
+    },
+    {
+      "file": "https://residence.uwo.ca/files/styles/card_image_style_l/public/2024-07/Student%20Using%20Computer1.jpg?itok=IsEhGzDQ",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://residence.uwo.ca/upper-year",
+      "caption": "Рабочее место в комнате резиденции"
+    }
+  ],
+  "perks": [
+    "campus",
+    "student_life",
+    "strong_research",
+    "employment"
   ]
 }

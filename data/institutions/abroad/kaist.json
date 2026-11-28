@@ -2,14 +2,16 @@
   "id": "kaist",
   "type": "university",
   "name": {
-    "ru": "KAIST",
-    "en": "KAIST"
+    "ru": "Корейский институт передовых технологий (KAIST)",
+    "en": "Korea Advanced Institute of Science and Technology",
+    "local": "한국과학기술원",
+    "short": "KAIST"
   },
   "country": "KR",
   "city": "Тэджон",
   "website": "https://www.kaist.ac.kr/en/",
   "admissions_url": "https://admission.kaist.ac.kr/intl-undergraduate",
-  "about": "Научно-технологический университет Южной Кореи, ориентированный на инженерные, вычислительные, естественные и биотехнологические направления.",
+  "about": "KAIST основан в 1971 году как первый в Корее исследовательский вуз в области науки и техники; главный кампус — в Тэджоне, научном центре страны. Бакалавриат устроен без выбора специальности при поступлении: первый курс общий, а в конце второго семестра студент выбирает любую кафедру без дополнительного отбора и без квот. Доступны физика, математика, химия, биология, науки о мозге, машиностроение, аэрокосмическая и электротехника, компьютерные науки, ИИ, промышленный дизайн, материаловедение, ядерная инженерия, химическая технология и менеджмент технологий. Для иностранцев занятия в основном на английском, есть программа исследовательской практики для бакалавров (URP). Переводов из других вузов нет: все поступают на первый курс, отсрочка зачисления не допускается.",
   "areas": [
     "science",
     "engineering",
@@ -23,52 +25,70 @@
   "fields": [
     "natural_sciences",
     "engineering",
-    "it"
+    "it",
+    "design_art",
+    "business"
   ],
   "prep": {
-    "must": "Международные кандидаты подают заявку на первый курс и должны завершить старшую школу к сроку, указанному для набора. Нужны школьные транскрипты и рекомендация учителя; проверь актуальное руководство KAIST.",
-    "good": "Подготовь содержательную рекомендацию преподавателя математики или естественных наук и опиши проекты, исследовательские интересы и личный вклад в них. Проверь языковые требования цикла.",
-    "source": "https://admission.kaist.ac.kr/intl-undergraduate"
+    "must": "Сдай TOEFL iBT от 83 или IELTS от 6.5 (не Duolingo) и собери стандартизированный результат: SAT/AP или ЕГЭ. Подай онлайн-заявку с 5 эссе до 22 октября (ранний набор) или до 14 января (обычный).",
+    "good": "Попроси учителя математики или физики написать рекомендацию на английском, приложи до 5 олимпиадных наград с дипломами. В эссе пиши про свой вопрос в STEM и личные проекты.",
+    "source": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
   },
   "sources": [
     {
-      "url": "https://admission.kaist.ac.kr/intl-undergraduate",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://bcs.kaist.ac.kr/sub0701/view/page/sub0701/id/204",
+      "accessed": "2026-11-26",
+      "covers": "официальное фото студентов на территории кампуса"
     },
     {
-      "url": "https://admission.kaist.ac.kr/intl-undergraduate",
-      "accessed": "2026-11-23",
-      "covers": "Структура сайта, ссылки на разделы"
+      "url": "https://nuclear.kaist.ac.kr/eng/board/gallery_view.php?k_id=15066&page=4&searchvalue=&selectvalue=",
+      "accessed": "2026-11-26",
+      "covers": "фото лекционной аудитории департамента Nuclear and Quantum Engineering"
     },
     {
-      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
-      "accessed": "2026-11-23",
-      "covers": "deadlines: календарь набора 2027"
+      "url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "accessed": "2026-11-26",
+      "covers": "официальные фото вариантов комнат общежитий и характеристики размещения"
     },
     {
-      "url": "https://admission.kaist.ac.kr/intl-undergraduate/before/sub02",
-      "accessed": "2026-11-23",
-      "covers": "requirements: кто может подавать, сроки окончания школы"
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf",
+      "accessed": "2026-11-26",
+      "covers": "программы, требования, тесты, документы, сбор, отбор, финальные документы, виза, эссе"
     },
     {
       "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/coa",
-      "accessed": "2026-11-23",
-      "covers": "cost, dorm, funding: стоимость обучения, общежитие, упоминание стипендии"
+      "accessed": "2026-11-26",
+      "covers": "стоимость обучения, общежития, питания, страховки, итоговые расходы"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist",
+      "accessed": "2026-11-26",
+      "covers": "стипендия KAIST: размер, условия"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/before/sub02",
+      "accessed": "2026-11-26",
+      "covers": "кто может подавать, сроки окончания школы"
+    },
+    {
+      "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+      "accessed": "2026-11-26",
+      "covers": "сроки 2027"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/kaist",
+      "accessed": "2026-11-26",
+      "covers": "QS 2027"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "medium",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Прочитать PDF Admissions Guide 2027: минимум TOEFL/IELTS, SAT, список документов, мотивационное письмо",
-    "Прочитать страницу стипендии KAIST (сайт отдавал 503): условия и кому доступна",
-    "Уточнить, гарантировано ли общежитие на первом курсе",
-    "Уточнить, нужно ли иностранцам платить обучение при отсутствии стипендии"
+    "Гарантия общежития на первом курсе",
+    "Сверить место в QS Asia 2027 по таблице на topuniversities.com",
+    "Официальный список документов на D-2 на сайте посольства Кореи в Москве"
   ],
-  "summary": "Государственный научно-технологический университет в Тэджоне, один из сильнейших вузов Кореи по инженерии, ИТ и естественным наукам. Иностранцы поступают как первокурсники по раннему или обычному набору, набор идёт на весенний и осенний семестры 2027 года. Стипендия KAIST может покрывать всю стоимость обучения на 4 года.",
+  "summary": "Государственный научно-технологический университет в Тэджоне, один из сильнейших в Корее по инженерии, ИТ и естественным наукам. Учёба у иностранцев почти целиком на английском. Каждый зачисленный иностранец автоматически получает стипендию KAIST: бесплатное обучение на 8 семестров, 350 000 вон в месяц и медстраховку. Специальность выбирают только на втором курсе.",
   "languages_of_instruction": [
     "en",
     "ko"
@@ -91,23 +111,67 @@
       "currency": "KRW",
       "period": "year",
       "note": "Единый тариф, разбивки по специальностям на странице нет"
+    },
+    "living_month_estimate": {
+      "amount": 1240000,
+      "currency": "KRW",
+      "period": "month",
+      "note": "По официальной смете KAIST: общежитие 166 000 + питание в столовой ~456 000 + страховка 76 390 + книги и связь ~55 000 вон в месяц ≈ 750 000; с учётом бытовых расходов закладывай около 1,2 млн вон. Стипендия даёт 350 000 вон в месяц, итог «на руки» по смете вуза — около 280 000 вон в месяц из своих"
     }
   },
   "funding": {
-    "free_tuition": false,
+    "free_tuition": true,
     "grants": [
       {
         "name": "KAIST Scholarship",
         "coverage": "full",
         "for_foreigners": true,
-        "note": "На странице расходов сказано, что стипендия покрывает всю стоимость обучения на 4 года после зачисления. Условия получения на самой странице стипендии прочитать не удалось (сайт не отвечал)",
+        "note": "Получают все зачисленные иностранцы автоматически — отдельной заявки нет, нужно только отметить «KAIST scholarship» в анкете. Покрывает обучение 8 семестров, даёт 350 000 вон в месяц на жизнь и медстраховку (NHI). Условие продления — средний балл не ниже 2,7 из 4,3 начиная со второго курса.",
         "url": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist"
       }
     ]
   },
   "requirements": {
-    "notes": "Подавать можно с аттестатом об окончании школы: выпускникам нужно окончить школу до 28 февраля 2027 (весенний набор) или до 31 августа 2027 (осенний). Нужно иностранное гражданство, оба родителя не должны быть гражданами Кореи (или корейское происхождение с обучением за рубежом). Отдельного трека переходов нет: подают как первокурсники. Требования к английскому и список документов лежат в PDF-руководстве по набору 2027 (Admissions Guide), его мы не читали. Собеседование проводят онлайн не для всех: тем, кому нужно, напишут по почте. Рекомендательное письмо подаётся отдельно через систему.",
-    "recommendations": true
+    "intl_exams": [
+      {
+        "exam": "TOEFL",
+        "min_score": "83 (iBT до 21.01.2026) / 4.5 (новая шкала)",
+        "note": "Рекомендуемый балл. Сдан не раньше 12.11.2024 (ранний набор) или 04.02.2025 (обычный). ITP и домашние версии не принимают"
+      },
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Рекомендуемый балл; online-версии не принимают"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "TOEIC 720 / TEPS 326",
+        "note": "Duolingo (DET) не принимают"
+      },
+      {
+        "exam": "SAT",
+        "note": "Нужен хотя бы один стандартизированный результат: SAT, ACT, AP, IB, A-level или национальный выпускной экзамен (подойдут результаты ЕГЭ). Код KAIST для SAT и AP — 4433"
+      }
+    ],
+    "language_level": "Английский на уровне TOEFL iBT 83 / IELTS 6.5 (рекомендуемый). Корейский для поступления не нужен",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "no",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "olympiad_benefits": "Льгот нет, но можно приложить до 5 наград за старшую школу с подтверждающими документами — их учитывают при целостной оценке",
+    "documents": [
+      "Онлайн-анкета с 5 эссе (вопрос о STEM, деятельность в школе, нестандартные решения, командная работа, обстоятельства)",
+      "Транскрипт оценок за последние 2–3 года школы (с английским переводом, заверенным нотариусом или бюро)",
+      "Копия загранпаспорта",
+      "Результат стандартизированного экзамена (SAT, ACT, AP, IB, A-level или ЕГЭ)",
+      "Результат TOEFL / IELTS / TOEIC / TEPS",
+      "До 2 рекомендаций (необязательно, но очень желательно) — от учителя математики, естественных наук или классного руководителя",
+      "По желанию: до 5 наград, профиль школы",
+      "После зачисления: аттестат и оценки с апостилем, копии паспортов родителей, свидетельство о рождении, выписка из банка примерно на 3 200 USD"
+    ],
+    "notes": "Для поступления нужно иностранное гражданство, оба родителя не граждане Кореи. Отбор целостный: смотрят на уровень математики и естественных наук, потенциал, достижения, лидерство и порядочность. Онлайн-собеседование только по приглашению. Сбор за заявку — 80 USD, после оплаты трек (ранний/обычный) сменить нельзя. Все документы — PDF, A4; не на английском — с заверенным переводом."
   },
   "deadlines": [
     {
@@ -137,12 +201,16 @@
       "intake": "Осенний 2027"
     },
     {
-      "what": "Обычный набор: онлайн-собеседование (если вызовут)",
-      "end": "2027-03-03"
-    },
-    {
       "what": "Обычный набор: объявление результатов",
       "end": "2027-03-25"
+    },
+    {
+      "what": "Ранний набор: онлайн-собеседование (если вызовут)",
+      "end": "2026-12-22"
+    },
+    {
+      "what": "Обычный набор: онлайн-собеседование (если вызовут)",
+      "end": "2027-03-03"
     }
   ],
   "dorm": {
@@ -153,6 +221,224 @@
       "period": "month",
       "note": "Hee Mang Hall, двухместная комната, 4 месяца в семестре (664 000 вон за семестр)"
     },
-    "notes": "Цена из расчёта расходов на сайте приёма. Гарантию места на первом курсе на прочитанных страницах не нашли."
-  }
+    "notes": "Цена из официальной сметы расходов KAIST: Hee Mang Hall, двухместная комната. Гарантию места на первом курсе на сайте приёма не нашли."
+  },
+  "photos": [
+    {
+      "file": "https://bcs.kaist.ac.kr/_files/board_e/20240425/7e5df330cd0bab36e6b498d2cfed6aec.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://bcs.kaist.ac.kr/sub0701/view/page/sub0701/id/204",
+      "caption": "Студенты отдыхают на газоне рядом с корпусом KAIST"
+    },
+    {
+      "file": "https://nuclear.kaist.ac.kr/files/attach/images/234/066/015/8e1955e2d468203ff1d8e1fc6d909a90.JPG",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://nuclear.kaist.ac.kr/eng/board/gallery_view.php?k_id=15066&page=4&searchvalue=&selectvalue=",
+      "caption": "Лекционная аудитория департамента Nuclear and Quantum Engineering"
+    },
+    {
+      "file": "https://kds.kaist.ac.kr/resources/images/dorm/ar/room2.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "caption": "Двухместная комната студенческого общежития"
+    },
+    {
+      "file": "https://kds.kaist.ac.kr/resources/images/dorm/ha/room3.jpg",
+      "license": "© KAIST / source department; image from KAIST official web properties, no reuse rights claimed",
+      "source_url": "https://kds.kaist.ac.kr/dormInfo/dormInfo.do",
+      "caption": "Одноместная комната общежития с рабочей зоной"
+    }
+  ],
+  "ownership": "public",
+  "founded": 1971,
+  "intl_students_url": "https://admission.kaist.ac.kr/intl-undergraduate",
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Всем зачисленным иностранцам — полная стипендия: обучение, 350 000 вон в месяц и страховка",
+    "Специальность выбирают в конце первого курса, квот по кафедрам нет",
+    "Обучение для иностранцев на английском, корейский для поступления не нужен",
+    "65-е место в QS World University Rankings 2027",
+    "Рекомендательные письма с набора 2027 необязательны, но очень желательны"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science (School of Computing)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Electrical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Aerospace Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "AI Computing (College of AI)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Physics / Mathematical Sciences / Chemistry",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Industrial Design",
+      "field": "design_art",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    },
+    {
+      "name": "Business and Technology Management",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 6866000,
+        "currency": "KRW",
+        "period": "year",
+        "note": "Единый тариф 2027; для зачисленных иностранцев полностью покрывается стипендией KAIST"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Проходного балла нет: целостная оценка, упор на математику и естественные науки. Специальность выбирается в конце 1 курса"
+      },
+      "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "65"
+    },
+    {
+      "name": "QS Asia University Rankings",
+      "year": 2027,
+      "position": "=15"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment",
+    "internships"
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "D-2",
+    "notes": "Россияне могут въезжать в Корею без визы на срок до 60 дней, но учиться так нельзя — нужна студенческая виза D-2. После зачисления отправляешь в KAIST оригиналы (аттестат и оценки с апостилем, документы родителей, свидетельство о рождении, выписку из банка), и вуз выдаёт Certificate of Admission. Обычно для D-2 требуется подтвердить 16 000 000 вон, но с учётом стипендии KAIST (около 11,8 млн вон в год) достаточно примерно 3 200 USD на счёте абитуриента или родителя. Подаёшь в посольство Кореи в Москве или в генконсульство по месту жительства; точный список документов уточняй на сайте посольства. Отсрочку зачисления KAIST не даёт.",
+    "url": "https://overseas.mofa.go.kr/ru-ru/index.do"
+  },
+  "data_year": 2027
 }

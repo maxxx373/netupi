@@ -2,22 +2,24 @@
   "id": "ucalgary",
   "type": "university",
   "name": {
-    "ru": "University of Calgary",
-    "en": "University of Calgary"
+    "ru": "Университет Калгари",
+    "en": "University of Calgary",
+    "short": "UCalgary"
   },
   "country": "CA",
   "city": "Калгари, Альберта",
   "website": "https://www.ucalgary.ca/",
   "admissions_url": "https://www.ucalgary.ca/future-students/undergraduate",
-  "about": "Публичный университет в Калгари с программами в инженерии, энергетике, естественных науках, бизнесе, здравоохранении и социальных дисциплинах.",
+  "about": "University of Calgary (UCalgary) — государственный исследовательский университет, основанный в 1966 году. Основной кампус расположен на северо-западе Калгари, недалеко от Bow River и Rocky Mountains; дополнительная площадка — campus in Qatar для отдельных профессиональных программ. В университете обучают инженерии, бизнесу, компьютерным наукам, наукам о Земле и энергии, медицине, ветеринарии, праву, образованию и гуманитарным дисциплинам. Студенческая инфраструктура включает Taylor Family Digital Library, лаборатории, спорткомплекс, residence communities и карьерные сервисы.\n\nИностранный школьник подаёт онлайн-заявку на конкретную степень. UCalgary использует эквивалентность образования по стране, требуемые школьные предметы и конкурсные оценки; поступление зависит от наличия мест. Отдельно нужно выполнить English Language Proficiency requirement или подтвердить допустимое освобождение. Для Fall 2027 международная подача открывается по собственному календарю; дедлайны разнятся по факультетам, и некоторые программы закрываются раньше.\n\nTuition зависит от факультета, курса и набора; официальные инструменты UCalgary позволяют рассчитать международную стоимость на 2026/27 год. В качестве ориентиров опубликованы ставки для каждого 3-unit course, а residence + meal plan отдельно рассчитываются по комнате и сроку проживания. Университет предлагает entrance awards и другие формы поддержки, но финансирование конкурентное. Первокурсники могут подать на резиденцию, и приоритет зависит от срока и условий конкретного набора. Для учёбы россиянину нужен канадский study permit с актуальными документами IRCC, включая provincial attestation при применимости.",
   "areas": [
     "engineering",
     "science",
     "business",
-    "economics",
+    "energy",
     "medicine",
-    "it",
-    "psychology"
+    "computing",
+    "law",
+    "social sciences"
   ],
   "art": "modern",
   "fields": [
@@ -27,31 +29,297 @@
     "economics",
     "medicine",
     "it",
-    "psychology"
+    "psychology",
+    "law",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Онлайн-заявка; школьные оценки и документы; предметные требования программы и подтверждение английского, если необходимо. Для поступающих с международной системой набор документов определяется страной.",
-    "good": "Проверь prerequisites и дедлайн на странице конкретной степени, а затем отслеживай applicant portal для дополнительных запросов. Результаты и средние баллы зависят от года и программы.",
-    "source": "https://www.ucalgary.ca/future-students/undergraduate/apply"
+    "must": "Сдай IELTS от 6.5 (или TOEFL 86 / Duolingo 120) и подай заявку до 1 марта, документы — до 15 марта. Собери деньги: около 31 000 CAD на учёбу плюс жильё.",
+    "good": "Подай на Prestige Award до 1 декабря и сразу после зачисления — на общежитие.",
+    "source": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates"
   },
   "sources": [
     {
       "url": "https://www.ucalgary.ca/future-students/undergraduate",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "undergraduate admission, deadlines and program requirements"
     },
     {
-      "url": "https://www.ucalgary.ca/future-students/undergraduate/apply",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://calendar.ucalgary.ca/pages/e9845c2c03e84596bcaf892d52666fbf",
+      "accessed": "2026-11-26",
+      "covers": "требования к английскому (A.12)"
+    },
+    {
+      "url": "https://ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator",
+      "accessed": "2026-11-26",
+      "covers": "tuition estimate for 2026/27"
+    },
+    {
+      "url": "https://calendar.ucalgary.ca/pages/b15b7e973a234197aded0daf61f34b9a",
+      "accessed": "2026-11-26",
+      "covers": "плата за курс для иностранцев (P.1.1)"
+    },
+    {
+      "url": "https://www.ucalgary.ca/ancillary/residence/live-us/places-live/rates-2026-2027",
+      "accessed": "2026-11-26",
+      "covers": "цены общежитий 2026/27"
+    },
+    {
+      "url": "https://www.ucalgary.ca/ancillary/residence/live-us/places-live/residence-cost-comparison",
+      "accessed": "2026-11-26",
+      "covers": "residence costs"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "accessed": "2026-11-26",
+      "covers": "study permit requirements"
+    },
+    {
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/dates",
+      "accessed": "2026-11-26",
+      "covers": "сроки подачи"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Требования к российскому аттестату (средний балл, предметы) — страница по странам формируется скриптом",
+    "Место в QS 2027"
+  ],
+  "summary": "Исследовательский университет в Калгари (Альберта): сильны инженерия, энергетика, бизнес, медицина и ИТ, много оплачиваемых стажировок и co-op. Для иностранцев обучение стоит около 30 800 канадских долларов в год (2026/27), английский — IELTS 6.5. Подача на осень — до 1 марта.",
+  "intl_students_url": "https://www.ucalgary.ca/future-students/international",
+  "founded": 1966,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Обучение для иностранцев ≈ 30 800 CAD в год (3 078 CAD за курс, 2026/27)",
+    "Подача на осень до 1 марта, документы до 15 марта",
+    "IELTS 6.5 / TOEFL 86 / Duolingo 120",
+    "Общежитие для первокурсников до 21 года, двухместная комната от 4 512 CAD за год",
+    "Студенты из 138 стран, co-op и стажировки"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs",
+      "tuition": {
+        "amount": 30782,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Оценка: 10 курсов по 3 078,21 CAD (ставка для иностранцев, большинство факультетов, с весны 2026) без сборов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурсный средний балл публикуется по программе и системе образования; минимальный зависит от года"
+      }
+    },
+    {
+      "name": "Bachelor of Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://schulich.ucalgary.ca/future-students/undergraduate",
+      "tuition": {
+        "amount": 30782,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Оценка: 10 курсов по 3 078,21 CAD (ставка для иностранцев, большинство факультетов, с весны 2026) без сборов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурсный средний балл публикуется по программе и системе образования; минимальный зависит от года"
+      }
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://haskayne.ucalgary.ca/future-students/undergraduate",
+      "tuition": {
+        "amount": 30782,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Оценка: 10 курсов по 3 078,21 CAD (ставка для иностранцев, большинство факультетов, с весны 2026) без сборов"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурсный средний балл публикуется по программе и системе образования; минимальный зависит от года"
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Academic; для образования и медсестринского дела выше (7.0–8.0)"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "86",
+        "note": "iBT; для педагогики — 108, для медсестёр — 92"
+      },
+      {
+        "exam": "DET",
+        "min_score": "120"
+      },
+      {
+        "exam": "OTHER",
+        "min_score": "CAEL 70 / PTE 65"
+      }
+    ],
+    "language_level": "IELTS 6.5 (TOEFL 86, Duolingo 120) для большинства программ. Без нужного уровня можно пройти языковую программу UCalgary (ACC) и получить условное зачисление.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Школьный диплом и transcript",
+      "Требуемые предметы старших классов по программе",
+      "Подтверждение английского или освобождение",
+      "Официальные переводы",
+      "Supplementary application для программ, где она есть"
+    ],
+    "notes": "Admission averages competitive and vary by degree; meeting subject minima alone does not guarantee admission."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "International Entrance Scholarship",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "UCalgary предлагает международные entrance awards; eligibility, award amount and renewal vary by entering class and application. Проверь ежегодный award listing.",
+        "url": "https://www.ucalgary.ca/registrar/finances/awards-scholarships-and-bursaries"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Разрешение на учёбу (study permit) + PAL Альберты",
+    "notes": "Нужно разрешение на учёбу (study permit). Альберта требует провинциальное письмо PAL — его оформляет университет после зачисления, без него заявку не примут. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 564,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Двухместная комната в Kananaskis/Rundle: 4 512 CAD за 8 месяцев; с обязательным для первокурсников планом питания — 10 512 CAD"
+    },
+    "notes": "Первокурсники до 21 года могут жить в резиденциях, план питания обязателен. Одноместная — от 9 014 CAD за год без питания."
+  },
+  "photos": [
+    {
+      "file": "https://esl.ucalgary.ca/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2023-11/TFDL_011A6808final.jpg?h=7f395eb0&itok=k1_KTmjV",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://esl.ucalgary.ca/programs/compare-programs",
+      "caption": "Taylor Family Digital Library — главная библиотека и площадь кампуса"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/University_of_Calgary_Campus.jpg/1280px-University_of_Calgary_Campus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Jgcab",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Calgary_Campus.jpg",
+      "caption": "Кампус UCalgary с видом на центр Калгари"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/University_of_Calgary_plaza.jpg/1280px-University_of_Calgary_plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Jgcab",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Calgary_plaza.jpg",
+      "caption": "Башня MacKimmie и центральная площадь"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/University_of_Calgary_Craigie_Hall.jpg/1280px-University_of_Calgary_Craigie_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Jgcab",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:University_of_Calgary_Craigie_Hall.jpg",
+      "caption": "Craigie Hall — корпус гуманитарных и социальных наук"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Administration_University_of_Calgary.jpg/1280px-Administration_University_of_Calgary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Jgcab",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Administration_University_of_Calgary.jpg",
+      "caption": "Атриум с зимним садом в учебном корпусе"
+    },
+    {
+      "file": "https://www.ucalgary.ca/ancillary/sites/default/files/styles/ucws_hero_cta_large_desktop/public/2023-10/0L1U0550.JPG?h=959d4768&itok=MrmZyBku",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.ucalgary.ca/ancillary/residence/current-residents",
+      "caption": "Комната в студенческой резиденции"
+    }
+  ],
+  "data_year": 2027,
+  "cost": {
+    "tuition_min": {
+      "amount": 30782,
+      "currency": "CAD",
+      "period": "year",
+      "note": "10 курсов × 3 078,21 CAD (большинство факультетов); плюс общие сборы"
+    },
+    "tuition_max": {
+      "amount": 53090,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Juris Doctor (право): 5 309,01 CAD за курс"
+    }
+  },
+  "deadlines": [
+    {
+      "what": "Заявка на премию Prestige Award",
+      "end": "12-01"
+    },
+    {
+      "what": "Подача заявки на осенний набор (и оплата сбора)",
+      "end": "03-01",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Документы для осеннего набора",
+      "end": "03-15",
+      "intake": "Сентябрь 2027"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "internships",
+    "campus",
+    "intl_environment",
+    "employment"
   ]
 }

@@ -2,51 +2,370 @@
   "id": "monash",
   "type": "university",
   "name": {
-    "ru": "Monash University",
-    "en": "Monash University"
+    "ru": "Университет Монаша",
+    "en": "Monash University",
+    "short": "Monash"
   },
   "country": "AU",
   "city": "Мельбурн",
   "website": "https://www.monash.edu/",
-  "admissions_url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
-  "about": "Международный университет с программами в инженерии, медицине, фармации, бизнесе, сельском хозяйстве и естественных науках.",
+  "admissions_url": "https://www.monash.edu/admissions/apply/international-ug",
+  "about": "Monash University — государственный университет Австралии, основанный в 1958 году и названный в честь инженера Джона Монаша. Основной кампус Clayton расположен в Мельбурне; также действуют кампусы в Caulfield, Peninsula, Parkville и международные площадки. Учебная среда включает лаборатории, библиотеки, клиники и медицинские центры, спортивную инфраструктуру, студенческие сообщества и резиденции. Университет широко представлен в медицине и фармации, инженерии, ИТ, бизнесе, образовании, праве и естественных науках.\n\nИностранные выпускники школ подают заявление напрямую через Monash либо через VTAC — маршрут зависит от страны и типа школьной квалификации. Требования к оценкам, предметам-предпосылкам и английскому задаются отдельно по программе; некоторые курсы ограничивают набор или требуют дополнительного отбора. Официальный guide для поступления в 2027 даёт ориентиры по требованиям, но указанные там суммы tuition основаны на тарифах 2026 и могут измениться. Поэтому годовая стоимость индивидуальна: проверь страницу конкретного курса перед подачей. Иностранные кандидаты автоматически рассматриваются на часть Monash International Scholarships при соответствии условиям; присуждение конкурентное.\n\nНа кампусах есть общежития, но цена и доступность различаются; отдельная заявка и раннее бронирование важны. Для иностранного студента в Австралии нужна Student visa subclass 500, а также Overseas Student Health Cover на период визы. Визовые требования, финансовые документы и сроки стоит перепроверить перед каждым циклом.",
   "areas": [
-    "science",
-    "engineering",
-    "construction",
     "medicine",
+    "pharmacy",
+    "engineering",
     "business",
-    "botany",
-    "agriculture",
-    "environment",
-    "pharmacy"
+    "information technology",
+    "science",
+    "law",
+    "education",
+    "arts"
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
-    "engineering",
     "medicine",
+    "engineering",
+    "it",
     "business",
-    "agriculture"
+    "natural_sciences",
+    "law",
+    "psychology",
+    "design_art",
+    "pedagogy"
   ],
   "prep": {
-    "must": "Подготовь академические документы по всем полученным квалификациям, паспорт и доказательства английского, prerequisites и специальных требований курса. Подаваться можно напрямую или через авторизованного представителя.",
-    "good": "Подавайся заранее: некоторые курсы закрываются до начала семестра. Проверь правила заверения и перевода документов, дату старта и условия студенческой визы.",
-    "source": "https://www.monash.edu/study/how-to-apply/application-process/international-students"
+    "must": "Найди свою программу в каталоге Monash и проверь эквивалентность школьной квалификации, prerequisites и английский; подача зависит от страны и маршрута.",
+    "good": "Используй international course guide как ориентир, но точную актуальную плату смотри в карточке курса; подайся на кампусное жильё заранее.",
+    "source": "https://www.monash.edu/admissions/apply/international-ug"
   },
   "sources": [
     {
+      "url": "https://www.monash.edu/admissions/apply/international-ug",
+      "accessed": "2026-11-28",
+      "covers": "международная подача и маршруты"
+    },
+    {
       "url": "https://www.monash.edu/study/how-to-apply/application-process/international-students",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "документы и порядок подачи"
+    },
+    {
+      "url": "https://www.monash.edu/__data/assets/pdf_file/0005/3941744/undergraduate-international-course-guide.pdf",
+      "accessed": "2026-11-28",
+      "covers": "международный guide набора 2027 и ориентиры на базе тарифов 2026"
+    },
+    {
+      "url": "https://www.monash.edu/study/fees-scholarships/monash-awards",
+      "accessed": "2026-11-28",
+      "covers": "award и scholarship для международных студентов"
+    },
+    {
+      "url": "https://www.monash.edu/study/accommodation",
+      "accessed": "2026-11-28",
+      "covers": "кампусное жильё"
+    },
+    {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "accessed": "2026-11-28",
+      "covers": "официальная страница визы 500 (не открылась из нашей сети)"
+    },
+    {
+      "url": "https://www.monash.edu/study-abroad/inbound/orientation/monash-abroad-orientation-2026",
+      "accessed": "2026-11-28",
+      "covers": "фото студентов и кампуса"
+    },
+    {
+      "url": "https://architizer.com/projects/monash-university-logan-hall/",
+      "accessed": "2026-11-28",
+      "covers": "архитектурные фотографии Logan Hall"
+    },
+    {
+      "url": "https://www.idp.com/australia/study-to-migrate/australian-visa-fee-increases/",
+      "accessed": "2026-11-28",
+      "covers": "сбор за визу 500 с 1 июля 2026 (IDP, сверить с Home Affairs)"
+    },
+    {
+      "url": "https://www.monash.edu/study/courses/find-a-course/engineering-e3001?international=true",
+      "accessed": "2026-11-28",
+      "covers": "E3001: 2027 international tuition, admissions requirements and English scores"
+    },
+    {
+      "url": "https://www.monash.edu/study/courses/find-a-course/computer-science-c2001?international=true",
+      "accessed": "2026-11-28",
+      "covers": "C2001: 2027 international tuition and course details"
+    },
+    {
+      "url": "https://www.monash.edu/study/courses/find-a-course/science-s2000?international=true",
+      "accessed": "2026-11-28",
+      "covers": "S2000: 2027 international tuition and course details"
+    },
+    {
+      "url": "https://www.monash.edu/students/support/international/before-leaving/expenses-budgeting",
+      "accessed": "2026-11-28",
+      "covers": "Официальный диапазон бюджета расходов на жизнь иностранного студента"
+    },
+    {
+      "url": "https://www.monash.edu/accommodation/on-campus-accommodation/pricing?SQ_VARIATION_515830=0",
+      "accessed": "2026-11-28",
+      "covers": "Официальные тарифы кампусного жилья на 2027 год"
+    },
+    {
+      "url": "https://www.monash.edu/students/support/international/visa",
+      "accessed": "2026-11-28",
+      "covers": "Информация Monash по Student visa и OSHC"
+    },
+    {
+      "url": "https://www.monash.edu/students/admin/fees/payment/options?enquire=yes",
+      "accessed": "2026-11-28",
+      "covers": "Официальные способы оплаты и ограничения платёжных провайдеров"
+    },
+    {
+      "url": "https://www.monash.edu/study/how-to-apply/entry-requirements",
+      "accessed": "2026-11-28",
+      "covers": "Официальные минимальные требования и проверка зарубежных квалификаций"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/monash-university",
+      "accessed": "2026-11-28",
+      "covers": "QS World University Rankings 2027"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Фото со свободной лицензией",
-    "Сайт недоступен для автоматического чтения (ответ 403): вручную проверить стоимость, стипендии, требования, сроки и общежитие"
+    "Отдельная таблица эквивалентности российского аттестата в найденных страницах не раскрыта: запросить оценку у Monash для конкретного курса и оценок",
+    "Универсального срока для всех программ нет: перед подачей проверить курс и доступность мест на нужный семестр",
+    "Платёжный провайдер должен подтвердить доступность конкретного способа оплаты для заявителя из России"
+  ],
+  "summary": "Крупный государственный университет Австралии с главным кампусом Clayton в Мельбурне и площадками в Caulfield, Peninsula и Parkville. Иностранные выпускники школ подают на конкретный курс: проверяются эквивалентность школьной квалификации, оценки, английский и предметные prerequisites. Для ориентира в карточке приведены три тарифа Monash на 2027 год; стоимость и дата закрытия зависят от курса. Для учёбы нужна виза subclass 500, а места в кампусном жилье ограничены.",
+  "intl_students_url": "https://www.monash.edu/admissions/apply/international-ug",
+  "founded": 1958,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "highlights": [
+    "Главный кампус Clayton в Мельбурне; кампусы также в Caulfield, Peninsula и Parkville",
+    "QS 2027: 31-е место",
+    "2027 международная плата в примерах: Computer Science — 58 940 AUD/год, Science — 60 040 AUD/год, Engineering — 63 040 AUD/год",
+    "Официальный ориентир расходов на жизнь — 30 000–45 000 AUD/год, без tuition и отдельных дополнительных трат",
+    "Иностранным студентам нужна виза subclass 500 и OSHC; подача начинается после получения CoE"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Engineering (Honours) (E3001)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 63040,
+        "currency": "AUD",
+        "period": "year",
+        "note": "Опубликованная международная плата за стандартную годовую нагрузку, набор 2027; тариф курса может зависеть от специализации."
+      },
+      "url": "https://www.monash.edu/study/courses/find-a-course/engineering-e3001?international=true",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужна эквивалентная Year 12 квалификация и курс-специфичный академический результат; Monash оценивает квалификации разных стран по таблице admissions eligibility. Проверяй предметы prerequisites, включая математику и науки."
+      }
+    },
+    {
+      "name": "Bachelor of Computer Science (C2001)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 58940,
+        "currency": "AUD",
+        "period": "year",
+        "note": "Международная плата за 48 credit points, стандартная годовая нагрузка, 2027."
+      },
+      "url": "https://www.monash.edu/study/courses/find-a-course/computer-science-c2001?international=true",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Минимум — эквивалент Year 12 и академический порог курса; опубликованные ATAR относятся к австралийским квалификациям и не являются порогом для российского аттестата."
+      }
+    },
+    {
+      "name": "Bachelor of Science (S2000)",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 3,
+      "tuition": {
+        "amount": 60040,
+        "currency": "AUD",
+        "period": "year",
+        "note": "Опубликованная международная плата за 2027 год."
+      },
+      "url": "https://www.monash.edu/study/courses/find-a-course/science-s2000?international=true",
+      "passing_score": {
+        "year": 2027,
+        "kind": "other",
+        "note": "Нужна квалификация, эквивалентная австралийскому Year 12, академический результат и выполнение требований выбранной специализации; точный эквивалент проверить через Monash eligibility search."
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5 overall; минимум 6.0 в каждом компоненте",
+        "note": "Опубликовано для Bachelor of Engineering (Honours); требования по другим курсам могут отличаться."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "Итог 79; чтение 13, аудирование 12, говорение 18, письмо 21",
+        "note": "Порог для Engineering E3001; сверяй допустимые тестовые форматы и актуальность на странице курса."
+      }
+    ],
+    "language_level": "Для Engineering E3001 IELTS Academic 6.5 overall с минимумом 6.0 за компонент или TOEFL iBT 79 с отдельными минимумами; для других курсов проверять курс-специфичные требования.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и выписка оценок за старшую школу",
+      "Заверенные переводы документов, если они не на английском",
+      "Подтверждение английского языка",
+      "Дополнительные предметные или портфолио-документы, если их требует курс",
+      "После offer — подтверждение принятия места и оплата депозита для получения CoE"
+    ],
+    "notes": "Кандидатам нужен школьный уровень, эквивалентный Australian Year 12, нужный академический результат, английский и предметные prerequisites. Иностранную квалификацию Monash предлагает проверить через admissions eligibility search; если страны/квалификации нет в таблице, можно подать документы для индивидуальной оценки. Австралийский ATAR не является порогом для российского аттестата. Рекомендации, мотивационные материалы, интервью и портфолио обязательны только для отдельных курсов. Оплата: Monash предупреждает, что платёжные партнёры не проводят операции с некоторыми странами под санкциями; публичная информация не подтверждает приём платежей с российских банков. До перечисления денег нужно запросить подтверждение для конкретного банка и способа оплаты."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 58940,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Минимум из трёх указанных примеров программ Monash для иностранцев на 2027 год; не является общей ценой всех программ."
+    },
+    "tuition_max": {
+      "amount": 63040,
+      "currency": "AUD",
+      "period": "year",
+      "note": "Максимум из трёх примеров программ в этой карточке для 2027 года; стоимость других программ может быть выше или ниже."
+    },
+    "living_month_estimate": {
+      "amount": 2500,
+      "currency": "AUD",
+      "period": "month",
+      "note": "Нижняя граница официальной оценки Monash AUD 30 000–45 000 в год; это 2 500–3 750 AUD/месяц, без обучения, книг, автомобиля и дополнительных поездок."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Monash International Merit / Monash Awards",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Некоторые международные awards оценивают eligible applicants автоматически; сумма, критерии и доступность зависят от award и года.",
+        "url": "https://www.monash.edu/study/fees-scholarships/monash-awards"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Student visa subclass 500 (Австралия)",
+    "notes": "Для граждан России, как и для других иностранных студентов, на учёбу в Австралии нужна Student visa subclass 500. Сначала нужно принять offer и получить Confirmation of Enrolment (CoE), затем подать заявление через Australian Department of Home Affairs. Требуется OSHC на период обучения/визы; список финансовых и медицинских документов определяется актуальными правилами и индивидуальной заявкой. Monash не публикует отдельную российскую учебную визу: применяется общий маршрут subclass 500. Перед подачей проверь страницу Home Affairs и сроки рассмотрения; не ориентируйся на старые суммы визового сбора из сторонних сайтов.",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Monash предлагает разные форматы кампусного проживания, в частности резиденции и жильё с самостоятельным питанием. Доступность, возрастные правила, стоимость и даты заявок зависят от кампуса; место не считать гарантированным без письменного offer. Ориентир 2027 Clayton Halls standard — 367.50 AUD в неделю; контракт на 42 недели — 15 435 AUD. Уточняй тип комнаты, срок договора и условия размещения напрямую.",
+    "cost_month": {
+      "amount": 1592.5,
+      "currency": "AUD",
+      "period": "month",
+      "note": "2027 Clayton Halls standard — 367.50 AUD в неделю; 1 592.50 — пересчёт weekly×52/12 для сравнения. Фактический контракт и общая сумма зависят от срока проживания."
+    }
+  },
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Woodside_Building_for_Technology_and_Design%2C_Monash_University%2C_Clayton_campus.jpg/1280px-Woodside_Building_for_Technology_and_Design%2C_Monash_University%2C_Clayton_campus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Monash Information Technology",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Woodside_Building_for_Technology_and_Design,_Monash_University,_Clayton_campus.jpg",
+      "caption": "Woodside Building — корпус технологий и дизайна"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Clayton_-_Monash_University.jpg/1280px-Clayton_-_Monash_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Donaldytong",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Clayton_-_Monash_University.jpg",
+      "caption": "Кампус Clayton — главный кампус Monash в Мельбурне"
+    },
+    {
+      "file": "https://cdn.sculptform.com.au/app/uploads/2019/04/16103529/Sir-Louis-Matheson-Landscape04.jpg",
+      "author": "Sculptform / project photo",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://legacy.sculptform.com/project/sir-louis-matheson-library-monash-university/",
+      "caption": "Вход в библиотеку Sir Louis Matheson"
+    },
+    {
+      "file": "https://oss.gooood.cn/uploads/2018/03/001-Sir-Louis-Matheson-Library-Melbourne-Australia-by-Cox-Architecture.jpg",
+      "author": "gooood / Cox Architecture",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.gooood.cn/sir-louis-matheson-library-melbourne-australia-by-cox-architecture.htm",
+      "caption": "Учебная зона библиотеки"
+    },
+    {
+      "file": "https://media3.architecturemedia.net/site_media/media/cache/83/50/8350eb8643ddb723266e413dd190408b.jpg",
+      "author": "ArchitectureAu",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://architectureau.com/articles/monash-university-logan-hall/",
+      "caption": "Резиденция Logan Hall"
+    },
+    {
+      "file": "https://media4.architecturemedia.net/site_media/media/cache/a4/c3/a4c3b5573f2a962ed8d0a114f14a6b04.jpg",
+      "author": "ArchitectureAu",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://architectureau.com/articles/monash-university-logan-hall/",
+      "caption": "Студенческая резиденция на кампусе"
+    }
+  ],
+  "data_year": 2027,
+  "perks": [
+    "strong_research",
+    "campus",
+    "intl_environment",
+    "internships"
+  ],
+  "deadlines": [
+    {
+      "what": "Поступление на первый семестр: иностранные кандидаты могут подавать в течение года; курс может закрыться заранее, подавать как можно раньше",
+      "intake": "Начало занятий — обычно февраль/март"
+    },
+    {
+      "what": "Поступление на второй семестр: для доступных курсов подача идёт в течение года; проверь закрытие конкретного курса и места",
+      "intake": "Начало занятий — обычно июль"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "31"
+    }
   ]
 }

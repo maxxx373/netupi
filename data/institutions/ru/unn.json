@@ -2,13 +2,15 @@
   "id": "unn",
   "type": "university",
   "name": {
-    "ru": "Университет Лобачевского (ННГУ)"
+    "ru": "Нижегородский государственный университет им. Н. И. Лобачевского",
+    "en": "Lobachevsky State University of Nizhny Novgorod",
+    "short": "ННГУ"
   },
   "country": "RU",
   "city": "Нижний Новгород",
   "website": "https://www.unn.ru/",
   "admissions_url": "https://www.unn.ru/site/abitur",
-  "about": "Многопрофильный университет с направлениями по математике и ИТ, радиофизике, экономике, праву, психологии, филологии и международным отношениям.",
+  "about": "ННГУ им. Лобачевского — один из крупнейших классических университетов России и национальный исследовательский университет. Главный кампус находится на проспекте Гагарина, 23; есть филиалы в Арзамасе, Дзержинске и других городах области.\n\nСамые известные направления — ИТ и математика в Институте информационных технологий, математики и механики (ИТММ): прикладная математика и информатика, программная инженерия, фундаментальная информатика, в том числе совместно с ИТ-кампусом «Неймарк». Сильны также радиофизика и физика, Институт клинической медицины (лечебное дело, стоматология, в том числе на английском), юридический факультет, Институт экономики и Институт международных отношений.\n\nПоступление по ЕГЭ; выпускники колледжей и некоторые категории сдают внутренние экзамены. Бюджетных мест на очной форме в 2026 году — 2 340. Платное обучение на 1-м курсе стоит 260 000–320 000 ₽ в год. Есть военный учебный центр (подготовка офицеров).\n\nОбщежития: на ул. Ульянова, пр. Гагарина (№ 4 и 9), ул. Деловой, пр. Ленина и в Балахне; для первокурсников — около 600 мест. Плата с 01.09.2025 — 842 ₽ в месяц для бюджетников и 1 607 ₽ для платников.",
   "areas": [
     "it",
     "science",
@@ -23,27 +25,478 @@
   "art": "classic",
   "fields": [
     "it",
+    "engineering",
     "natural_sciences",
+    "medicine",
+    "business",
     "economics",
     "law",
     "psychology",
+    "humanities",
+    "social_sciences",
     "linguistics",
-    "media",
-    "international_relations",
-    "pedagogy"
+    "pedagogy",
+    "architecture"
   ],
   "sources": [
     {
-      "url": "https://www.unn.ru/site/abitur",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii",
+      "accessed": "2026-11-27",
+      "covers": "сроки, FAQ, общежитие, военный учебный центр"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2025/Proh_ball_2025.pdf",
+      "accessed": "2026-11-27",
+      "covers": "проходные баллы 2025"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Stoimost/Stoimost_VO_2026.pdf",
+      "accessed": "2026-11-27",
+      "covers": "стоимость 2026/27"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Plan_priema/Pril_1_Plan_priema_2026_bakspec_.pdf",
+      "accessed": "2026-11-27",
+      "covers": "бюджетные места 2026"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Pril_2_Pravila_priema_2026_1.pdf",
+      "accessed": "2026-11-27",
+      "covers": "предметы ЕГЭ и минимальные баллы 2026"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Info/Sroki_priema.pdf",
+      "accessed": "2026-11-27",
+      "covers": "сроки приёма 2026"
+    },
+    {
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Info/Obshezhitie_1.pdf",
+      "accessed": "2026-11-27",
+      "covers": "адреса общежитий, места для первокурсников"
+    },
+    {
+      "url": "http://www.unn.ru/sveden/files/docs/soc-podderzhka/2025/pr_06.49-05-1147_25.pdf",
+      "accessed": "2026-11-27",
+      "covers": "плата за общежитие с 01.09.2025"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-27",
+      "covers": "RAEX-100 2026"
+    },
+    {
+      "url": "https://eng.unn.ru/admissions",
+      "accessed": "2026-11-27",
+      "covers": "фото"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-27",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Обновить сроки, места и цены по правилам приёма 2027",
+    "Проверить приказ о плате за общежитие на 2026/27 — на сайте пока последний от 14.08.2025"
+  ],
+  "summary": "Классический исследовательский университет Нижнего Новгорода, основан в 1916 году; 36-е место в RAEX-100 2026. Особенно сильны ИТ и математика (Институт ИТММ), а также физика, медицина, право, экономика и международные отношения. В 2026 году — 2 340 очных бюджетных мест, платное обучение 260 000–320 000 ₽ в год, общежитие для бюджетников — 842 ₽ в месяц.",
+  "highlights": [
+    "36-е место в RAEX-100 2026",
+    "2 340 очных бюджетных мест в 2026 году",
+    "Сильные ИТ и математика: «Программная инженерия» — 256 баллов, ПМИ — 232 (проходные 2025)",
+    "Платное обучение 260 000–320 000 ₽ в год",
+    "Общежитие для бюджетников — 842 ₽ в месяц, около 600 мест для первокурсников",
+    "Военный учебный центр: подготовка офицеров"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd",
+    "foundation"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Программная инженерия (прикладное и индустриальное программирование)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 310000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 64,
+      "passing_score": {
+        "year": 2025,
+        "value": 256,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "информатика / физика (на выбор)",
+        "математика (профиль)",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "name": "Прикладная математика и информатика (моделирование и ИИ)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 260000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 110,
+      "passing_score": {
+        "year": 2025,
+        "value": 232,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "информатика / физика (на выбор)",
+        "математика (профиль)",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 320000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 51,
+      "passing_score": {
+        "year": 2025,
+        "value": 243,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "химия",
+        "биология",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "name": "Юриспруденция",
+      "field": "law",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 275000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 49,
+      "passing_score": {
+        "year": 2025,
+        "value": 248,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "обществознание",
+        "история / иностранный язык (на выбор)",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "name": "Международные отношения (профиль «Международные отношения и дипломатия»)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 285000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 6,
+      "passing_score": {
+        "year": 2025,
+        "value": 266,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "история",
+        "обществознание / география / иностранный язык (на выбор)",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "name": "Психология (общая и практическая)",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 290000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 1-й курс 2026/27"
+      },
+      "budget_places": 39,
+      "passing_score": {
+        "year": 2025,
+        "value": 214,
+        "kind": "ege_total",
+        "note": "проходной на бюджет, очно"
+      },
+      "ege_subjects": [
+        "биология",
+        "математика (профиль) / обществознание (на выбор)",
+        "русский язык"
+      ],
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 260000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Очный бакалавриат, 1-й курс 2026/27 (например, ПМИ); на очно-заочной форме дешевле"
+    },
+    "tuition_max": {
+      "amount": 320000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Лечебное дело, 1-й курс 2026/27; программная инженерия — 310 000 ₽"
+    },
+    "living_month_estimate": {
+      "amount": 842,
+      "currency": "RUB",
+      "period": "month",
+      "note": "Только плата за общежитие для бюджетника с 01.09.2025 (для платника — 1 607 ₽; в общежитии № 9 доп. услуги ещё 2 698 ₽). Питание и прочие расходы — сверху, официальной сметы нет"
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Бюджетные места",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "2 340 очных мест на бакалавриате и специалитете в 2026 году, включая отдельную, особую и целевую квоты",
+        "url": "http://www.unn.ru/site/images/docs/priem/2026/Plan_priema/Pril_1_Plan_priema_2026_bakspec_.pdf"
+      },
+      {
+        "name": "Скидки на платное обучение",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Отдельный приказ о скидках на 1-й курс 2026/27",
+        "url": "http://www.unn.ru/site/images/docs/priem/2026/Stoimost/Skidki_2026.pdf"
+      },
+      {
+        "name": "Государственная академическая и социальная стипендии",
+        "coverage": "stipend",
+        "for_foreigners": false,
+        "note": "Для бюджетников по итогам сессии и по социальным основаниям",
+        "url": "http://www.unn.ru/sveden/grants/"
+      }
+    ]
+  },
+  "requirements": {
+    "ege_min_per_subject": {
+      "русский язык": 40,
+      "математика (профиль)": 40,
+      "информатика": 46,
+      "физика": 41,
+      "химия": 40,
+      "биология": 40,
+      "история": 40,
+      "обществознание": 45,
+      "география": 40,
+      "иностранный язык": 40
+    },
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "activities_matter": "low",
+    "olympiad_benefits": "Победители и призёры олимпиад — БВИ или 100 баллов по профильному предмету по положению ННГУ о приёме олимпиадников (приложение 6 к правилам). Свои олимпиады — Open Doors и олимпиада по фундаментальным дисциплинам",
+    "documents": [
+      "Паспорт",
+      "Аттестат или диплом СПО с приложением",
+      "СНИЛС",
+      "Документы об особых правах и квотах (если есть)",
+      "Документы об индивидуальных достижениях",
+      "Фото — если сдаёшь внутренние экзамены",
+      "Заявление через Госуслуги, лично (пр. Гагарина, 23) или почтой"
+    ],
+    "notes": "Минимальные баллы ЕГЭ 2026 (приложение 2 к правилам приёма): русский 40, профильная математика 40, информатика 46, физика 41, химия 40, биология 40, история 40, обществознание 45. Выпускники колледжей сдают внутренние профессиональные экзамены. За индивидуальные достижения начисляют дополнительные баллы по отдельному перечню. Для военного учебного центра заявление подают только лично в Нижнем Новгороде."
+  },
+  "deadlines": [
+    {
+      "what": "Начало приёма документов",
+      "start": "2026-06-20",
+      "intake": "Осень 2026 (сроки 2027 ещё не опубликованы)"
+    },
+    {
+      "what": "Конец приёма для сдающих внутренние экзамены",
+      "end": "2026-07-11",
+      "intake": "Осень 2026"
+    },
+    {
+      "what": "Конец приёма для поступающих только по ЕГЭ (бюджет)",
+      "end": "2026-07-25",
+      "intake": "Осень 2026"
+    },
+    {
+      "what": "Конкурсные списки",
+      "end": "2026-07-27",
+      "intake": "Осень 2026"
+    },
+    {
+      "what": "Согласие на зачисление, приоритетный этап",
+      "end": "2026-08-01",
+      "intake": "Осень 2026"
+    },
+    {
+      "what": "Согласие на зачисление, основной этап",
+      "end": "2026-08-05",
+      "intake": "Осень 2026"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Для граждан РФ не требуется"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 842,
+      "currency": "RUB",
+      "period": "month",
+      "note": "С 01.09.2025: 842 ₽ для бюджетников, 1 607 ₽ для платников; в общежитии № 9 доп. услуги — 2 698 ₽/мес. Сироты и ряд льготников живут бесплатно, участникам СВО и их детям — скидка 50%"
+    },
+    "notes": "Общежития: № 2 (ул. Ульянова, 37), № 4 и № 9 (пр. Гагарина, 23), № 6 (ул. Деловая, 9), № 7 (пр. Ленина, 25а) и в Балахне. Для поступающих на 1-й курс — около 600 мест на все уровни образования. Заявление подают иногородние; по заселению консультирует профком студентов ННГУ."
+  },
+  "rankings": [
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "36"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "1001–1200"
+    }
+  ],
+  "perks": [
+    "campus",
+    "strong_research",
+    "internships",
+    "employment",
+    "exchange",
+    "military_center",
+    "intl_environment"
+  ],
+  "data_year": 2026,
+  "prep": {
+    "must": "Сдай ЕГЭ под направление: для ИТ — профильная математика, информатика или физика и русский. В 2025 году на бюджет «Программной инженерии» брали от 256 баллов, на ПМИ — от 232. Если сдаёшь только ЕГЭ, подай документы до 25 июля.",
+    "good": "Порешай олимпиады ННГУ (Open Doors, олимпиада по фундаментальным дисциплинам) и собери индивидуальные достижения. Если ты иногородний, сразу подай заявление на общежитие: мест для первокурсников около 600.",
+    "source": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+  },
+  "photos": [
+    {
+      "file": "photos/unn/1.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://eng.unn.ru/news2/lobachevsky-university-is-in-the-top-10-of-superjob-ranking-in-terms-of-graduate-salaries",
+      "caption": "Главный корпус на проспекте Гагарина"
+    },
+    {
+      "file": "photos/unn/2.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://eng.unn.ru/admissions",
+      "caption": "Корпус студенческого общежития"
+    },
+    {
+      "file": "photos/unn/3.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://www.unn.ru/site/about/news/prijomnaya-kampaniya-startovala-v-universitete-lobachevskogo-20-iyunya",
+      "caption": "Абитуриенты у корпуса во время приёмной кампании"
+    },
+    {
+      "file": "photos/unn/4.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://eng.unn.ru/news2/lobachevsky-university-ranked-among-the-top-10-russian-universities-by-the-salaries-of-its-graduates-working-in-the-it-sector-2",
+      "caption": "Компьютерный класс ИТ-института"
+    },
+    {
+      "file": "photos/unn/5.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://www.unn.ru/site/about/news/20-let-vmeste-nngu-vtoroj-dom-dlya-studentov-so-vsego-mira",
+      "caption": "Студенты из разных стран у главного корпуса"
+    },
+    {
+      "file": "photos/unn/6.jpg",
+      "author": "ННГУ им. Лобачевского",
+      "license": "© ННГУ им. Н. И. Лобачевского; фото с официального сайта",
+      "source_url": "https://eng.unn.ru/",
+      "caption": "Конференц-зал университета"
+    }
+  ],
+  "founded": 1916,
+  "ownership": "public",
+  "city_size": "mega",
+  "extra_links": [
+    {
+      "title": "Информация приёмной комиссии",
+      "url": "https://www.unn.ru/site/education/informatsiya-priemnoj-komissii"
+    },
+    {
+      "title": "Проходные баллы 2025 (PDF)",
+      "url": "http://www.unn.ru/site/images/docs/priem/2025/Proh_ball_2025.pdf"
+    },
+    {
+      "title": "Стоимость обучения 2026/27 (PDF)",
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Stoimost/Stoimost_VO_2026.pdf"
+    },
+    {
+      "title": "Экзамены и минимальные баллы 2026 (PDF)",
+      "url": "http://www.unn.ru/site/images/docs/priem/2026/Pril_2_Pravila_priema_2026_1.pdf"
+    },
+    {
+      "title": "Плата за общежитие (приказ)",
+      "url": "http://www.unn.ru/sveden/files/docs/soc-podderzhka/2025/pr_06.49-05-1147_25.pdf"
+    }
   ]
 }

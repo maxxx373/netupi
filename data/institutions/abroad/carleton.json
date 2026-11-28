@@ -2,14 +2,15 @@
   "id": "carleton",
   "type": "university",
   "name": {
-    "ru": "Carleton University",
-    "en": "Carleton University"
+    "ru": "Карлтонский университет",
+    "en": "Carleton University",
+    "short": "Carleton"
   },
   "country": "CA",
   "city": "Оттава, Онтарио",
   "website": "https://carleton.ca/",
   "admissions_url": "https://admissions.carleton.ca/apply-now-international-students/",
-  "about": "Публичный университет в Оттаве с программами в инженерии, архитектуре, международных отношениях, журналистике, бизнесе и ИТ.",
+  "about": "Carleton University — государственный университет в Оттаве, расположенный на зелёном кампусе между Rideau Canal и рекой Rideau. Учебная среда включает инженерные и компьютерные лаборатории, библиотеку MacOdrum, здания факультетов и резиденции; закрытые переходы связывают часть корпусов. Вуз известен программами по инженерии, архитектуре, международным отношениям, журналистике, бизнесу и государственному управлению.\n\nИностранные абитуриенты подают документы онлайн через Carleton360 или OUAC. Для выпускников российских школ требуется аттестат с оценками, профильные предметы выбранной программы и подтверждение английского по действующим правилам. Архитектура, дизайн, музыка и некоторые другие направления могут требовать отдельный отбор или материалы. На 2026/27 год опубликован ориентир tuition около CAD 39–55 тыс. в год по программам; проживание и питание — отдельно. Школьникам, поступающим на первый курс, доступна гарантия резиденции при соблюдении сроков принятия offer и оплаты депозита. Перед учёбой в Канаде нужно получить study permit и выполнить актуальные требования к провинциальному attestation letter.",
   "areas": [
     "engineering",
     "it",
@@ -29,7 +30,8 @@
     "business",
     "economics",
     "design_art",
-    "architecture"
+    "architecture",
+    "social_sciences"
   ],
   "prep": {
     "must": "Международная заявка напрямую через Carleton360 или через OUAC; документы о предыдущем образовании и языковой экзамен, если применимо.",
@@ -38,17 +40,292 @@
   },
   "sources": [
     {
+      "url": "https://admissions.carleton.ca/applicant-type/international-applicants/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
       "url": "https://admissions.carleton.ca/apply-now-international-students/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://admissions.carleton.ca/student-life/residence/",
+      "accessed": "2026-11-26",
+      "covers": "гарантия общежития"
+    },
+    {
+      "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+      "accessed": "2026-11-26",
+      "covers": "цены 2026–2029 по программам, расходы на жизнь, стипендии"
+    },
+    {
+      "url": "https://admissions.carleton.ca/study-permit-information/",
+      "accessed": "2026-11-25",
+      "covers": "Требования, расходы, проживание, визовая процедура или календарь поступления — по содержанию страницы"
+    },
+    {
+      "url": "https://virtualtour.carleton.ca/carleton/summer-accommodations-tour/residence-commons-2",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://virtualtour.carleton.ca/carleton/richcraft-hall-tour/richcraft-hall-gallery",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://www.ouinfo.ca/universities/carleton",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://virtualtour.carleton.ca/carleton/residence/frontenac-house",
+      "accessed": "2026-11-25",
+      "covers": "Источник одной из фотографий в галерее"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Минимальные баллы английского",
+    "Срок подачи заявки на 2027",
+    "Место в QS 2027"
+  ],
+  "summary": "Университет в Оттаве, известен журналистикой, госуправлением, инженерией и компьютерными науками. Цены для иностранцев заморожены на 2026–2029 годы: 39 000–55 000 канадских долларов в год. Всем иностранцам автоматически рассматривают стипендии, а первокурсникам с предложением до 31 мая гарантировано общежитие.",
+  "data_year": 2027,
+  "founded": 1942,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Цена обучения заморожена на 2026/27–2028/29",
+    "Обучение 39 000 CAD (гуманитарные и науки), 45 000 (бизнес, медиа), 55 000 (инженерия, CS, IT)",
+    "Автоматические стипендии: 1 000–3 000 CAD в год + 2 000–5 000 CAD на первый год",
+    "Общежитие гарантировано, если предложение получено до 31 мая",
+    "Prestige-стипендии для среднего балла от 90%, заявка до 1 марта"
+  ],
+  "intl_students_url": "https://admissions.carleton.ca/applicant-type/international-applicants/",
+  "programs": [
+    {
+      "name": "Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://carleton.ca/scs/",
+      "tuition": {
+        "amount": 55000,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для иностранцев, заморожено на 2026/27–2028/29; плюс обязательные сборы ~2 500 CAD (включая медстраховку UHIP)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу; минимальный зависит от программы"
+      }
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://architecture.carleton.ca/",
+      "tuition": {
+        "amount": 55000,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для иностранцев, заморожено на 2026/27–2028/29; плюс обязательные сборы ~2 500 CAD (включая медстраховку UHIP)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу; минимальный зависит от программы"
+      }
+    },
+    {
+      "name": "Journalism",
+      "field": "media",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://carleton.ca/sjc/undergraduate/",
+      "tuition": {
+        "amount": 39000,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для иностранцев, заморожено на 2026/27–2028/29; плюс обязательные сборы ~2 500 CAD (включая медстраховку UHIP)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу; минимальный зависит от программы"
+      }
+    },
+    {
+      "name": "International Relations",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://carleton.ca/ir/",
+      "tuition": {
+        "amount": 39000,
+        "currency": "CAD",
+        "period": "year",
+        "note": "Для иностранцев, заморожено на 2026/27–2028/29; плюс обязательные сборы ~2 500 CAD (включая медстраховку UHIP)"
+      },
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Конкурс по среднему баллу; минимальный зависит от программы"
+      }
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 39000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Гуманитарные, науки, экономика, медсестринское; заморожено до 2028/29"
+    },
+    "tuition_max": {
+      "amount": 55000,
+      "currency": "CAD",
+      "period": "year",
+      "note": "Инженерия, компьютерные науки, IT, архитектура, дизайн"
+    },
+    "living_month_estimate": {
+      "amount": 1751,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Общежитие с питанием: 14 010 CAD за 8 месяцев (оценка Carleton)"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Entrance Scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Автоматически всем школьникам, выполнившим требования: 1 000–3 000 CAD в год",
+        "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
+      },
+      {
+        "name": "President's Welcome Award for International Students",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Автоматически для набора 2027: 2 000–5 000 CAD на первый год",
+        "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
+      },
+      {
+        "name": "Prestige Scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Для среднего балла выше 90%, отдельная заявка до 1 марта",
+        "url": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [],
+    "language_level": "Нужно подтвердить владение английским по правилам университета; минимум зависит от курса и истории обучения.",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "medium",
+    "documents": [
+      "Аттестат и приложение с оценками",
+      "Официальный перевод документов, если требуется",
+      "Подтверждение английского/языка обучения, если применимо",
+      "Заявка и дополнительные материалы выбранной программы",
+      "Паспорт и документы по финансовой поддержке/визе после зачисления"
+    ],
+    "notes": "Эквивалентность аттестата, средний балл, предметы и документы определяются категорией страны и программой."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Разрешение на учёбу (study permit) + PAL Онтарио",
+    "notes": "Нужно разрешение на учёбу (study permit). Для бакалавриата требуется провинциальное письмо PAL (Онтарио) — его выдаёт университет после зачисления. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
+    "url": "https://admissions.carleton.ca/study-permit-information/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "notes": "Двухместная комната гарантирована всем школьникам-первокурсникам, получившим предложение до 31 мая 2027 и вовремя принявшим место. Общежитие с питанием — около 14 010 CAD за 8 месяцев."
+  },
+  "deadlines": [
+    {
+      "what": "Заявка на Prestige Scholarships",
+      "end": "03-01",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Предложение о зачислении до этой даты — гарантия общежития",
+      "end": "2027-05-31"
+    }
+  ],
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Carleton_University_where_my_son_studied_%2820564308228%29.jpg/1280px-Carleton_University_where_my_son_studied_%2820564308228%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "shankar s. from Dubai, united arab emirates",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carleton_University_where_my_son_studied_(20564308228).jpg",
+      "caption": "Кампус Carleton на реке Ридо, башня Dunton Tower"
+    },
+    {
+      "file": "https://media.circuitcdn.com/carleton/images/WebRes_IMG_17880-482.width-1280.format-jpeg.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://virtualtour.carleton.ca/carleton/richcraft-hall-tour/richcraft-hall-gallery",
+      "caption": "Аудитория в Richcraft Hall"
+    },
+    {
+      "file": "https://media.circuitcdn.com/carleton/images/HiRes_IMG_0902_3_4-788.width-1280.format-jpeg.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://virtualtour.carleton.ca/carleton/residence/frontenac-house",
+      "caption": "Корпус резиденции Frontenac House"
+    },
+    {
+      "file": "https://media.circuitcdn.com/carleton/images/HiRes_IMG_14360-1163.width-1280.format-jpeg.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://virtualtour.carleton.ca/carleton/summer-accommodations-tour/residence-commons-2",
+      "caption": "Общее пространство Residence Commons"
+    },
+    {
+      "file": "https://admissions.carleton.ca/wp-content/uploads/residence-room.jpg",
+      "author": "Университет / издатель страницы",
+      "license": "© владельца изображения; фото используется с указанием источника, лицензия не открытая",
+      "source_url": "https://admissions.carleton.ca/student-life/residence/",
+      "caption": "Комната в резиденции"
+    }
+  ],
+  "perks": [
+    "internships",
+    "employment",
+    "campus",
+    "intl_environment"
   ]
 }

@@ -2,14 +2,16 @@
   "id": "iitbombay",
   "type": "university",
   "name": {
-    "ru": "Indian Institute of Technology Bombay",
-    "en": "Indian Institute of Technology Bombay"
+    "ru": "Индийский технологический институт Бомбея",
+    "en": "Indian Institute of Technology Bombay",
+    "short": "IIT Bombay",
+    "local": "भारतीय प्रौद्योगिकी संस्थान मुंबई"
   },
   "country": "IN",
   "city": "Мумбаи",
   "website": "https://www.iitb.ac.in/",
   "admissions_url": "https://acad.iitb.ac.in/admissions/international",
-  "about": "Технологический институт в Мумбаи с инженерными, естественно-научными, архитектурными, дизайнерскими и междисциплинарными программами.",
+  "about": "IIT Bombay основан в 1958 году при участии ЮНЕСКО и СССР; кампус площадью более 2 км² находится в районе Пауэй в Мумбаи, у озера Пауэй. Это один из самых престижных технических вузов Индии: инженерия, компьютерные науки, физика и математика, дизайн, менеджмент.\n\nБакалавриат: B.Tech (4 года), B.S. (4 года) и двойные степени B.Tech + M.Tech (5 лет). Иностранцы поступают раз в год только через Joint Entrance Examination (JEE) Advanced. Индийский JEE Main им сдавать не нужно, а места выделяют сверх квоты для индийцев. Но место дают только тем, чей ранг не хуже проходного ранга общей категории (OPEN) на программу. Для топовых программ вроде Computer Science это уровень лучших абитуриентов страны с самой большой олимпиадной подготовкой в мире.\n\nТребования JEE Advanced 2027 к иностранцам: родиться не раньше 1 октября 2002 года; сдавать выпускные экзамены 11 класса (Class XII) впервые в 2026 или 2027 году, с физикой, химией и математикой; не больше двух попыток в два года подряд. Экзамен — 23 мая 2027 года.\n\nСтоимость для иностранцев: обучение ₹300 000 за семестр, всего около ₹616 000 в год со сборами. Общежитие — ₹19 950 за семестр, плюс аванс за питание ₹22 500 за семестр. На кампусе 17+ общежитий со столовыми.",
   "areas": [
     "engineering",
     "construction",
@@ -22,29 +24,379 @@
   "art": "engineering",
   "fields": [
     "engineering",
-    "architecture",
     "natural_sciences",
+    "architecture",
+    "design_art",
     "it",
-    "design_art"
+    "business"
   ],
   "prep": {
-    "must": "Для иностранных граждан IIT Bombay указывает поступление на undergraduate программы через JEE Advanced. Проверь категорию гражданства, eligibility и требования текущего экзамена на официальном сайте.",
-    "good": "Сосредоточь подготовку на математике, физике и химии, сверяйся с официальной программой и прошлыми вариантами экзамена. Уточни сроки подачи заявления в IIT и распределения по программам.",
-    "source": "https://acad.iitb.ac.in/admissions/international"
+    "must": "Готовься к JEE Advanced по физике, химии и математике: это один из самых сложных вступительных экзаменов в мире, и нужен ранг на уровне лучших индийских абитуриентов. Сдавать можно в год выпуска или на следующий год, максимум 2 раза. Следи за регистрацией на jeeadv.ac.in (экзамен 23 мая 2027).",
+    "good": "Порешай реальные варианты JEE Advanced прошлых лет и оцени свои шансы до регистрации. Заранее оформи международную карту банка не из России: она нужна для оплаты регистрации, а потом учёбы и общежития.",
+    "source": "https://jeeadv.ac.in/eligibility.html"
   },
   "sources": [
     {
-      "url": "https://acad.iitb.ac.in/admissions/international",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://jeeadv.ac.in/eligibility.html",
+      "accessed": "2026-11-27",
+      "covers": "условия JEE Advanced 2027 для иностранцев, правило ранга OPEN"
+    },
+    {
+      "url": "https://jeeadv.ac.in/documents/JEEAdv2027PressRelease.pdf",
+      "accessed": "2026-11-27",
+      "covers": "дата экзамена 23.05.2027"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/index.php/admissions/international",
+      "accessed": "2026-11-27",
+      "covers": "приём иностранцев только через JEE Advanced"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/sites/default/files/Final%20SignedFee_circular_2026-27.pdf",
+      "accessed": "2026-11-27",
+      "covers": "плата за обучение 2026/27 для иностранцев"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/details-fees-payable",
+      "accessed": "2026-11-27",
+      "covers": "общежитие и аванс за питание 2026/27"
+    },
+    {
+      "url": "https://www.cgivladi.gov.in/page/visa-catagory/",
+      "accessed": "2026-11-27",
+      "covers": "студенческая виза Индии"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/indian-institute-technology-bombay-iitb",
+      "accessed": "2026-11-27",
+      "covers": "QS 2026, 2027"
+    },
+    {
+      "url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "accessed": "2026-11-26",
+      "covers": "общежития, фото"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-27",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Добавить сбор за JEE Advanced 2027 для иностранцев и список зарубежных центров экзамена, когда выйдет брошюра 2027",
+    "Добавить закрывающие ранги JoSAA 2026 по программам",
+    "Найти современное фото главного корпуса в высоком разрешении"
+  ],
+  "summary": "Один из двух сильнейших технических вузов Индии (QS 2027 — 134-е место), с большим зелёным кампусом в Пауэе на севере Мумбаи. Иностранцы поступают на бакалавриат (B.Tech, B.S.) только через экзамен JEE Advanced — без индийского JEE Main, но с очень высоким конкурсом. Обучение на английском, около ₹616 000 в год (≈ $7 000), общежитие стоит копейки.",
+  "data_year": 2027,
+  "founded": 1958,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "QS World University Rankings 2027 — 134-е место, 2-й IIT в Индии",
+    "Иностранцы поступают через JEE Advanced без JEE Main, на места сверх квоты",
+    "Обучение на английском, ₹616 300 в год (≈ $7 000) для иностранцев",
+    "Общежитие ₹19 950 и питание ₹22 500 за семестр — в разы дешевле Европы",
+    "Большой зелёный кампус в Мумбаи, 17+ общежитий",
+    "Конкурс очень высокий: нужен ранг на уровне лучших индийских абитуриентов"
+  ],
+  "intl_students_url": "https://acad.iitb.ac.in/index.php/admissions/international",
+  "programs": [
+    {
+      "name": "B.Tech Computer Science and Engineering",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 616300,
+        "currency": "INR",
+        "period": "year",
+        "note": "Для иностранцев: 2 семестра × ₹308 150 (обучение ₹300 000 + сборы); в 1-м семестре ещё ₹26 000 разово (включая возвратный депозит ₹10 000)"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Нужен ранг JEE Advanced (CRL) не хуже закрывающего ранга категории OPEN (gender-neutral) на эту программу. Иностранцы идут на дополнительные места"
+      },
+      "url": "https://www.cse.iitb.ac.in/"
+    },
+    {
+      "name": "B.Tech Electrical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 616300,
+        "currency": "INR",
+        "period": "year",
+        "note": "Для иностранцев: 2 семестра × ₹308 150 (обучение ₹300 000 + сборы); в 1-м семестре ещё ₹26 000 разово (включая возвратный депозит ₹10 000)"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Нужен ранг JEE Advanced (CRL) не хуже закрывающего ранга категории OPEN (gender-neutral) на эту программу. Иностранцы идут на дополнительные места"
+      },
+      "url": "https://www.ee.iitb.ac.in/"
+    },
+    {
+      "name": "B.Tech Mechanical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 616300,
+        "currency": "INR",
+        "period": "year",
+        "note": "Для иностранцев: 2 семестра × ₹308 150 (обучение ₹300 000 + сборы); в 1-м семестре ещё ₹26 000 разово (включая возвратный депозит ₹10 000)"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Нужен ранг JEE Advanced (CRL) не хуже закрывающего ранга категории OPEN (gender-neutral) на эту программу. Иностранцы идут на дополнительные места"
+      },
+      "url": "https://www.me.iitb.ac.in/"
+    },
+    {
+      "name": "B.Tech Aerospace Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 616300,
+        "currency": "INR",
+        "period": "year",
+        "note": "Для иностранцев: 2 семестра × ₹308 150 (обучение ₹300 000 + сборы); в 1-м семестре ещё ₹26 000 разово (включая возвратный депозит ₹10 000)"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Нужен ранг JEE Advanced (CRL) не хуже закрывающего ранга категории OPEN (gender-neutral) на эту программу. Иностранцы идут на дополнительные места"
+      },
+      "url": "https://www.aero.iitb.ac.in/"
+    },
+    {
+      "name": "B.S. Mathematics",
+      "field": "natural_sciences",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 616300,
+        "currency": "INR",
+        "period": "year",
+        "note": "Для иностранцев: 2 семестра × ₹308 150 (обучение ₹300 000 + сборы); в 1-м семестре ещё ₹26 000 разово (включая возвратный депозит ₹10 000)"
+      },
+      "passing_score": {
+        "kind": "other",
+        "note": "Нужен ранг JEE Advanced (CRL) не хуже закрывающего ранга категории OPEN (gender-neutral) на эту программу. Иностранцы идут на дополнительные места"
+      },
+      "url": "https://www.math.iitb.ac.in/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 616300,
+      "currency": "INR",
+      "period": "year",
+      "note": "Иностранцы без карты OCI/PIO, 2026/27: ₹308 150 за семестр (обучение ₹300 000 + регистрация, гимхана, медицина и др.)"
+    },
+    "tuition_max": {
+      "amount": 642300,
+      "currency": "INR",
+      "period": "year",
+      "note": "1-й год с разовыми платежами при поступлении (₹16 000) и возвратными депозитами (₹10 000). IIT Bombay может пересматривать плату"
+    },
+    "living_month_estimate": {
+      "amount": 7075,
+      "currency": "INR",
+      "period": "month",
+      "note": "Общежитие ₹19 950 + аванс за питание ₹22 500 за семестр (≈6 месяцев) = ₹42 450, около ₹7 000 в месяц. Личные расходы — сверху, официальной сметы нет"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Стипендий для иностранных бакалавров IIT Bombay не публикует",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Освобождение от платы за обучение в приказе предусмотрено только для индийских категорий SC/ST/PwD. Закладывай полную стоимость",
+        "url": "https://acad.iitb.ac.in/sites/default/files/Final%20SignedFee_circular_2026-27.pdf"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "min_score": "JEE Advanced",
+        "note": "Единственный путь на бакалавриат для иностранцев. Экзамен 23 мая 2027 года; физика, химия, математика"
+      }
+    ],
+    "language_level": "Обучение на английском; отдельный сертификат для JEE не требуется",
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Загранпаспорт (удостоверение личности для JEE Advanced)",
+      "Регистрация на jeeadv.ac.in и оплата сбора международной картой",
+      "Аттестат и результаты выпускных экзаменов с физикой, химией и математикой",
+      "После экзамена — регистрация в JoSAA для распределения мест",
+      "Студенческая виза Индии после зачисления"
+    ],
+    "notes": "Требования JEE Advanced 2027 для иностранцев: родиться не раньше 01.10.2002; сдавать выпускные экзамены школы впервые в 2026 или 2027 году с физикой, химией и математикой (российский 11 класс должен засчитаться как эквивалент Class XII — уточни при регистрации); не больше двух попыток в два года подряд; раньше не быть зачисленным в IIT. Место на программу дают, если ранг в общем списке (CRL) не хуже закрывающего ранга OPEN gender-neutral; иностранцы занимают места сверх квоты и платят тариф для иностранцев."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Студенческая виза Индии (Student visa)",
+    "notes": "Для учёбы нужна студенческая виза. Её дают по подтверждению зачисления на очную программу признанного вуза (IIT Bombay признан). Россияне подают через посольство Индии в Москве или консульства (в т. ч. во Владивостоке), анкету заполняют на indianvisaonline.gov.in. Бесплатная 30-дневная туристическая e-виза для россиян для учёбы не подходит. После прилёта зарегистрируйся в FRRO: иностранным студентам это обязательно. Деньги: IIT принимает оплату онлайн; российские карты в Индии не работают, а переводы из многих российских банков блокируются. Заранее нужна международная карта банка другой страны — она понадобится уже для оплаты регистрации на JEE Advanced.",
+    "url": "https://www.cgivladi.gov.in/page/visa-catagory/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": true,
+    "cost_month": {
+      "amount": 3325,
+      "currency": "INR",
+      "period": "month",
+      "note": "₹19 950 за семестр 2026/27; питание (mess advance) — ещё ₹22 500 за семестр"
+    },
+    "notes": "Студенты бакалавриата живут на кампусе: 17+ общежитий (hostels) с комнатами, столовыми (mess), читальнями, прачечными и спортплощадками. Комнату распределяет Hostel Coordination Unit после зачисления; плату за общежитие и аванс за питание вносят каждый семестр вместе с учебными сборами."
+  },
+  "deadlines": [
+    {
+      "what": "Экзамен JEE Advanced 2027",
+      "start": "2027-05-23",
+      "end": "2027-05-23",
+      "intake": "Июль 2027"
+    },
+    {
+      "what": "Регистрация на JEE Advanced (для иностранцев — напрямую)",
+      "intake": "2027; даты объявят на jeeadv.ac.in (в 2026 регистрация шла с конца апреля)"
+    },
+    {
+      "what": "Распределение мест через JoSAA",
+      "intake": "Июнь–июль 2027, после результатов экзамена"
+    },
+    {
+      "what": "Оплата сборов осеннего семестра (для поступивших в 2026)",
+      "start": "2026-05-01",
+      "end": "2026-07-15",
+      "intake": "Осень 2026"
+    }
+  ],
+  "photos": [
+    {
+      "file": "photos/iitbombay/1.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.ircc.iitb.ac.in/IRCC-Webpage/rnd/Campus.jsp",
+      "caption": "Главный корпус IIT Bombay"
+    },
+    {
+      "file": "photos/iitbombay/2.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.ir.iitb.ac.in/about-campus",
+      "caption": "Арка у главного входа на кампус"
+    },
+    {
+      "file": "photos/iitbombay/3.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.iitb.ac.in/",
+      "caption": "Зелёные улицы кампуса: по нему ездят на велосипедах"
+    },
+    {
+      "file": "photos/iitbombay/4.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.iitb.ac.in/",
+      "caption": "Лекция в большой аудитории"
+    },
+    {
+      "file": "photos/iitbombay/5.jpg",
+      "author": "IIT Bombay Gymkhana",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "caption": "Студенческие общежития вечером"
+    },
+    {
+      "file": "photos/iitbombay/6.jpg",
+      "author": "IIT Bombay Gymkhana",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://gymkhana.iitb.ac.in/students/housing.html",
+      "caption": "Общежитие Hostel 12"
+    },
+    {
+      "file": "photos/iitbombay/7.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.iitb.ac.in/",
+      "caption": "Крытый спортзал"
+    },
+    {
+      "file": "photos/iitbombay/8.jpg",
+      "author": "IIT Bombay",
+      "license": "© IIT Bombay; фото с официального сайта",
+      "source_url": "https://www.iitb.ac.in/",
+      "caption": "Вручение дипломов"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=134"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "129"
+    }
+  ],
+  "perks": [
+    "strong_research",
+    "campus",
+    "student_life",
+    "internships",
+    "employment"
+  ],
+  "extra_links": [
+    {
+      "title": "JEE Advanced 2027 — условия для иностранцев",
+      "url": "https://jeeadv.ac.in/eligibility.html"
+    },
+    {
+      "title": "Плата за обучение 2026/27 (PDF)",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Final%20SignedFee_circular_2026-27.pdf"
+    },
+    {
+      "title": "Сборы и общежитие для новых студентов",
+      "url": "https://acad.iitb.ac.in/details-fees-payable"
+    },
+    {
+      "title": "Иностранным студентам IIT Bombay",
+      "url": "https://acad.iitb.ac.in/index.php/admissions/international"
+    },
+    {
+      "title": "Распределение мест JoSAA",
+      "url": "https://josaa.nic.in/"
+    },
+    {
+      "title": "Виды виз Индии (консульство во Владивостоке)",
+      "url": "https://www.cgivladi.gov.in/page/visa-catagory/"
+    }
   ]
 }

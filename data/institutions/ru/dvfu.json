@@ -2,13 +2,15 @@
   "id": "dvfu",
   "type": "university",
   "name": {
-    "ru": "Дальневосточный федеральный университет"
+    "ru": "Дальневосточный федеральный университет",
+    "en": "Far Eastern Federal University",
+    "short": "ДВФУ"
   },
   "country": "RU",
   "city": "Владивосток",
   "website": "https://www.dvfu.ru/",
   "admissions_url": "https://www.dvfu.ru/admission/",
-  "about": "Многопрофильный университет во Владивостоке с программами в инженерии, морских науках, медицине, экономике и гуманитарных областях.",
+  "about": "ДВФУ ведёт историю от Восточного института, основанного во Владивостоке в 1899 году. С 2013 года главная площадка — кампус на острове Русский: учебные корпуса, гостиничные жилые корпуса для студентов, медицинский центр, спорткомплексы, набережная у моря. Учёба, жильё и досуг — в пешей доступности.\n\nСильные стороны — Азия и международные отношения (востоковедение, программы на английском, сетевые программы с китайскими и вьетнамскими вузами), медицина и биомедицинская инженерия, ИТ и цифровые технологии, морские науки. Есть военный учебный центр и новая модель высшего образования (базовое и специализированное высшее).\n\nПроходные баллы 2026 года на бюджет: международные отношения — 255, юриспруденция — 253, программная инженерия — 244, лечебное дело — 227, экономика — 226, психология — 199. Платное обучение — примерно 290 000–375 000 ₽ в год; при поступлении вносят депозит 100 000 ₽, есть «стартовые» скидки для тех, кому не хватило баллов до бюджета, образовательный кредит Сбербанка и маткапитал.\n\nМеста в гостиничном комплексе кампуса предоставляются в первую очередь иногородним; заявление подают вместе с документами в приёмную комиссию.",
   "areas": [
     "engineering",
     "science",
@@ -23,27 +25,444 @@
   "art": "modern",
   "fields": [
     "engineering",
-    "natural_sciences",
+    "it",
     "medicine",
+    "business",
     "economics",
     "law",
+    "natural_sciences",
+    "agriculture",
     "linguistics",
     "international_relations",
-    "business",
-    "media"
+    "humanities",
+    "social_sciences",
+    "architecture"
   ],
   "sources": [
     {
-      "url": "https://www.dvfu.ru/admission/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://postupi.dvfu.ru/docs/prokhodnye-bally/",
+      "accessed": "2026-11-27",
+      "covers": "проходные баллы 2026 и бюджетные места"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/docs/znacheniya-minimalnykh-ballov-podtverzhdayushchikh-uspeshnoe-prokhozhdenie-vstupitelnogo-ispytaniya/",
+      "accessed": "2026-11-27",
+      "covers": "минимальные баллы ЕГЭ 2026"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/lechebnoe-delo/",
+      "accessed": "2026-11-27",
+      "covers": "стоимость, предметы — лечебное дело"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/psikhologiya/",
+      "accessed": "2026-11-27",
+      "covers": "стоимость, предметы — психология"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/ekonomika/",
+      "accessed": "2026-11-27",
+      "covers": "стоимость, предметы — экономика"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/mezhdunarodnye-otnosheniya-diplomatiya-i-vneshnyaya-politika/",
+      "accessed": "2026-11-27",
+      "covers": "стоимость — международные отношения"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/info/postuplenie-po-dogovoru",
+      "accessed": "2026-11-27",
+      "covers": "платное обучение, депозит, скидки, кредит"
+    },
+    {
+      "url": "https://postupi.dvfu.ru/docs/informatsiya-o-nalichii-obshchezhitiy/",
+      "accessed": "2026-11-27",
+      "covers": "общежития и заселение"
+    },
+    {
+      "url": "https://raex-rr.com/education/russian_universities/top-100_universities/2026/",
+      "accessed": "2026-11-27",
+      "covers": "RAEX-100 2026"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/far-eastern-federal-university",
+      "accessed": "2026-11-26",
+      "covers": "QS 2026"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-27",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Найти официальную стоимость проживания в кампусе на 2026/27",
+    "Добавить карточки программной инженерии и юриспруденции (цена, предметы)",
+    "Обновить сроки по правилам приёма 2027"
+  ],
+  "summary": "Главный университет Дальнего Востока: современный кампус на острове Русский во Владивостоке, построенный к саммиту АТЭС, где учёба, жильё, спорт и медцентр — в одном месте. Сильные направления — востоковедение и Азия, международные отношения, биомедицина, ИТ, морские науки. В 2026 году проходные баллы на бюджет — от ~170 до 255, платное обучение — около 290 000–375 000 ₽ в год.",
+  "highlights": [
+    "Кампус на острове Русский: учёба, жильё, спорт и медцентр в одном месте у моря",
+    "RAEX-100 2026 — 25-е место",
+    "Сильное востоковедение и международные отношения (проходной 2026 — 255)",
+    "Программы на английском и совместные программы с вузами Азии",
+    "Платное обучение около 290 000–375 000 ₽ в год, есть «стартовые» скидки",
+    "Военный учебный центр"
+  ],
+  "levels": [
+    "spo",
+    "bachelor",
+    "specialist",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "ru",
+    "en"
+  ],
+  "study_formats": [
+    "full",
+    "mixed",
+    "online"
+  ],
+  "programs": [
+    {
+      "name": "Международные отношения, дипломатия и внешняя политика",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 295000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 255,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по направлению"
+      },
+      "ege_subjects": [
+        "русский язык",
+        "предметы по выбору — см. карточку программы"
+      ],
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/mezhdunarodnye-otnosheniya-diplomatiya-i-vneshnyaya-politika/",
+      "budget_places": 38
+    },
+    {
+      "name": "Лечебное дело",
+      "field": "medicine",
+      "level": "specialist",
+      "language": "ru",
+      "duration_years": 6,
+      "tuition": {
+        "amount": 350000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 2026/27; 350 000–375 000 ₽ в зависимости от условий"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 227,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по направлению"
+      },
+      "ege_subjects": [
+        "русский язык",
+        "химия",
+        "биология"
+      ],
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/lechebnoe-delo/",
+      "budget_places": 65
+    },
+    {
+      "name": "Экономика",
+      "field": "economics",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 295000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 2026/27; 295 000–330 000 ₽ в зависимости от программы"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 226,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по направлению"
+      },
+      "ege_subjects": [
+        "русский язык",
+        "математика (профиль)",
+        "обществознание / иностранный язык / информатика (на выбор)"
+      ],
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/ekonomika/",
+      "budget_places": 149
+    },
+    {
+      "name": "Психология",
+      "field": "psychology",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 320000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 199,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по направлению"
+      },
+      "ege_subjects": [
+        "русский язык",
+        "биология",
+        "математика (профиль) / обществознание (на выбор)"
+      ],
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/psikhologiya/",
+      "budget_places": 30
+    },
+    {
+      "name": "Технологии интернета вещей (Internet of Things Engineering, на английском)",
+      "field": "it",
+      "level": "bachelor",
+      "language": "ru",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 292000,
+        "currency": "RUB",
+        "period": "year",
+        "note": "Очно, 2026/27"
+      },
+      "passing_score": {
+        "year": 2026,
+        "value": 210,
+        "kind": "ege_total",
+        "note": "проходной на бюджет по направлению"
+      },
+      "ege_subjects": [
+        "информатика / физика",
+        "математика (профиль)",
+        "русский язык"
+      ],
+      "url": "https://postupi.dvfu.ru/education/bakalavriat-spetsialitet/tekhnologii-interneta-veshchey-internet-of-things-engineering/"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 292000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Очно, 2026/27 (по карточкам программ); первый платёж-депозит — 100 000 ₽"
+    },
+    "tuition_max": {
+      "amount": 375000,
+      "currency": "RUB",
+      "period": "year",
+      "note": "Лечебное дело, 2026/27"
+    }
+  },
+  "funding": {
+    "free_tuition": true,
+    "grants": [
+      {
+        "name": "Бюджетные места",
+        "coverage": "full",
+        "for_foreigners": false,
+        "note": "Например, в 2026 году: экономика — 149, ПМИ — 99, программная инженерия — 75, лечебное дело — 65 мест",
+        "url": "https://postupi.dvfu.ru/docs/prokhodnye-bally/"
+      },
+      {
+        "name": "«Стартовые» скидки на платное обучение",
+        "coverage": "partial",
+        "for_foreigners": false,
+        "note": "Для тех, кому не хватило баллов до проходного на бюджет: размер зависит от направления и числа недостающих баллов; договор — до 12 августа",
+        "url": "https://postupi.dvfu.ru/info/postuplenie-po-dogovoru"
+      },
+      {
+        "name": "Поддержка высокобалльников",
+        "coverage": "stipend",
+        "for_foreigners": false,
+        "note": "Отдельные выплаты и программы для сильных абитуриентов — см. новости приёмной комиссии",
+        "url": "https://postupi.dvfu.ru/news/tvoy-talant--nasha-investitsiya-kak-dvfu-podderzhivaet-vysokoballnikov/"
+      }
+    ]
+  },
+  "requirements": {
+    "ege_min_per_subject": {
+      "русский язык": 40,
+      "математика (профиль)": 40,
+      "физика": 41,
+      "обществознание": 45,
+      "история": 40,
+      "информатика": 46,
+      "иностранный язык": 40,
+      "литература": 40,
+      "биология": 40,
+      "география": 40,
+      "химия": 40
+    },
+    "entrance_tests": true,
+    "interview": false,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "activities_matter": "low",
+    "olympiad_benefits": "БВИ для победителей и призёров олимпиад по таблицам соответствия профилей (раздел «Олимпиады для поступления без вступительных испытаний»); индивидуальные достижения дают дополнительные баллы",
+    "documents": [
+      "Паспорт",
+      "Аттестат или диплом СПО с приложением",
+      "СНИЛС",
+      "Документы об особых правах и индивидуальных достижениях",
+      "Медицинская справка (для ряда направлений — предварительный медосмотр)",
+      "Заявление онлайн, через Госуслуги или лично (о. Русский, корп. A, уровень 4)",
+      "Заявление на общежитие — вместе с документами"
+    ],
+    "notes": "Минимальные баллы ЕГЭ 2026 (бюджет и платное одинаково): русский 40, профильная математика 40, физика 41, обществознание 45, информатика 46, остальные 40; творческие испытания по дизайну и журналистике — от 25. Предметы зависят от программы — смотри карточку программы на postupi.dvfu.ru."
+  },
+  "deadlines": [
+    {
+      "what": "Сроки приёма 2027",
+      "intake": "Будут опубликованы в правилах приёма 2027; в 2026 приём шёл с 20 июня, по общей федеральной схеме"
+    },
+    {
+      "what": "Договор на платное обучение со «стартовой» скидкой (2026)",
+      "end": "2026-08-12",
+      "intake": "Осень 2026"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": false,
+    "type": "Для граждан РФ не требуется",
+    "notes": "Эта карточка описывает российского абитуриента; для иностранных граждан университет оформляет приглашение и миграционные документы."
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Студенты живут в гостиничном комплексе кампуса на о. Русский (корпуса 1.8, 1.10, 2.1–2.7, 6–11) и в общежитиях на материковой части Владивостока. Места в первую очередь получают иногородние; первокурсники подают заявление на заселение одновременно с документами в приёмную комиссию. Для заселения нужен паспорт и справка не старше 7 дней. Официального прайса на 2026/27 в открытом доступе нет — стоимость уточняй в приёмной комиссии."
+  },
+  "rankings": [
+    {
+      "name": "RAEX-100",
+      "year": 2026,
+      "position": "25"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=542"
+    }
+  ],
+  "perks": [
+    "campus",
+    "intl_environment",
+    "strong_research",
+    "student_life",
+    "exchange",
+    "military_center",
+    "dual_degree"
+  ],
+  "data_year": 2026,
+  "prep": {
+    "must": "Сдай ЕГЭ под направление: на международные отношения в 2026 году брали от 255 баллов, на программную инженерию — от 244, на лечебное дело — от 227. Подай заявление на общежитие сразу вместе с документами.",
+    "good": "Если не хватит баллов до бюджета, узнай про «стартовые» скидки на платное. Посмотри 3D-тур по кампусу на острове Русский и программы на английском — они хороши для тех, кто хочет связать жизнь с Азией.",
+    "source": "https://postupi.dvfu.ru/docs/prokhodnye-bally/"
+  },
+  "photos": [
+    {
+      "file": "photos/dvfu/1.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Учебные корпуса кампуса на острове Русский"
+    },
+    {
+      "file": "photos/dvfu/2.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Жилые корпуса кампуса среди зелени"
+    },
+    {
+      "file": "photos/dvfu/3.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Двухместный номер в жилом корпусе"
+    },
+    {
+      "file": "photos/dvfu/4.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Номер с рабочими местами"
+    },
+    {
+      "file": "photos/dvfu/5.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Научная библиотека"
+    },
+    {
+      "file": "photos/dvfu/6.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Занятие в лаборатории"
+    },
+    {
+      "file": "photos/dvfu/7.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Студентка за учёбой в комнате"
+    },
+    {
+      "file": "photos/dvfu/8.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Хоккей на открытом катке кампуса"
+    },
+    {
+      "file": "photos/dvfu/9.jpg",
+      "author": "ДВФУ",
+      "license": "© ДВФУ; фото с официального сайта приёмной комиссии",
+      "source_url": "https://postupi.dvfu.ru/",
+      "caption": "Ярмарка студенческих объединений"
+    }
+  ],
+  "founded": 1899,
+  "ownership": "public",
+  "city_size": "mega",
+  "extra_links": [
+    {
+      "title": "Проходные баллы по годам",
+      "url": "https://postupi.dvfu.ru/docs/prokhodnye-bally/"
+    },
+    {
+      "title": "Минимальные баллы ЕГЭ",
+      "url": "https://postupi.dvfu.ru/docs/znacheniya-minimalnykh-ballov-podtverzhdayushchikh-uspeshnoe-prokhozhdenie-vstupitelnogo-ispytaniya/"
+    },
+    {
+      "title": "Направления и бюджетные места",
+      "url": "https://postupi.dvfu.ru/docs/perechen-napravleniy-podgotovki-spetsialnostey-na-kotorye-organizatsiya-budet-osushchestvlyat-priem-/"
+    },
+    {
+      "title": "Платное обучение и скидки",
+      "url": "https://postupi.dvfu.ru/info/postuplenie-po-dogovoru"
+    },
+    {
+      "title": "Общежития и заселение",
+      "url": "https://postupi.dvfu.ru/docs/informatsiya-o-nalichii-obshchezhitiy/"
+    },
+    {
+      "title": "3D-тур по кампусу",
+      "url": "https://kraizemli.ru/vtour/dvfu/index.php"
+    }
   ]
 }

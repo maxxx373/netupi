@@ -2,14 +2,16 @@
   "id": "aucegypt",
   "type": "university",
   "name": {
-    "ru": "The American University in Cairo",
-    "en": "The American University in Cairo"
+    "ru": "Американский университет в Каире",
+    "en": "The American University in Cairo",
+    "short": "AUC",
+    "local": "الجامعة الأمريكية بالقاهرة"
   },
   "country": "EG",
-  "city": "Новый Каир",
+  "city": "Каир (Новый Каир)",
   "website": "https://www.aucegypt.edu/",
   "admissions_url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
-  "about": "Англоязычный исследовательский университет Каира с программами в инженерии, науках, бизнесе, архитектуре, гуманитарных и социальных областях.",
+  "about": "AUC основан в 1919 году американцами и с тех пор остаётся главным англоязычным университетом арабского мира. Сначала он работал во дворце на площади Тахрир в центре Каира, а с 2008 года основная учёба идёт на кампусе в Новом Каире — 260 акров (около 105 га), рассчитанных на 5 500 студентов. Исторический кампус на Тахрире остался культурной площадкой: там театры, галереи и курсы. AUC аккредитован и в Египте, и в США (комиссия MSCHE), инженерные программы и Computer Science — по ABET. Здесь учатся студенты из 60+ стран.\n\nОбучение по американской модели liberal arts: все бакалавры проходят общее ядро курсов по гуманитарным, социальным и естественным наукам, а специальность официально объявляют позже. С осени 2027 на инженерные, научные и бизнес-направления можно заявить специальность сразу при поступлении, если проходишь по профильным требованиям. Программ бакалавриата больше 35: инженерия (компьютерная, механическая, строительная, нефтяная, электроника), архитектура, Computer Science и Data Science, бизнес, экономика, политология, журналистика, египтология, кино и другие.\n\nДеньги: для иностранцев $735 за кредитный час, обычная нагрузка 12–15 кредитов в семестр, то есть $17 640–22 050 в год. Платить можно только в долларах. Официальная смета AUC на год (12 кредитов в семестр): обучение $17 640, сборы $516, книги $1 200, комната на кампусе $2 780, питание $4 300, личные расходы $3 920 — без перелёта около $30 000, с перелётом и поездками по Египту — $37 640. Общежития на кампусе и рядом: 12 жилых блоков с раздельным проживанием юношей и девушек, комната от $1 000 за семестр.",
   "areas": [
     "science",
     "engineering",
@@ -22,31 +24,508 @@
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
     "engineering",
-    "architecture",
+    "it",
+    "natural_sciences",
     "business",
-    "law",
-    "media"
+    "economics",
+    "architecture",
+    "humanities",
+    "social_sciences",
+    "media",
+    "international_relations"
   ],
   "prep": {
-    "must": "Подай онлайн-заявку и загрузи документы об образовании по требованиям своего школьного сертификата. Для всех новых студентов требуется академический английский; нужны две рекомендации от учителей или консультантов.",
-    "good": "Подготовь оригинальное личное заявление, официальные транскрипты и тест английского TOEFL/IELTS/Duolingo. Уточни отдельные критерии программы и дату нужного набора.",
+    "must": "Сдай IELTS Academic на 6.5 с writing 7 (или TOEFL iBT 83+), иначе начнёшь с платного подготовительного английского. До подачи напиши в приёмную комиссию enrolauc@aucegypt.edu, какие оценки российского аттестата нужны для твоей специальности. Подай заявку до 1 февраля — так больше шансов на стипендию.",
+    "good": "Если идёшь на инженерию или Computer Science, сдай SAT Math от 560: это стандартный порог AUC. Напиши сильное эссе и попроси двух учителей о рекомендациях заранее. Открой счёт или карту в банке другой страны — платить нужно в долларах.",
     "source": "https://www.aucegypt.edu/admissions/undergraduate-requirements"
   },
   "sources": [
     {
       "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "сроки 2027, общие требования, документы, английский"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/secondary-school-certificates",
+      "accessed": "2026-11-28",
+      "covers": "типы аттестатов, российского в списке нет"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/sciences-and-engineering-programs",
+      "accessed": "2026-11-28",
+      "covers": "пороги для инженерии, CS, архитектуры"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/undergraduate-requirements/business-programs",
+      "accessed": "2026-11-28",
+      "covers": "отбор на бизнес-программы с осени 2027"
+    },
+    {
+      "url": "https://aucegypt0.sharepoint.com/:b:/s/documents/EWEWocXuH5lAjRwMC1ncK54B9VatOpDh9byvB0QVNfcLTA?e=CZBQWg",
+      "accessed": "2026-11-28",
+      "covers": "пороги IELTS/TOEFL/Duolingo (январь 2026)"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/tuition-and-financial-assistance",
+      "accessed": "2026-11-28",
+      "covers": "$735 за кредит для иностранцев, оплата в USD"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/consumer-information/cost-attendance",
+      "accessed": "2026-11-28",
+      "covers": "полная смета на год: обучение, жильё, питание, личные расходы"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/tuition-and-financial-assistance/how-to-pay",
+      "accessed": "2026-11-28",
+      "covers": "способы оплаты: наличные в CIB, карта, перевод через Citibank NY"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program",
+      "accessed": "2026-11-28",
+      "covers": "стипендии Excellence, сроки 2027"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/tuition-and-financial-assistance/installment-plan",
+      "accessed": "2026-11-28",
+      "covers": "рассрочка"
+    },
+    {
+      "url": "https://www.aucegypt.edu/student-life/residences/rates",
+      "accessed": "2026-11-28",
+      "covers": "цены общежитий 2026/27"
+    },
+    {
+      "url": "https://www.aucegypt.edu/student-life/residences/models",
+      "accessed": "2026-11-28",
+      "covers": "типы комнат, фото общежитий"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/international-students/visa-matters",
+      "accessed": "2026-11-28",
+      "covers": "виза, вид на жительство, госпошлины"
+    },
+    {
+      "url": "https://www.aucegypt.edu/admissions/international-students/health-care-and-insurance",
+      "accessed": "2026-11-28",
+      "covers": "обязательная страховка $190 за семестр"
+    },
+    {
+      "url": "https://www.aucegypt.edu/about",
+      "accessed": "2026-11-28",
+      "covers": "история, кампус 260 акров, фото"
+    },
+    {
+      "url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "accessed": "2026-11-28",
+      "covers": "фото кампуса"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/american-university-cairo",
+      "accessed": "2026-11-28",
+      "covers": "QS 2026 и 2027"
+    },
+    {
+      "url": "https://www.timeshighereducation.com/world-university-rankings/american-university-cairo",
+      "accessed": "2026-11-28",
+      "covers": "THE 2027"
+    },
+    {
+      "url": "https://www.coral.ru/news/perelyot/egipet-podnimaet-stoimosty-vizy-s-1-marta-2026/",
+      "accessed": "2026-11-28",
+      "covers": "стоимость визы по прибытии для россиян (СМИ, сверка)"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Получить от приёмной комиссии AUC требования к российскому аттестату (минимальные оценки по предметам)",
+    "Сверить стоимость визы и документы на 90-дневную визу на сайте консульского отдела посольства Египта в Москве"
+  ],
+  "summary": "Частный англоязычный университет американского образца, один из двух сильнейших в Египте (QS 2027 — 390-е место, Каирский университет — 363-е). Учатся по системе liberal arts: первые семестры — общее ядро курсов, специальность можно выбрать позже. Год обучения для иностранца стоит около $17 600–22 000, полная смета с жильём и едой — около $37 600. Россиянам нужна въездная виза, а после приезда — студенческий вид на жительство, который оформляет университет.",
+  "data_year": 2027,
+  "founded": 1919,
+  "city_size": "mega",
+  "ownership": "private",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "highlights": [
+    "Всё обучение на английском, американская система liberal arts и аккредитация в США",
+    "Инженерия и Computer Science аккредитованы ABET — как в американских вузах; QS 2027 — 390-е место",
+    "Скидка до 100% по программе Excellence; для иностранцев — категория International Diversity до 30%",
+    "Кампус 105 га в Новом Каире: библиотека, лаборатории, бассейн, стадион, общежития в 5–7 минутах от аудиторий",
+    "Общежитие на кампусе от $1 000 за семестр, отдельные блоки для юношей и девушек",
+    "Студенты из 60+ стран и более 52 000 выпускников по всему миру"
+  ],
+  "intl_students_url": "https://www.aucegypt.edu/admissions/international-students/application-steps",
+  "programs": [
+    {
+      "name": "Computer Science (BS) — специализации: встроенные системы, ИИ, кибербезопасность",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год (по 15 в семестр); при 12 кредитах — $17 640. Сборы ~$516 в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Проходного балла нет, решает комиссия. Минимум для заявки на специальность (американский диплом): SAT Math от 560 или ACT Math от 22, средний балл от 3.0, курсы pre-calculus и физики в 11–12 классе. Российский аттестат в таблице AUC отсутствует — пороги уточняют в приёмной комиссии"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/computer-science"
+    },
+    {
+      "name": "Computer Engineering (BS)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год; инженерные программы длиннее — обычно 5 лет. Инженерные программы — около 160 кредитов, поэтому обычно 4,5–5 лет"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Минимум: SAT Math от 560 или ACT Math от 22, средний балл от 3.0, школьные математика, физика и химия"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/computer-engineering"
+    },
+    {
+      "name": "Mechanical Engineering (BS), аккредитация ABET",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год. Инженерные программы — около 160 кредитов, поэтому обычно 4,5–5 лет"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Минимум: SAT Math от 560 или ACT Math от 22, средний балл от 3.0, школьные математика, физика и химия"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/mechanical-engineering"
+    },
+    {
+      "name": "Architecture (Bachelor of Architecture)",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год; плюс материалы и оборудование для студии — $5 000–5 500 за всю учёбу. Инженерные программы — около 160 кредитов, поэтому обычно 4,5–5 лет"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Требования как к инженерным программам (SAT Math от 560 / ACT Math от 22, средний балл от 3.0) плюс обязательный вступительный тест-воркшоп на пространственное и абстрактное мышление"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/architecture"
+    },
+    {
+      "name": "Business and Entrepreneurship (BBE)",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2027,
+        "note": "С осени 2027 специальность можно заявить при поступлении. Конкурс: школьные оценки, тест способностей (ASSESS или ITB Business) и собеседование"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/business-and-entrepreneurship"
+    },
+    {
+      "name": "Political Science (BA)",
+      "field": "international_relations",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "tuition": {
+        "amount": 22050,
+        "currency": "USD",
+        "period": "year",
+        "note": "Около $735 × 30 кредитов в год"
+      },
+      "passing_score": {
+        "kind": "other",
+        "year": 2026,
+        "note": "Отдельных порогов нет: общие требования AUC — аттестат, эссе, две рекомендации и английский (IELTS от 6.5 для обычных курсов)"
+      },
+      "url": "https://www.aucegypt.edu/academics/undergraduate-programs/political-science"
+    }
+  ],
+  "cost": {
+    "tuition_min": {
+      "amount": 17640,
+      "currency": "USD",
+      "period": "year",
+      "note": "2026/27: $735 за кредит × 12 кредитов в семестр × 2 семестра. Плюс сборы $516 и страховка $380 в год"
+    },
+    "tuition_max": {
+      "amount": 22050,
+      "currency": "USD",
+      "period": "year",
+      "note": "Обычная нагрузка 15 кредитов в семестр. Ставка одинаковая для всех программ; платить можно только в долларах США"
+    },
+    "living_month_estimate": {
+      "amount": 1280,
+      "currency": "USD",
+      "period": "month",
+      "note": "По официальной смете AUC на учебный год: комната на кампусе $2 780 + питание $4 300 + личные расходы $3 920 + автобус $552 ≈ $11 550 за 9 месяцев. Квартира вне кампуса — около $4 000 за год"
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Excellence Scholarship — категория Academic Achievement",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "От 20% до 100% стоимости обучения лучшим по оценкам аттестата; конкурируешь с теми, у кого такой же тип аттестата. Рассматривают всех, кто подал заявку на стипендию, и учитывают финансовую нужду",
+        "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program"
+      },
+      {
+        "name": "Excellence Scholarship — International Diversity",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "До 30% для иностранных студентов с сильными оценками; нужно подаваться как international student",
+        "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program"
+      },
+      {
+        "name": "Excellence Scholarship — Talents, Leadership, Liberal Arts Majors",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "До 30% каждая: за спорт, музыку и искусство, лидерство и волонтёрство или выбор гуманитарной специальности. Нужны видео и подтверждающие документы. Стипендии можно совмещать",
+        "url": "https://www.aucegypt.edu/admissions/scholarships/excellence-program"
+      },
+      {
+        "name": "Беспроцентная рассрочка",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Оплата семестра в три платежа без процентов (летом — в два). Новым студентам — через enrolauc@aucegypt.edu",
+        "url": "https://www.aucegypt.edu/admissions/tuition-and-financial-assistance/installment-plan"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Academic IELTS 6.5 и writing от 7 — сразу обычные курсы (RHET 1010). При 5.0–6.5 зачисляют с подготовительным английским (1–2 семестра IEP или ENGL 0210/0211); ниже 5 — не зачисляют"
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "83",
+        "note": "iBT от 83 (новая шкала — от 4.5) и writing от 22 — без подготовительного английского; минимум для зачисления — 48. Код AUC для отправки баллов — 0903, принимают MyBest Scores"
+      },
+      {
+        "exam": "DET",
+        "min_score": "135",
+        "note": "Duolingo 135 — обычные курсы; 105–130 — с подготовительным английским; ниже 105 — не зачисляют"
+      },
+      {
+        "exam": "SAT",
+        "note": "Для общего поступления не обязателен. Для заявки на инженерию, CS и науки: SAT Math от 560 (Data Science, актуарная математика — от 690); по SAT/ACT оценивают и американские аттестаты при отборе на стипендию"
+      }
+    ],
+    "language_level": "Английский академический, примерно B2–C1: IELTS 6.5 (writing 7) для обычных курсов. Тест должен быть не старше двух лет на дату начала семестра. Арабский не нужен",
+    "entrance_tests": false,
+    "interview": false,
+    "portfolio": "no",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "high",
+    "documents": [
+      "Онлайн-заявка на сайте AUC (документы загружаются только через портал, по почте не принимают)",
+      "Аттестат и выписка оценок за старшие классы, с заверенным переводом на английский",
+      "Результат IELTS Academic, TOEFL iBT или Duolingo (TOEFL и Duolingo — электронно напрямую в AUC)",
+      "Личное эссе (personal statement) — проверяют на плагиат",
+      "Две рекомендации от учителей или школьного консультанта: они загружают их сами по ссылке из письма",
+      "Копия паспорта",
+      "Для стипендий — отдельная заявка, видео и подтверждающие документы (кроме категорий Academic Achievement и International Diversity)",
+      "Для архитектуры — вступительный тест-воркшоп; для бизнеса с объявлением специальности — тест ASSESS/ITB Business и собеседование"
+    ],
+    "notes": "Российского аттестата нет в списке типов аттестатов AUC (там американский, британский, IB, французский, немецкий, канадский и арабские). AUC просит в таком случае написать в приёмную комиссию enrolauc@aucegypt.edu до подачи заявки — там скажут, какие оценки и предметы нужны. Зачисление после 11 класса напрямую на 1 курс, foundation не требуется, но без нужного уровня английского дадут 1–2 семестра подготовительного курса. Минимальные требования не гарантируют места: решает конкурс."
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Въездная виза (лучше 90-дневная, цель — учёба) + студенческий вид на жительство (residence permit)",
+    "notes": "Россиянам для въезда в Египет нужна виза. AUC советует заранее получить 90-дневную визу в консульстве Египта (в России — консульский отдел посольства в Москве) и указать целью поездки учёбу: это важно для оформления документов на месте. Туристическую визу по прибытии на 30 дней россиянам тоже дают (с марта 2026 года, по сообщениям СМИ, — $30), но AUC рекомендует не рассчитывать на неё. В списке стран, чьи граждане обязаны регистрировать паспорт в первые 7 дней, России нет. После приезда — обязательная ориентация для иностранцев, и офис Business Support AUC ведёт тебя в миграционную службу оформлять студенческий вид на жительство: госпошлина EGP 7 100, карту продлевают каждый год, виза на повторный въезд — EGP 850. Деньги: обучение и сборы иностранцы платят только в долларах США — наличными в банке CIB, картой или переводом через Citibank в Нью-Йорке. Российские карты в Египте не работают, а долларовые переводы из большинства российских банков заблокированы санкциями, поэтому заранее заведи карту или счёт в банке другой страны или вноси наличные доллары в CIB (вывоз из России больше $10 000 наличными нужно декларировать на таможне). Медицинская страховка AUC обязательна ($190 за семестр) и действует только в Египте.",
+    "url": "https://www.aucegypt.edu/admissions/international-students/visa-matters"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 1000,
+      "currency": "USD",
+      "period": "semester",
+      "note": "Обычная двухместная комната на кампусе, осень 2026 / весна 2027 (≈$220 в месяц). Одноместная — $1 390, premium double со своим санузлом — $1 160, студии в Building Two — до $2 180 за семестр"
+    },
+    "notes": "12 жилых блоков на кампусе с раздельным проживанием юношей и девушек и ещё два корпуса рядом (Building One — только для юношей, Building Two — студии), до них ходит бесплатный шаттл. Комнаты с мебелью, постельным бельём, кондиционером и Wi-Fi; в каждом блоке общая кухня-гостиная, прачечная, круглосуточная учебная комната. Двухместные: три комнаты делят два санузла и холодильник; premium double — свой санузел и мини-холодильник; одноместные — квартира на четверых с двумя санузлами и кухней. До аудиторий 5–7 минут пешком. Место не гарантировано: подаёшь заявку на жильё после зачисления, оплачиваешь вместе с первым взносом за обучение. Питание в стоимость не входит — смета AUC на еду $4 300 в год."
+  },
+  "deadlines": [
+    {
+      "what": "Ранний срок подачи (приоритет по стипендиям)",
+      "end": "2027-02-01",
+      "intake": "Осень 2027 (сентябрь)"
+    },
+    {
+      "what": "Обычный срок подачи",
+      "end": "2027-06-01",
+      "intake": "Осень 2027; после срока — только при наличии мест"
+    },
+    {
+      "what": "Подача на весенний семестр",
+      "end": "2026-11-01",
+      "intake": "Весна 2027 (февраль); следующий весенний срок — 1 ноября 2027"
+    },
+    {
+      "what": "Улучшенный результат английского",
+      "end": "За две недели до начала семестра",
+      "intake": "Осень 2027"
+    }
+  ],
+  "photos": [
+    {
+      "file": "photos/aucegypt/1.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Главная площадь кампуса New Cairo с фонтанами и воротами-аркой"
+    },
+    {
+      "file": "photos/aucegypt/2.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/about",
+      "caption": "Главная библиотека AUC — стеклянный корпус у центральной лужайки"
+    },
+    {
+      "file": "photos/aucegypt/3.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/about",
+      "caption": "Исторический кампус на площади Тахрир в центре Каира — дворец, где AUC открылся в 1919 году"
+    },
+    {
+      "file": "photos/aucegypt/4.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Центральная площадь в учебный день: между корпусами всегда людно"
+    },
+    {
+      "file": "photos/aucegypt/5.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Читальные залы и книжные стеллажи библиотеки"
+    },
+    {
+      "file": "photos/aucegypt/6.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Студенты в химической лаборатории Школы наук и инженерии"
+    },
+    {
+      "file": "photos/aucegypt/7.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Занятия в небольших группах: обсуждение в аудитории"
+    },
+    {
+      "file": "photos/aucegypt/8.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/student-life/residences",
+      "caption": "Общежития на кампусе с высоты: 12 жилых блоков, отдельно для девушек и юношей"
+    },
+    {
+      "file": "photos/aucegypt/9.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/student-life/residences/models",
+      "caption": "Комната premium double в общежитии: две кровати, у каждого стол и шкаф, свой санузел"
+    },
+    {
+      "file": "photos/aucegypt/10.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/student-life/residences/models",
+      "caption": "Общая кухня-гостиная жилого блока"
+    },
+    {
+      "file": "photos/aucegypt/11.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Олимпийский бассейн спорткомплекса AUC"
+    },
+    {
+      "file": "photos/aucegypt/12.jpg",
+      "author": "AUC (The American University in Cairo)",
+      "license": "© The American University in Cairo; фото с официального сайта",
+      "source_url": "https://www.aucegypt.edu/campus-tours/in-photos",
+      "caption": "Сады кампуса: пальмы и цветники между корпусами"
+    }
+  ],
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "=390"
+    },
+    {
+      "name": "QS World University Rankings",
+      "year": 2026,
+      "position": "=381"
+    },
+    {
+      "name": "THE World University Rankings",
+      "year": 2027,
+      "position": "701–800"
+    }
+  ],
+  "perks": [
+    "campus",
+    "intl_environment",
+    "student_life",
+    "small_groups",
+    "exchange",
+    "internships"
   ]
 }

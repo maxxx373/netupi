@@ -222,7 +222,7 @@
         "properties": {
           "file": {
             "type": "string",
-            "description": "Путь в data/photos/"
+            "description": "Путь в data/photos/ либо URL изображения, размещённого вузом"
           },
           "author": {
             "type": "string"

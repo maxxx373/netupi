@@ -25,7 +25,7 @@
     "Тариф Cincinnati Tuition Guarantee: цена обучения и жилья не меняется 4–5 лет",
     "На сайте есть отдельные правила для российского аттестата"
   ],
-  "about": "Государственный исследовательский университет с программами в инженерии, медицине, бизнесе, дизайне и информационных технологиях. Университет подчёркивает практическое обучение и опыт работы в ходе учёбы.",
+  "about": "University of Cincinnati — государственный исследовательский университет в Огайо с программами в инженерии, дизайне, архитектуре, бизнесе, медицине, естественных и гуманитарных науках. Его co-op-модель позволяет студентам некоторых программ чередовать учёбу с работой по специальности; порядок зависит от колледжа. На кампусе есть учебные корпуса, лаборатории, библиотеки, спорт и студенческое жильё. Иностранные первокурсники подают школьные документы и подтверждают английский. Вступительные условия, сроки, дополнительные сборы и возможности практики нужно проверять для конкретной программы; при расчёте бюджета учитывают обучение, проживание, питание и страховку.",
   "areas": [
     "engineering",
     "business",
@@ -169,7 +169,7 @@
     ]
   },
   "requirements": {
-    "gpa_min": 3.0,
+    "gpa_min": 3,
     "intl_exams": [
       {
         "exam": "IELTS",
@@ -259,11 +259,34 @@
   ],
   "photos": [
     {
-      "file": "photos/cincinnati/1.jpg",
-      "author": "Antony-22",
-      "license": "CC BY-SA 4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:McMicken_Hall_UofC_2017.jpg",
-      "caption": "Макмикен-холл на главном кампусе"
+      "file": "https://www.uc.edu/content/uc/_jcr_content/image.img.2400.high.jpg/1795441937728.jpg",
+      "license": "© University of Cincinnati; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uc.edu/",
+      "caption": "Аэрофотосъёмка кампуса University of Cincinnati"
+    },
+    {
+      "file": "https://www.uc.edu/content/uc/_jcr_content/main/responsive_section_199404213/par/image_copy_copy.img.jpeg/177",
+      "license": "© University of Cincinnati; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uc.edu/about.html",
+      "caption": "Студенты на занятии по транспортному дизайну в DAAP"
+    },
+    {
+      "file": "https://www.uc.edu/content/dam/refresh/marketing-communication/campaigns/fy26/ohio-our-home/250418aDART149.jpg",
+      "license": "© University of Cincinnati; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uc.edu/",
+      "caption": "Студенты разговаривают в здании кампуса"
+    },
+    {
+      "file": "https://www.uc.edu/content/uc/campus-life/_jcr_content/main/responsive_section_1802026075/par/image.img.jpeg/177945",
+      "license": "© University of Cincinnati; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uc.edu/campus-life.html",
+      "caption": "Студенты идут по кампусу"
+    },
+    {
+      "file": "https://www.uc.edu/content/uc/campus-life/_jcr_content/image.img.2400.high.jpg/1783700893920.jpg",
+      "license": "© University of Cincinnati; фотография с официального сайта, права на повторное использование не заявлены",
+      "source_url": "https://www.uc.edu/campus-life.html",
+      "caption": "Студенты отдыхают рядом со скульптурой Bearcat"
     }
   ],
   "sources": [

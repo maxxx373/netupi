@@ -2,58 +2,281 @@
   "id": "nairobi",
   "type": "university",
   "name": {
-    "ru": "University of Nairobi",
-    "en": "University of Nairobi"
+    "ru": "Найробийский университет",
+    "en": "University of Nairobi",
+    "short": "UoN"
   },
   "country": "KE",
   "city": "Найроби",
   "website": "https://www.uonbi.ac.ke/",
-  "admissions_url": "https://business.uonbi.ac.ke/node/577",
-  "about": "Крупный государственный университет Кении с программами по сельскому хозяйству, ветеринарии, инженерии, строительству, медицине и естественным наукам.",
+  "admissions_url": "https://www.uonbi.ac.ke/content/how-apply",
+  "about": "University of Nairobi — государственный исследовательский университет, основанный в 1956 году как Royal Technical College. Его кампусы и факультеты расположены в Найроби, среди городской инфраструктуры и рядом с национальными организациями, больницами и исследовательскими центрами. Университет предлагает обучение в медицине и здравоохранении, инженерии, архитектуре, сельском хозяйстве, бизнесе, праве, образовании, науке, гуманитарных и общественных дисциплинах.\n\nИностранные абитуриенты подают документы на выбранную программу и подтверждают, что их школьная квалификация эквивалентна кенийскому KCSE; признание проверяется национальными органами и факультетом. Предметные требования, минимальные оценки и длительность различаются по курсам. Университет предлагает международным студентам отдельную информационную страницу с контактами и ссылками на admission, fees и accommodation. Английский — основной язык обучения во многих программах, однако нужно проверить требуемое подтверждение языка и профессиональные ограничения для конкретного курса.\n\nПлата зависит от факультета и программы; официальный сайт указывает оплату для иностранных студентов и публикует таблицы в USD, поэтому фиксированная единая цена для всего университета некорректна. Кампусное общежитие есть, но распределение ограничено, бронировать нужно заранее; университетский ресурс советует иностранцам планировать подачу заблаговременно. Для обучения гражданину России требуется Kenyan Student Pass; после допуска нужно следовать официальному процессу eFNS и проверить список документов, сборы и финансовые требования.",
   "areas": [
-    "science",
-    "engineering",
-    "construction",
-    "architecture",
     "medicine",
-    "botany",
+    "health sciences",
+    "engineering",
     "agriculture",
-    "veterinary",
-    "environment",
-    "law"
+    "business",
+    "law",
+    "education",
+    "natural sciences"
   ],
-  "art": "modern",
+  "art": "historic",
   "fields": [
-    "natural_sciences",
-    "engineering",
-    "architecture",
     "medicine",
+    "engineering",
+    "business",
+    "natural_sciences",
     "agriculture",
-    "law"
+    "law",
+    "pedagogy",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Иностранный школьный диплом должен быть приравнен к кенийской квалификации компетентным органом. Нужно выполнить общие и программные требования университета и получить документы, необходимые для студенческого разрешения.",
-    "good": "Заранее подай на оценку/эквивалентность диплома, подготовь транскрипт и переводы. Проверь пороги отдельно по факультету и наличие лабораторных или профессиональных prerequisites.",
-    "source": "https://www.uonbi.ac.ke/sites/default/files/Procedure%20for%20Equation%20of%20Foreign%20Qualifications.pdf"
+    "must": "Выбери факультет и проверь признание школьной квалификации как эквивалента KCSE, предметы и оценки; запроси инструкции для иностранных абитуриентов.",
+    "good": "Заранее планируй общежитие и визу Student Pass; уточни действующие tuition и сборы у факультета до оплаты.",
+    "source": "https://education.uonbi.ac.ke/international-students"
   },
   "sources": [
     {
-      "url": "https://business.uonbi.ac.ke/node/577",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "url": "https://education.uonbi.ac.ke/international-students",
+      "accessed": "2026-11-28",
+      "covers": "информация для иностранных студентов"
     },
     {
-      "url": "https://www.uonbi.ac.ke/sites/default/files/Procedure%20for%20Equation%20of%20Foreign%20Qualifications.pdf",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://www.uonbi.ac.ke/content/how-apply",
+      "accessed": "2026-11-28",
+      "covers": "подача документов и заявочный сбор"
+    },
+    {
+      "url": "https://socialsciences.uonbi.ac.ke/node/320",
+      "accessed": "2026-11-28",
+      "covers": "эквивалентность международных школьных квалификаций"
+    },
+    {
+      "url": "https://uonbi.ac.ke/fees/",
+      "accessed": "2026-11-28",
+      "covers": "официальные платежи и тарифы"
+    },
+    {
+      "url": "https://www.uonbi.ac.ke/halls-department",
+      "accessed": "2026-11-28",
+      "covers": "общежития и порядок подачи"
+    },
+    {
+      "url": "https://icca.uonbi.ac.ke/basic-page/international-students",
+      "accessed": "2026-11-28",
+      "covers": "вопросы жилья и сопровождение международных студентов"
+    },
+    {
+      "url": "https://fns.immigration.go.ke/",
+      "accessed": "2026-11-28",
+      "covers": "официальная система подачи на Student Pass"
+    },
+    {
+      "url": "https://advancement.uonbi.ac.ke/",
+      "accessed": "2026-11-28",
+      "covers": "фото сообщества университета"
+    },
+    {
+      "url": "https://application.uonbi.ac.ke/",
+      "accessed": "2026-11-28",
+      "covers": "программы и сроки набора 2027/2028"
+    },
+    {
+      "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=H31",
+      "accessed": "2026-11-28",
+      "covers": "условия поступления на Medicine and Surgery"
+    },
+    {
+      "url": "https://application.uonbi.ac.ke/index.php/CourseApplication/viewdetailslogin?deg_code=D33",
+      "accessed": "2026-11-28",
+      "covers": "условия поступления на Bachelor of Commerce"
+    },
+    {
+      "url": "https://application.uonbi.ac.ke/fee_struct.php?deg_code=G34&intake_code=41917",
+      "accessed": "2026-11-28",
+      "covers": "официальная программа платежей и сборы для отдельной программы"
+    },
+    {
+      "url": "https://topuniversities.com/universities/university-nairobi",
+      "accessed": "2026-11-28",
+      "covers": "рейтинги QS"
+    },
+    {
+      "url": "https://immigration.go.ke/students-pass/",
+      "accessed": "2026-11-28",
+      "covers": "актуальные официальные визовые правила и процедура для граждан России"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/university-nairobi",
+      "accessed": "2026-11-28",
+      "covers": "QS profile, rankings and city cost-of-living estimates; estimate is third-party and not a university charge"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Получить актуальные fee schedules именно для Computer Science, Medicine and Surgery и Commerce; найденная официальная таблица относится к другой программе, поэтому её цены нельзя переносить.",
+    "Уточнить официальную ставку общежития и бюджет жизни в Найроби для международного студента.",
+    "Уточнить оценку российского аттестата/предметов у Admissions Office и органа признания квалификаций Кении.",
+    "Подтвердить доступный из РФ способ оплаты до выставления счёта."
+  ],
+  "summary": "Найробийский университет — государственный университет Кении, основанный в 1956 году. Его кампусы и факультеты находятся в Найроби и окрестностях; университет предлагает программы в медицине, инженерии, ИТ, бизнесе, праве, сельском хозяйстве и естественных науках. Для зарубежного аттестата требуется оценка эквивалентности кенийской школьной квалификации, а требования и плата различаются по факультету и программе.",
+  "intl_students_url": "https://education.uonbi.ac.ke/international-students",
+  "founded": 1956,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Государственный многопрофильный университет со многими кампусами в Найроби",
+    "Иностранный аттестат должен быть признан эквивалентным KCSE",
+    "Международные студенты должны заранее отдельно запрашивать жильё"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://computerscience.uonbi.ac.ke/"
+    },
+    {
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 6,
+      "url": "https://medschool.uonbi.ac.ke/"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://business.uonbi.ac.ke/"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Необходима эквивалентность иностранного аттестата KCSE; конкретный порог и предметы устанавливает факультет."
+      },
+      {
+        "exam": "IELTS",
+        "note": "Может требоваться подтверждение английского для отдельных кандидатов; уточнить у факультета."
+      }
+    ],
+    "language_level": "Основной язык многих программ — английский; необходимость и вид языкового теста уточняются индивидуально.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и оценки",
+      "Подтверждение признания/эквивалентности иностранной квалификации",
+      "Переводы на английский",
+      "Подтверждение языка при необходимости",
+      "Документы факультета и подтверждение оплаты заявки"
+    ],
+    "notes": "Универсального проходного балла для всех программ нет; требования, лицензирование и вступительные этапы зависят от факультета. Насчёт оплаты из РФ: В официальной инструкции по одному курсу UoN указаны банковский перевод EFT/RTGS/TT и другие местные способы, но университет не подтверждает прохождение переводов из российских банков. До оплаты запроси реквизиты и письменное подтверждение допустимого способа оплаты у UoN; не делай вывод о доступности SWIFT по одному факту наличия банковского счёта."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Kenya Student Pass",
+    "notes": "Иностранцу для обучения в Кении требуется Student’s Pass. Иммиграционная служба перечисляет admission letter, заявление, заверенные документы об образовании, спонсорские и финансовые документы; для несовершеннолетних нужны согласие родителя и его паспортные данные. Тариф для граждан вне Восточноафриканского сообщества указан как 100 USD в год. Для россиян в открытых инструкциях отдельного исключения не указано; подавайся через официальную систему после получения зачисления.",
+    "url": "https://immigration.go.ke/students-pass/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университетские halls доступны по заявке, но места не гарантированы и подача повторяется каждый учебный год. Международным кандидатам следует заранее связаться с факультетом/International Office и уточнить актуальный тариф и доступность."
+  },
+  "photos": [
+    {
+      "file": "https://finance.uonbi.ac.ke/sites/finance.uonbi.ac.ke/files/styles/large/public/2020-02/IMG_6252%20copy_0.jpg?itok=hl_6WEpb",
+      "license": "© University of Nairobi; изображение с официального сайта, лицензия на повторное использование не заявлена",
+      "source_url": "https://finance.uonbi.ac.ke/node/576",
+      "caption": "Главный вход в кампус University of Nairobi"
+    },
+    {
+      "file": "https://www.uonbi.ac.ke/sites/default/files/Intake%202025%20Banner.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uonbi.ac.ke/",
+      "caption": "Университетский кампус и информация для новых студентов"
+    },
+    {
+      "file": "https://www.uonbi.ac.ke/sites/default/files/styles/academics_416x350_/public/undergrad_5.jpeg?itok=9K-T-oso",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uonbi.ac.ke/",
+      "caption": "Учебная среда бакалавриата"
+    },
+    {
+      "file": "https://www.uonbi.ac.ke/sites/default/files/Hostel-Raw.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uonbi.ac.ke/",
+      "caption": "Студенческое общежитие UoN"
+    },
+    {
+      "file": "https://www.uonbi.ac.ke/sites/default/files/UoN%2076%20Graduation%20Banner.png",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.uonbi.ac.ke/",
+      "caption": "Выпускная церемония и студенческое сообщество"
+    },
+    {
+      "file": "https://advancement.uonbi.ac.ke/sites/advancement.uonbi.ac.ke/files/styles/large/public/2020-09/UoN%20Students.jpg?itok=HjjF1gei",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://advancement.uonbi.ac.ke/",
+      "caption": "Студенты на территории University of Nairobi"
+    }
+  ],
+  "data_year": 2027,
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "1001–1200"
+    }
+  ],
+  "deadlines": [
+    {
+      "what": "Подача заявок на сентябрьский набор 2027 года для программ, опубликованных в портале приёма",
+      "end": "2027-09-26",
+      "intake": "September 2027"
+    }
+  ],
+  "cost": {
+    "living_month_estimate": {
+      "amount": 410.83,
+      "currency": "USD",
+      "period": "month",
+      "note": "Оценка QS для города главного кампуса: сумма годовых оценок жилья, питания, транспорта и коммунальных услуг ($4930/год) разделена на 12; это ориентир, не тариф университета."
+    }
+  }
 }

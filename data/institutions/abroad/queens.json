@@ -2,53 +2,291 @@
   "id": "queens",
   "type": "university",
   "name": {
-    "ru": "Queen’s University",
-    "en": "Queen’s University"
+    "ru": "Королевский университет (Queen’s)",
+    "en": "Queen’s University",
+    "short": "Queen's"
   },
   "country": "CA",
   "city": "Кингстон, Онтарио",
   "website": "https://www.queensu.ca/",
   "admissions_url": "https://www.queensu.ca/admission/applying/admission-requirements",
-  "about": "Исследовательский университет в Кингстоне. Программы бакалавриата включают искусство, науку, инженерное дело, бизнес и здравоохранение; для некоторых направлений есть дополнительные формы или прослушивания.",
+  "about": "Queen’s University — государственный исследовательский университет в Кингстоне (Онтарио), основанный в 1841 году. Главный кампус находится у озера Онтарио и известен историческими зданиями из известняка, библиотеками, учебными корпусами и компактной студенческой средой; есть основной и West Campus. Университет предлагает программы Arts & Science, Commerce, Computing, Engineering, Health Sciences, Law и другие.\n\nМеждународный абитуриент подаёт заявку через OUAC и должен выполнить как общие, так и программные требования. Эквивалентность школьных предметов и минимальные оценки определяются по стране и выбранному направлению; для некоторых программ есть дополнительные формы, эссе или профильные материалы. Для обучения на английском требуется подтверждение языка или признанное освобождение. Отбор конкурсный, поэтому опубликованные минимумы не гарантируют поступление.\n\nДля 2026/27 официальная плата на типичную нагрузку Arts & Science составляет около CAD 44,810 tuition; суммы Computing, Commerce и другие отличаются, общая оценка расходов Arts & Science с обязательными сборами — около CAD 57,123 без проживания. Residence + meal plan на учебный год — ориентировочно CAD 13,100–20,331 в зависимости от комнаты и плана. Есть первокурсные резиденции, а будущая гарантия зависит от дедлайна offer, заявки и депозита; условия проверяются по конкретному циклу. Международные awards доступны по отдельным правилам. Для обучения россиянину обычно требуется канадский study permit и применимые сопутствующие документы, например PAL/TAL; сверяй актуальный порядок IRCC.",
   "areas": [
-    "science",
     "engineering",
-    "business",
-    "economics",
-    "medicine",
+    "computing",
+    "commerce",
+    "health sciences",
     "law",
-    "languages",
-    "psychology"
+    "arts and science",
+    "education"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
-    "natural_sciences",
     "engineering",
+    "it",
     "business",
-    "economics",
+    "natural_sciences",
     "medicine",
     "law",
-    "linguistics",
+    "humanities",
+    "social_sciences",
     "psychology"
   ],
   "prep": {
-    "must": "Заявка и школьные документы; prerequisites и конкурентные результаты выбранной программы; языковое подтверждение, если требуется. После подачи проверь список задач в SOLUS.",
-    "good": "Заранее подготовь дополнительные формы для программ, где они обязательны; для музыки — планируй прослушивание, для ряда программ — supplementary application.",
+    "must": "Выбери программу, затем проверь эквивалентные предметы и оценки для своей страны, английский и дополнительные материалы; подавай через OUAC.",
+    "good": "Составь бюджет tuition + fees + residence/meal plan и следи за отдельным дедлайном заявки на жильё.",
     "source": "https://www.queensu.ca/admission/applying/admission-requirements"
   },
   "sources": [
     {
       "url": "https://www.queensu.ca/admission/applying/admission-requirements",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-26",
+      "covers": "требования, в том числе для международных абитуриентов"
+    },
+    {
+      "url": "https://www.queensu.ca/registrar/tuition-fees/undergraduate",
+      "accessed": "2026-11-26",
+      "covers": "tuition 2026/27 по факультетам"
+    },
+    {
+      "url": "https://www.queensu.ca/registrar/tuition-fees/expenses-budgets",
+      "accessed": "2026-11-26",
+      "covers": "общий бюджет расходов и fees"
+    },
+    {
+      "url": "https://www.queensu.ca/residences/buildings",
+      "accessed": "2026-11-26",
+      "covers": "жилые корпуса, места и типы комнат"
+    },
+    {
+      "url": "https://www.queensu.ca/residences/apply/residence-fees",
+      "accessed": "2026-11-26",
+      "covers": "срок депозита за общежитие 2027"
+    },
+    {
+      "url": "https://www.queensu.ca/residences/apply/first-year-student-residence-application",
+      "accessed": "2026-11-26",
+      "covers": "сроки, гарантия и порядок заявки на residence"
+    },
+    {
+      "url": "https://www.queensu.ca/registrar/financial-aid/specific-students/international",
+      "accessed": "2026-11-26",
+      "covers": "международные awards"
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+      "accessed": "2026-11-26",
+      "covers": "канадский study permit"
+    },
+    {
+      "url": "https://visa.vfsglobal.com/rus/en/can/",
+      "accessed": "2026-11-26",
+      "covers": "биометрия в визовых центрах Канады в России"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-26",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Минимальные баллы английского для 2027",
+    "Требования к российскому аттестату (раздел по странам)",
+    "Место в QS 2027"
+  ],
+  "summary": "Один из старейших университетов Канады (1841) в Кингстоне, Онтарио, известен бизнес-школой Smith, инженерией и сильной студенческой жизнью. Обучение для иностранцев в 2026/27 — от 44 810 канадских долларов (искусства и науки) до 60 839 (коммерция). Подача — через OUAC.",
+  "intl_students_url": "https://www.queensu.ca/admission/applying/admission-requirements/international",
+  "founded": 1841,
+  "city_size": "mid",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Исторический кампус на берегу озера Онтарио",
+    "Обучение для иностранцев 44 810–60 839 CAD в год (2026/27)",
+    "Большинство первокурсников живут в резиденциях",
+    "Депозит за общежитие для первокурсников — до 1 июня 2027",
+    "Сильная бизнес-школа Smith и инженерия"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Computing",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.queensu.ca/admission/programs/computing",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.queensu.ca/admission/programs/commerce",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
+    },
+    {
+      "name": "Bachelor of Applied Science (Engineering)",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.queensu.ca/admission/programs/engineering",
+      "passing_score": {
+        "year": 2027,
+        "kind": "gpa_certificate",
+        "note": "Минимальный средний балл не публикуется; проходной уровень зависит от программы"
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "6.5",
+        "note": "Обычно Queen’s указывает общий минимум, но могут быть минимумы по компонентам/программам; сверить актуальный цикл."
+      },
+      {
+        "exam": "TOEFL",
+        "note": "Принимаемый формат и баллы зависят от опубликованных требований English language proficiency."
+      }
+    ],
+    "language_level": "Подтверждение английского согласно текущим правилам Queen’s; для некоторых абитуриентов возможны освобождения.",
+    "entrance_tests": false,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Аттестат и оценки старших классов",
+      "Предметные prerequisites по выбранной программе",
+      "Подтверждение английского или признанное освобождение",
+      "Переводы и заверения",
+      "Supplementary application/эссе/портфолио для выбранных программ"
+    ],
+    "notes": "Требования по стране и программе различаются; используйте Queen’s international selector и текущую страницу конкретной программы. Конкурентные оценки выше минимальных."
+  },
+  "cost": {
+    "tuition_min": {
+      "amount": 44810,
+      "currency": "CAD",
+      "period": "year",
+      "note": "2026/27 ориентир Arts & Science tuition на стандартную нагрузку; не включает fees, жильё и питание."
+    },
+    "tuition_max": {
+      "amount": 60839,
+      "currency": "CAD",
+      "period": "year",
+      "note": "2026/27 ориентир Commerce tuition; другие программы имеют другие ставки. Стоимость меняется по программе и нагрузке."
+    }
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Dean’s International Award",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Иностранные студенты автоматически рассматриваются на ряд наград; сумма, факультет, возобновление и критерии зависят от award и программы.",
+        "url": "https://www.queensu.ca/registrar/financial-aid/specific-students/international"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Разрешение на учёбу (study permit) + PAL Онтарио",
+    "notes": "Нужно разрешение на учёбу (study permit). Для бакалавриата требуется провинциальное письмо PAL (Онтарио) — его выдаёт университет после зачисления. Подаёшь онлайн в IRCC с письмом о зачислении, PAL и подтверждением денег на обучение и жизнь. Биометрию россияне сдают по записи в визовых центрах Канады в России. С 29 января 2026 эти центры больше не пересылают паспорта в посольство — как передать паспорт для визы, смотри в инструкциях IRCC после одобрения.",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 1638,
+      "currency": "CAD",
+      "period": "month",
+      "note": "Грубое деление официальной стоимости residence + meal plan CAD 13,100–20,331 за 8 месяцев на 8; конкретная комната и план питания определяют сумму."
+    },
+    "notes": "Queen’s предлагает 18 residence buildings и около 4,800 мест для первокурсников. Есть single, double, loft double, triple и quad; конфигурация ванной/питания зависит от корпуса. Гарантия зависит от предложения о зачислении и соблюдения актуального срока заявки и депозита."
+  },
+  "photos": [
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Grant_Hall_%28Queen%27s_University_at_Kingston%29.jpg/1280px-Grant_Hall_%28Queen%27s_University_at_Kingston%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Takipoint123",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grant_Hall_(Queen%27s_University_at_Kingston).jpg",
+      "caption": "Grant Hall — символ Queen’s с часовой башней"
+    },
+    {
+      "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/DJI_0090%20%281%29.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.queensu.ca/residences/buildings",
+      "caption": "Кампус и резиденции на берегу озера Онтарио"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Goodes_Hall_-_Queens_University%2C_Canada.JPG/1280px-Goodes_Hall_-_Queens_University%2C_Canada.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Acurran at English Wikipedia",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Goodes_Hall_-_Queens_University,_Canada.JPG",
+      "caption": "Goodes Hall — бизнес-школа Smith"
+    },
+    {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Summerhill_at_Queen%27s_University_in_2007.jpg/1280px-Summerhill_at_Queen%27s_University_in_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "John Vetterli",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Summerhill_at_Queen%27s_University_in_2007.jpg",
+      "caption": "Summerhill — старейшее здание кампуса"
+    },
+    {
+      "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Adelaide/Adelaide-Hall01-small-1024x683.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.queensu.ca/residences/buildings",
+      "caption": "Adelaide Hall — резиденция"
+    },
+    {
+      "file": "https://www.queensu.ca/residences/sites/residencewww/files/uploaded_images/Buildings/Brant/Brant-House-ext-5-1024x683.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.queensu.ca/residences/buildings",
+      "caption": "Brant House — резиденция"
+    }
+  ],
+  "data_year": 2027,
+  "deadlines": [
+    {
+      "what": "Подача через OUAC (105) для равного рассмотрения",
+      "end": "01-15",
+      "intake": "Сентябрь 2027"
+    },
+    {
+      "what": "Заявка и депозит на общежитие для первокурсников",
+      "end": "2027-06-01"
+    }
+  ],
+  "perks": [
+    "student_life",
+    "campus",
+    "strong_research",
+    "employment"
   ]
 }

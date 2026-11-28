@@ -2,14 +2,18 @@
   "id": "tecmonterrey",
   "type": "university",
   "name": {
-    "ru": "Tecnológico de Monterrey",
-    "en": "Tecnológico de Monterrey"
+    "ru": "Технологический институт и высшее образование Монтеррея",
+    "en": "Tecnológico de Monterrey",
+    "short": "Tec de Monterrey",
+    "alt": [
+      "ITESM"
+    ]
   },
   "country": "MX",
   "city": "Монтеррей",
   "website": "https://tec.mx/en",
   "admissions_url": "https://tec.mx/en/undergraduate",
-  "about": "Частный технологический университет Мексики с программами в инженерии, бизнесе, архитектуре, дизайне, ИТ и устойчивом развитии.",
+  "about": "Tec de Monterrey — частный мексиканский университет с кампусами по всей стране и международными партнёрами. Учебные направления включают бизнес и предпринимательство, инженерные и вычислительные науки, медицину, архитектуру и дизайн, гуманитарные и социальные науки. Модель обучения опирается на междисциплинарные проекты и практику. Кампус и условия проживания различаются по городу; отдельные кампусы предлагают общежития Tec и студенческие сервисы. Приём ведётся по кампусу и программе, поэтому критерии, сроки и доступные места надо сверять для конкретного набора.",
   "areas": [
     "engineering",
     "construction",
@@ -23,12 +27,13 @@
   "art": "modern",
   "fields": [
     "engineering",
-    "architecture",
     "it",
     "business",
+    "medicine",
+    "architecture",
     "design_art",
-    "natural_sciences",
-    "agriculture"
+    "social_sciences",
+    "natural_sciences"
   ],
   "prep": {
     "must": "Зарегистрируй онлайн-заявку, загрузи текущие школьные оценки и документы личности, выполни внутреннее академическое тестирование и языковые требования выбранной программы.",
@@ -38,16 +43,213 @@
   "sources": [
     {
       "url": "https://tec.mx/en/undergraduate",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "порядок поступления, документы и календарь набора"
+    },
+    {
+      "url": "https://tec.mx/en/undergraduate/tuition-fees",
+      "accessed": "2026-11-28",
+      "covers": "официальный калькулятор стоимости обучения"
+    },
+    {
+      "url": "https://tec.mx/en/undergraduate/faq",
+      "accessed": "2026-11-28",
+      "covers": "ответы о приёме и финансовой помощи"
+    },
+    {
+      "url": "https://market.tec.mx/servicios-en-campus/residencias-tec",
+      "accessed": "2026-11-28",
+      "covers": "описание резиденций Tec"
+    },
+    {
+      "url": "https://tec.mx/en/undergraduate/scholarships",
+      "accessed": "2026-11-28",
+      "covers": "программы стипендий"
+    },
+    {
+      "url": "https://tec.mx/es/monterrey",
+      "accessed": "2026-11-28",
+      "covers": "Кампус Монтеррей, академические направления и инфраструктура"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/tecnologico-de-monterrey",
+      "accessed": "2026-11-28",
+      "covers": "год основания и QS World University Rankings 2027"
+    },
+    {
+      "url": "https://embamex.sre.gob.mx/rusia/ru/visasruso",
+      "accessed": "2026-11-28",
+      "covers": "актуальные официальные визовые правила и процедура для граждан России"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить точную стоимость для выбранного кампуса и программы по официальному симулятору; цена зависит от программы и числа кредитов.",
+    "Уточнить минимальные языковые результаты и документы российского аттестата у международной приёмной комиссии.",
+    "Получить подтверждение способа оплаты из РФ и расходов на проживание; на публичных страницах нет универсальной суммы для всех кампусов.",
+    "Проверить даты следующего доступного набора: опубликованные даты 2026 года уже прошли."
+  ],
+  "summary": "Tec de Monterrey — частный многопрофильный университет, основанный в 1943 году, с кампусами по всей Мексике. Главный кампус находится в Монтеррее; университет предлагает программы в инженерии, ИТ, бизнесе, медицине, архитектуре и других областях. Стоимость и требования зависят от кампуса и программы, поэтому цену и правила конкретного набора нужно проверять через официальные инструменты университета.",
+  "highlights": [
+    "Много кампусов по Мексике — выбор города влияет на учебный и бытовой бюджет",
+    "Поступление оценивает не только школьные оценки, но и профиль кандидата",
+    "Онлайн-симулятор рассчитывает цену по кампусу, программе и нагрузке",
+    "Есть кампусные резиденции Tec; наличие мест и правила отличаются по кампусам"
+  ],
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es",
+    "en"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "programs": [
+    {
+      "name": "Computer Science and Technology",
+      "field": "it",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 4
+    },
+    {
+      "name": "Business and Strategy",
+      "field": "business",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 4
+    },
+    {
+      "name": "Architecture",
+      "field": "architecture",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 4
+    },
+    {
+      "name": "Biomedical Engineering",
+      "field": "engineering",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 4
+    }
+  ],
+  "cost": {},
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "Tec Excellence Scholarships",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Стипендии и образовательные кредиты зависят от критериев и кампуса; иностранцам проверить конкретную конкурсную программу.",
+        "url": "https://tec.mx/en/undergraduate/scholarships"
+      }
+    ]
+  },
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "SAT",
+        "note": "SAT/ACT могут учитываться в заявке; обязательность зависит от кампуса, программы и профиля кандидата."
+      },
+      {
+        "exam": "IELTS",
+        "note": "Подтверждение английского требуется для программ на английском; минимум задаёт конкретная программа."
+      }
+    ],
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": false,
+    "activities_matter": "high",
+    "documents": [
+      "Документ о рождении",
+      "Школьный аттестат или текущая справка с оценками",
+      "Удостоверение личности/паспорт",
+      "Эссе и резюме/анкета профиля",
+      "Документы законного представителя для несовершеннолетних"
+    ],
+    "notes": "Актуальные правила на 2027 год ещё могут публиковаться; российский аттестат и переводы/легализацию проверить у международного приёмного офиса. Насчёт оплаты из РФ: Публичная страница Tec ведёт к электронному калькулятору и платёжным инструкциям, но не подтверждает приём переводов из российских банков. До оплаты запроси у приёмного офиса письменное подтверждение доступного способа оплаты для плательщика из РФ; не отправляй деньги на реквизиты из неофициальных источников."
+  },
+  "deadlines": [
+    {
+      "what": "Подача и рассмотрение по календарю кампуса и программы",
+      "intake": "February/August; 2027 dates to confirm"
+    }
+  ],
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Mexican temporary resident student visa",
+    "notes": "Для граждан России (россиян) мексиканское посольство указывает электронное разрешение для поездки самолётом на учёбу до 180 дней; при обучении свыше 180 дней нужна виза временного резидента-студента, оформляемая в консульстве. Для краткой учёбы нужно иметь при себе письмо о зачислении. Перед поездкой проверь актуальную процедуру в Посольстве Мексики в РФ: правила въезда могут измениться, а разрешение не гарантирует допуск на границе.",
+    "url": "https://embamex.sre.gob.mx/rusia/ru/visasruso"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Резиденции есть в ряде кампусов, но условия, цена и гарантия места зависят от кампуса и наличия комнат."
+  },
+  "perks": [
+    "campus",
+    "internships",
+    "exchange",
+    "intl_environment",
+    "employment",
+    "student_life"
+  ],
+  "data_year": 2027,
+  "photos": [
+    {
+      "file": "https://tec.mx/sites/default/files/repositorio/Nosotros/Gobierno%20Institucional/Oficina%20del%20Presidente/rectoria-campus-monterrey-tec-de-monterrey.jpg",
+      "license": "© Tecnológico de Monterrey; изображение с официального сайта, лицензия на повторное использование не заявлена",
+      "source_url": "https://tec.mx/es/conocenos/oficina-del-presidente-ejecutivo",
+      "caption": "Ректорат главного кампуса Tec de Monterrey в Монтеррее"
+    },
+    {
+      "file": "https://tec.mx/sites/default/files/styles/16_9_campus/public/repositorio/Campus/Ciudad%20Obreg%C3%B3n/vista-panoramica-campus-ciudad-obregon-tec-de-monterrey.jpg.webp?itok=EGpAHEFT",
+      "license": "© правообладатель (официальный сайт учреждения); внешняя фотография, права на повторное использование не заявлены",
+      "source_url": "https://tec.mx/en",
+      "caption": "Campus Ciudad Obregón con alumnos, estatua y edificio al fondo"
+    },
+    {
+      "file": "https://tec.mx/sites/default/files/styles/100_/public/repositorio/Home/educacion-oferta-tec-de-monterrey.jpeg.webp?itok=ZHmvXx9I",
+      "license": "© правообладатель (официальный сайт учреждения); внешняя фотография, права на повторное использование не заявлены",
+      "source_url": "https://tec.mx/en",
+      "caption": "Alumno en laboratorio de Campus Guadalajara"
+    },
+    {
+      "file": "https://tec.mx/sites/default/files/styles/100_/public/2023-08/residencias-tec-de-monterrey.png.webp?itok=dH_NDIqD",
+      "license": "© правообладатель (официальный сайт учреждения); внешняя фотография, права на повторное использование не заявлены",
+      "source_url": "https://tec.mx/en",
+      "caption": "Residencias Tec"
+    },
+    {
+      "file": "https://tec.mx/sites/default/files/styles/recorte_cuadrado/public/repositorio/Home/admisiones-tec-de-monterrey.webp?h=428e9e94&itok=nVcPEGde",
+      "license": "© правообладатель (официальный сайт учреждения); внешняя фотография, права на повторное использование не заявлены",
+      "source_url": "https://tec.mx/en",
+      "caption": "Tec de Monterrey´s students"
+    },
+    {
+      "file": "https://tec.mx/sites/default/files/styles/16_9_campus/public/repositorio/Campus/Ciudad%20Obreg%C3%B3n/estatua-borrego-ciudad-obregon-tec-de-monterrey.jpg.webp?itok=q_1uL82W",
+      "license": "© правообладатель (официальный сайт учреждения); внешняя фотография, права на повторное использование не заявлены",
+      "source_url": "https://tec.mx/en",
+      "caption": "Campus con estatua central, alumnos y edificio principal"
+    }
+  ],
+  "city_size": "mega",
+  "ownership": "private",
+  "founded": 1943,
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "188"
+    }
   ]
 }

@@ -2,27 +2,26 @@
   "id": "unam",
   "type": "university",
   "name": {
-    "ru": "National Autonomous University of Mexico",
+    "ru": "Национальный автономный университет Мексики",
     "en": "National Autonomous University of Mexico"
   },
   "country": "MX",
   "city": "Мехико",
   "website": "https://www.unam.mx/",
   "admissions_url": "https://www.dgae.unam.mx/",
-  "about": "Крупный государственный университет Мексики с программами от инженерии, медицины и архитектуры до наук о растениях, сельского хозяйства и гуманитарных областей.",
+  "about": "Universidad Nacional Autónoma de México (UNAM) — государственный исследовательский университет, основанный в 1910 году; главный кампус Ciudad Universitaria в Мехико включён в список Всемирного наследия UNESCO. Университет объединяет десятки факультетов, исследовательских институтов, библиотек, музеев и спортивных площадок; в разных частях столицы работают дополнительные школы и центры. Бакалаврские направления включают медицину, инженерное дело, право, архитектуру, естественные и социальные науки, сельское хозяйство, искусство и гуманитарные дисциплины. Основной язык обучения — испанский.\n\nИностранный абитуриент поступает по общей процедуре DGAE: нужно подать заявку, выполнить школьные требования и сдать конкурсный вступительный экзамен. Если аттестат получен за пределами Мексики, требуется процедура revalidación/эквивалентности школьного образования; в инструкциях UNAM для зарубежных документов указывается минимальный эквивалент среднего балла 7/10. Для тех, кто не учился на испанском, UNAM требует подтвердить достаточный испанский через CEPE. Требования к предметам, конкурс и места зависят от степени и кампуса; дистанционные программы имеют свои правила.\n\nUNAM — государственный вуз с низкой оплатой обучения, однако вступительный сбор, регистрационные платежи, документы и личные расходы могут быть отдельными; не переносите номинальную сумму из локального тарифа автоматически на иностранца. Вуз не гарантирует общежитие иностранным студентам и помогает находить варианты рядом с кампусом через международный офис и CEPE. Для очного обучения дольше 180 дней гражданину России требуется мексиканская временная резидентская виза для учёбы; для более короткой поездки действуют отдельные правила въезда. Порядок зависит от длительности курса и условий поездки.",
   "areas": [
-    "science",
     "engineering",
-    "construction",
-    "architecture",
     "medicine",
+    "architecture",
     "law",
-    "botany",
+    "science",
+    "arts",
     "agriculture",
-    "environment",
-    "media"
+    "humanities",
+    "social sciences"
   ],
-  "art": "classic",
+  "art": "historic",
   "fields": [
     "natural_sciences",
     "engineering",
@@ -30,31 +29,255 @@
     "medicine",
     "law",
     "agriculture",
-    "media"
+    "media",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Иностранным выпускникам школы нужно окончить среднее образование, оформить признание/ревалидацию при необходимости и пройти конкурсный вступительный экзамен UNAM. Большинство программ преподаётся на испанском.",
-    "good": "Готовься к экзамену по официальной программе, заранее изучи испанский и переведи школьные документы. Для некоторых курсов предусмотрены дополнительные prerequisites.",
-    "source": "https://www.escolar.unam.mx/"
+    "must": "Изучи годовую convocatoria DGAE и выбери кампус/программу; готовься к конкурсному экзамену, начни признание аттестата и проверь подтверждение испанского через CEPE.",
+    "good": "Заранее запроси у международного офиса письменную инструкцию по российскому аттестату, легализации, календарю и варианту жилья.",
+    "source": "https://www.dgae.unam.mx/"
   },
   "sources": [
     {
       "url": "https://www.dgae.unam.mx/",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "конкурсный приём и действующие convocatoria"
     },
     {
-      "url": "https://www.escolar.unam.mx/",
-      "accessed": "2026-11-23",
-      "covers": "prep"
+      "url": "https://repositorio.dgae.unam.mx/Licenciatura2026/instructivo_licenciatura2026.pdf",
+      "accessed": "2026-11-28",
+      "covers": "документы, аттестат из-за рубежа, эквивалентность среднего балла и язык"
+    },
+    {
+      "url": "https://www.dgeci.unam.mx/es/faq",
+      "accessed": "2026-11-28",
+      "covers": "международные студенты, жильё и признание зарубежного образования"
+    },
+    {
+      "url": "https://www.dgire.unam.mx/index.php/informacion/revalidacion",
+      "accessed": "2026-11-28",
+      "covers": "процедура признания школьного образования"
+    },
+    {
+      "url": "https://embamex.sre.gob.mx/rusia/es/infovisas",
+      "accessed": "2026-11-28",
+      "covers": "визы Мексики для граждан России"
+    },
+    {
+      "url": "https://oferta.unam.mx/",
+      "accessed": "2026-11-28",
+      "covers": "программы бакалавриата"
+    },
+    {
+      "url": "https://www.dgcs.unam.mx/boletin/bdboletin/2021_301.html",
+      "accessed": "2026-11-28",
+      "covers": "библиотека и её интерьер"
+    },
+    {
+      "url": "https://escolar.ingenieria.unam.mx/ingreso/licenciatura/",
+      "accessed": "2026-11-28",
+      "covers": "минимум среднего балла 7/10, иностранный аттестат, конкурсный экзамен и изменяющиеся cutoff"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/universidad-nacional-autonoma-de-mexico-unam",
+      "accessed": "2026-11-28",
+      "covers": "QS 2027 rank and Mexico City annual living-cost estimates"
+    },
+    {
+      "url": "https://www.dgcs.unam.mx/boletin/bdboletin/2026_597.html",
+      "accessed": "2026-11-28",
+      "covers": "UNAM: QS Latin America & Caribbean 2027 regional rank 9"
+    },
+    {
+      "url": "https://embamex.sre.gob.mx/rusia/es/infovisas",
+      "accessed": "2026-11-28",
+      "covers": "въезд и визовые правила Мексики для граждан РФ"
+    },
+    {
+      "url": "https://www.unam.mx/acerca-de-la-unam/unam-en-el-tiempo/cronologia-historica-de-la-unam/1910",
+      "accessed": "2026-11-28",
+      "covers": "официальная хронология открытия Национального университета в 1910"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "high",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
+    "Проверить публикацию общей convocatoria DGAE для цикла 2027/28 и внести точные даты только после публикации.",
+    "Запросить UNAM тарифы для иностранца по каждой лицензии: официально подтверждённой единой стоимости обучения не найдено.",
+    "Уточнить у UNAM приём и оплату для граждан России; способ оплаты из российских банков не опубликован."
+  ],
+  "summary": "Крупнейший государственный университет Мексики, расположенный в Мехико. Бакалавриат охватывает медицину, инженерию, право, архитектуру, науки, искусство и гуманитарные направления; занятия преимущественно на испанском.",
+  "intl_students_url": "https://www.dgeci.unam.mx/es/faq",
+  "founded": 1910,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "es"
+  ],
+  "study_formats": [
+    "full",
+    "mixed"
+  ],
+  "highlights": [
+    "Главный кампус Ciudad Universitaria — объект Всемирного наследия UNESCO",
+    "Иностранцы проходят общую конкурсную процедуру DGAE и вступительный экзамен",
+    "Иностранный школьный аттестат нужно признать, а испанский — подтвердить, если требуется"
+  ],
+  "programs": [
+    {
+      "name": "Licenciatura en Medicina",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 6,
+      "url": "https://oferta.unam.mx/medicina.html",
+      "passing_score": {
+        "value": 7,
+        "year": 2026,
+        "note": "Минимальный средний балл аттестата 7 из 10 — условие допуска, а не конкурсный проходной балл. Зарубежный аттестат требует признания или эквивалентности. Результат экзамена для зачисления меняется по программе и циклу.",
+        "kind": "gpa_certificate"
+      }
+    },
+    {
+      "name": "Licenciatura en Ingeniería en Computación",
+      "field": "it",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 4,
+      "url": "https://oferta.unam.mx/ingenieria-en-computacion.html",
+      "passing_score": {
+        "value": 7,
+        "year": 2026,
+        "note": "Минимальный средний балл аттестата 7 из 10 — условие допуска, а не конкурсный проходной балл. Зарубежный аттестат требует признания или эквивалентности. Результат экзамена для зачисления меняется по программе и циклу.",
+        "kind": "gpa_certificate"
+      }
+    },
+    {
+      "name": "Licenciatura en Derecho",
+      "field": "law",
+      "level": "bachelor",
+      "language": "es",
+      "duration_years": 5,
+      "url": "https://oferta.unam.mx/derecho.html",
+      "passing_score": {
+        "value": 7,
+        "year": 2026,
+        "note": "Минимальный средний балл аттестата 7 из 10 — условие допуска, а не конкурсный проходной балл. Зарубежный аттестат требует признания или эквивалентности. Результат экзамена для зачисления меняется по программе и циклу.",
+        "kind": "gpa_certificate"
+      }
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "OTHER",
+        "note": "Общий вступительный экзамен UNAM по выбранной области/программе; состав и конкурс зависят от convocatória."
+      }
+    ],
+    "language_level": "Испанский необходим для большинства программ; кандидатам, для которых он не родной, UNAM может требовать подтверждение CEPE.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": false,
+    "recommendations": false,
+    "activities_matter": "low",
+    "documents": [
+      "Паспорт",
+      "Аттестат и оценки за полное среднее образование",
+      "Официальное признание/эквивалентность иностранного аттестата",
+      "Перевод и легализация документов по требованиям UNAM",
+      "Подтверждение испанского, если требуется",
+      "Заявка DGAE и результат вступительного экзамена"
+    ],
+    "notes": "Для бакалавриата UNAM требуется средний балл полного среднего образования не ниже 7/10; иностранный аттестат проходит revalidación/equivalencia. Иностранные кандидаты, поступающие на полную программу, сдают общий вступительный экзамен; минимальный школьный средний балл не является конкурсным проходным баллом. Для инженерной школы UNAM прямо указывает, что число правильных ответов на вступительном экзамене для зачисления меняется по программе и циклу."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": []
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Temporary Resident Student Visa (Mexico)",
+    "notes": "Для граждан России въезд зависит от продолжительности учёбы: посольство Мексики указывает, что для курса до 180 дней может применяться электронное разрешение при перелёте, а обучение свыше 180 дней требует визы временного резидента-студента, оформляемой через консульство до въезда. Потребуется письмо о зачислении; список документов и финансовые требования уточняй у посольства и UNAM по своей программе. UNAM не публикует подтверждённый способ оплаты из российских банков — запроси его у приёмной комиссии до перевода средств.",
+    "url": "https://embamex.sre.gob.mx/rusia/es/infovisas"
+  },
+  "dorm": {
+    "available": false,
+    "guaranteed_first_year": false,
+    "notes": "UNAM не предоставляет универсальное жильё кампусного типа для всех иностранцев. Международный офис помогает ориентироваться в вариантах рядом с Ciudad Universitaria; проверяй кампус и частное жильё заранее."
+  },
+  "photos": [
+    {
+      "file": "https://www.dgcs.unam.mx/boletin/bdboletin/multimedia/WAV190802/540%2812%29.jpg",
+      "author": "DGCS UNAM",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.dgcs.unam.mx/boletin/bdboletin/2019_542.html",
+      "caption": "Студенты у мозаичного фасада Центральной библиотеки"
+    },
+    {
+      "file": "https://www.unaminternacional.unam.mx/archivos/img/interiores/blog/licenciatura.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.unaminternacional.unam.mx/en/blog/la-movilidad",
+      "caption": "Студенты на эспланаде перед Центральной библиотекой"
+    },
+    {
+      "file": "https://www.dgcs.unam.mx/boletin/bdboletin/multimedia/WAV210319/301%2813%29a.jpg",
+      "author": "DGCS UNAM",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.dgcs.unam.mx/boletin/bdboletin/2021_301.html",
+      "caption": "Читальный зал Центральной библиотеки UNAM"
+    },
+    {
+      "file": "https://www.gaceta.unam.mx/wp-content/uploads/2021/04/210405-Com4-f2-biblioteca-central.jpg",
+      "author": "Gaceta UNAM",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://www.gaceta.unam.mx/biblioteca-central-encuentros-fructiferos-con-los-lectores/",
+      "caption": "Учебные места внутри Biblioteca Central"
+    },
+    {
+      "file": "https://imagenes.elpais.com/resizer/v2/Q6HNZRJLR5CGXPMZ3AM6R34DQI.jpg?auth=1c9a1033736f87c797b83fab07cde6deb18e90422b4d2b7121a34887ebae469e&height=1470&smart=true&width=1960",
+      "author": "El País México",
+      "license": "© правообладателю; открытая лицензия не заявлена, источник указан",
+      "source_url": "https://elpais.com/mexico/2025-05-19/entre-puestos-callejeros-comedores-y-tuppers-asi-comen-los-universitarios-de-la-unam.html",
+      "caption": "Студенческая жизнь и открытые пространства Ciudad Universitaria"
+    }
+  ],
+  "data_year": 2027,
+  "cost": {
+    "living_month_estimate": {
+      "amount": 793,
+      "currency": "USD",
+      "period": "month",
+      "note": "Расчёт из годовых оценок QS для Мехико: жильё — USD 5 290, питание — 2 760, транспорт — 170, коммунальные услуги — 1 290; всего USD 9 510 в год, или около USD 793 в месяц. Это оценка расходов по городу, не установленный UNAM бюджет; стоимость обучения не включена."
+    }
+  },
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "145"
+    },
+    {
+      "name": "QS Латинская Америка и Карибский регион",
+      "year": 2027,
+      "position": "9"
+    }
+  ],
+  "deadlines": [
+    {
+      "what": "Очный бакалавриат DGAE — конкурсный приём",
+      "intake": "Даты нового конкурса 2027/28 следует сверить после официальной публикации convocatoria; прошлые даты не переносить"
+    },
+    {
+      "what": "Проверка и признание иностранного аттестата через DGIRE",
+      "intake": "Сроки зависят от текущего конкурса и документов; начать подготовку заранее"
+    }
   ]
 }

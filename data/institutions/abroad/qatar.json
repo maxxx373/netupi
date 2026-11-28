@@ -2,52 +2,252 @@
   "id": "qatar",
   "type": "university",
   "name": {
-    "ru": "Qatar University",
-    "en": "Qatar University"
+    "ru": "Университет Катара",
+    "en": "Qatar University",
+    "short": "QU"
   },
   "country": "QA",
   "city": "Доха",
   "website": "https://www.qu.edu.qa/en-us",
   "admissions_url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx",
-  "about": "Национальный университет Катара с программами в инженерии, науках, медицине, сельском хозяйстве, праве и бизнесе.",
+  "about": "Qatar University (QU) — государственный национальный университет Катара, основанный в 1973 году. Главный кампус в Дохе включает учебные и административные здания, библиотеки, лаборатории, спортивные объекты, медицинские и студенческие службы; значительная часть кампуса организована по отдельным мужским и женским зонам. Университет предлагает программы в инженерии, бизнесе, науках, здравоохранении, образовании, праве, гуманитарных и социальных областях.\n\nИностранные школьники могут подавать заявку на бакалавриат, но допуск зависит от школьного аттестата, конкретного колледжа, предметных требований и наличия мест. Для набора с осени 2027 QU публикует минимальные школьные проценты по колледжам (например, базовые пороги 75%, фармация 80%, медицина/стоматология 90%); это минимальные условия, а не гарантия offer. Для части программ нужны SAT/ACT или тесты английского и математики. Международные кандидаты должны представить заверенные школьные документы и подать заявление на студенческую визу или scholarship в срок.\n\nС осени 2026 университет публикует плату за кредит: QAR 1,200 для ряда гуманитарных/образовательных/правовых курсов, QAR 1,400 для бизнеса/наук/здравоохранения и QAR 1,600 для инженерии/фармации; медицина и стоматология имеют отдельную плату по году обучения. Международная scholarship может покрывать tuition и книги, включать ежемесячную выплату и жильё, но конкурсная. Иностранному студенту требуется визовый маршрут через QU; самостоятельно оплачивающий кандидат подаёт на спонсируемую университетом визу в период admission.",
   "areas": [
-    "science",
     "engineering",
-    "construction",
-    "medicine",
-    "botany",
-    "agriculture",
-    "law",
     "business",
-    "environment"
+    "medicine",
+    "pharmacy",
+    "science",
+    "education",
+    "law",
+    "communication"
   ],
   "art": "modern",
   "fields": [
-    "natural_sciences",
     "engineering",
+    "business",
+    "natural_sciences",
     "medicine",
-    "agriculture",
     "law",
-    "business"
+    "pedagogy",
+    "humanities",
+    "social_sciences"
   ],
   "prep": {
-    "must": "Подай онлайн-заявку и официальный школьный транскрипт с заверением. Иностранным кандидатам нужно выполнить требования программы по английскому и математике, а также подать визу или заявку на стипендию.",
-    "good": "Проверь требования именно выбранного колледжа: предметный трек и пороги различаются. Оригиналы документов держи готовыми для предъявления после зачисления.",
-    "source": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx"
+    "must": "Определи колледж и проверь минимальные школьные оценки, тесты английского/математики и список аттестованных документов для осеннего набора.",
+    "good": "При необходимости подай вместе с заявкой на обучение заявление на scholarship или университетскую визу и изучи сроки своего цикла.",
+    "source": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/college-requirements.aspx"
   },
   "sources": [
     {
+      "url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/college-requirements.aspx",
+      "accessed": "2026-11-28",
+      "covers": "пороговые академические требования по колледжам"
+    },
+    {
+      "url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/competency-requirements/Pages/default.aspx",
+      "accessed": "2026-11-28",
+      "covers": "тесты английского и математики"
+    },
+    {
       "url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx",
-      "accessed": "2026-11-23",
-      "covers": "about, areas — из каталога прототипа Кодекса, не перепроверено"
+      "accessed": "2026-11-28",
+      "covers": "документы, international application и сроки"
+    },
+    {
+      "url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/tuition-fees",
+      "accessed": "2026-11-28",
+      "covers": "tuition по кредитам начиная с Fall 2026"
+    },
+    {
+      "url": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/types.aspx",
+      "accessed": "2026-11-28",
+      "covers": "international scholarship benefits"
+    },
+    {
+      "url": "https://www.qu.edu.qa/en-us/students/international-students/students-visa/",
+      "accessed": "2026-11-28",
+      "covers": "студенческая виза через Qatar University"
+    },
+    {
+      "url": "https://www.qu.edu.qa/en-us/about/Pages/campus-life.aspx",
+      "accessed": "2026-11-28",
+      "covers": "фото кампуса и инфраструктуры"
+    },
+    {
+      "url": "https://www.iloveqatar.net/news/general/qu-students-oppose-plans-to-issue-parking-violations",
+      "accessed": "2026-11-28",
+      "covers": "фото студентов на территории QU"
+    },
+    {
+      "url": "https://www.topuniversities.com/universities/qatar-university",
+      "accessed": "2026-11-28",
+      "covers": "QS profile, rankings and city cost-of-living estimates; estimate is third-party and not a university charge"
     }
   ],
-  "verified_at": "2026-11-23",
-  "confidence": "low",
+  "verified_at": "2026-11-28",
+  "confidence": "medium",
   "todo": [
-    "Карточка перенесена из каталога Кодекса: перепроверить данные по официальному сайту",
-    "Русское название",
-    "Цены, проходные баллы, сроки подачи, общежитие",
-    "Фото со свободной лицензией"
-  ]
+    "Рассчитать годовой tuition по точному учебному плану: тариф установлен за кредитный час, годовая сумма зависит от числа и типа курсов.",
+    "Уточнить ставку проживания в общежитии и личные расходы: опубликованная общая цена для каждого студента в открытом источнике не найдена.",
+    "Получить отдельную инструкцию QU для поступающих с российским аттестатом и российского гражданства.",
+    "Проверить даты приёма на бакалавриат на следующий цикл: актуальная страница дат пока показывает кампанию Fall 2026."
+  ],
+  "summary": "Университет Катара — государственный национальный университет, основанный в 1973 году; главный кампус расположен в Дохе. Вуз предлагает программы в инженерии, бизнесе, науках, образовании, праве, медицине и других областях. Для поступления важны требования конкретного колледжа и учебного трека, а плата за обучение рассчитывается по кредитным часам и зависит от дисциплин.",
+  "intl_students_url": "https://www.qu.edu.qa/en-us/students/admission/undergraduate/Pages/apply.aspx",
+  "founded": 1973,
+  "city_size": "mega",
+  "ownership": "public",
+  "levels": [
+    "bachelor",
+    "master",
+    "phd"
+  ],
+  "languages_of_instruction": [
+    "en",
+    "ar"
+  ],
+  "study_formats": [
+    "full"
+  ],
+  "highlights": [
+    "Минимальный школьный процент зависит от колледжа и не гарантирует зачисление",
+    "Оплата обучения выставляется по кредитам и различается по колледжам",
+    "Есть конкурсная international scholarship с tuition, книгами, жильём и выплатой"
+  ],
+  "programs": [
+    {
+      "name": "Bachelor of Science in Computer Science",
+      "field": "it",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.qu.edu.qa/en-us/Colleges/engineering/academics/Pages/undergraduate-programs.aspx"
+    },
+    {
+      "name": "Bachelor of Business Administration",
+      "field": "business",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 4,
+      "url": "https://www.qu.edu.qa/en-us/Colleges/business/Pages/default.aspx"
+    },
+    {
+      "name": "Bachelor of Science in Pharmacy",
+      "field": "medicine",
+      "level": "bachelor",
+      "language": "en",
+      "duration_years": 5,
+      "url": "https://www.qu.edu.qa/en-us/Colleges/pharmacy/Pages/default.aspx"
+    }
+  ],
+  "requirements": {
+    "intl_exams": [
+      {
+        "exam": "IELTS",
+        "min_score": "5.5",
+        "note": "Указан QU для английского competency в некоторых колледжах; освобождение/альтернативы и конкретная программа могут отличаться."
+      },
+      {
+        "exam": "TOEFL",
+        "min_score": "61",
+        "note": "Порог TOEFL iBT для некоторых требований English competency; сверяй нужный college."
+      },
+      {
+        "exam": "SAT",
+        "note": "SAT Math/другой тест может требоваться по колледжу и учебной подготовке."
+      }
+    ],
+    "language_level": "Английский или арабский зависит от колледжа и программы; требования проверяются вместе с математическими competency conditions.",
+    "entrance_tests": true,
+    "interview": true,
+    "portfolio": "some_programs",
+    "motivation_letter": true,
+    "recommendations": true,
+    "activities_matter": "medium",
+    "documents": [
+      "Паспорт",
+      "Заверенный аттестат и выписка с оценками",
+      "Заверенные переводы и требуемая легализация",
+      "Результаты тестов English/Math, если требуются",
+      "Медицинские и дополнительные документы колледжа",
+      "Визовая или scholarship заявка в срок"
+    ],
+    "notes": "В Fall 2027 пороги колледжей различаются; минимальная оценка не означает автоматического зачисления, поскольку конкурс и доступность мест учитываются отдельно. Насчёт оплаты из РФ: Университет публикует способы оплаты через собственную платёжную систему и кассу, но не подтверждает, что перевод с российского счёта будет проведён. Перед оплатой заявки или обучения спроси у QU доступный канал для плательщика из РФ и проверь его в своём банке."
+  },
+  "funding": {
+    "free_tuition": false,
+    "grants": [
+      {
+        "name": "International Students Scholarship",
+        "coverage": "full",
+        "for_foreigners": true,
+        "note": "Конкурсная: QU указывает освобождение tuition и книг, ежемесячную выплату и проживание с транспортом; ежегодно проверяй актуальные условия и доступность.",
+        "url": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/types.aspx"
+      }
+    ]
+  },
+  "visa": {
+    "needed_for_ru": true,
+    "type": "Qatar University-sponsored student visa",
+    "notes": "Для международных студентов QU организует оформление студенческой визы/вида на жительство в Катаре через университетский международный офис; поступивший студент должен пройти процедуру и подать нужные документы. Открытая страница QU не даёт отдельной инструкции для российского паспорта и не объясняет, заменяет ли безвизовый краткий въезд учебное разрешение. До покупки билетов уточни визовый маршрут именно для долгосрочного обучения у QU и посольства Катара.",
+    "url": "https://www.qu.edu.qa/en-us/students/international-students/students-visa/"
+  },
+  "dorm": {
+    "available": true,
+    "guaranteed_first_year": false,
+    "notes": "Университетские резиденции и транспорт доступны при соблюдении условий размещения; наличие зависит от статуса и категории студента. Стипендиальный пакет для международных студентов может включать проживание; само поступление не означает автоматическое место."
+  },
+  "photos": [
+    {
+      "file": "https://www.qu.edu.qa/sites/default/files/styles/banner_1247x1080/public/2026-09/Homepage%20Banner%203_0.jpg?h=acb35713&itok=FqzeINLR",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.qu.edu.qa/en-us/about/Pages/campus-life.aspx",
+      "caption": "Главный университетский кампус"
+    },
+    {
+      "file": "https://d12eu00glpdtk2.cloudfront.net/public/images/news/_910x600_clip_center-center_none/cb5b604e-03d6-40cf-9061-147d9eb16371.jpg",
+      "author": "ILoveQatar",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.iloveqatar.net/news/general/qu-students-oppose-plans-to-issue-parking-violations",
+      "caption": "Студенты идут по открытому двору кампуса"
+    },
+    {
+      "file": "https://www.qu.edu.qa/sites/default/files/2026-08/01-Laboratory%20Animal%20Research%20Center%20at%20QU%20Pioneering%20Drug%20Design%20and%20Diagnostics.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.qu.edu.qa/en-us/about/Pages/campus-life.aspx",
+      "caption": "Исследовательская лабораторная инфраструктура"
+    },
+    {
+      "file": "https://www.qu.edu.qa/sites/default/files/2026-08/00-qu-sport-building.jpg",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.qu.edu.qa/en-us/about/Pages/campus-life.aspx",
+      "caption": "Спортивный центр и инфраструктура кампуса"
+    },
+    {
+      "file": "https://www.qu.edu.qa/sites/default/files/styles/538x498/public/2026-09/programs%20photo%20AR.jpg?h=ac201757&itok=q4l2Fi0r",
+      "author": "University / official page",
+      "license": "© правообладателю; открытая лицензия не заявлена, указан источник",
+      "source_url": "https://www.qu.edu.qa/en-us/about/Pages/campus-life.aspx",
+      "caption": "Иллюстрация учебных программ и инфраструктуры QU"
+    }
+  ],
+  "data_year": 2027,
+  "rankings": [
+    {
+      "name": "QS World University Rankings",
+      "year": 2027,
+      "position": "109"
+    }
+  ],
+  "cost": {
+    "living_month_estimate": {
+      "amount": 1290.0,
+      "currency": "USD",
+      "period": "month",
+      "note": "Оценка QS для города главного кампуса: сумма годовых оценок жилья, питания, транспорта и коммунальных услуг ($15480/год) разделена на 12; это ориентир, не тариф университета."
+    }
+  }
 }

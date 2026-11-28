@@ -57,6 +57,13 @@ def to_card(rec):
         card["country"] = COUNTRY_RU.get(rec["country"], rec["country"])
     if rec.get("prep"):
         card["prep"] = rec["prep"]
+    if rec.get("photos"):
+        card["photos"] = [
+            {"image": p["file"] if p["file"].startswith(("https://", "http://")) else "../data/" + p["file"],
+             "page": p["source_url"], "title": p.get("caption", "Фото кампуса"),
+             "artist": p.get("author", ""), "license": p.get("license", "")}
+            for p in rec["photos"]
+        ]
     return card
 
 
