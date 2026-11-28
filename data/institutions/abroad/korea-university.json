@@ -15,12 +15,12 @@
   "website": "https://english.korea.edu/english_en/index.do",
   "admissions_url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
   "intl_students_url": "https://oia.korea.ac.kr",
-  "summary": "Один из трёх самых престижных вузов Кореи. Это частный университет с большим кампусом в районе Анам в Сеуле. Иностранцы подают документы онлайн по отдельному конкурсу. Нужен сертификат TOPIK или TOEFL/IELTS, от его уровня зависит, сколько семестров интенсивного корейского придётся пройти на первом курсе. Всех поступающих автоматически рассматривают на стипендии, вплоть до полной оплаты учёбы на 8 семестров.",
+  "summary": "Один из трёх самых престижных вузов Кореи («SKY»), частный университет с большим каменным кампусом в районе Анам в Сеуле; 52-е место в QS 2027. Иностранцы подают документы онлайн по отдельному конкурсу два раза в год. Нужен TOPIK или TOEFL/IELTS — от уровня зависит, сколько семестров корейского придётся пройти на первом курсе. Учёба стоит 5,8–7,8 млн вон за семестр, но всех поступающих автоматически рассматривают на стипендии — вплоть до полной оплаты на 8 семестров.",
   "highlights": [
     "52-е место в QS World University Rankings 2027 — лучший результат в истории вуза",
-    "Автоматические стипендии для иностранцев: от 50% до 100% платы за обучение",
+    "Автоматические стипендии для иностранцев: от 50% до 100% платы за обучение, отдельно подавать не нужно",
+    "Обучение 5,8–7,8 млн вон за семестр; общежитие — около 460 тыс. вон в месяц",
     "Программа International Studies на английском языке",
-    "Global Open Major: первый год общие курсы и корейский, специальность выбирают потом",
     "Два набора в год: весенний (март) и осенний (сентябрь)"
   ],
   "fields": [
@@ -56,7 +56,14 @@
       "field": "international_relations",
       "level": "bachelor",
       "language": "en",
-      "url": "https://oia.korea.ac.kr"
+      "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
+      "tuition": {
+        "amount": 5800000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Примерно, тариф 2026 года для гуманитарных и социальных наук (International Studies входит в эту группу). Обучение на английском, нужен TOEFL/IELTS"
+      },
+      "duration_years": 4
     },
     {
       "name": "Global Open Major (College of International Studies)",
@@ -68,20 +75,36 @@
         "currency": "KRW",
         "period": "semester",
         "note": "Примерно, тариф 2026 года. Набирают только иностранцев. Первый год — общие курсы и корейский, затем распределение по специальности. Для этого нужен TOPIK 5 или IELTS 7.0 / TOEFL iBT 100"
-      }
+      },
+      "duration_years": 4
     },
     {
-      "name": "Global Entertainment (Media & Communication)",
+      "name": "Media & Communication (College of Media & Communication)",
       "field": "media",
       "level": "bachelor",
       "language": "ko",
-      "url": "https://oia.korea.ac.kr"
+      "url": "https://oia.korea.ac.kr",
+      "tuition": {
+        "amount": 5800000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Примерно, тариф 2026 года для гуманитарных наук (College of Media & Communication)"
+      },
+      "duration_years": 4
     },
     {
-      "name": "Artificial Intelligence / Data Science (College of Informatics)",
+      "name": "Computer Science & Engineering / Data Science (College of Informatics)",
       "field": "it",
       "level": "bachelor",
-      "language": "ko"
+      "language": "ko",
+      "tuition": {
+        "amount": 7700000,
+        "currency": "KRW",
+        "period": "semester",
+        "note": "Примерно, тариф 2026 года для инженерных специальностей; точную сумму KU указывает в счёте при регистрации"
+      },
+      "url": "https://oia.korea.ac.kr/oia2026/Tuition.do",
+      "duration_years": 4
     },
     {
       "name": "University College (первый год без специальности)",
@@ -93,7 +116,8 @@
         "currency": "KRW",
         "period": "semester",
         "note": "Примерно, тариф 2026 года. Год общих курсов и интенсивного корейского, затем выбор одной из 46 специальностей"
-      }
+      },
+      "duration_years": 4
     }
   ],
   "cost": {
@@ -108,6 +132,12 @@
       "currency": "KRW",
       "period": "semester",
       "note": "Примерно, искусство (Art), тариф 2026 года"
+    },
+    "living_month_estimate": {
+      "amount": 1000000,
+      "currency": "KRW",
+      "period": "month",
+      "note": "Официальная оценка Study in Korea (NIIED): 750 000–1 000 000 вон в месяц — жильё 500–700 тыс., питание 200–300 тыс., транспорт 50–100 тыс., связь и медстраховка 100–200 тыс. В Сеуле ориентируйся на верхнюю границу"
     }
   },
   "funding": {
@@ -154,6 +184,13 @@
         "for_foreigners": true,
         "note": "На сайте KU для неё есть отдельный раздел. Условия и сроки публикует NIIED на сайте Study in Korea",
         "url": "https://www.studyinkorea.go.kr"
+      },
+      {
+        "name": "Как платить из России",
+        "coverage": "partial",
+        "for_foreigners": true,
+        "note": "Это не стипендия, а важная пометка. KU принимает оплату банковским переводом на виртуальный счёт, через ATM, интернет-банк, Alipay и UnionPay. Из-за санкций многие российские банки отключены от SWIFT, а корейские банки часто задерживают или отклоняют переводы из РФ. Заранее проверь маршрут: банк без санкций, перевод в долларах/вонах через партнёров, оплата родственниками из третьей страны. Карты UnionPay российских банков за рубежом работают нестабильно",
+        "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do"
       }
     ]
   },
@@ -188,34 +225,55 @@
       "По желанию (до 10 пунктов): другие языковые сертификаты, SAT/AP/IB/A-Level, олимпиады, награды",
       "После зачисления — выписка о банковском счёте (нужна для визы)"
     ],
-    "notes": "Онлайн-подача документов проходит через сайт OIA (Uwayapply). Оригиналы документов тоже нужно прислать почтой до указанного срока. С 2027 года онлайн-тест KU по корейскому отменили, поэтому без языкового сертификата подать документы нельзя. Можно одновременно подать на трек International Undergraduate Admission I (конкретная специальность) и на трек II (Global Open Major)."
+    "notes": "Онлайн-подача документов проходит через сайт OIA (Uwayapply). Оригиналы документов тоже нужно прислать почтой до указанного срока. С 2027 года онлайн-тест KU по корейскому отменили, поэтому без языкового сертификата подать документы нельзя. Можно одновременно подать на трек International Undergraduate Admission I (конкретная специальность) и на трек II (Global Open Major). Требование к образованию — полное среднее образование, эквивалентное 12 годам корейской школы; российский аттестат за 11 классов — это полное среднее образование, его подают с апостилем и нотариальным переводом. Медицина, право, ветеринария и педагогика через международный конкурс не открыты: список специальностей — в буклете для иностранцев."
   },
   "visa": {
     "needed_for_ru": true,
-    "type": "D-2",
-    "notes": "После оплаты обучения и подачи итоговых документов и выписки о банковском счёте KU выдаёт Certificate of Admission. С ним можно оформлять визу D-2 в консульстве Кореи. Для набора на весну 2027 сертификат выдают примерно в январе 2027.",
-    "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do"
+    "type": "D-2 (учёба в вузе)",
+    "url": "https://studyinkorea.go.kr/en/plan/visaAndStay.do",
+    "notes": "Гражданам России безвизовый въезд в Корею разрешён только для коротких поездок до 60 дней — для учёбы обязательна студенческая виза D-2. Порядок: результаты → оплата обучения + финальные документы об образовании (с апостилем) + выписка о банковском счёте → KU выдаёт Certificate of Admission (CoA) → подача на визу в посольство или консульство Кореи (Москва, Санкт-Петербург, Владивосток, Иркутск). Документы для D-2 по Study in Korea: анкета, паспорт, фото, CoA (Standard Admission Letter), копия регистрации вуза, документ о высшем имеющемся образовании, подтверждение финансов, при выписке родителей — документ о родстве; при необходимости — тест на туберкулёз (россиян обычно просят). Виза D-2 на бакалавриат даётся на срок до 2 лет за раз и продлевается; в течение 90 дней после въезда нужно оформить ID-карту иностранца (ARC). Конкретную сумму на счёте KU указывает в инструкции к регистрации; ориентируйся примерно на 20 000 USD или сумму в вонах на год учёбы и жизни. Счёт в российском банке консульства обычно принимают, но перевести деньги в Корею сложнее."
   },
   "dorm": {
-    "notes": "Ссылка на общежития KU есть на сайте OIA (dorm.korea.ac.kr). Стоимость и гарантия места для первокурсников в материалах для поступающих не указаны."
+    "available": true,
+    "guaranteed_first_year": false,
+    "cost_month": {
+      "amount": 461000,
+      "currency": "KRW",
+      "period": "month",
+      "note": "Двухместная комната в Anam I-House / CJ I-House для иностранных бакалавров — 1 844 500 вон за семестр (~4 месяца); одноместная в CJ I-House — 2 380 000 вон за семестр. Тариф текущего семестра (осень 2026)"
+    },
+    "notes": "Иностранные бакалавры живут в международных общежитиях кампуса Анам: Anam International House (172 двухместные комнаты, санузел на двоих) и CJ International House (118 одноместных и 56 двухместных, санузел на 2–5 человек). Заявку подают после зачисления в отдельный срок; на весну 2027 объявление вышло 23.11.2026. Места распределяют по конкурсу, гарантии нет. Летом и зимой — продление проживания отдельной заявкой. Для заселения в IWC нужна справка о тесте на туберкулёз."
   },
   "deadlines": [
     {
-      "what": "Онлайн-заявка и загрузка документов",
-      "start": "2026-08-03",
-      "end": "2026-08-31",
-      "intake": "Весенний (март 2027)"
+      "what": "Онлайн-заявка на осенний набор 2027 — в марте 2027, точные даты KU объявит позже (TBA)",
+      "start": "2027-03-01",
+      "end": "2027-03-31",
+      "intake": "Осень (сентябрь 2027)"
     },
     {
-      "what": "Документы почтой",
-      "start": "2026-08-03",
-      "end": "2026-09-07",
-      "intake": "Весенний (март 2027)"
+      "what": "Результаты осеннего набора 2027 — июнь 2027 (TBA)",
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "intake": "Осень (сентябрь 2027)"
     },
     {
-      "what": "Объявление результатов",
-      "end": "2026-11-27",
-      "intake": "Весенний (март 2027)"
+      "what": "Регистрация и оплата обучения, выдача CoA для визы — июль 2027 (TBA)",
+      "start": "2027-07-01",
+      "end": "2027-07-31",
+      "intake": "Осень (сентябрь 2027)"
+    },
+    {
+      "what": "Весенний набор 2027: регистрация и оплата для зачисленных (CoA для визы — январь 2027)",
+      "start": "2027-01-01",
+      "end": "2027-01-31",
+      "intake": "Весна (март 2027)"
+    },
+    {
+      "what": "Весенний набор 2028: онлайн-заявка (по аналогии с 2026: начало августа — конец августа)",
+      "start": "2027-08-01",
+      "end": "2027-08-31",
+      "intake": "Весна (март 2028)"
     }
   ],
   "rankings": [
@@ -234,10 +292,59 @@
   "photos": [
     {
       "file": "photos/korea-university/1.jpg",
-      "author": "Chocolatte2",
+      "author": "Mannaa mohamed",
       "license": "CC BY-SA 4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:KU_Main_Building.jpg",
-      "caption": "Главный корпус и кампус Анам"
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korea_University_Anam_Campus.jpg",
+      "caption": "Главный корпус (Main Hall) и центральная лужайка кампуса Анам"
+    },
+    {
+      "file": "photos/korea-university/2.jpg",
+      "author": "Mannaa mohamed",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korea_University_Anam_camps,_main_gate.jpg",
+      "caption": "Главные ворота кампуса Анам"
+    },
+    {
+      "file": "photos/korea-university/3.jpg",
+      "author": "Nhj8436",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kulibart.jpg",
+      "caption": "Западный корпус (Seogwan) — одно из исторических гранитных зданий"
+    },
+    {
+      "file": "photos/korea-university/4.jpg",
+      "author": "SEVEREN",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korea_University_International_Building.jpg",
+      "caption": "Международный корпус — здесь учатся студенты International Studies"
+    },
+    {
+      "file": "photos/korea-university/5.jpg",
+      "author": "Korea University",
+      "license": "© Korea University Anam Dormitory; фото с официального сайта",
+      "source_url": "https://dorm.korea.ac.kr/front/content/10",
+      "caption": "Anam International House — общежитие для иностранных бакалавров"
+    },
+    {
+      "file": "photos/korea-university/6.jpg",
+      "author": "Korea University",
+      "license": "© Korea University Anam Dormitory; фото с официального сайта",
+      "source_url": "https://dorm.korea.ac.kr/front/content/10",
+      "caption": "Двухместная комната в Anam I-House: две кровати, два стола, санузел на двоих"
+    },
+    {
+      "file": "photos/korea-university/7.jpg",
+      "author": "Korea University",
+      "license": "© Korea University Anam Dormitory; фото с официального сайта",
+      "source_url": "https://dorm.korea.ac.kr/front/content/9",
+      "caption": "Лобби общежития CJ International House"
+    },
+    {
+      "file": "photos/korea-university/8.jpg",
+      "author": "Korea University",
+      "license": "© Korea University Anam Dormitory; фото с официального сайта",
+      "source_url": "https://dorm.korea.ac.kr/front/content/9",
+      "caption": "CJ International House — общежитие с одно- и двухместными комнатами"
     }
   ],
   "sources": [
@@ -265,23 +372,48 @@
       "url": "https://www.koreaherald.com/article/10773651",
       "accessed": "2026-11-23",
       "covers": "Место в QS World University Rankings 2027"
+    },
+    {
+      "url": "https://dorm.korea.ac.kr/front/content/9",
+      "accessed": "2026-11-28",
+      "covers": "CJ International House: комнаты, тарифы на семестр"
+    },
+    {
+      "url": "https://dorm.korea.ac.kr/front/content/10",
+      "accessed": "2026-11-28",
+      "covers": "Anam International House: комнаты, тарифы, фото комнат"
+    },
+    {
+      "url": "https://dorm.korea.ac.kr/front/board/5/post/11204",
+      "accessed": "2026-11-28",
+      "covers": "Объявление о заселении в общежития на весну 2027 для иностранных бакалавров"
+    },
+    {
+      "url": "https://studyinkorea.go.kr/en/plan/visaAndStay.do",
+      "accessed": "2026-11-28",
+      "covers": "Виза D-2: документы, сборы, срок, регистрация иностранца"
+    },
+    {
+      "url": "https://studyinkorea.go.kr/en/life/livingExpense.do",
+      "accessed": "2026-11-28",
+      "covers": "Официальная оценка расходов на жизнь"
+    },
+    {
+      "url": "https://oia.korea.ac.kr/_attach/file/2026/08/hixZlTOCQFKYytqlJHEd.pdf",
+      "accessed": "2026-11-28",
+      "covers": "Буклет весна 2027: требования к образованию, список специальностей, CoA, виза"
     }
   ],
-  "verified_at": "2026-11-23",
+  "verified_at": "2026-11-28",
   "data_year": 2027,
   "confidence": "high",
   "todo": [
-    "Найти стоимость общежитий KU для первокурсников-иностранцев",
-    "Уточнить даты подачи на осенний семестр 2027 (объявят в марте 2027)",
-    "Выяснить, сколько денег должно быть на счёте для визы D-2 (сумма в буклете не найдена)",
-    "Найти стоимость курсов корейского в Korean Language Center KU",
-    "Добавить рейтинг THE",
-    "Проверить, открыты ли для иностранцев медицина и право",
-    "Проверить лицензию фото: на Commons оно загружено как «собственная работа», но похоже на рекламный снимок университета. При необходимости заменить"
+    "Точную сумму на банковском счёте для CoA/визы KU публикует в инструкции к регистрации — добавить при выходе инструкции осени 2027",
+    "Точные даты подачи на осень 2027 (KU объявит в марте 2027)"
   ],
   "prep": {
     "must": "Подай онлайн-заявку через OIA (Uwayapply) и отправь оригиналы почтой в срок; для набора на весну 2027 это были 3–31 августа 2026 онлайн и до 7 сентября почтой. Приложи сертификат TOPIK или TOEFL iBT / IELTS Academic не старше 2 лет, Statement of Purpose, школьный табель и аттестат с апостилем, паспорта твой и родителей и свидетельство о рождении с нотариальным переводом.",
-    "good": "Для International Studies английский обязателен, а для специальности с английским на Global Open Major нужны TOEFL iBT 100 или IELTS 7.0. Добавь в заявку до 10 пунктов достижений (SAT/AP/IB, олимпиады, награды) и уточни на сайте сроки осеннего набора 2027, которые объявят в марте 2027. Стипендии Anam Global и Global Leader назначаются по итогам конкурса, отдельно подавать не нужно.",
+    "good": "Для International Studies английский обязателен, а для специальности с английским на Global Open Major нужны TOEFL iBT 100 или IELTS 7.0. Добавь в заявку до 10 пунктов достижений (SAT/AP/IB, олимпиады, награды) . Осенний набор 2027 — подача в марте 2027. Сразу после зачисления подавай заявку в общежитие и продумай, как оплатить учёбу из России: прямые переводы из российских банков часто не проходят. Стипендии Anam Global и Global Leader назначаются по итогам конкурса, отдельно подавать не нужно.",
     "source": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do"
   }
 }
