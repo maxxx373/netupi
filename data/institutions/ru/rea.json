@@ -25,10 +25,31 @@
   "photos": [
     {
       "file": "photos/rea/1.jpg",
+      "author": "Brateevsky",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThird_housing_of_Plekhanov_University_of_Economics_in_Moscow%2C_front_view.JPG",
+      "caption": "Главный учебный корпус РЭУ им. Плеханова в Стремянном переулке"
+    },
+    {
+      "file": "photos/rea/2.jpg",
+      "author": "Gennady Grachev from Moscow, Russia",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMoscow%2C_Stremyanny_Lane%2C_Plekhanov_University_%2830874442564%29.jpg",
+      "caption": "Исторические корпуса университета в Стремянном переулке"
+    },
+    {
+      "file": "photos/rea/3.jpg",
       "author": "Alexey Vikhrov",
       "license": "CC BY-SA 3.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Moscow_Plekhanov_Russian_Economic_University_1_2011.JPG",
-      "caption": "Корпус РЭУ в Стремянном переулке"
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMoscow_Plekhanov_Russian_Economic_University_1_2011.JPG",
+      "caption": "Кампус в Стремянном переулке: старые здания Московского коммерческого института"
+    },
+    {
+      "file": "photos/rea/4.jpg",
+      "author": "Alexey Vikhrov",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMoscow_Plekhanov_Russian_Economic_University_2011.JPG",
+      "caption": "Современный учебный корпус РЭУ"
     }
   ],
   "fields": [
